@@ -1,6 +1,10 @@
 """
 Run once to bootstrap criterion_graph.duckdb from source CSVs.
 Re-run any time the source CSVs change.
+
+Source CSVs in data/ are pre-filtered to unambiguous feature-length movies only
+(imdb_title_type='movie', runtime>=60min, confidence>=85).
+Raw/full data lives in ReelWrangling/data/output/.
 """
 
 import duckdb
@@ -11,7 +15,11 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 
 con = duckdb.connect(str(DB_PATH))
 
-# --- raw tables ---
+con.execute("""
+    CREATE OR REPLACE TABLE criterion_basic_info AS
+    SELECT * FROM read_csv_auto(?)
+""", [str(DATA_DIR / "criterion_basic_info.csv")])
+
 con.execute("""
     CREATE OR REPLACE TABLE actor_filmographies AS
     SELECT * FROM read_csv_auto(?)
@@ -23,16 +31,10 @@ con.execute("""
 """, [str(DATA_DIR / "actor_names.csv")])
 
 con.execute("""
-    CREATE OR REPLACE TABLE criterion_basic_info AS
-    SELECT * FROM read_csv_auto(?)
-""", [str(DATA_DIR / "criterion_basic_info.csv")])
-
-con.execute("""
     CREATE OR REPLACE TABLE title_name_translations AS
     SELECT * FROM read_csv_auto(?)
 """, [str(DATA_DIR / "title_name_translations.csv")])
 
-# --- derived: movie-movie edge list ---
 con.execute("""
     CREATE OR REPLACE TABLE movie_edges AS
     SELECT
@@ -48,15 +50,10 @@ con.execute("""
     GROUP BY 1, 2
 """)
 
-counts = {
-    "actor_filmographies": con.execute("SELECT count(*) FROM actor_filmographies").fetchone()[0],
-    "actor_names":         con.execute("SELECT count(*) FROM actor_names").fetchone()[0],
-    "criterion_basic_info":con.execute("SELECT count(*) FROM criterion_basic_info").fetchone()[0],
-    "movie_edges":         con.execute("SELECT count(*) FROM movie_edges").fetchone()[0],
-}
+movies  = con.execute("SELECT count(*) FROM criterion_basic_info").fetchone()[0]
+actors  = con.execute("SELECT count(DISTINCT actor_nconst) FROM actor_filmographies").fetchone()[0]
+edges   = con.execute("SELECT count(*) FROM movie_edges").fetchone()[0]
 
-for table, n in counts.items():
-    print(f"  {table}: {n:,} rows")
-
+print(f"  {movies:,} movies | {actors:,} actors | {edges:,} edges")
 print(f"\nDatabase ready at {DB_PATH}")
 con.close()
