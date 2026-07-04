@@ -222,27 +222,74 @@ while heap:
             nd = np.linalg.norm(int_px_map.get(nb, np.array(axial_to_pixel(*nb))) - lc_target[c])
             heapq.heappush(heap, (nd, large_clusters.index(c), c, nb))
 
-# Second pass: any interior hex still unassigned gets claimed by nearest cluster
-# that still has capacity — ensures no stranded hexes
-remaining_interior = [h for h in interior_hexes if h not in hex_cluster]
+# Second pass: assign remaining interior hexes by adjacency (not MDS distance)
+# — this preserves connectivity by only attaching to already-assigned neighbours
+remaining_interior = sorted(
+    [h for h in interior_hexes if h not in hex_cluster],
+    key=lambda h: cube_dist(h[0], h[1])
+)
 for h in remaining_interior:
-    hp = int_px_map.get(h, np.array(axial_to_pixel(*h)))
-    c  = min((c for c in large_clusters if cluster_remaining.get(c, 0) > 0),
-             key=lambda c: np.linalg.norm(hp - lc_target[c]),
-             default=large_clusters[0])
+    adj_with_cap = [
+        hex_cluster[nb] for nb in hex_neighbors(h[0], h[1])
+        if nb in hex_cluster
+        and hex_cluster[nb] in large_clusters
+        and cluster_remaining.get(hex_cluster[nb], 0) > 0
+    ]
+    if adj_with_cap:
+        c = max(set(adj_with_cap), key=lambda c: cluster_remaining.get(c, 0))
+    else:
+        c = max((c for c in large_clusters if cluster_remaining.get(c, 0) > 0),
+                key=lambda c: cluster_remaining.get(c, 0),
+                default=large_clusters[0])
     hex_cluster[h] = c
     cluster_remaining[c] = max(0, cluster_remaining.get(c, 0) - 1)
 
-# Safety: fill any stragglers with the largest remaining cluster
-unassigned = [h for h in grid_hexes if h not in hex_cluster]
-if unassigned:
-    print(f"  Filling {len(unassigned)} unassigned hexes...")
-    for h in unassigned:
-        c = max(large_clusters, key=lambda c: cluster_remaining.get(c, 0))
-        hex_cluster[h] = c
-        cluster_remaining[c] = max(0, cluster_remaining.get(c, 0) - 1)
-
 print(f"  Assigned {len(hex_cluster)} / {N_TOTAL} hexes")
+
+# ── Post-processing: fix any disconnected cluster fragments ───────────────────
+from collections import deque
+
+def get_components(cid):
+    cluster_hexes = {h for h, c in hex_cluster.items() if c == cid}
+    visited, components = set(), []
+    for start in cluster_hexes:
+        if start in visited:
+            continue
+        comp, q = set(), deque([start])
+        while q:
+            h = q.popleft()
+            if h in visited or h not in cluster_hexes:
+                continue
+            visited.add(h); comp.add(h)
+            for nb in hex_neighbors(h[0], h[1]):
+                if nb in cluster_hexes and nb not in visited:
+                    q.append(nb)
+        components.append(comp)
+    return components
+
+for iteration in range(10):
+    any_fixed = False
+    for c in large_clusters:
+        comps = get_components(c)
+        if len(comps) <= 1:
+            continue
+        any_fixed = True
+        largest = max(comps, key=len)
+        for comp in comps:
+            if comp is largest:
+                continue
+            # Reassign each hex in this fragment to its most common adjacent cluster
+            for h in comp:
+                adj = [hex_cluster.get(nb) for nb in hex_neighbors(h[0], h[1])
+                       if nb in hex_set and hex_cluster.get(nb) != c]
+                adj = [a for a in adj if a is not None]
+                new_c = max(set(adj), key=adj.count) if adj else large_clusters[0]
+                hex_cluster[h] = new_c
+    if not any_fixed:
+        break
+
+n_frags = sum(len(get_components(c)) - 1 for c in large_clusters)
+print(f"  Remaining fragments after connectivity fix: {n_frags}")
 
 # ── 6. Color palette ──────────────────────────────────────────────────────────
 color_map = {
