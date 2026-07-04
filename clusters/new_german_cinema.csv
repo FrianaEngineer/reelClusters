@@ -1,0 +1,69 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Gods of the Plague,Rainer Werner Fassbinder,1969,Germany,tt0065808,1970,91,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Katzelmacher,Rainer Werner Fassbinder,1969,Germany,tt0064536,1969,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lions Love (. . . and Lies),Agnès Varda,1969,France,tt0064591,1969,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love Is Colder Than Death,Rainer Werner Fassbinder,1969,Germany,tt0064588,1969,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Beware of a Holy Whore,Rainer Werner Fassbinder,1970,Germany,tt0067962,1971,103,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Multiple Maniacs,John Waters,1970,United States,tt0067454,1970,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The American Soldier,Rainer Werner Fassbinder,1970,Germany,tt0065391,1970,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Merchant of Four Seasons,Rainer Werner Fassbinder,1971,Germany,tt0067227,1972,88,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Bitter Tears of Petra von Kant,Rainer Werner Fassbinder,1972,West Germany,tt0068278,1972,124,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+The Goalie’s Anxiety at the Penalty Kick,Wim Wenders,1972,West Germany,tt0066773,1972,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ali: Fear Eats the Soul,Rainer Werner Fassbinder,1974,Germany,tt0071141,1974,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Alice in the Cities,Wim Wenders,1974,Germany,tt0069687,1974,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Effi Briest,Rainer Werner Fassbinder,1974,West Germany,tt0071458,1974,135,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Little Loves,Jean Eustache,1974,France,tt0071833,1974,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fox and His Friends,Rainer Werner Fassbinder,1975,Germany,tt0072976,1975,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mother Küsters Goes to Heaven,Rainer Werner Fassbinder,1975,West Germany,tt0073424,1975,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lost Honor of Katharina Blum,Volker Schlöndorff and Margarethe von Trotta,1975,Germany,tt0073858,1975,106,fuzzy_canonical,95.9,1.0,0.8818,1.0,10
+Chinese Roulette,Rainer Werner Fassbinder,1976,West Germany,tt0074312,1976,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kings of the Road,Wim Wenders,1976,Germany,tt0073152,1976,175,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Satan's Brew,Rainer Werner Fassbinder,1976,West Germany,tt0075165,1976,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Between the Lines,Joan Micklin Silver,1977,United States,tt0075744,1977,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Close Encounters of the Third Kind,Steven Spielberg,1977,United States,tt0075860,1977,138,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lucio Flavio,Héctor Babenco,1977,Brazil,tt0077878,1977,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+In a Year of 13 Moons,Rainer Werner Fassbinder,1978,West Germany,tt0077729,1978,124,fuzzy_canonical,95.7,0.9146,1.0,1.0,10
+My Brilliant Career,Gillian Armstrong,1979,Australia,tt0079596,1979,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Tally Brown, New York",Rosa von Praunheim,1979,Germany,tt0163324,1979,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tess,Roman Polanski,1979,United Kingdom,tt0080009,1979,186,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Marriage of Maria Braun,Rainer Werner Fassbinder,1979,West Germany,tt0079095,1979,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Third Generation,Rainer Werner Fassbinder,1979,West Germany,tt0079083,1979,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Tin Drum,Volker Schlöndorff,1979,Germany,tt0078875,1979,142,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+From the Life of the Marionettes,Ingmar Bergman,1980,Sweden,tt0080397,1980,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lola,Rainer Werner Fassbinder,1981,West Germany,tt0082671,1981,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Dinner with André,Louis Malle,1981,United States,tt0082783,1981,110,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Possession,Andrzej Żuławski,1981,France,tt0082933,1981,124,fuzzy_canonical,99.1,1.0,0.975,1.0,10
+Cat People,Paul Schrader,1982,United States,tt0083722,1982,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Veronika Voss,Rainer Werner Fassbinder,1982,West Germany,tt0084654,1982,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tricheurs,Barbet Schroeder,1984,Germany,tt0086479,1984,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+After Hours,Martin Scorsese,1985,United States,tt0088680,1985,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Desert Hearts,Donna Deitch,1985,United States,tt0089015,1985,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kiss of the Spider Woman,Héctor Babenco,1985,United States,tt0089424,1985,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rosa Luxemburg,Margarethe von Trotta,1986,West Germany,tt0091869,1986,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wings of Desire,Wim Wenders,1987,Germany,tt0093191,1987,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Notebook on Cities and Clothes,Wim Wenders,1989,West Germany,tt0096852,1989,81,fuzzy_canonical,100.0,1.0,1.0,1.0,2
+Virgin Machine,Monika Treut,1989,Germany,tt0095417,1988,84,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+We're No Angels,Neil Jordan,1989,United States,tt0098625,1989,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Father Is Coming,Monika Treut,1991,Germany,tt0102491,1991,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Until the End of the World,Wim Wenders,1991,Germany,tt0101458,1991,287,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Tale of Winter,Eric Rohmer,1992,France,tt0104008,1992,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Benny’s Video,Michael Haneke,1992,Austria,tt0103793,1992,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Female Misbehavior,Monika Treut,1992,Germany,tt0104249,1992,80,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Thirty Two Short Films About Glenn Gould,François Girard,1993,Canada,tt0108328,1993,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Watermelon Woman,Cheryl Dunye,1996,United States,tt0118125,1996,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Funny Games,Michael Haneke,1997,Austria,tt0119167,1997,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lost Highway,David Lynch,1997,United States,tt0116922,1997,134,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Game,David Fincher,1997,United States,tt0119174,1997,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Celebration,Thomas Vinterberg,1998,Denmark,tt0154420,1998,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gendernauts: A Journey Through Shifting Identities,Monika Treut,1999,Germany,tt0192069,1999,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fassbinder’s Women,Rosa von Praunheim,2000,Germany,tt0265197,2000,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Werckmeister Harmonies,Béla Tarr and Ágnes Hranitzky,2000,Hungary,tt0249241,2000,145,fuzzy_canonical,95.2,1.0,0.8621,1.0,10
+The Hand,Wong Kar Wai,2004,Hong Kong,tt12958702,2003,64,fuzzy_canonical,85.0,0.85,1.0,0.5,1
+The Deal,Harvey Kahn,2005,Canada,tt0405861,2005,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The International,Tom Tykwer,2009,United States,tt0963178,2009,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+. . . But Film Is My Mistress,Stig Björkman,2010,Sweden,tt1649264,2010,66,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+A Master Builder,Jonathan Demme,2014,United States,tt2276069,2013,130,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Boyhood,Richard Linklater,2014,United States,tt1065073,2014,165,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Freakscene: The Story of Dinosaur Jr.,Philipp Virus,2021,Germany,tt14781332,2021,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Genderation,Monika Treut,2021,Germany,tt14064214,2021,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Room 999,Lubna Playoust,2023,France,tt27729122,2023,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10

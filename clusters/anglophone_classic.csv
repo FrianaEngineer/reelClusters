@@ -1,0 +1,251 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Lime Kiln Club Field Day archival assembly (Donald Sosin score),Edwin Middleton and T. Hayes Hunter,1913,United States,tt4288356,1913,65,fuzzy_canonical,90.0,0.8787,0.8882,1.0,10
+Lime Kiln Club Field Day archival assembly (Trevor Mathison score),Edwin Middleton and T. Hayes Hunter,1913,United States,tt4288356,1913,65,fuzzy_canonical,89.8,0.875,0.8882,1.0,10
+Shoes,Lois Weber,1916,United States,tt0007340,1916,60,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+The Kid,Charles Chaplin,1921,United States,tt0012349,1921,68,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dr. Jack,Fred C. Newmeyer,1922,United States,tt0013075,1922,60,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Grandma's Boy,Fred C. Newmeyer,1922,United States,tt0013201,1922,60,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Woman of Paris,Charles Chaplin,1923,United States,tt0014624,1923,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Safety Last!,Fred Newmeyer and Sam Taylor,1923,United States,tt0014429,1923,74,fuzzy_canonical,94.0,1.0,0.8295,1.0,10
+Why Worry?,Fred Newmeyer and Sam Taylor,1923,United States,tt0014611,1923,63,fuzzy_canonical,94.0,1.0,0.8295,1.0,10
+Girl Shy,Fred Newmeyer and Sam Taylor,1924,United States,tt0014945,1924,87,fuzzy_canonical,94.0,1.0,0.8295,1.0,10
+Body and Soul,Oscar Micheaux,1925,United States,tt0015634,1925,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Go West,Buster Keaton,1925,United States,tt0015863,1925,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stella Dallas,Henry King,1925,United States,tt0016395,1925,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+THE GOLD RUSH: 1925 Version,Charles Chaplin,1925,United States,tt0015864,1925,95,fuzzy_canonical,95.0,0.9,1.0,1.0,10
+The Freshman,Sam Taylor and Fred Newmeyer,1925,United States,tt0015841,1925,77,fuzzy_canonical,95.5,1.0,0.8714,1.0,10
+Battling Butler,Buster Keaton,1926,United States,tt0016630,1926,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ten Nights in a Bar Room,Roy Calnek,1926,United States,tt0139641,1926,63,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The General,Buster Keaton and Clyde Bruckman,1926,United States,tt0017925,1926,78,fuzzy_canonical,95.8,1.0,0.8813,1.0,10
+Downhill,Alfred Hitchcock,1927,United Kingdom,tt0017825,1927,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Kid Brother,Ted Wilde,1927,United States,tt0018051,1927,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The King of Kings,Cecil B. DeMille,1927,United States,tt0018054,1927,160,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lodger: A Story of the London Fog,Alfred Hitchcock,1927,United Kingdom,tt0017075,1927,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Unknown,Tod Browning,1927,United States,tt0018528,1927,68,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Speedy,Ted Wilde,1928,United States,tt0019412,1928,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Steamboat Bill, Jr.",Charles Reisner,1928,United States,tt0019421,1928,70,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+The Circus,Charles Chaplin,1928,United States,tt0018773,1928,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Piccadilly,E. A. Dupont,1929,United Kingdom,tt0020269,1929,92,fuzzy_canonical,92.2,1.0,0.7767,1.0,10
+The Scar of Shame,Frank Perugini,1929,United States,tt0018362,1929,68,fuzzy_canonical,99.0,1.0,0.9714,1.0,9
+Welcome Danger,Clyde Bruckman,1929,United States,tt0020572,1929,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Feet First,Clyde Bruckman,1930,United States,tt0020876,1930,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+City Lights,Charles Chaplin,1931,United States,tt0021749,1931,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Exile,Oscar Micheaux,1931,United States,tt0021844,1931,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Front Page,Lewis Milestone,1931,United States,tt0021890,1931,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Working Girls,Dorothy Arzner,1931,United States,tt0022578,1931,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Man Wanted,William Dieterle,1932,United States,tt0023180,1932,62,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Movie Crazy,Clyde Bruckman,1932,United States,tt0023241,1932,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Girl from Chicago,Oscar Micheaux,1932,United States,tt0022941,1932,70,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Most Dangerous Game,Ernest B. Schoedsack and Irving Pichel,1932,United States,tt0023238,1932,63,fuzzy_canonical,96.6,1.0,0.9027,1.0,10
+Wedding Rehearsal,Alexander Korda,1932,United Kingdom,tt0024757,1932,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Emperor Jones,Dudley Murphy,1933,United States,tt0023985,1933,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Private Life of Henry VIII,Alexander Korda,1933,United Kingdom,tt0024473,1933,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Cat’s Paw,Sam Taylor,1934,United States,tt0024961,1934,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Man Who Knew Too Much,Alfred Hitchcock,1934,United Kingdom,tt0025452,1934,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Private Life of Don Juan,Alexander Korda,1934,United Kingdom,tt0025681,1934,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Return of Bulldog Drummond,Walter Summers,1934,United States,tt0025710,1934,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Rise of Catherine the Great,Paul Czinner,1934,United Kingdom,tt0024962,1934,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Scarlet Pimpernel,Harold Young,1934,United Kingdom,tt0025748,1934,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sanders of the River,Zoltán Korda,1935,United Kingdom,tt0026966,1935,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The 39 Steps,Alfred Hitchcock,1935,United Kingdom,tt0026029,1935,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ghost Goes West,René Clair,1935,United Kingdom,tt0026406,1935,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Whole Town's Talking,John Ford,1935,United States,tt0027214,1935,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Forget Me Not,Zoltán Korda,1936,United Kingdom,tt0027635,1936,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Men Are Not Gods,Walter Reisch,1936,United Kingdom,tt0027954,1936,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Modern Times,Charles Chaplin,1936,United States,tt0027977,1936,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+More Than a Secretary,Alfred E. Green,1936,United States,tt0027985,1936,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rembrandt,Alexander Korda,1936,United Kingdom,tt0028167,1936,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sabotage,Alfred Hitchcock,1936,United States,tt0028212,1936,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Man Who Could Work Miracles,Lothar Mendes and Alexander Korda,1936,United Kingdom,tt0029201,1936,82,fuzzy_canonical,95.8,1.0,0.8788,1.0,10
+The Milky Way,Leo McCarey,1936,United States,tt0027969,1936,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Plough and the Stars,John Ford,1936,United States,tt0028112,1936,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Things to Come,William Cameron Menzies,1936,United Kingdom,tt0028358,1936,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bulldog Drummond Comes Back,Louis King,1937,United States,tt0028667,1937,64,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bulldog Drummond Escapes,James P. Hogan,1937,United States,tt0028668,1937,67,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Elephant Boy,Robert Flaherty and Zoltán Korda,1937,United Kingdom,tt0028827,1937,80,fuzzy_canonical,94.3,1.0,0.8382,1.0,10
+History Is Made at Night,Frank Borzage,1937,United States,tt0029002,1937,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+King Solomon’s Mines,Robert Stevenson,1937,United States,tt0029081,1937,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Knight Without Armour,Jacques Feyder,1937,United Kingdom,tt0029087,1937,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nothing Sacred,William A. Wellman,1937,United States,tt0029322,1937,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Return of the Scarlet Pimpernel,Hanns Schwarz,1937,United Kingdom,tt0030675,1937,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Squeaker,William K. Howard,1937,United Kingdom,tt0029603,1937,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Young and Innocent,Alfred Hitchcock,1937,United States,tt0029811,1937,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Birthright,Oscar Micheaux,1938,United States,tt0135163,1938,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bulldog Drummond’s Peril,James P. Hogan,1938,United States,tt0029952,1938,66,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pygmalion,Anthony Asquith and Leslie Howard,1938,United Kingdom,tt0030637,1938,89,fuzzy_canonical,96.2,1.0,0.8909,1.0,10
+The Challenge,"Milton Rosmer, Luis Trenker, and Vincent Korda",1938,United Kingdom,tt0029982,1938,76,fuzzy_canonical,95.1,1.0,0.8591,1.0,10
+The Divorce of Lady X,Tim Whelan,1938,United Kingdom,tt0030063,1938,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Drum,Zoltán Korda,1938,United Kingdom,tt0030082,1938,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lady Vanishes,Alfred Hitchcock,1938,United Kingdom,tt0030341,1938,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Trade Winds,Tay Garnett,1938,United States,tt0030888,1938,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love Affair,Leo McCarey,1939,United States,tt0031593,1939,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Of Mice and Men,Lewis Milestone,1939,United States,tt0031742,1939,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Over the Moon,Thornton Freeland and William K. Howard,1939,United Kingdom,tt0029365,1939,78,fuzzy_canonical,96.1,1.0,0.8895,1.0,10
+Q Planes,Tim Whelan and Arthur B. Woods,1939,United Kingdom,tt0031831,1939,82,fuzzy_canonical,95.4,1.0,0.869,1.0,10
+Stagecoach,John Ford,1939,United States,tt0031971,1939,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Four Feathers,Zoltán Korda,1939,United Kingdom,tt0031334,1939,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lion Has Wings,"Adrian Brunel, Brian Desmond Hurst, and Michael Powell",1939,United Kingdom,tt0031575,1939,76,fuzzy_canonical,94.8,1.0,0.85,1.0,9
+The Mikado,Victor Schertzinger,1939,United Kingdom,tt0031650,1939,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Spy in Black,Michael Powell,1939,United Kingdom,tt0031968,1939,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wuthering Heights,William Wyler,1939,United States,tt0032145,1939,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+21 Days,Basil Dean,1940,United Kingdom,tt0032179,1940,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Foreign Correspondent,Alfred Hitchcock,1940,United States,tt0032484,1940,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+His Girl Friday,Howard Hawks,1940,United States,tt0032599,1940,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Great Dictator,Charles Chaplin,1940,United States,tt0032553,1940,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Long Voyage Home,John Ford,1940,United States,tt0032728,1940,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Thief of Bagdad,"Ludwig Berger, Michael Powell, and Tim Whelan",1940,United Kingdom,tt0033152,1940,106,fuzzy_canonical,95.1,1.0,0.8605,1.0,10
+49th Parallel,Michael Powell,1941,United Kingdom,tt0033627,1941,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lydia,Julien Duvivier,1941,United Kingdom,tt0033858,1941,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Major Barbara,Gabriel Pascal,1941,United Kingdom,tt0033868,1941,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sullivan’s Travels,Preston Sturges,1941,United States,tt0034240,1941,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+That Hamilton Woman,Alexander Korda,1941,United Kingdom,tt0034272,1941,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Married a Witch,René Clair,1942,United States,tt0034881,1942,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+In Which We Serve,David Lean and Noël Coward,1942,United Kingdom,tt0034891,1942,115,fuzzy_canonical,95.7,1.0,0.8769,1.0,10
+Jungle Book,Zoltán Korda,1942,United Kingdom,tt0034928,1942,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The First of the Few,Leslie Howard,1942,United Kingdom,tt0034734,1942,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+To Be or Not to Be,Ernst Lubitsch,1942,United States,tt0035446,1942,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Woman of the Year,George Stevens,1942,United States,tt0035567,1942,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Life and Death of Colonel Blimp,Michael Powell and Emeric Pressburger,1943,United Kingdom,tt0036112,1943,163,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+The Man in Grey,Leslie Arliss,1943,United Kingdom,tt0036135,1943,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Canterbury Tale,Michael Powell and Emeric Pressburger,1944,United Kingdom,tt0036695,1944,124,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+Henry V,Laurence Olivier,1944,United Kingdom,tt0036910,1944,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+This Happy Breed,David Lean,1944,United Kingdom,tt0037367,1944,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Blithe Spirit,David Lean,1945,United Kingdom,tt0038363,1945,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Brief Encounter,David Lean,1945,United Kingdom,tt0037558,1945,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Caesar and Cleopatra,Gabriel Pascal,1945,United Kingdom,tt0038390,1945,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Know Where I’m Going!,Michael Powell and Emeric Pressburger,1945,United Kingdom,tt0037800,1945,92,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+Madonna of the Seven Moons,Arthur Crabtree,1945,United Kingdom,tt0037035,1945,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Seventh Veil,Compton Bennett,1945,United Kingdom,tt0038924,1945,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Wicked Lady,Leslie Arliss,1945,United Kingdom,tt0038250,1945,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Great Expectations,David Lean,1946,United Kingdom,tt0038574,1946,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Green for Danger,Sidney Gilliat,1946,United Kingdom,tt0038577,1946,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I See a Dark Stranger,Frank Launder,1946,United Kingdom,tt0038289,1946,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Postman Always Rings Twice,Tay Garnett,1946,United States,tt0038854,1946,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Ideal Husband,Alexander Korda,1947,United Kingdom,tt0039485,1947,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Black Narcissus,Michael Powell and Emeric Pressburger,1947,United Kingdom,tt0039192,1947,101,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+Brute Force,Jules Dassin,1947,United States,tt0039224,1947,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Monsieur Verdoux,Charles Chaplin,1947,United States,tt0039631,1947,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Odd Man Out,Carol Reed,1947,United Kingdom,tt0039677,1947,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Out of the Past,Jacques Tourneur,1947,United States,tt0039689,1947,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Anna Karenina,Julien Duvivier,1948,United Kingdom,tt0040098,1948,139,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Berlin Express,Jacques Tourneur,1948,United States,tt0040155,1948,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Blanche Fury,Marc Allégret,1948,United Kingdom,tt0039195,1948,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hamlet,Laurence Olivier,1948,United Kingdom,tt0040416,1948,154,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Oliver Twist,David Lean,1948,United Kingdom,tt0040662,1948,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Big Clock,John Farrow,1948,United States,tt0040160,1948,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Naked City,Jules Dassin,1948,United States,tt0040636,1948,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Red Shoes,Michael Powell and Emeric Pressburger,1948,United Kingdom,tt0040725,1948,135,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+I Shot Jesse James,Samuel Fuller,1949,United States,tt0041497,1949,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Obsession,Edward Dmytryk,1949,United Kingdom,tt0041460,1949,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Passionate Friends,David Lean,1949,United States,tt0041735,1949,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Rocking Horse Winner,Anthony Pelissier,1949,United Kingdom,tt0042898,1949,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Small Back Room,Michael Powell and Emeric Pressburger,1949,United Kingdom,tt0041886,1949,106,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+Last Holiday,Henry Cass,1950,United Kingdom,tt0042665,1950,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Madeleine,David Lean,1950,United States,tt0042700,1950,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+So Long at the Fair,Terence Fisher and Antony Darnborough,1950,United Kingdom,tt0042980,1950,86,fuzzy_canonical,95.6,1.0,0.8757,1.0,10
+The Baron of Arizona,Samuel Fuller,1950,United States,tt0042229,1950,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Woman in Question,Anthony Asquith,1950,United Kingdom,tt0043140,1950,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Green Grow the Rushes,Derek N. Twist,1951,United States,tt0043601,1951,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Browning Version,Anthony Asquith,1951,United Kingdom,tt0043362,1951,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The River,Jean Renoir,1951,France,tt0043972,1951,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Steel Helmet,Samuel Fuller,1951,United States,tt0044072,1951,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Androcles and the Lion,Chester Erskine,1952,United Kingdom,tt0044355,1952,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Limelight,Charles Chaplin,1952,United States,tt0044837,1952,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Othello,Orson Welles,1952,United States,tt0045251,1951,90,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Card,Ronald Neame,1952,United States,tt0045056,1952,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Importance of Being Earnest,Anthony Asquith,1952,United Kingdom,tt0044744,1952,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hobson’s Choice,David Lean,1954,United Kingdom,tt0047094,1954,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Kid for Two Farthings,Carol Reed,1955,United Kingdom,tt0048250,1955,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Confidential Report,Orson Welles,1955,Switzerland,tt0048393,1955,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+MR. ARKADIN: The Comprehensive Version,Orson Welles,1955,France,tt0048393,1955,93,fuzzy_canonical,92.8,0.8556,1.0,1.0,10
+MR. ARKADIN: The Corinth Version,Orson Welles,1955,France,tt0048393,1955,93,fuzzy_canonical,93.3,0.8667,1.0,1.0,10
+Queen Bee,Ranald MacDougall,1955,United States,tt0048527,1955,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Richard III,Laurence Olivier,1955,United Kingdom,tt0049674,1955,161,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Summertime,David Lean,1955,United States,tt0048673,1955,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Cases of Murder,"David Eady, George More O'Ferrall, and Wendy Toye",1955,United Kingdom,tt0047579,1954,99,fuzzy_canonical,87.0,1.0,0.8426,0.5,10
+We’re No Angels,Michael Curtiz,1955,United States,tt0048801,1955,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Searchers,John Ford,1956,United States,tt0049730,1956,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A King in New York,Charles Chaplin,1957,United Kingdom,tt0050598,1957,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Desk Set,Walter Lang,1957,United States,tt0050307,1957,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hell Drivers,Cy Endfield,1957,United Kingdom,tt0051713,1957,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nightfall,Jacques Tourneur,1957,United States,tt0049552,1956,78,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Time Without Pity,Joseph Losey,1957,United Kingdom,tt0049856,1957,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Night to Remember,Roy Ward Baker,1958,United Kingdom,tt0051994,1958,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fiend Without a Face,Arthur Crabtree,1958,United Kingdom,tt0050393,1958,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Look Back in Anger,Tony Richardson,1958,United Kingdom,tt0051879,1959,98,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Blob,Irvin S. Yeaworth Jr.,1958,United States,tt0051418,1958,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Haunted Strangler,Robert Day,1958,United States,tt0051706,1958,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Horse’s Mouth,Ronald Neame,1958,United Kingdom,tt0051739,1958,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Corridors of Blood,Robert Day,1959,United States,tt0051542,1958,86,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+First Man into Space,Robert Day,1959,United States,tt0052805,1959,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sapphire,Basil Dearden,1959,United Kingdom,tt0053242,1959,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Atomic Submarine,Spencer G. Bennet,1959,United States,tt0052587,1959,72,fuzzy_canonical,97.5,1.0,0.9274,1.0,10
+Tiger Bay,J. Lee Thompson,1959,United Kingdom,tt0053361,1959,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Home from the Hill,Vincente Minnelli,1960,United States,tt0053917,1960,150,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Saturday Night and Sunday Morning,Karel Reisz,1960,United Kingdom,tt0054269,1960,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Entertainer,Tony Richardson,1960,United Kingdom,tt0053796,1960,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The League of Gentlemen,Basil Dearden,1960,United Kingdom,tt0052997,1960,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tunes of Glory,Ronald Neame,1960,United Kingdom,tt0054412,1960,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Taste of Honey,Tony Richardson,1961,United Kingdom,tt0055506,1961,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Victim,Basil Dearden,1961,United Kingdom,tt0055597,1961,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All Night Long,Basil Dearden,1962,United Kingdom,tt0054614,1962,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dr. No,Terence Young,1962,United Kingdom,tt0055928,1962,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Death Drums Along the River,Lawrence Huntington,1963,United Kingdom,tt0057468,1963,83,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+From Russia with Love,Terence Young,1963,United Kingdom,tt0057076,1963,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shock Corridor,Samuel Fuller,1963,United States,tt0057495,1963,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+This Sporting Life,Lindsay Anderson,1963,United Kingdom,tt0057578,1963,134,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tom Jones,Tony Richardson,1963,United Kingdom,tt0057590,1963,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Hard Day’s Night,Richard Lester,1964,United Kingdom,tt0058182,1964,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Girl with Green Eyes,Desmond Davis,1964,United Kingdom,tt0058142,1964,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Goldfinger,Guy Hamilton,1964,United Kingdom,tt0058150,1964,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Séance on a Wet Afternoon,Bryan Forbes,1964,United Kingdom,tt0058557,1964,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Naked Kiss,Samuel Fuller,1964,United States,tt0058390,1964,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dont Look Back,D. A. Pennebaker,1967,United States,tt0061589,1967,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Festival,Murray Lerner,1967,United States,tt0061658,1967,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bleak Moments,Mike Leigh,1971,United Kingdom,tt0066842,1971,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Harold and Maude,Hal Ashby,1971,United States,tt0067185,1971,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Pied Piper,Jacques Demy,1972,United States,tt0069086,1972,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ruling Class,Peter Medak,1972,United Kingdom,tt0069198,1972,154,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mahler,Ken Russell,1974,United Kingdom,tt0071797,1974,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Night Porter,Liliana Cavani,1974,Italy,tt0071910,1974,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+F for Fake,Orson Welles,1975,United States,tt0072962,1973,89,fuzzy_canonical,88.8,1.0,1.0,0.25,10
+Picnic at Hanging Rock,Peter Weir,1975,Australia,tt0073540,1975,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jabberwocky,Terry Gilliam,1977,United Kingdom,tt0076221,1977,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Shout,Jerzy Skolimowski,1978,United Kingdom,tt0078259,1978,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Watership Down,Martin Rosen,1978,United Kingdom,tt0078480,1978,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Quadrophenia,Franc Roddam,1979,United Kingdom,tt0079766,1979,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Brood,David Cronenberg,1979,Canada,tt0078908,1979,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bad Timing,Nicolas Roeg,1980,United Kingdom,tt0080408,1980,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Elephant Man,David Lynch,1980,United Kingdom,tt0080678,1980,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Long Good Friday,John Mackenzie,1980,United Kingdom,tt0081070,1980,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Burning an Illusion,Menelik Shabazz,1981,United Kingdom,tt0082117,1981,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Scanners,David Cronenberg,1981,Canada,tt0081455,1981,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Time Bandits,Terry Gilliam,1981,United Kingdom,tt0081633,1981,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+And the Ship Sails On,Federico Fellini,1983,Italy,tt0087188,1983,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bullshot,Dick Clement,1983,United Kingdom,tt0085279,1983,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Privates on Parade,Michael Blakemore,1983,United Kingdom,tt0084538,1983,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Private Function,Malcolm Mowbray,1984,United Kingdom,tt0089838,1984,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Against All Odds,Taylor Hackford,1984,United States,tt0086859,1984,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+George Stevens: A Filmmaker’s Journey,George Stevens Jr.,1984,United States,tt0087322,1984,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hit,Stephen Frears,1984,United Kingdom,tt0087414,1984,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Under the Volcano,John Huston,1984,United States,tt0088322,1984,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Water,Dick Clement,1985,United Kingdom,tt0090297,1985,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Room with a View,James Ivory,1986,United Kingdom,tt0091867,1985,117,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Mona Lisa,Neil Jordan,1986,United Kingdom,tt0091538,1986,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lonely Passion of Judith Hearne,Jack Clayton,1987,United Kingdom,tt0093431,1987,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Withnail and I,Bruce Robinson,1987,United Kingdom,tt0094336,1987,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+D.O.A.,Annabel Jankel and Rocky Morton,1988,United States,tt0094933,1988,96,fuzzy_canonical,96.2,1.0,0.8903,1.0,10
+High Hopes,Mike Leigh,1988,United Kingdom,tt0095302,1988,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Raggedy Rawney,Bob Hoskins,1988,United Kingdom,tt0095951,1988,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+How to Get Ahead in Advertising,Bruce Robinson,1989,United Kingdom,tt0097531,1989,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Powwow Highway,Jonathan Wacks,1989,United States,tt0098112,1989,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Daddy Nostalgia,Bertrand Tavernier,1990,France,tt0099341,1990,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Life Is Sweet,Mike Leigh,1990,United Kingdom,tt0100024,1990,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dead Man,Jim Jarmusch,1995,United States,tt0112817,1995,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Secrets & Lies,Mike Leigh,1996,United Kingdom,tt0117589,1996,136,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Insomnia,Erik Skjoldbjærg,1997,Norway,tt0119375,1997,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Topsy-Turvy,Mike Leigh,1999,United Kingdom,tt0151568,1999,160,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Melancholia,Lars von Trier,2011,Denmark,tt1527186,2011,135,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Deep Blue Sea,Terence Davies,2011,United Kingdom,tt1700844,2011,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+45 Years,Andrew Haigh,2015,United Kingdom,tt3544082,2015,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Accidental Studio,"Bill Jones, Kim Leggatt, and Ben Timlett",2019,United Kingdom,tt4843040,2019,97,fuzzy_canonical,94.8,1.0,0.8526,1.0,5

@@ -1,0 +1,472 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+The Dumb Girl of Portici,Lois Weber and Phillips Smalley,1916,United States,tt0006614,1916,112,fuzzy_canonical,95.3,1.0,0.8645,1.0,10
+LA ROUE: Part 1,Abel Gance,1923,France,tt0014417,1923,417,fuzzy_canonical,95.0,0.9,1.0,1.0,8
+LA ROUE: Part 2,Abel Gance,1923,France,tt0014417,1923,417,fuzzy_canonical,95.0,0.9,1.0,1.0,8
+LA ROUE: Part 3,Abel Gance,1923,France,tt0014417,1923,417,fuzzy_canonical,95.0,0.9,1.0,1.0,8
+LA ROUE: Part 4,Abel Gance,1923,France,tt0014417,1923,417,fuzzy_canonical,95.0,0.9,1.0,1.0,8
+The Italian Straw Hat,René Clair,1928,France,tt0018523,1928,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Passion of Joan of Arc,Carl Th. Dreyer,1928,France,tt0019254,1928,114,fuzzy_canonical,97.2,1.0,0.9188,1.0,10
+Two Timid Souls,René Clair,1928,France,tt0018826,1928,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+David Golder,Julien Duvivier,1930,France,tt0020814,1931,86,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+People on Sunday,Robert Siodmak and Edgar G. Ulmer,1930,Germany,tt0020163,1930,73,fuzzy_canonical,96.1,1.0,0.8875,1.0,10
+Under the Roofs of Paris,René Clair,1930,France,tt0021409,1930,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La chienne,Jean Renoir,1931,France,tt0021739,1931,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le million,René Clair,1931,France,tt0022150,1931,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+M,Fritz Lang,1931,Germany,tt0022100,1931,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Marius,Alexander Korda,1931,France,tt0022125,1931,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+À nous la liberté,René Clair,1931,France,tt0022599,1931,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Boudu Saved from Drowning,Jean Renoir,1932,France,tt0022718,1932,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fanny,Marc Allégret,1932,France,tt0022877,1932,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Poil de carotte,Julien Duvivier,1932,France,tt0023345,1932,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vampyr,Carl Th. Dreyer,1932,Denmark,tt0023649,1932,75,fuzzy_canonical,97.2,1.0,0.9188,1.0,10
+Wooden Crosses,Raymond Bernard,1932,France,tt0022787,1932,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La tête d’un homme,Julien Duvivier,1933,France,tt0024710,1933,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Quatorze Juillet,René Clair,1933,France,tt0024480,1933,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Testament of Dr. Mabuse,Fritz Lang,1933,Germany,tt0023563,1933,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les Misérables - Part One: Tempest in a Skull,Raymond Bernard,1934,France,tt0025509,1934,281,fuzzy_canonical,93.3,0.8667,1.0,1.0,10
+"Les Misérables - Part Three: Freedom, Dear Freedom",Raymond Bernard,1934,France,tt0025509,1934,281,fuzzy_canonical,93.0,0.8609,1.0,1.0,10
+Les Misérables - Part Two: The Thénardiers,Raymond Bernard,1934,France,tt0025509,1934,281,fuzzy_canonical,93.6,0.8718,1.0,1.0,10
+L’Atalante,Jean Vigo,1934,France,tt0024844,1934,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Carnival in Flanders,Jacques Feyder,1935,France,tt0026564,1935,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Toni,Jean Renoir,1935,France,tt0025898,1935,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Anne-Marie,Raymond Bernard,1936,France,tt0027296,1936,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+César,Marcel Pagnol,1936,France,tt0027489,1936,168,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Crime of Monsieur Lange,Jean Renoir,1936,France,tt0027478,1936,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lower Depths,Jean Renoir,1936,France,tt0027336,1936,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Story of a Cheat,Sacha Guitry,1936,France,tt0028201,1936,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+They Were Five,Julien Duvivier,1936,France,tt0027342,1936,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Désiré,Sacha Guitry,1937,France,tt0150430,1937,92,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Pépé le moko,Julien Duvivier,1937,France,tt0029453,1937,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Pearls of the Crown,Sacha Guitry,1937,France,tt0029394,1937,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Un carnet de bal,Julien Duvivier,1937,France,tt0029706,1937,144,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hôtel du Nord,Marcel Carné,1938,France,tt0030252,1938,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La bête humaine,Jean Renoir,1938,France,tt0029957,1938,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Quadrille,Sacha Guitry,1938,France,tt0030642,1938,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Baker’s Wife,Marcel Pagnol,1938,France,tt0030127,1938,133,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le jour se lève,Marcel Carné,1939,France,tt0031514,1939,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The End of the Day,Julien Duvivier,1939,France,tt0031309,1939,99,fuzzy_canonical,97.0,0.9408,1.0,1.0,10
+The Rules of the Game,Jean Renoir,1939,France,tt0031885,1939,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All That Money Can Buy (a.k.a. The Devil and Daniel Webster),William Dieterle,1941,United States,tt0033532,1941,107,fuzzy_canonical,93.9,0.8772,1.0,1.0,10
+Remorques,Jean Grémillon,1941,France,tt0034093,1941,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cat People,Jacques Tourneur,1942,United States,tt0034587,1942,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le mariage de Chiffon,Claude Autant-Lara,1942,France,tt0035039,1942,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les visiteurs du soir,Marcel Carné,1942,France,tt0035521,1942,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lettres d’amour,Claude Autant-Lara,1942,France,tt0154767,1942,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’assassin habite au 21,Henri-Georges Clouzot,1942,France,tt0034478,1942,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Douce,Claude Autant-Lara,1943,France,tt0035823,1943,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La main du diable,Maurice Tourneur,1943,France,tt0035017,1943,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le Corbeau,Henri-Georges Clouzot,1943,France,tt0035753,1943,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lumière d’été,Jean Grémillon,1943,France,tt0035001,1943,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Eternal Return,Jean Delannoy,1943,France,tt0036566,1943,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le ciel est à vous,Jean Grémillon,1944,France,tt0035737,1944,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Children Are Watching Us,Vittorio De Sica,1944,Italy,tt0034493,1943,84,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Children of Paradise,Marcel Carné,1945,France,tt0037674,1945,189,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les dames du Bois de Boulogne,Robert Bresson,1945,France,tt0037630,1945,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rome Open City,Roberto Rossellini,1945,Italy,tt0038890,1945,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Beauty and the Beast,Jean Cocteau,1946,France,tt0038348,1946,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les portes de la nuit,Marcel Carné,1946,France,tt0038853,1946,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Paisan,Roberto Rossellini,1946,Italy,tt0038823,1946,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Panique,Julien Duvivier,1946,France,tt0038824,1946,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shoeshine,Vittorio De Sica,1946,Italy,tt0038913,1946,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sylvie et le fantôme,Claude Autant-Lara,1946,France,tt0038146,1946,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bicycle Thieves,Vittorio De Sica,1948,Italy,tt0040522,1948,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’amore,Roberto Rossellini,1948,Italy,tt0040092,1948,69,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Bitter Rice,Giuseppe De Santis,1949,Italy,tt0040737,1949,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Chains,Raffaello Matarazzo,1949,Italy,tt0041232,1949,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jour de fête,Jacques Tati,1949,France,tt0040497,1949,70,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le silence de la mer,Jean-Pierre Melville,1949,France,tt0039822,1949,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Such a Pretty Little Beach,Yves Allégret,1949,France,tt0040917,1949,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La ronde,Max Ophuls,1950,France,tt0042906,1950,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les enfants terribles,Jean-Pierre Melville,1950,France,tt0042436,1950,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Orpheus,Jean Cocteau,1950,France,tt0041719,1950,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Flowers of St. Francis,Roberto Rossellini,1950,Italy,tt0042477,1950,85,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Tormento,Raffaello Matarazzo,1950,Italy,tt0046447,1950,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Variety Lights,Federico Fellini and Alberto Lattuada,1950,Italy,tt0042692,1950,97,fuzzy_canonical,96.0,1.0,0.8865,1.0,10
+La poison,Sacha Guitry,1951,France,tt0043927,1951,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Miracle in Milan,Vittorio De Sica,1951,Italy,tt0043809,1951,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Casque d’or,Jacques Becker,1952,France,tt0043386,1952,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fanfan la Tulipe,Christian-Jaque,1952,France,tt0044602,1952,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+He Who Is Without Sin...,Raffaello Matarazzo,1952,Italy,tt0044495,1952,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le plaisir,Max Ophuls,1952,France,tt0045034,1952,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nobody’s Children,Raffaello Matarazzo,1952,Italy,tt0043532,1951,102,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Machine That Kills Bad People,Roberto Rossellini,1952,Italy,tt0040559,1952,83,fuzzy_canonical,97.4,0.9484,1.0,1.0,10
+Umberto D.,Vittorio De Sica,1952,Italy,tt0045274,1952,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Welcome Mr. Marshall!,Luis García Berlanga,1952,Spain,tt0045554,1953,78,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+I vitelloni,Federico Fellini,1953,Italy,tt0046521,1953,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Monsieur Hulot’s Holiday,Jacques Tati,1953,France,tt0046487,1953,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Earrings of Madame de . . .,Max Ophuls,1953,France,tt0046022,1953,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Golden Coach,Jean Renoir,1953,France,tt0044487,1952,103,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Wages of Fear,Henri-Georges Clouzot,1953,France,tt0046268,1953,156,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Boyfriend in Sight,Luis García Berlanga,1954,Spain,tt0047287,1954,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La strada,Federico Fellini,1954,Italy,tt0047528,1954,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Senso,Luchino Visconti,1954,Italy,tt0047469,1954,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Torna!,Raffaello Matarazzo,1954,Italy,tt0046449,1954,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Death of a Cyclist,Juan Antonio Bardem,1955,Spain,tt0048394,1955,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Diabolique,Henri-Georges Clouzot,1955,France,tt0046911,1955,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+French Cancan,Jean Renoir,1955,France,tt0046998,1955,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Il bidone,Federico Fellini,1955,Italy,tt0047876,1955,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La Pointe Courte,Agnès Varda,1955,France,tt0048499,1955,81,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Le amiche,Michelangelo Antonioni,1955,Italy,tt0047821,1955,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les Grandes Manœuvres,René Clair,1955,France,tt0048133,1955,106,fuzzy_canonical,97.6,0.9523,1.0,1.0,10
+Lola Montès,Max Ophuls,1955,Germany,tt0048308,1955,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The White Angel,Raffaello Matarazzo,1955,Italy,tt0047832,1955,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+And God Created Woman,Roger Vadim,1956,France,tt0049189,1956,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Plucking the Daisy,Marc Allégret,1956,France,tt0049182,1956,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Rocket from Calabuch,Luis García Berlanga,1956,Italy,tt0049042,1956,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Il grido,Michelangelo Antonioni,1957,Italy,tt0050458,1957,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Miracles of Thursday,Luis García Berlanga,1957,Spain,tt0050574,1957,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Melbourne Rendez-vous,René Lucot,1957,France,tt0165926,1957,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+White Nights,Luchino Visconti,1957,Italy,tt0050782,1957,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Big Deal on Madonna Street,Mario Monicelli,1958,Italy,tt0052216,1958,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Elevator to the Gallows,Louis Malle,1958,France,tt0051378,1958,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le beau Serge,Claude Chabrol,1958,France,tt0051404,1958,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mon oncle,Jacques Tati,1958,France,tt0050706,1958,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lovers,Louis Malle,1958,France,tt0052556,1958,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Night Heaven Fell,Roger Vadim,1958,France,tt0050193,1958,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Araya,Margot Benacerraf,1959,Venezuela,tt0051372,1959,90,fuzzy_canonical,100.0,1.0,1.0,1.0,2
+Kapò,Gillo Pontecorvo,1959,Italy,tt0052961,1960,116,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Les cousins,Claude Chabrol,1959,France,tt0052708,1959,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pickpocket,Robert Bresson,1959,France,tt0053168,1959,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Testament of Orpheus,Jean Cocteau,1959,France,tt0054377,1960,79,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The 400 Blows,François Truffaut,1959,France,tt0053198,1959,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Breathless,Jean-Luc Godard,1960,France,tt0053472,1960,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Eyes Without a Face,Georges Franju,1960,France,tt0053459,1960,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Il bell’Antonio,Mauro Bolognini,1960,Italy,tt0053643,1960,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le trou,Jacques Becker,1960,France,tt0054407,1960,131,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’avventura,Michelangelo Antonioni,1960,Italy,tt0053619,1960,144,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Purple Noon,René Clément,1960,France,tt0054189,1960,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rocco and His Brothers,Luchino Visconti,1960,France,tt0054248,1960,179,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shoot the Piano Player,François Truffaut,1960,France,tt0054389,1960,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stowaway in the Sky,Albert Lamorisse,1960,France,tt0056667,1960,85,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+The Apartment,Billy Wilder,1960,United States,tt0053604,1960,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zazie dans le métro,Louis Malle,1960,France,tt0054494,1960,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Woman Is a Woman,Jean-Luc Godard,1961,France,tt0055572,1961,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Accattone,Pier Paolo Pasolini,1961,Italy,tt0054599,1961,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Divorce Italian Style,Pietro Germi,1961,Italy,tt0055913,1961,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La notte,Michelangelo Antonioni,1961,Italy,tt0054130,1961,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lola,Jacques Demy,1961,France,tt0055093,1961,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Léon Morin, Priest",Jean-Pierre Melville,1961,France,tt0055082,1961,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Paris Belongs to Us,Jacques Rivette,1961,France,tt0054156,1961,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Plácido,Luis García Berlanga,1961,Spain,tt0055310,1961,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Viridiana,Luis Buñuel,1961,Spain,tt0055601,1961,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Monkey in Winter,Henri Verneuil,1962,France,tt0056636,1962,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adieu Philippine,Jacques Rozier and Jacques Rozier,1962,France,tt0143088,1962,106,fuzzy_canonical,96.0,1.0,0.8848,1.0,10
+Any Number Can Win,Henri Verneuil,1962,France,tt0057344,1963,118,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Cléo from 5 to 7,Agnès Varda,1962,France,tt0055852,1962,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Eva,Joseph Losey,1962,Italy,tt0059160,1962,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Il sorpasso,Dino Risi,1962,Italy,tt0056512,1962,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jules and Jim,François Truffaut,1962,France,tt0055032,1962,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La commare secca,Bernardo Bertolucci,1962,Italy,tt0055858,1962,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’eclisse,Michelangelo Antonioni,1962,Italy,tt0056736,1962,126,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mafioso,Alberto Lattuada,1962,Italy,tt0056210,1962,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mamma Roma,Pier Paolo Pasolini,1962,Italy,tt0056215,1962,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Salvatore Giuliano,Francesco Rosi,1962,Italy,tt0055399,1962,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Trial,Orson Welles,1962,France,tt0057427,1962,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Trial of Joan of Arc,Robert Bresson,1962,France,tt0059616,1962,64,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vivre sa vie,Jean-Luc Godard,1962,France,tt0056663,1962,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+8½,Federico Fellini,1963,Italy,tt0056801,1963,138,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bay of Angels,Jacques Demy,1963,France,tt0056846,1963,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hands over the City,Francesco Rosi,1963,Italy,tt0057286,1963,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Judex,Georges Franju,1963,France,tt0057207,1963,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le petit soldat,Jean-Luc Godard,1963,France,tt0054177,1963,88,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Les abysses,Nico Papatakis,1963,France,tt0188388,1963,90,fuzzy_canonical,98.1,1.0,0.9454,1.0,9
+Les carabiniers,Jean-Luc Godard,1963,,tt0056905,1963,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Magnet of Doom,Jean-Pierre Melville,1963,France,tt0056845,1963,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Muriel, or The Time of Return",Alain Resnais,1963,France,tt0057336,1963,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Executioner,Luis García Berlanga,1963,Spain,tt0057643,1963,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Fire Within,Louis Malle,1963,France,tt0057058,1963,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Organizer,Mario Monicelli,1963,Italy,tt0056945,1963,126,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Suitor,Pierre Étaix,1963,France,tt0056514,1962,83,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+"Yesterday, Today, and Tomorrow",Vittorio De Sica,1963,Italy,tt0057171,1963,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Am Cuba,Mikhail Kalatozov,1964,Cuba,tt0058604,1964,141,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La ronde,Roger Vadim,1964,Italy,tt0058533,1964,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Marriage Italian Style,Vittorio De Sica,1964,,tt0058335,1964,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Red Desert,Michelangelo Antonioni,1964,France,tt0058003,1964,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Seduced and Abandoned,Pietro Germi,1964,Italy,tt0058564,1964,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Gospel According to Matthew,Pier Paolo Pasolini,1964,Italy,tt0058715,1964,137,fuzzy_canonical,98.8,0.9759,1.0,1.0,10
+The Soft Skin,François Truffaut,1964,France,tt0058458,1964,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Umbrellas of Cherbourg,Jacques Demy,1964,France,tt0058450,1964,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Circus Angel,Albert Lamorisse,1965,France,tt0059177,1965,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fists in the Pocket,Marco Bellocchio,1965,Italy,tt0059619,1965,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Knew Her Well,Antonio Pietrangeli,1965,Italy,tt0060545,1965,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Juliet of the Spirits,Federico Fellini,1965,Italy,tt0059229,1965,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le bonheur,Agnès Varda,1965,France,tt0058985,1965,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pierrot le fou,Jean-Luc Godard,1965,France,tt0059592,1965,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hunt,Carlos Saura,1965,Spain,tt0060223,1966,91,fuzzy_canonical,92.5,1.0,1.0,0.5,8
+Yoyo,Pierre Etaix,1965,France,tt0059934,1965,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+As Long as You’ve Got Your Health,Pierre Etaix,1966,France,tt0207145,1966,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Au hasard Balthazar,Robert Bresson,1966,France,tt0060138,1966,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Charlie Is My Darling,Peter Whitehead,1966,United Kingdom,tt0060231,1966,60,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Chimes at Midnight,Orson Welles,1966,Spain,tt0059012,1965,115,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Le deuxième souffle,Jean-Pierre Melville,1966,France,tt0060305,1966,150,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les créatures,Agnès Varda,1966,France,tt0060263,1966,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Masculin féminin,Jean-Luc Godard,1966,France,tt0060675,1966,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hawks and the Sparrows,Pier Paolo Pasolini,1966,Italy,tt0061132,1966,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Who Are You, Polly Maggoo?",William Klein,1966,France,tt0060879,1966,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Young Törless,Volker Schlöndorff,1966,Germany,tt0060574,1966,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+2 or 3 Things I Know About Her,Jean-Luc Godard,1967,France,tt0060304,1967,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Belle de jour,Luis Buñuel,1967,France,tt0061395,1967,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La collectionneuse,Eric Rohmer,1967,France,tt0061495,1967,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le samouraï,Jean-Pierre Melville,1967,France,tt0062229,1967,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mouchette,Robert Bresson,1967,France,tt0061996,1967,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Oedipus Rex,Pier Paolo Pasolini,1967,Italy,tt0061613,1967,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Peppermint Frappé,Carlos Saura,1967,Spain,tt0062113,1967,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+PlayTime,Jacques Tati,1967,France,tt0062136,1967,155,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Shepherds of Calamity,Nico Papatakis,1967,Greece,tt0061084,1967,120,fuzzy_canonical,98.1,1.0,0.9454,1.0,10
+The Story of a Three Day Pass,Melvin Van Peebles,1967,France,tt0063646,1967,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Young Girls of Rochefort,Jacques Demy,1967,France,tt0062873,1967,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Weekend,Jean-Luc Godard,1967,France,tt0062480,1967,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lucía,Humberto Solás,1968,Cuba,tt0064609,1968,160,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Memories of Underdevelopment,Tomás Gutiérrez Alea,1968,Cuba,tt0063291,1968,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Spirits of the Dead,"Federico Fellini, Louis Malle, and Roger Vadim",1968,Italy,tt0063715,1968,121,fuzzy_canonical,95.5,1.0,0.8727,1.0,10
+Stolen Kisses,François Truffaut,1968,France,tt0062695,1968,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stress Is Three,Carlos Saura,1968,Spain,tt0063651,1968,94,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Sympathy for the Devil,Jean-Luc Godard,1968,United Kingdom,tt0063665,1968,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Teorema,Pier Paolo Pasolini,1968,Italy,tt0063678,1968,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dillinger Is Dead,Marco Ferreri,1969,Italy,tt0062893,1969,95,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Honeycomb,Carlos Saura,1969,Spain,tt0064620,1969,102,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+La piscine,Jacques Deray,1969,France,tt0064816,1969,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le grand amour,Pierre Etaix,1969,France,tt0064390,1969,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’amour fou,Jacques Rivette,1969,France,tt0062663,1969,252,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Medea,Pier Paolo Pasolini,1969,Italy,tt0066065,1969,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Freedom,William Klein,1969,France,tt0064674,1968,95,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+My Night at Maud’s,Eric Rohmer,1969,France,tt0064612,1969,105,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Porcile,Pier Paolo Pasolini,1969,Italy,tt0064828,1969,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Honeymoon Killers,Leonard Kastle,1969,United States,tt0064437,1970,107,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Z,Costa-Gavras,1969,Greece,tt0065234,1969,127,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bed and Board,François Truffaut,1970,France,tt0065651,1970,97,fuzzy_canonical,94.7,0.894,1.0,1.0,10
+Claire’s Knee,Eric Rohmer,1970,France,tt0065772,1970,105,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Donkey Skin,Jacques Demy,1970,France,tt0066207,1970,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gimme Shelter,"David Maysles, Albert Maysles, and Charlotte Zwerin",1970,United States,tt0065780,1970,91,fuzzy_canonical,94.9,1.0,0.8531,1.0,10
+Long Live the Bride and Groom,Luis García Berlanga,1970,Portugal,tt0066531,1970,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Soleil Ô,Med Hondo,1970,France,tt0062285,1970,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Garden of Delights,Carlos Saura,1970,Spain,tt0065913,1970,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Four Nights of a Dreamer,Robert Bresson,1971,France,tt0067641,1971,87,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Land of Milk and Honey,Pierre Étaix,1971,France,tt0258013,1971,80,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Murmur of the Heart,Louis Malle,1971,France,tt0067778,1971,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Near Orouet,Jacques Rozier,1971,France,tt0070007,1971,150,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Trafic,Jacques Tati,1971,France,tt0069400,1971,96,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Two English Girls,François Truffaut,1971,France,tt0066989,1971,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love in the Afternoon,Eric Rohmer,1972,France,tt0068205,1972,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+State of Siege,Costa-Gavras,1972,France,tt0070959,1972,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tout va bien,Jean-Luc Godard and Jean-Pierre Gorin,1972,France,tt0069398,1972,95,fuzzy_canonical,95.8,1.0,0.8811,1.0,10
+Wedding in White,William Fruet,1972,Canada,tt0069489,1972,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Slightly Pregnant Man,Jacques Demy,1973,France,tt0070960,1973,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Amarcord,Federico Fellini,1973,Italy,tt0071129,1973,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ana and the Wolves,Carlos Saura,1973,Spain,tt0068207,1973,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Don Juan (or if Don Juan Were a Woman),Roger Vadim,1973,Italy,tt0069990,1973,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fantastic Planet,René Laloux,1973,France,tt0070544,1973,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Mother and the Whore,Jean Eustache,1973,France,tt0070359,1973,210,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Spirit of the Beehive,Víctor Erice,1973,Spain,tt0070040,1973,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cousin Angelica,Carlos Saura,1974,Spain,tt0072030,1974,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Céline and Julie Go Boating,Jacques Rivette,1974,France,tt0071381,1974,193,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Lacombe, Lucien",Louis Malle,1974,France,tt0071733,1974,138,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lancelot du lac,Robert Bresson,1974,France,tt0071737,1974,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Clockmaker of St. Paul,Bertrand Tavernier,1974,France,tt0071622,1974,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Mouth Agape,Maurice Pialat,1974,France,tt0071587,1974,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Phantom of Liberty,Luis Buñuel,1974,France,tt0071487,1974,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+We All Loved Each Other So Much,Ettore Scola,1974,Italy,tt0075793,1974,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adoption,Márta Mészáros,1975,Hungary,tt0073948,1975,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Black Moon,Louis Malle,1975,France,tt0072709,1975,100,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+"Cousin, Cousine",Jean-Charles Tacchella,1975,France,tt0072826,1975,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Daguerréotypes,Agnès Varda,1975,France,tt0071384,1975,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hester Street,Joan Micklin Silver,1975,United States,tt0073107,1975,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+India Song,Marguerite Duras,1975,France,tt0073166,1975,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Je tu il elle,Chantal Akerman,1975,Belgium,tt0071690,1974,86,fuzzy_canonical,92.5,1.0,1.0,0.5,3
+"Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",Chantal Akerman,1975,France,tt0073198,1975,202,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Let Joy Reign Supreme,Bertrand Tavernier,1975,France,tt0072053,1975,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Real Young Girl,Catherine Breillat,1976,France,tt0135024,1976,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Coup de grâce,Volker Schlöndorff,1976,Germany,tt0074515,1976,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cría cuervos . . .,Carlos Saura,1976,Spain,tt0074360,1976,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gloria Mundi,Nico Papatakis,1976,France,tt0219058,1976,130,fuzzy_canonical,98.1,1.0,0.9454,1.0,10
+La marge,Walerian Borowczyk,1976,France,tt0074868,1976,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maîtresse,Barbet Schroeder,1976,France,tt0074883,1976,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Klein,Joseph Losey,1976,France,tt0074916,1976,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+News from Home,Chantal Akerman,1976,France,tt0076452,1976,89,fuzzy_canonical,100.0,1.0,1.0,1.0,1
+The Castaways of Turtle Island,Jacques Rozier,1976,France,tt0273874,1976,140,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Judge and the Assassin,Bertrand Tavernier,1976,France,tt0073219,1976,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Scar,Krzysztof Kieślowski,1976,Poland,tt0074220,1976,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Special Day,Ettore Scola,1977,Italy,tt0076085,1977,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Baxter, Vera Baxter",Marguerite Duras,1977,France,tt0074190,1977,95,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+"Elisa, vida mía",Carlos Saura,1977,Spain,tt0075983,1977,125,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Spoiled Children,Bertrand Tavernier,1977,France,tt0075933,1977,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"The Devil, Probably",Robert Bresson,1977,France,tt0075938,1977,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Man Who Loved Women,François Truffaut,1977,France,tt0076155,1977,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Model Couple,William Klein,1977,France,tt0191053,1977,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Wedding,Robert Altman,1978,United States,tt0078481,1978,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Graduate First,Maurice Pialat,1978,France,tt0079701,1978,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Les rendez-vous d’Anna,Chantal Akerman,1978,Belgium,tt0078152,1978,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Los ojos vendados,Carlos Saura,1978,France,tt0078021,1978,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+CHRIST STOPPED AT EBOLI: Episode 1,Francesco Rosi,1979,Italy,tt0079010,1979,150,fuzzy_canonical,97.0,0.9394,1.0,1.0,10
+CHRIST STOPPED AT EBOLI: Episode 2,Francesco Rosi,1979,Italy,tt0079010,1979,150,fuzzy_canonical,97.0,0.9394,1.0,1.0,10
+CHRIST STOPPED AT EBOLI: Episode 3,Francesco Rosi,1979,Italy,tt0079010,1979,150,fuzzy_canonical,97.0,0.9394,1.0,1.0,10
+CHRIST STOPPED AT EBOLI: Episode 4,Francesco Rosi,1979,Italy,tt0079010,1979,150,fuzzy_canonical,97.0,0.9394,1.0,1.0,10
+Camera Buff,Krzysztof Kieślowski,1979,Poland,tt0078763,1979,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love on the Run,François Truffaut,1979,France,tt0078771,1979,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nocturnal Uproar,Catherine Breillat,1979,France,tt0134993,1979,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+West Indies: The Fugitive Slaves of Liberty,Med Hondo,1979,France,tt0080125,1979,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Week’s Vacation,Bertrand Tavernier,1980,France,tt0081686,1980,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Every Man for Himself,Jean-Luc Godard,1980,France,tt0079854,1980,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Loulou,Maurice Pialat,1980,France,tt0081076,1980,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My American Uncle,Alain Resnais,1980,France,tt0081176,1980,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Last Metro,François Truffaut,1980,France,tt0080610,1980,132,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Coup de torchon,Bertrand Tavernier,1981,France,tt0082206,1981,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Deprisa, deprisa",Carlos Saura,1981,Spain,tt0082259,1981,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Documenteur,Agnès Varda,1981,France,tt0082275,1981,65,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le Pont du Nord,Jacques Rivette,1981,France,tt0082927,1981,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mur Murs,Agnès Varda,1981,France,tt0081204,1981,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Patrimonio nacional,Luis García Berlanga,1981,Spain,tt0082888,1981,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Woman Next Door,François Truffaut,1981,France,tt0082370,1981,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Good Marriage,Eric Rohmer,1982,France,tt0082053,1982,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Burden of Dreams,Les Blank,1982,United States,tt0083702,1982,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Identification of a Woman,Michelangelo Antonioni,1982,Italy,tt0084116,1982,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La Balance,Bob Swaim,1982,France,tt0083611,1982,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La nuit de Varennes,Ettore Scola,1982,Italy,tt0084423,1982,150,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La truite,Joseph Losey,1982,France,tt0084829,1982,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nacional III,Luis García Berlanga,1982,Spain,tt0084383,1982,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Querelle,Rainer Werner Fassbinder,1982,Germany,tt0084565,1982,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sweet Hours,Carlos Saura,1982,France,tt0083859,1982,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Toute une nuit,Chantal Akerman,1982,France,tt0084808,1982,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Une chambre en ville,Jacques Demy,1982,France,tt0084843,1982,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Confidentially Yours,François Truffaut,1983,France,tt0086551,1983,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Danton,Andrzej Wajda,1983,France,tt0083789,1983,136,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+El Sur,Víctor Erice,1983,Spain,tt0084740,1983,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L’argent,Robert Bresson,1983,France,tt0085180,1983,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pauline at the Beach,Eric Rohmer,1983,France,tt0086087,1983,95,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Sans Soleil,Chris Marker,1983,France,tt0084628,1983,100,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+À nos amours,Maurice Pialat,1983,France,tt0086650,1983,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Sunday in the Country,Bertrand Tavernier,1984,France,tt0088318,1984,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Full Moon in Paris,Eric Rohmer,1984,France,tt0087821,1984,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love on the Ground,Jacques Rivette,1984,France,tt0086889,1984,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Next of Kin,Atom Egoyan,1984,Canada,tt0087789,1984,70,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Paris, Texas",Wim Wenders,1984,Germany,tt0087884,1984,145,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Swann in Love,Volker Schlöndorff,1984,Germany,tt0088315,1984,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adieu Bonaparte,Youssef Chahine,1985,Egypt,tt0088383,1985,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+No End,Krzysztof Kieślowski,1985,Poland,tt0086961,1985,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rendez-vous,André Téchiné,1985,France,tt0089902,1985,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vagabond,Agnès Varda,1985,France,tt0089960,1985,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Betty Blue: Alternate Version,Jean-Jacques Beineix,1986,France,tt0090563,1986,119,fuzzy_canonical,93.6,0.8714,1.0,1.0,10
+Golden Eighties,Chantal Akerman,1986,France,tt0092219,1986,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jean de Florette,Claude Berri,1986,France,tt0091288,1986,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maine-Océan Express,Jacques Rozier,1986,France,tt0091461,1986,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Manon of the Spring,Claude Berri,1986,France,tt0091480,1986,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sarraounia,Med Hondo,1986,Burkina Faso,tt0091892,1986,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shadows in Paradise,Aki Kaurismäki,1986,Finland,tt0092149,1986,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Au revoir les enfants,Louis Malle,1987,France,tt0092593,1987,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Family Viewing,Atom Egoyan,1987,Canada,tt0093006,1987,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Intervista,Federico Fellini,1987,Italy,tt0093267,1987,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Masques,Claude Chabrol,1987,France,tt0093505,1987,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Under the Sun of Satan,Maurice Pialat,1987,France,tt0094011,1987,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Yam daabo,Idrissa Ouédraogo,1987,Burkina Faso,tt0092258,1987,80,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+36 fillette,Catherine Breillat and Catherine Breillat,1988,France,tt0094596,1988,88,fuzzy_canonical,96.1,1.0,0.8878,1.0,10
+A Short Film About Killing,Krzysztof Kieślowski,1988,Poland,tt0095468,1988,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Short Film About Love,Krzysztof Kieślowski,1988,Poland,tt0095467,1988,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ariel,Aki Kaurismäki,1988,Finland,tt0094675,1988,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Chocolat,Claire Denis,1988,France,tt0094868,1988,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jane B. par Agnès V.,Agnès Varda,1988,France,tt0093295,1988,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kung-Fu Master!,Agnès Varda,1988,France,tt0093371,1988,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Story of Women,Claude Chabrol,1988,France,tt0096336,1988,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gang of Four,Jacques Rivette,1989,France,tt0094709,1989,160,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Leningrad Cowboys Go America,Aki Kaurismäki,1989,Finland,tt0097728,1989,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Speaking Parts,Atom Egoyan,1989,Canada,tt0098368,1989,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Seventh Continent,Michael Haneke,1989,Austria,tt0098327,1989,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Tale of Springtime,Eric Rohmer,1990,France,tt0097106,1990,108,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Cyrano de Bergerac,Jean-Paul Rappeneau,1990,France,tt0099334,1990,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Europa Europa,Agnieszka Holland,1990,Poland,tt0099776,1990,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+May Fools,Louis Malle,1990,France,tt0097884,1990,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"No Fear, No Die",Claire Denis,1990,France,tt0100536,1990,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Match Factory Girl,Aki Kaurismäki,1990,Finland,tt0098532,1990,69,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tie Me Up! Tie Me Down!,Pedro Almodóvar,1990,Spain,tt0101026,1989,101,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+La belle noiseuse,Jacques Rivette,1991,France,tt0101428,1991,238,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Adjuster,Atom Egoyan,1991,Canada,tt0101273,1991,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Double Life of Véronique,Krzysztof Kieślowski,1991,France,tt0101765,1991,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Van Gogh,Maurice Pialat,1991,France,tt0103190,1991,158,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Walking a Tightrope,Nico Papatakis,1991,France,tt0101819,1991,119,fuzzy_canonical,98.1,1.0,0.9454,1.0,10
+"Jamón, Jamón",Bigas Luna,1992,Spain,tt0104545,1992,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+L.627,Bertrand Tavernier,1992,France,tt0104658,1992,145,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La vie de bohème,Aki Kaurismäki,1992,Finland,tt0105750,1992,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Undeclared War,Bertrand Tavernier,1992,France,tt0104374,1992,247,fuzzy_canonical,100.0,1.0,1.0,1.0,2
+Calendar,Atom Egoyan,1993,Canada,tt0106504,1993,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Golden Balls,Bigas Luna and Bigas Luna,1993,Spain,tt0107165,1993,95,fuzzy_canonical,95.8,1.0,0.88,1.0,10
+Naked,Mike Leigh,1993,United Kingdom,tt0107653,1993,131,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Young Girls Turn 25,Agnès Varda,1993,France,tt0106696,1993,64,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Three Colors: Blue,Krzysztof Kieślowski,1993,France,tt0108394,1993,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Totally F***ed Up,Gregg Araki,1993,United States,tt0108366,1993,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+71 Fragments of a Chronology of Chance,Michael Haneke,1994,Germany,tt0109020,1994,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Before the Rain,Milcho Manchevski,1994,Republic of Macedonia,tt0110882,1994,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cold Water,Olivier Assayas,1994,France,tt0109702,1994,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Exotica,Atom Egoyan,1994,Canada,tt0109759,1994,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Joan the Maid I: The Battles,Jacques Rivette,1994,France,tt0107259,1994,160,fuzzy_canonical,99.3,0.9852,1.0,1.0,10
+Joan the Maid II: The Prisons,Jacques Rivette,1994,France,tt0107260,1994,176,fuzzy_canonical,97.4,0.9475,1.0,1.0,10
+Leningrad Cowboys Meet Moses,Aki Kaurismäki,1994,Finland,tt0107384,1994,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Muriel’s Wedding,P.J. Hogan,1994,Australia,tt0110598,1994,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Emigrant,Youssef Chahine,1994,Egypt,tt0110545,1994,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Tit and the Moon,Bigas Luna,1994,Spain,tt0111403,1994,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Colors: Red,Krzysztof Kieślowski,1994,Switzerland,tt0111495,1994,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Colors: White,Krzysztof Kieślowski,1994,Poland,tt0111507,1994,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La cérémonie,Claude Chabrol,1995,France,tt0112769,1995,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La haine,Mathieu Kassovitz,1995,France,tt0113247,1995,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le garçu,Maurice Pialat,1995,France,tt0113145,1995,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+One Hundred and One Nights,Agnès Varda,1995,France,tt0112654,1995,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Doom Generation,Gregg Araki,1995,United States,tt0112887,1995,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The World of Jacques Demy,Agnès Varda,1995,Spain,tt0114794,1995,90,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+"Up, Down, Fragile",Jacques Rivette,1995,France,tt0113273,1995,169,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Captain Conan,Bertrand Tavernier,1996,France,tt0115822,1996,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Drifting Clouds,Aki Kaurismäki,1996,Finland,tt0116752,1996,95,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Irma Vep,Olivier Assayas,1996,France,tt0116650,1996,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La promesse,Luc Dardenne and Jean-Pierre Dardenne,1996,Belgium,tt0117398,1996,90,fuzzy_canonical,95.3,1.0,0.8649,1.0,10
+Microcosmos,Claude Nuridsany and Marie Pérennou,1996,France,tt0117040,1996,80,fuzzy_canonical,96.2,1.0,0.8914,1.0,2
+My Sex Life . . . or How I Got into an Argument,Arnaud Desplechin,1996,France,tt0115928,1996,178,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Daytrippers,Greg Mottola,1996,Canada,tt0116041,1996,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Assassin(s),Mathieu Kassovitz,1997,France,tt0118644,1997,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Career Girls,Mike Leigh,1997,United States,tt0118818,1997,83,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Clockwatchers,Jill Sprecher,1997,United Kingdom,tt0118866,1997,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Marcello Mastroianni: I Remember,Anna Maria Tatò,1997,Italy,tt0119614,1997,198,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Nowhere,Gregg Araki,1997,United States,tt0119809,1997,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Open Your Eyes,Alejandro Amenábar,1997,Spain,tt0125659,1997,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Sweet Hereafter,Atom Egoyan,1997,Canada,tt0120255,1997,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Late August, Early September",Olivier Assayas,1998,France,tt0167925,1998,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Fish in the Bathtub,Joan Micklin Silver,1999,United States,tt0126908,1998,96,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Beau travail,Claire Denis,1999,France,tt0209933,1999,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Felicia’s Journey,Atom Egoyan,1999,Canada,tt0165773,1999,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+It All Starts Today,Bertrand Tavernier,1999,France,tt0186730,1999,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Julien Donkey Boy,Harmony Korine,1999,United States,tt0192194,1999,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rosetta,Luc Dardenne and Jean-Pierre Dardenne,1999,Belgium,tt0200071,1999,95,fuzzy_canonical,95.3,1.0,0.8649,1.0,10
+Volavérunt,Bigas Luna,1999,France,tt0216386,1999,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Code Unknown,Michael Haneke,2000,France,tt0216625,2000,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+La captive,Chantal Akerman,2000,France,tt0216605,2000,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Gleaners and I,Agnès Varda,2000,France,tt0247380,2000,82,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Fat Girl,Catherine Breillat,2001,France,tt0243255,2001,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fifi Martingale,Jacques Rozier,2001,,tt0293153,2001,127,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Porto of My Childhood,Manoel de Oliveira,2001,France,tt0296809,2001,61,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Read My Lips,Jacques Audiard,2001,France,tt0274117,2001,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Piano Teacher,Michael Haneke,2001,France,tt0254686,2001,131,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Demonlover,Olivier Assayas,2002,France,tt0284034,2002,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Safe Conduct,Bertrand Tavernier,2002,France,tt0269461,2002,170,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sex Is Comedy,Catherine Breillat,2002,France,tt0304678,2002,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Gleaners and I: Two Years Later,Agnès Varda,2002,France,tt0345128,2002,63,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Ma mère,Christophe Honoré,2004,France,tt0381392,2004,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Beat That My Heart Skipped,Jacques Audiard,2005,France,tt0411270,2005,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Where the Truth Lies,Atom Egoyan,2005,Canada,tt0373450,2005,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All in This Tea,Les Blank and Gina Leibrecht,2007,United States,tt1015968,2006,70,fuzzy_canonical,87.8,1.0,0.8643,0.5,7
+The Darjeeling Limited,Wes Anderson,2007,United States,tt0838221,2007,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Water Lilies,Céline Sciamma,2007,France,tt0869977,2007,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Christmas Tale,Arnaud Desplechin,2008,France,tt0993789,2008,150,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Revanche,Götz Spielmann,2008,Austria,tt1173745,2008,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Beaches of Agnès,Agnès Varda,2008,France,tt1129435,2008,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Certified Copy,Abbas Kiarostami,2010,Iran,tt1020773,2010,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Le Havre,Aki Kaurismäki,2011,France,tt1508675,2011,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tomboy,Céline Sciamma,2011,France,tt1847731,2011,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Clouds of Sils Maria,Olivier Assayas,2014,France,tt2452254,2014,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Personal Shopper,Olivier Assayas,2016,France,tt4714782,2016,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Let the Sunshine In,Claire Denis,2017,France,tt6423776,2017,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Other Side of Hope,Aki Kaurismäki,2017,Finland,tt5222918,2017,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Winter Brothers,Hlynur Pálmason,2017,Iceland,tt5323760,2017,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jane by Charlotte,Charlotte Gainsbourg,2021,France,tt14851374,2021,88,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Godland,Hlynur Pálmason,2022,Iceland,tt19623228,2022,143,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Innocent,Louis Garrel,2022,France,tt19841734,2022,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Last Summer,Catherine Breillat,2023,France,tt14550346,2023,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Meeting with Pol Pot,Rithy Panh,2024,Cambodia,tt32086004,2024,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Shrouds,David Cronenberg,2024,Canada,tt20212786,2024,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Joan of Arc,Hlynur Pálmason,2025,Iceland,tt38060097,2025,62,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+The Love That Remains,Hlynur Pálmason,2025,Iceland,tt33381401,2025,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10

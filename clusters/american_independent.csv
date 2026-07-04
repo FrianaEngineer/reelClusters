@@ -1,0 +1,120 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Robinson Crusoe,Luis Buñuel,1954,United States,tt0044386,1954,90,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Shadows,John Cassavetes,1959,United States,tt0053270,1958,87,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+"People, Hopes, Medals",Heribert Meisel,1960,West Germany,tt1985144,1960,93,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+The Connection,Shirley Clarke,1961,United States,tt0054763,1961,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nothing but a Man,Michael Roemer,1964,United States,tt0058414,1964,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Chafed Elbows,Robert Downey Sr.,1966,United States,tt0138355,1966,63,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ride in the Whirlwind,Monte Hellman,1966,United States,tt0059653,1966,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Shooting,Monte Hellman,1966,United States,tt0062262,1966,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Portrait of Jason,Shirley Clarke,1967,United States,tt0062144,1967,105,fuzzy_canonical,100.0,1.0,1.0,1.0,3
+Beyond the Law,Norman Mailer,1968,United States,tt0169606,1968,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Faces,John Cassavetes,1968,United States,tt0062952,1968,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+No More Excuses,Robert Downey Sr.,1968,United States,tt0251300,1968,62,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Symbiopsychotaxiplasm: Two Takes by William Greaves,William Greaves,1968,United States,tt0296881,1968,75,fuzzy_canonical,94.8,0.8955,1.0,1.0,10
+Wild 90,Norman Mailer,1968,United States,tt0062492,1968,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maidstone,Norman Mailer,1970,United States,tt0064625,1970,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Numéro zéro,Jean Eustache,1971,France,tt0261118,1971,107,fuzzy_canonical,100.0,1.0,1.0,1.0,3
+Walkabout,Nicolas Roeg,1971,United Kingdom,tt0067959,1971,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sisters,Brian  De Palma,1973,United States,tt0070698,1972,93,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+A Woman Under the Influence,John Cassavetes,1974,United States,tt0072417,1974,155,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Cars That Ate Paris,Peter Weir,1974,Australia,tt0071282,1974,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+King of the Night,Héctor Babenco,1975,Brazil,tt0073246,1975,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Two Tons of Turquoise to Taos Tonight,Robert Downey Sr.,1975,United States,tt0427550,1975,85,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Mikey and Nicky,Elaine May,1976,United States,tt0074901,1976,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Killing of a Chinese Bookie,John Cassavetes,1976,United States,tt0074749,1976,135,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Man Who Fell to Earth,Nicolas Roeg,1976,United States,tt0074851,1976,139,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Killer of Sheep,Charles Burnett,1977,United States,tt0076263,1978,80,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Opening Night,John Cassavetes,1977,United States,tt0079672,1977,144,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The American Friend,Wim Wenders,1977,Germany,tt0075675,1977,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Last Wave,Peter Weir,1977,Australia,tt0076299,1977,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+¡Alambrista!,Robert M. Young,1977,United States,tt0075654,1977,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+THE KILLING OF A CHINESE BOOKIE: 1978 Version,John Cassavetes,1978,United States,tt0074749,1976,135,fuzzy_canonical,85.8,0.9409,1.0,0.25,10
+Town Bloody Hall,Chris Hegedus and D. A. Pennebaker,1979,United States,tt0217853,1979,88,fuzzy_canonical,95.8,1.0,0.8813,1.0,10
+Wise Blood,John Huston,1979,United States,tt0080140,1979,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Breaker Morant,Bruce Beresford,1980,Australia,tt0080310,1980,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hopscotch,Ronald Neame,1980,United States,tt0080889,1980,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maniac,William Lustig,1980,United States,tt0081114,1980,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Permanent Vacation,Jim Jarmusch,1980,United States,tt0084488,1980,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pixote,Héctor Babenco,1980,Brazil,tt0082912,1980,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rude Boy,Jack Hazan and David Mingay,1980,United Kingdom,tt0081441,1980,133,fuzzy_canonical,95.6,1.0,0.8741,1.0,10
+Christiane F.,Uli Edel,1981,,tt0082176,1981,138,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Out of the Blue,Dennis Hopper,1981,United States,tt0081291,1980,94,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The Postman Always Rings Twice,Bob Rafelson,1981,United States,tt0082934,1981,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vigilante,William Lustig,1982,United States,tt0084867,1982,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Breathless,Jim McBride,1983,United States,tt0085276,1983,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Merry Christmas Mr. Lawrence,Nagisa Oshima,1983,United Kingdom,tt0085933,1983,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Brother’s Wedding,Charles Burnett,1983,United States,tt0087763,1983,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Variety,Bette Gordon,1983,United States,tt0090251,1983,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bless Their Little Hearts,Billy Woodberry,1984,United States,tt0086977,1983,80,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Blood Simple,Joel Coen,1984,United States,tt0086979,1984,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Repo Man,Alex Cox,1984,United States,tt0087995,1984,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stranger Than Paradise,Jim Jarmusch,1984,United States,tt0088184,1984,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Insignificance,Nicolas Roeg,1985,United Kingdom,tt0089343,1985,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Life as a Dog,Lasse Hallström,1985,Sweden,tt0089606,1985,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Smooth Talk,Joyce Chopra,1985,United States,tt0090037,1985,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Typhoon Club,Shinji Sōmai,1985,Japan,tt0088222,1985,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Down by Law,Jim Jarmusch,1986,United States,tt0090967,1986,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sleepwalk,Sara Driver,1986,United States,tt0091971,1986,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Working Girls,Lizzie Borden,1986,United States,tt0092238,1986,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Five Corners,Tony Bill,1987,United States,tt0093029,1987,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+No Way Out,Roger Donaldson,1987,United States,tt0093640,1987,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+RoboCop,Paul Verhoeven,1987,United States,tt0093870,1987,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Straight to Hell,Alex Cox,1987,United Kingdom,tt0094048,1987,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Last Emperor,Bernardo Bertolucci,1987,China,tt0093389,1987,163,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Walker,Alex Cox,1987,United States,tt0096409,1987,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maniac Cop,William Lustig,1988,United States,tt0095583,1988,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Track 29,Nicolas Roeg,1988,United Kingdom,tt0096294,1988,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Checking Out,David Leland,1989,United States,tt0097052,1988,96,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+"Histoires d’Amérique: Food, Family and Philosophy",Chantal Akerman,1989,Belgium,tt0095310,1989,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mystery Train,Jim Jarmusch,1989,United States,tt0097940,1989,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cold Dog Soup,Alan Metter,1990,United Kingdom,tt0099286,1990,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maniac Cop 2,William Lustig,1990,United States,tt0100107,1990,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Metropolitan,Whit Stillman,1990,United States,tt0100142,1990,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mister Johnson,Bruce Beresford,1990,United States,tt0102458,1990,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Comfort of Strangers,Paul Schrader,1990,Italy,tt0099292,1990,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wild at Heart,David Lynch,1990,United States,tt0100935,1990,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Daughters of the Dust,Julie Dash,1991,United States,tt0104057,1991,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Night on Earth,Jim Jarmusch,1991,United States,tt0102536,1991,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Point Break,Kathryn Bigelow,1991,United States,tt0102685,1991,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Maniac Cop 3: Badge of Silence,William Lustig and Alan Smithee,1992,United States,tt0104808,1992,85,fuzzy_canonical,96.2,1.0,0.8903,1.0,10
+The Player,Robert Altman,1992,United States,tt0105151,1992,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Twin Peaks: Fire Walk with Me,David Lynch,1992,United States,tt0105665,1992,134,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Household Saints,Nancy Savoca,1993,United States,tt0107152,1993,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Firm,Sydney Pollack,1993,United States,tt0106918,1993,154,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The War Room,Chris Hegedus and D. A. Pennebaker,1993,United States,tt0108515,1993,96,fuzzy_canonical,95.8,1.0,0.8813,1.0,10
+When Pigs Fly,Sara Driver,1993,Germany,tt0108554,1993,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Basquiat,Julian Schnabel,1996,United States,tt0115632,1996,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The People vs. Larry Flynt,Miloš Forman,1996,United States,tt0117318,1996,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+When We Were Kings,Leon Gast,1996,United States,tt0118147,1996,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Eye of God,Tim Blake Nelson,1997,United States,tt0116261,1997,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Female Perversions,Susan Streitfeld,1997,United States,tt0116293,1996,120,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Foolish Heart,Héctor Babenco,1998,Brazil,tt0120674,1998,130,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+New Rose Hotel,Abel Ferrara,1998,United States,tt0133122,1998,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Annihilation of Fish,Charles Burnett,1999,United States,tt0212772,1999,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Beat,Gary Walkow,2000,United States,tt0211941,2000,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"O Brother, Where Art Thou?",Joel Coen,2000,United Kingdom,tt0190590,2000,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Paragraph 175,Rob Epstein and Jeffrey Friedman,2000,United Kingdom,tt0236576,2000,81,fuzzy_canonical,95.4,1.0,0.8688,1.0,9
+Antitrust,Peter Howitt,2001,United States,tt0218817,2001,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Trapped,Luis Mandoki,2002,United States,tt0280380,2002,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Coffee and Cigarettes,Jim Jarmusch,2003,United States,tt0379217,2003,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Symbiopsychotaxiplasm: Take 2 1/2,William Greaves,2005,United States,tt0436811,2005,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gunbuster: The Movie,Hideaki Anno and Shoichi Masuo,2006,Japan,tt31055572,2006,95,fuzzy_canonical,95.8,1.0,0.88,1.0,10
+Inland Empire,David Lynch,2006,United States,tt0460829,2006,180,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Marie Antoinette,Sofia Coppola,2006,United States,tt0422720,2006,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Palermo Shooting,Wim Wenders,2008,Germany,tt1008017,2008,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rachel Getting Married,Jonathan Demme,2008,United States,tt1084950,2008,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Two Lovers,James Gray,2008,United States,tt1103275,2008,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bad Lieutenant: Port of Call New Orleans,Werner Herzog,2009,United States,tt1095217,2009,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Life During Wartime,Todd Solondz,2010,United States,tt0808526,2009,98,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Arbitrage,Nicholas Jarecki,2012,United States,tt1764183,2012,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Fuller Life,Samantha Fuller,2013,United States,tt2972098,2013,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Queen of the Desert,Werner Herzog,2015,United States,tt1837636,2015,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Certain Women,Kelly Reichardt,2016,United States,tt4468634,2016,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Eyes of Orson Welles,Mark Cousins,2018,United Kingdom,tt8371772,2018,115,fuzzy_canonical,100.0,1.0,1.0,1.0,3
+Babenco: Tell Me When I Die,Bárbara Paz,2019,Brazil,tt6850578,2019,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Searching for Mr. Rugoff,Ira Deutchman,2019,United States,tt11233002,2019,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Farewell Amor,Ekwa Msangi,2020,United States,tt11380884,2020,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bergman Island,Mia Hansen-Løve,2021,France,tt6910282,2021,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Storms of Jeremy Thomas,Mark Cousins,2021,United Kingdom,tt10370886,2021,94,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Ryuichi Sakamoto | Opus,Neo Sora,2023,Japan,tt28490873,2023,103,fuzzy_canonical,100.0,1.0,1.0,1.0,1

@@ -1,0 +1,155 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,reason
+Regeneration,Richard E. Norman,1923,United States,tt0130218,1923,60,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Olympic Games in Paris 1924,Jean de Rovera,1924,France,tt0255274,1925,174,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Battleship Potemkin,Sergei Eisenstein,1925,Russia,tt0015648,1925,66,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Strike,Sergei Eisenstein,1925,Soviet Union,tt0015361,1925,82,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Flying Ace,Richard E. Norman,1926,United States,tt0129928,1926,65,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Dos monjes,Juan Bustillo Oro,1934,Mexico,tt0025062,1934,79,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Phantom of the Monastery,Fernando de Fuentes,1934,Mexico,tt0025100,1934,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Alexander Nevsky,Sergei Eisenstein,1938,Soviet Union,tt0029850,1938,112,fuzzy_canonical,100.0,in_graph_no_shared_actor
+"Ivan the Terrible, Part I",Sergei Eisenstein,1944,Soviet Union,tt0037824,1944,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Detour,Edgar G. Ulmer,1945,United States,tt0037638,1945,66,fuzzy_canonical,100.0,in_graph_no_shared_actor
+XIVth Olympiad: The Glory of Sport,Castleton Knight,1948,United Kingdom,tt0221719,1948,138,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Where the World Meets,Hannu Leminen,1952,Finland,tt0121444,1952,101,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Gold and Glory,Hannu Leminen,1953,Finland,tt0089282,1953,97,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Él,Luis Buñuel,1953,Mexico,tt0045361,1953,82,fuzzy_canonical,100.0,in_graph_no_shared_actor
+A Generation,Andrzej Wajda,1955,Poland,tt0048500,1955,87,fuzzy_canonical,100.0,in_graph_no_shared_actor
+"Olympic Games, 1956",Peter Whitchurch,1956,Australia,tt0255438,1956,60,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Kanal,Andrzej Wajda,1957,Poland,tt0050585,1957,91,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Ashes and Diamonds,Andrzej Wajda,1958,Poland,tt0052080,1958,103,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Black Orpheus,Marcel Camus,1959,France,tt0053146,1959,100,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Knife in the Water,Roman Polanski,1962,Poland,tt0056291,1962,94,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Exterminating Angel,Luis Buñuel,1962,Mexico,tt0056732,1962,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Dry Summer,Metin Erksan,1964,Turkey,tt0062322,1963,90,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Man Is Not a Bird,Dušan Makavejev,1965,Yugoslavia,tt0059063,1965,81,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Black Girl,Ousmane Sembène,1966,Senegal,tt0060758,1966,65,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Law of the Border,Lütfi Ö. Akad,1966,Turkey,tt0261739,1967,71,fuzzy_canonical,92.5,in_graph_no_shared_actor
+"Love Affair, or the Case of the Missing Switchboard Operator",Dušan Makavejev,1967,Yugoslavia,tt0061912,1967,70,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Mandabi,Ousmane Sembène,1968,Senegal,tt0063268,1968,92,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Monterey Pop,D. A. Pennebaker,1968,United States,tt0064689,1968,78,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Night of the Living Dead,George A. Romero,1968,United States,tt0063350,1968,96,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Calcutta,Louis Malle,1969,France,tt0062773,1969,105,fuzzy_canonical,100.0,in_graph_no_shared_actor
+In the Year of the Pig,Emile de Antonio,1969,United States,tt0064482,1968,103,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Stereo,David Cronenberg,1969,Canada,tt0065036,1969,65,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Black Roots,Lionel Rogosin,1970,United States,tt1196121,1970,63,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Crimes of the Future,David Cronenberg,1970,Canada,tt0065591,1970,63,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Bushman,David Schickele,1971,United States,tt0212016,1971,73,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Emitaï,Ousmane Sembène,1971,Senegal,tt0067048,1971,103,fuzzy_canonical,100.0,in_graph_no_shared_actor
+WR: Mysteries of the Organism,Dušan Makavejev,1971,Yugoslavia,tt0067958,1971,84,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Black Fantasy,Lionel Rogosin,1972,United States,tt0177539,1972,78,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Downpour,Bahram Beyzaie,1972,Iran,tt0067649,1972,128,fuzzy_canonical,100.0,in_graph_no_shared_actor
+A Bigger Splash,Jack Hazan,1973,United Kingdom,tt0071219,1973,106,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Painters Painting,Emile de Antonio,1973,United States,tt0207645,1972,116,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Touki bouki,Djibril Diop Mambéty,1973,Senegal,tt0070820,1973,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Visions of Eight,"Juri Ozerov, Mai Zetterling, Arthur Penn, Michael Pfleghar, Kon Ichikawa, Miloš Forman, Claude Lelouch, and John Schlesinger",1973,United States,tt0070884,1973,110,fuzzy_canonical,87.4,in_graph_no_shared_actor
+A Poem Is a Naked Person,Les Blank,1974,United States,tt0424359,1974,90,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Place de la République,Louis Malle,1974,France,tt0071999,1974,94,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Dersu Uzala,Akira Kurosawa,1975,Japan,tt0071411,1975,142,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Grey Gardens,"David Maysles, Albert Maysles, Ellen Hovde, and Muffie Meyer",1975,United States,tt0073076,1975,95,fuzzy_canonical,94.6,in_graph_no_shared_actor
+Manila in the Claws of Light,Lino Brocka,1975,Philippines,tt0073363,1975,125,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Pressure,Horace Ové,1975,United Kingdom,tt0075098,1976,126,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Xala,Ousmane Sembène,1975,Senegal,tt0073915,1975,123,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Canoa: A Shameful Memory,Felipe Cazals,1976,Mexico,tt0131335,1976,115,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Chess of the Wind,Mohammad Reza Aslani,1976,Iran,tt0318069,1976,99,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Insiang,Lino Brocka,1976,Philippines,tt0077740,1976,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Regrouping,Lizzie Borden,1976,United States,tt0207050,1976,80,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Underground,"Haskell Wexler, Emile de Antonio, and Mary Lampson",1976,United States,tt0075367,1976,87,fuzzy_canonical,95.0,in_graph_no_shared_actor
+Ceddo,Ousmane Sembène,1977,Senegal,tt0077309,1977,120,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Eraserhead,David Lynch,1977,United States,tt0074486,1977,89,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Games of the XXI Olympiad,"Jean Beaudin, Marcel Carrière, and Georges Dufaux",1977,Canada,tt0202928,1977,118,fuzzy_canonical,94.8,in_graph_no_shared_actor
+Bona,Lino Brocka,1980,Philippines,tt0082093,1980,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Lightning Over Water,Wim Wenders and Nicholas Ray,1980,West Germany,tt0081055,1980,91,fuzzy_canonical,95.8,in_graph_no_shared_actor
+Losing Ground,Kathleen Collins,1982,United States,tt0084269,1982,86,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Born in Flames,Lizzie Borden,1983,United States,tt0085267,1983,79,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Burroughs: The Movie,Howard Brookner,1983,United States,tt3581384,1983,90,fuzzy_canonical,100.0,in_graph_no_shared_actor
+In the King of Prussia,Emile de Antonio,1983,United States,tt0084130,1982,92,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Diary for My Children,Márta Mészáros,1984,Hungary,tt0084388,1984,106,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Streetwise,Martin Bell,1984,United States,tt0088196,1984,91,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Ornette: Made in America,Shirley Clarke,1985,United States,tt0089742,1985,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Seduction: The Cruel Woman,Monika Treut and Elfi Mikesch,1986,Germany,tt0090252,1985,88,fuzzy_canonical,88.4,in_graph_no_shared_actor
+The Passion of Remembrance,Maureen Blackwood and Isaac Julien,1986,United Kingdom,tt22098228,1986,83,fuzzy_canonical,96.5,in_graph_no_shared_actor
+Diary for My Lovers,Márta Mészáros,1987,Hungary,tt0093599,1987,141,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Where Is the Friend’s House?,Abbas Kiarostami,1987,Iran,tt0093342,1987,83,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Hand in Hand,Im Kwon-taek,1988,South Korea,tt7266728,1989,119,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Homework,Abbas Kiarostami,1989,Iran,tt0097843,1989,86,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Mr. Hoover and I,Emile de Antonio,1989,United States,tt0197704,1989,86,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Revenge,Ermek Shinarbaev,1989,Kazakhstan,tt0102497,1989,100,fuzzy_canonical,98.7,in_graph_no_shared_actor
+Seoul 1988,Lee Kwang-soo,1989,South Korea,tt15146486,1989,139,fuzzy_canonical,89.9,in_graph_no_shared_actor
+Diary for My Mother and Father,Márta Mészáros,1990,Hungary,tt0100223,1990,119,fuzzy_canonical,99.3,in_graph_no_shared_actor
+Highway Patrolman,Alex Cox,1991,Mexico,tt0105114,1991,104,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Fall of Otrar,Ardak Amirkulov,1991,Kazakhstan,tt0104224,1990,176,fuzzy_canonical,92.5,in_graph_no_shared_actor
+And Life Goes On,Abbas Kiarostami,1992,Iran,tt0105888,1992,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Wild Wheels,Harrod Blank,1992,,tt0105821,1992,64,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Cronos,Guillermo del Toro,1993,Mexico,tt0104029,1992,94,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Alma’s Rainbow,Ayoka Chenzira,1994,United States,tt0109085,1994,89,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Through the Olive Trees,Abbas Kiarostami,1994,Iran,tt0111845,1994,103,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The White Balloon,Jafar Panahi,1995,Iran,tt0112445,1995,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Deep Crimson,Arturo Ripstein,1996,Mexico,tt0117394,1996,114,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Naked Acts,Bridgett M. Davis,1996,United States,tt0119755,1996,87,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Ossos,Pedro Costa,1997,Portugal,tt0119844,1997,94,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Mirror,Jafar Panahi,1997,Iran,tt0117056,1997,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Xiao Wu,Jia Zhangke,1997,China,tt0144020,1997,110,fuzzy_canonical,99.4,in_graph_no_shared_actor
+Buena Vista Social Club,Wim Wenders,1999,United States,tt0186508,1999,105,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Benjamin Smoke,Jem Cohen and Peter Sillen,2000,United States,tt0233315,2000,72,fuzzy_canonical,95.4,in_graph_no_shared_actor
+Four Letter Words,Sean Baker,2000,United States,tt0259255,2000,82,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Girlfight,Karyn Kusama,2000,United States,tt0210075,2000,110,fuzzy_canonical,100.0,in_graph_no_shared_actor
+In Vanda’s Room,Pedro Costa,2000,Portugal,tt0139500,2000,171,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Platform,Jia Zhangke,2000,China,tt0258885,2000,154,fuzzy_canonical,99.4,in_graph_no_shared_actor
+ABC Africa,Abbas Kiarostami,2001,Iran,tt0281534,2001,83,fuzzy_canonical,100.0,in_graph_no_shared_actor
+One Man Up,Paolo Sorrentino,2001,,tt0295671,2001,100,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Unknown Pleasures,Jia Zhangke,2002,China,tt0318025,2002,112,fuzzy_canonical,99.4,in_graph_no_shared_actor
+The Consequences of Love,Paolo Sorrentino,2004,,tt0398883,2004,100,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The World,Jia Zhangke,2004,China,tt0423176,2004,143,fuzzy_canonical,99.4,in_graph_no_shared_actor
+Man Push Cart,Ramin Bahrani,2005,United States,tt0464105,2005,87,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Aggressives,Daniel Peddle,2005,United States,tt0462757,2005,75,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Death of Mr. Lazarescu,Cristi Puiu,2005,Romania,tt0456149,2005,153,fuzzy_canonical,100.0,in_graph_no_shared_actor
+12:08 East of Bucharest,Corneliu Porumboiu,2006,,tt0809407,2006,89,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Colossal Youth,Pedro Costa,2006,Portugal,tt0460480,2006,156,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Beales of Grey Gardens,Albert Maysles and David Maysles,2006,United States,tt0839739,2006,91,fuzzy_canonical,96.1,in_graph_no_shared_actor
+"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,2007,Romania,tt1032846,2007,113,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Chop Shop,Ramin Bahrani,2007,United States,tt0990404,2007,84,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Frownland,Ronald Bronstein,2007,United States,tt0970935,2007,106,fuzzy_canonical,100.0,in_graph_no_shared_actor
+My Winnipeg,Guy Maddin,2007,Canada,tt1093842,2007,80,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Past,Héctor Babenco,2007,Brazil,tt0765469,2007,114,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Gomorrah,Matteo Garrone,2008,Italy,tt0929425,2008,137,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Oh My God! It’s Harrod Blank!,David Silberberg,2008,,tt1336002,2008,74,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Prince of Broadway,Sean Baker,2008,United States,tt1000769,2008,100,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Yeast,Mary Bronstein,2008,United States,tt1189367,2008,78,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Automorphosis,Harrod Blank,2009,,tt0977638,2009,76,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Creative Nonfiction,Lena Dunham,2009,United States,tt1322903,2009,60,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Objectified,Gary Hustwit,2009,United States,tt1241325,2009,75,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Hungry Ghosts,Michael Imperioli,2009,United States,tt1225902,2009,105,fuzzy_canonical,100.0,in_graph_no_shared_actor
+"Police, Adjective",Corneliu Porumboiu,2010,Romania,tt1337051,2009,113,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Tiny Furniture,Lena Dunham,2010,United States,tt1570989,2010,98,fuzzy_canonical,100.0,in_graph_no_shared_actor
+"Tuesday, After Christmas",Radu Muntean,2010,Romania,tt1470024,2010,99,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Frances Ha,Noah Baumbach,2013,United States,tt2347569,2012,86,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Señoritas,Lina Rodriguez,2013,Canada,tt5786872,2013,87,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Great Beauty,Paolo Sorrentino,2013,Italy,tt2358891,2013,141,fuzzy_canonical,100.0,in_graph_no_shared_actor
+This Ain’t No Mouse Music,Chris Simon and Maureen Gosling,2013,,tt3723828,2013,92,fuzzy_canonical,95.5,in_graph_no_shared_actor
+Lilting,Hong Khaou,2014,United Kingdom,tt2560102,2014,91,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Dheepan,Jacques Audiard,2015,France,tt4082068,2015,115,fuzzy_canonical,100.0,in_graph_no_shared_actor
+The Lure,Agnieszka Smoczyńska,2015,Poland,tt5278832,2015,92,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Sieranevada,Cristi Puiu,2016,Romania,tt4466490,2016,173,fuzzy_canonical,100.0,in_graph_no_shared_actor
+This Time Tomorrow,Lina Rodriguez,2016,Canada,tt5795752,2016,85,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Tiny: The Life of Erin Blackwell,Martin Bell,2016,United States,tt3505094,2016,87,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Ash Is Purest White,Jia Zhang-Ke,2018,China,tt7298400,2018,136,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Rams,Gary Hustwit,2018,United States,tt8423080,2018,74,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Why Can’t I Be Me? Around You,Harrod Blank and Sjoerd Djik,2019,,tt9617512,2019,93,fuzzy_canonical,96.0,in_graph_no_shared_actor
+Dos Estaciones,Juan Pablo González,2022,Mexico,tt16279390,2022,99,fuzzy_canonical,100.0,in_graph_no_shared_actor
+No Bears,Jafar Panahi,2022,Iran,tt20205236,2022,106,fuzzy_canonical,100.0,in_graph_no_shared_actor
+So Much Tenderness,Lina Rodriguez,2022,Canada,tt16022080,2022,118,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Tori and Lokita,Jean-Pierre Dardenne and Luc Dardenne,2022,Belgium,tt18317064,2022,88,fuzzy_canonical,96.8,in_graph_no_shared_actor
+"And, Towards Happy Alleys",Sreemoyee Singh,2023,India,tt26452090,2023,75,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Beyond the Aggressives: 25 Years Later,Daniel Peddle,2023,United States,tt29344605,2023,80,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Here,Bas Devos,2023,Belgium,tt26448954,2023,84,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Shadowless Tower,Zhang Lu,2023,China,tt26441793,2023,144,fuzzy_canonical,89.4,in_graph_no_shared_actor
+Tótem,Lila Avilés,2023,Mexico,tt26315142,2023,95,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Caught by the Tides,Jia Zhang-Ke,2024,China,tt27958252,2024,111,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Dreams,Dag Johan Haugerud,2024,Norway,tt30810787,2024,110,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Limonov: The Ballad,Kirill Serebrennikov,2024,France,tt2963262,2024,138,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Love,Dag Johan Haugerud,2024,Norway,tt30810792,2024,119,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Turn in the Wound,Abel Ferrara,2024,United Kingdom,tt30886849,2024,77,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Wildcat,Ethan Hawke,2024,United States,tt26442871,2023,103,fuzzy_canonical,92.5,in_graph_no_shared_actor
+Magellan,Lav Diaz,2025,Philippines,tt36456563,2025,160,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Peter Hujar’s Day,Ira Sachs,2025,United States,tt34250044,2025,76,fuzzy_canonical,100.0,in_graph_no_shared_actor
+Videoheaven,Alex Ross Perry,2025,United States,tt35649428,2025,173,fuzzy_canonical,100.0,in_graph_no_shared_actor

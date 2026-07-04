@@ -1,0 +1,87 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+A Man There Was,Victor Sjöström,1917,Sweden,tt0008663,1917,65,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Outlaw and His Wife,Victor Sjöström,1918,Sweden,tt0008879,1918,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Phantom Carriage,Victor Sjöström,1921,Sweden,tt0012364,1921,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Saga of Gösta Berling,Mauritz Stiller,1924,United States,tt0014109,1924,183,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Master of the House,Carl Th. Dreyer,1925,Denmark,tt0015768,1925,111,fuzzy_canonical,97.2,1.0,0.9188,1.0,10
+Swedenhielms,Gustaf Molander,1935,Sweden,tt0027062,1935,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Count of the Old Town,Edvin Adolphson and Sigurd Wallén,1935,Sweden,tt0026737,1935,83,fuzzy_canonical,96.2,1.0,0.8909,1.0,10
+Walpurgis Night,Gustaf Edgren,1935,Sweden,tt0027164,1935,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Intermezzo,Gustaf Molander,1936,Sweden,tt0027796,1936,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Woman’s Face,Gustaf Molander,1938,Sweden,tt0030337,1938,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dollar,Gustaf Molander,1938,Sweden,tt0030066,1938,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Only One Night,Gustaf Molander,1939,Sweden,tt0031270,1939,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+June Night,Per Lindberg,1940,Sweden,tt0032655,1940,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Day of Wrath,Carl Th. Dreyer,1943,Denmark,tt0036506,1943,97,fuzzy_canonical,97.2,1.0,0.9188,1.0,10
+Torment,Alf Sjöberg,1944,Sweden,tt0036914,1944,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Crisis,Ingmar Bergman,1946,Sweden,tt0038675,1946,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Ship to India,Ingmar Bergman,1947,Sweden,tt0039834,1947,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Eva,Gustaf Molander,1948,Sweden,tt0040330,1948,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Port of Call,Ingmar Bergman,1948,Sweden,tt0040418,1948,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Thirst,Ingmar Bergman,1949,Sweden,tt0041998,1949,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Girl with Hyacinths,Hasse Ekman,1950,Sweden,tt0042466,1950,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stromboli,Roberto Rossellini,1950,Italy,tt0041931,1950,81,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+To Joy,Ingmar Bergman,1950,Sweden,tt0043048,1950,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Miss Julie,Alf Sjöberg,1951,Sweden,tt0043567,1951,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Summer Interlude,Ingmar Bergman,1951,Sweden,tt0044060,1951,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Europa ’51,Roberto Rossellini,1952,Italy,tt0043511,1952,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Europe ’51,Roberto Rossellini,1952,Italy,tt0043511,1952,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Two Minutes Late,Torben Anton Svendsen,1952,Denmark,tt0125554,1952,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Waiting Women,Ingmar Bergman,1952,Sweden,tt0044811,1952,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hidden in the Fog,Lars-Eric Kjellgren,1953,Sweden,tt0045900,1953,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sawdust and Tinsel,Ingmar Bergman,1953,Sweden,tt0045848,1953,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Summer with Monika,Ingmar Bergman,1953,Sweden,tt0046345,1953,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Lesson in Love,Ingmar Bergman,1954,Sweden,tt0047167,1954,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fear,Roberto Rossellini,1954,West Germany,tt0047336,1954,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Journey to Italy,Roberto Rossellini,1954,Italy,tt0046511,1954,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dreams,Ingmar Bergman,1955,Sweden,tt0048272,1955,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ordet,Carl Th. Dreyer,1955,Denmark,tt0048452,1955,126,fuzzy_canonical,97.2,1.0,0.9188,1.0,10
+Smiles of a Summer Night,Ingmar Bergman,1955,Sweden,tt0048641,1955,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Elena and Her Men,Jean Renoir,1956,France,tt0049177,1956,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Seventh Seal,Ingmar Bergman,1957,Sweden,tt0050976,1957,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wild Strawberries,Ingmar Bergman,1957,Sweden,tt0050986,1957,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Brink of Life,Ingmar Bergman,1958,Sweden,tt0052017,1958,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Magician,Ingmar Bergman,1958,Sweden,tt0051365,1958,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Devil’s Eye,Ingmar Bergman,1960,Sweden,tt0053772,1960,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Virgin Spring,Ingmar Bergman,1960,Sweden,tt0053976,1960,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Through a Glass Darkly,Ingmar Bergman,1961,Sweden,tt0055499,1961,90,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Raven’s End,Bo Widerberg,1963,Sweden,tt0057237,1963,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Baby Carriage,Bo Widerberg,1963,Sweden,tt0056854,1963,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Silence,Ingmar Bergman,1963,Sweden,tt0057611,1963,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Winter Light,Ingmar Bergman,1963,Sweden,tt0057358,1963,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All These Women,Ingmar Bergman,1964,Sweden,tt0058124,1964,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Loving Couples,Mai Zetterling,1964,Sweden,tt0058780,1964,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Here Is Your Life,Jan Troell,1966,Sweden,tt0060529,1966,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Night Games,Mai Zetterling,1966,Sweden,tt0060740,1966,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Persona,Ingmar Bergman,1966,Sweden,tt0060827,1966,83,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Elvira Madigan,Bo Widerberg,1967,Sweden,tt0061620,1967,91,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+I Am Curious—Blue,Vilgot Sjöman,1967,Sweden,tt0061834,1967,121,fuzzy_canonical,96.1,0.921,1.0,1.0,10
+I Am Curious—Yellow,Vilgot Sjöman,1967,Sweden,tt0061834,1967,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hour of the Wolf,Ingmar Bergman,1968,Sweden,tt0063759,1968,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shame,Ingmar Bergman,1968,Sweden,tt0063611,1968,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Girls,Mai Zetterling,1968,Sweden,tt0062981,1968,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Duet for Cannibals,Susan Sontag,1969,Sweden,tt0062916,1969,105,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+The Passion of Anna,Ingmar Bergman,1969,Sweden,tt0064793,1969,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ådalen 31,Bo Widerberg,1969,Sweden,tt0065261,1969,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Touch,Ingmar Bergman,1971,Sweden,tt0066826,1971,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cries and Whispers,Ingmar Bergman,1972,Sweden,tt0069467,1972,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+SCENES FROM A MARRIAGE: Episode 1,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+SCENES FROM A MARRIAGE: Episode 2,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+SCENES FROM A MARRIAGE: Episode 3,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+SCENES FROM A MARRIAGE: Episode 4,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+SCENES FROM A MARRIAGE: Episode 5,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+SCENES FROM A MARRIAGE: Episode 6,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,89.4,0.9375,1.0,0.5,8
+Scenes from a Marriage,Ingmar Bergman,1973,Sweden,tt6725014,1974,169,fuzzy_canonical,92.5,1.0,1.0,0.5,8
+"One Sings, the Other Doesn’t",Agnès Varda,1977,France,tt0076855,1977,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Autumn Sonata,Ingmar Bergman,1978,Sweden,tt0077711,1978,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Death Watch,Bertrand Tavernier,1980,France,tt0081182,1980,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fanny and Alexander: Theatrical Version,Ingmar Bergman,1982,Sweden,tt0083922,1982,188,fuzzy_canonical,95.0,0.9,1.0,1.0,10
+The Making of Fanny and Alexander,Ingmar Bergman,1982,Sweden,tt0090955,1984,110,fuzzy_canonical,88.8,1.0,1.0,0.25,10
+FANNY AND ALEXANDER: Episode 1,Ingmar Bergman,1983,Sweden,tt0083922,1982,188,fuzzy_canonical,89.1,0.931,1.0,0.5,10
+FANNY AND ALEXANDER: Episode 2,Ingmar Bergman,1983,Sweden,tt0083922,1982,188,fuzzy_canonical,89.1,0.931,1.0,0.5,10
+FANNY AND ALEXANDER: Episode 3,Ingmar Bergman,1983,Sweden,tt0083922,1982,188,fuzzy_canonical,89.1,0.931,1.0,0.5,10
+FANNY AND ALEXANDER: Episode 4,Ingmar Bergman,1983,Sweden,tt0083922,1982,188,fuzzy_canonical,89.1,0.931,1.0,0.5,10
+Babette’s Feast,Gabriel Axel,1987,Denmark,tt0092603,1987,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Faithless,Liv Ullmann,2000,Sweden,tt0157122,2000,142,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Liv and Ingmar,Dheeraj Akolkar,2012,Sweden,tt2327430,2012,89,fuzzy_canonical,95.1,0.9029,1.0,1.0,2
+Ingrid Bergman: In Her Own Words,Stig Björkman,2015,Sweden,tt4621016,2015,114,fuzzy_canonical,100.0,1.0,1.0,1.0,9

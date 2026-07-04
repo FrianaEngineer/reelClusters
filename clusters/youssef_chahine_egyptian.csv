@@ -1,0 +1,18 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Father Amin,Youssef Chahine,1950,Egypt,tt0042217,1950,106,fuzzy_canonical,99.2,0.9833,1.0,1.0,10
+Lady of the Train,Youssef Chahine,1952,Egypt,tt0126654,1952,100,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+The Blazing Sun,Youssef Chahine,1954,Egypt,tt0044429,1954,105,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+The Devil of the Desert,Youssef Chahine,1954,Egypt,tt0126661,1954,110,fuzzy_canonical,90.1,0.8017,1.0,1.0,10
+Dark Waters,Youssef Chahine,1956,Egypt,tt0049761,1956,120,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Farewell My Love,Youssef Chahine,1956,Egypt,tt0126721,1956,110,fuzzy_canonical,95.9,0.917,1.0,1.0,10
+Cairo Station,Youssef Chahine,1958,Egypt,tt0051390,1958,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Saladin the Victorious,Youssef Chahine,1963,Egypt,tt0057357,1963,194,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+13 Days in France,Claude Lelouch and François Reichenbach,1968,France,tt0189330,1968,112,fuzzy_canonical,95.5,1.0,0.8718,1.0,7
+The Land,Youssef Chahine,1969,Egypt,tt0064038,1970,130,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Return of the Prodigal Son,Youssef Chahine,1976,Egypt,tt0074168,1978,120,fuzzy_canonical,88.8,1.0,1.0,0.25,10
+Alexandria . . . Why?,Youssef Chahine,1979,Egypt,tt0077751,1979,133,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Egyptian Story,Youssef Chahine,1982,Egypt,tt0084042,1982,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Sixth Day,Youssef Chahine,1986,Egypt,tt0091960,1986,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Alexandria: Again and Forever,Youssef Chahine,1989,,tt0099858,1989,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Destiny,Youssef Chahine,1997,Egypt,tt0119629,1997,135,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Other,Youssef Chahine,1999,Egypt,tt0196355,1999,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10

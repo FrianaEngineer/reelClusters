@@ -1,0 +1,343 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,reason
+The Daughter of Dawn,Norbert A. Myles,1920,United States,tt0191066,1920,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Within Our Gates,Oscar Micheaux,1920,United States,tt0011870,1920,79,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Häxan,Benjamin Christensen,1922,Denmark,tt0013257,1922,91,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Grass: A Nation’s Battle for Life,Merian C. Cooper and Ernest B. Schoedsack,1925,United States,tt0015873,1925,71,fuzzy_canonical,95.7,has_credits_no_shared_actor
+The Adventures of Prince Achmed,Lotte Reiniger,1926,Germany,tt0015532,1926,80,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+"The Olympic Games, Amsterdam, 1928",Wilhelm Prager,1928,Italy,tt0255441,1928,110,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The White Stadium,Arnold Fanck and Othmar Gurtner,1928,Switzerland,tt0194523,1928,124,fuzzy_canonical,95.7,has_credits_no_shared_actor
+The Old and the New,Sergei Eisenstein and Grigori Aleksandrov,1929,Soviet Union,tt0020451,1929,121,fuzzy_canonical,95.9,has_credits_no_shared_actor
+Limite,Mário Peixoto,1931,Brazil,tt0022080,1931,114,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Evergreen,Victor Saville,1934,United Kingdom,tt0025094,1934,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Man of Aran,Robert J. Flaherty,1934,United Kingdom,tt0025456,1934,76,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Redes,Emilio Gómez Muriel…,1936,Mexico,tt0028165,1936,65,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Olympia Part One: Festival of the Nations,Leni Riefenstahl,1938,Germany,tt0030522,1938,111,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Olympia Part Two: Festival of Beauty,Leni Riefenstahl,1938,Germany,tt0030523,1938,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Prisioneros de la tierra,Mario Soffici,1939,Argentina,tt0176049,1939,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Two Girls on the Street,André de Toth,1939,Hungary,tt0031544,1939,79,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Dirty Gertie from Harlem U.S.A.,Spencer Williams,1946,United States,tt0038480,1946,65,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Fight Without Hate,André Michel,1948,France,tt7254920,1948,84,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Germany Year Zero,Roberto Rossellini,1948,Italy,tt0039417,1948,78,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Kalpana,Uday Shankar,1948,India,tt0311384,1948,122,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Strange Victory,Leo Hurwitz,1948,United States,tt0469835,1948,71,fuzzy_canonical,100.0,has_credits_no_shared_actor
+D.O.A.,Rudolph Maté,1949,United States,tt0042369,1949,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Death Is a Caress,Edith Carlmar,1949,Norway,tt0136099,1949,88,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Never Fear,Ida Lupino,1950,United States,tt0042783,1950,82,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Thing from Another World,Christian Nyby,1951,United States,tt0044121,1951,87,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Victims of Sin,Emilio Fernández,1951,Mexico,tt0043115,1951,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"The VI Olympic Winter Games, Oslo 1952",Tankred Ibsen,1952,Norway,tt0217126,1952,103,fuzzy_canonical,98.7,has_credits_no_shared_actor
+And Now Miguel,Joseph Krumgold,1953,United States,tt10995602,1953,62,fuzzy_canonical,100.0,has_credits_no_shared_actor
+After the Curfew,Usmar Ismail,1954,Indonesia,tt0045997,1954,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Journey to the Beginning of Time,Karel Zeman,1955,Czechoslovakia,tt0047930,1955,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+A Man Escaped,Robert Bresson,1956,France,tt0049902,1956,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+On the Bowery,Lionel Rogosin,1956,United States,tt0050800,1956,65,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Mystery of Picasso,Henri-Georges Clouzot,1956,France,tt0049531,1956,78,fuzzy_canonical,100.0,has_credits_no_shared_actor
+White Vertigo,Giorgio Ferroni,1956,Italy,tt0049916,1956,96,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Letter from Siberia,Chris Marker,1957,France,tt0050633,1958,62,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Mother India,Mehboob Khan,1957,,tt0050188,1957,172,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Come Back, Africa",Lionel Rogosin,1959,United States,tt0049087,1959,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+India: Matri Bhumi,Roberto Rossellini,1959,Italy,tt0052923,1959,90,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+The Bridge,Bernhard Wicki,1959,Germany,tt0052654,1959,103,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Primary,Robert Drew,1960,United States,tt0054205,1960,60,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Housemaid,Kim Ki-young,1960,South Korea,tt0150980,1960,109,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Chronicle of a Summer,Jean Rouch and Edgar Morin,1961,France,tt0054745,1961,85,fuzzy_canonical,95.7,has_credits_no_shared_actor
+Il posto,Ermanno Olmi,1961,Italy,tt0055320,1961,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Exiles,Kent MacKenzie,1961,United States,tt0054861,1961,72,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Grand Olympics,Romolo Marcellini,1961,Italy,tt0054940,1961,147,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Carnival of Souls,Herk Harvey,1962,United States,tt0055830,1962,78,fuzzy_canonical,100.0,has_credits_no_shared_actor
+I fidanzati,Ermanno Olmi,1962,Italy,tt0055981,1963,77,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Lord of the Flies,Peter Brook,1963,United Kingdom,tt0057261,1963,92,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Something Different,Věra Chytilová,1963,Czechoslovakia,tt0057374,1963,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Black God, White Devil",Glauber Rocha,1964,Brazil,tt0058006,1964,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Diamonds of the Night,Jan Němec,1964,Czechoslovakia,tt0058001,1964,67,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Gertrud,Carl Th. Dreyer,1964,Denmark,tt0058138,1964,116,fuzzy_canonical,97.2,has_credits_no_shared_actor
+Love Meetings,Pier Paolo Pasolini,1964,Italy,tt0057960,1964,92,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Point of Order!,Emile de Antonio,1964,United States,tt0058481,1964,97,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+My Home Is Copacabana,Arne Sucksdorff,1965,Sweden,tt0059456,1965,88,fuzzy_canonical,89.3,has_credits_no_shared_actor
+The Love Goddesses,Saul J. Turell,1965,United States,tt0059402,1965,79,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Moment of Truth,Francesco Rosi,1965,Italy,tt0059459,1965,103,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Shop on Main Street,Ján Kadár and Elmar Klos,1965,Czechoslovakia,tt0059527,1965,128,fuzzy_canonical,95.6,has_credits_no_shared_actor
+Tokyo Olympiad,Kon Ichikawa,1965,Japan,tt0059817,1965,170,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Who Killed Teddy Bear?,Joseph Cates,1965,United States,tt0059909,1965,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Good Times, Wonderful Times",Lionel Rogosin,1966,United Kingdom,tt0144017,1965,70,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Sensation of the Century,Taguchi Suketaro and Nobusama Kawamoto,1966,Japan,tt7262782,1966,156,fuzzy_canonical,86.9,has_credits_no_shared_actor
+The Battle of Algiers,Gillo Pontecorvo,1966,Italy,tt0058946,1966,121,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Rush to Judgment,Emile de Antonio,1967,United States,tt0060920,1967,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Warrendale,Allan King,1967,Canada,tt0062474,1967,100,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Innocence Unprotected,Dušan Makavejev,1968,Yugoslavia,tt0063342,1968,75,fuzzy_canonical,100.0,has_credits_no_shared_actor
+L’enfance nue,Maurice Pialat,1968,France,tt0065695,1968,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Snows of Grenoble,Jacques Ertaud and Jean-Jacques Languepin,1968,France,tt1619032,1968,97,fuzzy_canonical,95.4,no_actor_credits_in_imdb
+A Married Couple,Allan King,1969,Canada,tt0064640,1969,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+More,Barbet Schroeder,1969,West Germany,tt0064694,1969,112,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Salesman,"David Maysles, Albert Maysles, and Charlotte Zwerin",1969,United States,tt0064921,1969,91,fuzzy_canonical,94.9,has_credits_no_shared_actor
+The Color of Pomegranates,Sergei Parajanov,1969,Soviet Union,tt0063555,1969,79,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Olympics in Mexico,Alberto Isaac,1969,Mexico,tt0064756,1969,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Eldridge Cleaver, Black Panther",William Klein,1970,Algeria,tt0196528,1970,73,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Equinox,Jack Woods,1970,United States,tt0067055,1970,82,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Wanda,Barbara Loden,1970,United States,tt0067961,1970,102,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Zorns Lemma,Hollis Frampton,1970,United States,tt0131149,1970,60,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Millhouse,Emile de Antonio,1971,United States,tt0067431,1971,92,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Mon oncle Antoine,Claude Jutra,1971,Canada,tt0067439,1971,104,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Pink Narcissus,James Bidgood,1971,United States,tt0067580,1971,65,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Sweet Sweetback’s Baadasssss Song,Melvin Van Peebles,1971,United States,tt0067810,1971,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Ciao! Manhattan,John Palmer and David Weisman,1972,United States,tt0068379,1972,84,fuzzy_canonical,95.7,has_credits_no_shared_actor
+Come On Children,Allan King,1972,Canada,tt0269104,1973,96,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Don’t Play Us Cheap,Melvin Van Peebles,1972,United States,tt0069996,1972,99,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Goodbye CP,Kazuo Hara,1972,Japan,tt0234669,1972,82,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Hotel Monterey,Chantal Akerman,1972,United States,tt0068725,1973,65,fuzzy_canonical,92.5,no_actor_credits_in_imdb
+Sambizanga,Sarah Maldoror,1972,Angola,tt0069214,1972,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Harder They Come,Perry Henzell,1972,United States,tt0070155,1972,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+A River Called Titas,Ritwik Ghatak,1973,Bangladesh,tt0070809,1973,159,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Humain, trop humain",Louis Malle,1973,France,tt0071635,1974,75,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Woodcutters of the Deep South,Lionel Rogosin,1973,United States,tt1196255,1973,85,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+General Idi Amin Dada: A Self-Portrait,Barbet Schroeder,1974,France,tt0071544,1974,92,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Gone in 60 Seconds,H. B. Halicki,1974,United States,tt0071571,1974,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Hearts and Minds,Peter Davis,1974,United States,tt0071604,1974,112,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Space Is the Place,John Coney,1974,United States,tt0072195,1974,82,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Traveler,Abbas Kiarostami,1974,Iran,tt0071859,1974,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Not a Pretty Picture,Martha Coolidge,1975,United States,tt0073467,1976,83,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Overlord,Stuart Cooper,1975,United Kingdom,tt0073502,1975,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Dying,Michael Roemer,1976,United States,tt9222354,1976,82,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+One Way or Another,Sara Gómez,1977,,tt0075915,1975,78,fuzzy_canonical,88.8,has_credits_no_shared_actor
+The Sealed Soil,Marva Nabili,1977,Iran,tt0154728,1977,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+White Rock,Tony Maylam,1977,United Kingdom,tt0076916,1977,77,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Gates of Heaven,Errol Morris,1978,United States,tt0077598,1978,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Jubilee,Derek Jarman,1978,United Kingdom,tt0076240,1978,106,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Koko: A Talking Gorilla,Barbet Schroeder,1978,France,tt0076097,1978,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+My Way Home,Bill Douglas,1978,United Kingdom,tt0077964,1978,71,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Terror and the Time,Rupert Roonaraine,1978,Guyana,tt0295723,1979,70,fuzzy_canonical,92.5,no_actor_credits_in_imdb
+The Tree of Wooden Clogs,Ermanno Olmi,1978,Italy,tt0077138,1978,186,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Family Nest,Béla Tarr,1979,,tt0077383,1979,108,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Perfumed Nightmare,Kidlat Tahimik,1979,Philippines,tt0076341,1977,93,fuzzy_canonical,88.8,has_credits_no_shared_actor
+Poto and Cabengo,Jean-Pierre Gorin,1980,United States,tt0196866,1979,77,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Nightshift,Robina Rose,1981,United Kingdom,tt33253824,1981,68,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"O Sport, You Are Peace!",Juri Ozerov,1981,Soviet Union,tt0151789,1981,149,fuzzy_canonical,97.0,has_credits_no_shared_actor
+The World of Gilbert & George,Gilbert Prousch and George Passmore,1981,United Kingdom,tt1864554,1981,69,fuzzy_canonical,96.0,has_credits_no_shared_actor
+Trances,Ahmed El Maanouni,1981,Morocco,tt0406280,1981,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Turumba,Kidlat Tahimik,1981,Philippines,tt0278782,1981,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Will,Jessie Maple,1981,United States,tt0232951,1981,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+All by Myself: The Earth Kitt Story,Christian Blackwood,1982,United States,tt0083539,1982,87,fuzzy_canonical,99.7,has_credits_no_shared_actor
+Cane River,Horace Jenkins,1982,United States,tt0318346,1982,104,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Eating Raoul,Paul Bartel,1982,United States,tt0083869,1982,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Rat Trap,Adoor Gopalakrishnan,1982,India,tt0082318,1982,121,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Say Amen, Somebody",George T. Nierenberg,1982,United States,tt0086245,1982,100,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Scrubbers,Mai Zetterling,1982,United Kingdom,tt0086265,1982,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Smithereens,Susan Seidelman,1982,United States,tt0084698,1982,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+They Call Me Bruce,Elliott Hong,1982,United States,tt0084786,1982,87,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Mississippi Blues,Bertrand Tavernier and Robert Parrish,1983,France,tt0085946,1983,96,fuzzy_canonical,96.4,no_actor_credits_in_imdb
+The Man Who Loved Women,Blake Edwards,1983,United States,tt0085891,1983,110,fuzzy_canonical,100.0,has_credits_no_shared_actor
+A Turning Point,Kim Takal,1984,Bosnia and Herzegovina,tt7266388,1984,82,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+First Graders,Abbas Kiarostami,1984,Iran,tt0086923,1984,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Secret Honor,Robert Altman,1984,United States,tt0088074,1984,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Runner,Amir Naderi,1984,Iran,tt0088992,1984,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Times of Harvey Milk,Robert Epstein,1984,United States,tt0088275,1984,90,fuzzy_canonical,96.0,has_credits_no_shared_actor
+Come and See,Elem Klimov,1985,Soviet Union,tt0091251,1985,142,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Louie Bluie,Terry Zwigoff,1985,United States,tt0089507,1985,75,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Mala Noche,Gus Van Sant,1985,United States,tt0089537,1986,78,fuzzy_canonical,92.5,has_credits_no_shared_actor
+You Got to Move,Lucy Massie Phenix and Veronica Selver,1985,United States,tt0204066,1985,85,fuzzy_canonical,96.3,has_credits_no_shared_actor
+16 Days of Glory,Bud Greenspan,1986,United States,tt0090559,1985,284,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Routine Pleasures,Jean-Pierre Gorin,1986,United States,tt0274069,1986,81,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Green Ray,Eric Rohmer,1986,France,tt0091830,1986,99,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Photograph,Nico Papatakis,1986,France,tt0093733,1986,102,fuzzy_canonical,98.1,has_credits_no_shared_actor
+Vera,Sérgio Toledo,1986,Brazil,tt0094248,1986,88,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Border Radio,"Allison Anders, Dean Lent, and Kurt Voss",1987,United States,tt0090766,1987,87,fuzzy_canonical,95.6,has_credits_no_shared_actor
+I Was a Teenage Zombie,John Elias Michalakis,1987,United States,tt0093238,1987,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Monologue,Adoor Gopalakrishnan,1987,India,tt0092557,1987,125,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Pathfinder,Nils Gaup,1987,Norway,tt0093668,1987,86,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Rita, Sue and Bob Too",Alan Clarke,1987,United Kingdom,tt0091859,1987,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Emperor’s Naked Army Marches On,Kazuo Hara,1987,Japan,tt0092963,1987,122,fuzzy_canonical,100.0,has_credits_no_shared_actor
+West Is West,David Rathod,1987,United States,tt0094314,1989,80,fuzzy_canonical,88.8,has_credits_no_shared_actor
+Beyond All Barriers,Lee Ji-won,1988,South Korea,tt7266776,1989,92,fuzzy_canonical,92.5,no_actor_credits_in_imdb
+It Couldn’t Happen Here,Jack Bond,1988,United Kingdom,tt0093284,1987,86,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Let’s Get Lost,Bruce Weber,1988,United States,tt0095515,1988,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Re-wind,Hisayasu Satō,1988,Japan,tt0095961,1988,64,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Remote Control,Jeff Lieberman,1988,United States,tt0093843,1988,88,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Thin Blue Line,Errol Morris,1988,United States,tt0096257,1988,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Vanishing,George Sluizer,1988,France,tt0096163,1988,107,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Common Threads: Stories from the Quilt,Rob Epstein and Jeffrey Friedman,1989,United States,tt0097099,1989,79,fuzzy_canonical,95.4,has_credits_no_shared_actor
+For All Mankind,Al Reinert,1989,United States,tt0097372,1989,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+I Went to the Dance,Les Blank,1989,,tt0097603,1989,84,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Sweetie,Jane Campion,1989,New Zealand,tt0098725,1989,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Twice as Nice,Jessie Maple,1989,United States,tt0234932,1989,70,fuzzy_canonical,100.0,has_credits_no_shared_actor
+An Angel at My Table,Jane Campion,1990,New Zealand,tt0099040,1990,158,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Close-up,Abbas Kiarostami,1990,Iran,tt0100234,1990,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Paris Is Burning,Jennie Livingston,1990,United States,tt0100332,1990,78,fuzzy_canonical,100.0,has_credits_no_shared_actor
+TGM the Liberator,Věra Chytilová,1990,Czechoslovakia,tt0170651,1990,60,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+A Brief History of Time,Errol Morris,1991,United States,tt0103882,1991,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Homicide,David Mamet,1991,United States,tt0102048,1991,102,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Innocents Abroad,"Les Blank, Vikram Jayanti, and Chris Simon",1991,United States,tt0130792,1991,84,fuzzy_canonical,94.6,no_actor_credits_in_imdb
+Jacquot de Nantes,Agnès Varda,1991,France,tt0102141,1991,118,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Lumumba: Death of a Prophet,Raoul Peck,1991,"Congo, The Democratic Republic of the",tt0104775,1991,69,fuzzy_canonical,100.0,has_credits_no_shared_actor
+One Hand Don’t Clap,Kavery Kaul,1991,United States,tt0102594,1991,92,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Poison,Todd Haynes,1991,United States,tt0102687,1991,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Slacker,Richard Linklater,1991,United States,tt0102943,1990,97,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Thank You and Good Night,Jan Oxenberg,1991,United States,tt0103070,1991,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Guelwaar,Ousmane Sembène,1992,France,tt0104373,1992,115,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Man Bites Dog,"Rémy Belvaux, André Bonzel, and Benoit Poelvoorde",1992,Belgium,tt0103905,1992,95,fuzzy_canonical,94.8,has_credits_no_shared_actor
+My Crasy Life,Jean-Pierre Gorin,1992,United States,tt0104953,1992,95,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+"One Light, One World",Joe Jay Jalbert and R. Douglas Copsey,1992,France,tt7266800,1992,104,fuzzy_canonical,95.9,has_credits_no_shared_actor
+The Long Day Closes,Terence Davies,1992,United Kingdom,tt0104753,1992,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Where Are We? Our Trip Through America,Rob Epstein and Jeffrey Friedman,1992,United States,tt0105808,1992,73,fuzzy_canonical,95.4,has_credits_no_shared_actor
+Marathon,Carlos Saura,1993,Sweden,tt0185456,1993,130,fuzzy_canonical,100.0,has_credits_no_shared_actor
+A Dedicated Life,Kazuo Hara,1994,Japan,tt0109586,1994,157,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Clean, Shaven",Lodge Kerrigan,1994,United States,tt0106579,1993,79,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Double Happiness,Mina Shum,1994,Canada,tt0109655,1994,87,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Hoop Dreams,Steve James,1994,United States,tt0110057,1994,170,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Umbrellas,"Albert Maysles, Henry Corra, and Grahame Weinbren",1994,United States,tt0111541,1994,81,fuzzy_canonical,95.1,has_credits_no_shared_actor
+Angela,Rebecca Miller,1995,United States,tt0112364,1995,99,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Halving the Bones,Ruth Ozeki,1995,Japan,tt0116475,1996,70,fuzzy_canonical,89.0,no_actor_credits_in_imdb
+Rude,Clement Virgo,1995,Canada,tt0114305,1995,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Welcome II the Terrordome,Ngozi Onwurah,1995,United Kingdom,tt0111681,1995,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Intimate Relations,Philip Goodhew,1996,United Kingdom,tt0116643,1996,105,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Perfect Love,Catherine Breillat,1996,France,tt0117296,1996,110,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Delta,Ira Sachs,1996,United States,tt0116070,1996,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Rolling Stones Rock and Roll Circus,Michael Lindsay-Hogg,1996,United Kingdom,tt0122689,1996,65,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+La vie de Jésus,Bruno Dumont,1997,France,tt0120448,1997,96,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Taste of Cherry,Abbas Kiarostami,1997,Iran,tt0120265,1997,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Didn’t Do It for Love,Monika Treut,1998,Germany,tt0155667,1997,81,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Drylongso,Cauleen Smith,1998,United States,tt0181517,1998,86,fuzzy_canonical,100.0,has_credits_no_shared_actor
+200 Cigarettes,Risa Bramon Garcia,1999,United States,tt0137338,1999,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Bleeder,Nicolas Winding Refn,1999,Denmark,tt0161292,1999,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Compensation,Zeinabu irene Davis,1999,United States,tt0223027,1999,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Following,Christopher Nolan,1999,United Kingdom,tt0154506,1998,69,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Ghost Dog: The Way of the Samurai,Jim Jarmusch,1999,United States,tt0165798,1999,116,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Instrument,Jem Cohen,1999,United States,tt0230334,1999,115,fuzzy_canonical,100.0,has_credits_no_shared_actor
+L’humanité,Bruno Dumont,1999,France,tt0197569,1999,141,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Ratcatcher,Lynne Ramsay,1999,United Kingdom,tt0171685,1999,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Regret to Inform,Barbara Sonneborn,1999,United States,tt0181786,1998,72,fuzzy_canonical,92.5,has_credits_no_shared_actor
+The Straight Story,David Lynch,1999,United States,tt0166896,1999,112,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Wind Will Carry Us,Abbas Kiarostami,1999,Iran,tt0209463,1999,118,fuzzy_canonical,100.0,has_credits_no_shared_actor
+George Washington,David Gordon Green,2000,United States,tt0262432,2000,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Mysterious Object at Noon,Apichatpong Weerasethakul,2000,Thailand,tt0269587,2000,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Songs from the Second Floor,Roy Andersson,2000,Sweden,tt0120263,2000,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Natural History of the Chicken,Mark Lewis,2000,United States,tt0257954,2000,60,fuzzy_canonical,100.0,has_credits_no_shared_actor
+La Ciénaga,Lucrecia Martel,2001,Argentina,tt0240419,2001,103,fuzzy_canonical,100.0,has_credits_no_shared_actor
+11’09”01—September 11,Mira Nair,2002,United States,tt0328802,2002,134,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Dahmer,David Jacobson,2002,United States,tt0285728,2002,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Japón,Carlos Reygadas,2002,Mexico,tt0322824,2002,122,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Shadow Kill,Adoor Gopalakrishnan,2002,India,tt0329429,2002,90,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Clay Bird,Tareque Masud,2002,Bangladesh,tt0319836,2002,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Dying at Grace,Allan King,2003,Canada,tt0379269,2003,148,fuzzy_canonical,100.0,has_credits_no_shared_actor
+My Architect,Nathaniel Kahn,2003,United States,tt0373175,2003,116,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Anatomy of Hell,Catherine Breillat,2004,France,tt0348529,2004,77,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Chain,Jem Cohen,2004,United States,tt0421960,2004,99,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Take Out,Sean Baker and Shih-Ching Tsou,2004,United States,tt0391483,2004,87,fuzzy_canonical,95.3,has_credits_no_shared_actor
+The Guitar Mongoloid,Ruben Östlund,2004,Sweden,tt0447641,2004,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Me and You and Everyone We Know,Miranda July,2005,United States,tt0415978,2005,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Memory for Max, Claire, Ida and Company",Allan King,2005,Canada,tt0478000,2005,112,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Old Joy,Kelly Reichardt,2006,United States,tt0468526,2006,76,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Helvetica,Gary Hustwit,2007,United Kingdom,tt0847817,2007,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Anvil! The Story of Anvil,Sacha Gervasi,2008,Canada,tt1157605,2008,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Hunger,Steve McQueen,2008,Ireland,tt0986233,2008,96,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Involuntary,Ruben Östlund,2008,Sweden,tt1232826,2008,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Miao Miao,Cheng Hsiao-Tse,2008,Taiwan,tt0984130,2008,83,fuzzy_canonical,90.5,has_credits_no_shared_actor
+The Betrayal,Ellen Kuras and Thavisouk Phrasavath,2008,United States,tt1157685,2008,96,fuzzy_canonical,95.1,has_credits_no_shared_actor
+Kings of Pastry,D. A. Pennebaker and Chris Hegedus,2009,United States,tt1558972,2009,87,fuzzy_canonical,96.1,has_credits_no_shared_actor
+Max by Marcel,Marcel Ophuls,2009,France,tt2466988,2009,81,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Aurora,Cristi Puiu,2010,Romania,tt1403047,2010,181,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Cane Toads: The Conquest,Mark Lewis,2010,Australia,tt1568924,2010,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Carlos: Part 1,Olivier Assayas,2010,France,tt33398096,2010,165,fuzzy_canonical,94.6,no_actor_credits_in_imdb
+Carlos: Part 2,Olivier Assayas,2010,France,tt33398096,2010,165,fuzzy_canonical,94.6,no_actor_credits_in_imdb
+Carlos: Part 3,Olivier Assayas,2010,France,tt33398096,2010,165,fuzzy_canonical,94.6,no_actor_credits_in_imdb
+Poetry,Lee Chang-dong,2010,South Korea,tt1287878,2010,139,fuzzy_canonical,100.0,has_credits_no_shared_actor
+K-ON! THE MOVIE: English-Dubbed Version,Naoko Yamada,2011,Japan,tt1909796,2011,110,fuzzy_canonical,93.8,has_credits_no_shared_actor
+K-ON! The Movie,Naoko Yamada,2011,Japan,tt1909796,2011,110,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Play,Ruben Östlund,2011,Sweden,tt1376717,2011,118,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Urbanized,Gary Hustwit,2011,United States,tt1701976,2011,85,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Weekend,Andrew Haigh,2011,United Kingdom,tt1714210,2011,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Wuthering Heights,Andrea Arnold,2011,United Kingdom,tt1181614,2011,129,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Beyond the Hills,Cristian Mungiu,2012,Romania,tt2258281,2012,152,fuzzy_canonical,100.0,has_credits_no_shared_actor
+First,Caroline Rowland,2012,United Kingdom,tt2291230,2012,109,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Museum Hours,Jem Cohen,2012,Austria,tt2268732,2012,107,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Neighboring Sounds,Kleber Mendonça Filho,2012,Brazil,tt2190367,2012,131,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Starlet,Sean Baker,2012,United States,tt2035630,2012,103,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Turning,Charles Atlas,2012,United Kingdom,tt2219894,2012,76,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Where Are You Taking Me?,Kimi Takesue,2012,Uganda,tt1675311,2010,72,fuzzy_canonical,88.8,no_actor_credits_in_imdb
+Jellyfish Eyes,Takashi Murakami,2013,Japan,tt2006181,2013,101,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Spirit of ’45,Ken Loach,2013,United Kingdom,tt2332801,2013,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Drunktown’s Finest,Sydney Freeland,2014,United States,tt3091286,2014,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+How to Smell a Rose: A Visit with Ricky Leacock at His Farm in Normandy,Les Blank and Gina Leibrecht,2014,United States,tt3690366,2014,64,fuzzy_canonical,95.3,has_credits_no_shared_actor
+Phoenix,Christian Petzold,2014,Germany,tt2764784,2014,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Counting,Jem Cohen,2015,United States,tt4462082,2015,111,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Heart of a Dog,Laurie Anderson,2015,United States,tt4935446,2015,75,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Notfilm,Ross Lipman,2015,United States,tt3763790,2015,129,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Western,Turner Ross and Bill Ross IV,2015,Mexico,tt4214450,2015,92,fuzzy_canonical,95.8,has_credits_no_shared_actor
+95 and 6 to Go,Kimi Takesue,2016,United States,tt5105668,2016,86,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Cameraperson,Kirsten Johnson,2016,United States,tt5375040,2016,102,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Contemporary Color,Turner Ross and Bill Ross IV,2016,United States,tt5258306,2016,97,fuzzy_canonical,95.8,has_credits_no_shared_actor
+David Lynch: The Art Life,"Jon Nguyen, Rick Barnes, and Olivia Neergaard-Holm",2016,United States,tt1691152,2016,88,fuzzy_canonical,94.5,has_credits_no_shared_actor
+Floyd Norman: An Animated Life,Michael Fiore and Erik Sharkey,2016,United States,tt5507860,2016,94,fuzzy_canonical,96.0,has_credits_no_shared_actor
+Kedi,Ceyda Torun,2016,Turkey,tt4420704,2016,79,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Sennan Asbestos Disaster,Kazuo Hara,2016,Japan,tt5498350,2016,215,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+"The Games of the V Olympiad Stockholm, 1912",Adrian Wood,2016,Switzerland,tt7241484,2017,170,fuzzy_canonical,92.5,has_credits_no_shared_actor
+24 Frames,Abbas Kiarostami,2017,Iran,tt6777170,2017,114,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Grace Jones: Bloodlight and Bami,Sophie Fiennes,2017,Ireland,tt6903636,2017,115,fuzzy_canonical,100.0,has_credits_no_shared_actor
+American Dharma,Errol Morris,2018,United States,tt8804284,2018,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Caballerango,Juan Pablo González,2018,Mexico,tt7334072,2018,61,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Milford Graves Full Mantis,Jake Meginsky,2018,United States,tt8014482,2018,91,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Andrei Tarkovsky: A Cinema Prayer,Andrei A. Tarkovskiy,2019,Italy,tt10850518,2019,97,fuzzy_canonical,99.3,no_actor_credits_in_imdb
+Bacurau,Kleber Mendonça Filho and Juliano Dornelles,2019,Brazil,tt2762506,2019,131,fuzzy_canonical,96.4,has_credits_no_shared_actor
+De Lo Mio,Diana Peralta,2019,United States,tt9853814,2019,74,fuzzy_canonical,100.0,has_credits_no_shared_actor
+House of Cardin,P. David Ebersole and Todd Hughes,2019,United States,tt9031484,2019,95,fuzzy_canonical,96.5,has_credits_no_shared_actor
+La Llorona,Jayro Bustamante,2019,Guatemala,tt10767168,2019,97,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Lingua Franca,Isabel Sandoval,2019,Philippines,tt8943224,2019,89,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Milford Graves Live at Jamaica Arts Center,Jake Meginsky,2019,United States,tt8014482,2018,91,fuzzy_canonical,85.5,has_credits_no_shared_actor
+"Mother, I Am Suffocating. This Is My Last Film About You.",Lemohang Jeremiah Mosese,2019,Germany,tt10265444,2019,76,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+So Pretty,Jessica Dunn Rovinelli,2019,United States,tt9595506,2019,83,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Talking About Trees,Suhaib Gasmelbari,2019,Sudan,tt9658178,2019,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+The Lost Okoroshi,Abba Makama,2019,Nigeria,tt10888456,2019,94,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"This Is Not a Burial, It’s a Resurrection",Lemohang Jeremiah Mosese,2019,Lesotho,tt10849514,2019,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Bloody Nose, Empty Pockets",Bill Ross and Turner Ross,2020,United States,tt11392114,2020,98,fuzzy_canonical,94.6,has_credits_no_shared_actor
+Eyimofe (This Is My Desire),Arie Esiri and Chuko Esiri,2020,Nigeria,tt10365870,2020,116,fuzzy_canonical,88.5,has_credits_no_shared_actor
+No Ordinary Man,Aisling Chin-Yee and Chase Joynt,2020,Canada,tt12786834,2020,83,fuzzy_canonical,96.5,has_credits_no_shared_actor
+Preparations to Be Together for an Unknown Period of Time,Lili Horvát,2020,Hungary,tt12564514,2020,95,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Clytaemnestra,Ougie Pak,2021,South Korea,tt15555264,2021,70,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Drive My Car,Ryusuke Hamaguchi,2021,Japan,tt14039582,2021,179,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Faya dayi,Jessica Beshir,2021,Ethiopia,tt13648216,2021,120,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Flickering Ghosts of Loves Gone By,André Bonzel,2021,,tt8122738,2021,97,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Colette and Justin,Alain Kassanda,2022,France,tt22872868,2022,89,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+EO,Jerzy Skolimowski,2022,Poland,tt19652910,2022,88,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Lynch/Oz,Alexandre O. Philippe,2022,United States,tt15399286,2022,108,fuzzy_canonical,100.0,has_credits_no_shared_actor
+My Two Voices,Lina Rodriguez,2022,Canada,tt16951384,2022,68,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Pamfir,Dmytro Sukholytkyi-Sobchuk,2022,Ukraine,tt9455468,2022,107,fuzzy_canonical,99.5,has_credits_no_shared_actor
+"Riotsville, USA",Sierra Pettengill,2022,United States,tt11398388,2022,91,fuzzy_canonical,98.8,has_credits_no_shared_actor
+The Eight Mountains,Felix van Groeningen and Charlotte Vandermeersch,2022,Italy,tt14641542,2022,147,fuzzy_canonical,95.9,has_credits_no_shared_actor
+We’re All Going to the World’s Fair,Jane Schoenbrun,2022,United States,tt13648224,2021,86,fuzzy_canonical,92.5,has_credits_no_shared_actor
+32 Sounds,Sam Green,2023,United States,tt16294920,2022,95,fuzzy_canonical,92.5,has_credits_no_shared_actor
+About Dry Grasses,Nuri Bilge Ceylan,2023,Turkey,tt13231544,2023,197,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Afire,Christian Petzold,2023,Germany,tt26440619,2023,102,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Anselm,Wim Wenders,2023,Germany,tt27502250,2023,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Bad Press,Rebecca Landsberry-Baker and Joe Peeler,2023,United States,tt24076780,2023,98,fuzzy_canonical,97.3,no_actor_credits_in_imdb
+Celluloid Underground,Ehsan Khoshbakht,2023,Iran,tt28801705,2023,80,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Chicken for Linda!,Sébastien Laudenbach and Chiara Malta,2023,France,tt21042126,2023,73,fuzzy_canonical,96.8,has_credits_no_shared_actor
+Coconut Head Generation,Alain Kassanda,2023,France,tt27023385,2023,89,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Evil Does Not Exist,Ryusuke Hamaguchi,2023,Japan,tt28490044,2023,106,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Flickering Lights,Anupama Srinivasan,2023,India,tt29669662,2023,90,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Grasshopper Republic,Daniel McCabe,2023,United States,tt27404709,2023,94,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+Milisuthando,Milisuthando Bongela,2023,South Africa,tt24082622,2023,128,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Onlookers,Kimi Takesue,2023,Lao People's Democratic Republic,tt24240390,2023,72,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+"Orlando, My Political Biography",Paul B. Preciado,2023,France,tt26448981,2023,98,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Pictures of Ghosts,Kleber Mendonça Filho,2023,Brazil,tt27502227,2023,93,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Pretty Red Dress,Dionne Edwards,2023,United Kingdom,tt14906708,2022,110,fuzzy_canonical,92.5,has_credits_no_shared_actor
+Return to Reason: Four Films by Man Ray,Man Ray,2023,France,tt27656132,2023,70,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Terrestrial Verses,Ali Asgari and Alireza Khatami,2023,Iran,tt27502360,2023,77,fuzzy_canonical,95.3,has_credits_no_shared_actor
+The Beast,Bertrand Bonello,2023,France,tt14407336,2023,146,fuzzy_canonical,100.0,has_credits_no_shared_actor
+All We Imagine as Light,Payal Kapadia,2024,India,tt32086077,2024,118,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Castration Movie Anthology i. Traps,Louise Weard,2024,Canada,tt35022825,2024,275,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Cloud,Kiyoshi Kurosawa,2024,Japan,tt32828123,2024,124,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Happyend,Neo Sora,2024,Japan,tt29279903,2024,113,fuzzy_canonical,100.0,has_credits_no_shared_actor
+"Maya, Give Me a Title",Michel Gondry,2024,France,tt31809821,2024,61,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Misericordia,Alain Guiraudie,2024,France,tt32085997,2024,104,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Motel Destino,Karim Aïnouz,2024,Brazil,tt28608358,2024,115,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Nocturnes,Anirban Dutta and Anupama Srinivasan,2024,India,tt30320605,2024,82,fuzzy_canonical,95.5,has_credits_no_shared_actor
+Queens of Drama,Alexis Langlois,2024,Belgium,tt28349668,2024,114,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Resynator,Alison Tavel,2024,United States,tt5778628,2024,96,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Sex,Dag Johan Haugerud,2024,Norway,tt26270862,2024,118,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Stranger Eyes,Yeo Siew Hua,2024,France,tt28419037,2024,125,fuzzy_canonical,90.3,has_credits_no_shared_actor
+The Callers,Lindsey Dryden,2024,United Kingdom,tt24121692,2024,77,fuzzy_canonical,88.8,has_credits_no_shared_actor
+The Shepherd and the Bear,Max Keegan,2024,United States,tt27623454,2024,101,fuzzy_canonical,100.0,no_actor_credits_in_imdb
+The Taste of Mango,Chloe Abrahams,2024,United Kingdom,tt26696417,2023,75,fuzzy_canonical,92.5,no_actor_credits_in_imdb
+Union,Stephen T. Maing and Brett Story,2024,United States,tt30319916,2024,100,fuzzy_canonical,95.9,has_credits_no_shared_actor
+Vermiglio,Maura Delpero,2024,Italy,tt28618488,2024,119,fuzzy_canonical,100.0,has_credits_no_shared_actor
+Goodbye Horses: The Many Lives of Q Lazzarus,Eva Aridjis,2025,United States,tt21394182,2025,103,fuzzy_canonical,97.1,has_credits_no_shared_actor
+The Ballad of Suzanne Césaire,Madeleine Hunt-Ehrlich,2025,United States,tt29893103,2024,75,fuzzy_canonical,92.5,has_credits_no_shared_actor

@@ -1,0 +1,20 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Pather Panchali,Satyajit Ray,1955,India,tt0048473,1955,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Aparajito,Satyajit Ray,1956,India,tt0048956,1956,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Music Room,Satyajit Ray,1958,India,tt0051792,1958,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Apur Sansar,Satyajit Ray,1959,India,tt0052572,1959,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Devi,Satyajit Ray,1960,India,tt0053765,1960,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Cloud-Capped Star,Ritwik Ghatak,1960,India,tt0054073,1960,126,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Daughters,Satyajit Ray,1961,India,tt0055508,1961,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Big City,Satyajit Ray,1963,India,tt0057277,1963,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Charulata,Satyajit Ray,1964,India,tt0057935,1964,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Coward,Satyajit Ray,1965,India,tt0059348,1965,70,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+The Holy Man,Satyajit Ray,1965,India,tt0059417,1965,65,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hero,Satyajit Ray,1966,India,tt0060742,1966,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Elephant God,Satyajit Ray,1979,India,tt0077775,1979,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Home and the World,Satyajit Ray,1984,India,tt0087328,1984,140,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Enemy of the People,Satyajit Ray,1989,India,tt0097409,1989,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mississippi Masala,Mira Nair,1991,United States,tt0102456,1991,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Stranger,Satyajit Ray,1991,India,tt0101279,1991,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fresh Kill,Shu Lea Cheang,1994,United Kingdom,tt0109843,1994,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Celluloid Man,Shivendra Singh Dungarpur,2012,India,tt2190196,2012,164,fuzzy_canonical,100.0,1.0,1.0,1.0,10

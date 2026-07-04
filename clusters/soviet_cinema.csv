@@ -1,0 +1,25 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+The Cranes Are Flying,Mikhail Kalatozov,1957,Soviet Union,tt0050634,1957,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ballad of a Soldier,Grigori Chukhrai,1959,Soviet Union,tt0052600,1959,88,fuzzy_canonical,98.7,1.0,0.964,1.0,10
+Letter Never Sent,Mikhail Kalatozov,1959,Soviet Union,tt0053106,1960,96,fuzzy_canonical,92.5,1.0,1.0,0.5,6
+Ivan’s Childhood,Andrei Tarkovsky,1962,Soviet Union,tt0056111,1962,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nine Days of One Year,Mikhail Romm,1962,Soviet Union,tt0054803,1962,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Welcome, or No Trespassing",Elem Klimov,1964,Soviet Union,tt0058022,1964,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adventures of a Dentist,Elem Klimov,1965,Soviet Union,tt0155028,1965,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Andrei Rublev,Andrei Tarkovsky,1966,Soviet Union,tt0060107,1966,189,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"War and Peace, Part I: Andrei Bolkonsky",Sergei Bondarchuk,1966,Soviet Union,tt0059884,1965,147,fuzzy_canonical,91.7,1.0,0.9765,0.5,10
+"War and Peace, Part II: Natasha Rostova",Sergei Bondarchuk,1966,Soviet Union,tt0061162,1965,98,fuzzy_canonical,91.7,1.0,0.9765,0.5,10
+Wings,Larisa Shepitko,1966,Soviet Union,tt0061196,1966,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Brief Encounters,Kira Muratova,1967,Ukraine,tt0061883,1967,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"War and Peace, Part III: The Year 1812",Sergei Bondarchuk,1967,Soviet Union,tt0062455,1967,81,fuzzy_canonical,99.2,1.0,0.9765,1.0,10
+"War and Peace, Part IV: Pierre Bezukhov",Sergei Bondarchuk,1967,Soviet Union,tt0062456,1967,100,fuzzy_canonical,99.2,1.0,0.9765,1.0,10
+The Long Farewell,Kira Muratova,1971,Ukraine,tt0092905,1971,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Solaris,Andrei Tarkovsky,1972,Soviet Union,tt0069293,1972,167,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mirror,Andrei Tarkovsky,1975,Soviet Union,tt0072443,1975,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ascent,Larisa Shepitko,1977,Soviet Union,tt0075404,1977,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stalker,Andrei Tarkovsky,1979,Soviet Union,tt0079944,1979,162,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Among Grey Stones,Kira Muratova,1983,Soviet Union,tt0173240,1983,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Change of Fate,Kira Muratova,1987,Soviet Union,tt0087900,1987,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Asthenic Syndrome,Kira Muratova,1989,Soviet Union,tt0096841,1989,153,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Stories,Kira Muratova,1997,Russia,tt0120372,1997,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Tuner,Kira Muratova,2004,Russia,tt0383020,2004,154,fuzzy_canonical,100.0,1.0,1.0,1.0,10

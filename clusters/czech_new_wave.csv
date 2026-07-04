@@ -1,0 +1,38 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Invention for Destruction,Karel Zeman,1958,Czechoslovakia,tt0052374,1958,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The White Dove,František Vláčil,1960,Czechoslovakia,tt0175743,1960,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Devil’s Trap,František Vláčil,1962,Czechoslovakia,tt0054780,1962,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Fabulous Baron Munchausen,Karel Zeman,1962,Czechoslovakia,tt0054665,1962,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ikarie XB 1,Jindřich Polák,1963,Czechoslovakia,tt0122111,1963,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Cassandra Cat,Vojtěch Jasný,1963,Czechoslovakia,tt0056844,1963,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Black Peter,Miloš Forman,1964,Czechoslovakia,tt0056919,1964,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Courage for Every Day,Evald Schorm,1964,Czechoslovakia,tt0058259,1964,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hop Pickers,Ladislav Rychman,1964,Czechoslovakia,tt0124888,1964,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Intimate Lighting,Ivan Passer,1965,Czechoslovakia,tt0060543,1965,71,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Loves of a Blonde,Miloš Forman,1965,Czechoslovakia,tt0059415,1965,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Report on the Party and Guests,Jan Němec,1966,Czechoslovakia,tt0063371,1966,71,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Closely Watched Trains,Jiří Menzel,1966,Czechoslovakia,tt0060802,1966,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Coach to Vienna,Karel Kachyňa,1966,Czechoslovakia,tt0060597,1966,78,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Daisies,Věra Chytilová,1966,Czechoslovakia,tt0060959,1966,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pearls of the Deep,"Jiří Menzel, Věra Chytilová, Jaromil Jireš, Jan Němec, and Evald Schorm",1966,Czechoslovakia,tt0059581,1965,107,fuzzy_canonical,86.6,1.0,0.8328,0.5,10
+Marketa Lazarová,František Vláčil,1967,Czechoslovakia,tt0063278,1967,162,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Return of the Prodigal Son,Evald Schorm,1967,Czechoslovakia,tt0060770,1967,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Firemen’s Ball,Miloš Forman,1967,Czechoslovakia,tt0061781,1967,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Unfortunate Bridegroom,Jiří Krejčík,1967,Czechoslovakia,tt0173279,1967,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Capricious Summer,Jiří Menzel,1968,Czechoslovakia,tt0063527,1968,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Valley of the Bees,František Vláčil,1968,Czechoslovakia,tt0122770,1968,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All My Good Countrymen,Vojtech Jasný,1969,Czechoslovakia,tt0063791,1969,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Cremator,Juraj Herz,1969,Czechoslovakia,tt0063633,1969,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Joke,Jaromil Jireš,1969,Czechoslovakia,tt0065241,1969,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adelheid,František Vláčil,1970,Czechoslovakia,tt0122371,1969,99,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Case for a Rookie Hangman,Pavel Juráček,1970,Czechoslovakia,tt0064843,1970,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fruit of Paradise,Věra Chytilová,1970,Czechoslovakia,tt0064781,1970,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ear,Karel Kachyna,1970,Czechoslovakia,tt0066498,1970,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Valerie and Her Week of Wonders,Jaromil Jireš,1970,Czechoslovakia,tt0066516,1970,77,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Witchhammer,Otakar Vávra,1970,Czechoslovakia,tt0064546,1970,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Four Murders Are Enough, Darling",Oldřich Lipský,1971,Czechoslovakia,tt0065600,1971,103,fuzzy_canonical,96.6,0.9316,1.0,1.0,10
+The Girl on the Broomstick,Václav Vorlíček,1972,,tt0067464,1972,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Wishes for Cinderella,Václav Vorlíček,1973,Czechoslovakia,tt0070832,1973,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Calamity,Věra Chytilová,1982,Czechoslovakia,tt0082599,1982,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wolf’s Hole,Věra Chytilová,1987,Czechoslovakia,tt0090271,1987,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+CzechMate: In Search of Jiří Menzel,Shivendra Singh Dungarpur,2018,India,tt5305230,2018,448,fuzzy_canonical,100.0,1.0,1.0,1.0,10

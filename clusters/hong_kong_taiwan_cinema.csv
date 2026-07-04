@@ -1,0 +1,80 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+Dragon Inn,King Hu,1967,Taiwan,tt0060635,1967,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Touch of Zen,King Hu,1971,Taiwan,tt0064451,1971,200,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Half a Loaf of Kung Fu,Chan Chi-hwa,1978,Hong Kong,tt0080623,1978,97,fuzzy_canonical,94.1,1.0,0.8311,1.0,10
+Last Hurrah for Chivalry,John Woo,1979,Hong Kong,tt0077655,1979,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Fearless Hyena,Jackie Chan,1979,Hong Kong,tt0079315,1979,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Magnificent Butcher,Yuen Woo-ping,1979,Hong Kong,tt0079472,1979,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cute Girl,Hou Hsiao-hsien,1980,Taiwan,tt0080964,1980,90,fuzzy_canonical,94.1,1.0,0.8314,1.0,10
+Encounters of the Spooky Kind,Sammo Hung,1980,Hong Kong,tt0080827,1980,102,fuzzy_canonical,97.1,1.0,0.9176,1.0,10
+The Young Master,Jackie Chan,1980,Hong Kong,tt0081499,1980,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dreadnaught,Yuen Woo-ping,1981,Hong Kong,tt0083352,1981,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Boat People,Ann Hui,1982,Hong Kong,tt0084807,1982,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Nomad,Patrick Tam Kar-Ming,1982,Hong Kong,tt0084248,1982,96,fuzzy_canonical,96.9,1.0,0.91,1.0,10
+"The Green, Green Grass of Home",Hou Hsiao-hsien,1982,Taiwan,tt0086631,1982,91,fuzzy_canonical,94.1,1.0,0.8314,1.0,10
+Fearless Hyena II,Chan Chuen,1983,Hong Kong,tt0085864,1983,94,fuzzy_canonical,94.5,0.964,0.8933,1.0,10
+The Boys from Fengkuei,Hou Hsiao-hsien,1983,Taiwan,tt0085533,1983,99,fuzzy_canonical,94.1,1.0,0.8314,1.0,10
+Heroes Shed No Tears,John Woo,1984,Hong Kong,tt0092264,1984,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Vampire,Ricky Lau,1985,Hong Kong,tt0089371,1985,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+My Lucky Stars,Sammo Hung,1985,Hong Kong,tt0089177,1985,96,fuzzy_canonical,97.1,1.0,0.9176,1.0,10
+Police Story,Jackie Chan,1985,Hong Kong,tt0089374,1985,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Taipei Story,Edward Yang,1985,Taiwan,tt0089866,1985,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Better Tomorrow,John Woo,1986,Hong Kong,tt0092263,1986,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love Unto Waste,Stanley Kwan,1986,Hong Kong,tt0090922,1986,96,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Mr. Vampire II,Ricky Lau,1986,Hong Kong,tt0091293,1986,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Royal Warriors,David Chung,1986,Hong Kong,tt0091229,1986,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Better Tomorrow II,John Woo,1987,Hong Kong,tt0094357,1987,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Chinese Ghost Story,Tony Ching Siu-Tung,1987,Hong Kong,tt0093978,1987,98,fuzzy_canonical,89.2,1.0,0.6907,1.0,10
+An Autumn’s Tale,Mabel Cheung,1987,Hong Kong,tt0093426,1987,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+City on Fire,Ringo Lam Ling-Tung,1987,Hong Kong,tt0093435,1987,101,fuzzy_canonical,96.3,1.0,0.8947,1.0,10
+Eastern Condors,Sammo Hung,1987,Hong Kong,tt0090956,1987,93,fuzzy_canonical,97.1,1.0,0.9176,1.0,10
+Evil Cat,Dennis Yu,1987,Hong Kong,tt0092252,1987,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Magnificent Warriors,David Chung,1987,Hong Kong,tt0094375,1987,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Vampire III,Ricky Lau,1987,Hong Kong,tt0093422,1987,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Prison on Fire,Ringo Lam Ling-Tung,1987,Hong Kong,tt0093304,1987,98,fuzzy_canonical,96.3,1.0,0.8947,1.0,10
+Rouge,Stanley Kwan,1987,Hong Kong,tt0093258,1987,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+As Tears Go By,Wong Kar Wai,1988,Hong Kong,tt0096461,1988,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Vampire IV,Ricky Lau,1988,Hong Kong,tt0099881,1988,96,fuzzy_canonical,97.6,0.9526,1.0,1.0,10
+Police Story 2,Jackie Chan,1988,Hong Kong,tt0095403,1988,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+School on Fire,Ringo Lam Ling-Tung,1988,Hong Kong,tt0096472,1988,101,fuzzy_canonical,96.3,1.0,0.8947,1.0,10
+Miracles,Jackie Chan,1989,Hong Kong,tt0098019,1989,128,fuzzy_canonical,92.8,0.8552,1.0,1.0,10
+My Heart Is That Eternal Rose,Patrick Tam Kar-Ming,1989,Hong Kong,tt0093944,1989,90,fuzzy_canonical,96.9,1.0,0.91,1.0,10
+The Killer,John Woo,1989,Hong Kong,tt0097202,1989,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Chinese Ghost Story II,Tony Ching Siu-Tung,1990,Hong Kong,tt0100625,1990,104,fuzzy_canonical,89.2,1.0,0.6907,1.0,10
+Bullet in the Head,John Woo,1990,Hong Kong,tt0099426,1990,136,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Days of Being Wild,Wong Kar Wai,1990,Hong Kong,tt0101258,1990,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Farewell China,Clara Law,1990,Hong Kong,tt0099000,1990,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Swordsman,"King Hu, Tsui Hark, Ann Hui, Tony Ching Siu-Tung, Raymond Lee Wai-Man, and Andrew Kam",1990,Hong Kong,tt0100973,1990,118,fuzzy_canonical,89.4,1.0,0.6958,1.0,10
+A Brighter Summer Day,Edward Yang,1991,Taiwan,tt0101985,1991,237,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Chinese Ghost Story III,Tony Ching Siu-Tung,1991,Hong Kong,tt0102932,1991,104,fuzzy_canonical,89.2,1.0,0.6907,1.0,10
+Once a Thief,John Woo,1991,Hong Kong,tt0101020,1991,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Prison on Fire II,Ringo Lam Ling-Tung,1991,Hong Kong,tt0103044,1991,109,fuzzy_canonical,96.3,1.0,0.8947,1.0,10
+Riki-Oh: The Story of Ricky,Lam Nai-choi,1991,Hong Kong,tt0102293,1991,91,fuzzy_canonical,88.3,1.0,0.666,1.0,10
+Hard Boiled,John Woo,1992,Hong Kong,tt0104684,1992,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Swordsman II,Tony Ching Siu-Tung,1992,Hong Kong,tt0103295,1992,112,fuzzy_canonical,89.2,1.0,0.6907,1.0,10
+Executioners,Johnnie To and Ching Siu-tung,1993,Hong Kong,tt0108606,1993,101,fuzzy_canonical,95.4,1.0,0.869,1.0,10
+The Eagle Shooting Heroes,Jeffrey Lau,1993,Hong Kong,tt0108074,1993,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The East Is Red,Raymond Lee Wai-Man and Tony Ching Siu-Tung,1993,Hong Kong,tt0105655,1993,98,fuzzy_canonical,94.8,1.0,0.8512,1.0,10
+The Heroic Trio,Johnnie To,1993,Hong Kong,tt0105619,1993,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Confucian Confusion,Edward Yang,1994,Taiwan,tt0109685,1994,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Chungking Express,Wong Kar Wai,1994,Hong Kong,tt0109424,1994,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fallen Angels,Wong Kar Wai,1995,Hong Kong,tt0112913,1995,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mahjong,Edward Yang,1996,Taiwan,tt0116962,1996,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Happy Together,Wong Kar Wai,1997,Hong Kong,tt0118845,1997,96,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Once Upon a Time in China and America,Sammo Hung,1997,Hong Kong,tt0120530,1997,102,fuzzy_canonical,97.1,1.0,0.9176,1.0,10
+Flowers of Shanghai,Hou Hsiao-hsien,1998,Taiwan,tt0156587,1998,113,fuzzy_canonical,94.1,1.0,0.8314,1.0,10
+In the Mood for Love,Wong Kar Wai,2000,Hong Kong,tt0118694,2000,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Yi Yi,Edward Yang,2000,Taiwan,tt0244316,2000,173,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lan Yu,Stanley Kwan,2001,Hong Kong,tt0292066,2001,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Millennium Mambo,Hou Hsiao-hsien,2001,Taiwan,tt0283283,2001,119,fuzzy_canonical,94.1,1.0,0.8314,1.0,10
+Chinese Odyssey 2002,Jeffrey Lau,2002,Hong Kong,tt0311913,2002,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Infernal Affairs,Andrew Lau Wai-keung and Alan Mak,2002,Hong Kong,tt0338564,2002,101,fuzzy_canonical,87.5,1.0,0.6441,1.0,10
+July Rhapsody,Ann Hui,2002,Hong Kong,tt0312886,2002,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Infernal Affairs II,Andrew Lau Wai-keung and Alan Mak,2003,Hong Kong,tt0369060,2003,119,fuzzy_canonical,87.5,1.0,0.6441,1.0,10
+Infernal Affairs III,Andrew Lau Wai-keung and Alan Mak,2003,Hong Kong,tt0374339,2003,118,fuzzy_canonical,87.5,1.0,0.6441,1.0,10
+Throw Down,Johnnie To,2004,Hong Kong,tt0415380,2004,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Long Day’s Journey Into Night,Bi Gan,2018,France,tt8185182,2018,138,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Only the River Flows,Wei Shujun,2023,China,tt27590147,2023,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All Shall Be Well,Ray Yeung,2024,Hong Kong,tt30439035,2024,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Daughter’s Daughter,Huang Xi,2024,Taiwan,tt29271889,2024,126,fuzzy_canonical,88.3,1.0,0.6667,1.0,10
+Resurrection,Bi Gan,2025,China,tt29002950,2025,160,fuzzy_canonical,100.0,1.0,1.0,1.0,10

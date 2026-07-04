@@ -1,0 +1,364 @@
+title,criterion_director,criterion_year,criterion_country,imdb_tconst,imdb_year,imdb_runtime_minutes,match_method,confidence_score,title_similarity,director_similarity,year_similarity,actor_count
+"I Graduated, But...",Yasujiro Ozu,1929,Japan,tt0019796,1929,70,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+"I Flunked, But...",Yasujiro Ozu,1930,Japan,tt0021283,1930,65,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+That Night’s Wife,Yasujiro Ozu,1930,Japan,tt0021406,1930,65,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Walk Cheerfully,Yasujiro Ozu,1930,Japan,tt0020980,1930,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lady and the Beard,Yasujiro Ozu,1931,Japan,tt0022048,1931,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Neighbor's Wife and Mine,Heinosuke Gosho,1931,Japan,tt0022105,1931,64,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokyo Chorus,Yasujiro Ozu,1931,Japan,tt0022485,1931,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"I Was Born, But . . .",Yasujiro Ozu,1932,Japan,tt0023634,1932,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+No Blood Relation,Mikio Naruse,1932,Japan,tt0023261,1932,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Where Now Are the Dreams of Youth?,Yasujiro Ozu,1932,Japan,tt0023450,1932,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Apart from You,Mikio Naruse,1933,Japan,tt0024214,1933,64,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dragnet Girl,Yasujiro Ozu,1933,Japan,tt0024120,1933,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Every-Night Dreams,Mikio Naruse,1933,Japan,tt0024793,1933,64,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Japanese Girls at the Harbor,Hiroshi Shimizu,1933,Japan,tt0160535,1933,72,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Passing Fancy,Yasujiro Ozu,1933,Japan,tt0023937,1933,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Mother Should Be Loved,Yasujiro Ozu,1934,Japan,tt0025214,1934,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Story of Floating Weeds,Yasujiro Ozu,1934,Japan,tt0025929,1934,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Street Without End,Mikio Naruse,1934,Japan,tt0025338,1934,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Inn in Tokyo,Yasujiro Ozu,1935,Japan,tt0027118,1935,79,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Burden of Life,Heinosuke Gosho,1935,Japan,tt0026549,1935,66,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mr. Thank You,Hiroshi Shimizu,1936,Japan,tt0027307,1936,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Osaka Elegy,Kenji Mizoguchi,1936,Japan,tt0028021,1936,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sisters of the Gion,Kenji Mizoguchi,1936,Japan,tt0027672,1936,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Only Son,Yasujiro Ozu,1936,Japan,tt0027752,1936,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Humanity and Paper Balloons,Sadao Yamanaka,1937,Japan,tt0029314,1937,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+What Did the Lady Forget?,Yasujiro Ozu,1937,Japan,tt0029557,1937,71,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Masseurs and a Woman,Hiroshi Shimizu,1938,Japan,tt0426900,1938,66,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Story of the Last Chrysanthemum,Kenji Mizoguchi,1939,Japan,tt0032156,1939,148,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Brothers and Sisters of the Toda Family,Yasujiro Ozu,1941,Japan,tt0034298,1941,105,fuzzy_canonical,92.5,0.8493,1.0,1.0,10
+Ornamental Hairpin,Hiroshi Shimizu,1941,Japan,tt0427424,1941,70,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+THE 47 RONIN: Part 1,Kenji Mizoguchi,1941,Japan,tt0033654,1941,241,fuzzy_canonical,97.3,0.9462,1.0,1.0,10
+THE 47 RONIN: Part 2,Kenji Mizoguchi,1941,Japan,tt0033654,1941,241,fuzzy_canonical,97.3,0.9462,1.0,1.0,10
+There Was a Father,Yasujiro Ozu,1942,Japan,tt0034591,1942,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sanshiro Sugata,Akira Kurosawa,1943,Japan,tt0036400,1943,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Living Magoroku,Keisuke Kinoshita,1943,Japan,tt0036034,1943,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Army,Keisuke Kinoshita,1944,Japan,tt0037227,1944,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jubilation Street,Keisuke Kinoshita,1944,Japan,tt0036977,1944,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Most Beautiful,Akira Kurosawa,1944,Japan,tt0036947,1944,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Sanshiro Sugata, Part Two",Akira Kurosawa,1945,Japan,tt0038268,1945,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Morning for the Osone Family,Keisuke Kinoshita,1946,Japan,tt0038810,1946,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+No Regrets for Our Youth,Akira Kurosawa,1946,Japan,tt0039090,1946,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Girl I Loved,Keisuke Kinoshita,1946,Japan,tt0039091,1946,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Utamaro and His Five Women,Kenji Mizoguchi,1946,Japan,tt0039074,1946,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+One Wonderful Sunday,Akira Kurosawa,1947,Japan,tt0039871,1947,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Phoenix,Keisuke Kinoshita,1947,Japan,tt0039406,1947,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Record of a Tenement Gentleman,Yasujiro Ozu,1947,Japan,tt0039651,1947,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Snow Trail,Senkichi Taniguchi,1947,Japan,tt0039423,1947,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Hen in the Wind,Yasujiro Ozu,1948,Japan,tt0040505,1948,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Apostasy,Keisuke Kinoshita,1948,Japan,tt0040413,1948,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Drunken Angel,Akira Kurosawa,1948,Japan,tt0040979,1948,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Portrait,Keisuke Kinoshita,1948,Japan,tt0040782,1948,73,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Women of the Night,Kenji Mizoguchi,1948,Japan,tt0040980,1948,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Broken Drum,Keisuke Kinoshita,1949,Japan,tt0042056,1949,108,fuzzy_canonical,92.9,0.8578,1.0,1.0,10
+Here’s to the Young Lady,Keisuke Kinoshita,1949,Japan,tt0041713,1949,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Late Spring,Yasujiro Ozu,1949,Japan,tt0041154,1949,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stray Dog,Akira Kurosawa,1949,Japan,tt0041699,1949,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Yotsuya Kaidan, Part I",Keisuke Kinoshita,1949,Japan,tt0042059,1949,85,fuzzy_canonical,96.7,0.9333,1.0,1.0,10
+"Yotsuya kaidan, Part II",Keisuke Kinoshita,1949,Japan,tt0042059,1949,85,fuzzy_canonical,96.4,0.9273,1.0,1.0,10
+Rashomon,Akira Kurosawa,1950,Japan,tt0042876,1950,88,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Scandal,Akira Kurosawa,1950,Japan,tt0042958,1950,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Munekata Sisters,Yasujiro Ozu,1950,Japan,tt0042762,1950,112,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wedding Ring,Keisuke Kinoshita,1950,Japan,tt0042651,1950,96,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+Boyhood,Keisuke Kinoshita,1951,Japan,tt0044029,1951,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Carmen Comes Home,Keisuke Kinoshita,1951,Japan,tt0043699,1951,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Early Summer,Yasujiro Ozu,1951,Japan,tt0043313,1951,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fireworks Over the Sea,Keisuke Kinoshita,1951,Japan,tt0044163,1951,122,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ginza Cosmetics,Mikio Naruse,1951,Japan,tt0043587,1951,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Repast,Mikio Naruse,1951,Japan,tt0043801,1951,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Good Fairy,Keisuke Kinoshita,1951,Japan,tt0043159,1951,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Idiot,Akira Kurosawa,1951,Japan,tt0043614,1951,166,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Carmen’s Innocent Love,Keisuke Kinoshita,1952,Japan,tt0044793,1952,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ikiru,Akira Kurosawa,1952,Japan,tt0044741,1952,143,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mother,Mikio Naruse,1952,Japan,tt0044986,1952,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Flavor of Green Tea over Rice,Yasujiro Ozu,1952,Japan,tt0044982,1952,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Life of Oharu,Kenji Mizoguchi,1952,Japan,tt0045112,1952,133,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vendetta of a Samurai,Kazuo Mori,1952,Japan,tt0043707,1952,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Japanese Tragedy,Keisuke Kinoshita,1953,Japan,tt0046127,1953,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gate of Hell,Teinosuke Kinugasa,1953,Japan,tt0045935,1953,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love Letter,Kinuyo Tanaka,1953,Japan,tt0407929,1953,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sincerity,Masaki Kobayashi,1953,Japan,tt0134805,1953,95,fuzzy_canonical,93.2,0.8632,1.0,1.0,10
+Tokyo Story,Yasujiro Ozu,1953,Japan,tt0046438,1953,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ugetsu,Kenji Mizoguchi,1953,Japan,tt0046478,1953,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wife,Mikio Naruse,1953,Japan,tt0046468,1953,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Wild Geese,Shirô Toyoda,1953,Japan,tt0045802,1953,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Story from Chikamatsu,Kenji Mizoguchi,1954,Japan,tt0046851,1954,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla,Ishiro Honda,1954,Japan,tt0047034,1954,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Golden Demon,Koji Shima,1954,Japan,tt0045971,1954,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Late Chrysanthemums,Mikio Naruse,1954,Japan,tt0046750,1954,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai I: Musashi Miyamoto,Hiroshi Inagaki,1954,Japan,tt0047444,1954,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sansho the Bailiff,Kenji Mizoguchi,1954,Japan,tt0047445,1954,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Seven Samurai,Akira Kurosawa,1954,Japan,tt0047478,1954,207,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sound of the Mountain,Mikio Naruse,1954,Japan,tt0047682,1954,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Garden of Women,Keisuke Kinoshita,1954,Japan,tt0047300,1954,141,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Twenty-Four Eyes,Keisuke Kinoshita,1954,Japan,tt0047281,1954,156,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Beautiful Days,Masaki Kobayashi,1955,Japan,tt0135031,1955,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Floating Clouds,Mikio Naruse,1955,Japan,tt0048757,1955,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Forever a Woman,Kinuyo Tanaka,1955,Japan,tt0259248,1955,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla Raids Again,Motoyoshi Oda,1955,Japan,tt0048127,1955,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Live in Fear,Akira Kurosawa,1955,Japan,tt0048198,1955,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Princess Yang Kwei-fei,Kenji Mizoguchi,1955,Japan,tt0048820,1955,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai II: Duel at Ichijoji Temple,Hiroshi Inagaki,1955,Japan,tt0048579,1955,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Moon Has Risen,Kinuyo Tanaka,1955,Japan,tt0417214,1955,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Phantom Horse,Koji Shima,1955,Japan,tt0203797,1955,90,fuzzy_canonical,100.0,1.0,1.0,1.0,7
+The Tattered Wings,Keisuke Kinoshita,1955,Japan,tt0048731,1955,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+You Were Like a Wild Chrysanthemum,Keisuke Kinoshita,1955,Japan,tt0048429,1955,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Black River,Masaki Kobayashi,1956,Japan,tt0134771,1957,114,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Crazed Fruit,Kô Nakahira,1956,Japan,tt0160440,1956,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Early Spring,Yasujiro Ozu,1956,Japan,tt0049784,1956,145,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Farewell to Dream,Keisuke Kinoshita,1956,Japan,tt0049976,1956,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Flowing,Mikio Naruse,1956,Japan,tt0049537,1956,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fountainhead,Masaki Kobayashi,1956,Japan,tt0134749,1956,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Godzilla, King of the Monsters",Ishiro Honda and Terry O. Morse,1956,Japan,tt0197521,1956,80,fuzzy_canonical,95.8,1.0,0.88,1.0,10
+I Will Buy You,Masaki Kobayashi,1956,Japan,tt0134286,1956,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rodan,Ishiro Honda,1956,Japan,tt0049782,1956,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai III: Duel at Ganryu Island,Hiroshi Inagaki,1956,Japan,tt0049710,1956,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Shozo, a Cat, and Two Women",Shirô Toyoda,1956,Japan,tt0274686,1956,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Street of Shame,Kenji Mizoguchi,1956,Japan,tt0048933,1956,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Burmese Harp,Kon Ichikawa,1956,Japan,tt0049012,1956,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Rose on His Arm,Keisuke Kinoshita,1956,Japan,tt0049821,1956,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Thick-Walled Room,Masaki Kobayashi,1956,Japan,tt0134756,1956,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Undercurrent,Kozaburo Yoshimura,1956,,tt0253967,1956,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Danger Stalks Near,Keisuke Kinoshita,1957,Japan,tt0050421,1957,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Am Waiting,Koreyoshi Kurahara,1957,Japan,tt1248984,1957,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Lower Depths,Akira Kurosawa,1957,Japan,tt0050330,1957,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Mysterians,Ishiro Honda,1957,Japan,tt0050251,1957,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Throne of Blood,Akira Kurosawa,1957,Japan,tt0050613,1957,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokyo Twilight,Yasujiro Ozu,1957,Japan,tt0051093,1957,140,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Conflagration,Kon Ichikawa,1958,Japan,tt0051584,1958,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Endless Desire,Shohei Imamura,1958,Japan,tt0051704,1958,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Equinox Flower,Yasujiro Ozu,1958,Japan,tt0051720,1958,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Muhomatsu, the Rickshaw Man",Hiroshi Inagaki,1958,Japan,tt0051955,1958,103,fuzzy_canonical,91.7,0.8347,1.0,1.0,10
+Night Drum,Tadashi Imai,1958,Japan,tt0052414,1958,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Rusty Knife,Toshio Masuda,1958,Japan,tt0360946,1958,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stakeout,Yoshitaro Nomura,1958,Japan,tt0226737,1958,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Stolen Desire,Shohei Imamura,1958,Japan,tt0052016,1958,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ballad of Narayama,Keisuke Kinoshita,1958,Japan,tt0051980,1958,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Eternal Rainbow,Keisuke Kinoshita,1958,Japan,tt0051828,1958,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Hidden Fortress,Akira Kurosawa,1958,Japan,tt0051808,1958,126,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Perfect Game,Toshio Masuda,1958,Japan,tt1935157,1958,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Varan the Unbelievable,Ishiro Honda,1958,Japan,tt0051512,1958,87,fuzzy_canonical,92.3,0.8455,1.0,1.0,10
+Farewell to Spring,Keisuke Kinoshita,1959,Japan,tt0053259,1959,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fires on the Plain,Kon Ichikawa,1959,Japan,tt0053121,1959,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Floating Weeds,Yasujiro Ozu,1959,Japan,tt0053390,1959,119,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Good Morning,Yasujiro Ozu,1959,Japan,tt0053134,1959,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hiroshima mon amour,Alain Resnais,1959,France,tt0052893,1959,90,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Odd Obsession,Kon Ichikawa,1959,Japan,tt0052957,1959,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai Saga,Hiroshi Inagaki,1959,Japan,tt0052579,1959,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Street of Love and Hope,Nagisa Oshima,1959,Japan,tt0052540,1959,62,fuzzy_canonical,92.1,0.8429,1.0,1.0,10
+The Human Condition I,Masaki Kobayashi,1959,Japan,tt0053114,1959,208,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Human Condition II,Masaki Kobayashi,1959,Japan,tt0053115,1959,181,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Snow Flurry,Keisuke Kinoshita,1959,Japan,tt0052966,1959,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Thus Another Day,Keisuke Kinoshita,1959,Japan,tt0052981,1959,74,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokaido Yotsuya kaidan,Nobuo Nakagawa,1959,Japan,tt0155278,1959,76,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cruel Story of Youth,Nagisa Oshima,1960,Japan,tt0054286,1960,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Everything Goes Wrong,Seijun Suzuki,1960,Japan,tt0054350,1960,71,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Her Brother,Kon Ichikawa,1960,Japan,tt0054151,1960,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Intimidation,Koreyoshi Kurahara,1960,Japan,tt2017464,1960,65,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Jigoku,Nobuo Nakagawa,1960,Japan,tt0154683,1960,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Late Autumn,Yasujiro Ozu,1960,Japan,tt0053579,1960,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Night and Fog in Japan,Nagisa Oshima,1960,Japan,tt0054122,1960,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+One-Way Ticket to Love,Masahiro Shinoda,1960,Japan,tt0054143,1960,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Spring Dreams,Keisuke Kinoshita,1960,Japan,tt0053892,1960,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Take Aim at the Police Van,Seijun Suzuki,1960,Japan,tt0054325,1960,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Bad Sleep Well,Akira Kurosawa,1960,Japan,tt0054460,1960,151,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Naked Island,Kaneto Shindo,1960,Japan,tt0056049,1960,96,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+The River Fuefuki,Keisuke Kinoshita,1960,Japan,tt0053842,1960,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Sun’s Burial,Nagisa Oshima,1960,Japan,tt0054366,1960,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Wandering Princess,Kinuyo Tanaka,1960,Japan,tt0385202,1960,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Warped Ones,Koreyoshi Kurahara,1960,Japan,tt0057238,1960,75,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+When a Woman Ascends the Stairs,Mikio Naruse,1960,Japan,tt0054144,1960,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Girls of the Night,Kinuyo Tanaka,1961,Japan,tt0203040,1961,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Immortal Love,Keisuke Kinoshita,1961,Japan,tt0054845,1961,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Killers on Parade,Masahiro Shinoda,1961,Japan,tt0054107,1961,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love New and Old,Masahiro Shinoda,1961,Japan,tt0055440,1961,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Our Marriage,Masahiro Shinoda,1961,Japan,tt0055269,1962,67,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+The End of Summer,Yasujiro Ozu,1961,Japan,tt0055052,1961,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Human Condition III,Masaki Kobayashi,1961,Japan,tt0055233,1961,190,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Yojimbo,Akira Kurosawa,1961,Japan,tt0055630,1961,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zero Focus,Yoshitaro Nomura,1961,Japan,tt0227858,1961,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Flame at the Pier,Masahiro Shinoda,1962,Japan,tt0056562,1962,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Autumn Afternoon,Yasujiro Ozu,1962,Japan,tt0056444,1962,113,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ballad of a Workman,Keisuke Kinoshita,1962,Japan,tt0056003,1962,102,fuzzy_canonical,97.3,0.9462,1.0,1.0,10
+Being Two Isn’t Easy,Kon Ichikawa,1962,Japan,tt0056680,1962,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Black Lizard,Umetsugu Inoue,1962,Japan,tt0229519,1962,101,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Harakiri,Masaki Kobayashi,1962,Japan,tt0056058,1962,133,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+I Hate But Love,Koreyoshi Kurahara,1962,Japan,tt0360839,1962,106,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kiru,Kenji Misumi,1962,,tt0056144,1962,71,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Love Under the Crucifix,Kinuyo Tanaka,1962,Japan,tt0203751,1962,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pigs and Battleships,Shohei Imamura,1962,Japan,tt0054709,1961,108,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Pitfall,Hiroshi Teshigahara,1962,Japan,tt0203612,1962,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sanjuro,Akira Kurosawa,1962,Japan,tt0056443,1962,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Inheritance,Masaki Kobayashi,1962,Japan,tt0056135,1962,107,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Tale of Zatoichi,Kenji Misumi,1962,Japan,tt0056714,1962,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Tale of Zatoichi Continues,Kazuo Mori,1962,Japan,tt0200309,1962,72,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Legend or Was It?,Keisuke Kinoshita,1963,Japan,tt0057494,1963,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Actor’s Revenge,Kon Ichikawa,1963,Japan,tt0057710,1963,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Atragon,Ishiro Honda,1963,Japan,tt0057215,1963,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+High and Low,Akira Kurosawa,1963,Japan,tt0057565,1963,143,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Matango,Ishiro Honda,1963,Japan,tt0057295,1963,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+New Tale of Zatoichi,Tokuzo Tanaka,1963,Japan,tt0057503,1963,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Sing, Young People!",Keisuke Kinoshita,1963,Japan,tt0057632,1963,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Insect Woman,Shohei Imamura,1963,Japan,tt0057363,1963,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Third Shadow Warrior,Umetsugu Inoue,1963,Japan,tt0200559,1963,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Youth of the Beast,Seijun Suzuki,1963,Japan,tt0057697,1963,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi on the Road,Kimiyoshi Yasuda,1963,Japan,tt0057714,1963,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi the Fugitive,Tokuzo Tanaka,1963,Japan,tt0057715,1963,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Adventures of Zatoichi,Kimiyoshi Yasuda,1964,Japan,tt0164984,1964,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Assassin,Masahiro Shinoda,1964,Japan,tt0164347,1964,104,fuzzy_canonical,96.2,0.9231,1.0,1.0,10
+Black Sun,Koreyoshi Kurahara,1964,Japan,tt0781599,1964,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cruel Gun Story,Takumi Furukawa,1964,Japan,tt1446089,1964,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dogora,Ishiro Honda,1964,Japan,tt0058698,1964,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Fight, Zatoichi, Fight",Kenji Misumi,1964,Japan,tt0123334,1964,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gate of Flesh,Seijun Suzuki,1964,Japan,tt0058409,1964,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Ghidorah, the Three-Headed Monster",Ishiro Honda,1964,Japan,tt0058544,1964,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Intentions of Murder,Shohei Imamura,1964,Japan,tt0057829,1964,150,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ken,Kenji Misumi,1964,,tt0366668,1964,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mothra vs. Godzilla,Ishiro Honda,1964,Japan,tt0058379,1964,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Onibaba,Kaneto Shindo,1964,Japan,tt0058430,1964,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pale Flower,Masahiro Shinoda,1964,Japan,tt0056327,1964,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Three Outlaw Samurai,Hideo Gosha,1964,Japan,tt0058652,1964,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Woman in the Dunes,Hiroshi Teshigahara,1964,Japan,tt0058625,1964,147,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Yearning,Mikio Naruse,1964,Japan,tt0058349,1964,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi and the Chest of Gold,Kazuo Ikehiro,1964,Japan,tt0130377,1964,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Flashing Sword,Kazuo Ikehiro,1964,Japan,tt0191664,1964,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+An Innocent Witch,Heinosuke Gosho,1965,Japan,tt0059554,1965,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Frankenstein vs. Baragon,Ishiro Honda,1965,Japan,tt0059205,1965,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Invasion of Astro-Monster,Ishiro Honda,1965,Japan,tt0059346,1965,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ironfinger,Jun Fukuda,1965,Japan,tt0058858,1965,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kenki,Kenji Misumi,1965,,tt0200769,1965,83,fuzzy_canonical,98.1,0.9611,1.0,1.0,10
+Kwaidan,Masaki Kobayashi,1965,Japan,tt0058279,1964,183,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Pleasures of the Flesh,Nagisa Oshima,1965,Japan,tt0059159,1965,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Red Beard,Akira Kurosawa,1965,Japan,tt0058888,1965,185,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai Spy,Masahiro Shinoda,1965,Japan,tt0059303,1965,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Story of a Prostitute,Seijun Suzuki,1965,Japan,tt0059715,1965,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sword of the Beast,Hideo Gosha,1965,Japan,tt0200768,1965,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+With Beauty and Sorrow,Masahiro Shinoda,1965,Japan,tt0059919,1965,106,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Zatoichi and the Chess Expert,Kenji Misumi,1965,Japan,tt0059942,1965,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi and the Doomed Man,Kazuo Mori,1965,Japan,tt0202154,1965,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Revenge,Akira Inoue,1965,Japan,tt0123335,1965,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Ebirah, Horror of the Deep",Jun Fukuda,1966,Japan,tt0060464,1966,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fighting Elegy,Seijun Suzuki,1966,Japan,tt0060586,1966,86,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Face of Another,Hiroshi Teshigahara,1966,Japan,tt0061065,1966,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Pornographers,Shohei Imamura,1966,Japan,tt0060560,1966,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Sword of Doom,Kihachi Okamoto,1966,Japan,tt0060277,1966,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The War of the Gargantuas,Ishiro Honda,1966,Japan,tt0060440,1966,92,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokyo Drifter,Seijun Suzuki,1966,Japan,tt0061101,1966,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Violence at Noon,Nagisa Oshima,1966,Japan,tt0060486,1966,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Pilgrimage,Kazuo Ikehiro,1966,Japan,tt0199905,1966,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Vengeance,Tokuzo Tanaka,1966,Japan,tt0143012,1966,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Colt Is My Passport,Takashi Nomura,1967,Japan,tt0330536,1967,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Branded to Kill,Seijun Suzuki,1967,Japan,tt0061882,1967,91,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Japanese Summer: Double Suicide,Nagisa Oshima,1967,Japan,tt0062009,1967,98,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Samurai Rebellion,Masaki Kobayashi,1967,Japan,tt0061847,1967,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Scattered Clouds,Mikio Naruse,1967,Japan,tt0061971,1967,108,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sing a Song of Sex,Nagisa Oshima,1967,Japan,tt0062042,1967,103,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Son of Godzilla,Jun Fukuda,1967,Japan,tt0061856,1967,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The X from Outer Space,Kazui Nihonmatsu,1967,Japan,tt0062411,1967,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Thirst for Love,Koreyoshi Kurahara,1967,Japan,tt0060082,1966,98,fuzzy_canonical,92.5,1.0,1.0,0.5,10
+Zatoichi Challenged,Kenji Misumi,1967,Japan,tt0063834,1967,87,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi the Outlaw,Satsuo Yamamoto,1967,Japan,tt0062518,1967,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Cane Sword,Kimiyoshi Yasuda,1967,Japan,tt0186725,1967,93,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Death by Hanging,Nagisa Oshima,1968,Japan,tt0063198,1968,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Destroy All Monsters,Ishiro Honda,1968,Japan,tt0063172,1968,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Genocide,Kazui Nihonmatsu,1968,Japan,tt0063195,1968,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Goke, Body Snatcher from Hell",Hajime Sato,1968,Japan,tt0063206,1968,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Golden Eyes,Jun Fukuda,1968,Japan,tt0202507,1968,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kill!,Kihachi Okamoto,1968,Japan,tt0063186,1968,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Kuroneko,Kaneto Shindo,1968,Japan,tt0122136,1968,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Profound Desire of the Gods,Shohei Imamura,1968,Japan,tt0063173,1968,173,fuzzy_canonical,97.4,0.9484,1.0,1.0,10
+Samaritan Zatoichi,Kenji Misumi,1968,Japan,tt0164983,1968,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Living Skeleton,Hiroshi Matsuno,1968,Japan,tt0203635,1968,80,fuzzy_canonical,97.0,1.0,0.9129,1.0,10
+Three Resurrected Drunkards,Nagisa Oshima,1968,Japan,tt0063169,1968,80,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi and the Fugitives,Kimiyoshi Yasuda,1968,Japan,tt0063835,1968,82,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+All Monsters Attack,Ishiro Honda,1969,Japan,tt0064373,1969,70,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Boy,Nagisa Oshima,1969,Japan,tt0063876,1969,97,fuzzy_canonical,100.0,1.0,1.0,1.0,6
+Diary of a Shinjuku Thief,Nagisa Oshima,1969,Japan,tt0063598,1969,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Double Suicide,Masahiro Shinoda,1969,Japan,tt0064975,1969,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Dodes’ka-den,Akira Kurosawa,1970,Japan,tt0065649,1970,140,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Space Amoeba,Ishiro Honda,1970,Japan,tt0065776,1970,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Man Who Left His Will On Film,Nagisa Oshima,1970,Japan,tt0066466,1970,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Shadow Within,Yoshitaro Nomura,1970,Japan,tt0203605,1970,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi Goes to the Fire Festival,Kenji Misumi,1970,Japan,tt0164982,1970,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi Meets Yojimbo,Kihachi Okamoto,1970,Japan,tt0066603,1970,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. Hedorah,Yoshimitsu Banno,1971,Japan,tt0067148,1971,85,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Silence,Masahiro Shinoda,1971,Japan,tt0067755,1971,129,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Ceremony,Nagisa Oshima,1971,Japan,tt0066639,1971,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi Meets the One-Armed Swordsman,Kimiyoshi Yasuda,1971,Japan,tt0066602,1971,94,fuzzy_canonical,95.4,0.9085,1.0,1.0,10
+Godzilla vs. Gigan,Jun Fukuda,1972,Japan,tt0068371,1972,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hanzo the Razor: Sword of Justice,Kenji Misumi,1972,Japan,tt0068650,1972,94,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lone Wolf and Cub: Baby Cart at the River Styx,Kenji Misumi,1972,Japan,tt0068816,1972,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lone Wolf and Cub: Baby Cart in Peril,Buichi Saito,1972,Japan,tt0143348,1972,81,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lone Wolf and Cub: Baby Cart to Hades,Kenji Misumi,1972,Japan,tt0068817,1972,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lone Wolf and Cub: Sword of Vengeance,Kenji Misumi,1972,Japan,tt0068815,1972,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sapporo Winter Olympics,Masahiro Shinoda,1972,Japan,tt0069222,1972,167,fuzzy_canonical,100.0,1.0,1.0,1.0,5
+Zatoichi at Large,Kazuo Mori,1972,Japan,tt0202153,1972,90,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi in Desperation,Shintaro Katsu,1972,Japan,tt0201922,1972,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. Megalon,Jun Fukuda,1973,Japan,tt0070122,1973,78,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hanzo the Razor: The Snare,Yasuzo Masumura,1973,Japan,tt0174707,1973,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lady Snowblood,Toshiya Fujita,1973,Japan,tt0158714,1973,97,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lone Wolf and Cub: Baby Cart in the Land of Demons,Kenji Misumi,1973,Japan,tt0143428,1973,89,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Petrified Forest,Masahiro Shinoda,1973,Japan,tt0070528,1973,118,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Zatoichi’s Conspiracy,Kimiyoshi Yasuda,1973,Japan,tt0072439,1973,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. Mechagodzilla,Jun Fukuda,1974,Japan,tt0071565,1974,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hanzo the Razor: Who’s Got the Gold?,Yoshio Inoue,1974,Japan,tt0174708,1974,84,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Himiko,Masahiro Shinoda,1974,Japan,tt0071609,1974,100,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Lady Snowblood: Love Song of Vengeance,Toshiya Fujita,1974,Japan,tt0072157,1974,89,fuzzy_canonical,97.9,0.9573,1.0,1.0,10
+Lone Wolf and Cub: White Heaven in Hell,Yoshiyuki Kuroda,1974,Japan,tt0071695,1974,83,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sandakan No. 8,Kei Kumai,1974,Japan,tt0073654,1974,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Castle of Sand,Yoshitaro Nomura,1974,Japan,tt0202604,1974,143,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Terror of Mechagodzilla,Ishiro Honda,1975,Japan,tt0073373,1975,79,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Under the Blossoming Cherry Trees,Masahiro Shinoda,1975,Japan,tt0073841,1975,95,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+In the Realm of the Senses,Nagisa Oshima,1976,Japan,tt0074102,1976,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ballad of Orin,Masahiro Shinoda,1977,Japan,tt0076124,1977,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+House,Nobuhiko Obayashi,1977,Japan,tt0076162,1977,88,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Bandits vs. Samurai Squadron,Hideo Gosha,1978,Japan,tt0164707,1978,163,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Empire of Passion,Nagisa Oshima,1978,Japan,tt0077132,1978,105,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gatchaman: The Movie,Hisayuki Toriumi,1978,Japan,tt0415906,1978,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Demon,Yoshitaro Nomura,1978,Japan,tt0202434,1978,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Demon Pond,Masahiro Shinoda,1979,Japan,tt0079041,1979,123,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Hunter in the Dark,Hideo Gosha,1979,Japan,tt0079317,1979,137,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Vengeance Is Mine,Shohei Imamura,1979,Japan,tt0079182,1979,139,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Shogun Assassin,Kenji Misumi and Robert Houston,1980,United States,tt0081506,1980,85,fuzzy_canonical,95.7,1.0,0.8774,1.0,10
+The Young Rebels,Keisuke Kinoshita,1980,Japan,tt0456892,1980,132,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Eijanaika,Shohei Imamura,1981,Japan,tt0082313,1981,151,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Fall Guy,Kinji Fukasaku,1982,Japan,tt0082601,1982,109,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Children of Nagasaki,Keisuke Kinoshita,1983,Japan,tt0087571,1983,128,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Makioka Sisters,Kon Ichikawa,1983,Japan,tt0086242,1983,140,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokyo Trial,Masaki Kobayashi,1983,,tt0124169,1983,277,fuzzy_canonical,100.0,1.0,1.0,1.0,1
+Antonio Gaudí,Hiroshi Teshigahara,1984,Japan,tt0086907,1984,72,fuzzy_canonical,100.0,1.0,1.0,1.0,2
+The Funeral,Juzo Itami,1984,Japan,tt0089746,1984,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Mishima: A Life in Four Chapters,Paul Schrader,1985,United States,tt0089603,1985,120,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tampopo,Juzo Itami,1985,Japan,tt0092048,1985,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tokyo-ga,Wim Wenders,1985,West Germany,tt0090182,1985,92,fuzzy_canonical,100.0,1.0,1.0,1.0,4
+Tracked,Hideo Gosha,1985,Japan,tt0204716,1985,124,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+"Big Joys, Small Sorrows",Keisuke Kinoshita,1986,Japan,tt0091946,1986,130,fuzzy_canonical,100.0,1.0,1.0,1.0,9
+Death Shadows,Hideo Gosha,1986,Japan,tt0165339,1986,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Gonza the Spearman,Masahiro Shinoda,1986,Japan,tt0091136,1986,126,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Taxing Woman,Juzo Itami,1987,Japan,tt0093502,1987,127,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Princess from the Moon,Kon Ichikawa,1987,Japan,tt0094100,1987,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Taxing Woman's Return,Juzo Itami,1988,Japan,tt0095597,1988,127,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Father,Keisuke Kinoshita,1988,Japan,tt0094858,1988,74,fuzzy_canonical,100.0,1.0,1.0,1.0,8
+Kaisha monogatari: Memories of You,Jun Ichikawa,1988,Japan,tt0203608,1988,99,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. Biollante,Kazuki Omori,1989,Japan,tt0097444,1989,104,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Pacific Heights,John Schlesinger,1990,United States,tt0100318,1990,102,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Ronin Gai,Kazuo Kuroki,1990,Japan,tt0308827,1990,117,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tales of a Golden Geisha,Juzo Itami,1990,Japan,tt0098972,1990,114,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. King Ghidorah,Kazuki Ohmori,1991,,tt0101962,1991,100,fuzzy_canonical,99.5,1.0,0.9846,1.0,10
+Heat Wave,Hideo Gosha,1991,Japan,tt0309754,1991,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Godzilla vs. Mothra,Takao Okawara,1992,,tt0104352,1992,100,fuzzy_canonical,92.2,0.8444,1.0,1.0,10
+The Oil-Hell Murder,Hideo Gosha,1992,Japan,tt0105060,1992,115,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Madadayo,Akira Kurosawa,1993,Japan,tt0107474,1993,134,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Moving,Shinji Sōmai,1993,Japan,tt0107736,1993,125,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+The Last Dance,Juzo Itami,1993,Japan,tt0106651,1993,116,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+A Quiet Life,Juzo Itami,1995,Japan,tt0131013,1995,121,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Supermarket Woman,Juzo Itami,1996,Japan,tt0127310,1996,127,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Cure,Kiyoshi Kurosawa,1997,Japan,tt0123948,1997,111,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Moonlight Serenade,Masahiro Shinoda,1997,Japan,tt0120101,1997,110,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Woman in Witness Protection,Juzo Itami,1997,Japan,tt0133089,1997,131,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+After Life,Hirokazu Kore-eda,1998,Japan,tt0165078,1998,119,fuzzy_canonical,99.6,1.0,0.9882,1.0,10
+Ring,Hideo Nakata,1998,Japan,tt0178868,1998,96,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Sada,Nobuhiko Obayashi,1998,Japan,tt0144589,1998,132,fuzzy_canonical,100.0,1.0,1.0,1.0,10
+Tamala 2010: A Punk Cat in Space,t.o.L,2002,Japan,tt0374262,2002,92,fuzzy_canonical,89.1,1.0,0.6889,1.0,4
+Still Walking,Hirokazu Kore-eda,2008,Japan,tt1087578,2008,115,fuzzy_canonical,99.6,1.0,0.9882,1.0,10
