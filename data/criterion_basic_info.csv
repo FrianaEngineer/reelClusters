@@ -1,25 +1,18 @@
 title,criterion_director,criterion_country,criterion_year,imdb_tconst,imdb_title_type,imdb_year,imdb_runtime_minutes,imdb_director_nconst,imdb_writer_nconst,match_method,confidence_score,title_similarity,director_similarity,year_similarity
-. . . But Film Is My Mistress,Stig Björkman,Sweden,2010,tt1649264,movie,2010,66,nm0084983,,fuzzy_canonical,100.0,1.0,1.0,1.0
 11’09”01—September 11,Mira Nair,United States,2002,tt0328802,movie,2002,134,"nm0327944,nm0149631,nm0321159,nm0408076,nm0500988,nm0516360,nm0538533,nm0619762,nm0653458,nm0000576,nm0849786","nm1240977,nm0149631,nm0223526,nm0321159,nm0327944,nm0491956,nm0500988,nm0516360,nm0538533,nm0653458,nm0000576,nm0763035,nm0849786,nm0854976,nm0882683,nm0891927",fuzzy_canonical,100.0,1.0,1.0,1.0
 12:08 East of Bucharest,Corneliu Porumboiu,,2006,tt0809407,movie,2006,89,nm1717949,nm1717949,fuzzy_canonical,100.0,1.0,1.0,1.0
-13 Days in France,Claude Lelouch and François Reichenbach,France,1968,tt0189330,movie,1968,112,"nm0500988,nm0717025",nm0882683,fuzzy_canonical,95.5,1.0,0.8718,1.0
-16 Days of Glory,Bud Greenspan,United States,1986,tt0090559,movie,1985,284,nm0339175,nm0339175,fuzzy_canonical,92.5,1.0,1.0,0.5
 2 or 3 Things I Know About Her,Jean-Luc Godard,France,1967,tt0060304,movie,1967,87,nm0000419,"nm0898479,nm0000419",fuzzy_canonical,100.0,1.0,1.0,1.0
 200 Cigarettes,Risa Bramon Garcia,United States,1999,tt0137338,movie,1999,101,nm0305405,nm0488899,fuzzy_canonical,100.0,1.0,1.0,1.0
 21 Days,Basil Dean,United Kingdom,1940,tt0032179,movie,1940,72,nm0212704,"nm0303335,nm0212704,nm0001294",fuzzy_canonical,100.0,1.0,1.0,1.0
 24 Frames,Abbas Kiarostami,Iran,2017,tt6777170,movie,2017,114,nm0452102,,fuzzy_canonical,100.0,1.0,1.0,1.0
-32 Sounds,Sam Green,United States,2023,tt16294920,movie,2022,95,nm0338316,,fuzzy_canonical,92.5,1.0,1.0,0.5
 36 fillette,Catherine Breillat and Catherine Breillat,France,1988,tt0094596,movie,1988,88,nm0106924,"nm0106924,nm0758617",fuzzy_canonical,96.1,1.0,0.8878,1.0
 "4 Months, 3 Weeks and 2 Days",Cristian Mungiu,Romania,2007,tt1032846,movie,2007,113,nm0612816,nm0612816,fuzzy_canonical,100.0,1.0,1.0,1.0
 45 Years,Andrew Haigh,United Kingdom,2015,tt3544082,movie,2015,95,nm0354091,"nm0354091,nm3807555",fuzzy_canonical,100.0,1.0,1.0,1.0
 49th Parallel,Michael Powell,United Kingdom,1941,tt0033627,movie,1941,123,nm0003836,"nm0696247,nm0010063",fuzzy_canonical,100.0,1.0,1.0,1.0
 71 Fragments of a Chronology of Chance,Michael Haneke,Germany,1994,tt0109020,movie,1994,100,nm0359734,nm0359734,fuzzy_canonical,100.0,1.0,1.0,1.0
 8½,Federico Fellini,Italy,1963,tt0056801,movie,1963,138,nm0000019,"nm0000019,nm0280919,nm0684083,nm0740021",fuzzy_canonical,100.0,1.0,1.0,1.0
-95 and 6 to Go,Kimi Takesue,United States,2016,tt5105668,movie,2016,86,nm0847585,,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Better Tomorrow,John Woo,Hong Kong,1986,tt0092263,movie,1986,95,nm0000247,"nm0150916,nm0505000,nm0000247",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Better Tomorrow II,John Woo,Hong Kong,1987,tt0094357,movie,1987,105,nm0000247,"nm0150916,nm0505000,nm0007139,nm0000247",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Bigger Splash,Jack Hazan,United Kingdom,1973,tt0071219,movie,1973,106,nm0371883,"nm0371883,nm0591275",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Brief History of Time,Errol Morris,United States,1991,tt0103882,movie,1991,80,nm0001554,nm0370071,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Brighter Summer Day,Edward Yang,Taiwan,1991,tt0101985,movie,1991,237,nm0945981,"nm0945981,nm0795908,nm0591312,nm0393297",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Canterbury Tale,Michael Powell and Emeric Pressburger,United Kingdom,1944,tt0036695,movie,1944,124,"nm0003836,nm0696247","nm0003836,nm0696247",fuzzy_canonical,95.6,1.0,0.8757,1.0
 A Chinese Ghost Story,Tony Ching Siu-Tung,Hong Kong,1987,tt0093978,movie,1987,98,nm0155642,"nm0699700,nm0950699",fuzzy_canonical,89.2,1.0,0.6907,1.0
@@ -28,10 +21,8 @@ A Chinese Ghost Story III,Tony Ching Siu-Tung,Hong Kong,1991,tt0102932,movie,199
 A Christmas Tale,Arnaud Desplechin,France,2008,tt0993789,movie,2008,150,nm0221611,"nm0221611,nm0099802,nm5429021,nm3493561",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Colt Is My Passport,Takashi Nomura,Japan,1967,tt0330536,movie,1967,84,nm0634601,"nm1024346,nm0619069,nm0945257",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Confucian Confusion,Edward Yang,Taiwan,1994,tt0109685,movie,1994,125,nm0945981,nm0945981,fuzzy_canonical,100.0,1.0,1.0,1.0
-A Dedicated Life,Kazuo Hara,Japan,1994,tt0109586,movie,1994,157,nm0361672,,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Fish in the Bathtub,Joan Micklin Silver,United States,1999,tt0126908,movie,1998,96,nm0798717,"nm0799043,nm0160986,nm0798776",fuzzy_canonical,92.5,1.0,1.0,0.5
 A Flame at the Pier,Masahiro Shinoda,Japan,1962,tt0056562,movie,1962,92,nm0793983,"nm5964089,nm0793983,nm0855446",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Fuller Life,Samantha Fuller,United States,2013,tt2972098,movie,2013,80,nm0298341,"nm0002087,nm0298341",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Generation,Andrzej Wajda,Poland,1955,tt0048500,movie,1955,87,nm0906667,nm0194472,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Good Marriage,Eric Rohmer,France,1982,tt0082053,movie,1982,97,nm0006445,nm0006445,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Hard Day’s Night,Richard Lester,United Kingdom,1964,tt0058182,movie,1964,87,nm0504513,nm0654079,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -43,12 +34,10 @@ A Legend or Was It?,Keisuke Kinoshita,Japan,1963,tt0057494,movie,1963,83,nm04558
 A Lesson in Love,Ingmar Bergman,Sweden,1954,tt0047167,movie,1954,96,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Man Escaped,Robert Bresson,France,1956,tt0049902,movie,1956,101,nm0000975,"nm0222519,nm0000975",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Man There Was,Victor Sjöström,Sweden,1917,tt0008663,movie,1917,65,nm0803705,"nm0406585,nm0596410,nm0803705",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Married Couple,Allan King,Canada,1969,tt0064640,movie,1969,97,nm0454437,,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Master Builder,Jonathan Demme,United States,2014,tt2276069,movie,2013,130,nm0001129,"nm0406585,nm0001728",fuzzy_canonical,92.5,1.0,1.0,0.5
 A Monkey in Winter,Henri Verneuil,France,1962,tt0056636,movie,1962,105,nm0894577,"nm0089073,nm0102030,nm0002192,nm0894577",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Mother Should Be Loved,Yasujiro Ozu,Japan,1934,tt0025214,movie,1934,93,nm0654868,"nm0633792,nm0407456,nm0033163,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Night to Remember,Roy Ward Baker,United Kingdom,1958,tt0051994,movie,1958,123,nm0001928,"nm0520520,nm0001907",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Poem Is a Naked Person,Les Blank,United States,1974,tt0424359,movie,1974,90,nm0087511,nm0087511,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Private Function,Malcolm Mowbray,United Kingdom,1984,tt0089838,movie,1984,92,nm0610261,"nm0003141,nm0610261",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Quiet Life,Juzo Itami,Japan,1995,tt0131013,movie,1995,121,nm0411631,"nm0411631,nm0644192",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Real Young Girl,Catherine Breillat,France,1976,tt0135024,movie,1976,89,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -69,14 +58,12 @@ A Taste of Honey,Tony Richardson,United Kingdom,1961,tt0055506,movie,1961,101,nm
 A Taxing Woman,Juzo Itami,Japan,1987,tt0093502,movie,1987,127,nm0411631,nm0411631,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Taxing Woman's Return,Juzo Itami,Japan,1988,tt0095597,movie,1988,127,nm0411631,nm0411631,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Touch of Zen,King Hu,Taiwan,1971,tt0064451,movie,1971,200,nm0002254,"nm0699700,nm0002254",fuzzy_canonical,100.0,1.0,1.0,1.0
-A Turning Point,Kim Takal,Bosnia and Herzegovina,1984,tt7266388,movie,1984,82,nm0847273,,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Wedding,Robert Altman,United States,1978,tt0078481,movie,1978,125,nm0000265,"nm0175912,nm0720334,nm0629454,nm0000265",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Week’s Vacation,Bertrand Tavernier,France,1980,tt0081686,movie,1980,102,nm0851724,"nm0851724,nm0851725,nm0360579",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Woman Is a Woman,Jean-Luc Godard,France,1961,tt0055572,movie,1961,84,nm0000419,"nm0167346,nm0000419",fuzzy_canonical,100.0,1.0,1.0,1.0
 A Woman Under the Influence,John Cassavetes,United States,1974,tt0072417,movie,1974,155,nm0001023,nm0001023,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Woman of Paris,Charles Chaplin,United States,1923,tt0014624,movie,1923,82,nm0000122,nm0000122,fuzzy_canonical,100.0,1.0,1.0,1.0
 A Woman’s Face,Gustaf Molander,Sweden,1938,tt0030337,movie,1938,100,nm0596410,"nm0188544,nm0828436,nm0074863,nm0697511",fuzzy_canonical,100.0,1.0,1.0,1.0
-ABC Africa,Abbas Kiarostami,Iran,2001,tt0281534,movie,2001,83,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
 About Dry Grasses,Nuri Bilge Ceylan,Turkey,2023,tt13231544,movie,2023,197,nm0149196,"nm9831079,nm0946324,nm0149196",fuzzy_canonical,100.0,1.0,1.0,1.0
 Accattone,Pier Paolo Pasolini,Italy,1961,tt0054599,movie,1961,117,nm0001596,"nm0001596,nm0162952",fuzzy_canonical,100.0,1.0,1.0,1.0
 Adelheid,František Vláčil,Czechoslovakia,1970,tt0122371,movie,1969,99,nm0900712,"nm0478005,nm0900712",fuzzy_canonical,92.5,1.0,1.0,0.5
@@ -102,13 +89,9 @@ All Shall Be Well,Ray Yeung,Hong Kong,2024,tt30439035,movie,2024,93,nm1794148,nm
 All That Money Can Buy (a.k.a. The Devil and Daniel Webster),William Dieterle,United States,1941,tt0033532,movie,1941,107,nm0226189,"nm0869371,nm0070948",fuzzy_canonical,93.9,0.8772,1.0,1.0
 All These Women,Ingmar Bergman,Sweden,1964,tt0058124,movie,1964,80,nm0000005,"nm0430746,nm0000005",fuzzy_canonical,100.0,1.0,1.0,1.0
 All We Imagine as Light,Payal Kapadia,India,2024,tt32086077,movie,2024,118,nm10339953,"nm10339953,nm10560794,nm16248022,nm16248013",fuzzy_canonical,100.0,1.0,1.0,1.0
-All by Myself: The Earth Kitt Story,Christian Blackwood,United States,1982,tt0083539,movie,1982,87,nm0085970,nm0903201,fuzzy_canonical,99.7,0.9943,1.0,1.0
-All in This Tea,Les Blank and Gina Leibrecht,United States,2007,tt1015968,movie,2006,70,"nm0087511,nm2629388",,fuzzy_canonical,87.8,1.0,0.8643,0.5
 Alma’s Rainbow,Ayoka Chenzira,United States,1994,tt0109085,movie,1994,89,nm0155704,nm0155704,fuzzy_canonical,100.0,1.0,1.0,1.0
 Amarcord,Federico Fellini,Italy,1973,tt0071129,movie,1973,123,nm0000019,"nm0000019,nm0346096",fuzzy_canonical,100.0,1.0,1.0,1.0
-American Dharma,Errol Morris,United States,2018,tt8804284,movie,2018,95,nm0001554,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Among Grey Stones,Kira Muratova,Soviet Union,1983,tt0173240,movie,1983,88,nm0613645,"nm0466552,nm0613645",fuzzy_canonical,100.0,1.0,1.0,1.0
-An Accidental Studio,"Bill Jones, Kim Leggatt, and Ben Timlett",United Kingdom,2019,tt4843040,movie,2019,97,"nm0427580,nm1375599,nm1507245",,fuzzy_canonical,94.8,1.0,0.8526,1.0
 An Actor’s Revenge,Kon Ichikawa,Japan,1963,tt0057710,movie,1963,115,nm0406728,"nm0406728,nm0297668,nm8786196,nm0586350,nm0411866,nm0455938,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
 An Angel at My Table,Jane Campion,New Zealand,1990,tt0099040,movie,1990,158,nm0001005,"nm0289737,nm0428630",fuzzy_canonical,100.0,1.0,1.0,1.0
 An Autumn Afternoon,Yasujiro Ozu,Japan,1962,tt0056444,movie,1962,113,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -122,25 +105,18 @@ Ana and the Wolves,Carlos Saura,Spain,1973,tt0068207,movie,1973,100,nm0767022,"n
 Anatomy of Hell,Catherine Breillat,France,2004,tt0348529,movie,2004,77,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
 And God Created Woman,Roger Vadim,France,1956,tt0049189,movie,1956,90,nm0671862,"nm0671862,nm0529733",fuzzy_canonical,100.0,1.0,1.0,1.0
 And Life Goes On,Abbas Kiarostami,Iran,1992,tt0105888,movie,1992,95,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
-And Now Miguel,Joseph Krumgold,United States,1953,tt10995602,movie,1953,62,nm0472708,nm0472708,fuzzy_canonical,100.0,1.0,1.0,1.0
 And the Ship Sails On,Federico Fellini,Italy,1983,tt0087188,movie,1983,128,nm0000019,"nm0000019,nm0346096",fuzzy_canonical,100.0,1.0,1.0,1.0
-"And, Towards Happy Alleys",Sreemoyee Singh,India,2023,tt26452090,movie,2023,75,nm14500086,nm14500086,fuzzy_canonical,100.0,1.0,1.0,1.0
 Andrei Rublev,Andrei Tarkovsky,Soviet Union,1966,tt0060107,movie,1966,189,nm0001789,"nm0464846,nm0001789",fuzzy_canonical,100.0,1.0,1.0,1.0
-Andrei Tarkovsky: A Cinema Prayer,Andrei A. Tarkovskiy,Italy,2019,tt10850518,movie,2019,97,nm4899653,nm4899653,fuzzy_canonical,99.3,1.0,0.9789,1.0
 Androcles and the Lion,Chester Erskine,United Kingdom,1952,tt0044355,movie,1952,98,"nm0259838,nm0712947","nm0259838,nm0257700,nm0789737",fuzzy_canonical,100.0,1.0,1.0,1.0
 Angela,Rebecca Miller,United States,1995,tt0112364,movie,1995,99,nm0589182,nm0589182,fuzzy_canonical,100.0,1.0,1.0,1.0
 Anna Karenina,Julien Duvivier,United Kingdom,1948,tt0040098,movie,1948,139,nm0245213,"nm0030478,nm0604698,nm0245213,nm0866243",fuzzy_canonical,100.0,1.0,1.0,1.0
 Anne-Marie,Raymond Bernard,France,1936,tt0027296,movie,1936,109,nm0076368,"nm0756686,nm0485676,nm0076368",fuzzy_canonical,100.0,1.0,1.0,1.0
-Anselm,Wim Wenders,Germany,2023,tt27502250,movie,2023,93,nm0000694,nm0000694,fuzzy_canonical,100.0,1.0,1.0,1.0
 Antitrust,Peter Howitt,United States,2001,tt0218817,movie,2001,108,nm0398185,nm0291442,fuzzy_canonical,100.0,1.0,1.0,1.0
-Antonio Gaudí,Hiroshi Teshigahara,Japan,1984,tt0086907,movie,1984,72,nm0856267,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Anvil! The Story of Anvil,Sacha Gervasi,Canada,2008,tt1157605,movie,2008,80,nm0315065,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Any Number Can Win,Henri Verneuil,France,1962,tt0057344,movie,1963,118,nm0894577,"nm0002192,nm0800631,nm0548579",fuzzy_canonical,92.5,1.0,1.0,0.5
 Aparajito,Satyajit Ray,India,1956,tt0048956,movie,1956,110,nm0006249,"nm0051808,nm0006249,nm5581192",fuzzy_canonical,100.0,1.0,1.0,1.0
 Apart from You,Mikio Naruse,Japan,1933,tt0024214,movie,1933,64,nm0621540,nm0621540,fuzzy_canonical,100.0,1.0,1.0,1.0
 Apostasy,Keisuke Kinoshita,Japan,1948,tt0040413,movie,1948,99,nm0455839,"nm0386750,nm1022193",fuzzy_canonical,100.0,1.0,1.0,1.0
 Apur Sansar,Satyajit Ray,India,1959,tt0052572,movie,1959,105,nm0006249,"nm0051808,nm0006249",fuzzy_canonical,100.0,1.0,1.0,1.0
-Araya,Margot Benacerraf,Venezuela,1959,tt0051372,movie,1959,90,nm0070148,"nm0070148,nm0782041",fuzzy_canonical,100.0,1.0,1.0,1.0
 Arbitrage,Nicholas Jarecki,United States,2012,tt1764183,movie,2012,107,nm1906430,nm1906430,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ariel,Aki Kaurismäki,Finland,1988,tt0094675,movie,1988,72,nm0442454,nm0442454,fuzzy_canonical,100.0,1.0,1.0,1.0
 Army,Keisuke Kinoshita,Japan,1944,tt0037227,movie,1944,87,nm0455839,"nm1471496,nm0407456",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -154,13 +130,10 @@ Atragon,Ishiro Honda,Japan,1963,tt0057215,movie,1963,94,"nm0393094,nm0559398","n
 Au hasard Balthazar,Robert Bresson,France,1966,tt0060138,movie,1966,95,nm0000975,nm0000975,fuzzy_canonical,100.0,1.0,1.0,1.0
 Au revoir les enfants,Louis Malle,France,1987,tt0092593,movie,1987,104,nm0001501,nm0001501,fuzzy_canonical,100.0,1.0,1.0,1.0
 Aurora,Cristi Puiu,Romania,2010,tt1403047,movie,2010,181,nm1090998,nm1090998,fuzzy_canonical,100.0,1.0,1.0,1.0
-Automorphosis,Harrod Blank,,2009,tt0977638,movie,2009,76,nm0087496,nm0087496,fuzzy_canonical,100.0,1.0,1.0,1.0
 Autumn Sonata,Ingmar Bergman,Sweden,1978,tt0077711,movie,1978,99,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
-Babenco: Tell Me When I Die,Bárbara Paz,Brazil,2019,tt6850578,movie,2019,75,nm0668551,"nm3648936,nm0668551",fuzzy_canonical,100.0,1.0,1.0,1.0
 Babette’s Feast,Gabriel Axel,Denmark,1987,tt0092603,movie,1987,103,nm0002196,"nm0227598,nm0002196",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bacurau,Kleber Mendonça Filho and Juliano Dornelles,Brazil,2019,tt2762506,movie,2019,131,"nm2289860,nm2207625","nm2207625,nm2289860",fuzzy_canonical,96.4,1.0,0.8977,1.0
 Bad Lieutenant: Port of Call New Orleans,Werner Herzog,United States,2009,tt1095217,movie,2009,122,nm0001348,nm0277925,fuzzy_canonical,100.0,1.0,1.0,1.0
-Bad Press,Rebecca Landsberry-Baker and Joe Peeler,United States,2023,tt24076780,movie,2023,98,"nm14314681,nm3618768",,fuzzy_canonical,97.3,1.0,0.9231,1.0
 Bad Timing,Nicolas Roeg,United Kingdom,1980,tt0080408,movie,1980,123,nm0001676,nm0879864,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ballad of Orin,Masahiro Shinoda,Japan,1977,tt0076124,movie,1977,109,nm0793983,"nm0367913,nm0590897,nm0793983",fuzzy_canonical,100.0,1.0,1.0,1.0
 Ballad of a Soldier,Grigori Chukhrai,Soviet Union,1959,tt0052600,movie,1959,88,nm0161055,"nm0161055,nm0947899",fuzzy_canonical,98.7,1.0,0.964,1.0
@@ -179,15 +152,12 @@ Bed and Board,François Truffaut,France,1970,tt0065651,movie,1970,97,nm0000076,"
 Before the Rain,Milcho Manchevski,Republic of Macedonia,1994,tt0110882,movie,1994,113,nm0541391,nm0541391,fuzzy_canonical,100.0,1.0,1.0,1.0
 Being Two Isn’t Easy,Kon Ichikawa,Japan,1962,tt0056680,movie,1962,88,nm0406728,"nm0559423,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
 Belle de jour,Luis Buñuel,France,1967,tt0061395,movie,1967,100,nm0000320,"nm0450262,nm0000320,nm0140643",fuzzy_canonical,100.0,1.0,1.0,1.0
-Benjamin Smoke,Jem Cohen and Peter Sillen,United States,2000,tt0233315,movie,2000,72,"nm0169486,nm0798079","nm0169486,nm0798079",fuzzy_canonical,95.4,1.0,0.8692,1.0
 Benny’s Video,Michael Haneke,Austria,1992,tt0103793,movie,1992,110,nm0359734,nm0359734,fuzzy_canonical,100.0,1.0,1.0,1.0
 Bergman Island,Mia Hansen-Løve,France,2021,tt6910282,movie,2021,112,nm0361135,nm0361135,fuzzy_canonical,100.0,1.0,1.0,1.0
 Berlin Express,Jacques Tourneur,United States,1948,tt0040155,movie,1948,87,nm0869664,"nm0575547,nm0802561",fuzzy_canonical,100.0,1.0,1.0,1.0
 Betty Blue: Alternate Version,Jean-Jacques Beineix,France,1986,tt0090563,movie,1986,119,nm0000894,"nm0229172,nm0000894",fuzzy_canonical,93.6,0.8714,1.0,1.0
 Between the Lines,Joan Micklin Silver,United States,1977,tt0075744,movie,1977,101,nm0798717,"nm0057665,nm0375809",fuzzy_canonical,100.0,1.0,1.0,1.0
 Beware of a Holy Whore,Rainer Werner Fassbinder,Germany,1970,tt0067962,movie,1971,103,nm0001202,nm0001202,fuzzy_canonical,92.5,1.0,1.0,0.5
-Beyond All Barriers,Lee Ji-won,South Korea,1988,tt7266776,movie,1989,92,nm9210189,,fuzzy_canonical,92.5,1.0,1.0,0.5
-Beyond the Aggressives: 25 Years Later,Daniel Peddle,United States,2023,tt29344605,movie,2023,80,nm1942664,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Beyond the Hills,Cristian Mungiu,Romania,2012,tt2258281,movie,2012,152,nm0612816,"nm0612816,nm4208990",fuzzy_canonical,100.0,1.0,1.0,1.0
 Beyond the Law,Norman Mailer,United States,1968,tt0169606,movie,1968,110,nm0537551,nm0537551,fuzzy_canonical,100.0,1.0,1.0,1.0
 Bicycle Thieves,Vittorio De Sica,Italy,1948,tt0040522,movie,1948,89,nm0001120,"nm0953790,nm0059030,nm0080755,nm0147599,nm0001120,nm0290000,nm0315657,nm0346291",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -195,7 +165,6 @@ Big Deal on Madonna Street,Mario Monicelli,Italy,1958,tt0052216,movie,1958,106,n
 "Big Joys, Small Sorrows",Keisuke Kinoshita,Japan,1986,tt0091946,movie,1986,130,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
 Birthright,Oscar Micheaux,United States,1938,tt0135163,movie,1938,74,nm0584778,"nm0834323,nm0584778",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bitter Rice,Giuseppe De Santis,Italy,1949,tt0040737,movie,1949,108,nm0211459,"nm0211459,nm0515491,nm0699750,nm0959617,nm0615889,nm0673773,nm0598101,nm0598102",fuzzy_canonical,100.0,1.0,1.0,1.0
-Black Fantasy,Lionel Rogosin,United States,1972,tt0177539,movie,1972,78,nm0737369,"nm0171923,nm0737369",fuzzy_canonical,100.0,1.0,1.0,1.0
 Black Girl,Ousmane Sembène,Senegal,1966,tt0060758,movie,1966,65,nm0783733,nm0783733,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Black God, White Devil",Glauber Rocha,Brazil,1964,tt0058006,movie,1964,120,nm0733790,"nm0510623,nm0733790,nm0811689",fuzzy_canonical,100.0,1.0,1.0,1.0
 Black Lizard,Umetsugu Inoue,Japan,1962,tt0229519,movie,1962,101,nm0409325,"nm0708835,nm0592758,nm0793881",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -204,7 +173,6 @@ Black Narcissus,Michael Powell and Emeric Pressburger,United Kingdom,1947,tt0039
 Black Orpheus,Marcel Camus,France,1959,tt0053146,movie,1959,100,nm0133424,"nm0899254,nm0210460,nm0133424",fuzzy_canonical,100.0,1.0,1.0,1.0
 Black Peter,Miloš Forman,Czechoslovakia,1964,tt0056919,movie,1964,85,nm0001232,"nm0001232,nm0660522",fuzzy_canonical,100.0,1.0,1.0,1.0
 Black River,Masaki Kobayashi,Japan,1956,tt0134771,movie,1957,114,nm0462030,"nm0559695,nm0866721",fuzzy_canonical,92.5,1.0,1.0,0.5
-Black Roots,Lionel Rogosin,United States,1970,tt1196121,movie,1970,63,nm0737369,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Black Sun,Koreyoshi Kurahara,Japan,1964,tt0781599,movie,1964,95,nm0475542,"nm2203754,nm0945257",fuzzy_canonical,100.0,1.0,1.0,1.0
 Blanche Fury,Marc Allégret,United Kingdom,1948,tt0039195,movie,1948,90,nm0002165,"nm0259873,nm0569414,nm0590027,nm0100884",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bleak Moments,Mike Leigh,United Kingdom,1971,tt0066842,movie,1971,111,nm0005139,nm0005139,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -212,7 +180,6 @@ Bleeder,Nicolas Winding Refn,Denmark,1999,tt0161292,movie,1999,98,nm0716347,nm07
 Bless Their Little Hearts,Billy Woodberry,United States,1984,tt0086977,movie,1983,80,nm0940155,nm0122344,fuzzy_canonical,92.5,1.0,1.0,0.5
 Blithe Spirit,David Lean,United Kingdom,1945,tt0038363,movie,1945,96,nm0000180,"nm0000180,nm0623768,nm0369743,nm0002021",fuzzy_canonical,100.0,1.0,1.0,1.0
 Blood Simple,Joel Coen,United States,1984,tt0086979,movie,1984,99,"nm0001054,nm0001053","nm0001054,nm0001053",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Bloody Nose, Empty Pockets",Bill Ross and Turner Ross,United States,2020,tt11392114,movie,2020,98,"nm3226377,nm3225731",,fuzzy_canonical,94.6,1.0,0.8467,1.0
 Boat People,Ann Hui,Hong Kong,1982,tt0084807,movie,1982,109,nm0401176,"nm13395888,nm0158402",fuzzy_canonical,100.0,1.0,1.0,1.0
 Body and Soul,Oscar Micheaux,United States,1925,tt0015634,movie,1925,102,nm0584778,nm0584778,fuzzy_canonical,100.0,1.0,1.0,1.0
 Bona,Lino Brocka,Philippines,1980,tt0082093,movie,1980,85,nm0110653,nm0708504,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -233,31 +200,24 @@ Brink of Life,Ingmar Bergman,Sweden,1958,tt0052017,movie,1958,84,nm0000005,"nm00
 Broken Drum,Keisuke Kinoshita,Japan,1949,tt0042056,movie,1949,108,nm0455839,"nm0455839,nm0462030",fuzzy_canonical,92.9,0.8578,1.0,1.0
 Brothers and Sisters of the Toda Family,Yasujiro Ozu,Japan,1941,tt0034298,movie,1941,105,nm0654868,"nm0407456,nm0654868",fuzzy_canonical,92.5,0.8493,1.0,1.0
 Brute Force,Jules Dassin,United States,1947,tt0039224,movie,1947,98,nm0202088,"nm0112218,nm0666377",fuzzy_canonical,100.0,1.0,1.0,1.0
-Buena Vista Social Club,Wim Wenders,United States,1999,tt0186508,movie,1999,105,nm0000694,"nm0000694,nm1859999",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bulldog Drummond Comes Back,Louis King,United States,1937,tt0028667,movie,1937,64,nm0003422,"nm0522871,nm0573937",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bulldog Drummond Escapes,James P. Hogan,United States,1937,tt0028668,movie,1937,67,nm0003373,"nm0522871,nm0573937,nm0265617",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bulldog Drummond’s Peril,James P. Hogan,United States,1938,tt0029952,movie,1938,66,nm0003373,"nm0658457,nm0573937",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bullet in the Head,John Woo,Hong Kong,1990,tt0099426,movie,1990,136,nm0000247,"nm0000247,nm0504980,nm0150929",fuzzy_canonical,100.0,1.0,1.0,1.0
 Bullshot,Dick Clement,United Kingdom,1983,tt0085279,movie,1983,95,nm0166074,"nm0396697,nm0924716,nm0790474",fuzzy_canonical,100.0,1.0,1.0,1.0
-Burden of Dreams,Les Blank,United States,1982,tt0083702,movie,1982,95,nm0087511,nm0329519,fuzzy_canonical,100.0,1.0,1.0,1.0
 Burden of Life,Heinosuke Gosho,Japan,1935,tt0026549,movie,1935,66,nm0331482,nm0299343,fuzzy_canonical,100.0,1.0,1.0,1.0
 Burning an Illusion,Menelik Shabazz,United Kingdom,1981,tt0082117,movie,1981,106,nm0787066,nm0787066,fuzzy_canonical,100.0,1.0,1.0,1.0
-Burroughs: The Movie,Howard Brookner,United States,1983,tt3581384,movie,1983,90,nm0111837,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Bushman,David Schickele,United States,1971,tt0212016,movie,1971,73,nm0771350,nm0771350,fuzzy_canonical,100.0,1.0,1.0,1.0
 CHRIST STOPPED AT EBOLI: Episode 1,Francesco Rosi,Italy,1979,tt0079010,movie,1979,150,nm0742940,"nm0742940,nm0346096,nm0478431,nm1047692",fuzzy_canonical,97.0,0.9394,1.0,1.0
 CHRIST STOPPED AT EBOLI: Episode 2,Francesco Rosi,Italy,1979,tt0079010,movie,1979,150,nm0742940,"nm0742940,nm0346096,nm0478431,nm1047692",fuzzy_canonical,97.0,0.9394,1.0,1.0
 CHRIST STOPPED AT EBOLI: Episode 3,Francesco Rosi,Italy,1979,tt0079010,movie,1979,150,nm0742940,"nm0742940,nm0346096,nm0478431,nm1047692",fuzzy_canonical,97.0,0.9394,1.0,1.0
 CHRIST STOPPED AT EBOLI: Episode 4,Francesco Rosi,Italy,1979,tt0079010,movie,1979,150,nm0742940,"nm0742940,nm0346096,nm0478431,nm1047692",fuzzy_canonical,97.0,0.9394,1.0,1.0
-Caballerango,Juan Pablo González,Mexico,2018,tt7334072,movie,2018,61,nm2404558,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Caesar and Cleopatra,Gabriel Pascal,United Kingdom,1945,tt0038390,movie,1945,123,nm0664257,nm0789737,fuzzy_canonical,100.0,1.0,1.0,1.0
 Cairo Station,Youssef Chahine,Egypt,1958,tt0051390,movie,1958,77,nm0149631,"nm0011976,nm0009455",fuzzy_canonical,100.0,1.0,1.0,1.0
 Calamity,Věra Chytilová,Czechoslovakia,1982,tt0082599,movie,1982,96,nm0161615,"nm0161615,nm0797986",fuzzy_canonical,100.0,1.0,1.0,1.0
-Calcutta,Louis Malle,France,1969,tt0062773,movie,1969,105,nm0001501,nm0001501,fuzzy_canonical,100.0,1.0,1.0,1.0
 Calendar,Atom Egoyan,Canada,1993,tt0106504,movie,1993,74,nm0000382,nm0000382,fuzzy_canonical,100.0,1.0,1.0,1.0
 Camera Buff,Krzysztof Kieślowski,Poland,1979,tt0078763,movie,1979,112,nm0001425,"nm0001425,nm0836136",fuzzy_canonical,100.0,1.0,1.0,1.0
-Cameraperson,Kirsten Johnson,United States,2016,tt5375040,movie,2016,102,nm0990310,"nm2103862,nm8567281",fuzzy_canonical,100.0,1.0,1.0,1.0
 Cane River,Horace Jenkins,United States,1982,tt0318346,movie,1982,104,nm0420858,nm0420858,fuzzy_canonical,100.0,1.0,1.0,1.0
-Cane Toads: The Conquest,Mark Lewis,Australia,2010,tt1568924,movie,2010,85,nm0507503,nm0507503,fuzzy_canonical,100.0,1.0,1.0,1.0
 Canoa: A Shameful Memory,Felipe Cazals,Mexico,1976,tt0131335,movie,1976,115,nm0147356,nm0702035,fuzzy_canonical,100.0,1.0,1.0,1.0
 Capricious Summer,Jiří Menzel,Czechoslovakia,1968,tt0063527,movie,1968,74,nm0579954,"nm0888595,nm0639306,nm0579954,nm1546019,nm0435794",fuzzy_canonical,100.0,1.0,1.0,1.0
 Captain Conan,Bertrand Tavernier,France,1996,tt0115822,movie,1996,129,nm0851724,"nm0181924,nm0851724,nm0893712",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -276,15 +236,12 @@ Cat People,Paul Schrader,United States,1982,tt0083722,movie,1982,118,nm0001707,"
 Cat People,Jacques Tourneur,United States,1942,tt0034587,movie,1942,73,nm0869664,nm0090840,fuzzy_canonical,100.0,1.0,1.0,1.0
 Caught by the Tides,Jia Zhang-Ke,China,2024,tt27958252,movie,2024,111,nm0422605,"nm11366442,nm0422605",fuzzy_canonical,100.0,1.0,1.0,1.0
 Ceddo,Ousmane Sembène,Senegal,1977,tt0077309,movie,1977,120,nm0783733,"nm0783733,nm1429466",fuzzy_canonical,100.0,1.0,1.0,1.0
-Celluloid Man,Shivendra Singh Dungarpur,India,2012,tt2190196,movie,2012,164,nm5087456,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Celluloid Underground,Ehsan Khoshbakht,Iran,2023,tt28801705,movie,2023,80,nm5595169,nm5595169,fuzzy_canonical,100.0,1.0,1.0,1.0
 Certain Women,Kelly Reichardt,United States,2016,tt4468634,movie,2016,107,nm0716980,"nm0716980,nm1493594",fuzzy_canonical,100.0,1.0,1.0,1.0
 Certified Copy,Abbas Kiarostami,Iran,2010,tt1020773,movie,2010,106,nm0452102,"nm0452102,nm0253428",fuzzy_canonical,100.0,1.0,1.0,1.0
 Chafed Elbows,Robert Downey Sr.,United States,1966,tt0138355,movie,1966,63,nm0002049,nm0002049,fuzzy_canonical,100.0,1.0,1.0,1.0
 Chain,Jem Cohen,United States,2004,tt0421960,movie,2004,99,nm0169486,nm0169486,fuzzy_canonical,100.0,1.0,1.0,1.0
 Chains,Raffaello Matarazzo,Italy,1949,tt0041232,movie,1949,74,nm0558127,"nm0207362,nm0544457,nm0100648,nm0224012",fuzzy_canonical,100.0,1.0,1.0,1.0
 Change of Fate,Kira Muratova,Soviet Union,1987,tt0087900,movie,1987,109,nm0613645,"nm0560857,nm0613645",fuzzy_canonical,100.0,1.0,1.0,1.0
-Charlie Is My Darling,Peter Whitehead,United Kingdom,1966,tt0060231,movie,1966,60,nm0925718,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Charulata,Satyajit Ray,India,1964,tt0057935,movie,1964,117,nm0006249,"nm0007173,nm0006249",fuzzy_canonical,100.0,1.0,1.0,1.0
 Checking Out,David Leland,United States,1989,tt0097052,movie,1988,96,nm0500896,nm0000390,fuzzy_canonical,92.5,1.0,1.0,0.5
 Chess of the Wind,Mohammad Reza Aslani,Iran,1976,tt0318069,movie,1976,99,nm1170241,nm1170241,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -297,7 +254,6 @@ Chinese Roulette,Rainer Werner Fassbinder,West Germany,1976,tt0074312,movie,1976
 Chocolat,Claire Denis,France,1988,tt0094868,movie,1988,105,nm0219136,"nm0219136,nm0267288",fuzzy_canonical,100.0,1.0,1.0,1.0
 Chop Shop,Ramin Bahrani,United States,2007,tt0990404,movie,2007,84,nm1023919,"nm2478512,nm1023919",fuzzy_canonical,100.0,1.0,1.0,1.0
 Christiane F.,Uli Edel,,1981,tt0082176,movie,1981,138,nm0248942,"nm0271574,nm0379266,nm0726072,nm0917833,nm0248942",fuzzy_canonical,100.0,1.0,1.0,1.0
-Chronicle of a Summer,Jean Rouch and Edgar Morin,France,1961,tt0054745,movie,1961,85,"nm0602841,nm0745541",,fuzzy_canonical,95.7,1.0,0.8769,1.0
 Chungking Express,Wong Kar Wai,Hong Kong,1994,tt0109424,movie,1994,102,nm0939182,nm0939182,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ciao! Manhattan,John Palmer and David Weisman,United States,1972,tt0068379,movie,1972,84,"nm0658299,nm0918844","nm0658299,nm0918844,nm0918077,nm0152752,nm3223927",fuzzy_canonical,95.7,1.0,0.8759,1.0
 Circus Angel,Albert Lamorisse,France,1965,tt0059177,movie,1965,75,nm0483738,nm0483738,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -314,24 +270,17 @@ Clouds of Sils Maria,Olivier Assayas,France,2014,tt2452254,movie,2014,124,nm0000
 Clytaemnestra,Ougie Pak,South Korea,2021,tt15555264,movie,2021,70,nm2320378,nm2779411,fuzzy_canonical,100.0,1.0,1.0,1.0
 Cléo from 5 to 7,Agnès Varda,France,1962,tt0055852,movie,1962,90,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 Coach to Vienna,Karel Kachyňa,Czechoslovakia,1966,tt0060597,movie,1966,78,nm0434189,"nm0434189,nm0698311",fuzzy_canonical,100.0,1.0,1.0,1.0
-Coconut Head Generation,Alain Kassanda,France,2023,tt27023385,movie,2023,89,nm12719060,nm12719060,fuzzy_canonical,100.0,1.0,1.0,1.0
 Code Unknown,Michael Haneke,France,2000,tt0216625,movie,2000,118,nm0359734,nm0359734,fuzzy_canonical,100.0,1.0,1.0,1.0
 Coffee and Cigarettes,Jim Jarmusch,United States,2003,tt0379217,movie,2003,95,nm0000464,nm0000464,fuzzy_canonical,100.0,1.0,1.0,1.0
 Cold Dog Soup,Alan Metter,United Kingdom,1990,tt0099286,movie,1990,87,nm0582635,"nm0229955,nm0691193",fuzzy_canonical,100.0,1.0,1.0,1.0
 Cold Water,Olivier Assayas,France,1994,tt0109702,movie,1994,95,nm0000801,nm0000801,fuzzy_canonical,100.0,1.0,1.0,1.0
-Colette and Justin,Alain Kassanda,France,2022,tt22872868,movie,2022,89,nm12719060,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Colossal Youth,Pedro Costa,Portugal,2006,tt0460480,movie,2006,156,nm0182276,nm0182276,fuzzy_canonical,100.0,1.0,1.0,1.0
-"Come Back, Africa",Lionel Rogosin,United States,1959,tt0049087,movie,1959,95,nm0737369,"nm0595299,nm0633372,nm0737369",fuzzy_canonical,100.0,1.0,1.0,1.0
-Come On Children,Allan King,Canada,1972,tt0269104,movie,1973,96,nm0454437,,fuzzy_canonical,92.5,1.0,1.0,0.5
 Come and See,Elem Klimov,Soviet Union,1985,tt0091251,movie,1985,142,nm0459552,"nm0010696,nm0459552",fuzzy_canonical,100.0,1.0,1.0,1.0
-Common Threads: Stories from the Quilt,Rob Epstein and Jeffrey Friedman,United States,1989,tt0097099,movie,1989,79,"nm0258531,nm0295243","nm0258531,nm0295243,nm1196240",fuzzy_canonical,95.4,1.0,0.8688,1.0
 Compensation,Zeinabu irene Davis,United States,1999,tt0223027,movie,1999,95,nm0205677,nm0161724,fuzzy_canonical,100.0,1.0,1.0,1.0
 Confidential Report,Orson Welles,Switzerland,1955,tt0048393,movie,1955,93,nm0000080,nm0000080,fuzzy_canonical,100.0,1.0,1.0,1.0
 Confidentially Yours,François Truffaut,France,1983,tt0086551,movie,1983,110,nm0000076,"nm0930241,nm0000076,nm0771535,nm0042159",fuzzy_canonical,100.0,1.0,1.0,1.0
 Conflagration,Kon Ichikawa,Japan,1958,tt0051584,movie,1958,99,nm0406728,"nm0367913,nm0406728,nm0592758,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
-Contemporary Color,Turner Ross and Bill Ross IV,United States,2016,tt5258306,movie,2016,97,"nm3226377,nm3225731",,fuzzy_canonical,95.8,1.0,0.8786,1.0
 Corridors of Blood,Robert Day,United States,1959,tt0051542,movie,1958,86,nm0206560,nm0736942,fuzzy_canonical,92.5,1.0,1.0,0.5
-Counting,Jem Cohen,United States,2015,tt4462082,movie,2015,111,nm0169486,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Coup de grâce,Volker Schlöndorff,Germany,1976,tt0074515,movie,1976,97,nm0772522,"nm0950315,nm0233792,nm0903137,nm0117678",fuzzy_canonical,100.0,1.0,1.0,1.0
 Coup de torchon,Bertrand Tavernier,France,1981,tt0082206,movie,1981,128,nm0851724,"nm0042179,nm0851724,nm0860292",fuzzy_canonical,100.0,1.0,1.0,1.0
 Courage for Every Day,Evald Schorm,Czechoslovakia,1964,tt0058259,movie,1964,85,nm0774880,"nm0193638,nm0617361,nm0774880",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -349,13 +298,11 @@ Cría cuervos . . .,Carlos Saura,Spain,1976,tt0074360,movie,1976,105,nm0767022,n
 Cure,Kiyoshi Kurosawa,Japan,1997,tt0123948,movie,1997,111,nm0475905,nm0475905,fuzzy_canonical,100.0,1.0,1.0,1.0
 Cute Girl,Hou Hsiao-hsien,Taiwan,1980,tt0080964,movie,1980,90,nm0396284,nm0396284,fuzzy_canonical,94.1,1.0,0.8314,1.0
 Cyrano de Bergerac,Jean-Paul Rappeneau,France,1990,tt0099334,movie,1990,137,nm0710919,"nm0744562,nm0710919,nm0140643",fuzzy_canonical,100.0,1.0,1.0,1.0
-CzechMate: In Search of Jiří Menzel,Shivendra Singh Dungarpur,India,2018,tt5305230,movie,2018,448,nm5087456,nm5087456,fuzzy_canonical,100.0,1.0,1.0,1.0
 Céline and Julie Go Boating,Jacques Rivette,France,1974,tt0071381,movie,1974,193,nm0729626,"nm0078155,nm0479628,nm0644680,nm0685494,nm0729626,nm0339713,nm0416556",fuzzy_canonical,100.0,1.0,1.0,1.0
 César,Marcel Pagnol,France,1936,tt0027489,movie,1936,168,nm0656528,nm0656528,fuzzy_canonical,100.0,1.0,1.0,1.0
 D.O.A.,Rudolph Maté,United States,1949,tt0042369,movie,1949,83,nm0005789,"nm0745866,nm0338707",fuzzy_canonical,100.0,1.0,1.0,1.0
 D.O.A.,Annabel Jankel and Rocky Morton,United States,1988,tt0094933,movie,1988,96,"nm0417708,nm0608084","nm0688279,nm0745866,nm0338707",fuzzy_canonical,96.2,1.0,0.8903,1.0
 Daddy Nostalgia,Bertrand Tavernier,France,1990,tt0099341,movie,1990,105,nm0851724,"nm0851725,nm0851724",fuzzy_canonical,100.0,1.0,1.0,1.0
-Daguerréotypes,Agnès Varda,France,1975,tt0071384,movie,1975,79,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 Dahmer,David Jacobson,United States,2002,tt0285728,movie,2002,101,nm0414817,"nm0414817,nm0083547",fuzzy_canonical,100.0,1.0,1.0,1.0
 Daisies,Věra Chytilová,Czechoslovakia,1966,tt0060959,movie,1966,75,nm0161615,"nm0161615,nm0433059,nm0472695,nm0473621,nm0090076,nm0639306,nm0810860,nm1545626",fuzzy_canonical,100.0,1.0,1.0,1.0
 Danger Stalks Near,Keisuke Kinoshita,Japan,1957,tt0050421,movie,1957,79,nm0455839,,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -364,7 +311,6 @@ Dark Waters,Youssef Chahine,Egypt,1956,tt0049761,movie,1956,120,nm0149631,"nm102
 Daughters of the Dust,Julie Dash,United States,1991,tt0104057,movie,1991,113,nm0201969,nm0201969,fuzzy_canonical,100.0,1.0,1.0,1.0
 Daughter’s Daughter,Huang Xi,Taiwan,2024,tt29271889,movie,2024,126,nm9061330,nm9061330,fuzzy_canonical,88.3,1.0,0.6667,1.0
 David Golder,Julien Duvivier,France,1930,tt0020814,movie,1931,86,nm0245213,"nm0625965,nm0245213",fuzzy_canonical,92.5,1.0,1.0,0.5
-David Lynch: The Art Life,"Jon Nguyen, Rick Barnes, and Olivia Neergaard-Holm",United States,2016,tt1691152,movie,2016,88,"nm8419163,nm4302809,nm2657919",nm1805193,fuzzy_canonical,94.5,1.0,0.8417,1.0
 Day of Wrath,Carl Th. Dreyer,Denmark,1943,tt0036506,movie,1943,97,nm0003433,"nm0003433,nm0461743,nm0478479,nm0804736,nm0927558",fuzzy_canonical,97.2,1.0,0.9188,1.0
 Days of Being Wild,Wong Kar Wai,Hong Kong,1990,tt0101258,movie,1990,94,nm0939182,"nm0939182,nm0311508",fuzzy_canonical,100.0,1.0,1.0,1.0
 De Lo Mio,Diana Peralta,United States,2019,tt9853814,movie,2019,74,nm4314403,nm4314403,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -393,7 +339,6 @@ Diary for My Children,Márta Mészáros,Hungary,1984,tt0084388,movie,1984,106,nm
 Diary for My Lovers,Márta Mészáros,Hungary,1987,tt0093599,movie,1987,141,nm0617767,"nm0617767,nm0665234",fuzzy_canonical,100.0,1.0,1.0,1.0
 Diary for My Mother and Father,Márta Mészáros,Hungary,1990,tt0100223,movie,1990,119,nm0617767,"nm0617767,nm0665234",fuzzy_canonical,99.3,0.9867,1.0,1.0
 Diary of a Shinjuku Thief,Nagisa Oshima,Japan,1969,tt0063598,movie,1969,96,nm0651915,"nm0848797,nm0765801,nm0010395,nm0651915",fuzzy_canonical,100.0,1.0,1.0,1.0
-Didn’t Do It for Love,Monika Treut,Germany,1998,tt0155667,movie,1997,81,nm0872331,nm0872331,fuzzy_canonical,92.5,1.0,1.0,0.5
 Dillinger Is Dead,Marco Ferreri,Italy,1969,tt0062893,movie,1969,95,nm0274659,"nm0274659,nm0063376",fuzzy_canonical,100.0,1.0,1.0,1.0
 Dirty Gertie from Harlem U.S.A.,Spencer Williams,United States,1946,tt0038480,movie,1946,65,nm3472679,"nm0860816,nm0560857",fuzzy_canonical,100.0,1.0,1.0,1.0
 Divorce Italian Style,Pietro Germi,Italy,1961,tt0055913,movie,1961,105,nm0314584,"nm0316251,nm0208086,nm0314584,nm0408488",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -403,7 +348,6 @@ Dogora,Ishiro Honda,Japan,1964,tt0058698,movie,1964,83,nm0393094,"nm0645461,nm07
 Dollar,Gustaf Molander,Sweden,1938,tt0030066,movie,1938,78,nm0596410,"nm0074790,nm0074863",fuzzy_canonical,100.0,1.0,1.0,1.0
 Don Juan (or if Don Juan Were a Woman),Roger Vadim,Italy,1973,tt0069990,movie,1973,87,nm0671862,"nm0146424,nm0671862,nm0678080",fuzzy_canonical,100.0,1.0,1.0,1.0
 Donkey Skin,Jacques Demy,France,1970,tt0066207,movie,1970,91,nm0218840,"nm0674518,nm0218840",fuzzy_canonical,100.0,1.0,1.0,1.0
-Dont Look Back,D. A. Pennebaker,United States,1967,tt0061589,movie,1967,96,nm0672060,nm0672060,fuzzy_canonical,100.0,1.0,1.0,1.0
 Don’t Play Us Cheap,Melvin Van Peebles,United States,1972,tt0069996,movie,1972,99,nm0887708,nm0887708,fuzzy_canonical,100.0,1.0,1.0,1.0
 Dos Estaciones,Juan Pablo González,Mexico,2022,tt16279390,movie,2022,99,nm2404558,"nm5422162,nm7243319,nm2404558",fuzzy_canonical,100.0,1.0,1.0,1.0
 Dos monjes,Juan Bustillo Oro,Mexico,1934,tt0025062,movie,1934,79,nm0124571,"nm0124571,nm0179520",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -427,8 +371,6 @@ Drunktown’s Finest,Sydney Freeland,United States,2014,tt3091286,movie,2014,95,
 Dry Summer,Metin Erksan,Turkey,1964,tt0062322,movie,1963,90,nm0259499,"nm0191763,nm0259499,nm0408462,nm0768423",fuzzy_canonical,92.5,1.0,1.0,0.5
 Drylongso,Cauleen Smith,United States,1998,tt0181517,movie,1998,86,nm0807646,"nm0015328,nm0807646",fuzzy_canonical,100.0,1.0,1.0,1.0
 Duet for Cannibals,Susan Sontag,Sweden,1969,tt0062916,movie,1969,105,nm0814506,nm0814506,fuzzy_canonical,100.0,1.0,1.0,1.0
-Dying,Michael Roemer,United States,1976,tt9222354,movie,1976,82,nm0736394,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Dying at Grace,Allan King,Canada,2003,tt0379269,movie,2003,148,nm0454437,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Désiré,Sacha Guitry,France,1937,tt0150430,movie,1937,92,nm0347589,nm0347589,fuzzy_canonical,100.0,1.0,1.0,1.0
 EO,Jerzy Skolimowski,Poland,2022,tt19652910,movie,2022,88,nm0804592,"nm1018717,nm0804592",fuzzy_canonical,100.0,1.0,1.0,1.0
 Early Spring,Yasujiro Ozu,Japan,1956,tt0049784,movie,1956,145,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -439,7 +381,6 @@ Eating Raoul,Paul Bartel,United States,1982,tt0083869,movie,1982,90,nm0000860,"n
 Effi Briest,Rainer Werner Fassbinder,West Germany,1974,tt0071458,movie,1974,135,nm0001202,"nm0001202,nm0284972",fuzzy_canonical,100.0,1.0,1.0,1.0
 Eijanaika,Shohei Imamura,Japan,1981,tt0082313,movie,1981,151,nm0408076,"nm0408076,nm0594414",fuzzy_canonical,100.0,1.0,1.0,1.0
 El Sur,Víctor Erice,Spain,1983,tt0084740,movie,1983,95,nm0258977,"nm0258977,nm0305763",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Eldridge Cleaver, Black Panther",William Klein,Algeria,1970,tt0196528,movie,1970,73,nm0459017,nm0459017,fuzzy_canonical,100.0,1.0,1.0,1.0
 Elena and Her Men,Jean Renoir,France,1956,tt0049177,movie,1956,98,nm0719756,"nm0719756,nm0785062",fuzzy_canonical,100.0,1.0,1.0,1.0
 Elephant Boy,Robert Flaherty and Zoltán Korda,United Kingdom,1937,tt0028827,movie,1937,80,"nm0280904,nm0466113","nm0456017,nm0171924,nm0866183,nm0211592",fuzzy_canonical,94.3,1.0,0.8382,1.0
 Elevator to the Gallows,Louis Malle,France,1958,tt0051378,movie,1958,91,nm0001501,"nm0632357,nm0001501,nm0129832",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -468,7 +409,6 @@ Exotica,Atom Egoyan,Canada,1994,tt0109759,movie,1994,103,nm0000382,nm0000382,fuz
 Eye of God,Tim Blake Nelson,United States,1997,tt0116261,movie,1997,84,nm0625789,nm0625789,fuzzy_canonical,100.0,1.0,1.0,1.0
 Eyes Without a Face,Georges Franju,France,1960,tt0053459,movie,1960,90,nm0290802,"nm0715118,nm0092267,nm0092268,nm0767110,nm0309039",fuzzy_canonical,100.0,1.0,1.0,1.0
 Eyimofe (This Is My Desire),Arie Esiri and Chuko Esiri,Nigeria,2020,tt10365870,movie,2020,116,"nm4930900,nm4931243",nm4931243,fuzzy_canonical,88.5,0.856,0.8769,1.0
-F for Fake,Orson Welles,United States,1975,tt0072962,movie,1973,89,"nm0000080,nm0004372,nm0462648,nm0717025","nm0000080,nm0462648",fuzzy_canonical,88.8,1.0,1.0,0.25
 FANNY AND ALEXANDER: Episode 1,Ingmar Bergman,Sweden,1983,tt0083922,movie,1982,188,nm0000005,nm0000005,fuzzy_canonical,89.1,0.931,1.0,0.5
 FANNY AND ALEXANDER: Episode 2,Ingmar Bergman,Sweden,1983,tt0083922,movie,1982,188,nm0000005,nm0000005,fuzzy_canonical,89.1,0.931,1.0,0.5
 FANNY AND ALEXANDER: Episode 3,Ingmar Bergman,Sweden,1983,tt0083922,movie,1982,188,nm0000005,nm0000005,fuzzy_canonical,89.1,0.931,1.0,0.5
@@ -488,40 +428,29 @@ Farewell China,Clara Law,Hong Kong,1990,tt0099000,movie,1990,114,nm0492309,nm028
 Farewell My Love,Youssef Chahine,Egypt,1956,tt0126721,movie,1956,110,nm0149631,"nm1028044,nm0252830,nm17356651,nm2138191",fuzzy_canonical,95.9,0.917,1.0,1.0
 Farewell to Dream,Keisuke Kinoshita,Japan,1956,tt0049976,movie,1956,78,nm0455839,nm0476422,fuzzy_canonical,100.0,1.0,1.0,1.0
 Farewell to Spring,Keisuke Kinoshita,Japan,1959,tt0053259,movie,1959,102,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
-Fassbinder’s Women,Rosa von Praunheim,Germany,2000,tt0265197,movie,2000,90,nm0902823,nm0902823,fuzzy_canonical,100.0,1.0,1.0,1.0
 Fat Girl,Catherine Breillat,France,2001,tt0243255,movie,2001,86,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
 Father,Keisuke Kinoshita,Japan,1988,tt0094858,movie,1988,74,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
 Father Amin,Youssef Chahine,Egypt,1950,tt0042217,movie,1950,106,nm0149631,"nm0149631,nm0252776,nm0252849",fuzzy_canonical,99.2,0.9833,1.0,1.0
-Faya dayi,Jessica Beshir,Ethiopia,2021,tt13648216,movie,2021,120,nm0078660,nm0078660,fuzzy_canonical,100.0,1.0,1.0,1.0
 Fear,Roberto Rossellini,West Germany,1954,tt0047336,movie,1954,84,nm0744023,"nm0959003,nm0024847,nm0744023,nm0903130",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fearless Hyena II,Chan Chuen,Hong Kong,1983,tt0085864,movie,1983,94,nm0150839,nm0516344,fuzzy_canonical,94.5,0.964,0.8933,1.0
 Feet First,Clyde Bruckman,United States,1930,tt0020876,movie,1930,93,"nm0115669,nm0516001","nm0340599,nm0169879,nm0115669,nm0012148,nm0623640,nm0809548",fuzzy_canonical,100.0,1.0,1.0,1.0
 Felicia’s Journey,Atom Egoyan,Canada,1999,tt0165773,movie,1999,116,nm0000382,"nm0872485,nm0000382",fuzzy_canonical,100.0,1.0,1.0,1.0
-Female Misbehavior,Monika Treut,Germany,1992,tt0104249,movie,1992,80,nm0872331,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Female Perversions,Susan Streitfeld,United States,1997,tt0116293,movie,1996,120,nm0834201,"nm0438303,nm0372877,nm0834201",fuzzy_canonical,92.5,1.0,1.0,0.5
-Festival,Murray Lerner,United States,1967,tt0061658,movie,1967,95,nm0503635,nm0503635,fuzzy_canonical,100.0,1.0,1.0,1.0
 Fiend Without a Face,Arthur Crabtree,United Kingdom,1958,tt0050393,movie,1958,74,nm0005674,"nm0496447,nm0518869",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fifi Martingale,Jacques Rozier,,2001,tt0293153,movie,2001,127,nm0747613,"nm0270904,nm0747613",fuzzy_canonical,100.0,1.0,1.0,1.0
-Fight Without Hate,André Michel,France,1948,tt7254920,movie,1948,84,nm0584794,nm0816458,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Fight, Zatoichi, Fight",Kenji Misumi,Japan,1964,tt0123334,movie,1964,87,nm0593014,"nm0395961,nm0793753,nm0948940",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fighting Elegy,Seijun Suzuki,Japan,1966,tt0060586,movie,1966,86,nm0840671,"nm0410952,nm0793881,nm0840686",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fires on the Plain,Kon Ichikawa,Japan,1959,tt0053121,movie,1959,108,nm0406728,"nm0648958,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fireworks Over the Sea,Keisuke Kinoshita,Japan,1951,tt0044163,movie,1951,122,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
-First,Caroline Rowland,United Kingdom,2012,tt2291230,movie,2012,109,nm2939356,nm2939356,fuzzy_canonical,100.0,1.0,1.0,1.0
-First Graders,Abbas Kiarostami,Iran,1984,tt0086923,movie,1984,85,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
 First Man into Space,Robert Day,United States,1959,tt0052805,movie,1959,77,nm0206560,"nm0189875,nm0895446,nm0649560",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fists in the Pocket,Marco Bellocchio,Italy,1965,tt0059619,movie,1965,110,nm0069166,nm0069166,fuzzy_canonical,100.0,1.0,1.0,1.0
 Five Corners,Tony Bill,United States,1987,tt0093029,movie,1987,90,nm0082300,nm0788234,fuzzy_canonical,100.0,1.0,1.0,1.0
-Flickering Ghosts of Loves Gone By,André Bonzel,,2021,tt8122738,movie,2021,97,nm0095298,nm0095298,fuzzy_canonical,100.0,1.0,1.0,1.0
-Flickering Lights,Anupama Srinivasan,India,2023,tt29669662,movie,2023,90,"nm15601522,nm7698839","nm15601460,nm7698839",fuzzy_canonical,100.0,1.0,1.0,1.0
 Floating Clouds,Mikio Naruse,Japan,1955,tt0048757,movie,1955,123,nm0621540,"nm0370615,nm0594666",fuzzy_canonical,100.0,1.0,1.0,1.0
 Floating Weeds,Yasujiro Ozu,Japan,1959,tt0053390,movie,1959,119,nm0654868,"nm0654868,nm0633792,nm0407456",fuzzy_canonical,100.0,1.0,1.0,1.0
 Flowers of Shanghai,Hou Hsiao-hsien,Taiwan,1998,tt0156587,movie,1998,113,nm0396284,"nm2402926,nm0151690,nm0160883",fuzzy_canonical,94.1,1.0,0.8314,1.0
 Flowing,Mikio Naruse,Japan,1956,tt0049537,movie,1956,117,nm0621540,"nm0406841,nm1021750,nm0849068",fuzzy_canonical,100.0,1.0,1.0,1.0
-Floyd Norman: An Animated Life,Michael Fiore and Erik Sharkey,United States,2016,tt5507860,movie,2016,94,"nm0278476,nm2038376",,fuzzy_canonical,96.0,1.0,0.8867,1.0
 Following,Christopher Nolan,United Kingdom,1999,tt0154506,movie,1998,69,nm0634240,nm0634240,fuzzy_canonical,92.5,1.0,1.0,0.5
 Foolish Heart,Héctor Babenco,Brazil,1998,tt0120674,movie,1998,130,nm0002199,"nm0002199,nm0683049",fuzzy_canonical,100.0,1.0,1.0,1.0
-For All Mankind,Al Reinert,United States,1989,tt0097372,movie,1989,80,nm0718031,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Foreign Correspondent,Alfred Hitchcock,United States,1940,tt0032484,movie,1940,120,nm0000033,"nm0071657,nm0365661,nm0385264,nm0070361,nm0372942,nm0537363",fuzzy_canonical,100.0,1.0,1.0,1.0
 Forever a Woman,Kinuyo Tanaka,Japan,1955,tt0259248,movie,1955,106,nm0849011,nm0849068,fuzzy_canonical,100.0,1.0,1.0,1.0
 Forget Me Not,Zoltán Korda,United Kingdom,1936,tt0027635,movie,1936,73,nm0466113,"nm0336682,nm0934497,nm0548094",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -532,7 +461,6 @@ Four Nights of a Dreamer,Robert Bresson,France,1971,tt0067641,movie,1971,87,nm00
 Fox and His Friends,Rainer Werner Fassbinder,Germany,1975,tt0072976,movie,1975,124,nm0001202,"nm0001202,nm0389876",fuzzy_canonical,100.0,1.0,1.0,1.0
 Frances Ha,Noah Baumbach,United States,2013,tt2347569,movie,2012,86,nm0000876,"nm0000876,nm1950086",fuzzy_canonical,92.5,1.0,1.0,0.5
 Frankenstein vs. Baragon,Ishiro Honda,Japan,1965,tt0059205,movie,1965,87,nm0393094,"nm0073399,nm0454119,nm0524188,nm0782883,nm0791217,nm0812257",fuzzy_canonical,100.0,1.0,1.0,1.0
-Freakscene: The Story of Dinosaur Jr.,Philipp Virus,Germany,2021,tt14781332,movie,2021,82,nm1214240,nm1214240,fuzzy_canonical,100.0,1.0,1.0,1.0
 French Cancan,Jean Renoir,France,1955,tt0046998,movie,1955,102,nm0719756,"nm0719756,nm0031135",fuzzy_canonical,100.0,1.0,1.0,1.0
 Fresh Kill,Shu Lea Cheang,United Kingdom,1994,tt0109843,movie,1994,80,nm0154751,nm0353316,fuzzy_canonical,100.0,1.0,1.0,1.0
 From Russia with Love,Terence Young,United Kingdom,1963,tt0057076,movie,1963,115,nm0950109,"nm0537363,nm0367820,nm0001220,nm0558435",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -541,23 +469,16 @@ Frownland,Ronald Bronstein,United States,2007,tt0970935,movie,2007,106,nm2563482
 Fruit of Paradise,Věra Chytilová,Czechoslovakia,1970,tt0064781,movie,1970,99,nm0161615,"nm0161615,nm0472695",fuzzy_canonical,100.0,1.0,1.0,1.0
 Full Moon in Paris,Eric Rohmer,France,1984,tt0087821,movie,1984,101,nm0006445,nm0006445,fuzzy_canonical,100.0,1.0,1.0,1.0
 Funny Games,Michael Haneke,Austria,1997,tt0119167,movie,1997,108,nm0359734,nm0359734,fuzzy_canonical,100.0,1.0,1.0,1.0
-Games of the XXI Olympiad,"Jean Beaudin, Marcel Carrière, and Georges Dufaux",Canada,1977,tt0202928,movie,1977,118,"nm0064394,nm0140646,nm0240337,nm0479682",nm10588760,fuzzy_canonical,94.8,1.0,0.8511,1.0
 Gang of Four,Jacques Rivette,France,1989,tt0094709,movie,1989,160,nm0729626,"nm0094726,nm10535179,nm0729626",fuzzy_canonical,100.0,1.0,1.0,1.0
 Gatchaman: The Movie,Hisayuki Toriumi,Japan,1978,tt0415906,movie,1978,110,nm0868062,"nm1056287,nm1284525,nm0868062,nm1033745",fuzzy_canonical,100.0,1.0,1.0,1.0
 Gate of Flesh,Seijun Suzuki,Japan,1964,tt0058409,movie,1964,90,nm0840671,"nm0848795,nm0848956",fuzzy_canonical,100.0,1.0,1.0,1.0
 Gate of Hell,Teinosuke Kinugasa,Japan,1953,tt0045935,movie,1953,89,nm0455938,"nm0452840,nm0455938,nm0619211",fuzzy_canonical,100.0,1.0,1.0,1.0
-Gates of Heaven,Errol Morris,United States,1978,tt0077598,movie,1978,85,nm0001554,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Genderation,Monika Treut,Germany,2021,tt14064214,movie,2021,88,nm0872331,nm0872331,fuzzy_canonical,100.0,1.0,1.0,1.0
-Gendernauts: A Journey Through Shifting Identities,Monika Treut,Germany,1999,tt0192069,movie,1999,87,nm0872331,nm0872331,fuzzy_canonical,100.0,1.0,1.0,1.0
-General Idi Amin Dada: A Self-Portrait,Barbet Schroeder,France,1974,tt0071544,movie,1974,92,nm0775447,nm0775447,fuzzy_canonical,100.0,1.0,1.0,1.0
 Genocide,Kazui Nihonmatsu,Japan,1968,tt0063195,movie,1968,84,nm0631551,"nm1818135,nm2952841",fuzzy_canonical,100.0,1.0,1.0,1.0
-George Stevens: A Filmmaker’s Journey,George Stevens Jr.,United States,1984,tt0087322,movie,1984,110,nm0828211,nm0828211,fuzzy_canonical,100.0,1.0,1.0,1.0
 George Washington,David Gordon Green,United States,2000,tt0262432,movie,2000,89,nm0337773,nm0337773,fuzzy_canonical,100.0,1.0,1.0,1.0
 Germany Year Zero,Roberto Rossellini,Italy,1948,tt0039417,movie,1948,78,nm0744023,"nm0744023,nm0515491,nm0464378,nm0024847,nm0289974",fuzzy_canonical,100.0,1.0,1.0,1.0
 Gertrud,Carl Th. Dreyer,Denmark,1964,tt0058138,movie,1964,116,nm0003433,"nm0845464,nm0003433",fuzzy_canonical,97.2,1.0,0.9188,1.0
 "Ghidorah, the Three-Headed Monster",Ishiro Honda,Japan,1964,tt0058544,movie,1964,85,nm0393094,nm0782883,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ghost Dog: The Way of the Samurai,Jim Jarmusch,United States,1999,tt0165798,movie,1999,116,nm0000464,nm0000464,fuzzy_canonical,100.0,1.0,1.0,1.0
-Gimme Shelter,"David Maysles, Albert Maysles, and Charlotte Zwerin",United States,1970,tt0065780,movie,1970,91,"nm0563099,nm0563100,nm0959020",,fuzzy_canonical,94.9,1.0,0.8531,1.0
 Ginza Cosmetics,Mikio Naruse,Japan,1951,tt0043587,movie,1951,87,nm0621540,"nm1342599,nm0457207",fuzzy_canonical,100.0,1.0,1.0,1.0
 Girl Shy,Fred Newmeyer and Sam Taylor,United States,1924,tt0014945,movie,1924,87,"nm0628345,nm0853130","nm0853130,nm0928514,nm0924065,nm0336984,nm0516001",fuzzy_canonical,94.0,1.0,0.8295,1.0
 Girl with Green Eyes,Desmond Davis,United Kingdom,1964,tt0058142,movie,1964,91,nm0204471,nm0639530,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -579,7 +500,6 @@ Godzilla vs. Megalon,Jun Fukuda,Japan,1973,tt0070122,movie,1973,78,"nm0297974,nm
 Godzilla vs. Mothra,Takao Okawara,,1992,tt0104352,movie,1992,100,nm0645549,"nm0590840,nm0613547,nm2926953,nm0847448,nm0849083,nm0948908,nm0648457",fuzzy_canonical,92.2,0.8444,1.0,1.0
 "Godzilla, King of the Monsters",Ishiro Honda and Terry O. Morse,Japan,1956,tt0197521,movie,1956,80,"nm0393094,nm0002542","nm0443227,nm0613609,nm0393094,nm0002542,nm0849083,nm0911350",fuzzy_canonical,95.8,1.0,0.88,1.0
 "Goke, Body Snatcher from Hell",Hajime Sato,Japan,1968,tt0063206,movie,1968,84,nm0766207,"nm0462023,nm2952841",fuzzy_canonical,100.0,1.0,1.0,1.0
-Gold and Glory,Hannu Leminen,Finland,1953,tt0089282,movie,1953,97,nm0501326,nm0658637,fuzzy_canonical,100.0,1.0,1.0,1.0
 Golden Balls,Bigas Luna and Bigas Luna,Spain,1993,tt0107165,movie,1993,95,nm0000940,"nm0133561,nm0000940",fuzzy_canonical,95.8,1.0,0.88,1.0
 Golden Demon,Koji Shima,Japan,1954,tt0045971,movie,1954,95,nm0793548,"nm0793548,nm0654687,nm0442736,nm4628308",fuzzy_canonical,100.0,1.0,1.0,1.0
 Golden Eighties,Chantal Akerman,France,1986,tt0092219,movie,1986,99,nm0001901,"nm0001901,nm0344171,nm0054713,nm0063785,nm0094726",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -589,24 +509,15 @@ Gomorrah,Matteo Garrone,Italy,2008,tt0929425,movie,2008,137,nm0308520,"nm2500207
 Gone in 60 Seconds,H. B. Halicki,United States,1974,tt0071571,movie,1974,98,nm0355181,nm0355181,fuzzy_canonical,100.0,1.0,1.0,1.0
 Gonza the Spearman,Masahiro Shinoda,Japan,1986,tt0091136,movie,1986,126,nm0793983,"nm0157399,nm0866717",fuzzy_canonical,100.0,1.0,1.0,1.0
 Good Morning,Yasujiro Ozu,Japan,1959,tt0053134,movie,1959,94,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Good Times, Wonderful Times",Lionel Rogosin,United Kingdom,1966,tt0144017,movie,1965,70,nm0737369,"nm0538376,nm0737369,nm1140595",fuzzy_canonical,92.5,1.0,1.0,0.5
-Goodbye CP,Kazuo Hara,Japan,1972,tt0234669,movie,1972,82,nm0361672,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Goodbye Horses: The Many Lives of Q Lazzarus,Eva Aridjis,United States,2025,tt21394182,movie,2025,103,nm0034754,,fuzzy_canonical,97.1,1.0,0.9158,1.0
-Grace Jones: Bloodlight and Bami,Sophie Fiennes,Ireland,2017,tt6903636,movie,2017,115,nm0276400,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Graduate First,Maurice Pialat,France,1978,tt0079701,movie,1978,86,nm0681207,"nm0681207,nm0486624",fuzzy_canonical,100.0,1.0,1.0,1.0
 Grandma's Boy,Fred C. Newmeyer,United States,1922,tt0013201,movie,1922,60,nm0628345,"nm0730018,nm0853130,nm0369841,nm0907778,nm0188274,nm0516001",fuzzy_canonical,100.0,1.0,1.0,1.0
-Grass: A Nation’s Battle for Life,Merian C. Cooper and Ernest B. Schoedsack,United States,1925,tt0015873,movie,1925,71,"nm0178260,nm0774325","nm0142579,nm0708920",fuzzy_canonical,95.7,1.0,0.8769,1.0
-Grasshopper Republic,Daniel McCabe,United States,2023,tt27404709,movie,2023,94,nm4744716,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Great Expectations,David Lean,United Kingdom,1946,tt0038574,movie,1946,118,nm0000180,"nm0002042,nm0000180,nm0623768,nm0369743,nm0909727,nm0569414",fuzzy_canonical,100.0,1.0,1.0,1.0
 Green Grow the Rushes,Derek N. Twist,United States,1951,tt0043601,movie,1951,77,nm0878604,"nm0166545,nm0878604",fuzzy_canonical,100.0,1.0,1.0,1.0
 Green for Danger,Sidney Gilliat,United Kingdom,1946,tt0038577,movie,1946,91,nm0319148,"nm0104447,nm0319148,nm0345965",fuzzy_canonical,100.0,1.0,1.0,1.0
-Grey Gardens,"David Maysles, Albert Maysles, Ellen Hovde, and Muffie Meyer",United States,1975,tt0073076,movie,1975,95,"nm0317487,nm0563099,nm0563100,nm0583287",,fuzzy_canonical,94.6,1.0,0.8456,1.0
 Guelwaar,Ousmane Sembène,France,1992,tt0104373,movie,1992,115,nm0783733,nm0783733,fuzzy_canonical,100.0,1.0,1.0,1.0
 Gunbuster: The Movie,Hideaki Anno and Shoichi Masuo,Japan,2006,tt31055572,movie,2006,95,"nm0030417,nm0557950","nm0645441,nm0030417,nm0945293",fuzzy_canonical,95.8,1.0,0.88,1.0
 Half a Loaf of Kung Fu,Chan Chi-hwa,Hong Kong,1978,tt0080623,movie,1978,97,nm0155179,"nm0000329,nm2601077",fuzzy_canonical,94.1,1.0,0.8311,1.0
-Halving the Bones,Ruth Ozeki,Japan,1995,tt0116475,movie,1996,70,nm0522030,nm0522030,fuzzy_canonical,89.0,1.0,0.9,0.5
 Hamlet,Laurence Olivier,United Kingdom,1948,tt0040416,movie,1948,154,nm0000059,"nm0000636,nm0000059",fuzzy_canonical,100.0,1.0,1.0,1.0
-Hand in Hand,Im Kwon-taek,South Korea,1988,tt7266728,movie,1989,119,nm0407990,,fuzzy_canonical,92.5,1.0,1.0,0.5
 Hands over the City,Francesco Rosi,Italy,1963,tt0057286,movie,1963,101,nm0742940,"nm0742940,nm0478431,nm0699039,nm0285451",fuzzy_canonical,100.0,1.0,1.0,1.0
 Hanzo the Razor: Sword of Justice,Kenji Misumi,Japan,1972,tt0068650,movie,1972,94,nm0593014,"nm0463521,nm0437177",fuzzy_canonical,100.0,1.0,1.0,1.0
 Hanzo the Razor: The Snare,Yasuzo Masumura,Japan,1973,tt0174707,movie,1973,89,nm0557945,"nm0437177,nm0463521,nm0557945",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -617,11 +528,8 @@ Harakiri,Masaki Kobayashi,Japan,1962,tt0056058,movie,1962,133,nm0462030,"nm08476
 Hard Boiled,John Woo,Hong Kong,1992,tt0104684,movie,1992,128,nm0000247,"nm0000247,nm0938944,nm0150906",fuzzy_canonical,100.0,1.0,1.0,1.0
 Harold and Maude,Hal Ashby,United States,1971,tt0067185,movie,1971,91,nm0000797,nm0383359,fuzzy_canonical,100.0,1.0,1.0,1.0
 He Who Is Without Sin...,Raffaello Matarazzo,Italy,1952,tt0044495,movie,1952,97,nm0558127,"nm0482870,nm0207362",fuzzy_canonical,100.0,1.0,1.0,1.0
-Heart of a Dog,Laurie Anderson,United States,2015,tt4935446,movie,2015,75,nm0002173,nm0002173,fuzzy_canonical,100.0,1.0,1.0,1.0
-Hearts and Minds,Peter Davis,United States,1974,tt0071604,movie,1974,112,nm0205282,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Heat Wave,Hideo Gosha,Japan,1991,tt0309754,movie,1991,110,nm0331471,nm0847026,fuzzy_canonical,100.0,1.0,1.0,1.0
 Hell Drivers,Cy Endfield,United Kingdom,1957,tt0051713,movie,1957,91,nm0256831,"nm0472849,nm0256831",fuzzy_canonical,100.0,1.0,1.0,1.0
-Helvetica,Gary Hustwit,United Kingdom,2007,tt0847817,movie,2007,80,nm1216753,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Henry V,Laurence Olivier,United Kingdom,1944,tt0036910,movie,1944,137,nm0000059,"nm0000636,nm0000059,nm0100959,nm0219741",fuzzy_canonical,100.0,1.0,1.0,1.0
 Her Brother,Kon Ichikawa,Japan,1960,tt0054151,movie,1960,98,nm0406728,"nm1021750,nm0594666",fuzzy_canonical,100.0,1.0,1.0,1.0
 Here,Bas Devos,Belgium,2023,tt26448954,movie,2023,84,nm2483574,nm2483574,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -640,23 +548,16 @@ His Girl Friday,Howard Hawks,United States,1940,tt0032599,movie,1940,92,nm000132
 History Is Made at Night,Frank Borzage,United States,1937,tt0029002,movie,1937,97,nm0097648,"nm0869999,nm0048305,nm0493071,nm0381082,nm0097648",fuzzy_canonical,100.0,1.0,1.0,1.0
 Hobson’s Choice,David Lean,United Kingdom,1954,tt0047094,movie,1954,108,nm0000180,"nm0109118,nm0000180,nm0818050,nm0115097",fuzzy_canonical,100.0,1.0,1.0,1.0
 Home from the Hill,Vincente Minnelli,United States,1960,tt0053917,movie,1960,150,nm0591486,"nm0290809,nm0712419,nm0401968",fuzzy_canonical,100.0,1.0,1.0,1.0
-Homework,Abbas Kiarostami,Iran,1989,tt0097843,movie,1989,86,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
 Homicide,David Mamet,United States,1991,tt0102048,movie,1991,102,nm0000519,nm0000519,fuzzy_canonical,100.0,1.0,1.0,1.0
 Honeycomb,Carlos Saura,Spain,1969,tt0064620,movie,1969,102,nm0767022,"nm0044156,nm0001036,nm0767022",fuzzy_canonical,100.0,1.0,1.0,1.0
-Hoop Dreams,Steve James,United States,1994,tt0110057,movie,1994,170,nm0416945,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Hopscotch,Ronald Neame,United States,1980,tt0080889,movie,1980,106,nm0623768,"nm0307257,nm0285302",fuzzy_canonical,100.0,1.0,1.0,1.0
-Hotel Monterey,Chantal Akerman,United States,1972,tt0068725,movie,1973,65,nm0001901,nm0001901,fuzzy_canonical,92.5,1.0,1.0,0.5
 Hour of the Wolf,Ingmar Bergman,Sweden,1968,tt0063759,movie,1968,88,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
 House,Nobuhiko Obayashi,Japan,1977,tt0076162,movie,1977,88,nm0541244,"nm0441554,nm0643168",fuzzy_canonical,100.0,1.0,1.0,1.0
-House of Cardin,P. David Ebersole and Todd Hughes,United States,2019,tt9031484,movie,2019,95,"nm0248119,nm0400968",,fuzzy_canonical,96.5,1.0,0.9,1.0
 Household Saints,Nancy Savoca,United States,1993,tt0107152,movie,1993,124,nm0001700,"nm0345491,nm0001700,nm0698731",fuzzy_canonical,100.0,1.0,1.0,1.0
 How to Get Ahead in Advertising,Bruce Robinson,United Kingdom,1989,tt0097531,movie,1989,90,nm0732430,nm0732430,fuzzy_canonical,100.0,1.0,1.0,1.0
-How to Smell a Rose: A Visit with Ricky Leacock at His Farm in Normandy,Les Blank and Gina Leibrecht,United States,2014,tt3690366,movie,2014,64,"nm0087511,nm2629388",nm2629388,fuzzy_canonical,95.3,1.0,0.8643,1.0
-"Humain, trop humain",Louis Malle,France,1973,tt0071635,movie,1974,75,"nm0001501,nm0891320",,fuzzy_canonical,92.5,1.0,1.0,0.5
 Humanity and Paper Balloons,Sadao Yamanaka,Japan,1937,tt0029314,movie,1937,86,nm0945537,nm0590839,fuzzy_canonical,100.0,1.0,1.0,1.0
 Hunger,Steve McQueen,Ireland,2008,tt0986233,movie,2008,96,nm2588606,"nm0909629,nm2588606",fuzzy_canonical,100.0,1.0,1.0,1.0
 Hunter in the Dark,Hideo Gosha,Japan,1979,tt0079317,movie,1979,137,nm0331471,"nm0331471,nm0407501",fuzzy_canonical,100.0,1.0,1.0,1.0
-Häxan,Benjamin Christensen,Denmark,1922,tt0013257,movie,1922,91,nm0159725,nm0159725,fuzzy_canonical,100.0,1.0,1.0,1.0
 Hôtel du Nord,Marcel Carné,France,1938,tt0030252,movie,1938,83,nm0138893,"nm0196407,nm0419986,nm0042179",fuzzy_canonical,100.0,1.0,1.0,1.0
 I Am Cuba,Mikhail Kalatozov,Cuba,1964,tt0058604,movie,1964,141,nm0435563,"nm0684006,nm0947877",fuzzy_canonical,100.0,1.0,1.0,1.0
 I Am Curious—Blue,Vilgot Sjöman,Sweden,1967,tt0061834,movie,1967,121,nm0803672,nm0803672,fuzzy_canonical,96.1,0.921,1.0,1.0
@@ -673,7 +574,6 @@ I See a Dark Stranger,Frank Launder,United Kingdom,1946,tt0038289,movie,1946,98,
 I Shot Jesse James,Samuel Fuller,United States,1949,tt0041497,movie,1949,81,nm0002087,"nm0002087,nm0189868,nm0307088",fuzzy_canonical,100.0,1.0,1.0,1.0
 "I Was Born, But . . .",Yasujiro Ozu,Japan,1932,tt0023634,movie,1932,90,nm0654868,"nm0299343,nm0406601,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
 I Was a Teenage Zombie,John Elias Michalakis,United States,1987,tt0093238,movie,1987,90,nm0584386,"nm0552461,nm0783810,nm1390630",fuzzy_canonical,100.0,1.0,1.0,1.0
-I Went to the Dance,Les Blank,,1989,tt0097603,movie,1989,84,"nm0087511,nm0833074",nm0767919,fuzzy_canonical,100.0,1.0,1.0,1.0
 I Will Buy You,Masaki Kobayashi,Japan,1956,tt0134286,movie,1956,111,nm0462030,"nm0559695,nm13190576",fuzzy_canonical,100.0,1.0,1.0,1.0
 I fidanzati,Ermanno Olmi,Italy,1962,tt0055981,movie,1963,77,nm0647438,nm0647438,fuzzy_canonical,92.5,1.0,1.0,0.5
 I vitelloni,Federico Fellini,Italy,1953,tt0046521,movie,1953,104,nm0000019,"nm0000019,nm0280919,nm0684083",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -692,20 +592,14 @@ In a Year of 13 Moons,Rainer Werner Fassbinder,West Germany,1978,tt0077729,movie
 In the King of Prussia,Emile de Antonio,United States,1983,tt0084130,movie,1982,92,nm0207108,nm0207108,fuzzy_canonical,92.5,1.0,1.0,0.5
 In the Mood for Love,Wong Kar Wai,Hong Kong,2000,tt0118694,movie,2000,98,nm0939182,nm0939182,fuzzy_canonical,100.0,1.0,1.0,1.0
 In the Realm of the Senses,Nagisa Oshima,Japan,1976,tt0074102,movie,1976,109,nm0651915,"nm0651915,nm0906709",fuzzy_canonical,100.0,1.0,1.0,1.0
-In the Year of the Pig,Emile de Antonio,United States,1969,tt0064482,movie,1968,103,nm0207108,,fuzzy_canonical,92.5,1.0,1.0,0.5
 India Song,Marguerite Duras,France,1975,tt0073166,movie,1975,120,nm0243921,nm0243921,fuzzy_canonical,100.0,1.0,1.0,1.0
-India: Matri Bhumi,Roberto Rossellini,Italy,1959,tt0052923,movie,1959,90,nm0744023,"nm0744023,nm0784452,nm0397026,nm0847823",fuzzy_canonical,100.0,1.0,1.0,1.0
 Infernal Affairs,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2002,tt0338564,movie,2002,101,"nm0490487,nm0538320","nm0538320,nm0159039",fuzzy_canonical,87.5,1.0,0.6441,1.0
 Infernal Affairs II,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2003,tt0369060,movie,2003,119,"nm0490487,nm0538320","nm0538320,nm0159039",fuzzy_canonical,87.5,1.0,0.6441,1.0
 Infernal Affairs III,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2003,tt0374339,movie,2003,118,"nm0490487,nm0538320","nm0538320,nm0159039",fuzzy_canonical,87.5,1.0,0.6441,1.0
-Ingrid Bergman: In Her Own Words,Stig Björkman,Sweden,2015,tt4621016,movie,2015,114,nm0084983,"nm0084983,nm1389476,nm0202220",fuzzy_canonical,100.0,1.0,1.0,1.0
 Inland Empire,David Lynch,United States,2006,tt0460829,movie,2006,180,nm0000186,nm0000186,fuzzy_canonical,100.0,1.0,1.0,1.0
-Innocence Unprotected,Dušan Makavejev,Yugoslavia,1968,tt0063342,movie,1968,75,nm0538445,"nm0538445,nm0904214",fuzzy_canonical,100.0,1.0,1.0,1.0
-Innocents Abroad,"Les Blank, Vikram Jayanti, and Chris Simon",United States,1991,tt0130792,movie,1991,84,"nm0087511,nm0393554",,fuzzy_canonical,94.6,1.0,0.845,1.0
 Insiang,Lino Brocka,Philippines,1976,tt0077740,movie,1976,95,nm0110653,"nm0641300,nm0031396",fuzzy_canonical,100.0,1.0,1.0,1.0
 Insignificance,Nicolas Roeg,United Kingdom,1985,tt0089343,movie,1985,109,nm0001676,nm0426316,fuzzy_canonical,100.0,1.0,1.0,1.0
 Insomnia,Erik Skjoldbjærg,Norway,1997,tt0119375,movie,1997,96,nm0804408,"nm0296154,nm0804408",fuzzy_canonical,100.0,1.0,1.0,1.0
-Instrument,Jem Cohen,United States,1999,tt0230334,movie,1999,115,nm0169486,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Intentions of Murder,Shohei Imamura,Japan,1964,tt0057829,movie,1964,150,nm0408076,"nm1024346,nm0367913,nm0408076",fuzzy_canonical,100.0,1.0,1.0,1.0
 Intermezzo,Gustaf Molander,Sweden,1936,tt0027796,movie,1936,86,nm0596410,"nm0828436,nm0596410",fuzzy_canonical,100.0,1.0,1.0,1.0
 Intervista,Federico Fellini,Italy,1987,tt0093267,movie,1987,105,nm0000019,"nm0000019,nm0029742",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -725,7 +619,6 @@ Jabberwocky,Terry Gilliam,United Kingdom,1977,tt0076221,movie,1977,105,nm0000416
 Jacquot de Nantes,Agnès Varda,France,1991,tt0102141,movie,1991,118,nm0889513,"nm0889513,nm0218840",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Jamón, Jamón",Bigas Luna,Spain,1992,tt0104545,movie,1992,95,nm0000940,"nm0133561,nm0000940,nm0600398",fuzzy_canonical,100.0,1.0,1.0,1.0
 Jane B. par Agnès V.,Agnès Varda,France,1988,tt0093295,movie,1988,99,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
-Jane by Charlotte,Charlotte Gainsbourg,France,2021,tt14851374,movie,2021,88,nm0001250,nm0001250,fuzzy_canonical,100.0,1.0,1.0,1.0
 Japanese Girls at the Harbor,Hiroshi Shimizu,Japan,1933,tt0160535,movie,1933,72,nm0793646,"nm1672177,nm1672245",fuzzy_canonical,100.0,1.0,1.0,1.0
 Japanese Summer: Double Suicide,Nagisa Oshima,Japan,1967,tt0062009,movie,1967,98,nm0651915,"nm0765801,nm0848797,nm0651915",fuzzy_canonical,100.0,1.0,1.0,1.0
 Japón,Carlos Reygadas,Mexico,2002,tt0322824,movie,2002,122,nm1196161,nm1196161,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -756,7 +649,6 @@ Kalpana,Uday Shankar,India,1948,tt0311384,movie,1948,122,nm1142684,nm1142684,fuz
 Kanal,Andrzej Wajda,Poland,1957,tt0050585,movie,1957,91,nm0906667,nm0824046,fuzzy_canonical,100.0,1.0,1.0,1.0
 Kapò,Gillo Pontecorvo,Italy,1959,tt0052961,movie,1960,116,nm0690597,"nm0758357,nm0690597,nm0147599",fuzzy_canonical,92.5,1.0,1.0,0.5
 Katzelmacher,Rainer Werner Fassbinder,Germany,1969,tt0064536,movie,1969,88,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
-Kedi,Ceyda Torun,Turkey,2016,tt4420704,movie,2016,79,nm2167704,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ken,Kenji Misumi,,1964,tt0366668,movie,1964,94,nm0593014,"nm0298561,nm0592758",fuzzy_canonical,100.0,1.0,1.0,1.0
 Kenki,Kenji Misumi,,1965,tt0200769,movie,1965,83,nm0593014,"nm0395961,nm0793084",fuzzy_canonical,98.1,0.9611,1.0,1.0
 Kill!,Kihachi Okamoto,Japan,1968,tt0063186,movie,1968,115,nm0645477,"nm0645477,nm0613547,nm0945491",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -764,13 +656,11 @@ Killer of Sheep,Charles Burnett,United States,1977,tt0076263,movie,1978,80,nm012
 Killers on Parade,Masahiro Shinoda,Japan,1961,tt0054107,movie,1961,82,nm0793983,nm0855446,fuzzy_canonical,100.0,1.0,1.0,1.0
 King Solomon’s Mines,Robert Stevenson,United States,1937,tt0029081,movie,1937,77,"nm0829038,nm0054787","nm0353584,nm0389580,nm0675729,nm0071657,nm0712653,nm0817809",fuzzy_canonical,100.0,1.0,1.0,1.0
 King of the Night,Héctor Babenco,Brazil,1975,tt0073246,movie,1975,97,nm0002199,"nm0002199,nm0784395",fuzzy_canonical,100.0,1.0,1.0,1.0
-Kings of Pastry,D. A. Pennebaker and Chris Hegedus,United States,2009,tt1558972,movie,2009,87,"nm0373698,nm0672060",,fuzzy_canonical,96.1,1.0,0.8875,1.0
 Kings of the Road,Wim Wenders,Germany,1976,tt0073152,movie,1976,175,"nm0000694,nm3850358",nm0000694,fuzzy_canonical,100.0,1.0,1.0,1.0
 Kiru,Kenji Misumi,,1962,tt0056144,movie,1962,71,nm0593014,"nm0793084,nm0793881",fuzzy_canonical,100.0,1.0,1.0,1.0
 Kiss of the Spider Woman,Héctor Babenco,United States,1985,tt0089424,movie,1985,120,nm0002199,"nm0700194,nm0775055",fuzzy_canonical,100.0,1.0,1.0,1.0
 Knife in the Water,Roman Polanski,Poland,1962,tt0056291,movie,1962,94,nm0000591,"nm0325228,nm0000591,nm0804592",fuzzy_canonical,100.0,1.0,1.0,1.0
 Knight Without Armour,Jacques Feyder,United Kingdom,1937,tt0029087,movie,1937,107,nm0275494,"nm0385264,nm0547966,nm0083742,nm0934497",fuzzy_canonical,100.0,1.0,1.0,1.0
-Koko: A Talking Gorilla,Barbet Schroeder,France,1978,tt0076097,movie,1978,85,nm0775447,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Kung-Fu Master!,Agnès Varda,France,1988,tt0093371,movie,1988,80,nm0889513,"nm0000945,nm0889513",fuzzy_canonical,100.0,1.0,1.0,1.0
 Kuroneko,Kaneto Shindo,Japan,1968,tt0122136,movie,1968,99,nm0793881,nm0793881,fuzzy_canonical,100.0,1.0,1.0,1.0
 Kwaidan,Masaki Kobayashi,Japan,1965,tt0058279,movie,1964,183,nm0462030,"nm0594666,nm0372499",fuzzy_canonical,92.5,1.0,1.0,0.5
@@ -811,7 +701,6 @@ Lady Snowblood: Love Song of Vengeance,Toshiya Fujita,Japan,1974,tt0072157,movie
 Lady of the Train,Youssef Chahine,Egypt,1952,tt0126654,movie,1952,100,nm0149631,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lan Yu,Stanley Kwan,Hong Kong,2001,tt0292066,movie,2001,86,nm0477102,"nm0628873,nm16647317",fuzzy_canonical,100.0,1.0,1.0,1.0
 Lancelot du lac,Robert Bresson,France,1974,tt0071737,movie,1974,85,nm0000975,"nm0000975,nm0540627",fuzzy_canonical,100.0,1.0,1.0,1.0
-Land of Milk and Honey,Pierre Étaix,France,1971,tt0258013,movie,1971,80,nm0959916,nm0959916,fuzzy_canonical,100.0,1.0,1.0,1.0
 Last Holiday,Henry Cass,United Kingdom,1950,tt0042665,movie,1950,88,nm0143900,"nm0697362,nm0496746",fuzzy_canonical,100.0,1.0,1.0,1.0
 Last Hurrah for Chivalry,John Woo,Hong Kong,1979,tt0077655,movie,1979,106,nm0000247,nm0000247,fuzzy_canonical,100.0,1.0,1.0,1.0
 Last Summer,Catherine Breillat,France,2023,tt14550346,movie,2023,104,nm0106924,"nm0106924,nm0094726,nm0477622,nm1392439",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -856,12 +745,9 @@ Les visiteurs du soir,Marcel Carné,France,1942,tt0035521,movie,1942,115,nm01388
 Let Joy Reign Supreme,Bertrand Tavernier,France,1975,tt0072053,movie,1975,119,nm0851724,"nm0042179,nm0851724",fuzzy_canonical,100.0,1.0,1.0,1.0
 Let the Sunshine In,Claire Denis,France,2017,tt6423776,movie,2017,94,nm0219136,"nm1400425,nm0219136,nm0058638",fuzzy_canonical,100.0,1.0,1.0,1.0
 Letter Never Sent,Mikhail Kalatozov,Soviet Union,1959,tt0053106,movie,1960,96,nm0435563,"nm0464440,nm0651998,nm0747657",fuzzy_canonical,92.5,1.0,1.0,0.5
-Letter from Siberia,Chris Marker,France,1957,tt0050633,movie,1958,62,nm0003408,nm0003408,fuzzy_canonical,92.5,1.0,1.0,0.5
 Lettres d’amour,Claude Autant-Lara,France,1942,tt0154767,movie,1942,110,nm0002193,"nm0042179,nm0089031",fuzzy_canonical,100.0,1.0,1.0,1.0
-Let’s Get Lost,Bruce Weber,United States,1988,tt0095515,movie,1988,120,nm0916510,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Life During Wartime,Todd Solondz,United States,2010,tt0808526,movie,2009,98,nm0001754,nm0001754,fuzzy_canonical,92.5,1.0,1.0,0.5
 Life Is Sweet,Mike Leigh,United Kingdom,1990,tt0100024,movie,1990,103,nm0005139,nm0005139,fuzzy_canonical,100.0,1.0,1.0,1.0
-Lightning Over Water,Wim Wenders and Nicholas Ray,West Germany,1980,tt0081055,movie,1980,91,"nm0712947,nm0000694","nm0712947,nm0000694",fuzzy_canonical,95.8,1.0,0.8786,1.0
 Lilting,Hong Khaou,United Kingdom,2014,tt2560102,movie,2014,91,nm0393234,nm0393234,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lime Kiln Club Field Day archival assembly (Donald Sosin score),Edwin Middleton and T. Hayes Hunter,United States,1913,tt4288356,movie,1913,65,"nm0403054,nm0585495",,fuzzy_canonical,90.0,0.8787,0.8882,1.0
 Lime Kiln Club Field Day archival assembly (Trevor Mathison score),Edwin Middleton and T. Hayes Hunter,United States,1913,tt4288356,movie,1913,65,"nm0403054,nm0585495",,fuzzy_canonical,89.8,0.875,0.8882,1.0
@@ -870,7 +756,6 @@ Limite,Mário Peixoto,Brazil,1931,tt0022080,movie,1931,114,nm0670643,nm0670643,f
 Limonov: The Ballad,Kirill Serebrennikov,France,2024,tt2963262,movie,2024,138,nm1970598,"nm0141127,nm0667734,nm0394114,nm1970598",fuzzy_canonical,100.0,1.0,1.0,1.0
 Lingua Franca,Isabel Sandoval,Philippines,2019,tt8943224,movie,2019,89,nm4583383,nm4583383,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lions Love (. . . and Lies),Agnès Varda,France,1969,tt0064591,movie,1969,112,nm0889513,"nm0889513,nm0566022",fuzzy_canonical,100.0,1.0,1.0,1.0
-Liv and Ingmar,Dheeraj Akolkar,Sweden,2012,tt2327430,movie,2012,89,nm2131292,"nm2131292,nm6885990",fuzzy_canonical,95.1,0.9029,1.0,1.0
 Lola,Rainer Werner Fassbinder,West Germany,1981,tt0082671,movie,1981,115,nm0001202,"nm0297064,nm0617504,nm0001202",fuzzy_canonical,100.0,1.0,1.0,1.0
 Lola,Jacques Demy,France,1961,tt0055093,movie,1961,90,nm0218840,nm0218840,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lola Montès,Max Ophuls,Germany,1955,tt0048308,movie,1955,116,nm0649097,"nm0491240,nm0649097,nm0905539,nm0622148,nm0001811,nm0237836,nm0311903",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -887,14 +772,12 @@ Lord of the Flies,Peter Brook,United Kingdom,1963,tt0057261,movie,1963,92,nm0111
 Los ojos vendados,Carlos Saura,France,1978,tt0078021,movie,1978,110,nm0767022,nm0767022,fuzzy_canonical,100.0,1.0,1.0,1.0
 Losing Ground,Kathleen Collins,United States,1982,tt0084269,movie,1982,86,nm0172432,nm0172432,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lost Highway,David Lynch,United States,1997,tt0116922,movie,1997,134,nm0000186,"nm0000186,nm0317510",fuzzy_canonical,100.0,1.0,1.0,1.0
-Louie Bluie,Terry Zwigoff,United States,1985,tt0089507,movie,1985,75,nm0959062,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Loulou,Maurice Pialat,France,1980,tt0081076,movie,1980,101,nm0681207,"nm0486624,nm0681207",fuzzy_canonical,100.0,1.0,1.0,1.0
 Love,Dag Johan Haugerud,Norway,2024,tt30810792,movie,2024,119,nm0369326,nm0369326,fuzzy_canonical,100.0,1.0,1.0,1.0
 Love Affair,Leo McCarey,United States,1939,tt0031593,movie,1939,88,nm0564970,"nm0202681,nm0829330,nm0186118,nm0564970,nm0067103",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Love Affair, or the Case of the Missing Switchboard Operator",Dušan Makavejev,Yugoslavia,1967,tt0061912,movie,1967,70,nm0538445,"nm0538445,nm0904214",fuzzy_canonical,100.0,1.0,1.0,1.0
 Love Is Colder Than Death,Rainer Werner Fassbinder,Germany,1969,tt0064588,movie,1969,88,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
 Love Letter,Kinuyo Tanaka,Japan,1953,tt0407929,movie,1953,98,nm0849011,"nm0455839,nm1481947",fuzzy_canonical,100.0,1.0,1.0,1.0
-Love Meetings,Pier Paolo Pasolini,Italy,1964,tt0057960,movie,1964,92,nm0001596,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Love New and Old,Masahiro Shinoda,Japan,1961,tt0055440,movie,1961,82,nm0793983,"nm0442736,nm0945868",fuzzy_canonical,100.0,1.0,1.0,1.0
 Love Under the Crucifix,Kinuyo Tanaka,Japan,1962,tt0203751,movie,1962,102,nm0849011,"nm0464805,nm0621534",fuzzy_canonical,100.0,1.0,1.0,1.0
 Love Unto Waste,Stanley Kwan,Hong Kong,1986,tt0090922,movie,1986,96,nm0477102,"nm0481706,nm0158402,nm0948134",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -906,9 +789,7 @@ Loving Couples,Mai Zetterling,Sweden,1964,tt0058780,movie,1964,118,nm0955195,"nm
 Lucio Flavio,Héctor Babenco,Brazil,1977,tt0077878,movie,1977,118,nm0002199,"nm0002199,nm0244525,nm0522216",fuzzy_canonical,100.0,1.0,1.0,1.0
 Lucía,Humberto Solás,Cuba,1968,tt0064609,movie,1968,160,nm0813695,"nm0305651,nm0736041,nm0813695",fuzzy_canonical,100.0,1.0,1.0,1.0
 Lumière d’été,Jean Grémillon,France,1943,tt0035001,movie,1943,112,nm0344927,"nm0488435,nm0699535",fuzzy_canonical,100.0,1.0,1.0,1.0
-Lumumba: Death of a Prophet,Raoul Peck,"Congo, The Democratic Republic of the",1991,tt0104775,movie,1991,69,nm0669704,nm0669704,fuzzy_canonical,100.0,1.0,1.0,1.0
 Lydia,Julien Duvivier,United Kingdom,1941,tt0033858,movie,1941,104,nm0245213,"nm0245213,nm0124224,nm0372942,nm0388755,nm0211964",fuzzy_canonical,100.0,1.0,1.0,1.0
-Lynch/Oz,Alexandre O. Philippe,United States,2022,tt15399286,movie,2022,108,nm1465431,nm1465431,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Léon Morin, Priest",Jean-Pierre Melville,France,1961,tt0055082,movie,1961,117,nm0578483,"nm0065078,nm0578483",fuzzy_canonical,100.0,1.0,1.0,1.0
 L’Atalante,Jean Vigo,France,1934,tt0024844,movie,1934,89,nm0897118,"nm0347447,nm0729960,nm0897118",fuzzy_canonical,100.0,1.0,1.0,1.0
 L’amore,Roberto Rossellini,Italy,1948,tt0040092,movie,1948,69,nm0744023,"nm0168413,nm0000019,nm0744023,nm0070981,nm0684083,nm0884952",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -949,8 +830,6 @@ Maniac Cop 2,William Lustig,United States,1990,tt0100107,movie,1990,90,nm0527350
 Maniac Cop 3: Badge of Silence,William Lustig and Alan Smithee,United States,1992,tt0104808,movie,1992,85,nm0527350,nm0169540,fuzzy_canonical,96.2,1.0,0.8903,1.0
 Manila in the Claws of Light,Lino Brocka,Philippines,1975,tt0073363,movie,1975,125,nm0110653,"nm1001764,nm0147457",fuzzy_canonical,100.0,1.0,1.0,1.0
 Manon of the Spring,Claude Berri,France,1986,tt0091480,movie,1986,113,nm0001945,"nm0656528,nm0001945,nm0102722",fuzzy_canonical,100.0,1.0,1.0,1.0
-Marathon,Carlos Saura,Sweden,1993,tt0185456,movie,1993,130,nm0767022,nm0767022,fuzzy_canonical,100.0,1.0,1.0,1.0
-Marcello Mastroianni: I Remember,Anna Maria Tatò,Italy,1997,tt0119614,movie,1997,198,nm0851383,nm0851383,fuzzy_canonical,100.0,1.0,1.0,1.0
 Marie Antoinette,Sofia Coppola,United States,2006,tt0422720,movie,2006,123,nm0001068,nm0001068,fuzzy_canonical,100.0,1.0,1.0,1.0
 Marius,Alexander Korda,France,1931,tt0022125,movie,1931,130,nm0466099,nm0656528,fuzzy_canonical,100.0,1.0,1.0,1.0
 Marketa Lazarová,František Vláčil,Czechoslovakia,1967,tt0063278,movie,1967,162,nm0900712,"nm0667714,nm0888595,nm0900712",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -959,7 +838,6 @@ Masculin féminin,Jean-Luc Godard,France,1966,tt0060675,movie,1966,103,nm0000419
 Masques,Claude Chabrol,France,1987,tt0093505,movie,1987,100,nm0001031,"nm0058286,nm0001031",fuzzy_canonical,100.0,1.0,1.0,1.0
 Master of the House,Carl Th. Dreyer,Denmark,1925,tt0015768,movie,1925,111,nm0003433,"nm0003433,nm0727484",fuzzy_canonical,97.2,1.0,0.9188,1.0
 Matango,Ishiro Honda,Japan,1963,tt0057295,movie,1963,89,nm0393094,"nm0454119,nm0395948,nm0298040,nm0388300,nm0464596",fuzzy_canonical,100.0,1.0,1.0,1.0
-Max by Marcel,Marcel Ophuls,France,2009,tt2466988,movie,2009,81,nm0649096,,fuzzy_canonical,100.0,1.0,1.0,1.0
 May Fools,Louis Malle,France,1990,tt0097884,movie,1990,107,nm0001501,"nm0001501,nm0140643",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Maya, Give Me a Title",Michel Gondry,France,2024,tt31809821,movie,2024,61,nm0327273,nm0327273,fuzzy_canonical,100.0,1.0,1.0,1.0
 Maîtresse,Barbet Schroeder,France,1976,tt0074883,movie,1976,112,nm0775447,"nm0775447,nm0903825",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -968,18 +846,12 @@ Medea,Pier Paolo Pasolini,Italy,1969,tt0066065,movie,1969,118,nm0001596,"nm00015
 Meeting with Pol Pot,Rithy Panh,Cambodia,2024,tt32086004,movie,2024,112,nm0659454,"nm5056174,nm0347038,nm0659454",fuzzy_canonical,100.0,1.0,1.0,1.0
 Melancholia,Lars von Trier,Denmark,2011,tt1527186,movie,2011,135,nm0001885,nm0001885,fuzzy_canonical,100.0,1.0,1.0,1.0
 Memories of Underdevelopment,Tomás Gutiérrez Alea,Cuba,1968,tt0063291,movie,1968,97,nm0349425,"nm0221517,nm0349425",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Memory for Max, Claire, Ida and Company",Allan King,Canada,2005,tt0478000,movie,2005,112,nm0454437,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Men Are Not Gods,Walter Reisch,United Kingdom,1936,tt0027954,movie,1936,82,nm0281556,"nm0281556,nm0827693,nm0942448",fuzzy_canonical,100.0,1.0,1.0,1.0
 Merry Christmas Mr. Lawrence,Nagisa Oshima,United Kingdom,1983,tt0085933,movie,1983,123,nm0651915,"nm0651915,nm0562577,nm0886394",fuzzy_canonical,100.0,1.0,1.0,1.0
 Metropolitan,Whit Stillman,United States,1990,tt0100142,movie,1990,98,nm0001775,nm0001775,fuzzy_canonical,100.0,1.0,1.0,1.0
 Miao Miao,Cheng Hsiao-Tse,Taiwan,2008,tt0984130,movie,2008,83,nm3171048,"nm3171048,nm3171409",fuzzy_canonical,90.5,1.0,0.7278,1.0
-Microcosmos,Claude Nuridsany and Marie Pérennou,France,1996,tt0117040,movie,1996,80,"nm0638175,nm0701821","nm0638175,nm0701821",fuzzy_canonical,96.2,1.0,0.8914,1.0
 Mikey and Nicky,Elaine May,United States,1976,tt0074901,movie,1976,106,nm0561938,nm0561938,fuzzy_canonical,100.0,1.0,1.0,1.0
-Milford Graves Full Mantis,Jake Meginsky,United States,2018,tt8014482,movie,2018,91,"nm9633155,nm9633158","nm1589584,nm9633155",fuzzy_canonical,100.0,1.0,1.0,1.0
-Milford Graves Live at Jamaica Arts Center,Jake Meginsky,United States,2019,tt8014482,movie,2018,91,"nm9633155,nm9633158","nm1589584,nm9633155",fuzzy_canonical,85.5,0.8604,1.0,0.5
-Milisuthando,Milisuthando Bongela,South Africa,2023,tt24082622,movie,2023,128,nm5988725,nm5988725,fuzzy_canonical,100.0,1.0,1.0,1.0
 Millennium Mambo,Hou Hsiao-hsien,Taiwan,2001,tt0283283,movie,2001,119,nm0396284,nm0160883,fuzzy_canonical,94.1,1.0,0.8314,1.0
-Millhouse,Emile de Antonio,United States,1971,tt0067431,movie,1971,92,nm0207108,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Miracle in Milan,Vittorio De Sica,Italy,1951,tt0043809,movie,1951,97,nm0001120,"nm0953790,nm0001120,nm0147599,nm0157061,nm0290000",fuzzy_canonical,100.0,1.0,1.0,1.0
 Miracles,Jackie Chan,Hong Kong,1989,tt0098019,movie,1989,128,nm0000329,"nm5987682,nm0437900,nm0728307,nm0750357,nm0849282,nm0876223",fuzzy_canonical,92.8,0.8552,1.0,1.0
 Miracles of Thursday,Luis García Berlanga,Spain,1957,tt0050574,movie,1957,84,nm0305557,"nm0305557,nm0171534,nm0176420",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -987,7 +859,6 @@ Mirror,Andrei Tarkovsky,Soviet Union,1975,tt0072443,movie,1975,107,nm0001789,"nm
 Misericordia,Alain Guiraudie,France,2024,tt32085997,movie,2024,104,nm0347492,nm0347492,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mishima: A Life in Four Chapters,Paul Schrader,United States,1985,tt0089603,movie,1985,120,nm0001707,"nm0775041,nm0001707,nm0775055,nm3511227,nm0592758",fuzzy_canonical,100.0,1.0,1.0,1.0
 Miss Julie,Alf Sjöberg,Sweden,1951,tt0043567,movie,1951,90,nm0803549,"nm0803549,nm0834529",fuzzy_canonical,100.0,1.0,1.0,1.0
-Mississippi Blues,Bertrand Tavernier and Robert Parrish,France,1983,tt0085946,movie,1983,96,"nm0663577,nm0851724","nm0663577,nm0851724",fuzzy_canonical,96.4,1.0,0.8973,1.0
 Mississippi Masala,Mira Nair,United States,1991,tt0102456,movie,1991,118,nm0619762,nm0850247,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mister Johnson,Bruce Beresford,United States,1990,tt0102458,movie,1990,101,nm0000915,"nm0101956,nm0142629",fuzzy_canonical,100.0,1.0,1.0,1.0
 Modern Times,Charles Chaplin,United States,1936,tt0027977,movie,1936,87,nm0000122,nm0000122,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -997,7 +868,6 @@ Mona Lisa,Neil Jordan,United Kingdom,1986,tt0091538,movie,1986,104,nm0001403,"nm
 Monologue,Adoor Gopalakrishnan,India,1987,tt0092557,movie,1987,125,nm0329715,nm0329715,fuzzy_canonical,100.0,1.0,1.0,1.0
 Monsieur Hulot’s Holiday,Jacques Tati,France,1953,tt0046487,movie,1953,83,nm0004244,"nm0004244,nm0549804,nm0041311,nm0481401",fuzzy_canonical,100.0,1.0,1.0,1.0
 Monsieur Verdoux,Charles Chaplin,United States,1947,tt0039631,movie,1947,124,nm0000122,"nm0000122,nm0000080",fuzzy_canonical,100.0,1.0,1.0,1.0
-Monterey Pop,D. A. Pennebaker,United States,1968,tt0064689,movie,1968,78,nm0672060,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Moonlight Serenade,Masahiro Shinoda,Japan,1997,tt0120101,movie,1997,110,nm0793983,"nm0950456,nm0621536",fuzzy_canonical,100.0,1.0,1.0,1.0
 More,Barbet Schroeder,West Germany,1969,tt0064694,movie,1969,112,nm0775447,"nm0337541,nm0775447,nm0002069,nm0033660,nm0306701",fuzzy_canonical,100.0,1.0,1.0,1.0
 More Than a Secretary,Alfred E. Green,United States,1936,tt0027985,movie,1936,77,nm0337586,"nm0886861,nm0823395,nm0384248,nm0437189,nm0852864",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1006,13 +876,11 @@ Motel Destino,Karim Aïnouz,Brazil,2024,tt28608358,movie,2024,115,nm0014694,"nm9
 Mother,Mikio Naruse,Japan,1952,tt0044986,movie,1952,98,nm0621540,nm0594666,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mother India,Mehboob Khan,,1957,tt0050188,movie,1957,172,nm0006371,"nm0592599,nm0713587",fuzzy_canonical,100.0,1.0,1.0,1.0
 Mother Küsters Goes to Heaven,Rainer Werner Fassbinder,West Germany,1975,tt0073424,movie,1975,108,nm0001202,"nm0001202,nm0704624,nm0956482",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Mother, I Am Suffocating. This Is My Last Film About You.",Lemohang Jeremiah Mosese,Germany,2019,tt10265444,movie,2019,76,nm6011478,nm6011478,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mothra vs. Godzilla,Ishiro Honda,Japan,1964,tt0058379,movie,1964,89,nm0393094,nm0782883,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mouchette,Robert Bresson,France,1967,tt0061996,movie,1967,81,nm0000975,"nm0076111,nm0000975",fuzzy_canonical,100.0,1.0,1.0,1.0
 Movie Crazy,Clyde Bruckman,United States,1932,tt0023241,movie,1932,84,"nm0115669,nm0516001","nm0493071,nm0426515,nm0340599,nm0012148,nm0124290,nm0516001",fuzzy_canonical,100.0,1.0,1.0,1.0
 Moving,Shinji Sōmai,Japan,1993,tt0107736,movie,1993,125,nm0814570,"nm0645689,nm0645766,nm0848989",fuzzy_canonical,100.0,1.0,1.0,1.0
 Mr. Freedom,William Klein,France,1969,tt0064674,movie,1968,95,nm0459017,nm0459017,fuzzy_canonical,92.5,1.0,1.0,0.5
-Mr. Hoover and I,Emile de Antonio,United States,1989,tt0197704,movie,1989,86,nm0207108,nm0207108,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mr. Klein,Joseph Losey,France,1976,tt0074916,movie,1976,123,nm0521334,"nm0758357,nm0603024,nm0002020",fuzzy_canonical,100.0,1.0,1.0,1.0
 Mr. Thank You,Hiroshi Shimizu,Japan,1936,tt0027307,movie,1936,76,nm0793646,"nm0442704,nm0793646",fuzzy_canonical,100.0,1.0,1.0,1.0
 Mr. Vampire,Ricky Lau,Hong Kong,1985,tt0089371,movie,1985,96,nm0490605,"nm0490605,nm1022277,nm0938944,nm0399065",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1021,16 +889,13 @@ Mr. Vampire III,Ricky Lau,Hong Kong,1987,tt0093422,movie,1987,93,nm0490605,"nm24
 Mr. Vampire IV,Ricky Lau,Hong Kong,1988,tt0099881,movie,1988,96,nm0490605,nm2496206,fuzzy_canonical,97.6,0.9526,1.0,1.0
 "Muhomatsu, the Rickshaw Man",Hiroshi Inagaki,Japan,1958,tt0051955,movie,1958,103,nm0408348,"nm0408348,nm0411632,nm0412616",fuzzy_canonical,91.7,0.8347,1.0,1.0
 Multiple Maniacs,John Waters,United States,1970,tt0067454,movie,1970,91,nm0000691,nm0000691,fuzzy_canonical,100.0,1.0,1.0,1.0
-Mur Murs,Agnès Varda,France,1981,tt0081204,movie,1981,80,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Muriel, or The Time of Return",Alain Resnais,France,1963,tt0057336,movie,1963,115,nm0720297,nm0147321,fuzzy_canonical,100.0,1.0,1.0,1.0
 Muriel’s Wedding,P.J. Hogan,Australia,1994,tt0110598,movie,1994,106,nm0389591,nm0389591,fuzzy_canonical,100.0,1.0,1.0,1.0
 Murmur of the Heart,Louis Malle,France,1971,tt0067778,movie,1971,118,nm0001501,nm0001501,fuzzy_canonical,100.0,1.0,1.0,1.0
 Museum Hours,Jem Cohen,Austria,2012,tt2268732,movie,2012,107,nm0169486,"nm0169486,nm6535882,nm0641304,nm3381950",fuzzy_canonical,100.0,1.0,1.0,1.0
 My American Uncle,Alain Resnais,France,1980,tt0081176,movie,1980,125,nm0720297,"nm0344171,nm0479609",fuzzy_canonical,100.0,1.0,1.0,1.0
-My Architect,Nathaniel Kahn,United States,2003,tt0373175,movie,2003,116,nm0434896,nm0434896,fuzzy_canonical,100.0,1.0,1.0,1.0
 My Brilliant Career,Gillian Armstrong,Australia,1979,tt0079596,movie,1979,100,nm0000788,"nm0936674,nm0291504",fuzzy_canonical,100.0,1.0,1.0,1.0
 My Brother’s Wedding,Charles Burnett,United States,1983,tt0087763,movie,1983,115,nm0122344,nm0122344,fuzzy_canonical,100.0,1.0,1.0,1.0
-My Crasy Life,Jean-Pierre Gorin,United States,1992,tt0104953,movie,1992,95,nm0330948,,fuzzy_canonical,100.0,1.0,1.0,1.0
 My Dinner with André,Louis Malle,United States,1981,tt0082783,movie,1981,110,nm0001501,"nm0001728,nm0339737",fuzzy_canonical,100.0,1.0,1.0,1.0
 My Father Is Coming,Monika Treut,Germany,1991,tt0102491,movie,1991,82,nm0872331,"nm0070532,nm0872331",fuzzy_canonical,100.0,1.0,1.0,1.0
 My Heart Is That Eternal Rose,Patrick Tam Kar-Ming,Hong Kong,1989,tt0093944,movie,1989,90,nm0848376,"nm0150981,nm0874683",fuzzy_canonical,96.9,1.0,0.91,1.0
@@ -1040,10 +905,8 @@ My Little Loves,Jean Eustache,France,1974,tt0071833,movie,1974,123,nm0262402,nm0
 My Lucky Stars,Sammo Hung,Hong Kong,1985,tt0089177,movie,1985,96,nm0005033,"nm0938944,nm0516314,nm1022277,nm1847973",fuzzy_canonical,97.1,1.0,0.9176,1.0
 My Night at Maud’s,Eric Rohmer,France,1969,tt0064612,movie,1969,105,nm0006445,nm0006445,fuzzy_canonical,100.0,1.0,1.0,1.0
 My Sex Life . . . or How I Got into an Argument,Arnaud Desplechin,France,1996,tt0115928,movie,1996,178,nm0221611,"nm0099802,nm0221611",fuzzy_canonical,100.0,1.0,1.0,1.0
-My Two Voices,Lina Rodriguez,Canada,2022,tt16951384,movie,2022,68,nm1883647,nm1883647,fuzzy_canonical,100.0,1.0,1.0,1.0
 My Way Home,Bill Douglas,United Kingdom,1978,tt0077964,movie,1978,71,nm0234963,nm0234963,fuzzy_canonical,100.0,1.0,1.0,1.0
 My Winnipeg,Guy Maddin,Canada,2007,tt1093842,movie,2007,80,nm0534665,"nm0534665,nm0866014",fuzzy_canonical,100.0,1.0,1.0,1.0
-Mysterious Object at Noon,Apichatpong Weerasethakul,Thailand,2000,tt0269587,movie,2000,89,nm0917405,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Mystery Train,Jim Jarmusch,United States,1989,tt0097940,movie,1989,110,nm0000464,nm0000464,fuzzy_canonical,100.0,1.0,1.0,1.0
 Nacional III,Luis García Berlanga,Spain,1982,tt0084383,movie,1982,102,nm0305557,"nm0044156,nm0305557",fuzzy_canonical,100.0,1.0,1.0,1.0
 Naked,Mike Leigh,United Kingdom,1993,tt0107653,movie,1993,131,nm0005139,nm0005139,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1053,7 +916,6 @@ Neighboring Sounds,Kleber Mendonça Filho,Brazil,2012,tt2190367,movie,2012,131,n
 Never Fear,Ida Lupino,United States,1950,tt0042783,movie,1950,82,nm0526946,"nm0526946,nm0949418",fuzzy_canonical,100.0,1.0,1.0,1.0
 New Rose Hotel,Abel Ferrara,United States,1998,tt0133122,movie,1998,93,nm0001206,"nm0317218,nm0001206,nm0957631",fuzzy_canonical,100.0,1.0,1.0,1.0
 New Tale of Zatoichi,Tokuzo Tanaka,Japan,1963,tt0057503,movie,1963,91,nm0849080,"nm0409467,nm0793753",fuzzy_canonical,100.0,1.0,1.0,1.0
-News from Home,Chantal Akerman,France,1976,tt0076452,movie,1976,89,nm0001901,nm0001901,fuzzy_canonical,100.0,1.0,1.0,1.0
 Next of Kin,Atom Egoyan,Canada,1984,tt0087789,movie,1984,70,nm0000382,nm0000382,fuzzy_canonical,100.0,1.0,1.0,1.0
 Night Drum,Tadashi Imai,Japan,1958,tt0052414,movie,1958,95,nm0408033,"nm0157399,nm0368074,nm0793881",fuzzy_canonical,100.0,1.0,1.0,1.0
 Night Games,Mai Zetterling,Sweden,1966,tt0060740,movie,1966,105,nm0955195,"nm0955195,nm1396584",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1068,55 +930,37 @@ No Blood Relation,Mikio Naruse,Japan,1932,tt0023261,movie,1932,79,nm0621540,"nm2
 No End,Krzysztof Kieślowski,Poland,1985,tt0086961,movie,1985,107,nm0001425,"nm0001425,nm0682830",fuzzy_canonical,100.0,1.0,1.0,1.0
 "No Fear, No Die",Claire Denis,France,1990,tt0100536,movie,1990,90,nm0219136,"nm0219136,nm0267288",fuzzy_canonical,100.0,1.0,1.0,1.0
 No More Excuses,Robert Downey Sr.,United States,1968,tt0251300,movie,1968,62,nm0002049,nm0002049,fuzzy_canonical,100.0,1.0,1.0,1.0
-No Ordinary Man,Aisling Chin-Yee and Chase Joynt,Canada,2020,tt12786834,movie,2020,83,"nm3301122,nm4958530","nm3301122,nm5336195",fuzzy_canonical,96.5,1.0,0.9,1.0
 No Regrets for Our Youth,Akira Kurosawa,Japan,1946,tt0039090,movie,1946,110,nm0000041,"nm0386750,nm0000041,nm0559700",fuzzy_canonical,100.0,1.0,1.0,1.0
 No Way Out,Roger Donaldson,United States,1987,tt0093640,movie,1987,114,nm0002044,"nm0269879,nm0307561",fuzzy_canonical,100.0,1.0,1.0,1.0
 Nobody’s Children,Raffaello Matarazzo,Italy,1952,tt0043532,movie,1951,102,nm0558127,"nm0207362,nm1854071,nm1603719,nm0558127",fuzzy_canonical,92.5,1.0,1.0,0.5
 Nocturnal Uproar,Catherine Breillat,France,1979,tt0134993,movie,1979,97,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
-Nocturnes,Anirban Dutta and Anupama Srinivasan,India,2024,tt30320605,movie,2024,82,"nm10360969,nm7698839","nm10360969,nm7698839",fuzzy_canonical,95.5,1.0,0.8722,1.0
 Nomad,Patrick Tam Kar-Ming,Hong Kong,1982,tt0084248,movie,1982,96,"nm0848376,nm0867265","nm0158402,nm0150958,nm0284559,nm0436350,nm0150981,nm0848376",fuzzy_canonical,96.9,1.0,0.91,1.0
-Not a Pretty Picture,Martha Coolidge,United States,1975,tt0073467,movie,1976,83,nm0004838,nm0004838,fuzzy_canonical,92.5,1.0,1.0,0.5
-Notebook on Cities and Clothes,Wim Wenders,West Germany,1989,tt0096852,movie,1989,81,nm0000694,"nm2691871,nm0000694",fuzzy_canonical,100.0,1.0,1.0,1.0
-Notfilm,Ross Lipman,United States,2015,tt3763790,movie,2015,129,nm1455058,nm1455058,fuzzy_canonical,100.0,1.0,1.0,1.0
 Nothing Sacred,William A. Wellman,United States,1937,tt0029322,movie,1937,77,nm0920074,"nm0372942,nm0834077,nm0006388,nm0308604,nm0366454,nm0397608,nm0442151,nm0488057,nm0649183,nm0775977,nm0920074",fuzzy_canonical,100.0,1.0,1.0,1.0
 Nothing but a Man,Michael Roemer,United States,1964,tt0058414,movie,1964,95,nm0736394,"nm0736394,nm0950001",fuzzy_canonical,100.0,1.0,1.0,1.0
 Nowhere,Gregg Araki,United States,1997,tt0119809,movie,1997,82,nm0000777,nm0000777,fuzzy_canonical,100.0,1.0,1.0,1.0
-Numéro zéro,Jean Eustache,France,1971,tt0261118,movie,1971,107,nm0262402,nm0262402,fuzzy_canonical,100.0,1.0,1.0,1.0
 "O Brother, Where Art Thou?",Joel Coen,United Kingdom,2000,tt0190590,movie,2000,107,"nm0001054,nm0001053","nm0392955,nm0001053,nm0001054",fuzzy_canonical,100.0,1.0,1.0,1.0
-"O Sport, You Are Peace!",Juri Ozerov,Soviet Union,1981,tt0151789,movie,1981,149,nm0654775,"nm7498319,nm0654775,nm11102523",fuzzy_canonical,97.0,1.0,0.9141,1.0
-Objectified,Gary Hustwit,United States,2009,tt1241325,movie,2009,75,nm1216753,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Obsession,Edward Dmytryk,United Kingdom,1949,tt0041460,movie,1949,96,nm0229424,nm0178785,fuzzy_canonical,100.0,1.0,1.0,1.0
 Odd Man Out,Carol Reed,United Kingdom,1947,tt0039677,movie,1947,116,nm0715346,"nm0337837,nm0792670",fuzzy_canonical,100.0,1.0,1.0,1.0
 Odd Obsession,Kon Ichikawa,Japan,1959,tt0052957,movie,1959,107,nm0406728,"nm0367913,nm0406728,nm0849505,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
 Oedipus Rex,Pier Paolo Pasolini,Italy,1967,tt0061613,movie,1967,104,nm0001596,"nm0001596,nm0814668",fuzzy_canonical,100.0,1.0,1.0,1.0
 Of Mice and Men,Lewis Milestone,United States,1939,tt0031742,movie,1939,106,nm0587277,"nm0825705,nm0813554",fuzzy_canonical,100.0,1.0,1.0,1.0
-Oh My God! It’s Harrod Blank!,David Silberberg,,2008,tt1336002,movie,2008,74,nm0797847,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Old Joy,Kelly Reichardt,United States,2006,tt0468526,movie,2006,76,nm0716980,"nm1299680,nm0716980",fuzzy_canonical,100.0,1.0,1.0,1.0
 Oliver Twist,David Lean,United Kingdom,1948,tt0040662,movie,1948,105,nm0000180,"nm0002042,nm0000180,nm0371552,nm0001907,nm0909727",fuzzy_canonical,100.0,1.0,1.0,1.0
-Olympia Part One: Festival of the Nations,Leni Riefenstahl,Germany,1938,tt0030522,movie,1938,111,nm0726166,nm0726166,fuzzy_canonical,100.0,1.0,1.0,1.0
-Olympia Part Two: Festival of Beauty,Leni Riefenstahl,Germany,1938,tt0030523,movie,1938,90,nm0726166,nm0726166,fuzzy_canonical,100.0,1.0,1.0,1.0
-"Olympic Games, 1956",Peter Whitchurch,Australia,1956,tt0255438,movie,1956,60,nm0924359,,fuzzy_canonical,100.0,1.0,1.0,1.0
-On the Bowery,Lionel Rogosin,United States,1956,tt0050800,movie,1956,65,nm0737369,"nm0046720,nm0737369,nm0837349",fuzzy_canonical,100.0,1.0,1.0,1.0
 Once Upon a Time in China and America,Sammo Hung,Hong Kong,1997,tt0120530,movie,1997,102,nm0005033,"nm1022277,nm0401206,nm0843865,nm0477241,nm0801863",fuzzy_canonical,97.1,1.0,0.9176,1.0
 Once a Thief,John Woo,Hong Kong,1991,tt0101020,movie,1991,108,nm0000247,"nm0000247,nm0170504,nm0150929",fuzzy_canonical,100.0,1.0,1.0,1.0
-One Hand Don’t Clap,Kavery Kaul,United States,1991,tt0102594,movie,1991,92,nm0244893,,fuzzy_canonical,100.0,1.0,1.0,1.0
 One Hundred and One Nights,Agnès Varda,France,1995,tt0112654,movie,1995,104,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
-"One Light, One World",Joe Jay Jalbert and R. Douglas Copsey,France,1992,tt7266800,movie,1992,104,"nm9210210,nm0416094","nm9502905,nm9210210",fuzzy_canonical,95.9,1.0,0.8833,1.0
 One Man Up,Paolo Sorrentino,,2001,tt0295671,movie,2001,100,nm0815204,nm0815204,fuzzy_canonical,100.0,1.0,1.0,1.0
 "One Sings, the Other Doesn’t",Agnès Varda,France,1977,tt0076855,movie,1977,120,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 One Way or Another,Sara Gómez,,1977,tt0075915,movie,1975,78,nm0351261,"nm0305651,nm0327979,nm0349425,nm0351261",fuzzy_canonical,88.8,1.0,1.0,0.25
 One Wonderful Sunday,Akira Kurosawa,Japan,1947,tt0039871,movie,1947,108,nm0000041,"nm0000041,nm0879939",fuzzy_canonical,100.0,1.0,1.0,1.0
 One-Way Ticket to Love,Masahiro Shinoda,Japan,1960,tt0054143,movie,1960,82,nm0793983,nm0793983,fuzzy_canonical,100.0,1.0,1.0,1.0
 Onibaba,Kaneto Shindo,Japan,1964,tt0058430,movie,1964,103,nm0793881,nm0793881,fuzzy_canonical,100.0,1.0,1.0,1.0
-Onlookers,Kimi Takesue,Lao People's Democratic Republic,2023,tt24240390,movie,2023,72,nm0847585,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Only One Night,Gustaf Molander,Sweden,1939,tt0031270,movie,1939,90,nm0596410,"nm0849205,nm0828436",fuzzy_canonical,100.0,1.0,1.0,1.0
 Only the River Flows,Wei Shujun,China,2023,tt27590147,movie,2023,101,nm5298388,"nm11788961,nm5298388,nm0950500",fuzzy_canonical,100.0,1.0,1.0,1.0
 Open Your Eyes,Alejandro Amenábar,Spain,1997,tt0125659,movie,1997,119,nm0024622,"nm0024622,nm0317834",fuzzy_canonical,100.0,1.0,1.0,1.0
 Opening Night,John Cassavetes,United States,1977,tt0079672,movie,1977,144,nm0001023,nm0001023,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ordet,Carl Th. Dreyer,Denmark,1955,tt0048452,movie,1955,126,nm0003433,"nm0612924,nm0003433",fuzzy_canonical,97.2,1.0,0.9188,1.0
-"Orlando, My Political Biography",Paul B. Preciado,France,2023,tt26448981,movie,2023,98,nm2286365,nm2286365,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ornamental Hairpin,Hiroshi Shimizu,Japan,1941,tt0427424,movie,1941,70,nm0793646,"nm0406600,nm3436142",fuzzy_canonical,100.0,1.0,1.0,1.0
-Ornette: Made in America,Shirley Clarke,United States,1985,tt0089742,movie,1985,85,nm0164999,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Orpheus,Jean Cocteau,France,1950,tt0041719,movie,1950,112,nm0168413,nm0168413,fuzzy_canonical,100.0,1.0,1.0,1.0
 Osaka Elegy,Kenji Mizoguchi,Japan,1936,tt0028021,movie,1936,90,nm0003226,"nm0297884,nm0003226,nm0645432,nm0406808",fuzzy_canonical,100.0,1.0,1.0,1.0
 Ossos,Pedro Costa,Portugal,1997,tt0119844,movie,1997,94,nm0182276,nm0182276,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1127,15 +971,12 @@ Out of the Past,Jacques Tourneur,United States,1947,tt0039689,movie,1947,97,nm08
 Over the Moon,Thornton Freeland and William K. Howard,United Kingdom,1939,tt0029365,movie,1939,78,"nm0293260,nm0397678","nm0792845,nm0083742,nm0670874,nm0178785,nm0934497",fuzzy_canonical,96.1,1.0,0.8895,1.0
 Overlord,Stuart Cooper,United Kingdom,1975,tt0073502,movie,1975,83,nm0003837,"nm0399801,nm0003837",fuzzy_canonical,100.0,1.0,1.0,1.0
 Pacific Heights,John Schlesinger,United States,1990,tt0100318,movie,1990,102,nm0772259,nm0002417,fuzzy_canonical,100.0,1.0,1.0,1.0
-Painters Painting,Emile de Antonio,United States,1973,tt0207645,movie,1972,116,nm0207108,,fuzzy_canonical,92.5,1.0,1.0,0.5
 Paisan,Roberto Rossellini,Italy,1946,tt0038823,movie,1946,120,nm0744023,"nm0024847,nm0000019,nm0542843,nm0656496,nm0370883,nm0744023,nm0311931,nm0695390",fuzzy_canonical,100.0,1.0,1.0,1.0
 Pale Flower,Masahiro Shinoda,Japan,1964,tt0056327,movie,1964,96,nm0793983,"nm0410982,nm0044709,nm0793983",fuzzy_canonical,100.0,1.0,1.0,1.0
 Palermo Shooting,Wim Wenders,Germany,2008,tt1008017,movie,2008,124,nm0000694,"nm0000694,nm2574151,nm1016679",fuzzy_canonical,100.0,1.0,1.0,1.0
 Pamfir,Dmytro Sukholytkyi-Sobchuk,Ukraine,2022,tt9455468,movie,2022,107,nm3683052,nm3683052,fuzzy_canonical,99.5,1.0,0.9846,1.0
 Panique,Julien Duvivier,France,1946,tt0038824,movie,1946,99,nm0245213,"nm0816458,nm0245213,nm0799442",fuzzy_canonical,100.0,1.0,1.0,1.0
-Paragraph 175,Rob Epstein and Jeffrey Friedman,United Kingdom,2000,tt0236576,movie,2000,81,"nm0258531,nm0295243",nm0940000,fuzzy_canonical,95.4,1.0,0.8688,1.0
 Paris Belongs to Us,Jacques Rivette,France,1961,tt0054156,movie,1961,120,nm0729626,"nm0729626,nm0344171",fuzzy_canonical,100.0,1.0,1.0,1.0
-Paris Is Burning,Jennie Livingston,United States,1990,tt0100332,movie,1990,78,nm0515255,,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Paris, Texas",Wim Wenders,Germany,1984,tt0087884,movie,1984,145,nm0000694,"nm0141281,nm0001731,nm0232924",fuzzy_canonical,100.0,1.0,1.0,1.0
 Passing Fancy,Yasujiro Ozu,Japan,1933,tt0023937,movie,1933,100,nm0654868,"nm0407456,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
 Pather Panchali,Satyajit Ray,India,1955,tt0048473,movie,1955,125,nm0006249,"nm0051808,nm0006249",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1144,7 +985,6 @@ Patrimonio nacional,Luis García Berlanga,Spain,1981,tt0082888,movie,1981,112,nm
 Pauline at the Beach,Eric Rohmer,France,1983,tt0086087,movie,1983,95,nm0006445,nm0006445,fuzzy_canonical,100.0,1.0,1.0,1.0
 Pearls of the Deep,"Jiří Menzel, Věra Chytilová, Jaromil Jireš, Jan Němec, and Evald Schorm",Czechoslovakia,1966,tt0059581,movie,1965,107,"nm0161615,nm0423180,nm0579954,nm0625866,nm0774880","nm0398518,nm0579954,nm0625866,nm0774880,nm0161615,nm0423180",fuzzy_canonical,86.6,1.0,0.8328,0.5
 People on Sunday,Robert Siodmak and Edgar G. Ulmer,Germany,1930,tt0020163,movie,1930,73,"nm0802563,nm0880618,nm0322843,nm0802561,nm0003593","nm0000697,nm0802561,nm0802563,nm0880618",fuzzy_canonical,96.1,1.0,0.8875,1.0
-"People, Hopes, Medals",Heribert Meisel,West Germany,1960,tt1985144,movie,1960,93,nm0577019,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Peppermint Frappé,Carlos Saura,Spain,1967,tt0062113,movie,1967,94,nm0767022,"nm0044156,nm0284638,nm0767022",fuzzy_canonical,100.0,1.0,1.0,1.0
 Perfect Love,Catherine Breillat,France,1996,tt0117296,movie,1996,110,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
 Perfumed Nightmare,Kidlat Tahimik,Philippines,1979,tt0076341,movie,1977,93,nm0846684,nm0846684,fuzzy_canonical,88.8,1.0,1.0,0.25
@@ -1157,13 +997,11 @@ Phoenix,Christian Petzold,Germany,2014,tt2764784,movie,2014,98,nm0678857,"nm0678
 Piccadilly,E. A. Dupont,United Kingdom,1929,tt0020269,movie,1929,92,nm0243295,nm0071596,fuzzy_canonical,92.2,1.0,0.7767,1.0
 Pickpocket,Robert Bresson,France,1959,tt0053168,movie,1959,76,nm0000975,nm0000975,fuzzy_canonical,100.0,1.0,1.0,1.0
 Picnic at Hanging Rock,Peter Weir,Australia,1975,tt0073540,movie,1975,115,nm0001837,"nm0337730,nm0512243",fuzzy_canonical,100.0,1.0,1.0,1.0
-Pictures of Ghosts,Kleber Mendonça Filho,Brazil,2023,tt27502227,movie,2023,93,nm2207625,nm2207625,fuzzy_canonical,100.0,1.0,1.0,1.0
 Pierrot le fou,Jean-Luc Godard,France,1965,tt0059592,movie,1965,110,nm0000419,"nm0286305,nm0000419,nm0925137",fuzzy_canonical,100.0,1.0,1.0,1.0
 Pigs and Battleships,Shohei Imamura,Japan,1962,tt0054709,movie,1961,108,nm0408076,"nm0849005,nm6432077,nm0652985",fuzzy_canonical,92.5,1.0,1.0,0.5
 Pink Narcissus,James Bidgood,United States,1971,tt0067580,movie,1971,65,nm0081199,nm0081199,fuzzy_canonical,100.0,1.0,1.0,1.0
 Pitfall,Hiroshi Teshigahara,Japan,1962,tt0203612,movie,1962,97,nm0856267,nm0008356,fuzzy_canonical,100.0,1.0,1.0,1.0
 Pixote,Héctor Babenco,Brazil,1980,tt0082912,movie,1980,128,nm0002199,"nm0002199,nm0244525,nm0522216",fuzzy_canonical,100.0,1.0,1.0,1.0
-Place de la République,Louis Malle,France,1974,tt0071999,movie,1974,94,nm0001501,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Platform,Jia Zhangke,China,2000,tt0258885,movie,2000,154,nm0422605,nm0422605,fuzzy_canonical,99.4,1.0,0.9833,1.0
 Play,Ruben Östlund,Sweden,2011,tt1376717,movie,2011,118,nm1128037,"nm1615036,nm1128037",fuzzy_canonical,100.0,1.0,1.0,1.0
 PlayTime,Jacques Tati,France,1967,tt0062136,movie,1967,155,nm0004244,"nm0004244,nm0481401,nm0118290",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1173,7 +1011,6 @@ Plácido,Luis García Berlanga,Spain,1961,tt0055310,movie,1961,85,nm0305557,"nm0
 Poetry,Lee Chang-dong,South Korea,2010,tt1287878,movie,2010,139,nm0496969,nm0496969,fuzzy_canonical,100.0,1.0,1.0,1.0
 Poil de carotte,Julien Duvivier,France,1932,tt0023345,movie,1932,91,nm0245213,"nm0719162,nm0245213",fuzzy_canonical,100.0,1.0,1.0,1.0
 Point Break,Kathryn Bigelow,United States,1991,tt0102685,movie,1991,122,nm0000941,"nm0004488,nm0407717",fuzzy_canonical,100.0,1.0,1.0,1.0
-Point of Order!,Emile de Antonio,United States,1964,tt0058481,movie,1964,97,nm0207108,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Poison,Todd Haynes,United States,1991,tt0102687,movie,1991,85,nm0001331,"nm0312792,nm0001331",fuzzy_canonical,100.0,1.0,1.0,1.0
 Police Story,Jackie Chan,Hong Kong,1985,tt0089374,movie,1985,100,nm0000329,"nm0000329,nm0849282",fuzzy_canonical,100.0,1.0,1.0,1.0
 Police Story 2,Jackie Chan,Hong Kong,1988,tt0095403,movie,1988,101,nm0000329,"nm0000329,nm0165560,nm0849282",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1181,14 +1018,11 @@ Police Story 2,Jackie Chan,Hong Kong,1988,tt0095403,movie,1988,101,nm0000329,"nm
 Porcile,Pier Paolo Pasolini,Italy,1969,tt0064828,movie,1969,99,nm0001596,nm0001596,fuzzy_canonical,100.0,1.0,1.0,1.0
 Port of Call,Ingmar Bergman,Sweden,1948,tt0040418,movie,1948,100,nm0000005,"nm0000005,nm0529508",fuzzy_canonical,100.0,1.0,1.0,1.0
 Porto of My Childhood,Manoel de Oliveira,France,2001,tt0296809,movie,2001,61,nm0210701,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Portrait of Jason,Shirley Clarke,United States,1967,tt0062144,movie,1967,105,nm0164999,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Possession,Andrzej Żuławski,France,1981,tt0082933,movie,1981,124,nm0958558,"nm0958558,nm0878292",fuzzy_canonical,99.1,1.0,0.975,1.0
-Poto and Cabengo,Jean-Pierre Gorin,United States,1980,tt0196866,movie,1979,77,nm0330948,nm0330948,fuzzy_canonical,92.5,1.0,1.0,0.5
 Powwow Highway,Jonathan Wacks,United States,1989,tt0098112,movie,1989,91,nm0905237,"nm0780559,nm0372406,nm0824036",fuzzy_canonical,100.0,1.0,1.0,1.0
 Preparations to Be Together for an Unknown Period of Time,Lili Horvát,Hungary,2020,tt12564514,movie,2020,95,nm2520336,nm2520336,fuzzy_canonical,100.0,1.0,1.0,1.0
 Pressure,Horace Ové,United Kingdom,1975,tt0075098,movie,1976,126,nm0654048,"nm0654048,nm0783613",fuzzy_canonical,92.5,1.0,1.0,0.5
 Pretty Red Dress,Dionne Edwards,United Kingdom,2023,tt14906708,movie,2022,110,nm5921218,nm5921218,fuzzy_canonical,92.5,1.0,1.0,0.5
-Primary,Robert Drew,United States,1960,tt0054205,movie,1960,60,nm0237707,nm0237707,fuzzy_canonical,100.0,1.0,1.0,1.0
 Prince of Broadway,Sean Baker,United States,2008,tt1000769,movie,2008,100,nm0048918,"nm0048918,nm2608694",fuzzy_canonical,100.0,1.0,1.0,1.0
 Princess Yang Kwei-fei,Kenji Mizoguchi,Japan,1955,tt0048820,movie,1955,98,nm0003226,"nm0157860,nm0442736,nm0406808,nm0621534",fuzzy_canonical,100.0,1.0,1.0,1.0
 Princess from the Moon,Kon Ichikawa,Japan,1987,tt0094100,movie,1987,121,nm0406728,"nm0383025,nm0406728,nm0410952,nm0452878,nm0613556",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1209,7 +1043,6 @@ Queen of the Desert,Werner Herzog,United States,2015,tt1837636,movie,2015,128,nm
 Queens of Drama,Alexis Langlois,Belgium,2024,tt28349668,movie,2024,114,nm5652096,"nm5652096,nm5699706,nm12224377",fuzzy_canonical,100.0,1.0,1.0,1.0
 Querelle,Rainer Werner Fassbinder,Germany,1982,tt0084565,movie,1982,108,nm0001202,"nm0312792,nm0001202,nm0237897",fuzzy_canonical,100.0,1.0,1.0,1.0
 Rachel Getting Married,Jonathan Demme,United States,2008,tt1084950,movie,2008,113,nm0001129,nm0525886,fuzzy_canonical,100.0,1.0,1.0,1.0
-Rams,Gary Hustwit,United States,2018,tt8423080,movie,2018,74,nm1216753,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rashomon,Akira Kurosawa,Japan,1950,tt0042876,movie,1950,88,nm0000041,"nm0015611,nm0000041,nm0368074",fuzzy_canonical,100.0,1.0,1.0,1.0
 Rat Trap,Adoor Gopalakrishnan,India,1982,tt0082318,movie,1982,121,nm0329715,nm0329715,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ratcatcher,Lynne Ramsay,United Kingdom,1999,tt0171685,movie,1999,94,nm0708903,nm0708903,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1221,8 +1054,6 @@ Red Beard,Akira Kurosawa,Japan,1965,tt0058888,movie,1965,185,nm0000041,"nm040683
 Red Desert,Michelangelo Antonioni,France,1964,tt0058003,movie,1964,117,nm0000774,"nm0000774,nm0346096",fuzzy_canonical,100.0,1.0,1.0,1.0
 Redes,Emilio Gómez Muriel…,Mexico,1936,tt0028165,movie,1936,65,"nm0350947,nm0003593","nm0234287,nm0350947,nm0007238,nm0667230,nm0734414,nm0833271,nm0892789,nm0003593",fuzzy_canonical,100.0,1.0,1.0,1.0
 Regeneration,Richard E. Norman,United States,1923,tt0130218,movie,1923,60,nm1331029,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Regret to Inform,Barbara Sonneborn,United States,1999,tt0181786,movie,1998,72,nm0814384,nm0814384,fuzzy_canonical,92.5,1.0,1.0,0.5
-Regrouping,Lizzie Borden,United States,1976,tt0207050,movie,1976,80,nm0001962,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rembrandt,Alexander Korda,United Kingdom,1936,tt0028167,movie,1936,85,nm0466099,"nm0958454,nm0372148,nm0083742",fuzzy_canonical,100.0,1.0,1.0,1.0
 Remorques,Jean Grémillon,France,1941,tt0034093,movie,1941,91,nm0344927,"nm0893712,nm0699535,nm0147158,nm0816458,nm4942809",fuzzy_canonical,100.0,1.0,1.0,1.0
 Remote Control,Jeff Lieberman,United States,1988,tt0093843,movie,1988,88,nm0006639,nm0006639,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1230,7 +1061,6 @@ Rendez-vous,André Téchiné,France,1985,tt0089902,movie,1985,82,nm0029242,"nm00
 Repast,Mikio Naruse,Japan,1951,tt0043801,movie,1951,97,nm0621540,"nm0406841,nm0849068,nm0442704,nm0370615",fuzzy_canonical,100.0,1.0,1.0,1.0
 Repo Man,Alex Cox,United States,1984,tt0087995,movie,1984,92,nm0007182,nm0007182,fuzzy_canonical,100.0,1.0,1.0,1.0
 Resurrection,Bi Gan,China,2025,tt29002950,movie,2025,160,nm7267981,nm7267981,fuzzy_canonical,100.0,1.0,1.0,1.0
-Resynator,Alison Tavel,United States,2024,tt5778628,movie,2024,96,nm4021619,"nm5731579,nm4021619",fuzzy_canonical,100.0,1.0,1.0,1.0
 Return of the Prodigal Son,Evald Schorm,Czechoslovakia,1967,tt0060770,movie,1967,103,nm0774880,"nm0532664,nm0774880",fuzzy_canonical,100.0,1.0,1.0,1.0
 Return of the Prodigal Son,Youssef Chahine,Egypt,1976,tt0074168,movie,1978,120,nm0149631,"nm0069449,nm0149631,nm1549769",fuzzy_canonical,88.8,1.0,1.0,0.25
 Return to Reason: Four Films by Man Ray,Man Ray,France,2023,tt27656132,movie,2023,70,nm0712915,,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1240,7 +1070,6 @@ Richard III,Laurence Olivier,United Kingdom,1955,tt0049674,movie,1955,161,nm0000
 Ride in the Whirlwind,Monte Hellman,United States,1966,tt0059653,movie,1966,82,nm0375494,nm0000197,fuzzy_canonical,100.0,1.0,1.0,1.0
 Riki-Oh: The Story of Ricky,Lam Nai-choi,Hong Kong,1991,tt0102293,movie,1991,91,nm0482670,"nm1834353,nm1618302,nm0482670",fuzzy_canonical,88.3,1.0,0.666,1.0
 Ring,Hideo Nakata,Japan,1998,tt0178868,movie,1998,96,nm0620378,"nm0847126,nm0840626",fuzzy_canonical,100.0,1.0,1.0,1.0
-"Riotsville, USA",Sierra Pettengill,United States,2022,tt11398388,movie,2022,91,nm2218225,nm12942740,fuzzy_canonical,98.8,0.975,1.0,1.0
 "Rita, Sue and Bob Too",Alan Clarke,United Kingdom,1987,tt0091859,movie,1987,89,nm0164639,nm0241816,fuzzy_canonical,100.0,1.0,1.0,1.0
 Robinson Crusoe,Luis Buñuel,United States,1954,tt0044386,movie,1954,90,nm0000320,"nm0214518,nm0124947,nm0000320",fuzzy_canonical,100.0,1.0,1.0,1.0
 RoboCop,Paul Verhoeven,United States,1987,tt0093870,movie,1987,102,nm0000682,"nm0627159,nm0591160",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1248,17 +1077,13 @@ Rocco and His Brothers,Luchino Visconti,France,1960,tt0054248,movie,1960,179,nm0
 Rodan,Ishiro Honda,Japan,1956,tt0049782,movie,1956,74,nm0393094,"nm0241949,nm0454119,nm0475888,nm0613609",fuzzy_canonical,100.0,1.0,1.0,1.0
 Rome Open City,Roberto Rossellini,Italy,1945,tt0038890,movie,1945,103,nm0744023,"nm0024847,nm0000019,nm0744023,nm0175924,nm17357165,nm17357166",fuzzy_canonical,100.0,1.0,1.0,1.0
 Ronin Gai,Kazuo Kuroki,Japan,1990,tt0308827,movie,1990,117,"nm0475879,nm0538632","nm1115644,nm0440378",fuzzy_canonical,100.0,1.0,1.0,1.0
-Room 999,Lubna Playoust,France,2023,tt27729122,movie,2023,89,nm6690243,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rosa Luxemburg,Margarethe von Trotta,West Germany,1986,tt0091869,movie,1986,122,nm0903137,nm0903137,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rosetta,Luc Dardenne and Jean-Pierre Dardenne,Belgium,1999,tt0200071,movie,1999,95,"nm0201094,nm0201095","nm0201094,nm0201095",fuzzy_canonical,95.3,1.0,0.8649,1.0
 Rouge,Stanley Kwan,Hong Kong,1987,tt0093258,movie,1987,93,nm0477102,"nm0497762,nm0158402",fuzzy_canonical,100.0,1.0,1.0,1.0
-Routine Pleasures,Jean-Pierre Gorin,United States,1986,tt0274069,movie,1986,81,nm0330948,"nm0025318,nm0330948",fuzzy_canonical,100.0,1.0,1.0,1.0
 Royal Warriors,David Chung,Hong Kong,1986,tt0091229,movie,1986,96,nm0161205,nm0874683,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rude,Clement Virgo,Canada,1995,tt0114305,movie,1995,89,nm0899364,nm0899364,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rude Boy,Jack Hazan and David Mingay,United Kingdom,1980,tt0081441,movie,1980,133,"nm0371883,nm0591275","nm0304318,nm0591275",fuzzy_canonical,95.6,1.0,0.8741,1.0
-Rush to Judgment,Emile de Antonio,United States,1967,tt0060920,movie,1967,98,nm0207108,nm0485462,fuzzy_canonical,100.0,1.0,1.0,1.0
 Rusty Knife,Toshio Masuda,Japan,1958,tt0360946,movie,1958,90,nm0557927,"nm0410982,nm0557927",fuzzy_canonical,100.0,1.0,1.0,1.0
-Ryuichi Sakamoto | Opus,Neo Sora,Japan,2023,tt28490873,movie,2023,103,nm5586586,,fuzzy_canonical,100.0,1.0,1.0,1.0
 SCENES FROM A MARRIAGE: Episode 1,Ingmar Bergman,Sweden,1973,tt6725014,movie,1974,169,nm0000005,nm0000005,fuzzy_canonical,89.4,0.9375,1.0,0.5
 SCENES FROM A MARRIAGE: Episode 2,Ingmar Bergman,Sweden,1973,tt6725014,movie,1974,169,nm0000005,nm0000005,fuzzy_canonical,89.4,0.9375,1.0,0.5
 SCENES FROM A MARRIAGE: Episode 3,Ingmar Bergman,Sweden,1973,tt6725014,movie,1974,169,nm0000005,nm0000005,fuzzy_canonical,89.4,0.9375,1.0,0.5
@@ -1270,7 +1095,6 @@ Sada,Nobuhiko Obayashi,Japan,1998,tt0144589,movie,1998,132,nm0541244,nm0632833,f
 Safe Conduct,Bertrand Tavernier,France,2002,tt0269461,movie,2002,170,nm0851724,"nm0222157,nm0181924,nm0851724",fuzzy_canonical,100.0,1.0,1.0,1.0
 Safety Last!,Fred Newmeyer and Sam Taylor,United States,1923,tt0014429,movie,1923,74,"nm0628345,nm0853130","nm0730018,nm0853130,nm0924065,nm0907778,nm0369841,nm0516001",fuzzy_canonical,94.0,1.0,0.8295,1.0
 Saladin the Victorious,Youssef Chahine,Egypt,1963,tt0057357,movie,1963,194,nm0149631,"nm0008131,nm0149631,nm1548504,nm0252757,nm0536914,nm0958573",fuzzy_canonical,100.0,1.0,1.0,1.0
-Salesman,"David Maysles, Albert Maysles, and Charlotte Zwerin",United States,1969,tt0064921,movie,1969,91,"nm0563099,nm0563100,nm0959020",,fuzzy_canonical,94.9,1.0,0.8531,1.0
 Salvatore Giuliano,Francesco Rosi,Italy,1962,tt0055399,movie,1962,125,nm0742940,"nm0742940,nm0147599,nm0699039,nm0758357",fuzzy_canonical,100.0,1.0,1.0,1.0
 Samaritan Zatoichi,Kenji Misumi,Japan,1968,tt0164983,movie,1968,84,nm0593014,"nm0765707,nm0793753,nm0782049,nm0948940",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sambizanga,Sarah Maldoror,Angola,1972,tt0069214,movie,1972,97,nm0539275,"nm0539275,nm0896667,nm0690513,nm0207031,nm0013206,nm11123931",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1283,32 +1107,25 @@ Samurai Spy,Masahiro Shinoda,Japan,1965,tt0059303,movie,1965,99,nm0793983,"nm029
 Sandakan No. 8,Kei Kumai,Japan,1974,tt0073654,movie,1974,120,nm0474743,"nm3320916,nm0386396,nm0474743",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sanders of the River,Zoltán Korda,United Kingdom,1935,tt0026966,movie,1935,85,nm0466113,"nm0083742,nm0217325,nm0934497,nm0908624",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sanjuro,Akira Kurosawa,Japan,1962,tt0056443,movie,1962,96,nm0000041,"nm0452878,nm0644823,nm0000041,nm0945491",fuzzy_canonical,100.0,1.0,1.0,1.0
-Sans Soleil,Chris Marker,France,1983,tt0084628,movie,1983,100,nm0003408,nm0003408,fuzzy_canonical,100.0,1.0,1.0,1.0
 Sanshiro Sugata,Akira Kurosawa,Japan,1943,tt0036400,movie,1943,79,nm0000041,"nm0000041,nm0866744",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Sanshiro Sugata, Part Two",Akira Kurosawa,Japan,1945,tt0038268,movie,1945,83,nm0000041,"nm0866744,nm0000041",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sansho the Bailiff,Kenji Mizoguchi,Japan,1954,tt0047445,movie,1954,124,nm0003226,"nm0605286,nm0297687,nm0406808",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sapphire,Basil Dearden,United Kingdom,1959,tt0053242,movie,1959,92,nm0213136,"nm0337944,nm0375355",fuzzy_canonical,100.0,1.0,1.0,1.0
-Sapporo Winter Olympics,Masahiro Shinoda,Japan,1972,tt0069222,movie,1972,167,nm0793983,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Sarraounia,Med Hondo,Burkina Faso,1986,tt0091892,movie,1986,120,nm0393124,"nm0393124,nm0541005,nm0911273",fuzzy_canonical,100.0,1.0,1.0,1.0
 Satan's Brew,Rainer Werner Fassbinder,West Germany,1976,tt0075165,movie,1976,112,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
 Saturday Night and Sunday Morning,Karel Reisz,United Kingdom,1960,tt0054269,movie,1960,89,nm0718554,nm0798105,fuzzy_canonical,100.0,1.0,1.0,1.0
 Sawdust and Tinsel,Ingmar Bergman,Sweden,1953,tt0045848,movie,1953,93,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
-"Say Amen, Somebody",George T. Nierenberg,United States,1982,tt0086245,movie,1982,100,nm0631221,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Scandal,Akira Kurosawa,Japan,1950,tt0042958,movie,1950,105,nm0000041,"nm0452878,nm0000041",fuzzy_canonical,100.0,1.0,1.0,1.0
 Scanners,David Cronenberg,Canada,1981,tt0081455,movie,1981,103,nm0000343,nm0000343,fuzzy_canonical,100.0,1.0,1.0,1.0
 Scattered Clouds,Mikio Naruse,Japan,1967,tt0061971,movie,1967,108,nm0621540,nm0945257,fuzzy_canonical,100.0,1.0,1.0,1.0
 Scenes from a Marriage,Ingmar Bergman,Sweden,1973,tt6725014,movie,1974,169,nm0000005,nm0000005,fuzzy_canonical,92.5,1.0,1.0,0.5
 School on Fire,Ringo Lam Ling-Tung,Hong Kong,1988,tt0096472,movie,1988,101,nm0482681,nm0620609,fuzzy_canonical,96.3,1.0,0.8947,1.0
 Scrubbers,Mai Zetterling,United Kingdom,1982,tt0086265,movie,1982,93,nm0955195,"nm0591736,nm0914982,nm0955195,nm0125535",fuzzy_canonical,100.0,1.0,1.0,1.0
-Searching for Mr. Rugoff,Ira Deutchman,United States,2019,tt11233002,movie,2019,94,nm0222048,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Secret Honor,Robert Altman,United States,1984,tt0088074,movie,1984,90,nm0000265,"nm0293105,nm0831735",fuzzy_canonical,100.0,1.0,1.0,1.0
 Secrets & Lies,Mike Leigh,United Kingdom,1996,tt0117589,movie,1996,136,nm0005139,nm0005139,fuzzy_canonical,100.0,1.0,1.0,1.0
 Seduced and Abandoned,Pietro Germi,Italy,1964,tt0058564,movie,1964,115,nm0314584,"nm0314584,nm0898812,nm0408488,nm0769249",fuzzy_canonical,100.0,1.0,1.0,1.0
 Seduction: The Cruel Woman,Monika Treut and Elfi Mikesch,Germany,1986,tt0090252,movie,1985,88,"nm0005799,nm0872331","nm0005799,nm0872331,nm15917065,nm0755106",fuzzy_canonical,88.4,1.0,0.8828,0.5
-Sennan Asbestos Disaster,Kazuo Hara,Japan,2016,tt5498350,movie,2016,215,nm0361672,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Sensation of the Century,Taguchi Suketaro and Nobusama Kawamoto,Japan,1966,tt7262782,movie,1966,156,"nm16426404,nm14839790","nm16426404,nm14839790",fuzzy_canonical,86.9,1.0,0.6253,1.0
 Senso,Luchino Visconti,Italy,1954,tt0047469,movie,1954,123,nm0899581,"nm0899581,nm0147599,nm0092436,nm0019530,nm0060145,nm0698782,nm0931783,nm0101247",fuzzy_canonical,100.0,1.0,1.0,1.0
-Seoul 1988,Lee Kwang-soo,South Korea,1989,tt15146486,movie,1989,139,nm12805339,,fuzzy_canonical,89.9,1.0,0.7128,1.0
 Seven Samurai,Akira Kurosawa,Japan,1954,tt0047478,movie,1954,207,nm0000041,"nm0000041,nm0368074,nm0644823",fuzzy_canonical,100.0,1.0,1.0,1.0
 Sex,Dag Johan Haugerud,Norway,2024,tt26270862,movie,2024,118,nm0369326,nm0369326,fuzzy_canonical,100.0,1.0,1.0,1.0
 Sex Is Comedy,Catherine Breillat,France,2002,tt0304678,movie,2002,92,nm0106924,nm0106924,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1337,7 +1154,6 @@ Smiles of a Summer Night,Ingmar Bergman,Sweden,1955,tt0048641,movie,1955,109,nm0
 Smithereens,Susan Seidelman,United States,1982,tt0084698,movie,1982,93,nm0782384,"nm0782384,nm0638913,nm0039468",fuzzy_canonical,100.0,1.0,1.0,1.0
 Smooth Talk,Joyce Chopra,United States,1985,tt0090037,movie,1985,92,nm0159154,"nm0643093,nm0170822",fuzzy_canonical,100.0,1.0,1.0,1.0
 Snow Trail,Senkichi Taniguchi,Japan,1947,tt0039423,movie,1947,89,nm0849474,"nm0000041,nm0849474",fuzzy_canonical,100.0,1.0,1.0,1.0
-Snows of Grenoble,Jacques Ertaud and Jean-Jacques Languepin,France,1968,tt1619032,movie,1968,97,"nm0259896,nm3672678",,fuzzy_canonical,95.4,1.0,0.8683,1.0
 So Long at the Fair,Terence Fisher and Antony Darnborough,United Kingdom,1950,tt0042980,movie,1950,86,"nm0201493,nm0279807","nm0861355,nm0590027",fuzzy_canonical,95.6,1.0,0.8757,1.0
 So Much Tenderness,Lina Rodriguez,Canada,2022,tt16022080,movie,2022,118,nm1883647,nm1883647,fuzzy_canonical,100.0,1.0,1.0,1.0
 So Pretty,Jessica Dunn Rovinelli,United States,2019,tt9595506,movie,2019,83,nm4048088,"nm4048088,nm1115183",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1369,14 +1185,12 @@ Story of Women,Claude Chabrol,France,1988,tt0096336,movie,1988,108,nm0001031,"nm
 Story of a Prostitute,Seijun Suzuki,Japan,1965,tt0059715,movie,1965,96,nm0840671,"nm0847244,nm0848795",fuzzy_canonical,100.0,1.0,1.0,1.0
 Stowaway in the Sky,Albert Lamorisse,France,1960,tt0056667,movie,1960,85,nm0483738,nm0483738,fuzzy_canonical,100.0,1.0,1.0,1.0
 Straight to Hell,Alex Cox,United Kingdom,1987,tt0094048,movie,1987,86,nm0007182,"nm0748683,nm0007182",fuzzy_canonical,100.0,1.0,1.0,1.0
-Strange Victory,Leo Hurwitz,United States,1948,tt0469835,movie,1948,71,nm0007238,"nm0007238,nm0495404",fuzzy_canonical,100.0,1.0,1.0,1.0
 Stranger Eyes,Yeo Siew Hua,France,2024,tt28419037,movie,2024,125,nm5469088,nm5469088,fuzzy_canonical,90.3,1.0,0.7222,1.0
 Stranger Than Paradise,Jim Jarmusch,United States,1984,tt0088184,movie,1984,89,nm0000464,"nm0000464,nm0527099",fuzzy_canonical,100.0,1.0,1.0,1.0
 Stray Dog,Akira Kurosawa,Japan,1949,tt0041699,movie,1949,122,nm0000041,"nm0452878,nm0000041",fuzzy_canonical,100.0,1.0,1.0,1.0
 Street Without End,Mikio Naruse,Japan,1934,tt0025338,movie,1934,89,nm0621540,"nm2010092,nm0457560",fuzzy_canonical,100.0,1.0,1.0,1.0
 Street of Love and Hope,Nagisa Oshima,Japan,1959,tt0052540,movie,1959,62,nm0651915,nm0651915,fuzzy_canonical,92.1,0.8429,1.0,1.0
 Street of Shame,Kenji Mizoguchi,Japan,1956,tt0048933,movie,1956,86,nm0003226,"nm0621534,nm0793061",fuzzy_canonical,100.0,1.0,1.0,1.0
-Streetwise,Martin Bell,United States,1984,tt0088196,movie,1984,91,nm0068385,nm0564625,fuzzy_canonical,100.0,1.0,1.0,1.0
 Stress Is Three,Carlos Saura,Spain,1968,tt0063651,movie,1968,94,nm0767022,"nm0284638,nm0767022",fuzzy_canonical,100.0,1.0,1.0,1.0
 Strike,Sergei Eisenstein,Soviet Union,1925,tt0015361,movie,1925,82,nm0001178,"nm0017893,nm0001178,nm0470402,nm0687244",fuzzy_canonical,100.0,1.0,1.0,1.0
 Stromboli,Roberto Rossellini,Italy,1950,tt0041931,movie,1950,81,nm0744023,"nm0744023,nm0024847,nm0130397,nm0169883,nm0149027,nm0605813",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1394,11 +1208,7 @@ Sweetie,Jane Campion,New Zealand,1989,tt0098725,movie,1989,97,nm0001005,"nm30966
 Sword of the Beast,Hideo Gosha,Japan,1965,tt0200768,movie,1965,85,nm0331471,"nm0331471,nm0793048",fuzzy_canonical,100.0,1.0,1.0,1.0
 Swordsman II,Tony Ching Siu-Tung,Hong Kong,1992,tt0103295,movie,1992,112,nm0155642,"nm0149222,nm0150909,nm0849283,nm0007139",fuzzy_canonical,89.2,1.0,0.6907,1.0
 Sylvie et le fantôme,Claude Autant-Lara,France,1946,tt0038146,movie,1946,97,nm0002193,"nm0010514,nm0042179",fuzzy_canonical,100.0,1.0,1.0,1.0
-Symbiopsychotaxiplasm: Take 2 1/2,William Greaves,United States,2005,tt0436811,movie,2005,99,nm0337348,nm0337348,fuzzy_canonical,100.0,1.0,1.0,1.0
-Symbiopsychotaxiplasm: Two Takes by William Greaves,William Greaves,United States,1968,tt0296881,movie,1968,75,nm0337348,nm0337348,fuzzy_canonical,94.8,0.8955,1.0,1.0
-Sympathy for the Devil,Jean-Luc Godard,United Kingdom,1968,tt0063665,movie,1968,115,nm0000419,"nm0000419,nm0001396,nm0724189",fuzzy_canonical,100.0,1.0,1.0,1.0
 Séance on a Wet Afternoon,Bryan Forbes,United Kingdom,1964,tt0058557,movie,1964,115,nm0285302,"nm0522561,nm0285302",fuzzy_canonical,100.0,1.0,1.0,1.0
-TGM the Liberator,Věra Chytilová,Czechoslovakia,1990,tt0170651,movie,1990,60,nm0161615,,fuzzy_canonical,100.0,1.0,1.0,1.0
 THE 47 RONIN: Part 1,Kenji Mizoguchi,Japan,1941,tt0033654,movie,1941,241,nm0003226,"nm0361674,nm0562204,nm0406808",fuzzy_canonical,97.3,0.9462,1.0,1.0
 THE 47 RONIN: Part 2,Kenji Mizoguchi,Japan,1941,tt0033654,movie,1941,241,nm0003226,"nm0361674,nm0562204,nm0406808",fuzzy_canonical,97.3,0.9462,1.0,1.0
 THE GOLD RUSH: 1925 Version,Charles Chaplin,United States,1925,tt0015864,movie,1925,95,nm0000122,nm0000122,fuzzy_canonical,95.0,0.9,1.0,1.0
@@ -1407,8 +1217,6 @@ Taipei Story,Edward Yang,Taiwan,1985,tt0089866,movie,1985,119,nm0945981,"nm01608
 Take Aim at the Police Van,Seijun Suzuki,Japan,1960,tt0054325,movie,1960,79,nm0840671,"nm3583472,nm0782883",fuzzy_canonical,100.0,1.0,1.0,1.0
 Take Out,Sean Baker and Shih-Ching Tsou,United States,2004,tt0391483,movie,2004,87,"nm0048918,nm1516804","nm0048918,nm1516804",fuzzy_canonical,95.3,1.0,0.8667,1.0
 Tales of a Golden Geisha,Juzo Itami,Japan,1990,tt0098972,movie,1990,114,nm0411631,nm0411631,fuzzy_canonical,100.0,1.0,1.0,1.0
-Talking About Trees,Suhaib Gasmelbari,Sudan,2019,tt9658178,movie,2019,93,nm9466043,nm9466043,fuzzy_canonical,100.0,1.0,1.0,1.0
-"Tally Brown, New York",Rosa von Praunheim,Germany,1979,tt0163324,movie,1979,97,nm0902823,nm0902823,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tamala 2010: A Punk Cat in Space,t.o.L,Japan,2002,tt0374262,movie,2002,92,"nm17425660,nm17425661,nm1413822","nm17425660,nm17425661,nm1413822",fuzzy_canonical,89.1,1.0,0.6889,1.0
 Tampopo,Juzo Itami,Japan,1985,tt0092048,movie,1985,114,nm0411631,nm0411631,fuzzy_canonical,100.0,1.0,1.0,1.0
 Taste of Cherry,Abbas Kiarostami,Iran,1997,tt0120265,movie,1997,95,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1418,14 +1226,12 @@ Terrestrial Verses,Ali Asgari and Alireza Khatami,Iran,2023,tt27502360,movie,202
 Terror of Mechagodzilla,Ishiro Honda,Japan,1975,tt0073373,movie,1975,79,"nm0393094,nm0297974",nm0847448,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tess,Roman Polanski,United Kingdom,1979,tt0080009,movie,1979,186,nm0000591,"nm0362762,nm0102722,nm0000591,nm0115224",fuzzy_canonical,100.0,1.0,1.0,1.0
 Testament of Orpheus,Jean Cocteau,France,1959,tt0054377,movie,1960,79,nm0168413,nm0168413,fuzzy_canonical,92.5,1.0,1.0,0.5
-Thank You and Good Night,Jan Oxenberg,United States,1991,tt0103070,movie,1991,83,nm0654548,nm0654548,fuzzy_canonical,100.0,1.0,1.0,1.0
 That Hamilton Woman,Alexander Korda,United Kingdom,1941,tt0034272,movie,1941,125,nm0466099,"nm0281556,nm0792670",fuzzy_canonical,100.0,1.0,1.0,1.0
 That Night’s Wife,Yasujiro Ozu,Japan,1930,tt0021406,movie,1930,65,nm0654868,"nm0633792,nm0772006,nm5196722",fuzzy_canonical,100.0,1.0,1.0,1.0
 The 39 Steps,Alfred Hitchcock,United Kingdom,1935,tt0026029,movie,1935,86,nm0000033,"nm0117955,nm0071657,nm0067308",fuzzy_canonical,100.0,1.0,1.0,1.0
 The 400 Blows,François Truffaut,France,1959,tt0053198,movie,1959,99,nm0000076,"nm0000076,nm0610115",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Adjuster,Atom Egoyan,Canada,1991,tt0101273,movie,1991,102,nm0000382,nm0000382,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Adventures of Prince Achmed,Lotte Reiniger,Germany,1926,tt0015532,movie,1926,80,"nm0718201,nm0002569",nm0718201,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Aggressives,Daniel Peddle,United States,2005,tt0462757,movie,2005,75,nm1942664,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The American Friend,Wim Wenders,Germany,1977,tt0075675,movie,1977,128,nm0000694,"nm0383604,nm0000694",fuzzy_canonical,100.0,1.0,1.0,1.0
 The American Soldier,Rainer Werner Fassbinder,Germany,1970,tt0065391,movie,1970,80,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Annihilation of Fish,Charles Burnett,United States,1999,tt0212772,movie,1999,108,nm0122344,nm0935194,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1440,11 +1246,8 @@ The Ballad of Narayama,Keisuke Kinoshita,Japan,1958,tt0051980,movie,1958,98,nm04
 The Ballad of Suzanne Césaire,Madeleine Hunt-Ehrlich,United States,2025,tt29893103,movie,2024,75,nm9672531,"nm9672531,nm16542099,nm2850063",fuzzy_canonical,92.5,1.0,1.0,0.5
 The Baron of Arizona,Samuel Fuller,United States,1950,tt0042229,movie,1950,97,nm0002087,"nm0002087,nm0189868",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Battle of Algiers,Gillo Pontecorvo,Italy,1966,tt0058946,movie,1966,121,nm0690597,"nm0758357,nm0690597",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Beaches of Agnès,Agnès Varda,France,2008,tt1129435,movie,2008,112,nm0889513,"nm0889513,nm0745632",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Beales of Grey Gardens,Albert Maysles and David Maysles,United States,2006,tt0839739,movie,2006,91,"nm0563099,nm0563100",,fuzzy_canonical,96.1,1.0,0.8875,1.0
 The Beast,Bertrand Bonello,France,2023,tt14407336,movie,2023,146,nm0094274,"nm0094274,nm2224444,nm0117572,nm0416556",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Beat That My Heart Skipped,Jacques Audiard,France,2005,tt0411270,movie,2005,108,nm0002191,"nm0002191,nm0070152,nm0864812",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Betrayal,Ellen Kuras and Thavisouk Phrasavath,United States,2008,tt1157685,movie,2008,96,"nm0475578,nm0681115","nm0475578,nm0681115",fuzzy_canonical,95.1,1.0,0.8611,1.0
 The Big City,Satyajit Ray,India,1963,tt0057277,movie,1963,122,nm0006249,"nm0593954,nm0006249",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Big Clock,John Farrow,United States,1948,tt0040160,movie,1948,95,nm0268513,"nm0490206,nm0269879,nm0325785",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Bitter Tears of Petra von Kant,Rainer Werner Fassbinder,West Germany,1972,tt0068278,movie,1972,124,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1505,7 +1308,6 @@ The Elephant God,Satyajit Ray,India,1979,tt0077775,movie,1979,112,nm0006249,nm00
 The Elephant Man,David Lynch,United Kingdom,1980,tt0080678,movie,1980,124,nm0000186,"nm0212246,nm0075015,nm0000186,nm0872375,nm0598744",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Emigrant,Youssef Chahine,Egypt,1994,tt0110545,movie,1994,129,nm0149631,"nm0149631,nm0038261,nm0950352",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Emperor Jones,Dudley Murphy,United States,1933,tt0023985,movie,1933,72,"nm0614225,nm0210352","nm0642156,nm0371738",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Emperor’s Naked Army Marches On,Kazuo Hara,Japan,1987,tt0092963,movie,1987,122,nm0361672,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The End of Summer,Yasujiro Ozu,Japan,1961,tt0055052,movie,1961,103,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
 The End of the Day,Julien Duvivier,France,1939,tt0031309,movie,1939,99,nm0245213,"nm0245213,nm0816458",fuzzy_canonical,97.0,0.9408,1.0,1.0
 The Entertainer,Tony Richardson,United Kingdom,1960,tt0053796,movie,1960,96,nm0724798,"nm0651570,nm0460600",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1515,7 +1317,6 @@ The Executioner,Luis García Berlanga,Spain,1963,tt0057643,movie,1963,90,nm03055
 The Exile,Oscar Micheaux,United States,1931,tt0021844,movie,1931,93,nm0584778,nm0584778,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Exiles,Kent MacKenzie,United States,1961,tt0054861,movie,1961,72,nm0533350,nm0533350,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Exterminating Angel,Luis Buñuel,Mexico,1962,tt0056732,movie,1962,95,nm0000320,"nm0000320,nm0017274",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Eyes of Orson Welles,Mark Cousins,United Kingdom,2018,tt8371772,movie,2018,115,nm0184108,nm0184108,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Fabulous Baron Munchausen,Karel Zeman,Czechoslovakia,1962,tt0054665,movie,1962,83,nm0954724,"nm0106404,nm0119279,nm0435079,nm0711474,nm0954724",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Face of Another,Hiroshi Teshigahara,Japan,1966,tt0061065,movie,1966,124,nm0856267,nm0008356,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Fall of Otrar,Ardak Amirkulov,Kazakhstan,1991,tt0104224,movie,1990,176,nm0024999,"nm0439734,nm0314516",fuzzy_canonical,92.5,1.0,1.0,0.5
@@ -1532,7 +1333,6 @@ The Freshman,Sam Taylor and Fred Newmeyer,United States,1925,tt0015841,movie,192
 The Front Page,Lewis Milestone,United States,1931,tt0021890,movie,1931,101,nm0587277,"nm0372942,nm0531269,nm0179993,nm0496468",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Funeral,Juzo Itami,Japan,1984,tt0089746,movie,1984,124,nm0411631,nm0411631,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Game,David Fincher,United States,1997,tt0119174,movie,1997,129,nm0000399,"nm0104335,nm0274905",fuzzy_canonical,100.0,1.0,1.0,1.0
-"The Games of the V Olympiad Stockholm, 1912",Adrian Wood,Switzerland,2016,tt7241484,movie,2017,170,nm0939519,,fuzzy_canonical,92.5,1.0,1.0,0.5
 The Garden of Delights,Carlos Saura,Spain,1970,tt0065913,movie,1970,95,nm0767022,"nm0044156,nm0767022",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Garden of Women,Keisuke Kinoshita,Japan,1954,tt0047300,movie,1954,141,nm0455839,"nm1650300,nm0455839",fuzzy_canonical,100.0,1.0,1.0,1.0
 The General,Buster Keaton and Clyde Bruckman,United States,1926,tt0017925,movie,1926,78,"nm0115669,nm0000036","nm0000036,nm0115669,nm0090213,nm0807667,nm0685904,nm0809548",fuzzy_canonical,95.8,1.0,0.8813,1.0
@@ -1541,13 +1341,10 @@ The Girl I Loved,Keisuke Kinoshita,Japan,1946,tt0039091,movie,1946,75,nm0455839,
 The Girl from Chicago,Oscar Micheaux,United States,1932,tt0022941,movie,1932,70,nm0584778,nm0584778,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Girl on the Broomstick,Václav Vorlíček,,1972,tt0067464,movie,1972,76,nm0903474,"nm0291626,nm0534181,nm0903474",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Girls,Mai Zetterling,Sweden,1968,tt0062981,movie,1968,100,nm0955195,"nm0955195,nm1396584,nm0034922",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Gleaners and I,Agnès Varda,France,2000,tt0247380,movie,2000,82,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Gleaners and I: Two Years Later,Agnès Varda,France,2002,tt0345128,movie,2002,63,nm0889513,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Goalie’s Anxiety at the Penalty Kick,Wim Wenders,West Germany,1972,tt0066773,movie,1972,101,nm0000694,"nm0359563,nm0000694",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Golden Coach,Jean Renoir,France,1953,tt0044487,movie,1952,103,nm0719756,"nm0719756,nm0456646,nm0042798,nm0531478,nm0236522,nm0617737",fuzzy_canonical,92.5,1.0,1.0,0.5
 The Good Fairy,Keisuke Kinoshita,Japan,1951,tt0043159,movie,1951,108,nm0455839,"nm0455839,nm0457218,nm0633792",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Gospel According to Matthew,Pier Paolo Pasolini,Italy,1964,tt0058715,movie,1964,137,nm0001596,nm0001596,fuzzy_canonical,98.8,0.9759,1.0,1.0
-The Grand Olympics,Romolo Marcellini,Italy,1961,tt0054940,movie,1961,147,nm0545216,"nm0186663,nm0195140,nm0208332,nm0275034,nm0277107,nm0545216,nm0554356,nm0884340,nm9209950,nm0274114,nm0036053,nm9209936,nm0525400,nm0812158",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Great Beauty,Paolo Sorrentino,Italy,2013,tt2358891,movie,2013,141,nm0815204,"nm0815204,nm0176197",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Great Dictator,Charles Chaplin,United States,1940,tt0032553,movie,1940,125,nm0000122,nm0000122,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Green Ray,Eric Rohmer,France,1986,tt0091830,movie,1986,99,nm0006445,"nm0729691,nm0006445",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1607,7 +1404,6 @@ The Long Good Friday,John Mackenzie,United Kingdom,1980,tt0081070,movie,1980,114
 The Long Voyage Home,John Ford,United States,1940,tt0032728,movie,1940,105,nm0000406,"nm0642156,nm0629580",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Lost Honor of Katharina Blum,Volker Schlöndorff and Margarethe von Trotta,Germany,1975,tt0073858,movie,1975,106,"nm0772522,nm0903137","nm0127093,nm0772522,nm0903137",fuzzy_canonical,95.9,1.0,0.8818,1.0
 The Lost Okoroshi,Abba Makama,Nigeria,2019,tt10888456,movie,2019,94,nm6515462,"nm6515462,nm10901796",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Love Goddesses,Saul J. Turell,United States,1965,tt0059402,movie,1965,79,nm0877020,"nm0272445,nm0877020",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Love That Remains,Hlynur Pálmason,Iceland,2025,tt33381401,movie,2025,109,nm6249843,nm6249843,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Lovers,Louis Malle,France,1958,tt0052556,movie,1958,90,nm0001501,"nm0212179,nm0900229",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Lower Depths,Jean Renoir,France,1936,tt0027336,movie,1936,90,nm0719756,"nm0331003,nm0759866,nm0173952,nm0719756,nm0816458",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1616,7 +1412,6 @@ The Lure,Agnieszka Smoczyńska,Poland,2015,tt5278832,movie,2015,92,nm2835452,nm2
 The Machine That Kills Bad People,Roberto Rossellini,Italy,1952,tt0040559,movie,1952,83,nm0744023,"nm0024847,nm0897131,nm0116663,nm0274767,nm0744023,nm0208370,nm0549595",fuzzy_canonical,97.4,0.9484,1.0,1.0
 The Magician,Ingmar Bergman,Sweden,1958,tt0051365,movie,1958,101,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Magnificent Butcher,Yuen Woo-ping,Hong Kong,1979,tt0079472,movie,1979,108,nm0950759,"nm0849282,nm0939147",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Making of Fanny and Alexander,Ingmar Bergman,Sweden,1982,tt0090955,movie,1984,110,nm0000005,nm0000005,fuzzy_canonical,88.8,1.0,1.0,0.25
 The Makioka Sisters,Kon Ichikawa,Japan,1983,tt0086242,movie,1983,140,nm0406728,"nm0383025,nm0406728,nm0849505,nm8132287",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Man Who Could Work Miracles,Lothar Mendes and Alexander Korda,United Kingdom,1936,tt0029201,movie,1936,82,"nm0578985,nm0466099","nm0920229,nm0083742",fuzzy_canonical,95.8,1.0,0.8788,1.0
 The Man Who Fell to Earth,Nicolas Roeg,United States,1976,tt0074851,movie,1976,139,nm0001676,"nm0562577,nm0856677",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1628,7 +1423,6 @@ The Man in Grey,Leslie Arliss,United Kingdom,1943,tt0036135,movie,1943,90,nm0035
 The Marriage of Maria Braun,Rainer Werner Fassbinder,West Germany,1979,tt0079095,movie,1979,120,nm0001202,"nm0297064,nm0617504,nm0001202,nm0704624",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Masseurs and a Woman,Hiroshi Shimizu,Japan,1938,tt0426900,movie,1938,66,nm0793646,nm0793646,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Match Factory Girl,Aki Kaurismäki,Finland,1990,tt0098532,movie,1990,69,nm0442454,nm0442454,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Melbourne Rendez-vous,René Lucot,France,1957,tt0165926,movie,1957,106,nm0524786,"nm0524786,nm1334859,nm0832099",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Merchant of Four Seasons,Rainer Werner Fassbinder,Germany,1971,tt0067227,movie,1972,88,nm0001202,nm0001202,fuzzy_canonical,92.5,1.0,1.0,0.5
 The Mikado,Victor Schertzinger,United Kingdom,1939,tt0031650,movie,1939,90,nm0006276,"nm0318275,nm0870296",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Milky Way,Leo McCarey,United States,1936,tt0027969,movie,1936,89,"nm0564970,nm0564971,nm0572851","nm0428177,nm0124918,nm0175028,nm0740528,nm0167065,nm0540147",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1643,19 +1437,14 @@ The Mouth Agape,Maurice Pialat,France,1974,tt0071587,movie,1974,82,nm0681207,nm0
 The Munekata Sisters,Yasujiro Ozu,Japan,1950,tt0042762,movie,1950,112,nm0654868,"nm0633792,nm0654868,nm0651519",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Music Room,Satyajit Ray,India,1958,tt0051792,movie,1958,95,nm0006249,"nm0051855,nm0006249,nm0159347",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Mysterians,Ishiro Honda,Japan,1957,tt0050251,movie,1957,85,nm0393094,"nm0454119,nm0645461,nm0443227",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Mystery of Picasso,Henri-Georges Clouzot,France,1956,tt0049531,movie,1956,78,nm0167241,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Naked City,Jules Dassin,United States,1948,tt0040636,movie,1948,96,nm0202088,"nm0540816,nm0907013",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Naked Island,Kaneto Shindo,Japan,1960,tt0056049,movie,1960,96,nm0793881,nm0793881,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Naked Kiss,Samuel Fuller,United States,1964,tt0058390,movie,1964,90,nm0002087,nm0002087,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Natural History of the Chicken,Mark Lewis,United States,2000,tt0257954,movie,2000,60,nm0507503,nm0507503,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Neighbor's Wife and Mine,Heinosuke Gosho,Japan,1931,tt0022105,movie,1931,64,nm0331482,"nm0299343,nm0457560",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Night Heaven Fell,Roger Vadim,France,1958,tt0050193,movie,1958,95,nm0671862,"nm0671862,nm0753728,nm0896428,nm0896830",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Night Porter,Liliana Cavani,Italy,1974,tt0071910,movie,1974,118,nm0146960,"nm0146960,nm0608289,nm0016628,nm0656011,nm0001648,nm0001958,nm0287494",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Oil-Hell Murder,Hideo Gosha,Japan,1992,tt0105060,movie,1992,115,nm0331471,"nm0157399,nm0406836",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Old and the New,Sergei Eisenstein and Grigori Aleksandrov,Soviet Union,1929,tt0020451,movie,1929,121,"nm0017893,nm0001178","nm0017893,nm0001178",fuzzy_canonical,95.9,1.0,0.8829,1.0
-The Olympic Games in Paris 1924,Jean de Rovera,France,1924,tt0255274,movie,1925,174,nm0746283,,fuzzy_canonical,92.5,1.0,1.0,0.5
-"The Olympic Games, Amsterdam, 1928",Wilhelm Prager,Italy,1928,tt0255441,movie,1928,110,nm0695114,,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Olympics in Mexico,Alberto Isaac,Mexico,1969,tt0064756,movie,1969,120,nm0410478,"nm0410478,nm0534178",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Only Son,Yasujiro Ozu,Japan,1936,tt0027752,movie,1936,82,nm0654868,"nm0654868,nm0407456,nm0033163",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Organizer,Mario Monicelli,Italy,1963,tt0056945,movie,1963,126,nm0598102,"nm0408488,nm0769249,nm0598102",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Other,Youssef Chahine,Egypt,1999,tt0196355,movie,1999,105,nm0149631,"nm0149631,nm0950352",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1694,7 +1483,6 @@ The River,Jean Renoir,France,1951,tt0043972,movie,1951,99,nm0719756,"nm0323869,n
 The River Fuefuki,Keisuke Kinoshita,Japan,1960,tt0053842,movie,1960,117,nm0455839,"nm0265792,nm0455839",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Rocket from Calabuch,Luis García Berlanga,Italy,1956,tt0049042,movie,1956,93,nm0305557,"nm0554693,nm0814956,nm0280919,nm0305557",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Rocking Horse Winner,Anthony Pelissier,United Kingdom,1949,tt0042898,movie,1949,91,nm0670874,"nm0492692,nm0670874",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Rolling Stones Rock and Roll Circus,Michael Lindsay-Hogg,United Kingdom,1996,tt0122689,movie,1996,65,nm0512327,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Rose on His Arm,Keisuke Kinoshita,Japan,1956,tt0049821,movie,1956,85,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Rules of the Game,Jean Renoir,France,1939,tt0031885,movie,1939,110,nm0719756,"nm0719756,nm0002569,nm0064559",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Ruling Class,Peter Medak,United Kingdom,1972,tt0069198,movie,1972,154,nm0575389,nm0055726,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1709,7 +1497,6 @@ The Seventh Continent,Michael Haneke,Austria,1989,tt0098327,movie,1989,108,nm035
 The Seventh Seal,Ingmar Bergman,Sweden,1957,tt0050976,movie,1957,96,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Seventh Veil,Compton Bennett,United Kingdom,1945,tt0038924,movie,1945,94,nm0071682,"nm0101504,nm0101511",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Shadow Within,Yoshitaro Nomura,Japan,1970,tt0203605,movie,1970,97,nm0634607,"nm0368074,nm0559556",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Shepherd and the Bear,Max Keegan,United States,2024,tt27623454,movie,2024,101,nm10583371,,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Shepherds of Calamity,Nico Papatakis,Greece,1967,tt0061084,movie,1967,120,nm0660346,nm0660346,fuzzy_canonical,98.1,1.0,0.9454,1.0
 The Shooting,Monte Hellman,United States,1966,tt0062262,movie,1966,82,nm0375494,nm0247628,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Shop on Main Street,Ján Kadár and Elmar Klos,Czechoslovakia,1965,tt0059527,movie,1965,128,"nm0434443,nm0460033","nm0343309,nm0434443,nm0460033",fuzzy_canonical,95.6,1.0,0.875,1.0
@@ -1721,11 +1508,9 @@ The Small Back Room,Michael Powell and Emeric Pressburger,United Kingdom,1949,tt
 The Snow Flurry,Keisuke Kinoshita,Japan,1959,tt0052966,movie,1959,78,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Soft Skin,François Truffaut,France,1964,tt0058458,movie,1964,113,nm0000076,"nm0000076,nm0723827",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Spirit of the Beehive,Víctor Erice,Spain,1973,tt0070040,movie,1973,98,nm0258977,"nm0273335,nm0258977",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Spirit of ’45,Ken Loach,United Kingdom,2013,tt2332801,movie,2013,94,nm0516360,nm0516360,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Spy in Black,Michael Powell,United Kingdom,1939,tt0031968,movie,1939,77,nm0003836,"nm0167202,nm0696247,nm0675729",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Squeaker,William K. Howard,United Kingdom,1937,tt0029603,movie,1937,77,nm0397678,"nm0908624,nm0908550,nm0075428",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Steel Helmet,Samuel Fuller,United States,1951,tt0044072,movie,1951,85,nm0002087,nm0002087,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Storms of Jeremy Thomas,Mark Cousins,United Kingdom,2021,tt10370886,movie,2021,94,nm0184108,nm0184108,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Story of a Cheat,Sacha Guitry,France,1936,tt0028201,movie,1936,81,nm0347589,nm0347589,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Story of a Three Day Pass,Melvin Van Peebles,France,1967,tt0063646,movie,1967,87,nm0887708,nm0887708,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Story of the Last Chrysanthemum,Kenji Mizoguchi,Japan,1939,tt0032156,movie,1939,148,nm0003226,"nm0442736,nm0613527,nm0406808",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1738,17 +1523,13 @@ The Sword of Doom,Kihachi Okamoto,Japan,1966,tt0060277,movie,1966,120,nm0645477,
 The Swordsman,"King Hu, Tsui Hark, Ann Hui, Tony Ching Siu-Tung, Raymond Lee Wai-Man, and Andrew Kam",Hong Kong,1990,tt0100973,movie,1990,118,"nm0155642,nm0002254,nm0498064,nm0007139,nm0401176,nm0436326","nm0149222,nm0399065,nm0442983,nm0477085,nm0490622,nm0504935,nm3996210",fuzzy_canonical,89.4,1.0,0.6958,1.0
 The Tale of Zatoichi,Kenji Misumi,Japan,1962,tt0056714,movie,1962,95,nm0593014,"nm0409467,nm0793753",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Tale of Zatoichi Continues,Kazuo Mori,Japan,1962,tt0200309,movie,1962,72,nm0605245,"nm0793753,nm0409467",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Taste of Mango,Chloe Abrahams,United Kingdom,2024,tt26696417,movie,2023,75,nm12800842,nm12800842,fuzzy_canonical,92.5,1.0,1.0,0.5
 The Tattered Wings,Keisuke Kinoshita,Japan,1955,tt0048731,movie,1955,99,nm0455839,"nm0455839,nm0559695",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Terror and the Time,Rupert Roonaraine,Guyana,1978,tt0295723,movie,1979,70,nm1050441,,fuzzy_canonical,92.5,1.0,1.0,0.5
 The Testament of Dr. Mabuse,Fritz Lang,Germany,1933,tt0023563,movie,1933,122,nm0000485,"nm0415167,nm0000485,nm0829954,nm0902376",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Thick-Walled Room,Masaki Kobayashi,Japan,1956,tt0134756,movie,1956,110,nm0462030,nm0008356,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Thief of Bagdad,"Ludwig Berger, Michael Powell, and Tim Whelan",United Kingdom,1940,tt0033152,movie,1940,106,"nm0003490,nm0003836,nm0924065,nm0466099,nm0466113,nm0580017","nm0539942,nm0083742,nm0000067",fuzzy_canonical,95.1,1.0,0.8605,1.0
-The Thin Blue Line,Errol Morris,United States,1988,tt0096257,movie,1988,101,nm0001554,nm0001554,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Thing from Another World,Christian Nyby,United States,1951,tt0044121,movie,1951,87,"nm0638528,nm0001328","nm0496468,nm0132168,nm0001328,nm0372942",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Third Generation,Rainer Werner Fassbinder,West Germany,1979,tt0079083,movie,1979,111,nm0001202,nm0001202,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Third Shadow Warrior,Umetsugu Inoue,Japan,1963,tt0200559,movie,1963,104,nm0409325,"nm0395961,nm1062705",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Times of Harvey Milk,Robert Epstein,United States,1984,tt0088275,movie,1984,90,nm0258531,"nm0168012,nm0933145,nm0258531",fuzzy_canonical,96.0,1.0,0.8864,1.0
 The Tin Drum,Volker Schlöndorff,Germany,1979,tt0078875,movie,1979,142,nm0772522,"nm0335848,nm0140643,nm0772522,nm0782704",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Tit and the Moon,Bigas Luna,Spain,1994,tt0111403,movie,1994,90,nm0000940,"nm0133561,nm0000940,nm0054523,nm0489448",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Touch,Ingmar Bergman,Sweden,1971,tt0066826,movie,1971,115,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1758,23 +1539,19 @@ The Trial,Orson Welles,France,1962,tt0057427,movie,1962,119,nm0000080,"nm0158971
 The Trial of Joan of Arc,Robert Bresson,France,1962,tt0059616,movie,1962,64,nm0000975,"nm0000975,nm0150728",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Tuner,Kira Muratova,Russia,2004,tt0383020,movie,2004,154,nm0613645,"nm0156411,nm0326716,nm1600860,nm0613645",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Umbrellas of Cherbourg,Jacques Demy,France,1964,tt0058450,movie,1964,91,nm0218840,nm0218840,fuzzy_canonical,100.0,1.0,1.0,1.0
-The Undeclared War,Bertrand Tavernier,France,1992,tt0104374,movie,1992,247,nm0851724,"nm0745377,nm0851724",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Unfortunate Bridegroom,Jiří Krejčík,Czechoslovakia,1967,tt0173279,movie,1967,94,nm0470729,"nm0470729,nm0537004,nm0649120",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Unknown,Tod Browning,United States,1927,tt0018528,movie,1927,68,nm0115218,"nm0115218,nm0950150,nm0267868",fuzzy_canonical,100.0,1.0,1.0,1.0
-"The VI Olympic Winter Games, Oslo 1952",Tankred Ibsen,Norway,1952,tt0217126,movie,1952,103,nm0406591,,fuzzy_canonical,98.7,1.0,0.9641,1.0
 The Valley of the Bees,František Vláčil,Czechoslovakia,1968,tt0122770,movie,1968,97,nm0900712,"nm0478005,nm0900712",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Vanishing,George Sluizer,France,1988,tt0096163,movie,1988,107,nm0806293,"nm0469104,nm0806293",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Virgin Spring,Ingmar Bergman,Sweden,1960,tt0053976,movie,1960,89,nm0000005,nm0410694,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Wages of Fear,Henri-Georges Clouzot,France,1953,tt0046268,movie,1953,156,nm0167241,"nm0036062,nm0167241,nm0167242",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Wandering Princess,Kinuyo Tanaka,Japan,1960,tt0385202,movie,1960,102,nm0849011,"nm1471563,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
-The War Room,Chris Hegedus and D. A. Pennebaker,United States,1993,tt0108515,movie,1993,96,"nm0373698,nm0672060",,fuzzy_canonical,95.8,1.0,0.8813,1.0
 The War of the Gargantuas,Ishiro Honda,Japan,1966,tt0060440,movie,1966,92,nm0393094,"nm0073399,nm0393094,nm0454119",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Warped Ones,Koreyoshi Kurahara,Japan,1960,tt0057238,movie,1960,75,nm0475542,nm0945257,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Watermelon Woman,Cheryl Dunye,United States,1996,tt0118125,movie,1996,85,nm0243109,"nm0243109,nm0571653",fuzzy_canonical,100.0,1.0,1.0,1.0
 The White Angel,Raffaello Matarazzo,Italy,1955,tt0047832,movie,1955,100,nm0558127,"nm0558127,nm0814958,nm0682592,nm0207362",fuzzy_canonical,100.0,1.0,1.0,1.0
 The White Balloon,Jafar Panahi,Iran,1995,tt0112445,movie,1995,85,nm0070159,"nm0452102,nm0070159,nm0787526",fuzzy_canonical,100.0,1.0,1.0,1.0
 The White Dove,František Vláčil,Czechoslovakia,1960,tt0175743,movie,1960,76,nm0900712,"nm1523763,nm0900712",fuzzy_canonical,100.0,1.0,1.0,1.0
-The White Stadium,Arnold Fanck and Othmar Gurtner,Switzerland,1928,tt0194523,movie,1928,124,"nm0266691,nm0348772",,fuzzy_canonical,95.7,1.0,0.8774,1.0
 The Whole Town's Talking,John Ford,United States,1935,tt0027214,movie,1935,93,nm0000406,"nm0842485,nm0728307,nm0122446",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Wicked Lady,Leslie Arliss,United Kingdom,1945,tt0038250,movie,1945,97,nm0035199,"nm0455397,nm0035199,nm0322691,nm0835632",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Wind Will Carry Us,Abbas Kiarostami,Iran,1999,tt0209463,movie,1999,118,nm0452102,"nm1462189,nm0452102",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1782,9 +1559,7 @@ The Woman Next Door,François Truffaut,France,1981,tt0082370,movie,1981,106,nm00
 The Woman in Question,Anthony Asquith,United Kingdom,1950,tt0043140,movie,1950,88,nm0002190,nm0187593,fuzzy_canonical,100.0,1.0,1.0,1.0
 The World,Jia Zhangke,China,2004,tt0423176,movie,2004,143,nm0422605,nm0422605,fuzzy_canonical,99.4,1.0,0.9833,1.0
 The World of Gilbert & George,Gilbert Prousch and George Passmore,United Kingdom,1981,tt1864554,movie,1981,69,"nm0664916,nm0698461","nm0664916,nm0698461",fuzzy_canonical,96.0,1.0,0.8857,1.0
-The World of Jacques Demy,Agnès Varda,Spain,1995,tt0114794,movie,1995,90,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 The X from Outer Space,Kazui Nihonmatsu,Japan,1967,tt0062411,movie,1967,89,nm0631551,"nm0609408,nm0410929,nm0631551,nm9686193",fuzzy_canonical,100.0,1.0,1.0,1.0
-The Young Girls Turn 25,Agnès Varda,France,1993,tt0106696,movie,1993,64,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Young Girls of Rochefort,Jacques Demy,France,1967,tt0062873,movie,1967,125,nm0218840,nm0218840,fuzzy_canonical,100.0,1.0,1.0,1.0
 The Young Master,Jackie Chan,Hong Kong,1980,tt0081499,movie,1980,105,nm0000329,"nm0000329,nm0490621,nm1146362,nm0516343",fuzzy_canonical,100.0,1.0,1.0,1.0
 The Young Rebels,Keisuke Kinoshita,Japan,1980,tt0456892,movie,1980,132,nm0455839,nm0455839,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1795,7 +1570,6 @@ Things to Come,William Cameron Menzies,United Kingdom,1936,tt0028358,movie,1936,
 Thirst,Ingmar Bergman,Sweden,1949,tt0041998,movie,1949,83,nm0000005,"nm0340471,nm0854996",fuzzy_canonical,100.0,1.0,1.0,1.0
 Thirst for Love,Koreyoshi Kurahara,Japan,1967,tt0060082,movie,1966,98,nm0475542,"nm0297846,nm0475542,nm0592758",fuzzy_canonical,92.5,1.0,1.0,0.5
 Thirty Two Short Films About Glenn Gould,François Girard,Canada,1993,tt0108328,movie,1993,98,nm0320660,"nm0320660,nm0001528,nm0332384,nm0571903",fuzzy_canonical,100.0,1.0,1.0,1.0
-This Ain’t No Mouse Music,Chris Simon and Maureen Gosling,,2013,tt3723828,movie,2013,92,"nm0331510,nm0800094",,fuzzy_canonical,95.5,1.0,0.871,1.0
 This Happy Breed,David Lean,United Kingdom,1944,tt0037367,movie,1944,115,nm0000180,"nm0000180,nm0623768,nm0369743,nm0002021",fuzzy_canonical,100.0,1.0,1.0,1.0
 "This Is Not a Burial, It’s a Resurrection",Lemohang Jeremiah Mosese,Lesotho,2019,tt10849514,movie,2019,120,nm6011478,nm6011478,fuzzy_canonical,100.0,1.0,1.0,1.0
 This Sporting Life,Lindsay Anderson,United Kingdom,1963,tt0057578,movie,1963,134,nm0000755,nm0832456,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1819,17 +1593,13 @@ Tiger Bay,J. Lee Thompson,United Kingdom,1959,tt0053361,movie,1959,105,nm0496746
 Time Bandits,Terry Gilliam,United Kingdom,1981,tt0081633,movie,1981,110,nm0000416,"nm0001589,nm0000416",fuzzy_canonical,100.0,1.0,1.0,1.0
 Time Without Pity,Joseph Losey,United Kingdom,1957,tt0049856,movie,1957,85,nm0521334,"nm0059553,nm0930539",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tiny Furniture,Lena Dunham,United States,2010,tt1570989,movie,2010,98,nm2501633,nm2501633,fuzzy_canonical,100.0,1.0,1.0,1.0
-Tiny: The Life of Erin Blackwell,Martin Bell,United States,2016,tt3505094,movie,2016,87,nm0068385,,fuzzy_canonical,100.0,1.0,1.0,1.0
 To Be or Not to Be,Ernst Lubitsch,United States,1942,tt0035446,movie,1942,99,nm0523932,"nm0501872,nm0562372,nm0523932",fuzzy_canonical,100.0,1.0,1.0,1.0
 To Joy,Ingmar Bergman,Sweden,1950,tt0043048,movie,1950,98,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tokaido Yotsuya kaidan,Nobuo Nakagawa,Japan,1959,tt0155278,movie,1959,76,nm0619966,"nm3616900,nm0411085,nm0875472",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tokyo Chorus,Yasujiro Ozu,Japan,1931,tt0022485,movie,1931,90,nm0654868,"nm0457560,nm0633792",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tokyo Drifter,Seijun Suzuki,Japan,1966,tt0061101,movie,1966,82,nm0840671,nm0975309,fuzzy_canonical,100.0,1.0,1.0,1.0
-Tokyo Olympiad,Kon Ichikawa,Japan,1965,tt0059817,movie,1965,170,nm0406728,"nm0406728,nm0794221,nm0849479,nm0905271",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tokyo Story,Yasujiro Ozu,Japan,1953,tt0046438,movie,1953,137,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
-Tokyo Trial,Masaki Kobayashi,,1983,tt0124169,movie,1983,277,nm0462030,"nm0408353,nm0462030,nm0644510",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tokyo Twilight,Yasujiro Ozu,Japan,1957,tt0051093,movie,1957,140,nm0654868,"nm0633792,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
-Tokyo-ga,Wim Wenders,West Germany,1985,tt0090182,movie,1985,92,nm0000694,nm0000694,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tom Jones,Tony Richardson,United Kingdom,1963,tt0057590,movie,1963,129,nm0724798,"nm0651570,nm0276145",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tomboy,Céline Sciamma,France,2011,tt1847731,movie,2011,82,nm1780037,nm1780037,fuzzy_canonical,100.0,1.0,1.0,1.0
 Toni,Jean Renoir,France,1935,tt0025898,movie,1935,84,nm0719756,"nm0719756,nm2365865,nm0251873",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1842,19 +1612,14 @@ Totally F***ed Up,Gregg Araki,United States,1993,tt0108366,movie,1993,78,nm00007
 Touki bouki,Djibril Diop Mambéty,Senegal,1973,tt0070820,movie,1973,85,nm0228013,nm0228013,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tout va bien,Jean-Luc Godard and Jean-Pierre Gorin,France,1972,tt0069398,movie,1972,95,"nm0000419,nm0330948","nm0000419,nm0330948",fuzzy_canonical,95.8,1.0,0.8811,1.0
 Toute une nuit,Chantal Akerman,France,1982,tt0084808,movie,1982,90,nm0001901,nm0001901,fuzzy_canonical,100.0,1.0,1.0,1.0
-Town Bloody Hall,Chris Hegedus and D. A. Pennebaker,United States,1979,tt0217853,movie,1979,88,"nm0373698,nm0672060","nm0339442,nm0426685,nm0537551,nm0872822",fuzzy_canonical,95.8,1.0,0.8813,1.0
 Track 29,Nicolas Roeg,United Kingdom,1988,tt0096294,movie,1988,90,nm0001676,nm0693259,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tracked,Hideo Gosha,Japan,1985,tt0204716,movie,1985,124,nm0331471,"nm0299212,nm1461828",fuzzy_canonical,100.0,1.0,1.0,1.0
 Trade Winds,Tay Garnett,United States,1938,tt0030888,movie,1938,93,nm0307819,"nm0307819,nm0662213,nm0132180,nm0010973,nm0570130",fuzzy_canonical,100.0,1.0,1.0,1.0
 Trafic,Jacques Tati,France,1971,tt0069400,movie,1971,96,nm0004244,"nm0004244,nm0481401,nm0351842",fuzzy_canonical,100.0,1.0,1.0,1.0
-Trances,Ahmed El Maanouni,Morocco,1981,tt0406280,movie,1981,90,nm0252705,nm0252705,fuzzy_canonical,100.0,1.0,1.0,1.0
 Trapped,Luis Mandoki,United States,2002,tt0280380,movie,2002,106,nm0001502,nm1023692,fuzzy_canonical,100.0,1.0,1.0,1.0
 Tricheurs,Barbet Schroeder,Germany,1984,tt0086479,movie,1984,94,nm0775447,"nm0094726,nm0063393,nm0775447",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Tuesday, After Christmas",Radu Muntean,Romania,2010,tt1470024,movie,2010,99,nm1364086,"nm2304473,nm1364086,nm1146102",fuzzy_canonical,100.0,1.0,1.0,1.0
 Tunes of Glory,Ronald Neame,United Kingdom,1960,tt0054412,movie,1960,106,nm0623768,nm0447860,fuzzy_canonical,100.0,1.0,1.0,1.0
-Turn in the Wound,Abel Ferrara,United Kingdom,2024,tt30886849,movie,2024,77,nm0001206,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Turning,Charles Atlas,United Kingdom,2012,tt2219894,movie,2012,76,nm1163149,,fuzzy_canonical,100.0,1.0,1.0,1.0
-Turumba,Kidlat Tahimik,Philippines,1981,tt0278782,movie,1981,95,nm0846684,nm0846684,fuzzy_canonical,100.0,1.0,1.0,1.0
 Twenty-Four Eyes,Keisuke Kinoshita,Japan,1954,tt0047281,movie,1954,156,nm0455839,"nm0455839,nm0875199",fuzzy_canonical,100.0,1.0,1.0,1.0
 Twice as Nice,Jessie Maple,United States,1989,tt0234932,movie,1989,70,nm0544589,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Twin Peaks: Fire Walk with Me,David Lynch,United States,1992,tt0105665,movie,1992,134,nm0000186,"nm0000186,nm0257306,nm0004111",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1868,20 +1633,16 @@ Typhoon Club,Shinji Sōmai,Japan,1985,tt0088222,movie,1985,115,nm0814570,nm04414
 Tótem,Lila Avilés,Mexico,2023,tt26315142,movie,2023,95,nm3569165,nm3569165,fuzzy_canonical,100.0,1.0,1.0,1.0
 Ugetsu,Kenji Mizoguchi,Japan,1953,tt0046478,movie,1953,96,nm0003226,"nm0875306,nm0879907,nm0442736,nm0406808,nm1218390",fuzzy_canonical,100.0,1.0,1.0,1.0
 Umberto D.,Vittorio De Sica,Italy,1952,tt0045274,movie,1952,89,nm0001120,nm0953790,fuzzy_canonical,100.0,1.0,1.0,1.0
-Umbrellas,"Albert Maysles, Henry Corra, and Grahame Weinbren",United States,1994,tt0111541,movie,1994,81,"nm0180652,nm0563099,nm0918183",,fuzzy_canonical,95.1,1.0,0.8596,1.0
 Un carnet de bal,Julien Duvivier,France,1937,tt0029706,movie,1937,144,nm0245213,"nm0245213,nm0419986,nm0765358,nm0956599,nm0592238,nm0937905",fuzzy_canonical,100.0,1.0,1.0,1.0
 Under the Blossoming Cherry Trees,Masahiro Shinoda,Japan,1975,tt0073841,movie,1975,95,nm0793983,"nm0756979,nm0793983,nm0866717",fuzzy_canonical,100.0,1.0,1.0,1.0
 Under the Roofs of Paris,René Clair,France,1930,tt0021409,movie,1930,96,nm0163229,nm0163229,fuzzy_canonical,100.0,1.0,1.0,1.0
 Under the Sun of Satan,Maurice Pialat,France,1987,tt0094011,movie,1987,98,nm0681207,"nm0076111,nm0200648,nm0681207",fuzzy_canonical,100.0,1.0,1.0,1.0
 Under the Volcano,John Huston,United States,1984,tt0088322,movie,1984,112,nm0001379,"nm0523345,nm0303037",fuzzy_canonical,100.0,1.0,1.0,1.0
 Undercurrent,Kozaburo Yoshimura,,1956,tt0253967,movie,1956,104,nm0949031,"nm1228838,nm0849068",fuzzy_canonical,100.0,1.0,1.0,1.0
-Underground,"Haskell Wexler, Emile de Antonio, and Mary Lampson",United States,1976,tt0075367,movie,1976,87,"nm0207108,nm0483968,nm0005549",,fuzzy_canonical,95.0,1.0,0.8583,1.0
 Une chambre en ville,Jacques Demy,France,1982,tt0084843,movie,1982,90,nm0218840,nm0218840,fuzzy_canonical,100.0,1.0,1.0,1.0
-Union,Stephen T. Maing and Brett Story,United States,2024,tt30319916,movie,2024,100,"nm0537737,nm3880167",,fuzzy_canonical,95.9,1.0,0.8839,1.0
 Unknown Pleasures,Jia Zhangke,China,2002,tt0318025,movie,2002,112,nm0422605,nm0422605,fuzzy_canonical,99.4,1.0,0.9833,1.0
 Until the End of the World,Wim Wenders,Germany,1991,tt0101458,movie,1991,287,nm0000694,"nm0137020,nm0000694,nm0231652,nm0021899",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Up, Down, Fragile",Jacques Rivette,France,1995,tt0113273,movie,1995,169,nm0729626,"nm0194759,nm0219099,nm0723865,nm0094726,nm10535179,nm0729626",fuzzy_canonical,100.0,1.0,1.0,1.0
-Urbanized,Gary Hustwit,United States,2011,tt1701976,movie,2011,85,nm1216753,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Utamaro and His Five Women,Kenji Mizoguchi,Japan,1946,tt0039074,movie,1946,106,nm0003226,"nm0475149,nm0406808",fuzzy_canonical,100.0,1.0,1.0,1.0
 Vagabond,Agnès Varda,France,1985,tt0089960,movie,1985,105,nm0889513,nm0889513,fuzzy_canonical,100.0,1.0,1.0,1.0
 Valerie and Her Week of Wonders,Jaromil Jireš,Czechoslovakia,1970,tt0066516,movie,1970,77,nm0423180,"nm0628709,nm0472695,nm0423180,nm2236058",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1897,12 +1658,10 @@ Vermiglio,Maura Delpero,Italy,2024,tt28618488,movie,2024,119,nm5471170,nm5471170
 Veronika Voss,Rainer Werner Fassbinder,West Germany,1982,tt0084654,movie,1982,104,nm0001202,"nm0001202,nm0297064,nm0617504",fuzzy_canonical,100.0,1.0,1.0,1.0
 Victim,Basil Dearden,United Kingdom,1961,tt0055597,movie,1961,100,nm0213136,"nm0337944,nm0566531",fuzzy_canonical,100.0,1.0,1.0,1.0
 Victims of Sin,Emilio Fernández,Mexico,1951,tt0043115,movie,1951,90,nm0273477,"nm0273477,nm0535796",fuzzy_canonical,100.0,1.0,1.0,1.0
-Videoheaven,Alex Ross Perry,United States,2025,tt35649428,movie,2025,173,nm3504405,nm3504405,fuzzy_canonical,100.0,1.0,1.0,1.0
 Vigilante,William Lustig,United States,1982,tt0084867,movie,1982,90,nm0527350,nm0895387,fuzzy_canonical,100.0,1.0,1.0,1.0
 Violence at Noon,Nagisa Oshima,Japan,1966,tt0060486,movie,1966,99,nm0651915,"nm0847489,nm0848797",fuzzy_canonical,100.0,1.0,1.0,1.0
 Virgin Machine,Monika Treut,Germany,1989,tt0095417,movie,1988,84,nm0872331,nm0872331,fuzzy_canonical,92.5,1.0,1.0,0.5
 Viridiana,Luis Buñuel,Spain,1961,tt0055601,movie,1961,91,nm0000320,"nm0017855,nm0000320,nm0701918",fuzzy_canonical,100.0,1.0,1.0,1.0
-Visions of Eight,"Juri Ozerov, Mai Zetterling, Arthur Penn, Michael Pfleghar, Kon Ichikawa, Miloš Forman, Claude Lelouch, and John Schlesinger",United States,1973,tt0070884,movie,1973,110,"nm0001232,nm0406728,nm0500988,nm0654775,nm0671957,nm0679528,nm0772259,nm0955195","nm1396584,nm0654776,nm0849479",fuzzy_canonical,87.4,1.0,0.6396,1.0
 Vivre sa vie,Jean-Luc Godard,France,1962,tt0056663,movie,1962,85,nm0000419,"nm0755338,nm0000419",fuzzy_canonical,100.0,1.0,1.0,1.0
 Volavérunt,Bigas Luna,France,1999,tt0216386,movie,1999,90,nm0000940,"nm0133561,nm0000940,nm0072306,nm0488613",fuzzy_canonical,100.0,1.0,1.0,1.0
 WR: Mysteries of the Organism,Dušan Makavejev,Yugoslavia,1971,tt0067958,movie,1971,84,nm0538445,nm0538445,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1917,7 +1676,6 @@ Wanda,Barbara Loden,United States,1970,tt0067961,movie,1970,102,nm0517056,nm0517
 "War and Peace, Part II: Natasha Rostova",Sergei Bondarchuk,Soviet Union,1966,tt0061162,movie,1965,98,nm0094083,"nm0866243,nm0094083,nm0813537",fuzzy_canonical,91.7,1.0,0.9765,0.5
 "War and Peace, Part III: The Year 1812",Sergei Bondarchuk,Soviet Union,1967,tt0062455,movie,1967,81,nm0094083,"nm0866243,nm0094083,nm0813537",fuzzy_canonical,99.2,1.0,0.9765,1.0
 "War and Peace, Part IV: Pierre Bezukhov",Sergei Bondarchuk,Soviet Union,1967,tt0062456,movie,1967,100,nm0094083,"nm0866243,nm0094083,nm0813537",fuzzy_canonical,99.2,1.0,0.9765,1.0
-Warrendale,Allan King,Canada,1967,tt0062474,movie,1967,100,nm0454437,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Water,Dick Clement,United Kingdom,1985,tt0090297,movie,1985,115,nm0166074,"nm0166074,nm0478588,nm0675479",fuzzy_canonical,100.0,1.0,1.0,1.0
 Water Lilies,Céline Sciamma,France,2007,tt0869977,movie,2007,85,nm1780037,nm1780037,fuzzy_canonical,100.0,1.0,1.0,1.0
 Watership Down,Martin Rosen,United Kingdom,1978,tt0078480,movie,1978,92,"nm0742034,nm0399524","nm0011293,nm0742034,nm0399524",fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1935,31 +1693,22 @@ Welcome Mr. Marshall!,Luis García Berlanga,Spain,1952,tt0045554,movie,1953,78,n
 Werckmeister Harmonies,Béla Tarr and Ágnes Hranitzky,Hungary,2000,tt0249241,movie,2000,145,"nm0850601,nm0398555","nm0470004,nm0850601,nm0229569,nm0246827,nm0270486",fuzzy_canonical,95.2,1.0,0.8621,1.0
 West Indies: The Fugitive Slaves of Liberty,Med Hondo,France,1979,tt0080125,movie,1979,110,nm0393124,"nm1140253,nm0393124",fuzzy_canonical,100.0,1.0,1.0,1.0
 West Is West,David Rathod,United States,1987,tt0094314,movie,1989,80,nm0711752,"nm0711752,nm0088736,nm0589058",fuzzy_canonical,88.8,1.0,1.0,0.25
-Western,Turner Ross and Bill Ross IV,Mexico,2015,tt4214450,movie,2015,92,"nm3226377,nm3225731",,fuzzy_canonical,95.8,1.0,0.8786,1.0
 We’re All Going to the World’s Fair,Jane Schoenbrun,United States,2022,tt13648224,movie,2021,86,"nm9248049,nm5313125",nm5313125,fuzzy_canonical,92.5,1.0,1.0,0.5
 We’re No Angels,Michael Curtiz,United States,1955,tt0048801,movie,1955,106,nm0002031,"nm0404062,nm0532030",fuzzy_canonical,100.0,1.0,1.0,1.0
 What Did the Lady Forget?,Yasujiro Ozu,Japan,1937,tt0029557,movie,1937,71,nm0654868,"nm0299343,nm0654868",fuzzy_canonical,100.0,1.0,1.0,1.0
 When Pigs Fly,Sara Driver,Germany,1993,tt0108554,movie,1993,94,nm0238138,"nm0229620,nm0238138",fuzzy_canonical,100.0,1.0,1.0,1.0
-When We Were Kings,Leon Gast,United States,1996,tt0118147,movie,1996,88,nm0309382,,fuzzy_canonical,100.0,1.0,1.0,1.0
 When a Woman Ascends the Stairs,Mikio Naruse,Japan,1960,tt0054144,movie,1960,111,nm0621540,nm0452878,fuzzy_canonical,100.0,1.0,1.0,1.0
-Where Are We? Our Trip Through America,Rob Epstein and Jeffrey Friedman,United States,1992,tt0105808,movie,1992,73,"nm0258531,nm0295243",,fuzzy_canonical,95.4,1.0,0.8688,1.0
-Where Are You Taking Me?,Kimi Takesue,Uganda,2012,tt1675311,movie,2010,72,nm0847585,,fuzzy_canonical,88.8,1.0,1.0,0.25
 Where Is the Friend’s House?,Abbas Kiarostami,Iran,1987,tt0093342,movie,1987,83,nm0452102,nm0452102,fuzzy_canonical,100.0,1.0,1.0,1.0
 Where Now Are the Dreams of Youth?,Yasujiro Ozu,Japan,1932,tt0023450,movie,1932,85,nm0654868,nm0633792,fuzzy_canonical,100.0,1.0,1.0,1.0
 Where the Truth Lies,Atom Egoyan,Canada,2005,tt0373450,movie,2005,107,nm0000382,"nm0000382,nm0392035",fuzzy_canonical,100.0,1.0,1.0,1.0
-Where the World Meets,Hannu Leminen,Finland,1952,tt0121444,movie,1952,101,nm0501326,"nm13861244,nm0658637",fuzzy_canonical,100.0,1.0,1.0,1.0
 White Nights,Luchino Visconti,Italy,1957,tt0050782,movie,1957,97,nm0899581,"nm0234502,nm0147599,nm0899581",fuzzy_canonical,100.0,1.0,1.0,1.0
-White Rock,Tony Maylam,United Kingdom,1977,tt0076916,movie,1977,77,nm0562699,nm0562699,fuzzy_canonical,100.0,1.0,1.0,1.0
-White Vertigo,Giorgio Ferroni,Italy,1956,tt0049916,movie,1956,96,nm0275034,nm0824216,fuzzy_canonical,100.0,1.0,1.0,1.0
 "Who Are You, Polly Maggoo?",William Klein,France,1966,tt0060879,movie,1966,101,nm0459017,nm0459017,fuzzy_canonical,100.0,1.0,1.0,1.0
 Who Killed Teddy Bear?,Joseph Cates,United States,1965,tt0059909,movie,1965,94,nm0146068,"nm0865736,nm0236854",fuzzy_canonical,100.0,1.0,1.0,1.0
-Why Can’t I Be Me? Around You,Harrod Blank and Sjoerd Djik,,2019,tt9617512,movie,2019,93,"nm0087496,nm5966686","nm0087496,nm5966686",fuzzy_canonical,96.0,1.0,0.8857,1.0
 Why Worry?,Fred Newmeyer and Sam Taylor,United States,1923,tt0014611,movie,1923,63,"nm0628345,nm0853130","nm0853130,nm0928514,nm0924065,nm0907778",fuzzy_canonical,94.0,1.0,0.8295,1.0
 Wife,Mikio Naruse,Japan,1953,tt0046468,movie,1953,89,nm0621540,"nm0370615,nm0406841",fuzzy_canonical,100.0,1.0,1.0,1.0
 Wild 90,Norman Mailer,United States,1968,tt0062492,movie,1968,90,nm0537551,nm0672060,fuzzy_canonical,100.0,1.0,1.0,1.0
 Wild Geese,Shirô Toyoda,Japan,1953,tt0045802,movie,1953,104,nm0870311,"nm0605286,nm0621534",fuzzy_canonical,100.0,1.0,1.0,1.0
 Wild Strawberries,Ingmar Bergman,Sweden,1957,tt0050986,movie,1957,92,nm0000005,nm0000005,fuzzy_canonical,100.0,1.0,1.0,1.0
-Wild Wheels,Harrod Blank,,1992,tt0105821,movie,1992,64,nm0087496,nm0797847,fuzzy_canonical,100.0,1.0,1.0,1.0
 Wild at Heart,David Lynch,United States,1990,tt0100935,movie,1990,125,nm0000186,"nm0317510,nm0000186",fuzzy_canonical,100.0,1.0,1.0,1.0
 Wildcat,Ethan Hawke,United States,2024,tt26442871,movie,2023,103,nm0000160,"nm3111950,nm0000160,nm0640320",fuzzy_canonical,92.5,1.0,1.0,0.5
 Will,Jessie Maple,United States,1981,tt0232951,movie,1981,80,nm0544589,,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1977,13 +1726,11 @@ Woman in Witness Protection,Juzo Itami,Japan,1997,tt0133089,movie,1997,131,nm041
 Woman in the Dunes,Hiroshi Teshigahara,Japan,1964,tt0058625,movie,1964,147,nm0856267,"nm0008356,nm0948870",fuzzy_canonical,100.0,1.0,1.0,1.0
 Woman of the Year,George Stevens,United States,1942,tt0035567,movie,1942,114,nm0828419,"nm0488057,nm0437720,nm0536941",fuzzy_canonical,100.0,1.0,1.0,1.0
 Women of the Night,Kenji Mizoguchi,Japan,1948,tt0040980,movie,1948,75,nm0003226,"nm0386750,nm0406808",fuzzy_canonical,100.0,1.0,1.0,1.0
-Woodcutters of the Deep South,Lionel Rogosin,United States,1973,tt1196255,movie,1973,85,nm0737369,,fuzzy_canonical,100.0,1.0,1.0,1.0
 Wooden Crosses,Raymond Bernard,France,1932,tt0022787,movie,1932,115,nm0076368,"nm0076368,nm0233593,nm0485676",fuzzy_canonical,100.0,1.0,1.0,1.0
 Working Girls,Dorothy Arzner,United States,1931,tt0022578,movie,1931,77,nm0002188,"nm0015399,nm0143837,nm0501918",fuzzy_canonical,100.0,1.0,1.0,1.0
 Working Girls,Lizzie Borden,United States,1986,tt0092238,movie,1986,93,nm0001962,"nm0001962,nm0443173",fuzzy_canonical,100.0,1.0,1.0,1.0
 Wuthering Heights,Andrea Arnold,United Kingdom,2011,tt1181614,movie,2011,129,nm0036349,"nm0036349,nm0381757,nm0111577",fuzzy_canonical,100.0,1.0,1.0,1.0
 Wuthering Heights,William Wyler,United States,1939,tt0032145,movie,1939,104,nm0943758,"nm0531269,nm0372942,nm0111577,nm0001379",fuzzy_canonical,100.0,1.0,1.0,1.0
-XIVth Olympiad: The Glory of Sport,Castleton Knight,United Kingdom,1948,tt0221719,movie,1948,138,nm0460834,nm0503622,fuzzy_canonical,100.0,1.0,1.0,1.0
 Xala,Ousmane Sembène,Senegal,1975,tt0073915,movie,1975,123,nm0783733,nm0783733,fuzzy_canonical,100.0,1.0,1.0,1.0
 Xiao Wu,Jia Zhangke,China,1997,tt0144020,movie,1997,110,nm0422605,nm0422605,fuzzy_canonical,99.4,1.0,0.9833,1.0
 Yam daabo,Idrissa Ouédraogo,Burkina Faso,1987,tt0092258,movie,1987,80,nm0653458,nm0653458,fuzzy_canonical,100.0,1.0,1.0,1.0
@@ -1994,7 +1741,6 @@ Yi Yi,Edward Yang,Taiwan,2000,tt0244316,movie,2000,173,nm0945981,nm0945981,fuzzy
 Yojimbo,Akira Kurosawa,Japan,1961,tt0055630,movie,1961,110,nm0000041,"nm0000041,nm0452878",fuzzy_canonical,100.0,1.0,1.0,1.0
 "Yotsuya Kaidan, Part I",Keisuke Kinoshita,Japan,1949,tt0042059,movie,1949,85,nm0455839,"nm0386750,nm0462030,nm0875472",fuzzy_canonical,96.7,0.9333,1.0,1.0
 "Yotsuya kaidan, Part II",Keisuke Kinoshita,Japan,1949,tt0042059,movie,1949,85,nm0455839,"nm0386750,nm0462030,nm0875472",fuzzy_canonical,96.4,0.9273,1.0,1.0
-You Got to Move,Lucy Massie Phenix and Veronica Selver,United States,1985,tt0204066,movie,1985,85,"nm0679863,nm0783593",,fuzzy_canonical,96.3,1.0,0.8947,1.0
 You Were Like a Wild Chrysanthemum,Keisuke Kinoshita,Japan,1955,tt0048429,movie,1955,100,nm0455839,"nm1350694,nm0455839",fuzzy_canonical,100.0,1.0,1.0,1.0
 Young Törless,Volker Schlöndorff,Germany,1966,tt0060574,movie,1966,87,nm0772522,"nm0615754,nm0039557,nm0772522",fuzzy_canonical,100.0,1.0,1.0,1.0
 Young and Innocent,Alfred Hitchcock,United States,1937,tt0029811,movie,1937,83,nm0000033,"nm0856758,nm0071657,nm0339326,nm0035613,nm0767902",fuzzy_canonical,100.0,1.0,1.0,1.0

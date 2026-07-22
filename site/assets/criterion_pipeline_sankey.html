@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; background: #1a1a2c; }
+  #chart { width: 100%; height: 650px; }
+</style>
+</head>
+<body>
+<div id="chart"></div>
+<script src="plotly.min.js"></script>
+<script>
+var data = [{
+  type: "sankey",
+  arrangement: "snap",
+  node: {
+    pad: 24,
+    thickness: 26,
+    line: { color: "#1a1a2c", width: 1 },
+    label: ["Criterion Records (3,241)", "IMDb Match (2,821)", "Manual Review (420)",
+            "Clean Dataset – Movies (2,293)", "Other Types – Non-Movie (947)",
+            "Unmatched – No IMDb Record (1)"],
+    color: ["#4C78A8", "#54A24B", "#E45756", "#72B7B2", "#F2B701", "#B07AA1"]
+  },
+  link: {
+    source: [0, 0, 1, 1, 2, 2, 2],
+    target: [1, 2, 3, 4, 3, 4, 5],
+    value: [2821, 420, 2127, 694, 166, 253, 1],
+    label: ["2821", "420", "2127", "694", "166", "253", "1"],
+    color: ["rgba(76,120,168,0.45)", "rgba(76,120,168,0.45)", "rgba(84,162,75,0.45)",
+            "rgba(84,162,75,0.45)", "rgba(228,87,86,0.45)", "rgba(228,87,86,0.45)",
+            "rgba(228,87,86,0.45)"]
+  }
+}];
+var layout = {
+  title: { text: "Criterion &#8594; IMDb Matching Pipeline (3,241 Criterion records)", font: { color: "#e8e8ef", size: 18 }, x: 0.02 },
+  paper_bgcolor: "#1a1a2c",
+  plot_bgcolor: "#1a1a2c",
+  font: { color: "#cfcfdc", size: 13, family: "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" },
+  margin: { l: 10, r: 10, t: 50, b: 10 },
+  autosize: true
+};
+Plotly.newPlot("chart", data, layout, { responsive: true, displaylogo: false });
+</script>
+</body>
+</html>

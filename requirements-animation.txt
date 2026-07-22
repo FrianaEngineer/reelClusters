@@ -1,0 +1,7 @@
+duckdb
+matplotlib
+numpy
+pandas
+Pillow
+scikit-learn
+imageio-ffmpeg

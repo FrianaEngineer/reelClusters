@@ -5,3 +5,7 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 .env
+.venv/
+outputs/*.gif
+outputs/*.mp4
+db/backup/

@@ -1,0 +1,1483 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
+
+<style>
+  .edge { stroke: #000000; stroke-opacity: 0.15040816401982543; stroke-width: 0.5013605467327514; }
+  .node polygon { fill: #F4A261; stroke: #dedddc; stroke-width: 2; }
+  .node { cursor: pointer; }
+  .node:hover polygon { stroke: #000000; }
+  .tooltip { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
+  .node:hover .tooltip { opacity: 1; }
+  .tooltip rect { fill: #12121f; stroke: #ffffff; stroke-opacity: 0.25; }
+  .tooltip text { fill: #ffffff; font-size: 15px; font-weight: 600; }
+</style>
+
+<rect x="0" y="0" width="1600" height="900" fill="#dedddc"/>
+<g>
+<line class="edge" x1="1176.2" y1="717.8" x2="1378.3" y2="598.7"/>
+<line class="edge" x1="1176.2" y1="717.8" x2="1448.1" y2="445.5"/>
+<line class="edge" x1="103.0" y1="381.2" x2="241.8" y2="363.6"/>
+<line class="edge" x1="1073.3" y1="188.3" x2="726.4" y2="188.7"/>
+<line class="edge" x1="1073.3" y1="188.3" x2="1135.9" y2="207.7"/>
+<line class="edge" x1="1073.3" y1="188.3" x2="717.4" y2="157.0"/>
+<line class="edge" x1="1073.3" y1="188.3" x2="645.6" y2="164.6"/>
+<line class="edge" x1="1073.3" y1="188.3" x2="1288.6" y2="287.3"/>
+<line class="edge" x1="665.0" y1="738.6" x2="737.3" y2="745.0"/>
+<line class="edge" x1="665.0" y1="738.6" x2="810.6" y2="746.7"/>
+<line class="edge" x1="665.0" y1="738.6" x2="594.8" y2="727.7"/>
+<line class="edge" x1="665.0" y1="738.6" x2="1380.1" y2="659.0"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="658.7" y2="454.5"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="667.6" y2="424.8"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="823.5" y2="521.5"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="920.2" y2="489.3"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="711.6" y2="506.6"/>
+<line class="edge" x1="1179.5" y1="393.9" x2="807.3" y2="378.4"/>
+<line class="edge" x1="356.7" y1="643.1" x2="658.7" y2="454.5"/>
+<line class="edge" x1="356.7" y1="643.1" x2="878.6" y2="510.6"/>
+<line class="edge" x1="356.7" y1="643.1" x2="823.5" y2="521.5"/>
+<line class="edge" x1="356.7" y1="643.1" x2="407.9" y2="669.8"/>
+<line class="edge" x1="356.7" y1="643.1" x2="237.4" y2="670.2"/>
+<line class="edge" x1="356.7" y1="643.1" x2="955.6" y2="736.1"/>
+<line class="edge" x1="869.2" y1="123.8" x2="309.6" y2="236.2"/>
+<line class="edge" x1="869.2" y1="123.8" x2="169.6" y2="376.4"/>
+<line class="edge" x1="869.2" y1="123.8" x2="1017.1" y2="209.9"/>
+<line class="edge" x1="869.2" y1="123.8" x2="971.6" y2="133.6"/>
+<line class="edge" x1="1024.4" y1="108.3" x2="468.6" y2="168.4"/>
+<line class="edge" x1="1024.4" y1="108.3" x2="550.9" y2="112.9"/>
+<line class="edge" x1="1024.4" y1="108.3" x2="907.2" y2="94.0"/>
+<line class="edge" x1="1492.4" y1="367.6" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="442.0" y2="139.2"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="955.6" y2="736.1"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="300.5" y2="375.9"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="726.4" y2="712.0"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1239.1" y2="593.3"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1299.3" y2="604.8"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1017.1" y2="690.8"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1384.4" y2="463.9"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1359.4" y2="537.1"/>
+<line class="edge" x1="1017.1" y1="209.9" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1333.6" y1="571.9" x2="1152.1" y2="687.1"/>
+<line class="edge" x1="1333.6" y1="571.9" x2="1376.4" y2="500.9"/>
+<line class="edge" x1="1333.6" y1="571.9" x2="1383.1" y2="426.7"/>
+<line class="edge" x1="322.2" y1="671.7" x2="228.5" y2="510.9"/>
+<line class="edge" x1="322.2" y1="671.7" x2="398.4" y2="707.7"/>
+<line class="edge" x1="322.2" y1="671.7" x2="90.0" y2="442.0"/>
+<line class="edge" x1="322.2" y1="671.7" x2="218.0" y2="474.0"/>
+<line class="edge" x1="907.2" y1="94.0" x2="667.0" y2="96.4"/>
+<line class="edge" x1="737.3" y1="745.0" x2="1302.2" y2="705.7"/>
+<line class="edge" x1="737.3" y1="745.0" x2="594.8" y2="727.7"/>
+<line class="edge" x1="737.3" y1="745.0" x2="810.6" y2="746.7"/>
+<line class="edge" x1="737.3" y1="745.0" x2="1448.1" y2="445.5"/>
+<line class="edge" x1="764.4" y1="520.1" x2="823.5" y2="521.5"/>
+<line class="edge" x1="764.4" y1="520.1" x2="247.9" y2="546.7"/>
+<line class="edge" x1="764.4" y1="520.1" x2="407.9" y2="669.8"/>
+<line class="edge" x1="764.4" y1="520.1" x2="885.9" y2="545.1"/>
+<line class="edge" x1="764.4" y1="520.1" x2="674.2" y2="483.4"/>
+<line class="edge" x1="764.4" y1="520.1" x2="711.6" y2="506.6"/>
+<line class="edge" x1="764.4" y1="520.1" x2="937.7" y2="431.4"/>
+<line class="edge" x1="764.4" y1="520.1" x2="312.6" y2="613.4"/>
+<line class="edge" x1="764.4" y1="520.1" x2="658.7" y2="454.5"/>
+<line class="edge" x1="764.4" y1="520.1" x2="910.6" y2="404.7"/>
+<line class="edge" x1="764.4" y1="520.1" x2="699.6" y2="399.6"/>
+<line class="edge" x1="764.4" y1="520.1" x2="749.0" y2="383.2"/>
+<line class="edge" x1="764.4" y1="520.1" x2="276.1" y2="581.1"/>
+<line class="edge" x1="764.4" y1="520.1" x2="878.6" y2="510.6"/>
+<line class="edge" x1="764.4" y1="520.1" x2="667.6" y2="424.8"/>
+<line class="edge" x1="764.4" y1="520.1" x2="807.3" y2="378.4"/>
+<line class="edge" x1="764.4" y1="520.1" x2="941.1" y2="461.3"/>
+<line class="edge" x1="764.4" y1="520.1" x2="864.5" y2="386.0"/>
+<line class="edge" x1="1025.0" y1="724.0" x2="1207.9" y2="662.9"/>
+<line class="edge" x1="1025.0" y1="724.0" x2="1312.5" y2="249.3"/>
+<line class="edge" x1="1025.0" y1="724.0" x2="883.8" y2="743.7"/>
+<line class="edge" x1="1025.0" y1="724.0" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="1086.7" y1="744.9" x2="989.8" y2="764.4"/>
+<line class="edge" x1="1086.7" y1="744.9" x2="1323.9" y2="643.8"/>
+<line class="edge" x1="1160.6" y1="177.4" x2="645.6" y2="164.6"/>
+<line class="edge" x1="1160.6" y1="177.4" x2="863.9" y2="155.8"/>
+<line class="edge" x1="97.4" y1="503.0" x2="125.1" y2="562.5"/>
+<line class="edge" x1="468.6" y1="168.4" x2="1135.2" y2="132.4"/>
+<line class="edge" x1="468.6" y1="168.4" x2="1069.6" y2="151.6"/>
+<line class="edge" x1="468.6" y1="168.4" x2="661.8" y2="129.6"/>
+<line class="edge" x1="810.6" y1="746.7" x2="594.8" y2="727.7"/>
+<line class="edge" x1="810.6" y1="746.7" x2="1441.3" y2="606.4"/>
+<line class="edge" x1="863.9" y1="155.8" x2="344.0" y2="265.4"/>
+<line class="edge" x1="863.9" y1="155.8" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="863.9" y1="155.8" x2="1193.3" y2="230.9"/>
+<line class="edge" x1="863.9" y1="155.8" x2="936.2" y2="162.1"/>
+<line class="edge" x1="888.0" y1="775.7" x2="784.0" y2="778.6"/>
+<line class="edge" x1="888.0" y1="775.7" x2="1239.1" y2="307.5"/>
+<line class="edge" x1="786.9" y1="90.0" x2="576.2" y2="176.7"/>
+<line class="edge" x1="667.6" y1="424.8" x2="878.6" y2="510.6"/>
+<line class="edge" x1="667.6" y1="424.8" x2="864.5" y2="386.0"/>
+<line class="edge" x1="667.6" y1="424.8" x2="941.1" y2="461.3"/>
+<line class="edge" x1="667.6" y1="424.8" x2="658.7" y2="454.5"/>
+<line class="edge" x1="667.6" y1="424.8" x2="920.2" y2="489.3"/>
+<line class="edge" x1="667.6" y1="424.8" x2="674.2" y2="483.4"/>
+<line class="edge" x1="667.6" y1="424.8" x2="937.7" y2="431.4"/>
+<line class="edge" x1="667.6" y1="424.8" x2="807.3" y2="378.4"/>
+<line class="edge" x1="667.6" y1="424.8" x2="1240.1" y2="515.8"/>
+<line class="edge" x1="667.6" y1="424.8" x2="711.6" y2="506.6"/>
+<line class="edge" x1="1239.1" y1="593.3" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="1239.1" y1="593.3" x2="1017.1" y2="690.8"/>
+<line class="edge" x1="1239.1" y1="593.3" x2="726.4" y2="712.0"/>
+<line class="edge" x1="1441.2" y1="498.3" x2="1256.0" y2="683.8"/>
+<line class="edge" x1="1441.2" y1="498.3" x2="1417.8" y2="549.8"/>
+<line class="edge" x1="1441.2" y1="498.3" x2="1105.8" y2="775.9"/>
+<line class="edge" x1="1441.2" y1="498.3" x2="1090.9" y2="707.6"/>
+<line class="edge" x1="155.9" y1="481.6" x2="309.6" y2="236.2"/>
+<line class="edge" x1="155.9" y1="481.6" x2="971.6" y2="133.6"/>
+<line class="edge" x1="247.9" y1="546.7" x2="680.4" y2="773.0"/>
+<line class="edge" x1="247.9" y1="546.7" x2="937.7" y2="431.4"/>
+<line class="edge" x1="247.9" y1="546.7" x2="910.6" y2="404.7"/>
+<line class="edge" x1="1438.2" y1="392.9" x2="1323.9" y2="643.8"/>
+<line class="edge" x1="1438.2" y1="392.9" x2="1411.8" y2="341.8"/>
+<line class="edge" x1="1090.9" y1="707.6" x2="1359.4" y2="537.1"/>
+<line class="edge" x1="1090.9" y1="707.6" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="1090.9" y1="707.6" x2="1353.2" y2="354.0"/>
+<line class="edge" x1="807.3" y1="378.4" x2="878.6" y2="510.6"/>
+<line class="edge" x1="807.3" y1="378.4" x2="910.6" y2="404.7"/>
+<line class="edge" x1="807.3" y1="378.4" x2="361.1" y2="384.9"/>
+<line class="edge" x1="807.3" y1="378.4" x2="711.6" y2="506.6"/>
+<line class="edge" x1="807.3" y1="378.4" x2="920.2" y2="489.3"/>
+<line class="edge" x1="807.3" y1="378.4" x2="885.9" y2="545.1"/>
+<line class="edge" x1="807.3" y1="378.4" x2="658.7" y2="454.5"/>
+<line class="edge" x1="807.3" y1="378.4" x2="699.6" y2="399.6"/>
+<line class="edge" x1="807.3" y1="378.4" x2="749.0" y2="383.2"/>
+<line class="edge" x1="807.3" y1="378.4" x2="937.7" y2="431.4"/>
+<line class="edge" x1="807.3" y1="378.4" x2="823.5" y2="521.5"/>
+<line class="edge" x1="807.3" y1="378.4" x2="941.1" y2="461.3"/>
+<line class="edge" x1="807.3" y1="378.4" x2="864.5" y2="386.0"/>
+<line class="edge" x1="807.3" y1="378.4" x2="674.2" y2="483.4"/>
+<line class="edge" x1="1454.9" y1="309.5" x2="936.2" y2="162.1"/>
+<line class="edge" x1="726.4" y1="188.7" x2="459.2" y2="250.6"/>
+<line class="edge" x1="726.4" y1="188.7" x2="300.5" y2="375.9"/>
+<line class="edge" x1="726.4" y1="188.7" x2="717.4" y2="157.0"/>
+<line class="edge" x1="726.4" y1="188.7" x2="300.5" y2="524.8"/>
+<line class="edge" x1="726.4" y1="188.7" x2="1239.1" y2="307.5"/>
+<line class="edge" x1="726.4" y1="188.7" x2="1288.6" y2="287.3"/>
+<line class="edge" x1="1069.6" y1="151.6" x2="1006.4" y2="173.0"/>
+<line class="edge" x1="971.6" y1="133.6" x2="936.2" y2="162.1"/>
+<line class="edge" x1="971.6" y1="133.6" x2="169.6" y2="376.4"/>
+<line class="edge" x1="971.6" y1="133.6" x2="1242.3" y2="210.2"/>
+<line class="edge" x1="749.0" y1="383.2" x2="937.7" y2="431.4"/>
+<line class="edge" x1="749.0" y1="383.2" x2="864.5" y2="386.0"/>
+<line class="edge" x1="749.0" y1="383.2" x2="941.1" y2="461.3"/>
+<line class="edge" x1="749.0" y1="383.2" x2="658.7" y2="454.5"/>
+<line class="edge" x1="749.0" y1="383.2" x2="823.5" y2="521.5"/>
+<line class="edge" x1="749.0" y1="383.2" x2="910.6" y2="404.7"/>
+<line class="edge" x1="749.0" y1="383.2" x2="920.2" y2="489.3"/>
+<line class="edge" x1="749.0" y1="383.2" x2="459.2" y2="650.1"/>
+<line class="edge" x1="749.0" y1="383.2" x2="674.2" y2="483.4"/>
+<line class="edge" x1="485.0" y1="737.1" x2="1240.1" y2="515.8"/>
+<line class="edge" x1="485.0" y1="737.1" x2="228.5" y2="510.9"/>
+<line class="edge" x1="910.6" y1="404.7" x2="680.4" y2="773.0"/>
+<line class="edge" x1="910.6" y1="404.7" x2="937.7" y2="431.4"/>
+<line class="edge" x1="910.6" y1="404.7" x2="674.2" y2="483.4"/>
+<line class="edge" x1="910.6" y1="404.7" x2="711.6" y2="506.6"/>
+<line class="edge" x1="910.6" y1="404.7" x2="658.7" y2="454.5"/>
+<line class="edge" x1="910.6" y1="404.7" x2="941.1" y2="461.3"/>
+<line class="edge" x1="910.6" y1="404.7" x2="864.5" y2="386.0"/>
+<line class="edge" x1="910.6" y1="404.7" x2="699.6" y2="399.6"/>
+<line class="edge" x1="910.6" y1="404.7" x2="920.2" y2="489.3"/>
+<line class="edge" x1="910.6" y1="404.7" x2="885.9" y2="545.1"/>
+<line class="edge" x1="910.6" y1="404.7" x2="421.7" y2="506.8"/>
+<line class="edge" x1="910.6" y1="404.7" x2="823.5" y2="521.5"/>
+<line class="edge" x1="910.6" y1="404.7" x2="361.1" y2="384.9"/>
+<line class="edge" x1="910.6" y1="404.7" x2="878.6" y2="510.6"/>
+<line class="edge" x1="442.0" y1="139.2" x2="136.1" y2="322.4"/>
+<line class="edge" x1="634.8" y1="800.8" x2="874.5" y2="808.8"/>
+<line class="edge" x1="1484.1" y1="549.2" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="393.3" y1="237.8" x2="301.9" y2="295.9"/>
+<line class="edge" x1="393.3" y1="237.8" x2="790.6" y2="154.1"/>
+<line class="edge" x1="393.3" y1="237.8" x2="645.6" y2="164.6"/>
+<line class="edge" x1="208.6" y1="583.5" x2="169.6" y2="376.4"/>
+<line class="edge" x1="208.6" y1="583.5" x2="300.5" y2="524.8"/>
+<line class="edge" x1="941.1" y1="461.3" x2="920.2" y2="489.3"/>
+<line class="edge" x1="941.1" y1="461.3" x2="658.7" y2="454.5"/>
+<line class="edge" x1="941.1" y1="461.3" x2="864.5" y2="386.0"/>
+<line class="edge" x1="941.1" y1="461.3" x2="674.2" y2="483.4"/>
+<line class="edge" x1="941.1" y1="461.3" x2="937.7" y2="431.4"/>
+<line class="edge" x1="941.1" y1="461.3" x2="711.6" y2="506.6"/>
+<line class="edge" x1="941.1" y1="461.3" x2="699.6" y2="399.6"/>
+<line class="edge" x1="941.1" y1="461.3" x2="421.7" y2="506.8"/>
+<line class="edge" x1="941.1" y1="461.3" x2="361.1" y2="384.9"/>
+<line class="edge" x1="1193.3" y1="230.9" x2="936.2" y2="162.1"/>
+<line class="edge" x1="1193.3" y1="230.9" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="267.6" y1="328.8" x2="300.5" y2="375.9"/>
+<line class="edge" x1="267.6" y1="328.8" x2="258.4" y2="629.9"/>
+<line class="edge" x1="267.6" y1="328.8" x2="201.2" y2="326.1"/>
+<line class="edge" x1="267.6" y1="328.8" x2="449.0" y2="213.6"/>
+<line class="edge" x1="267.6" y1="328.8" x2="344.0" y2="265.4"/>
+<line class="edge" x1="823.5" y1="521.5" x2="885.9" y2="545.1"/>
+<line class="edge" x1="823.5" y1="521.5" x2="920.2" y2="489.3"/>
+<line class="edge" x1="823.5" y1="521.5" x2="658.7" y2="454.5"/>
+<line class="edge" x1="823.5" y1="521.5" x2="674.2" y2="483.4"/>
+<line class="edge" x1="823.5" y1="521.5" x2="711.6" y2="506.6"/>
+<line class="edge" x1="823.5" y1="521.5" x2="878.6" y2="510.6"/>
+<line class="edge" x1="823.5" y1="521.5" x2="699.6" y2="399.6"/>
+<line class="edge" x1="823.5" y1="521.5" x2="937.7" y2="431.4"/>
+<line class="edge" x1="989.8" y1="764.4" x2="1323.9" y2="643.8"/>
+<line class="edge" x1="407.9" y1="669.8" x2="955.6" y2="736.1"/>
+<line class="edge" x1="414.0" y1="752.8" x2="465.2" y2="693.1"/>
+<line class="edge" x1="414.0" y1="752.8" x2="318.8" y2="715.3"/>
+<line class="edge" x1="174.1" y1="533.6" x2="154.4" y2="428.7"/>
+<line class="edge" x1="174.1" y1="533.6" x2="661.8" y2="129.6"/>
+<line class="edge" x1="174.1" y1="533.6" x2="343.5" y2="174.4"/>
+<line class="edge" x1="276.1" y1="581.1" x2="674.2" y2="483.4"/>
+<line class="edge" x1="276.1" y1="581.1" x2="312.6" y2="613.4"/>
+<line class="edge" x1="224.7" y1="399.8" x2="674.2" y2="483.4"/>
+<line class="edge" x1="224.7" y1="399.8" x2="228.5" y2="510.9"/>
+<line class="edge" x1="224.7" y1="399.8" x2="1257.2" y2="635.3"/>
+<line class="edge" x1="224.7" y1="399.8" x2="937.7" y2="431.4"/>
+<line class="edge" x1="224.7" y1="399.8" x2="241.8" y2="363.6"/>
+<line class="edge" x1="224.7" y1="399.8" x2="699.6" y2="399.6"/>
+<line class="edge" x1="224.7" y1="399.8" x2="218.0" y2="474.0"/>
+<line class="edge" x1="224.7" y1="399.8" x2="216.8" y2="436.8"/>
+<line class="edge" x1="224.7" y1="399.8" x2="1288.6" y2="287.3"/>
+<line class="edge" x1="125.1" y1="562.5" x2="172.2" y2="618.8"/>
+<line class="edge" x1="125.1" y1="562.5" x2="398.4" y2="707.7"/>
+<line class="edge" x1="878.6" y1="510.6" x2="699.6" y2="399.6"/>
+<line class="edge" x1="878.6" y1="510.6" x2="658.7" y2="454.5"/>
+<line class="edge" x1="878.6" y1="510.6" x2="885.9" y2="545.1"/>
+<line class="edge" x1="878.6" y1="510.6" x2="937.7" y2="431.4"/>
+<line class="edge" x1="878.6" y1="510.6" x2="711.6" y2="506.6"/>
+<line class="edge" x1="878.6" y1="510.6" x2="674.2" y2="483.4"/>
+<line class="edge" x1="878.6" y1="510.6" x2="864.5" y2="386.0"/>
+<line class="edge" x1="1207.9" y1="662.9" x2="883.8" y2="743.7"/>
+<line class="edge" x1="1207.9" y1="662.9" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="1207.9" y1="662.9" x2="1312.5" y2="249.3"/>
+<line class="edge" x1="1325.0" y1="207.1" x2="1236.3" y2="165.6"/>
+<line class="edge" x1="309.6" y1="236.2" x2="154.4" y2="428.7"/>
+<line class="edge" x1="309.6" y1="236.2" x2="383.7" y2="199.1"/>
+<line class="edge" x1="154.4" y1="428.7" x2="383.7" y2="199.1"/>
+<line class="edge" x1="154.4" y1="428.7" x2="661.8" y2="129.6"/>
+<line class="edge" x1="383.7" y1="199.1" x2="562.1" y2="145.0"/>
+<line class="edge" x1="383.7" y1="199.1" x2="301.9" y2="295.9"/>
+<line class="edge" x1="383.7" y1="199.1" x2="1236.3" y2="165.6"/>
+<line class="edge" x1="883.8" y1="743.7" x2="527.9" y2="712.5"/>
+<line class="edge" x1="883.8" y1="743.7" x2="1359.4" y2="537.1"/>
+<line class="edge" x1="883.8" y1="743.7" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="883.8" y1="743.7" x2="1256.0" y2="683.8"/>
+<line class="edge" x1="1017.1" y1="690.8" x2="726.4" y2="712.0"/>
+<line class="edge" x1="1017.1" y1="690.8" x2="992.9" y2="797.3"/>
+<line class="edge" x1="1017.1" y1="690.8" x2="1321.8" y2="450.4"/>
+<line class="edge" x1="645.6" y1="164.6" x2="1135.9" y2="207.7"/>
+<line class="edge" x1="645.6" y1="164.6" x2="790.6" y2="154.1"/>
+<line class="edge" x1="645.6" y1="164.6" x2="717.4" y2="157.0"/>
+<line class="edge" x1="645.6" y1="164.6" x2="301.9" y2="295.9"/>
+<line class="edge" x1="920.2" y1="489.3" x2="864.5" y2="386.0"/>
+<line class="edge" x1="920.2" y1="489.3" x2="711.6" y2="506.6"/>
+<line class="edge" x1="920.2" y1="489.3" x2="1240.1" y2="515.8"/>
+<line class="edge" x1="920.2" y1="489.3" x2="699.6" y2="399.6"/>
+<line class="edge" x1="920.2" y1="489.3" x2="579.8" y2="759.1"/>
+<line class="edge" x1="920.2" y1="489.3" x2="421.7" y2="506.8"/>
+<line class="edge" x1="920.2" y1="489.3" x2="459.2" y2="650.1"/>
+<line class="edge" x1="920.2" y1="489.3" x2="361.1" y2="384.9"/>
+<line class="edge" x1="920.2" y1="489.3" x2="674.2" y2="483.4"/>
+<line class="edge" x1="920.2" y1="489.3" x2="937.7" y2="431.4"/>
+<line class="edge" x1="920.2" y1="489.3" x2="658.7" y2="454.5"/>
+<line class="edge" x1="527.9" y1="712.5" x2="465.2" y2="693.1"/>
+<line class="edge" x1="527.9" y1="712.5" x2="1240.1" y2="515.8"/>
+<line class="edge" x1="1378.3" y1="598.7" x2="1448.1" y2="445.5"/>
+<line class="edge" x1="398.4" y1="707.7" x2="579.8" y2="759.1"/>
+<line class="edge" x1="421.7" y1="506.8" x2="658.7" y2="454.5"/>
+<line class="edge" x1="421.7" y1="506.8" x2="937.7" y2="431.4"/>
+<line class="edge" x1="421.7" y1="506.8" x2="864.5" y2="386.0"/>
+<line class="edge" x1="1417.8" y1="549.8" x2="874.5" y2="808.8"/>
+<line class="edge" x1="1417.8" y1="549.8" x2="1152.1" y2="687.1"/>
+<line class="edge" x1="1359.4" y1="537.1" x2="1353.2" y2="354.0"/>
+<line class="edge" x1="1359.4" y1="537.1" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1359.4" y1="537.1" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="717.4" y2="157.0"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="1353.2" y2="354.0"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="576.2" y2="176.7"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="241.8" y2="363.6"/>
+<line class="edge" x1="1288.6" y1="287.3" x2="1257.2" y2="635.3"/>
+<line class="edge" x1="784.0" y1="778.6" x2="1239.1" y2="307.5"/>
+<line class="edge" x1="248.2" y1="278.9" x2="449.0" y2="213.6"/>
+<line class="edge" x1="248.2" y1="278.9" x2="201.2" y2="326.1"/>
+<line class="edge" x1="562.1" y1="145.0" x2="301.9" y2="295.9"/>
+<line class="edge" x1="1242.3" y1="210.2" x2="449.0" y2="213.6"/>
+<line class="edge" x1="1242.3" y1="210.2" x2="1369.5" y2="293.5"/>
+<line class="edge" x1="717.4" y1="157.0" x2="459.2" y2="250.6"/>
+<line class="edge" x1="1299.3" y1="604.8" x2="1384.4" y2="463.9"/>
+<line class="edge" x1="1299.3" y1="604.8" x2="955.6" y2="736.1"/>
+<line class="edge" x1="1384.4" y1="463.9" x2="955.6" y2="736.1"/>
+<line class="edge" x1="1353.2" y1="354.0" x2="576.2" y2="176.7"/>
+<line class="edge" x1="1353.2" y1="354.0" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="344.0" y1="265.4" x2="449.0" y2="213.6"/>
+<line class="edge" x1="1240.1" y1="515.8" x2="864.5" y2="386.0"/>
+<line class="edge" x1="1240.1" y1="515.8" x2="465.2" y2="693.1"/>
+<line class="edge" x1="1240.1" y1="515.8" x2="674.2" y2="483.4"/>
+<line class="edge" x1="1240.1" y1="515.8" x2="228.5" y2="510.9"/>
+<line class="edge" x1="1240.1" y1="515.8" x2="711.6" y2="506.6"/>
+<line class="edge" x1="1244.4" y1="257.6" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1244.4" y1="257.6" x2="1383.1" y2="426.7"/>
+<line class="edge" x1="1244.4" y1="257.6" x2="790.6" y2="154.1"/>
+<line class="edge" x1="1244.4" y1="257.6" x2="510.3" y2="193.1"/>
+<line class="edge" x1="1244.4" y1="257.6" x2="1006.4" y2="173.0"/>
+<line class="edge" x1="510.3" y1="193.1" x2="790.6" y2="154.1"/>
+<line class="edge" x1="510.3" y1="193.1" x2="661.8" y2="129.6"/>
+<line class="edge" x1="510.3" y1="193.1" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="510.3" y1="193.1" x2="765.0" y2="122.5"/>
+<line class="edge" x1="510.3" y1="193.1" x2="1398.5" y2="255.5"/>
+<line class="edge" x1="520.4" y1="781.6" x2="754.0" y2="810.0"/>
+<line class="edge" x1="754.0" y1="810.0" x2="726.4" y2="712.0"/>
+<line class="edge" x1="216.8" y1="436.8" x2="361.1" y2="384.9"/>
+<line class="edge" x1="216.8" y1="436.8" x2="1135.9" y2="207.7"/>
+<line class="edge" x1="216.8" y1="436.8" x2="218.0" y2="474.0"/>
+<line class="edge" x1="1507.2" y1="489.2" x2="1383.1" y2="426.7"/>
+<line class="edge" x1="864.5" y1="386.0" x2="658.7" y2="454.5"/>
+<line class="edge" x1="864.5" y1="386.0" x2="937.7" y2="431.4"/>
+<line class="edge" x1="864.5" y1="386.0" x2="711.6" y2="506.6"/>
+<line class="edge" x1="864.5" y1="386.0" x2="459.2" y2="650.1"/>
+<line class="edge" x1="864.5" y1="386.0" x2="674.2" y2="483.4"/>
+<line class="edge" x1="1369.5" y1="293.5" x2="1411.8" y2="341.8"/>
+<line class="edge" x1="576.2" y1="176.7" x2="201.2" y2="326.1"/>
+<line class="edge" x1="576.2" y1="176.7" x2="1372.7" y2="389.8"/>
+<line class="edge" x1="936.2" y1="162.1" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1383.1" y1="426.7" x2="1006.4" y2="173.0"/>
+<line class="edge" x1="1383.1" y1="426.7" x2="1376.4" y2="500.9"/>
+<line class="edge" x1="1383.1" y1="426.7" x2="1152.1" y2="687.1"/>
+<line class="edge" x1="955.6" y1="736.1" x2="1135.9" y2="207.7"/>
+<line class="edge" x1="937.7" y1="431.4" x2="699.6" y2="399.6"/>
+<line class="edge" x1="937.7" y1="431.4" x2="658.7" y2="454.5"/>
+<line class="edge" x1="937.7" y1="431.4" x2="674.2" y2="483.4"/>
+<line class="edge" x1="937.7" y1="431.4" x2="711.6" y2="506.6"/>
+<line class="edge" x1="711.6" y1="506.6" x2="674.2" y2="483.4"/>
+<line class="edge" x1="711.6" y1="506.6" x2="885.9" y2="545.1"/>
+<line class="edge" x1="711.6" y1="506.6" x2="658.7" y2="454.5"/>
+<line class="edge" x1="711.6" y1="506.6" x2="699.6" y2="399.6"/>
+<line class="edge" x1="258.1" y1="217.5" x2="241.8" y2="363.6"/>
+<line class="edge" x1="594.8" y1="727.7" x2="1209.9" y2="745.0"/>
+<line class="edge" x1="449.0" y1="213.6" x2="1006.4" y2="173.0"/>
+<line class="edge" x1="1257.2" y1="635.3" x2="241.8" y2="363.6"/>
+<line class="edge" x1="1257.2" y1="635.3" x2="1448.1" y2="445.5"/>
+<line class="edge" x1="188.3" y1="267.3" x2="241.8" y2="363.6"/>
+<line class="edge" x1="459.2" y1="250.6" x2="300.5" y2="375.9"/>
+<line class="edge" x1="459.2" y1="250.6" x2="300.5" y2="524.8"/>
+<line class="edge" x1="459.2" y1="250.6" x2="1239.1" y2="307.5"/>
+<line class="edge" x1="228.5" y1="510.9" x2="218.0" y2="474.0"/>
+<line class="edge" x1="1321.8" y1="450.4" x2="726.4" y2="712.0"/>
+<line class="edge" x1="699.6" y1="399.6" x2="885.9" y2="545.1"/>
+<line class="edge" x1="699.6" y1="399.6" x2="658.7" y2="454.5"/>
+<line class="edge" x1="699.6" y1="399.6" x2="674.2" y2="483.4"/>
+<line class="edge" x1="658.7" y1="454.5" x2="459.2" y2="650.1"/>
+<line class="edge" x1="658.7" y1="454.5" x2="674.2" y2="483.4"/>
+<line class="edge" x1="658.7" y1="454.5" x2="885.9" y2="545.1"/>
+<line class="edge" x1="312.6" y1="613.4" x2="674.2" y2="483.4"/>
+<line class="edge" x1="1376.4" y1="500.9" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1376.4" y1="500.9" x2="1152.1" y2="687.1"/>
+<line class="edge" x1="661.8" y1="129.6" x2="765.0" y2="122.5"/>
+<line class="edge" x1="674.2" y1="483.4" x2="885.9" y2="545.1"/>
+<line class="edge" x1="674.2" y1="483.4" x2="361.1" y2="384.9"/>
+<line class="edge" x1="300.5" y1="375.9" x2="300.5" y2="524.8"/>
+<line class="edge" x1="300.5" y1="375.9" x2="1239.1" y2="307.5"/>
+<line class="edge" x1="1510.0" y1="428.1" x2="1325.0" y2="319.6"/>
+<line class="edge" x1="1239.1" y1="307.5" x2="300.5" y2="524.8"/>
+<line class="edge" x1="465.2" y1="693.1" x2="1135.9" y2="207.7"/>
+<line class="edge" x1="201.2" y1="326.1" x2="258.4" y2="629.9"/>
+<line class="edge" x1="1325.0" y1="319.6" x2="790.6" y2="154.1"/>
+<line class="edge" x1="790.6" y1="154.1" x2="301.9" y2="295.9"/>
+</g>
+<a href="https://www.criterion.com/films/28646-a-master-builder" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1180.8,720.5 1176.2,723.1 1171.7,720.5 1171.7,715.2 1176.2,712.6 1180.8,715.2"/>
+  <g class="tooltip">
+    <rect x="1081.9" y="668.6" width="188.6" height="34.0" rx="6"/>
+    <text x="1176.2" y="690.6" text-anchor="middle">A Master Builder (2014)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29649-a-tale-of-winter" target="_blank" rel="noopener"><g class="node">
+  <polygon points="107.6,383.9 103.0,386.5 98.4,383.9 98.4,378.6 103.0,376.0 107.6,378.6"/>
+  <g class="tooltip">
+    <rect x="8.7" y="332.0" width="188.6" height="34.0" rx="6"/>
+    <text x="103.0" y="354.0" text-anchor="middle">A Tale of Winter (1992)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/510-a-woman-under-the-influence" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1077.9,190.9 1073.3,193.5 1068.7,190.9 1068.7,185.6 1073.3,183.0 1077.9,185.6"/>
+  <g class="tooltip">
+    <rect x="933.9" y="139.0" width="278.8" height="34.0" rx="6"/>
+    <text x="1073.3" y="161.0" text-anchor="middle">A Woman Under the Influence (1974)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29632-after-hours" target="_blank" rel="noopener"><g class="node">
+  <polygon points="669.5,741.2 665.0,743.9 660.4,741.2 660.4,736.0 665.0,733.3 669.5,736.0"/>
+  <g class="tooltip">
+    <rect x="591.2" y="689.3" width="147.6" height="34.0" rx="6"/>
+    <text x="665.0" y="711.3" text-anchor="middle">After Hours (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/152-ali-fear-eats-the-soul" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1184.0,396.6 1179.5,399.2 1174.9,396.6 1174.9,391.3 1179.5,388.7 1184.0,391.3"/>
+  <g class="tooltip">
+    <rect x="1056.5" y="344.7" width="246.0" height="34.0" rx="6"/>
+    <text x="1179.5" y="366.7" text-anchor="middle">Ali: Fear Eats the Soul (1974)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27717-alice-in-the-cities" target="_blank" rel="noopener"><g class="node">
+  <polygon points="361.3,645.8 356.7,648.4 352.2,645.8 352.2,640.5 356.7,637.9 361.3,640.5"/>
+  <g class="tooltip">
+    <rect x="250.1" y="593.9" width="213.2" height="34.0" rx="6"/>
+    <text x="356.7" y="615.9" text-anchor="middle">Alice in the Cities (1974)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="873.8,126.5 869.2,129.1 864.7,126.5 864.7,121.2 869.2,118.6 873.8,121.2"/>
+  <g class="tooltip">
+    <rect x="803.6" y="74.6" width="131.2" height="34.0" rx="6"/>
+    <text x="869.2" y="96.6" text-anchor="middle">Antitrust (2001)</text>
+  </g>
+</g>
+<g class="node">
+  <polygon points="1029.0,110.9 1024.4,113.5 1019.8,110.9 1019.8,105.6 1024.4,103.0 1029.0,105.6"/>
+  <g class="tooltip">
+    <rect x="958.8" y="59.0" width="131.2" height="34.0" rx="6"/>
+    <text x="1024.4" y="81.0" text-anchor="middle">Arbitrage (2012)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/bad-lieutenant-port-of-call-new-orleans" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1496.9,370.3 1492.4,372.9 1487.8,370.3 1487.8,365.0 1492.4,362.4 1496.9,365.0"/>
+  <g class="tooltip">
+    <rect x="1206.6" y="318.4" width="385.4" height="34.0" rx="6"/>
+    <text x="1399.3" y="340.4" text-anchor="middle">Bad Lieutenant: Port of Call New Orleans (2009)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/33321-basquiat" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1021.7,212.6 1017.1,215.2 1012.6,212.6 1012.6,207.3 1017.1,204.7 1021.7,207.3"/>
+  <g class="tooltip">
+    <rect x="955.6" y="160.7" width="123.0" height="34.0" rx="6"/>
+    <text x="1017.1" y="182.7" text-anchor="middle">Basquiat (1996)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/beat" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1338.1,574.6 1333.6,577.2 1329.0,574.6 1329.0,569.3 1333.6,566.7 1338.1,569.3"/>
+  <g class="tooltip">
+    <rect x="1288.5" y="522.7" width="90.2" height="34.0" rx="6"/>
+    <text x="1333.6" y="544.7" text-anchor="middle">Beat (2000)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28839-benny-s-video" target="_blank" rel="noopener"><g class="node">
+  <polygon points="326.8,674.3 322.2,677.0 317.6,674.3 317.6,669.1 322.2,666.4 326.8,669.1"/>
+  <g class="tooltip">
+    <rect x="240.2" y="622.4" width="164.0" height="34.0" rx="6"/>
+    <text x="322.2" y="644.4" text-anchor="middle">Benny’s Video (1992)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="911.7,96.6 907.2,99.3 902.6,96.6 902.6,91.4 907.2,88.7 911.7,91.4"/>
+  <g class="tooltip">
+    <rect x="821.1" y="44.7" width="172.2" height="34.0" rx="6"/>
+    <text x="907.2" y="66.7" text-anchor="middle">Bergman Island (2021)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/between-the-lines" target="_blank" rel="noopener"><g class="node">
+  <polygon points="741.8,747.6 737.3,750.2 732.7,747.6 732.7,742.3 737.3,739.7 741.8,742.3"/>
+  <g class="tooltip">
+    <rect x="638.9" y="695.7" width="196.8" height="34.0" rx="6"/>
+    <text x="737.3" y="717.7" text-anchor="middle">Between the Lines (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27952-beware-of-a-holy-whore" target="_blank" rel="noopener"><g class="node">
+  <polygon points="769.0,522.7 764.4,525.3 759.9,522.7 759.9,517.4 764.4,514.8 769.0,517.4"/>
+  <g class="tooltip">
+    <rect x="645.5" y="470.8" width="237.8" height="34.0" rx="6"/>
+    <text x="764.4" y="492.8" text-anchor="middle">Beware of a Holy Whore (1970)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28321-beyond-the-law" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1029.6,726.6 1025.0,729.2 1020.4,726.6 1020.4,721.3 1025.0,718.7 1029.6,721.3"/>
+  <g class="tooltip">
+    <rect x="938.9" y="674.7" width="172.2" height="34.0" rx="6"/>
+    <text x="1025.0" y="696.7" text-anchor="middle">Beyond the Law (1968)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/bless-their-little-hearts" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1091.3,747.6 1086.7,750.2 1082.2,747.6 1082.2,742.3 1086.7,739.7 1091.3,742.3"/>
+  <g class="tooltip">
+    <rect x="955.5" y="695.7" width="262.4" height="34.0" rx="6"/>
+    <text x="1086.7" y="717.7" text-anchor="middle">Bless Their Little Hearts (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28852-blood-simple" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1165.2,180.0 1160.6,182.7 1156.1,180.0 1156.1,174.8 1160.6,172.1 1165.2,174.8"/>
+  <g class="tooltip">
+    <rect x="1082.7" y="128.1" width="155.8" height="34.0" rx="6"/>
+    <text x="1160.6" y="150.1" text-anchor="middle">Blood Simple (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28820-boyhood" target="_blank" rel="noopener"><g class="node">
+  <polygon points="102.0,505.7 97.4,508.3 92.9,505.7 92.9,500.4 97.4,497.8 102.0,500.4"/>
+  <g class="tooltip">
+    <rect x="40.0" y="453.8" width="114.8" height="34.0" rx="6"/>
+    <text x="97.4" y="475.8" text-anchor="middle">Boyhood (2014)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/268-breathless" target="_blank" rel="noopener"><g class="node">
+  <polygon points="473.2,171.0 468.6,173.7 464.0,171.0 464.0,165.8 468.6,163.1 473.2,165.8"/>
+  <g class="tooltip">
+    <rect x="398.9" y="119.1" width="139.4" height="34.0" rx="6"/>
+    <text x="468.6" y="141.1" text-anchor="middle">Breathless (1983)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28696-cat-people" target="_blank" rel="noopener"><g class="node">
+  <polygon points="815.2,749.3 810.6,751.9 806.0,749.3 806.0,744.0 810.6,741.4 815.2,744.0"/>
+  <g class="tooltip">
+    <rect x="740.9" y="697.4" width="139.4" height="34.0" rx="6"/>
+    <text x="810.6" y="719.4" text-anchor="middle">Cat People (1982)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29212-certain-women" target="_blank" rel="noopener"><g class="node">
+  <polygon points="868.4,158.4 863.9,161.0 859.3,158.4 859.3,153.1 863.9,150.5 868.4,153.1"/>
+  <g class="tooltip">
+    <rect x="781.9" y="106.5" width="164.0" height="34.0" rx="6"/>
+    <text x="863.9" y="128.5" text-anchor="middle">Certain Women (2016)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27939-chafed-elbows" target="_blank" rel="noopener"><g class="node">
+  <polygon points="892.6,778.4 888.0,781.0 883.5,778.4 883.5,773.1 888.0,770.5 892.6,773.1"/>
+  <g class="tooltip">
+    <rect x="806.0" y="726.5" width="164.0" height="34.0" rx="6"/>
+    <text x="888.0" y="748.5" text-anchor="middle">Chafed Elbows (1966)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/checking-out" target="_blank" rel="noopener"><g class="node">
+  <polygon points="791.4,92.6 786.9,95.3 782.3,92.6 782.3,87.4 786.9,84.7 791.4,87.4"/>
+  <g class="tooltip">
+    <rect x="709.0" y="40.7" width="155.8" height="34.0" rx="6"/>
+    <text x="786.9" y="62.7" text-anchor="middle">Checking Out (1989)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/chinese-roulette" target="_blank" rel="noopener"><g class="node">
+  <polygon points="672.2,427.5 667.6,430.1 663.1,427.5 663.1,422.2 667.6,419.6 672.2,422.2"/>
+  <g class="tooltip">
+    <rect x="573.3" y="375.6" width="188.6" height="34.0" rx="6"/>
+    <text x="667.6" y="397.6" text-anchor="middle">Chinese Roulette (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28912-christiane-f" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1243.6,595.9 1239.1,598.5 1234.5,595.9 1234.5,590.6 1239.1,588.0 1243.6,590.6"/>
+  <g class="tooltip">
+    <rect x="1157.1" y="544.0" width="164.0" height="34.0" rx="6"/>
+    <text x="1239.1" y="566.0" text-anchor="middle">Christiane F. (1981)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/close-encounters-of-the-third-kind" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1384.6,661.7 1380.1,664.3 1375.5,661.7 1375.5,656.4 1380.1,653.8 1384.6,656.4"/>
+  <g class="tooltip">
+    <rect x="1212.0" y="609.8" width="336.2" height="34.0" rx="6"/>
+    <text x="1380.1" y="631.8" text-anchor="middle">Close Encounters of the Third Kind (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/coffee-and-cigarettes" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1445.8,500.9 1441.2,503.5 1436.7,500.9 1436.7,495.6 1441.2,493.0 1445.8,495.6"/>
+  <g class="tooltip">
+    <rect x="1326.4" y="449.0" width="229.6" height="34.0" rx="6"/>
+    <text x="1441.2" y="471.0" text-anchor="middle">Coffee and Cigarettes (2003)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/cold-dog-soup" target="_blank" rel="noopener"><g class="node">
+  <polygon points="160.5,484.2 155.9,486.8 151.4,484.2 151.4,478.9 155.9,476.3 160.5,478.9"/>
+  <g class="tooltip">
+    <rect x="73.9" y="432.3" width="164.0" height="34.0" rx="6"/>
+    <text x="155.9" y="454.3" text-anchor="middle">Cold Dog Soup (1990)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/737-coup-de-grace" target="_blank" rel="noopener"><g class="node">
+  <polygon points="252.5,549.4 247.9,552.0 243.4,549.4 243.4,544.1 247.9,541.5 252.5,544.1"/>
+  <g class="tooltip">
+    <rect x="165.9" y="497.5" width="164.0" height="34.0" rx="6"/>
+    <text x="247.9" y="519.5" text-anchor="middle">Coup de grâce (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/daughters-of-the-dust" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1442.8,395.6 1438.2,398.2 1433.6,395.6 1433.6,390.3 1438.2,387.7 1442.8,390.3"/>
+  <g class="tooltip">
+    <rect x="1323.4" y="343.7" width="229.6" height="34.0" rx="6"/>
+    <text x="1438.2" y="365.7" text-anchor="middle">Daughters of the Dust (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29139-desert-hearts" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1306.8,708.3 1302.2,711.0 1297.6,708.3 1297.6,703.1 1302.2,700.4 1306.8,703.1"/>
+  <g class="tooltip">
+    <rect x="1220.2" y="656.4" width="164.0" height="34.0" rx="6"/>
+    <text x="1302.2" y="678.4" text-anchor="middle">Desert Hearts (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/719-down-by-law" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1095.4,710.2 1090.9,712.8 1086.3,710.2 1086.3,704.9 1090.9,702.3 1095.4,704.9"/>
+  <g class="tooltip">
+    <rect x="1017.1" y="658.3" width="147.6" height="34.0" rx="6"/>
+    <text x="1090.9" y="680.3" text-anchor="middle">Down by Law (1986)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/effi-briest" target="_blank" rel="noopener"><g class="node">
+  <polygon points="811.9,381.0 807.3,383.6 802.8,381.0 802.8,375.7 807.3,373.1 811.9,375.7"/>
+  <g class="tooltip">
+    <rect x="733.5" y="329.1" width="147.6" height="34.0" rx="6"/>
+    <text x="807.3" y="351.1" text-anchor="middle">Effi Briest (1974)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/eye-of-god" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1459.4,312.2 1454.9,314.8 1450.3,312.2 1450.3,306.9 1454.9,304.3 1459.4,306.9"/>
+  <g class="tooltip">
+    <rect x="1385.2" y="260.3" width="139.4" height="34.0" rx="6"/>
+    <text x="1454.9" y="282.3" text-anchor="middle">Eye of God (1997)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/915-faces" target="_blank" rel="noopener"><g class="node">
+  <polygon points="731.0,191.4 726.4,194.0 721.8,191.4 721.8,186.1 726.4,183.5 731.0,186.1"/>
+  <g class="tooltip">
+    <rect x="677.2" y="139.5" width="98.4" height="34.0" rx="6"/>
+    <text x="726.4" y="161.5" text-anchor="middle">Faces (1968)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/32604-farewell-amor" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1110.4,778.5 1105.8,781.1 1101.2,778.5 1101.2,773.2 1105.8,770.6 1110.4,773.2"/>
+  <g class="tooltip">
+    <rect x="1023.8" y="726.6" width="164.0" height="34.0" rx="6"/>
+    <text x="1105.8" y="748.6" text-anchor="middle">Farewell Amor (2020)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/female-perversions" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1074.2,154.3 1069.6,156.9 1065.0,154.3 1065.0,149.0 1069.6,146.4 1074.2,149.0"/>
+  <g class="tooltip">
+    <rect x="967.1" y="102.4" width="205.0" height="34.0" rx="6"/>
+    <text x="1069.6" y="124.4" text-anchor="middle">Female Perversions (1997)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/five-corners" target="_blank" rel="noopener"><g class="node">
+  <polygon points="976.2,136.3 971.6,138.9 967.1,136.3 967.1,131.0 971.6,128.4 976.2,131.0"/>
+  <g class="tooltip">
+    <rect x="893.7" y="84.4" width="155.8" height="34.0" rx="6"/>
+    <text x="971.6" y="106.4" text-anchor="middle">Five Corners (1987)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27957-fox-and-his-friends" target="_blank" rel="noopener"><g class="node">
+  <polygon points="753.6,385.8 749.0,388.4 744.4,385.8 744.4,380.5 749.0,377.9 753.6,380.5"/>
+  <g class="tooltip">
+    <rect x="642.4" y="333.9" width="213.2" height="34.0" rx="6"/>
+    <text x="749.0" y="355.9" text-anchor="middle">Fox and His Friends (1975)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27806-from-the-life-of-the-marionettes" target="_blank" rel="noopener"><g class="node">
+  <polygon points="489.6,739.7 485.0,742.4 480.5,739.7 480.5,734.5 485.0,731.9 489.6,734.5"/>
+  <g class="tooltip">
+    <rect x="325.1" y="687.9" width="319.8" height="34.0" rx="6"/>
+    <text x="485.0" y="709.9" text-anchor="middle">From the Life of the Marionettes (1980)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28836-funny-games" target="_blank" rel="noopener"><g class="node">
+  <polygon points="94.6,444.6 90.0,447.3 85.4,444.6 85.4,439.4 90.0,436.7 94.6,439.4"/>
+  <g class="tooltip">
+    <rect x="16.2" y="392.7" width="147.6" height="34.0" rx="6"/>
+    <text x="90.0" y="414.7" text-anchor="middle">Funny Games (1997)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27958-gods-of-the-plague" target="_blank" rel="noopener"><g class="node">
+  <polygon points="915.2,407.4 910.6,410.0 906.1,407.4 906.1,402.1 910.6,399.5 915.2,402.1"/>
+  <g class="tooltip">
+    <rect x="808.1" y="355.5" width="205.0" height="34.0" rx="6"/>
+    <text x="910.6" y="377.5" text-anchor="middle">Gods of the Plague (1969)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/golden-balls" target="_blank" rel="noopener"><g class="node">
+  <polygon points="446.6,141.8 442.0,144.4 437.5,141.8 437.5,136.5 442.0,133.9 446.6,136.5"/>
+  <g class="tooltip">
+    <rect x="364.1" y="89.9" width="155.8" height="34.0" rx="6"/>
+    <text x="442.0" y="111.9" text-anchor="middle">Golden Balls (1993)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/gunbuster-the-movie" target="_blank" rel="noopener"><g class="node">
+  <polygon points="639.3,803.5 634.8,806.1 630.2,803.5 630.2,798.2 634.8,795.6 639.3,798.2"/>
+  <g class="tooltip">
+    <rect x="524.1" y="751.6" width="221.4" height="34.0" rx="6"/>
+    <text x="634.8" y="773.6" text-anchor="middle">Gunbuster: The Movie (2006)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/histoires-d-amerique-food-family-and-philosophy" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1488.6,551.9 1484.1,554.5 1479.5,551.9 1479.5,546.6 1484.1,544.0 1488.6,546.6"/>
+  <g class="tooltip">
+    <rect x="1132.8" y="500.0" width="459.2" height="34.0" rx="6"/>
+    <text x="1362.4" y="522.0" text-anchor="middle">Histoires d’Amérique: Food, Family and Philosophy (1989)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/717-hopscotch" target="_blank" rel="noopener"><g class="node">
+  <polygon points="397.8,240.5 393.3,243.1 388.7,240.5 388.7,235.2 393.3,232.6 397.8,235.2"/>
+  <g class="tooltip">
+    <rect x="327.7" y="188.6" width="131.2" height="34.0" rx="6"/>
+    <text x="393.3" y="210.6" text-anchor="middle">Hopscotch (1980)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/household-saints" target="_blank" rel="noopener"><g class="node">
+  <polygon points="213.2,586.1 208.6,588.7 204.0,586.1 204.0,580.8 208.6,578.2 213.2,580.8"/>
+  <g class="tooltip">
+    <rect x="114.3" y="534.2" width="188.6" height="34.0" rx="6"/>
+    <text x="208.6" y="556.2" text-anchor="middle">Household Saints (1993)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/in-a-year-of-13-moons" target="_blank" rel="noopener"><g class="node">
+  <polygon points="945.7,463.9 941.1,466.6 936.5,463.9 936.5,458.7 941.1,456.0 945.7,458.7"/>
+  <g class="tooltip">
+    <rect x="826.3" y="412.0" width="229.6" height="34.0" rx="6"/>
+    <text x="941.1" y="434.0" text-anchor="middle">In a Year of 13 Moons (1978)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/30077-inland-empire" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1197.8,233.5 1193.3,236.1 1188.7,233.5 1188.7,228.3 1193.3,225.6 1197.8,228.3"/>
+  <g class="tooltip">
+    <rect x="1111.3" y="181.6" width="164.0" height="34.0" rx="6"/>
+    <text x="1193.3" y="203.6" text-anchor="middle">Inland Empire (2006)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27618-insignificance" target="_blank" rel="noopener"><g class="node">
+  <polygon points="272.2,331.4 267.6,334.1 263.0,331.4 263.0,326.2 267.6,323.5 272.2,326.2"/>
+  <g class="tooltip">
+    <rect x="181.5" y="279.5" width="172.2" height="34.0" rx="6"/>
+    <text x="267.6" y="301.5" text-anchor="middle">Insignificance (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28591-katzelmacher" target="_blank" rel="noopener"><g class="node">
+  <polygon points="828.0,524.1 823.5,526.8 818.9,524.1 818.9,518.9 823.5,516.2 828.0,518.9"/>
+  <g class="tooltip">
+    <rect x="745.6" y="472.2" width="155.8" height="34.0" rx="6"/>
+    <text x="823.5" y="494.2" text-anchor="middle">Katzelmacher (1969)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/34233-killer-of-sheep" target="_blank" rel="noopener"><g class="node">
+  <polygon points="994.4,767.0 989.8,769.7 985.3,767.0 985.3,761.8 989.8,759.1 994.4,761.8"/>
+  <g class="tooltip">
+    <rect x="899.6" y="715.1" width="180.4" height="34.0" rx="6"/>
+    <text x="989.8" y="737.1" text-anchor="middle">Killer of Sheep (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28762-kings-of-the-road" target="_blank" rel="noopener"><g class="node">
+  <polygon points="412.4,672.5 407.9,675.1 403.3,672.5 403.3,667.2 407.9,664.6 412.4,667.2"/>
+  <g class="tooltip">
+    <rect x="309.5" y="620.6" width="196.8" height="34.0" rx="6"/>
+    <text x="407.9" y="642.6" text-anchor="middle">Kings of the Road (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/32177-kiss-of-the-spider-woman" target="_blank" rel="noopener"><g class="node">
+  <polygon points="418.6,755.4 414.0,758.1 409.4,755.4 409.4,750.2 414.0,747.5 418.6,750.2"/>
+  <g class="tooltip">
+    <rect x="286.9" y="703.5" width="254.2" height="34.0" rx="6"/>
+    <text x="414.0" y="725.5" text-anchor="middle">Kiss of the Spider Woman (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27659-life-during-wartime" target="_blank" rel="noopener"><g class="node">
+  <polygon points="178.7,536.2 174.1,538.9 169.6,536.2 169.6,531.0 174.1,528.3 178.7,531.0"/>
+  <g class="tooltip">
+    <rect x="67.5" y="484.3" width="213.2" height="34.0" rx="6"/>
+    <text x="174.1" y="506.3" text-anchor="middle">Life During Wartime (2010)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28628-lions-love-and-lies" target="_blank" rel="noopener"><g class="node">
+  <polygon points="280.7,583.7 276.1,586.4 271.6,583.7 271.6,578.5 276.1,575.8 280.7,578.5"/>
+  <g class="tooltip">
+    <rect x="136.7" y="531.8" width="278.8" height="34.0" rx="6"/>
+    <text x="276.1" y="553.8" text-anchor="middle">Lions Love (. . . and Lies) (1969)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/lola" target="_blank" rel="noopener"><g class="node">
+  <polygon points="229.3,402.5 224.7,405.1 220.2,402.5 220.2,397.2 224.7,394.6 229.3,397.2"/>
+  <g class="tooltip">
+    <rect x="179.6" y="350.6" width="90.2" height="34.0" rx="6"/>
+    <text x="224.7" y="372.6" text-anchor="middle">Lola (1981)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/31590-lost-highway" target="_blank" rel="noopener"><g class="node">
+  <polygon points="129.7,565.2 125.1,567.8 120.5,565.2 120.5,559.9 125.1,557.3 129.7,559.9"/>
+  <g class="tooltip">
+    <rect x="47.2" y="513.3" width="155.8" height="34.0" rx="6"/>
+    <text x="125.1" y="535.3" text-anchor="middle">Lost Highway (1997)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27959-love-is-colder-than-death" target="_blank" rel="noopener"><g class="node">
+  <polygon points="883.1,513.3 878.6,515.9 874.0,513.3 874.0,508.0 878.6,505.4 883.1,508.0"/>
+  <g class="tooltip">
+    <rect x="747.4" y="461.4" width="262.4" height="34.0" rx="6"/>
+    <text x="878.6" y="483.4" text-anchor="middle">Love Is Colder Than Death (1969)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/lucio-flavio" target="_blank" rel="noopener"><g class="node">
+  <polygon points="323.3,718.0 318.8,720.6 314.2,718.0 314.2,712.7 318.8,710.1 323.3,712.7"/>
+  <g class="tooltip">
+    <rect x="240.9" y="666.1" width="155.8" height="34.0" rx="6"/>
+    <text x="318.8" y="688.1" text-anchor="middle">Lucio Flavio (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28069-maidstone" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1212.4,665.5 1207.9,668.1 1203.3,665.5 1203.3,660.2 1207.9,657.6 1212.4,660.2"/>
+  <g class="tooltip">
+    <rect x="1142.3" y="613.6" width="131.2" height="34.0" rx="6"/>
+    <text x="1207.9" y="635.6" text-anchor="middle">Maidstone (1970)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="1329.5,209.7 1325.0,212.3 1320.4,209.7 1320.4,204.4 1325.0,201.8 1329.5,204.4"/>
+  <g class="tooltip">
+    <rect x="1271.7" y="157.8" width="106.6" height="34.0" rx="6"/>
+    <text x="1325.0" y="179.8" text-anchor="middle">Maniac (1980)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/maniac-cop" target="_blank" rel="noopener"><g class="node">
+  <polygon points="314.2,238.9 309.6,241.5 305.1,238.9 305.1,233.6 309.6,231.0 314.2,233.6"/>
+  <g class="tooltip">
+    <rect x="239.9" y="187.0" width="139.4" height="34.0" rx="6"/>
+    <text x="309.6" y="209.0" text-anchor="middle">Maniac Cop (1988)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="159.0,431.4 154.4,434.0 149.8,431.4 149.8,426.1 154.4,423.5 159.0,426.1"/>
+  <g class="tooltip">
+    <rect x="76.5" y="379.5" width="155.8" height="34.0" rx="6"/>
+    <text x="154.4" y="401.5" text-anchor="middle">Maniac Cop 2 (1990)</text>
+  </g>
+</g>
+<g class="node">
+  <polygon points="388.3,201.7 383.7,204.3 379.2,201.7 379.2,196.4 383.7,193.8 388.3,196.4"/>
+  <g class="tooltip">
+    <rect x="232.0" y="149.8" width="303.4" height="34.0" rx="6"/>
+    <text x="383.7" y="171.8" text-anchor="middle">Maniac Cop 3: Badge of Silence (1992)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/marie-antoinette" target="_blank" rel="noopener"><g class="node">
+  <polygon points="888.3,746.3 883.8,748.9 879.2,746.3 879.2,741.1 883.8,738.4 888.3,741.1"/>
+  <g class="tooltip">
+    <rect x="789.5" y="694.4" width="188.6" height="34.0" rx="6"/>
+    <text x="883.8" y="716.4" text-anchor="middle">Marie Antoinette (2006)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27512-merry-christmas-mr-lawrence" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1021.7,693.4 1017.1,696.0 1012.6,693.4 1012.6,688.1 1017.1,685.5 1021.7,688.1"/>
+  <g class="tooltip">
+    <rect x="873.6" y="641.5" width="287.0" height="34.0" rx="6"/>
+    <text x="1017.1" y="663.5" text-anchor="middle">Merry Christmas Mr. Lawrence (1983)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/774-metropolitan" target="_blank" rel="noopener"><g class="node">
+  <polygon points="555.5,115.5 550.9,118.2 546.3,115.5 546.3,110.3 550.9,107.6 555.5,110.3"/>
+  <g class="tooltip">
+    <rect x="473.0" y="63.6" width="155.8" height="34.0" rx="6"/>
+    <text x="550.9" y="85.6" text-anchor="middle">Metropolitan (1990)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27895-mikey-and-nicky" target="_blank" rel="noopener"><g class="node">
+  <polygon points="650.1,167.3 645.6,169.9 641.0,167.3 641.0,162.0 645.6,159.4 650.1,162.0"/>
+  <g class="tooltip">
+    <rect x="555.4" y="115.4" width="180.4" height="34.0" rx="6"/>
+    <text x="645.6" y="137.4" text-anchor="middle">Mikey and Nicky (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/mother-kusters-goes-to-heaven" target="_blank" rel="noopener"><g class="node">
+  <polygon points="924.7,492.0 920.2,494.6 915.6,492.0 915.6,486.7 920.2,484.1 924.7,486.7"/>
+  <g class="tooltip">
+    <rect x="772.6" y="440.1" width="295.2" height="34.0" rx="6"/>
+    <text x="920.2" y="462.1" text-anchor="middle">Mother Küsters Goes to Heaven (1975)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28954-multiple-maniacs" target="_blank" rel="noopener"><g class="node">
+  <polygon points="176.8,621.4 172.2,624.1 167.6,621.4 167.6,616.2 172.2,613.5 176.8,616.2"/>
+  <g class="tooltip">
+    <rect x="77.9" y="569.5" width="188.6" height="34.0" rx="6"/>
+    <text x="172.2" y="591.5" text-anchor="middle">Multiple Maniacs (1970)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29065-my-brilliant-career" target="_blank" rel="noopener"><g class="node">
+  <polygon points="532.4,715.1 527.9,717.7 523.3,715.1 523.3,709.8 527.9,707.2 532.4,709.8"/>
+  <g class="tooltip">
+    <rect x="421.3" y="663.2" width="213.2" height="34.0" rx="6"/>
+    <text x="527.9" y="685.2" text-anchor="middle">My Brilliant Career (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/my-brother-s-wedding" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1328.5,646.4 1323.9,649.0 1319.4,646.4 1319.4,641.1 1323.9,638.5 1328.5,641.1"/>
+  <g class="tooltip">
+    <rect x="1213.2" y="594.5" width="221.4" height="34.0" rx="6"/>
+    <text x="1323.9" y="616.5" text-anchor="middle">My Brother’s Wedding (1983)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/1093-my-dinner-with-andre" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1382.9,601.3 1378.3,604.0 1373.8,601.3 1373.8,596.1 1378.3,593.4 1382.9,596.1"/>
+  <g class="tooltip">
+    <rect x="1267.6" y="549.4" width="221.4" height="34.0" rx="6"/>
+    <text x="1378.3" y="571.4" text-anchor="middle">My Dinner with André (1981)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/my-father-is-coming" target="_blank" rel="noopener"><g class="node">
+  <polygon points="403.0,710.4 398.4,713.0 393.8,710.4 393.8,705.1 398.4,702.5 403.0,705.1"/>
+  <g class="tooltip">
+    <rect x="291.8" y="658.5" width="213.2" height="34.0" rx="6"/>
+    <text x="398.4" y="680.5" text-anchor="middle">My Father Is Coming (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/727-my-life-as-a-dog" target="_blank" rel="noopener"><g class="node">
+  <polygon points="671.5,99.0 667.0,101.6 662.4,99.0 662.4,93.7 667.0,91.1 671.5,93.7"/>
+  <g class="tooltip">
+    <rect x="572.7" y="47.1" width="188.6" height="34.0" rx="6"/>
+    <text x="667.0" y="69.1" text-anchor="middle">My Life as a Dog (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/my-little-loves" target="_blank" rel="noopener"><g class="node">
+  <polygon points="426.3,509.4 421.7,512.0 417.1,509.4 417.1,504.1 421.7,501.5 426.3,504.1"/>
+  <g class="tooltip">
+    <rect x="331.5" y="457.5" width="180.4" height="34.0" rx="6"/>
+    <text x="421.7" y="479.5" text-anchor="middle">My Little Loves (1974)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/2057-mystery-train" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1422.3,552.4 1417.8,555.0 1413.2,552.4 1413.2,547.1 1417.8,544.5 1422.3,547.1"/>
+  <g class="tooltip">
+    <rect x="1335.8" y="500.5" width="164.0" height="34.0" rx="6"/>
+    <text x="1417.8" y="522.5" text-anchor="middle">Mystery Train (1989)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/new-rose-hotel" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1364.0,539.7 1359.4,542.4 1354.8,539.7 1354.8,534.5 1359.4,531.8 1364.0,534.5"/>
+  <g class="tooltip">
+    <rect x="1273.3" y="487.8" width="172.2" height="34.0" rx="6"/>
+    <text x="1359.4" y="509.8" text-anchor="middle">New Rose Hotel (1998)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/227-night-on-earth" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1293.1,289.9 1288.6,292.6 1284.0,289.9 1284.0,284.7 1288.6,282.0 1293.1,284.7"/>
+  <g class="tooltip">
+    <rect x="1202.5" y="238.0" width="172.2" height="34.0" rx="6"/>
+    <text x="1288.6" y="260.0" text-anchor="middle">Night on Earth (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27940-no-more-excuses" target="_blank" rel="noopener"><g class="node">
+  <polygon points="788.5,781.3 784.0,783.9 779.4,781.3 779.4,776.0 784.0,773.4 788.5,776.0"/>
+  <g class="tooltip">
+    <rect x="693.8" y="729.4" width="180.4" height="34.0" rx="6"/>
+    <text x="784.0" y="751.4" text-anchor="middle">No More Excuses (1968)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="252.8,281.6 248.2,284.2 243.7,281.6 243.7,276.3 248.2,273.7 252.8,276.3"/>
+  <g class="tooltip">
+    <rect x="178.5" y="229.7" width="139.4" height="34.0" rx="6"/>
+    <text x="248.2" y="251.7" text-anchor="middle">No Way Out (1987)</text>
+  </g>
+</g>
+<a href="https://www.criterion.com/films/31775-nothing-but-a-man" target="_blank" rel="noopener"><g class="node">
+  <polygon points="566.7,147.7 562.1,150.3 557.5,147.7 557.5,142.4 562.1,139.8 566.7,142.4"/>
+  <g class="tooltip">
+    <rect x="463.7" y="95.8" width="196.8" height="34.0" rx="6"/>
+    <text x="562.1" y="117.8" text-anchor="middle">Nothing but a Man (1964)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/o-brother-where-art-thou" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1246.9,212.8 1242.3,215.5 1237.7,212.8 1237.7,207.6 1242.3,205.0 1246.9,207.6"/>
+  <g class="tooltip">
+    <rect x="1107.0" y="161.0" width="270.6" height="34.0" rx="6"/>
+    <text x="1242.3" y="183.0" text-anchor="middle">O Brother, Where Art Thou? (2000)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/957-opening-night" target="_blank" rel="noopener"><g class="node">
+  <polygon points="722.0,159.7 717.4,162.3 712.9,159.7 712.9,154.4 717.4,151.8 722.0,154.4"/>
+  <g class="tooltip">
+    <rect x="635.4" y="107.8" width="164.0" height="34.0" rx="6"/>
+    <text x="717.4" y="129.8" text-anchor="middle">Opening Night (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/out-of-the-blue" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1303.9,607.5 1299.3,610.1 1294.8,607.5 1294.8,602.2 1299.3,599.6 1303.9,602.2"/>
+  <g class="tooltip">
+    <rect x="1209.1" y="555.6" width="180.4" height="34.0" rx="6"/>
+    <text x="1299.3" y="577.6" text-anchor="middle">Out of the Blue (1981)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/palermo-shooting" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1388.9,466.5 1384.4,469.2 1379.8,466.5 1379.8,461.3 1384.4,458.6 1388.9,461.3"/>
+  <g class="tooltip">
+    <rect x="1290.1" y="414.6" width="188.6" height="34.0" rx="6"/>
+    <text x="1384.4" y="436.6" text-anchor="middle">Palermo Shooting (2008)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/permanent-vacation" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1357.8,356.6 1353.2,359.2 1348.7,356.6 1348.7,351.3 1353.2,348.7 1357.8,351.3"/>
+  <g class="tooltip">
+    <rect x="1250.7" y="304.7" width="205.0" height="34.0" rx="6"/>
+    <text x="1353.2" y="326.7" text-anchor="middle">Permanent Vacation (1980)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="348.5,268.0 344.0,270.7 339.4,268.0 339.4,262.8 344.0,260.1 348.5,262.8"/>
+  <g class="tooltip">
+    <rect x="270.2" y="216.1" width="147.6" height="34.0" rx="6"/>
+    <text x="344.0" y="238.1" text-anchor="middle">Point Break (1991)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/porto-of-my-childhood" target="_blank" rel="noopener"><g class="node">
+  <polygon points="140.6,325.1 136.1,327.7 131.5,325.1 131.5,319.8 136.1,317.2 140.6,319.8"/>
+  <g class="tooltip">
+    <rect x="21.3" y="273.2" width="229.6" height="34.0" rx="6"/>
+    <text x="136.1" y="295.2" text-anchor="middle">Porto of My Childhood (2001)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/possession" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1244.6,518.4 1240.1,521.1 1235.5,518.4 1235.5,513.2 1240.1,510.5 1244.6,513.2"/>
+  <g class="tooltip">
+    <rect x="1170.4" y="466.5" width="139.4" height="34.0" rx="6"/>
+    <text x="1240.1" y="488.5" text-anchor="middle">Possession (1981)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/rachel-getting-married" target="_blank" rel="noopener"><g class="node">
+  <polygon points="348.0,177.0 343.5,179.6 338.9,177.0 338.9,171.7 343.5,169.1 348.0,171.7"/>
+  <g class="tooltip">
+    <rect x="224.6" y="125.1" width="237.8" height="34.0" rx="6"/>
+    <text x="343.5" y="147.1" text-anchor="middle">Rachel Getting Married (2008)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28051-repo-man" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1249.0,260.2 1244.4,262.8 1239.9,260.2 1239.9,254.9 1244.4,252.3 1249.0,254.9"/>
+  <g class="tooltip">
+    <rect x="1182.9" y="208.3" width="123.0" height="34.0" rx="6"/>
+    <text x="1244.4" y="230.3" text-anchor="middle">Repo Man (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28581-ride-in-the-whirlwind" target="_blank" rel="noopener"><g class="node">
+  <polygon points="514.9,195.8 510.3,198.4 505.7,195.8 505.7,190.5 510.3,187.9 514.9,190.5"/>
+  <g class="tooltip">
+    <rect x="395.5" y="143.9" width="229.6" height="34.0" rx="6"/>
+    <text x="510.3" y="165.9" text-anchor="middle">Ride in the Whirlwind (1966)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/robinson-crusoe" target="_blank" rel="noopener"><g class="node">
+  <polygon points="524.9,784.2 520.4,786.8 515.8,784.2 515.8,779.0 520.4,776.3 524.9,779.0"/>
+  <g class="tooltip">
+    <rect x="430.2" y="732.3" width="180.4" height="34.0" rx="6"/>
+    <text x="520.4" y="754.3" text-anchor="middle">Robinson Crusoe (1954)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/542-robocop" target="_blank" rel="noopener"><g class="node">
+  <polygon points="758.5,812.6 754.0,815.3 749.4,812.6 749.4,807.4 754.0,804.7 758.5,807.4"/>
+  <g class="tooltip">
+    <rect x="696.6" y="760.7" width="114.8" height="34.0" rx="6"/>
+    <text x="754.0" y="782.7" text-anchor="middle">RoboCop (1987)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/rosa-luxemburg" target="_blank" rel="noopener"><g class="node">
+  <polygon points="221.3,439.4 216.8,442.1 212.2,439.4 212.2,434.2 216.8,431.6 221.3,434.2"/>
+  <g class="tooltip">
+    <rect x="130.7" y="387.6" width="172.2" height="34.0" rx="6"/>
+    <text x="216.8" y="409.6" text-anchor="middle">Rosa Luxemburg (1986)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/rude-boy" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1511.8,491.9 1507.2,494.5 1502.6,491.9 1502.6,486.6 1507.2,484.0 1511.8,486.6"/>
+  <g class="tooltip">
+    <rect x="1445.7" y="440.0" width="123.0" height="34.0" rx="6"/>
+    <text x="1507.2" y="462.0" text-anchor="middle">Rude Boy (1980)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/satan-s-brew" target="_blank" rel="noopener"><g class="node">
+  <polygon points="869.1,388.6 864.5,391.2 860.0,388.6 860.0,383.3 864.5,380.7 869.1,383.3"/>
+  <g class="tooltip">
+    <rect x="786.6" y="336.7" width="155.8" height="34.0" rx="6"/>
+    <text x="864.5" y="358.7" text-anchor="middle">Satan's Brew (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/500-shadows" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1403.1,258.1 1398.5,260.8 1394.0,258.1 1394.0,252.9 1398.5,250.2 1403.1,252.9"/>
+  <g class="tooltip">
+    <rect x="1341.1" y="206.2" width="114.8" height="34.0" rx="6"/>
+    <text x="1398.5" y="228.2" text-anchor="middle">Shadows (1959)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/377-sisters" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1374.1,296.1 1369.5,298.8 1365.0,296.1 1365.0,290.9 1369.5,288.2 1374.1,290.9"/>
+  <g class="tooltip">
+    <rect x="1312.1" y="244.2" width="114.8" height="34.0" rx="6"/>
+    <text x="1369.5" y="266.2" text-anchor="middle">Sisters (1973)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/sleepwalk" target="_blank" rel="noopener"><g class="node">
+  <polygon points="580.7,179.4 576.2,182.0 571.6,179.4 571.6,174.1 576.2,171.5 580.7,174.1"/>
+  <g class="tooltip">
+    <rect x="510.6" y="127.5" width="131.2" height="34.0" rx="6"/>
+    <text x="576.2" y="149.5" text-anchor="middle">Sleepwalk (1986)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29655-smooth-talk" target="_blank" rel="noopener"><g class="node">
+  <polygon points="940.8,164.7 936.2,167.4 931.6,164.7 931.6,159.5 936.2,156.8 940.8,159.5"/>
+  <g class="tooltip">
+    <rect x="862.4" y="112.8" width="147.6" height="34.0" rx="6"/>
+    <text x="936.2" y="134.8" text-anchor="middle">Smooth Talk (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/straight-to-hell" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1387.7,429.3 1383.1,431.9 1378.6,429.3 1378.6,424.0 1383.1,421.4 1387.7,424.0"/>
+  <g class="tooltip">
+    <rect x="1288.8" y="377.4" width="188.6" height="34.0" rx="6"/>
+    <text x="1383.1" y="399.4" text-anchor="middle">Straight to Hell (1987)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/252-stranger-than-paradise" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1377.2,392.5 1372.7,395.1 1368.1,392.5 1368.1,387.2 1372.7,384.6 1377.2,387.2"/>
+  <g class="tooltip">
+    <rect x="1253.8" y="340.6" width="237.8" height="34.0" rx="6"/>
+    <text x="1372.7" y="362.6" text-anchor="middle">Stranger Than Paradise (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28594-tess" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1445.9,609.0 1441.3,611.6 1436.7,609.0 1436.7,603.7 1441.3,601.1 1445.9,603.7"/>
+  <g class="tooltip">
+    <rect x="1396.2" y="557.1" width="90.2" height="34.0" rx="6"/>
+    <text x="1441.3" y="579.1" text-anchor="middle">Tess (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28763-the-american-friend" target="_blank" rel="noopener"><g class="node">
+  <polygon points="960.2,738.7 955.6,741.4 951.0,738.7 951.0,733.5 955.6,730.8 960.2,733.5"/>
+  <g class="tooltip">
+    <rect x="849.0" y="686.8" width="213.2" height="34.0" rx="6"/>
+    <text x="955.6" y="708.8" text-anchor="middle">The American Friend (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27951-the-american-soldier" target="_blank" rel="noopener"><g class="node">
+  <polygon points="942.3,434.0 937.7,436.6 933.2,434.0 933.2,428.7 937.7,426.1 942.3,428.7"/>
+  <g class="tooltip">
+    <rect x="827.0" y="382.1" width="221.4" height="34.0" rx="6"/>
+    <text x="937.7" y="404.1" text-anchor="middle">The American Soldier (1970)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-annihilation-of-fish" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1416.3,344.4 1411.8,347.1 1407.2,344.4 1407.2,339.2 1411.8,336.5 1416.3,339.2"/>
+  <g class="tooltip">
+    <rect x="1284.7" y="292.5" width="254.2" height="34.0" rx="6"/>
+    <text x="1411.8" y="314.5" text-anchor="middle">The Annihilation of Fish (1999)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27953-the-bitter-tears-of-petra-von-kant" target="_blank" rel="noopener"><g class="node">
+  <polygon points="716.2,509.2 711.6,511.9 707.1,509.2 707.1,504.0 711.6,501.3 716.2,504.0"/>
+  <g class="tooltip">
+    <rect x="543.5" y="457.3" width="336.2" height="34.0" rx="6"/>
+    <text x="711.6" y="479.3" text-anchor="middle">The Bitter Tears of Petra von Kant (1972)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28059-the-celebration" target="_blank" rel="noopener"><g class="node">
+  <polygon points="262.6,220.1 258.1,222.8 253.5,220.1 253.5,214.9 258.1,212.2 262.6,214.9"/>
+  <g class="tooltip">
+    <rect x="167.9" y="168.2" width="180.4" height="34.0" rx="6"/>
+    <text x="258.1" y="190.2" text-anchor="middle">The Celebration (1998)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-connection" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1139.7,135.0 1135.2,137.6 1130.6,135.0 1130.6,129.7 1135.2,127.1 1139.7,129.7"/>
+  <g class="tooltip">
+    <rect x="1049.1" y="83.1" width="172.2" height="34.0" rx="6"/>
+    <text x="1135.2" y="105.1" text-anchor="middle">The Connection (1961)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27520-the-darjeeling-limited" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1260.5,686.5 1256.0,689.1 1251.4,686.5 1251.4,681.2 1256.0,678.6 1260.5,681.2"/>
+  <g class="tooltip">
+    <rect x="1137.1" y="634.6" width="237.8" height="34.0" rx="6"/>
+    <text x="1256.0" y="656.6" text-anchor="middle">The Darjeeling Limited (2007)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-deal" target="_blank" rel="noopener"><g class="node">
+  <polygon points="599.3,730.4 594.8,733.0 590.2,730.4 590.2,725.1 594.8,722.5 599.3,725.1"/>
+  <g class="tooltip">
+    <rect x="533.3" y="678.5" width="123.0" height="34.0" rx="6"/>
+    <text x="594.8" y="700.5" text-anchor="middle">The Deal (2005)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="453.6,216.3 449.0,218.9 444.5,216.3 444.5,211.0 449.0,208.4 453.6,211.0"/>
+  <g class="tooltip">
+    <rect x="387.5" y="164.4" width="123.0" height="34.0" rx="6"/>
+    <text x="449.0" y="186.4" text-anchor="middle">The Firm (1993)</text>
+  </g>
+</g>
+<a href="https://www.criterion.com/films/28058-the-game" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1261.8,637.9 1257.2,640.6 1252.6,637.9 1252.6,632.7 1257.2,630.0 1261.8,632.7"/>
+  <g class="tooltip">
+    <rect x="1195.7" y="586.0" width="123.0" height="34.0" rx="6"/>
+    <text x="1257.2" y="608.0" text-anchor="middle">The Game (1997)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-goalie-s-anxiety-at-the-penalty-kick" target="_blank" rel="noopener"><g class="node">
+  <polygon points="241.9,672.9 237.4,675.5 232.8,672.9 232.8,667.6 237.4,665.0 241.9,667.6"/>
+  <g class="tooltip">
+    <rect x="44.7" y="621.0" width="385.4" height="34.0" rx="6"/>
+    <text x="237.4" y="643.0" text-anchor="middle">The Goalie’s Anxiety at the Penalty Kick (1972)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-hand" target="_blank" rel="noopener"><g class="node">
+  <polygon points="192.8,270.0 188.3,272.6 183.7,270.0 183.7,264.7 188.3,262.1 192.8,264.7"/>
+  <g class="tooltip">
+    <rect x="126.8" y="218.1" width="123.0" height="34.0" rx="6"/>
+    <text x="188.3" y="240.1" text-anchor="middle">The Hand (2004)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="246.3,366.3 241.8,368.9 237.2,366.3 237.2,361.0 241.8,358.4 246.3,361.0"/>
+  <g class="tooltip">
+    <rect x="143.4" y="314.4" width="196.8" height="34.0" rx="6"/>
+    <text x="241.8" y="336.4" text-anchor="middle">The International (2009)</text>
+  </g>
+</g>
+<a href="https://www.criterion.com/films/958-the-killing-of-a-chinese-bookie" target="_blank" rel="noopener"><g class="node">
+  <polygon points="463.8,253.2 459.2,255.9 454.7,253.2 454.7,248.0 459.2,245.3 463.8,248.0"/>
+  <g class="tooltip">
+    <rect x="303.4" y="201.3" width="311.6" height="34.0" rx="6"/>
+    <text x="459.2" y="223.3" text-anchor="middle">The Killing of a Chinese Bookie (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/254-the-last-emperor" target="_blank" rel="noopener"><g class="node">
+  <polygon points="997.5,800.0 992.9,802.6 988.4,800.0 988.4,794.7 992.9,792.1 997.5,794.7"/>
+  <g class="tooltip">
+    <rect x="898.6" y="748.1" width="188.6" height="34.0" rx="6"/>
+    <text x="992.9" y="770.1" text-anchor="middle">The Last Emperor (1987)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/726-the-lost-honor-of-katharina-blum" target="_blank" rel="noopener"><g class="node">
+  <polygon points="233.0,513.5 228.5,516.1 223.9,513.5 223.9,508.2 228.5,505.6 233.0,508.2"/>
+  <g class="tooltip">
+    <rect x="68.6" y="461.6" width="319.8" height="34.0" rx="6"/>
+    <text x="228.5" y="483.6" text-anchor="middle">The Lost Honor of Katharina Blum (1975)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/755-the-man-who-fell-to-earth" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1326.4,453.0 1321.8,455.6 1317.3,453.0 1317.3,447.7 1321.8,445.1 1326.4,447.7"/>
+  <g class="tooltip">
+    <rect x="1190.6" y="401.1" width="262.4" height="34.0" rx="6"/>
+    <text x="1321.8" y="423.1" text-anchor="middle">The Man Who Fell to Earth (1976)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/592-the-marriage-of-maria-braun" target="_blank" rel="noopener"><g class="node">
+  <polygon points="704.1,402.3 699.6,404.9 695.0,402.3 695.0,397.0 699.6,394.4 704.1,397.0"/>
+  <g class="tooltip">
+    <rect x="560.2" y="350.4" width="278.8" height="34.0" rx="6"/>
+    <text x="699.6" y="372.4" text-anchor="middle">The Marriage of Maria Braun (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27960-the-merchant-of-four-seasons" target="_blank" rel="noopener"><g class="node">
+  <polygon points="663.2,457.1 658.7,459.7 654.1,457.1 654.1,451.8 658.7,449.2 663.2,451.8"/>
+  <g class="tooltip">
+    <rect x="515.2" y="405.2" width="287.0" height="34.0" rx="6"/>
+    <text x="658.7" y="427.2" text-anchor="middle">The Merchant of Four Seasons (1971)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/904-the-model-couple" target="_blank" rel="noopener"><g class="node">
+  <polygon points="317.1,616.0 312.6,618.7 308.0,616.0 308.0,610.8 312.6,608.1 317.1,610.8"/>
+  <g class="tooltip">
+    <rect x="218.3" y="564.1" width="188.6" height="34.0" rx="6"/>
+    <text x="312.6" y="586.1" text-anchor="middle">The Model Couple (1977)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-people-vs-larry-flynt" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1381.0,503.5 1376.4,506.2 1371.9,503.5 1371.9,498.3 1376.4,495.6 1381.0,498.3"/>
+  <g class="tooltip">
+    <rect x="1241.1" y="451.6" width="270.6" height="34.0" rx="6"/>
+    <text x="1376.4" y="473.6" text-anchor="middle">The People vs. Larry Flynt (1996)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28835-the-player" target="_blank" rel="noopener"><g class="node">
+  <polygon points="174.2,379.1 169.6,381.7 165.0,379.1 165.0,373.8 169.6,371.2 174.2,373.8"/>
+  <g class="tooltip">
+    <rect x="99.9" y="327.2" width="139.4" height="34.0" rx="6"/>
+    <text x="169.6" y="349.2" text-anchor="middle">The Player (1992)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="666.3,132.2 661.8,134.9 657.2,132.2 657.2,127.0 661.8,124.3 666.3,127.0"/>
+  <g class="tooltip">
+    <rect x="510.1" y="80.3" width="303.4" height="34.0" rx="6"/>
+    <text x="661.8" y="102.3" text-anchor="middle">The Postman Always Rings Twice (1981)</text>
+  </g>
+</g>
+<a href="https://www.criterion.com/films/28580-the-shooting" target="_blank" rel="noopener"><g class="node">
+  <polygon points="769.6,125.1 765.0,127.7 760.5,125.1 760.5,119.8 765.0,117.2 769.6,119.8"/>
+  <g class="tooltip">
+    <rect x="687.1" y="73.2" width="155.8" height="34.0" rx="6"/>
+    <text x="765.0" y="95.2" text-anchor="middle">The Shooting (1966)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-third-generation" target="_blank" rel="noopener"><g class="node">
+  <polygon points="678.8,486.0 674.2,488.7 669.7,486.0 669.7,480.8 674.2,478.1 678.8,480.8"/>
+  <g class="tooltip">
+    <rect x="563.5" y="434.1" width="221.4" height="34.0" rx="6"/>
+    <text x="674.2" y="456.1" text-anchor="middle">The Third Generation (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/789-the-tin-drum" target="_blank" rel="noopener"><g class="node">
+  <polygon points="222.6,476.7 218.0,479.3 213.5,476.7 213.5,471.4 218.0,468.8 222.6,471.4"/>
+  <g class="tooltip">
+    <rect x="140.1" y="424.8" width="155.8" height="34.0" rx="6"/>
+    <text x="218.0" y="446.8" text-anchor="middle">The Tin Drum (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27915-thirty-two-short-films-about-glenn-gould" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1214.4,747.6 1209.9,750.3 1205.3,747.6 1205.3,742.4 1209.9,739.8 1214.4,742.4"/>
+  <g class="tooltip">
+    <rect x="1017.2" y="695.8" width="385.4" height="34.0" rx="6"/>
+    <text x="1209.9" y="717.8" text-anchor="middle">Thirty Two Short Films About Glenn Gould (1993)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/track-29" target="_blank" rel="noopener"><g class="node">
+  <polygon points="305.0,378.5 300.5,381.2 295.9,378.5 295.9,373.3 300.5,370.6 305.0,373.3"/>
+  <g class="tooltip">
+    <rect x="239.0" y="326.6" width="123.0" height="34.0" rx="6"/>
+    <text x="300.5" y="348.6" text-anchor="middle">Track 29 (1988)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="1156.7,689.7 1152.1,692.3 1147.6,689.7 1147.6,684.5 1152.1,681.8 1156.7,684.5"/>
+  <g class="tooltip">
+    <rect x="1094.7" y="637.8" width="114.8" height="34.0" rx="6"/>
+    <text x="1152.1" y="659.8" text-anchor="middle">Trapped (2002)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/tricheurs" target="_blank" rel="noopener"><g class="node">
+  <polygon points="463.8,652.7 459.2,655.4 454.7,652.7 454.7,647.5 459.2,644.8 463.8,647.5"/>
+  <g class="tooltip">
+    <rect x="393.6" y="600.8" width="131.2" height="34.0" rx="6"/>
+    <text x="459.2" y="622.8" text-anchor="middle">Tricheurs (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29237-twin-peaks-fire-walk-with-me" target="_blank" rel="noopener"><g class="node">
+  <polygon points="731.0,714.6 726.4,717.2 721.8,714.6 721.8,709.3 726.4,706.7 731.0,709.3"/>
+  <g class="tooltip">
+    <rect x="578.8" y="662.7" width="295.2" height="34.0" rx="6"/>
+    <text x="726.4" y="684.7" text-anchor="middle">Twin Peaks: Fire Walk with Me (1992)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/two-lovers" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1514.6,430.7 1510.0,433.4 1505.4,430.7 1505.4,425.5 1510.0,422.8 1514.6,425.5"/>
+  <g class="tooltip">
+    <rect x="1440.3" y="378.8" width="139.4" height="34.0" rx="6"/>
+    <text x="1510.0" y="400.8" text-anchor="middle">Two Lovers (2008)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27941-two-tons-of-turquoise-to-taos-tonight" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1243.6,310.1 1239.1,312.7 1234.5,310.1 1234.5,304.8 1239.1,302.2 1243.6,304.8"/>
+  <g class="tooltip">
+    <rect x="1058.7" y="258.2" width="360.8" height="34.0" rx="6"/>
+    <text x="1239.1" y="280.2" text-anchor="middle">Two Tons of Turquoise to Taos Tonight (1975)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/typhoon-club" target="_blank" rel="noopener"><g class="node">
+  <polygon points="879.1,811.5 874.5,814.1 870.0,811.5 870.0,806.2 874.5,803.6 879.1,806.2"/>
+  <g class="tooltip">
+    <rect x="796.6" y="759.6" width="155.8" height="34.0" rx="6"/>
+    <text x="874.5" y="781.6" text-anchor="middle">Typhoon Club (1985)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28767-until-the-end-of-the-world" target="_blank" rel="noopener"><g class="node">
+  <polygon points="469.8,695.7 465.2,698.3 460.7,695.7 460.7,690.4 465.2,687.8 469.8,690.4"/>
+  <g class="tooltip">
+    <rect x="329.9" y="643.8" width="270.6" height="34.0" rx="6"/>
+    <text x="465.2" y="665.8" text-anchor="middle">Until the End of the World (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/variety" target="_blank" rel="noopener"><g class="node">
+  <polygon points="205.7,328.7 201.2,331.3 196.6,328.7 196.6,323.4 201.2,320.8 205.7,323.4"/>
+  <g class="tooltip">
+    <rect x="143.8" y="276.8" width="114.8" height="34.0" rx="6"/>
+    <text x="201.2" y="298.8" text-anchor="middle">Variety (1983)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/593-veronika-voss" target="_blank" rel="noopener"><g class="node">
+  <polygon points="365.6,387.5 361.1,390.2 356.5,387.5 356.5,382.3 361.1,379.7 365.6,382.3"/>
+  <g class="tooltip">
+    <rect x="279.1" y="335.7" width="164.0" height="34.0" rx="6"/>
+    <text x="361.1" y="357.7" text-anchor="middle">Veronika Voss (1982)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="1240.9,168.2 1236.3,170.9 1231.8,168.2 1231.8,163.0 1236.3,160.4 1240.9,163.0"/>
+  <g class="tooltip">
+    <rect x="1170.7" y="116.4" width="131.2" height="34.0" rx="6"/>
+    <text x="1236.3" y="138.4" text-anchor="middle">Vigilante (1982)</text>
+  </g>
+</g>
+<a href="https://www.criterionchannel.com/virgin-machine" target="_blank" rel="noopener"><g class="node">
+  <polygon points="584.4,761.7 579.8,764.3 575.3,761.7 575.3,756.4 579.8,753.8 584.4,756.4"/>
+  <g class="tooltip">
+    <rect x="493.7" y="709.8" width="172.2" height="34.0" rx="6"/>
+    <text x="579.8" y="731.8" text-anchor="middle">Virgin Machine (1989)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/526-walker" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1010.9,175.6 1006.4,178.3 1001.8,175.6 1001.8,170.4 1006.4,167.7 1010.9,170.4"/>
+  <g class="tooltip">
+    <rect x="953.1" y="123.7" width="106.6" height="34.0" rx="6"/>
+    <text x="1006.4" y="145.7" text-anchor="middle">Walker (1987)</text>
+  </g>
+</g></a>
+<g class="node">
+  <polygon points="1452.7,448.2 1448.1,450.8 1443.5,448.2 1443.5,442.9 1448.1,440.3 1452.7,442.9"/>
+  <g class="tooltip">
+    <rect x="1357.9" y="396.3" width="180.4" height="34.0" rx="6"/>
+    <text x="1448.1" y="418.3" text-anchor="middle">We're No Angels (1989)</text>
+  </g>
+</g>
+<a href="https://www.criterion.com/films/33388-werckmeister-harmonies" target="_blank" rel="noopener"><g class="node">
+  <polygon points="890.4,547.7 885.9,550.3 881.3,547.7 881.3,542.4 885.9,539.8 890.4,542.4"/>
+  <g class="tooltip">
+    <rect x="767.0" y="495.8" width="237.8" height="34.0" rx="6"/>
+    <text x="885.9" y="517.8" text-anchor="middle">Werckmeister Harmonies (2000)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/when-pigs-fly" target="_blank" rel="noopener"><g class="node">
+  <polygon points="305.0,527.5 300.5,530.1 295.9,527.5 295.9,522.2 300.5,519.6 305.0,522.2"/>
+  <g class="tooltip">
+    <rect x="218.5" y="475.6" width="164.0" height="34.0" rx="6"/>
+    <text x="300.5" y="497.6" text-anchor="middle">When Pigs Fly (1993)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28070-wild-90" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1317.1,251.9 1312.5,254.5 1308.0,251.9 1308.0,246.6 1312.5,244.0 1317.1,246.6"/>
+  <g class="tooltip">
+    <rect x="1255.1" y="200.0" width="114.8" height="34.0" rx="6"/>
+    <text x="1312.5" y="222.0" text-anchor="middle">Wild 90 (1968)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/wild-at-heart" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1329.6,322.2 1325.0,324.9 1320.5,322.2 1320.5,317.0 1325.0,314.3 1329.6,317.0"/>
+  <g class="tooltip">
+    <rect x="1243.0" y="270.3" width="164.0" height="34.0" rx="6"/>
+    <text x="1325.0" y="292.3" text-anchor="middle">Wild at Heart (1990)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/200-wings-of-desire" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1140.5,210.3 1135.9,212.9 1131.4,210.3 1131.4,205.0 1135.9,202.4 1140.5,205.0"/>
+  <g class="tooltip">
+    <rect x="1045.7" y="158.4" width="180.4" height="34.0" rx="6"/>
+    <text x="1135.9" y="180.4" text-anchor="middle">Wings of Desire (1987)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/1424-wise-blood" target="_blank" rel="noopener"><g class="node">
+  <polygon points="795.1,156.7 790.6,159.3 786.0,156.7 786.0,151.4 790.6,148.8 795.1,151.4"/>
+  <g class="tooltip">
+    <rect x="720.9" y="104.8" width="139.4" height="34.0" rx="6"/>
+    <text x="790.6" y="126.8" text-anchor="middle">Wise Blood (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/31084-working-girls" target="_blank" rel="noopener"><g class="node">
+  <polygon points="262.9,632.5 258.4,635.2 253.8,632.5 253.8,627.3 258.4,624.6 262.9,627.3"/>
+  <g class="tooltip">
+    <rect x="176.4" y="580.6" width="164.0" height="34.0" rx="6"/>
+    <text x="258.4" y="602.6" text-anchor="middle">Working Girls (1986)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/young-torless" target="_blank" rel="noopener"><g class="node">
+  <polygon points="684.9,775.7 680.4,778.3 675.8,775.7 675.8,770.4 680.4,767.8 684.9,770.4"/>
+  <g class="tooltip">
+    <rect x="598.4" y="723.8" width="164.0" height="34.0" rx="6"/>
+    <text x="680.4" y="745.8" text-anchor="middle">Young Törless (1966)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28101-alambrista" target="_blank" rel="noopener"><g class="node">
+  <polygon points="306.4,298.5 301.9,301.1 297.3,298.5 297.3,293.2 301.9,290.6 306.4,293.2"/>
+  <g class="tooltip">
+    <rect x="224.0" y="246.6" width="155.8" height="34.0" rx="6"/>
+    <text x="301.9" y="268.6" text-anchor="middle">¡Alambrista! (1977)</text>
+  </g>
+</g></a>
+</svg>

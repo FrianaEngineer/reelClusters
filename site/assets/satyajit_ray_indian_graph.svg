@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
+
+<style>
+  .edge { stroke: #000000; stroke-opacity: 0.4116294152635403; stroke-width: 1.3720980508784675; }
+  .node polygon { fill: #F77F00; stroke: #dedddc; stroke-width: 2; }
+  .node { cursor: pointer; }
+  .node:hover polygon { stroke: #000000; }
+  .tooltip { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
+  .node:hover .tooltip { opacity: 1; }
+  .tooltip rect { fill: #12121f; stroke: #ffffff; stroke-opacity: 0.25; }
+  .tooltip text { fill: #ffffff; font-size: 15px; font-weight: 600; }
+</style>
+
+<rect x="0" y="0" width="1600" height="900" fill="#dedddc"/>
+<g>
+<line class="edge" x1="831.3" y1="559.1" x2="661.9" y2="577.6"/>
+<line class="edge" x1="831.3" y1="559.1" x2="906.7" y2="483.9"/>
+<line class="edge" x1="831.3" y1="559.1" x2="831.3" y2="408.7"/>
+<line class="edge" x1="831.3" y1="559.1" x2="661.9" y2="390.1"/>
+<line class="edge" x1="831.3" y1="559.1" x2="526.0" y2="442.1"/>
+<line class="edge" x1="831.3" y1="559.1" x2="655.6" y2="157.7"/>
+<line class="edge" x1="831.3" y1="559.1" x2="526.0" y2="525.6"/>
+<line class="edge" x1="90.0" y1="758.7" x2="526.0" y2="442.1"/>
+<line class="edge" x1="90.0" y1="758.7" x2="661.9" y2="390.1"/>
+<line class="edge" x1="90.0" y1="758.7" x2="1510.0" y2="602.9"/>
+<line class="edge" x1="90.0" y1="758.7" x2="519.3" y2="90.0"/>
+<line class="edge" x1="661.9" y1="390.1" x2="526.0" y2="525.6"/>
+<line class="edge" x1="661.9" y1="390.1" x2="906.7" y2="483.9"/>
+<line class="edge" x1="661.9" y1="390.1" x2="526.0" y2="442.1"/>
+<line class="edge" x1="661.9" y1="390.1" x2="661.9" y2="577.6"/>
+<line class="edge" x1="661.9" y1="390.1" x2="144.0" y2="668.1"/>
+<line class="edge" x1="661.9" y1="390.1" x2="93.1" y2="342.0"/>
+<line class="edge" x1="661.9" y1="390.1" x2="831.3" y2="408.7"/>
+<line class="edge" x1="526.0" y1="525.6" x2="831.3" y2="408.7"/>
+<line class="edge" x1="526.0" y1="525.6" x2="237.4" y2="592.4"/>
+<line class="edge" x1="526.0" y1="525.6" x2="661.9" y2="577.6"/>
+<line class="edge" x1="526.0" y1="525.6" x2="906.7" y2="483.9"/>
+<line class="edge" x1="526.0" y1="525.6" x2="526.0" y2="442.1"/>
+<line class="edge" x1="526.0" y1="525.6" x2="1268.9" y2="299.6"/>
+<line class="edge" x1="526.0" y1="442.1" x2="93.1" y2="342.0"/>
+<line class="edge" x1="526.0" y1="442.1" x2="757.3" y2="810.0"/>
+<line class="edge" x1="526.0" y1="442.1" x2="237.4" y2="592.4"/>
+<line class="edge" x1="526.0" y1="442.1" x2="1319.8" y2="625.8"/>
+<line class="edge" x1="526.0" y1="442.1" x2="1510.0" y2="602.9"/>
+<line class="edge" x1="526.0" y1="442.1" x2="144.0" y2="668.1"/>
+<line class="edge" x1="526.0" y1="442.1" x2="661.9" y2="577.6"/>
+<line class="edge" x1="526.0" y1="442.1" x2="519.3" y2="90.0"/>
+<line class="edge" x1="526.0" y1="442.1" x2="906.7" y2="483.9"/>
+<line class="edge" x1="526.0" y1="442.1" x2="831.3" y2="408.7"/>
+<line class="edge" x1="1330.6" y1="107.8" x2="93.1" y2="342.0"/>
+<line class="edge" x1="93.1" y1="342.0" x2="144.0" y2="668.1"/>
+<line class="edge" x1="237.4" y1="592.4" x2="1319.8" y2="625.8"/>
+<line class="edge" x1="237.4" y1="592.4" x2="757.3" y2="810.0"/>
+<line class="edge" x1="237.4" y1="592.4" x2="661.9" y2="577.6"/>
+<line class="edge" x1="237.4" y1="592.4" x2="906.7" y2="483.9"/>
+<line class="edge" x1="1319.8" y1="625.8" x2="757.3" y2="810.0"/>
+<line class="edge" x1="1319.8" y1="625.8" x2="1268.9" y2="299.6"/>
+<line class="edge" x1="906.7" y1="483.9" x2="831.3" y2="408.7"/>
+<line class="edge" x1="906.7" y1="483.9" x2="661.9" y2="577.6"/>
+<line class="edge" x1="661.9" y1="577.6" x2="655.6" y2="157.7"/>
+<line class="edge" x1="661.9" y1="577.6" x2="831.3" y2="408.7"/>
+<line class="edge" x1="661.9" y1="577.6" x2="1268.9" y2="299.6"/>
+<line class="edge" x1="144.0" y1="668.1" x2="1268.9" y2="299.6"/>
+<line class="edge" x1="1268.9" y1="299.6" x2="655.6" y2="157.7"/>
+</g>
+<a href="https://www.criterion.com/films/27680-an-enemy-of-the-people" target="_blank" rel="noopener"><g class="node">
+  <polygon points="844.7,566.8 831.3,574.6 817.8,566.8 817.8,551.3 831.3,543.5 844.7,551.3"/>
+  <g class="tooltip">
+    <rect x="712.4" y="499.5" width="237.8" height="34.0" rx="6"/>
+    <text x="831.3" y="521.5" text-anchor="middle">An Enemy of the People (1989)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28443-aparajito" target="_blank" rel="noopener"><g class="node">
+  <polygon points="103.5,766.4 90.0,774.2 76.5,766.4 76.5,750.9 90.0,743.1 103.5,750.9"/>
+  <g class="tooltip">
+    <rect x="24.4" y="699.1" width="131.2" height="34.0" rx="6"/>
+    <text x="90.0" y="721.1" text-anchor="middle">Aparajito (1956)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27905-apur-sansar" target="_blank" rel="noopener"><g class="node">
+  <polygon points="675.4,397.9 661.9,405.6 648.4,397.9 648.4,382.3 661.9,374.5 675.4,382.3"/>
+  <g class="tooltip">
+    <rect x="588.1" y="330.5" width="147.6" height="34.0" rx="6"/>
+    <text x="661.9" y="352.5" text-anchor="middle">Apur Sansar (1959)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28447-charulata" target="_blank" rel="noopener"><g class="node">
+  <polygon points="539.5,533.4 526.0,541.2 512.6,533.4 512.6,517.8 526.0,510.1 539.5,517.8"/>
+  <g class="tooltip">
+    <rect x="460.4" y="466.1" width="131.2" height="34.0" rx="6"/>
+    <text x="526.0" y="488.1" text-anchor="middle">Charulata (1964)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27906-devi" target="_blank" rel="noopener"><g class="node">
+  <polygon points="539.5,449.9 526.0,457.7 512.6,449.9 512.6,434.4 526.0,426.6 539.5,434.4"/>
+  <g class="tooltip">
+    <rect x="480.9" y="382.6" width="90.2" height="34.0" rx="6"/>
+    <text x="526.0" y="404.6" text-anchor="middle">Devi (1960)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/32845-fresh-kill" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1344.1,115.6 1330.6,123.4 1317.1,115.6 1317.1,100.1 1330.6,92.3 1344.1,100.1"/>
+  <g class="tooltip">
+    <rect x="1260.9" y="48.3" width="139.4" height="34.0" rx="6"/>
+    <text x="1330.6" y="70.3" text-anchor="middle">Fresh Kill (1994)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/32237-mississippi-masala" target="_blank" rel="noopener"><g class="node">
+  <polygon points="106.6,349.7 93.1,357.5 79.6,349.7 79.6,334.2 93.1,326.4 106.6,334.2"/>
+  <g class="tooltip">
+    <rect x="8.0" y="282.4" width="205.0" height="34.0" rx="6"/>
+    <text x="110.5" y="304.4" text-anchor="middle">Mississippi Masala (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28021-pather-panchali" target="_blank" rel="noopener"><g class="node">
+  <polygon points="532.8,97.8 519.3,105.5 505.9,97.8 505.9,82.2 519.3,74.5 532.8,82.2"/>
+  <g class="tooltip">
+    <rect x="429.1" y="30.5" width="180.4" height="34.0" rx="6"/>
+    <text x="519.3" y="52.5" text-anchor="middle">Pather Panchali (1955)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28448-the-big-city" target="_blank" rel="noopener"><g class="node">
+  <polygon points="250.9,600.2 237.4,607.9 224.0,600.2 224.0,584.6 237.4,576.8 250.9,584.6"/>
+  <g class="tooltip">
+    <rect x="159.5" y="532.8" width="155.8" height="34.0" rx="6"/>
+    <text x="237.4" y="554.8" text-anchor="middle">The Big City (1963)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/29059-the-cloud-capped-star" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1333.2,633.5 1319.8,641.3 1306.3,633.5 1306.3,618.0 1319.8,610.2 1333.2,618.0"/>
+  <g class="tooltip">
+    <rect x="1205.0" y="566.2" width="229.6" height="34.0" rx="6"/>
+    <text x="1319.8" y="588.2" text-anchor="middle">The Cloud-Capped Star (1960)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-coward" target="_blank" rel="noopener"><g class="node">
+  <polygon points="920.1,491.6 906.7,499.4 893.2,491.6 893.2,476.1 906.7,468.3 920.1,476.1"/>
+  <g class="tooltip">
+    <rect x="837.0" y="424.3" width="139.4" height="34.0" rx="6"/>
+    <text x="906.7" y="446.3" text-anchor="middle">The Coward (1965)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-elephant-god" target="_blank" rel="noopener"><g class="node">
+  <polygon points="675.4,585.4 661.9,593.2 648.4,585.4 648.4,569.9 661.9,562.1 675.4,569.9"/>
+  <g class="tooltip">
+    <rect x="567.6" y="518.1" width="188.6" height="34.0" rx="6"/>
+    <text x="661.9" y="540.1" text-anchor="middle">The Elephant God (1979)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/28449-the-hero" target="_blank" rel="noopener"><g class="node">
+  <polygon points="157.4,675.9 144.0,683.6 130.5,675.9 130.5,660.3 144.0,652.6 157.4,660.3"/>
+  <g class="tooltip">
+    <rect x="82.5" y="608.6" width="123.0" height="34.0" rx="6"/>
+    <text x="144.0" y="630.6" text-anchor="middle">The Hero (1966)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/the-holy-man" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1282.4,307.4 1268.9,315.2 1255.4,307.4 1255.4,291.9 1268.9,284.1 1282.4,291.9"/>
+  <g class="tooltip">
+    <rect x="1191.0" y="240.1" width="155.8" height="34.0" rx="6"/>
+    <text x="1268.9" y="262.1" text-anchor="middle">The Holy Man (1965)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27681-the-home-and-the-world" target="_blank" rel="noopener"><g class="node">
+  <polygon points="844.7,416.4 831.3,424.2 817.8,416.4 817.8,400.9 831.3,393.1 844.7,400.9"/>
+  <g class="tooltip">
+    <rect x="712.4" y="349.1" width="237.8" height="34.0" rx="6"/>
+    <text x="831.3" y="371.1" text-anchor="middle">The Home and the World (1984)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27657-the-music-room" target="_blank" rel="noopener"><g class="node">
+  <polygon points="1523.5,610.7 1510.0,618.5 1496.5,610.7 1496.5,595.2 1510.0,587.4 1523.5,595.2"/>
+  <g class="tooltip">
+    <rect x="1419.8" y="543.4" width="172.2" height="34.0" rx="6"/>
+    <text x="1505.9" y="565.4" text-anchor="middle">The Music Room (1958)</text>
+  </g>
+</g></a>
+<a href="https://www.criterion.com/films/27684-the-stranger" target="_blank" rel="noopener"><g class="node">
+  <polygon points="669.0,165.5 655.6,173.3 642.1,165.5 642.1,150.0 655.6,142.2 669.0,150.0"/>
+  <g class="tooltip">
+    <rect x="577.7" y="98.2" width="155.8" height="34.0" rx="6"/>
+    <text x="655.6" y="120.2" text-anchor="middle">The Stranger (1991)</text>
+  </g>
+</g></a>
+<a href="https://www.criterionchannel.com/three-daughters" target="_blank" rel="noopener"><g class="node">
+  <polygon points="770.8,817.8 757.3,825.5 743.8,817.8 743.8,802.2 757.3,794.5 770.8,802.2"/>
+  <g class="tooltip">
+    <rect x="667.1" y="750.5" width="180.4" height="34.0" rx="6"/>
+    <text x="757.3" y="772.5" text-anchor="middle">Three Daughters (1961)</text>
+  </g>
+</g></a>
+</svg>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology — Criterion Clusters</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <a class="back-link" href="index.html">&larr; Home</a>
+  <header class="placeholder-header">
+    <p class="placeholder-kicker">04 — The Data</p>
+    <h1>Methodology</h1>
+  </header>
+
+  <div class="sankey-card">
+    <iframe class="sankey-embed" src="assets/criterion_pipeline_sankey.html"
+            title="Criterion-to-IMDb matching pipeline" loading="lazy"></iframe>
+  </div>
+
+  <div class="cluster-body single-column">
+    <section class="markdown-body">
+      <p>This project began by building a cleaned Criterion-to-IMDb dataset that
+      could support graph-based clustering and film analysis. The original
+      Criterion Collection records were enriched with IMDb metadata using a
+      DuckDB SQL pipeline. The pipeline loaded Criterion data, IMDb title files,
+      IMDb crew files, actor filmographies, actor names, and title translations
+      (for titles in languages other than English). Since Criterion and IMDb do
+      not always have identical titles, the matching process uses fuzzy
+      matching instead of only relying on exact title matches.</p>
+
+      <p>In order to improve match accuracy, the pipeline used a two part
+      matching strategy. The first path searched for candidates using director
+      and year because films with slightly different titles can still be
+      confidently matched when the director and year agree. The second path
+      acted as a fallback by searching based on how similar titles were and a
+      small year window. Each candidate match received a weighted confidence
+      score based on title similarity, director similarity, and year
+      similarity. Title similarity was weighted most heavily, followed by
+      director similarity and then year similarity. This helped handle cases
+      where a film title differed slightly between Criterion and IMDb, while
+      still preventing weak or unrelated matches.</p>
+
+      <p>Each candidate match was scored using a weighted confidence formula
+      with three components: title similarity, director similarity, and year
+      similarity. Title similarity was calculated between the cleaned
+      Criterion title and IMDb title. Director similarity was calculated
+      between the cleaned Criterion director name and IMDb director name. Year
+      similarity was scored separately: an exact year match received 1.0, a
+      one-year difference received 0.5, a two-year difference received 0.25,
+      and anything outside that range received 0.</p>
+
+      <pre class="formula">weighted_score = 0.50 * title_sim + 0.35 * director_sim + 0.15 * year_sim</pre>
+
+      <p>In other words, title similarity made up 50% of the match decision,
+      director similarity made up 35%, and year similarity made up 15%. This
+      allowed the pipeline to still match films with slightly different titles
+      when the director and year strongly supported the match, while also
+      lowering the score for films with weak title, director, or year
+      evidence.</p>
+
+      <p>Several cleaning steps were added to reduce false matches. Text was
+      standardized by lowercasing, removing accents, and stripping punctuation
+      so that names and titles could be compared more fairly. IMDb alternate
+      titles marked as &ldquo;segment title&rdquo; were excluded because they
+      caused anthology films to be incorrectly matched to individual segment
+      records. Ambiguous matches were not automatically corrected unless the
+      evidence was very strong. Instead, films with low confidence, close
+      runner-up scores, exact ties, or no match were separated into manual
+      review files.</p>
+
+      <p>For the clustering project, the dataset was narrowed to only
+      unambiguous feature-length movies. Records were kept only if they were
+      IMDb title type movie, had a runtime of at least 60 minutes, and had a
+      confidence score of at least 85. This removed short films, videos, TV
+      movies, TV specials, and uncertain matches from the main clustering
+      dataset. The full raw data stayed in the original ReelWrangling project
+      while the new reelClusters repository contained only the filtered data
+      needed for graph analysis.</p>
+
+      <p>The graph was created by having each movie as a node, and an edge was
+      created between two movies if they shared at least one actor. The edge
+      weight represented the number of actors shared by the two movies. The
+      main file used to build the graph was <code>actor_filmographies.csv</code>,
+      which connects actors to IMDb title IDs. Actor names were joined from
+      <code>actor_names.csv</code>, and film metadata such as title, director,
+      year, runtime, and match confidence came from
+      <code>criterion_basic_info.csv</code>.</p>
+
+      <p>After filtering, the dataset contained 2,029 Criterion movie records.
+      The actor co-occurrence graph contained 1,661 connected movie nodes and
+      13,573 shared-actor edges. Some films did not appear in the graph because
+      they either had no IMDb actor credits or had actors who did not appear in
+      any other film in the filtered Criterion dataset. These disconnected
+      films were treated separately as hidden gems rather than forcing them
+      into clusters.</p>
+
+      <p>Then, groups of films that were strongly connected through shared
+      actors were identified. Louvain clustering was used because the graph
+      size was manageable and the method works well for finding communities in
+      weighted networks. The resulting clusters were reviewed and renamed
+      based on the films inside them, producing groups such as European Art
+      Cinema, Japanese Cinema, Anglophone Classic, American Independent,
+      Hong Kong/Taiwan Cinema, and other smaller regional clusters.</p>
+
+      <p>Finally, the graph results were exported for analysis and
+      visualization. Cluster assignments were written back into the DuckDB
+      database and exported into CSV files, with one CSV per cluster. Small or
+      disconnected films were placed into a hidden gems folder. A hex-grid
+      visualization was also created where each movie was represented as its
+      own hexagon, grouped by cluster, with hidden gems placed around the
+      outside. This made the final clustering easier to interpret visually
+      while still preserving the graph-based structure of the analysis.</p>
+    </section>
+  </div>
+</div>
+</body>
+</html>

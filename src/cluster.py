@@ -2,8 +2,21 @@
 Build the co-occurrence graph and run Louvain community detection.
 Writes cluster assignments back to the database as the cluster_assignments table.
 
-Post-processing: any Louvain cluster with exactly 2 films is merged into a
-single custom cluster called 'hiddenGems' rather than kept as isolated pairs.
+Post-processing:
+  1. Any Louvain cluster with exactly 2 films is merged into a single custom
+     cluster called 'hiddenGems' rather than kept as isolated pairs.
+  2. NAME_OVERRIDES renames Louvain's arbitrary numeric community IDs to the
+     stable, human-readable names used site-wide (NAMED_CLUSTERS in
+     build_site.py, CLUSTERS_TO_RENDER in cluster_graph_viz.py, COLOR_MAP in
+     cluster_colors.py). Louvain's numbering isn't stable across reruns and
+     carries no identity of its own -- this mapping is derived by comparing
+     each run's output against the previous named assignments (majority
+     film-overlap per new cluster; see db/backup/ for the pre-documentary
+     -removal baseline used for the 2026-07 rebuild) and is only valid for
+     THIS graph. Any numeric ID left unmapped falls back to 'hiddenGems'.
+     Re-derive this dict (same overlap comparison, or fresh judgment for any
+     newly-merged/split community) any time the underlying film set changes
+     enough to reshuffle Louvain's communities.
 """
 
 import duckdb
@@ -31,8 +44,11 @@ def build_graph(con: duckdb.DuckDBPyConnection) -> nx.Graph:
     return G
 
 
-def run_louvain(G: nx.Graph, weight: str = "shared_actors") -> dict:
-    return community_louvain.best_partition(G, weight=weight)
+def run_louvain(G: nx.Graph, weight: str = "shared_actors", random_state: int = 42) -> dict:
+    # Fixed seed: best_partition is otherwise non-deterministic run-to-run,
+    # which would silently invalidate NAME_OVERRIDES below (it's keyed to
+    # this specific partition's numeric community IDs).
+    return community_louvain.best_partition(G, weight=weight, random_state=random_state)
 
 
 def apply_hidden_gems(partition: dict) -> dict:
@@ -44,6 +60,42 @@ def apply_hidden_gems(partition: dict) -> dict:
     for tconst, cid in partition.items():
         merged[tconst] = "hiddenGems" if cid in two_film_ids else str(cid)
     return merged
+
+
+# See the module docstring -- valid only for run_louvain's fixed random_state=42
+# on the 2026-07 documentary-free graph, derived by majority film-overlap
+# against db/backup/cluster_assignments_pre_doc_removal.csv, plus one manual
+# call: cluster '7' (59% US / 21% Germany) is kept as a single combined
+# cluster per user decision, rather than split back into the two old ones --
+# confirmed stable (same 59/37 split) across multiple reruns of Louvain, not
+# a one-off artifact.
+NAME_OVERRIDES = {
+    '2':  'european_art_cinema',
+    '19': 'european_art_cinema',
+    '23': 'european_art_cinema',
+    '0':  'anglophone_classic',
+    '1':  'anglophone_classic',
+    '10': 'hong_kong_taiwan_cinema',
+    '11': 'japanese_cinema',
+    '5':  'japanese_cinema',
+    '6':  'japanese_cinema',
+    '14': 'czech_new_wave',
+    '16': 'satyajit_ray_indian',
+    '4':  'bergman_scandinavian',
+    '7':  'transatlantic_auteur_cinema',
+    '8':  'youssef_chahine_egyptian',
+    '9':  'soviet_cinema',
+}
+
+
+def apply_name_overrides(partition: dict) -> dict:
+    """Rename Louvain's numeric community IDs to stable names; anything not
+    in NAME_OVERRIDES (small leftover communities with no clear identity of
+    their own) folds into hiddenGems alongside the merged 2-film pairs."""
+    return {
+        tconst: NAME_OVERRIDES.get(cid, "hiddenGems") if cid != "hiddenGems" else cid
+        for tconst, cid in partition.items()
+    }
 
 
 def save_clusters(con: duckdb.DuckDBPyConnection, partition: dict) -> None:
@@ -64,6 +116,7 @@ if __name__ == "__main__":
 
     partition = run_louvain(G)
     partition = apply_hidden_gems(partition)
+    partition = apply_name_overrides(partition)
     save_clusters(con, partition)
 
     con.execute("""

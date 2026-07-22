@@ -3,3 +3,4 @@ pandas
 networkx
 python-louvain
 matplotlib
+requests
