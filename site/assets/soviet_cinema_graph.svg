@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
 
 <style>
-  .edge { stroke: #000000; stroke-opacity: 0.43941028134175153; stroke-width: 1.4647009378058384; }
+  .edge { stroke: #000000; stroke-opacity: 0.5712333657442771; stroke-width: 1.4647009378058384; }
   .node polygon { fill: #9D0208; stroke: #dedddc; stroke-width: 2; }
   .node { cursor: pointer; }
   .node:hover polygon { stroke: #000000; }

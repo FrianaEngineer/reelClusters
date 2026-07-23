@@ -26,8 +26,8 @@ ANALYSIS_MD  = OUTPUT_DIR / "small_cluster_analysis.md"
 
 # Clusters whose force-directed graph is too dense to read as edges (millions
 # of overlapping lines); cluster_ring_viz.py made a degree-banded alternative
-# for these two instead. Everyone else uses the shared-actor network graph.
-RING_CLUSTERS = {"european_art_cinema", "japanese_cinema"}
+# for these instead. Everyone else uses the shared-actor network graph.
+RING_CLUSTERS = {"european_art_cinema", "japanese_cinema", "anglophone_classic"}
 
 NAMED_CLUSTERS = [
     "youssef_chahine_egyptian", "european_art_cinema",
@@ -96,7 +96,8 @@ BLURBS = {
         "Classic British and American cinema -- Chaplin, Hitchcock, David Lean, the "
         "Archers -- spanning the studio era on both sides of the Atlantic, unified by "
         "an English-language star system whose actors crossed freely between UK and "
-        "US productions.",
+        "US productions. Nearly as densely interconnected as European Art Cinema -- "
+        "shown here as degree bands rather than an edge graph for the same reason.",
 }
 
 
@@ -187,17 +188,21 @@ PAGE_TEMPLATE = """<!doctype html>
   </header>
 
   <div class="cluster-body">
-    <div class="viz-card">
-      {viz_embed}
+    <div class="main">
+      <div class="viz-card">
+        {viz_embed}
+      </div>
+      <div class="stats-row">
+        {hub_section}
+        {directors_section}
+        {countries_section}
+      </div>
     </div>
     <div class="side">
       <section>
         <h2>About this cluster</h2>
         <p class="blurb">{blurb}</p>
       </section>
-      {hub_section}
-      {directors_section}
-      {countries_section}
     </div>
   </div>
 </div>

@@ -40,7 +40,13 @@ LABEL_ASCENT_MARGIN = 14.0   # curved-text glyphs extend outward past their own
 # radii are cluster-specific: the radii are sized so each band's node count
 # packs comfortably (packing fraction ~0.2-0.3) given its annulus area --
 # Japanese Cinema skews far denser (avg degree ~44 vs ~10) so its bands and
-# ring sizes both differ substantially from European Art Cinema's.
+# ring sizes both differ substantially from European Art Cinema's. Anglophone
+# Classic's degree distribution is nearly the same shape/density as European
+# Art Cinema's (avg degree ~9 vs ~10, same 25/10 hub/mid split reads as a
+# comparable ~4%/40%/55% hub/mid/peripheral split of a smaller film count), so
+# it reuses the same degree thresholds; only the radii shrink, scaled to its
+# ~255-vs-432 film count so each band keeps a similar packing density within
+# the same 380px outer bound.
 CLUSTER_BANDS = {
     "european_art_cinema": [
         (25, 103, "Hub (degree ≥ 25)"),
@@ -52,8 +58,13 @@ CLUSTER_BANDS = {
         (25, 298, "Mid (25–74)"),
         (0,  380, "Peripheral (< 25)"),
     ],
+    "anglophone_classic": [
+        (25, 75,  "Hub (degree ≥ 25)"),
+        (10, 243, "Mid (10–24)"),
+        (0,  380, "Peripheral (< 10)"),
+    ],
 }
-RINGS_TO_RENDER = ["european_art_cinema", "japanese_cinema"]
+RINGS_TO_RENDER = ["european_art_cinema", "japanese_cinema", "anglophone_classic"]
 
 
 def esc(s):

@@ -1,0 +1,1299 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
+
+<style>
+  .node { fill: #457B9D; stroke: #dedddc; stroke-width: 1.5; cursor: pointer; }
+  .node:hover { stroke: #000000; }
+  .tooltip { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
+  .tooltip rect { fill: #12121f; stroke: #ffffff; stroke-opacity: 0.25; }
+  .tooltip text { fill: #ffffff; font-size: 15px; font-weight: 600; }
+  .ring-label { fill: #000000; font-size: 15px; font-weight: 600; opacity: 0.85; }
+  .ring-guide { fill: none; stroke: #000000; stroke-opacity: 0.9; stroke-width: 1; }
+  #n-tt0031831:hover ~ #t-tt0031831 { opacity: 1; } #n-tt0032179:hover ~ #t-tt0032179 { opacity: 1; } #n-tt0030082:hover ~ #t-tt0030082 { opacity: 1; } #n-tt0030063:hover ~ #t-tt0030063 { opacity: 1; } #n-tt0038574:hover ~ #t-tt0038574 { opacity: 1; } #n-tt0031575:hover ~ #t-tt0031575 { opacity: 1; } #n-tt0028167:hover ~ #t-tt0028167 { opacity: 1; } #n-tt0036910:hover ~ #t-tt0036910 { opacity: 1; } #n-tt0029201:hover ~ #t-tt0029201 { opacity: 1; } #n-tt0032145:hover ~ #t-tt0032145 { opacity: 1; } #n-tt0029603:hover ~ #t-tt0029603 { opacity: 1; } #n-tt0033868:hover ~ #t-tt0033868 { opacity: 1; } #n-tt0053796:hover ~ #t-tt0053796 { opacity: 1; } #n-tt0028358:hover ~ #t-tt0028358 { opacity: 1; } #n-tt0049674:hover ~ #t-tt0049674 { opacity: 1; } #n-tt0025710:hover ~ #t-tt0025710 { opacity: 1; } #n-tt0025748:hover ~ #t-tt0025748 { opacity: 1; } #n-tt0040098:hover ~ #t-tt0040098 { opacity: 1; } #n-tt0030637:hover ~ #t-tt0030637 { opacity: 1; } #n-tt0031334:hover ~ #t-tt0031334 { opacity: 1; } #n-tt0044355:hover ~ #t-tt0044355 { opacity: 1; } #n-tt0040416:hover ~ #t-tt0040416 { opacity: 1; } #n-tt0040662:hover ~ #t-tt0040662 { opacity: 1; } #n-tt0045056:hover ~ #t-tt0045056 { opacity: 1; } #n-tt0033627:hover ~ #t-tt0033627 { opacity: 1; } #n-tt0027635:hover ~ #t-tt0027635 { opacity: 1; } #n-tt0042700:hover ~ #t-tt0042700 { opacity: 1; } #n-tt0038390:hover ~ #t-tt0038390 { opacity: 1; } #n-tt0039677:hover ~ #t-tt0039677 { opacity: 1; } #n-tt0037367:hover ~ #t-tt0037367 { opacity: 1; } #n-tt0078480:hover ~ #t-tt0078480 { opacity: 1; } #n-tt0024757:hover ~ #t-tt0024757 { opacity: 1; } #n-tt0039192:hover ~ #t-tt0039192 { opacity: 1; } #n-tt0047094:hover ~ #t-tt0047094 { opacity: 1; } #n-tt0037800:hover ~ #t-tt0037800 { opacity: 1; } #n-tt0041460:hover ~ #t-tt0041460 { opacity: 1; } #n-tt0029365:hover ~ #t-tt0029365 { opacity: 1; } #n-tt0042980:hover ~ #t-tt0042980 { opacity: 1; } #n-tt0033152:hover ~ #t-tt0033152 { opacity: 1; } #n-tt0029087:hover ~ #t-tt0029087 { opacity: 1; } #n-tt0042665:hover ~ #t-tt0042665 { opacity: 1; } #n-tt0026966:hover ~ #t-tt0026966 { opacity: 1; } #n-tt0034272:hover ~ #t-tt0034272 { opacity: 1; } #n-tt0051739:hover ~ #t-tt0051739 { opacity: 1; } #n-tt0052997:hover ~ #t-tt0052997 { opacity: 1; } #n-tt0024473:hover ~ #t-tt0024473 { opacity: 1; } #n-tt0041886:hover ~ #t-tt0041886 { opacity: 1; } #n-tt0031968:hover ~ #t-tt0031968 { opacity: 1; } #n-tt0054412:hover ~ #t-tt0054412 { opacity: 1; } #n-tt0044837:hover ~ #t-tt0044837 { opacity: 1; } #n-tt0027969:hover ~ #t-tt0027969 { opacity: 1; } #n-tt0030675:hover ~ #t-tt0030675 { opacity: 1; } #n-tt0024962:hover ~ #t-tt0024962 { opacity: 1; } #n-tt0081633:hover ~ #t-tt0081633 { opacity: 1; } #n-tt0049856:hover ~ #t-tt0049856 { opacity: 1; } #n-tt0039195:hover ~ #t-tt0039195 { opacity: 1; } #n-tt0034891:hover ~ #t-tt0034891 { opacity: 1; } #n-tt0023241:hover ~ #t-tt0023241 { opacity: 1; } #n-tt0080678:hover ~ #t-tt0080678 { opacity: 1; } #n-tt0018051:hover ~ #t-tt0018051 { opacity: 1; } #n-tt0036135:hover ~ #t-tt0036135 { opacity: 1; } #n-tt0040725:hover ~ #t-tt0040725 { opacity: 1; } #n-tt0038924:hover ~ #t-tt0038924 { opacity: 1; } #n-tt0050598:hover ~ #t-tt0050598 { opacity: 1; } #n-tt0040155:hover ~ #t-tt0040155 { opacity: 1; } #n-tt0028827:hover ~ #t-tt0028827 { opacity: 1; } #n-tt0020876:hover ~ #t-tt0020876 { opacity: 1; } #n-tt0051713:hover ~ #t-tt0051713 { opacity: 1; } #n-tt0024961:hover ~ #t-tt0024961 { opacity: 1; } #n-tt0030341:hover ~ #t-tt0030341 { opacity: 1; } #n-tt0078259:hover ~ #t-tt0078259 { opacity: 1; } #n-tt0013075:hover ~ #t-tt0013075 { opacity: 1; } #n-tt0014945:hover ~ #t-tt0014945 { opacity: 1; } #n-tt0013201:hover ~ #t-tt0013201 { opacity: 1; } #n-tt0014429:hover ~ #t-tt0014429 { opacity: 1; } #n-tt0019412:hover ~ #t-tt0019412 { opacity: 1; } #n-tt0034734:hover ~ #t-tt0034734 { opacity: 1; } #n-tt0015841:hover ~ #t-tt0015841 { opacity: 1; } #n-tt0032553:hover ~ #t-tt0032553 { opacity: 1; } #n-tt0042898:hover ~ #t-tt0042898 { opacity: 1; } #n-tt0020572:hover ~ #t-tt0020572 { opacity: 1; } #n-tt0014611:hover ~ #t-tt0014611 { opacity: 1; } #n-tt0036695:hover ~ #t-tt0036695 { opacity: 1; } #n-tt0038363:hover ~ #t-tt0038363 { opacity: 1; } #n-tt0037558:hover ~ #t-tt0037558 { opacity: 1; } #n-tt0043601:hover ~ #t-tt0043601 { opacity: 1; } #n-tt0026406:hover ~ #t-tt0026406 { opacity: 1; } #n-tt0044744:hover ~ #t-tt0044744 { opacity: 1; } #n-tt0036112:hover ~ #t-tt0036112 { opacity: 1; } #n-tt0093431:hover ~ #t-tt0093431 { opacity: 1; } #n-tt0032728:hover ~ #t-tt0032728 { opacity: 1; } #n-tt0041735:hover ~ #t-tt0041735 { opacity: 1; } #n-tt0053361:hover ~ #t-tt0053361 { opacity: 1; } #n-tt0089838:hover ~ #t-tt0089838 { opacity: 1; } #n-tt0027977:hover ~ #t-tt0027977 { opacity: 1; } #n-tt0026029:hover ~ #t-tt0026029 { opacity: 1; } #n-tt0029982:hover ~ #t-tt0029982 { opacity: 1; } #n-tt0018773:hover ~ #t-tt0018773 { opacity: 1; } #n-tt0025452:hover ~ #t-tt0025452 { opacity: 1; } #n-tt0023238:hover ~ #t-tt0023238 { opacity: 1; } #n-tt0071910:hover ~ #t-tt0071910 { opacity: 1; } #n-tt0025681:hover ~ #t-tt0025681 { opacity: 1; } #n-tt0038250:hover ~ #t-tt0038250 { opacity: 1; } #n-tt0057590:hover ~ #t-tt0057590 { opacity: 1; } #n-tt0029081:hover ~ #t-tt0029081 { opacity: 1; } #n-tt0033858:hover ~ #t-tt0033858 { opacity: 1; } #n-tt1527186:hover ~ #t-tt1527186 { opacity: 1; } #n-tt0015864:hover ~ #t-tt0015864 { opacity: 1; } #n-tt0040160:hover ~ #t-tt0040160 { opacity: 1; } #n-tt0043362:hover ~ #t-tt0043362 { opacity: 1; } #n-tt0012349:hover ~ #t-tt0012349 { opacity: 1; } #n-tt0043972:hover ~ #t-tt0043972 { opacity: 1; } #n-tt0051994:hover ~ #t-tt0051994 { opacity: 1; } #n-tt0029952:hover ~ #t-tt0029952 { opacity: 1; } #n-tt0021749:hover ~ #t-tt0021749 { opacity: 1; } #n-tt0051542:hover ~ #t-tt0051542 { opacity: 1; } #n-tt0112817:hover ~ #t-tt0112817 { opacity: 1; } #n-tt0038577:hover ~ #t-tt0038577 { opacity: 1; } #n-tt0034881:hover ~ #t-tt0034881 { opacity: 1; } #n-tt0039631:hover ~ #t-tt0039631 { opacity: 1; } #n-tt0027985:hover ~ #t-tt0027985 { opacity: 1; } #n-tt0029811:hover ~ #t-tt0029811 { opacity: 1; } #n-tt0028668:hover ~ #t-tt0028668 { opacity: 1; } #n-tt0048393:hover ~ #t-tt0048393 { opacity: 1; } #n-tt0055928:hover ~ #t-tt0055928 { opacity: 1; } #n-tt0058150:hover ~ #t-tt0058150 { opacity: 1; } #n-tt0038289:hover ~ #t-tt0038289 { opacity: 1; } #n-tt0034928:hover ~ #t-tt0034928 { opacity: 1; } #n-tt0023180:hover ~ #t-tt0023180 { opacity: 1; } #n-tt0027954:hover ~ #t-tt0027954 { opacity: 1; } #n-tt0034240:hover ~ #t-tt0034240 { opacity: 1; } #n-tt0043140:hover ~ #t-tt0043140 { opacity: 1; } #n-tt0055597:hover ~ #t-tt0055597 { opacity: 1; } #n-tt0014624:hover ~ #t-tt0014624 { opacity: 1; } #n-tt0039485:hover ~ #t-tt0039485 { opacity: 1; } #n-tt0057076:hover ~ #t-tt0057076 { opacity: 1; } #n-tt0032599:hover ~ #t-tt0032599 { opacity: 1; } #n-tt0100024:hover ~ #t-tt0100024 { opacity: 1; } #n-tt0045251:hover ~ #t-tt0045251 { opacity: 1; } #n-tt0054269:hover ~ #t-tt0054269 { opacity: 1; } #n-tt0017075:hover ~ #t-tt0017075 { opacity: 1; } #n-tt0028112:hover ~ #t-tt0028112 { opacity: 1; } #n-tt0057578:hover ~ #t-tt0057578 { opacity: 1; } #n-tt0047579:hover ~ #t-tt0047579 { opacity: 1; } #n-tt0030888:hover ~ #t-tt0030888 { opacity: 1; } #n-tt0048250:hover ~ #t-tt0048250 { opacity: 1; } #n-tt0016630:hover ~ #t-tt0016630 { opacity: 1; } #n-tt0015634:hover ~ #t-tt0015634 { opacity: 1; } #n-tt0039689:hover ~ #t-tt0039689 { opacity: 1; } #n-tt0028212:hover ~ #t-tt0028212 { opacity: 1; } #n-tt0053242:hover ~ #t-tt0053242 { opacity: 1; } #n-tt0031971:hover ~ #t-tt0031971 { opacity: 1; } #n-tt0019421:hover ~ #t-tt0019421 { opacity: 1; } #n-tt0023985:hover ~ #t-tt0023985 { opacity: 1; } #n-tt0051706:hover ~ #t-tt0051706 { opacity: 1; } #n-tt0069086:hover ~ #t-tt0069086 { opacity: 1; } #n-tt0095951:hover ~ #t-tt0095951 { opacity: 1; } #n-tt0151568:hover ~ #t-tt0151568 { opacity: 1; } #n-tt0094336:hover ~ #t-tt0094336 { opacity: 1; } #n-tt0091867:hover ~ #t-tt0091867 { opacity: 1; } #n-tt0054614:hover ~ #t-tt0054614 { opacity: 1; } #n-tt0080408:hover ~ #t-tt0080408 { opacity: 1; } #n-tt0099341:hover ~ #t-tt0099341 { opacity: 1; } #n-tt0032484:hover ~ #t-tt0032484 { opacity: 1; } #n-tt0015863:hover ~ #t-tt0015863 { opacity: 1; } #n-tt0029002:hover ~ #t-tt0029002 { opacity: 1; } #n-tt0051879:hover ~ #t-tt0051879 { opacity: 1; } #n-tt0037035:hover ~ #t-tt0037035 { opacity: 1; } #n-tt0091538:hover ~ #t-tt0091538 { opacity: 1; } #n-tt0029322:hover ~ #t-tt0029322 { opacity: 1; } #n-tt0020269:hover ~ #t-tt0020269 { opacity: 1; } #n-tt0084538:hover ~ #t-tt0084538 { opacity: 1; } #n-tt0017925:hover ~ #t-tt0017925 { opacity: 1; } #n-tt0087414:hover ~ #t-tt0087414 { opacity: 1; } #n-tt0081070:hover ~ #t-tt0081070 { opacity: 1; } #n-tt0069198:hover ~ #t-tt0069198 { opacity: 1; } #n-tt0088322:hover ~ #t-tt0088322 { opacity: 1; } #n-tt0035567:hover ~ #t-tt0035567 { opacity: 1; } #n-tt3544082:hover ~ #t-tt3544082 { opacity: 1; } #n-tt0086859:hover ~ #t-tt0086859 { opacity: 1; } #n-tt0087188:hover ~ #t-tt0087188 { opacity: 1; } #n-tt0028667:hover ~ #t-tt0028667 { opacity: 1; } #n-tt0094933:hover ~ #t-tt0094933 { opacity: 1; } #n-tt0050393:hover ~ #t-tt0050393 { opacity: 1; } #n-tt0052805:hover ~ #t-tt0052805 { opacity: 1; } #n-tt0058142:hover ~ #t-tt0058142 { opacity: 1; } #n-tt0095302:hover ~ #t-tt0095302 { opacity: 1; } #n-tt0097531:hover ~ #t-tt0097531 { opacity: 1; } #n-tt0041497:hover ~ #t-tt0041497 { opacity: 1; } #n-tt0076221:hover ~ #t-tt0076221 { opacity: 1; } #n-tt0073540:hover ~ #t-tt0073540 { opacity: 1; } #n-tt0048527:hover ~ #t-tt0048527 { opacity: 1; } #n-tt0081455:hover ~ #t-tt0081455 { opacity: 1; } #n-tt0117589:hover ~ #t-tt0117589 { opacity: 1; } #n-tt0057495:hover ~ #t-tt0057495 { opacity: 1; } #n-tt0048673:hover ~ #t-tt0048673 { opacity: 1; } #n-tt0058557:hover ~ #t-tt0058557 { opacity: 1; } #n-tt0139641:hover ~ #t-tt0139641 { opacity: 1; } #n-tt0022941:hover ~ #t-tt0022941 { opacity: 1; } #n-tt0038854:hover ~ #t-tt0038854 { opacity: 1; } #n-tt0018362:hover ~ #t-tt0018362 { opacity: 1; } #n-tt0049730:hover ~ #t-tt0049730 { opacity: 1; } #n-tt0018528:hover ~ #t-tt0018528 { opacity: 1; } #n-tt0027214:hover ~ #t-tt0027214 { opacity: 1; } #n-tt0067959:hover ~ #t-tt0067959 { opacity: 1; } #n-tt0048801:hover ~ #t-tt0048801 { opacity: 1; } #n-tt0022578:hover ~ #t-tt0022578 { opacity: 1; } #n-tt0055506:hover ~ #t-tt0055506 { opacity: 1; } #n-tt0080310:hover ~ #t-tt0080310 { opacity: 1; } #n-tt0039224:hover ~ #t-tt0039224 { opacity: 1; } #n-tt0057468:hover ~ #t-tt0057468 { opacity: 1; } #n-tt0050307:hover ~ #t-tt0050307 { opacity: 1; } #n-tt0017825:hover ~ #t-tt0017825 { opacity: 1; } #n-tt0059619:hover ~ #t-tt0059619 { opacity: 1; } #n-tt0067185:hover ~ #t-tt0067185 { opacity: 1; } #n-tt0053917:hover ~ #t-tt0053917 { opacity: 1; } #n-tt0192194:hover ~ #t-tt0192194 { opacity: 1; } #n-tt0056905:hover ~ #t-tt0056905 { opacity: 1; } #n-tt4288356:hover ~ #t-tt4288356 { opacity: 1; } #n-tt0031593:hover ~ #t-tt0031593 { opacity: 1; } #n-tt0102458:hover ~ #t-tt0102458 { opacity: 1; } #n-tt0107653:hover ~ #t-tt0107653 { opacity: 1; } #n-tt0049552:hover ~ #t-tt0049552 { opacity: 1; } #n-tt0031742:hover ~ #t-tt0031742 { opacity: 1; } #n-tt0079766:hover ~ #t-tt0079766 { opacity: 1; } #n-tt0052587:hover ~ #t-tt0052587 { opacity: 1; } #n-tt0071282:hover ~ #t-tt0071282 { opacity: 1; } #n-tt0021890:hover ~ #t-tt0021890 { opacity: 1; } #n-tt0076299:hover ~ #t-tt0076299 { opacity: 1; } #n-tt0040636:hover ~ #t-tt0040636 { opacity: 1; } #n-tt0044072:hover ~ #t-tt0044072 { opacity: 1; } #n-tt0035446:hover ~ #t-tt0035446 { opacity: 1; } #n-tt0090297:hover ~ #t-tt0090297 { opacity: 1; } #n-tt0058182:hover ~ #t-tt0058182 { opacity: 1; } #n-tt0135163:hover ~ #t-tt0135163 { opacity: 1; } #n-tt0066842:hover ~ #t-tt0066842 { opacity: 1; } #n-tt0085279:hover ~ #t-tt0085279 { opacity: 1; } #n-tt0082117:hover ~ #t-tt0082117 { opacity: 1; } #n-tt0284034:hover ~ #t-tt0284034 { opacity: 1; } #n-tt0119375:hover ~ #t-tt0119375 { opacity: 1; } #n-tt0071797:hover ~ #t-tt0071797 { opacity: 1; } #n-tt0100318:hover ~ #t-tt0100318 { opacity: 1; } #n-tt0098112:hover ~ #t-tt0098112 { opacity: 1; } #n-tt1837636:hover ~ #t-tt1837636 { opacity: 1; } #n-tt0007340:hover ~ #t-tt0007340 { opacity: 1; } #n-tt0016395:hover ~ #t-tt0016395 { opacity: 1; } #n-tt0042229:hover ~ #t-tt0042229 { opacity: 1; } #n-tt0051418:hover ~ #t-tt0051418 { opacity: 1; } #n-tt0078908:hover ~ #t-tt0078908 { opacity: 1; } #n-tt0099292:hover ~ #t-tt0099292 { opacity: 1; } #n-tt1700844:hover ~ #t-tt1700844 { opacity: 1; } #n-tt0021844:hover ~ #t-tt0021844 { opacity: 1; } #n-tt0018054:hover ~ #t-tt0018054 { opacity: 1; } #n-tt0031650:hover ~ #t-tt0031650 { opacity: 1; } #n-tt0058390:hover ~ #t-tt0058390 { opacity: 1; }
+</style>
+
+<rect x="0" y="0" width="1600" height="900" fill="#dedddc"/>
+<ellipse class="ring-guide" cx="800.0" cy="500.0" rx="150.0" ry="75"/>
+<path id="ring-path-0" d="M 630.0 500.0 A 170.0 85.0 0 0 1 970.0 500.0" fill="none" stroke="none"/>
+<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-0" xlink:href="#ring-path-0" startOffset="50%">Hub (degree ≥ 25) — 10 films</textPath></text>
+<ellipse class="ring-guide" cx="800.0" cy="500.0" rx="486.0" ry="243"/>
+<path id="ring-path-1" d="M 294.0 500.0 A 506.0 253.0 0 0 1 1306.0 500.0" fill="none" stroke="none"/>
+<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-1" xlink:href="#ring-path-1" startOffset="50%">Mid (10–24) — 94 films</textPath></text>
+<ellipse class="ring-guide" cx="800.0" cy="500.0" rx="760.0" ry="380"/>
+<path id="ring-path-2" d="M 20.0 500.0 A 780.0 390.0 0 0 1 1580.0 500.0" fill="none" stroke="none"/>
+<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-2" xlink:href="#ring-path-2" startOffset="50%">Peripheral (&lt; 10) — 151 films</textPath></text>
+<a id="n-tt0031831" href="https://www.criterionchannel.com/q-planes" target="_blank" rel="noopener"><polygon class="node" points="713.1,522.3 707.0,525.8 701.0,522.3 701.0,515.3 707.0,511.8 713.1,515.3"/></a>
+<a id="n-tt0032179" href="https://www.criterionchannel.com/21-days" target="_blank" rel="noopener"><polygon class="node" points="771.8,453.5 765.7,457.0 759.6,453.5 759.6,446.5 765.7,443.0 771.8,446.5"/></a>
+<a id="n-tt0030082" href="https://www.criterion.com/films/27599-the-drum" target="_blank" rel="noopener"><polygon class="node" points="840.6,500.8 834.6,504.3 828.5,500.8 828.5,493.8 834.6,490.3 840.6,493.8"/></a>
+<a id="n-tt0030063" href="https://www.criterionchannel.com/the-divorce-of-lady-x" target="_blank" rel="noopener"><polygon class="node" points="828.4,455.0 822.3,458.5 816.3,455.0 816.3,448.0 822.3,444.5 828.4,448.0"/></a>
+<a id="n-tt0038574" href="https://www.criterion.com/films/566-great-expectations" target="_blank" rel="noopener"><polygon class="node" points="767.2,509.8 761.2,513.3 755.1,509.8 755.1,502.8 761.2,499.3 767.2,502.8"/></a>
+<a id="n-tt0031575" href="https://www.criterionchannel.com/the-lion-has-wings" target="_blank" rel="noopener"><polygon class="node" points="868.3,488.1 862.2,491.6 856.1,488.1 856.1,481.1 862.2,477.6 868.3,481.1"/></a>
+<a id="n-tt0028167" href="https://www.criterion.com/films/1437-rembrandt" target="_blank" rel="noopener"><polygon class="node" points="816.9,541.1 810.8,544.6 804.8,541.1 804.8,534.1 810.8,530.6 816.9,534.1"/></a>
+<a id="n-tt0036910" href="https://www.criterion.com/films/579-henry-v" target="_blank" rel="noopener"><polygon class="node" points="884.2,520.1 878.2,523.6 872.1,520.1 872.1,513.1 878.2,509.6 884.2,513.1"/></a>
+<a id="n-tt0029201" href="https://www.criterionchannel.com/the-man-who-could-work-miracles" target="_blank" rel="noopener"><polygon class="node" points="735.9,465.3 729.8,468.8 723.7,465.3 723.7,458.3 729.8,454.8 735.9,458.3"/></a>
+<a id="n-tt0032145" href="https://www.criterionchannel.com/wuthering-heights" target="_blank" rel="noopener"><polygon class="node" points="745.5,542.8 739.4,546.3 733.3,542.8 733.3,535.8 739.4,532.3 745.5,535.8"/></a>
+<a id="n-tt0029603" href="https://www.criterionchannel.com/the-squeaker" target="_blank" rel="noopener"><polygon class="node" points="1154.2,365.2 1148.1,368.7 1142.0,365.2 1142.0,358.2 1148.1,354.7 1154.2,358.2"/></a>
+<a id="n-tt0033868" href="https://www.criterion.com/films/9904-major-barbara" target="_blank" rel="noopener"><polygon class="node" points="945.1,695.2 939.0,698.7 933.0,695.2 933.0,688.2 939.0,684.7 945.1,688.2"/></a>
+<a id="n-tt0053796" href="https://www.criterionchannel.com/the-entertainer" target="_blank" rel="noopener"><polygon class="node" points="1133.0,549.7 1126.9,553.2 1120.9,549.7 1120.9,542.7 1126.9,539.2 1133.0,542.7"/></a>
+<a id="n-tt0028358" href="https://www.criterion.com/films/27552-things-to-come" target="_blank" rel="noopener"><polygon class="node" points="702.4,387.7 696.4,391.2 690.3,387.7 690.3,380.7 696.4,377.2 702.4,380.7"/></a>
+<a id="n-tt0049674" href="https://www.criterion.com/films/366-richard-iii" target="_blank" rel="noopener"><polygon class="node" points="1198.8,462.9 1192.7,466.4 1186.6,462.9 1186.6,455.9 1192.7,452.4 1198.8,455.9"/></a>
+<a id="n-tt0025710" href="https://www.criterionchannel.com/the-return-of-bulldog-drummond" target="_blank" rel="noopener"><polygon class="node" points="597.3,614.0 591.3,617.5 585.2,614.0 585.2,607.0 591.3,603.5 597.3,607.0"/></a>
+<a id="n-tt0025748" href="https://www.criterionchannel.com/the-scarlet-pimpernel" target="_blank" rel="noopener"><polygon class="node" points="932.4,661.5 926.4,665.0 920.3,661.5 920.3,654.5 926.4,651.0 932.4,654.5"/></a>
+<a id="n-tt0040098" href="https://www.criterionchannel.com/anna-karenina" target="_blank" rel="noopener"><polygon class="node" points="563.1,522.2 557.1,525.7 551.0,522.2 551.0,515.2 557.1,511.7 563.1,515.2"/></a>
+<a id="n-tt0030637" href="https://www.criterion.com/films/365-pygmalion" target="_blank" rel="noopener"><polygon class="node" points="971.2,359.2 965.1,362.7 959.0,359.2 959.0,352.2 965.1,348.7 971.2,352.2"/></a>
+<a id="n-tt0031334" href="https://www.criterion.com/films/27555-the-four-feathers" target="_blank" rel="noopener"><polygon class="node" points="656.4,684.6 650.3,688.1 644.3,684.6 644.3,677.6 650.3,674.1 656.4,677.6"/></a>
+<a id="n-tt0044355" href="https://www.criterion.com/films/6225-androcles-and-the-lion" target="_blank" rel="noopener"><polygon class="node" points="947.2,306.5 941.2,310.0 935.1,306.5 935.1,299.5 941.2,296.0 947.2,299.5"/></a>
+<a id="n-tt0040416" href="https://www.criterion.com/films/621-hamlet" target="_blank" rel="noopener"><polygon class="node" points="729.7,658.9 723.7,662.4 717.6,658.9 717.6,651.9 723.7,648.4 729.7,651.9"/></a>
+<a id="n-tt0040662" href="https://www.criterion.com/films/567-oliver-twist" target="_blank" rel="noopener"><polygon class="node" points="1053.9,652.8 1047.9,656.3 1041.8,652.8 1041.8,645.8 1047.9,642.3 1053.9,645.8"/></a>
+<a id="n-tt0045056" href="https://www.criterionchannel.com/the-card" target="_blank" rel="noopener"><polygon class="node" points="1073.8,509.7 1067.8,513.2 1061.7,509.7 1061.7,502.7 1067.8,499.2 1073.8,502.7"/></a>
+<a id="n-tt0033627" href="https://www.criterion.com/films/520-49th-parallel" target="_blank" rel="noopener"><polygon class="node" points="597.3,327.4 591.2,330.9 585.1,327.4 585.1,320.4 591.2,316.9 597.3,320.4"/></a>
+<a id="n-tt0027635" href="https://www.criterionchannel.com/forget-me-not" target="_blank" rel="noopener"><polygon class="node" points="881.4,310.7 875.4,314.2 869.3,310.7 869.3,303.7 875.4,300.2 881.4,303.7"/></a>
+<a id="n-tt0042700" href="https://www.criterionchannel.com/madeleine" target="_blank" rel="noopener"><polygon class="node" points="499.2,432.8 493.2,436.3 487.1,432.8 487.1,425.8 493.2,422.3 499.2,425.8"/></a>
+<a id="n-tt0038390" href="https://www.criterion.com/films/11334-caesar-and-cleopatra" target="_blank" rel="noopener"><polygon class="node" points="993.4,585.6 987.3,589.1 981.2,585.6 981.2,578.6 987.3,575.1 993.4,578.6"/></a>
+<a id="n-tt0039677" href="https://www.criterion.com/films/28173-odd-man-out" target="_blank" rel="noopener"><polygon class="node" points="427.2,538.3 421.2,541.8 415.1,538.3 415.1,531.3 421.2,527.8 427.2,531.3"/></a>
+<a id="n-tt0037367" href="https://www.criterion.com/films/28144-this-happy-breed" target="_blank" rel="noopener"><polygon class="node" points="840.2,323.0 834.1,326.5 828.1,323.0 828.1,316.0 834.1,312.5 840.2,316.0"/></a>
+<a id="n-tt0078480" href="https://www.criterion.com/films/28620-watership-down" target="_blank" rel="noopener"><polygon class="node" points="449.3,441.1 443.3,444.6 437.2,441.1 437.2,434.1 443.3,430.6 449.3,434.1"/></a>
+<a id="n-tt0024757" href="https://www.criterionchannel.com/wedding-rehearsal" target="_blank" rel="noopener"><polygon class="node" points="685.9,673.9 679.9,677.4 673.8,673.9 673.8,666.9 679.9,663.4 685.9,666.9"/></a>
+<a id="n-tt0039192" href="https://www.criterion.com/films/632-black-narcissus" target="_blank" rel="noopener"><polygon class="node" points="612.1,544.2 606.1,547.7 600.0,544.2 600.0,537.2 606.1,533.7 612.1,537.2"/></a>
+<a id="n-tt0047094" href="https://www.criterion.com/films/1078-hobson-s-choice" target="_blank" rel="noopener"><polygon class="node" points="577.4,577.6 571.3,581.1 565.2,577.6 565.2,570.6 571.3,567.1 577.4,570.6"/></a>
+<a id="n-tt0037800" href="https://www.criterion.com/films/633-i-know-where-i-m-going" target="_blank" rel="noopener"><polygon class="node" points="848.6,713.7 842.6,717.2 836.5,713.7 836.5,706.7 842.6,703.2 848.6,706.7"/></a>
+<polygon id="n-tt0041460" class="node" points="762.8,611.7 756.8,615.2 750.7,611.7 750.7,604.7 756.8,601.2 762.8,604.7"/>
+<a id="n-tt0029365" href="https://www.criterionchannel.com/over-the-moon" target="_blank" rel="noopener"><polygon class="node" points="650.9,377.9 644.8,381.4 638.8,377.9 638.8,370.9 644.8,367.4 650.9,370.9"/></a>
+<a id="n-tt0042980" href="https://www.criterionchannel.com/so-long-at-the-fair" target="_blank" rel="noopener"><polygon class="node" points="882.3,327.2 876.3,330.7 870.2,327.2 870.2,320.2 876.3,316.7 882.3,320.2"/></a>
+<a id="n-tt0033152" href="https://www.criterion.com/films/544-the-thief-of-bagdad" target="_blank" rel="noopener"><polygon class="node" points="486.3,610.1 480.3,613.6 474.2,610.1 474.2,603.1 480.3,599.6 486.3,603.1"/></a>
+<a id="n-tt0029087" href="https://www.criterionchannel.com/knight-without-armour" target="_blank" rel="noopener"><polygon class="node" points="1012.8,683.4 1006.8,686.9 1000.7,683.4 1000.7,676.4 1006.8,672.9 1012.8,676.4"/></a>
+<a id="n-tt0042665" href="https://www.criterion.com/films/1521-last-holiday" target="_blank" rel="noopener"><polygon class="node" points="980.9,559.0 974.9,562.5 968.8,559.0 968.8,552.0 974.9,548.5 980.9,552.0"/></a>
+<a id="n-tt0026966" href="https://www.criterion.com/films/811-sanders-of-the-river" target="_blank" rel="noopener"><polygon class="node" points="550.1,502.7 544.0,506.2 537.9,502.7 537.9,495.7 544.0,492.2 550.1,495.7"/></a>
+<a id="n-tt0034272" href="https://www.criterion.com/films/3559-that-hamilton-woman" target="_blank" rel="noopener"><polygon class="node" points="560.6,617.3 554.5,620.8 548.4,617.3 548.4,610.3 554.5,606.8 560.6,610.3"/></a>
+<a id="n-tt0051739" href="https://www.criterion.com/films/695-the-horse-s-mouth" target="_blank" rel="noopener"><polygon class="node" points="602.9,394.9 596.8,398.4 590.7,394.9 590.7,387.9 596.8,384.4 602.9,387.9"/></a>
+<a id="n-tt0052997" href="https://www.criterion.com/films/27537-the-league-of-gentlemen" target="_blank" rel="noopener"><polygon class="node" points="1073.2,585.5 1067.2,589.0 1061.1,585.5 1061.1,578.5 1067.2,575.0 1073.2,578.5"/></a>
+<a id="n-tt0024473" href="https://www.criterion.com/films/1433-the-private-life-of-henry-viii" target="_blank" rel="noopener"><polygon class="node" points="1041.0,474.8 1034.9,478.3 1028.9,474.8 1028.9,467.8 1034.9,464.3 1041.0,467.8"/></a>
+<a id="n-tt0041886" href="https://www.criterion.com/films/747-the-small-back-room" target="_blank" rel="noopener"><polygon class="node" points="671.5,297.7 665.4,301.2 659.3,297.7 659.3,290.7 665.4,287.2 671.5,290.7"/></a>
+<a id="n-tt0031968" href="https://www.criterionchannel.com/the-spy-in-black" target="_blank" rel="noopener"><polygon class="node" points="1088.1,475.8 1082.1,479.3 1076.0,475.8 1076.0,468.8 1082.1,465.3 1088.1,468.8"/></a>
+<a id="n-tt0054412" href="https://www.criterion.com/films/659-tunes-of-glory" target="_blank" rel="noopener"><polygon class="node" points="721.8,304.0 715.8,307.5 709.7,304.0 709.7,297.0 715.8,293.5 721.8,297.0"/></a>
+<a id="n-tt0044837" href="https://www.criterion.com/films/27557-limelight" target="_blank" rel="noopener"><polygon class="node" points="759.3,669.6 753.3,673.1 747.2,669.6 747.2,662.6 753.3,659.1 759.3,662.6"/></a>
+<a id="n-tt0027969" href="https://www.criterion.com/films/832-the-milky-way" target="_blank" rel="noopener"><polygon class="node" points="997.9,436.2 991.9,439.7 985.8,436.2 985.8,429.2 991.9,425.7 997.9,429.2"/></a>
+<a id="n-tt0030675" href="https://www.criterionchannel.com/the-return-of-the-scarlet-pimpernel" target="_blank" rel="noopener"><polygon class="node" points="543.7,432.2 537.6,435.7 531.6,432.2 531.6,425.2 537.6,421.7 543.7,425.2"/></a>
+<a id="n-tt0024962" href="https://www.criterion.com/films/1434-the-rise-of-catherine-the-great" target="_blank" rel="noopener"><polygon class="node" points="968.1,401.2 962.0,404.7 955.9,401.2 955.9,394.2 962.0,390.7 968.1,394.2"/></a>
+<a id="n-tt0081633" href="https://www.criterion.com/films/232-time-bandits" target="_blank" rel="noopener"><polygon class="node" points="575.2,384.7 569.2,388.2 563.1,384.7 563.1,377.7 569.2,374.2 575.2,377.7"/></a>
+<a id="n-tt0049856" href="https://www.criterionchannel.com/time-without-pity" target="_blank" rel="noopener"><polygon class="node" points="590.1,355.2 584.1,358.7 578.0,355.2 578.0,348.2 584.1,344.7 590.1,348.2"/></a>
+<a id="n-tt0039195" href="https://www.criterionchannel.com/blanche-fury" target="_blank" rel="noopener"><polygon class="node" points="607.3,561.6 601.3,565.1 595.2,561.6 595.2,554.6 601.3,551.1 607.3,554.6"/></a>
+<a id="n-tt0034891" href="https://www.criterion.com/films/28185-in-which-we-serve" target="_blank" rel="noopener"><polygon class="node" points="591.7,507.5 585.7,511.0 579.6,507.5 579.6,500.5 585.7,497.0 591.7,500.5"/></a>
+<a id="n-tt0023241" href="https://www.criterionchannel.com/movie-crazy" target="_blank" rel="noopener"><polygon class="node" points="993.8,623.7 987.7,627.2 981.6,623.7 981.6,616.7 987.7,613.2 993.8,616.7"/></a>
+<a id="n-tt0080678" href="https://www.criterion.com/films/29677-the-elephant-man" target="_blank" rel="noopener"><polygon class="node" points="604.2,441.5 598.2,445.0 592.1,441.5 592.1,434.5 598.2,431.0 604.2,434.5"/></a>
+<a id="n-tt0018051" href="https://www.criterion.com/films/28499-the-kid-brother" target="_blank" rel="noopener"><polygon class="node" points="1036.9,444.8 1030.8,448.3 1024.8,444.8 1024.8,437.8 1030.8,434.3 1036.9,437.8"/></a>
+<a id="n-tt0036135" href="https://www.criterion.com/films/28018-the-man-in-grey" target="_blank" rel="noopener"><polygon class="node" points="596.7,653.7 590.6,657.2 584.6,653.7 584.6,646.7 590.6,643.2 596.7,646.7"/></a>
+<a id="n-tt0040725" href="https://www.criterion.com/films/233-the-red-shoes" target="_blank" rel="noopener"><polygon class="node" points="1170.7,529.8 1164.6,533.3 1158.5,529.8 1158.5,522.8 1164.6,519.3 1170.7,522.8"/></a>
+<a id="n-tt0038924" href="https://www.criterionchannel.com/the-seventh-veil" target="_blank" rel="noopener"><polygon class="node" points="366.4,528.0 360.3,531.5 354.3,528.0 354.3,521.0 360.3,517.5 366.4,521.0"/></a>
+<a id="n-tt0050598" href="https://www.criterionchannel.com/a-king-in-new-york" target="_blank" rel="noopener"><polygon class="node" points="1160.8,605.0 1154.7,608.5 1148.6,605.0 1148.6,598.0 1154.7,594.5 1160.8,598.0"/></a>
+<polygon id="n-tt0040155" class="node" points="462.2,513.6 456.1,517.1 450.0,513.6 450.0,506.6 456.1,503.1 462.2,506.6"/>
+<a id="n-tt0028827" href="https://www.criterion.com/films/27564-elephant-boy" target="_blank" rel="noopener"><polygon class="node" points="411.3,408.0 405.2,411.5 399.2,408.0 399.2,401.0 405.2,397.5 411.3,401.0"/></a>
+<a id="n-tt0020876" href="https://www.criterionchannel.com/feet-first" target="_blank" rel="noopener"><polygon class="node" points="503.1,483.7 497.0,487.2 491.0,483.7 491.0,476.7 497.0,473.2 503.1,476.7"/></a>
+<a id="n-tt0051713" href="https://www.criterionchannel.com/hell-drivers" target="_blank" rel="noopener"><polygon class="node" points="1136.0,526.0 1129.9,529.5 1123.9,526.0 1123.9,519.0 1129.9,515.5 1136.0,519.0"/></a>
+<a id="n-tt0024961" href="https://www.criterionchannel.com/the-cat-s-paw" target="_blank" rel="noopener"><polygon class="node" points="571.1,462.0 565.0,465.5 559.0,462.0 559.0,455.0 565.0,451.5 571.1,455.0"/></a>
+<a id="n-tt0030341" href="https://www.criterion.com/films/358-the-lady-vanishes" target="_blank" rel="noopener"><polygon class="node" points="1075.6,535.8 1069.5,539.3 1063.4,535.8 1063.4,528.8 1069.5,525.3 1075.6,528.8"/></a>
+<a id="n-tt0078259" href="https://www.criterion.com/films/27993-the-shout" target="_blank" rel="noopener"><polygon class="node" points="557.9,634.1 551.8,637.6 545.8,634.1 545.8,627.1 551.8,623.6 557.9,627.1"/></a>
+<a id="n-tt0013075" href="https://www.criterionchannel.com/dr-jack" target="_blank" rel="noopener"><polygon class="node" points="1094.6,459.5 1088.5,463.0 1082.5,459.5 1082.5,452.5 1088.5,449.0 1094.6,452.5"/></a>
+<a id="n-tt0014945" href="https://www.criterionchannel.com/girl-shy" target="_blank" rel="noopener"><polygon class="node" points="1137.7,495.5 1131.7,499.0 1125.6,495.5 1125.6,488.5 1131.7,485.0 1137.7,488.5"/></a>
+<a id="n-tt0013201" href="https://www.criterionchannel.com/grandma-s-boy" target="_blank" rel="noopener"><polygon class="node" points="802.3,288.6 796.2,292.1 790.2,288.6 790.2,281.6 796.2,278.1 802.3,281.6"/></a>
+<a id="n-tt0014429" href="https://www.criterion.com/films/28446-safety-last" target="_blank" rel="noopener"><polygon class="node" points="774.7,703.6 768.6,707.1 762.5,703.6 762.5,696.6 768.6,693.1 774.7,696.6"/></a>
+<a id="n-tt0019412" href="https://www.criterion.com/films/28497-speedy" target="_blank" rel="noopener"><polygon class="node" points="924.8,397.3 918.8,400.8 912.7,397.3 912.7,390.3 918.8,386.8 924.8,390.3"/></a>
+<a id="n-tt0034734" href="https://www.criterionchannel.com/the-first-of-the-few" target="_blank" rel="noopener"><polygon class="node" points="915.0,617.9 909.0,621.4 902.9,617.9 902.9,610.9 909.0,607.4 915.0,610.9"/></a>
+<a id="n-tt0015841" href="https://www.criterion.com/films/28510-the-freshman" target="_blank" rel="noopener"><polygon class="node" points="1067.1,372.2 1061.1,375.7 1055.0,372.2 1055.0,365.2 1061.1,361.7 1067.1,365.2"/></a>
+<a id="n-tt0032553" href="https://www.criterion.com/films/27605-the-great-dictator" target="_blank" rel="noopener"><polygon class="node" points="707.3,627.5 701.2,631.0 695.1,627.5 695.1,620.5 701.2,617.0 707.3,620.5"/></a>
+<a id="n-tt0042898" href="https://www.criterionchannel.com/the-rocking-horse-winner" target="_blank" rel="noopener"><polygon class="node" points="1021.1,640.2 1015.1,643.7 1009.0,640.2 1009.0,633.2 1015.1,629.7 1021.1,633.2"/></a>
+<a id="n-tt0020572" href="https://www.criterionchannel.com/welcome-danger" target="_blank" rel="noopener"><polygon class="node" points="832.0,604.5 826.0,608.0 819.9,604.5 819.9,597.5 826.0,594.0 832.0,597.5"/></a>
+<a id="n-tt0014611" href="https://www.criterionchannel.com/why-worry" target="_blank" rel="noopener"><polygon class="node" points="465.1,408.2 459.0,411.7 453.0,408.2 453.0,401.2 459.0,397.7 465.1,401.2"/></a>
+<a id="n-tt0036695" href="https://www.criterion.com/films/785-a-canterbury-tale" target="_blank" rel="noopener"><polygon class="node" points="895.5,377.2 889.4,380.7 883.3,377.2 883.3,370.2 889.4,366.7 895.5,370.2"/></a>
+<a id="n-tt0038363" href="https://www.criterion.com/films/28156-blithe-spirit" target="_blank" rel="noopener"><polygon class="node" points="778.7,306.5 772.7,310.0 766.6,306.5 766.6,299.5 772.7,296.0 778.7,299.5"/></a>
+<a id="n-tt0037558" href="https://www.criterion.com/films/345-brief-encounter" target="_blank" rel="noopener"><polygon class="node" points="456.7,634.5 450.7,638.0 444.6,634.5 444.6,627.5 450.7,624.0 456.7,627.5"/></a>
+<a id="n-tt0043601" href="https://www.criterionchannel.com/green-grow-the-rushes" target="_blank" rel="noopener"><polygon class="node" points="509.6,514.2 503.5,517.7 497.5,514.2 497.5,507.2 503.5,503.7 509.6,507.2"/></a>
+<a id="n-tt0026406" href="https://www.criterionchannel.com/the-ghost-goes-west" target="_blank" rel="noopener"><polygon class="node" points="1175.2,450.7 1169.2,454.2 1163.1,450.7 1163.1,443.7 1169.2,440.2 1175.2,443.7"/></a>
+<a id="n-tt0044744" href="https://www.criterion.com/films/355-the-importance-of-being-earnest" target="_blank" rel="noopener"><polygon class="node" points="1067.2,436.8 1061.1,440.3 1055.0,436.8 1055.0,429.8 1061.1,426.3 1067.2,429.8"/></a>
+<a id="n-tt0036112" href="https://www.criterion.com/films/359-the-life-and-death-of-colonel-blimp" target="_blank" rel="noopener"><polygon class="node" points="610.4,468.1 604.4,471.6 598.3,468.1 598.3,461.1 604.4,457.6 610.4,461.1"/></a>
+<a id="n-tt0093431" href="https://www.criterionchannel.com/the-lonely-passion-of-judith-hearne" target="_blank" rel="noopener"><polygon class="node" points="1103.3,620.1 1097.2,623.6 1091.1,620.1 1091.1,613.1 1097.2,609.6 1103.3,613.1"/></a>
+<a id="n-tt0032728" href="https://www.criterionchannel.com/the-long-voyage-home" target="_blank" rel="noopener"><polygon class="node" points="440.6,377.6 434.6,381.1 428.5,377.6 428.5,370.6 434.6,367.1 440.6,370.6"/></a>
+<a id="n-tt0041735" href="https://www.criterionchannel.com/the-passionate-friends" target="_blank" rel="noopener"><polygon class="node" points="533.4,476.8 527.3,480.3 521.3,476.8 521.3,469.8 527.3,466.3 533.4,469.8"/></a>
+<a id="n-tt0053361" href="https://www.criterionchannel.com/tiger-bay" target="_blank" rel="noopener"><polygon class="node" points="523.1,574.6 517.0,578.1 511.0,574.6 511.0,567.6 517.0,564.1 523.1,567.6"/></a>
+<a id="n-tt0089838" href="https://www.criterionchannel.com/a-private-function" target="_blank" rel="noopener"><polygon class="node" points="810.6,671.8 804.6,675.3 798.5,671.8 798.5,664.8 804.6,661.3 810.6,664.8"/></a>
+<a id="n-tt0027977" href="https://www.criterion.com/films/27526-modern-times" target="_blank" rel="noopener"><polygon class="node" points="799.1,364.0 793.0,367.5 787.0,364.0 787.0,357.0 793.0,353.5 799.1,357.0"/></a>
+<a id="n-tt0026029" href="https://www.criterion.com/films/234-the-39-steps" target="_blank" rel="noopener"><polygon class="node" points="1133.8,631.1 1127.8,634.6 1121.7,631.1 1121.7,624.1 1127.8,620.6 1133.8,624.1"/></a>
+<a id="n-tt0029982" href="https://www.criterionchannel.com/the-challenge" target="_blank" rel="noopener"><polygon class="node" points="1044.9,519.5 1038.8,523.0 1032.8,519.5 1032.8,512.5 1038.8,509.0 1044.9,512.5"/></a>
+<a id="n-tt0018773" href="https://www.criterion.com/films/27563-the-circus" target="_blank" rel="noopener"><polygon class="node" points="906.2,601.2 900.2,604.7 894.1,601.2 894.1,594.2 900.2,590.7 906.2,594.2"/></a>
+<a id="n-tt0025452" href="https://www.criterion.com/films/27999-the-man-who-knew-too-much" target="_blank" rel="noopener"><polygon class="node" points="1059.3,331.8 1053.3,335.3 1047.2,331.8 1047.2,324.8 1053.3,321.3 1059.3,324.8"/></a>
+<a id="n-tt0023238" href="https://www.criterion.com/films/584-the-most-dangerous-game" target="_blank" rel="noopener"><polygon class="node" points="807.1,643.0 801.1,646.5 795.0,643.0 795.0,636.0 801.1,632.5 807.1,636.0"/></a>
+<a id="n-tt0071910" href="https://www.criterion.com/films/604-the-night-porter" target="_blank" rel="noopener"><polygon class="node" points="653.7,581.0 647.6,584.5 641.6,581.0 641.6,574.0 647.6,570.5 653.7,574.0"/></a>
+<a id="n-tt0025681" href="https://www.criterion.com/films/1436-the-private-life-of-don-juan" target="_blank" rel="noopener"><polygon class="node" points="1202.6,570.6 1196.6,574.1 1190.5,570.6 1190.5,563.6 1196.6,560.1 1202.6,563.6"/></a>
+<a id="n-tt0038250" href="https://www.criterion.com/films/28017-the-wicked-lady" target="_blank" rel="noopener"><polygon class="node" points="1150.5,382.7 1144.4,386.2 1138.3,382.7 1138.3,375.7 1144.4,372.2 1150.5,375.7"/></a>
+<a id="n-tt0057590" href="https://www.criterion.com/films/28736-tom-jones" target="_blank" rel="noopener"><polygon class="node" points="550.9,344.3 544.8,347.8 538.8,344.3 538.8,337.3 544.8,333.8 550.9,337.3"/></a>
+<a id="n-tt0029081" href="https://www.criterionchannel.com/king-solomon-s-mines" target="_blank" rel="noopener"><polygon class="node" points="1261.5,760.4 1255.5,763.9 1249.4,760.4 1249.4,753.4 1255.5,749.9 1261.5,753.4"/></a>
+<polygon id="n-tt0033858" class="node" points="165.8,474.8 159.7,478.3 153.6,474.8 153.6,467.8 159.7,464.3 165.8,467.8"/>
+<a id="n-tt1527186" href="https://www.criterionchannel.com/melancholia" target="_blank" rel="noopener"><polygon class="node" points="125.0,584.6 118.9,588.1 112.9,584.6 112.9,577.6 118.9,574.1 125.0,577.6"/></a>
+<polygon id="n-tt0015864" class="node" points="413.3,267.4 407.2,270.9 401.2,267.4 401.2,260.4 407.2,256.9 413.3,260.4"/>
+<a id="n-tt0040160" href="https://www.criterionchannel.com/the-big-clock" target="_blank" rel="noopener"><polygon class="node" points="1183.2,730.8 1177.1,734.3 1171.1,730.8 1171.1,723.8 1177.1,720.3 1183.2,723.8"/></a>
+<a id="n-tt0043362" href="https://www.criterion.com/films/873-the-browning-version" target="_blank" rel="noopener"><polygon class="node" points="258.3,661.1 252.3,664.6 246.2,661.1 246.2,654.1 252.3,650.6 258.3,654.1"/></a>
+<a id="n-tt0012349" href="https://www.criterion.com/films/27566-the-kid" target="_blank" rel="noopener"><polygon class="node" points="413.2,719.4 407.1,722.9 401.0,719.4 401.0,712.4 407.1,708.9 413.2,712.4"/></a>
+<a id="n-tt0043972" href="https://www.criterion.com/films/679-the-river" target="_blank" rel="noopener"><polygon class="node" points="520.4,773.3 514.3,776.8 508.3,773.3 508.3,766.3 514.3,762.8 520.4,766.3"/></a>
+<a id="n-tt0051994" href="https://www.criterion.com/films/521-a-night-to-remember" target="_blank" rel="noopener"><polygon class="node" points="565.2,221.6 559.2,225.1 553.1,221.6 553.1,214.6 559.2,211.1 565.2,214.6"/></a>
+<a id="n-tt0029952" href="https://www.criterionchannel.com/bulldog-drummond-s-peril" target="_blank" rel="noopener"><polygon class="node" points="1372.3,409.3 1366.2,412.8 1360.1,409.3 1360.1,402.3 1366.2,398.8 1372.3,402.3"/></a>
+<a id="n-tt0021749" href="https://www.criterion.com/films/27558-city-lights" target="_blank" rel="noopener"><polygon class="node" points="101.1,546.0 95.0,549.5 89.0,546.0 89.0,539.0 95.0,535.5 101.1,539.0"/></a>
+<a id="n-tt0051542" href="https://www.criterion.com/films/806-corridors-of-blood" target="_blank" rel="noopener"><polygon class="node" points="217.9,436.9 211.9,440.4 205.8,436.9 205.8,429.9 211.9,426.4 217.9,429.9"/></a>
+<a id="n-tt0112817" href="https://www.criterion.com/films/29064-dead-man" target="_blank" rel="noopener"><polygon class="node" points="404.7,217.6 398.6,221.1 392.6,217.6 392.6,210.6 398.6,207.1 404.7,210.6"/></a>
+<a id="n-tt0038577" href="https://www.criterion.com/films/815-green-for-danger" target="_blank" rel="noopener"><polygon class="node" points="129.7,433.0 123.6,436.5 117.5,433.0 117.5,426.0 123.6,422.5 129.7,426.0"/></a>
+<a id="n-tt0034881" href="https://www.criterion.com/films/27771-i-married-a-witch" target="_blank" rel="noopener"><polygon class="node" points="649.2,824.4 643.1,827.9 637.1,824.4 637.1,817.4 643.1,813.9 649.2,817.4"/></a>
+<a id="n-tt0039631" href="https://www.criterion.com/films/27574-monsieur-verdoux" target="_blank" rel="noopener"><polygon class="node" points="1006.1,827.9 1000.0,831.4 993.9,827.9 993.9,820.9 1000.0,817.4 1006.1,820.9"/></a>
+<polygon id="n-tt0027985" class="node" points="1236.6,245.7 1230.5,249.2 1224.5,245.7 1224.5,238.7 1230.5,235.2 1236.6,238.7"/>
+<a id="n-tt0029811" href="https://www.criterionchannel.com/young-and-innocent" target="_blank" rel="noopener"><polygon class="node" points="382.5,318.2 376.4,321.7 370.3,318.2 370.3,311.2 376.4,307.7 382.5,311.2"/></a>
+<a id="n-tt0028668" href="https://www.criterionchannel.com/bulldog-drummond-escapes" target="_blank" rel="noopener"><polygon class="node" points="721.7,229.3 715.7,232.8 709.6,229.3 709.6,222.3 715.7,218.8 721.7,222.3"/></a>
+<polygon id="n-tt0048393" class="node" points="1314.5,395.3 1308.4,398.8 1302.4,395.3 1302.4,388.3 1308.4,384.8 1314.5,388.3"/>
+<a id="n-tt0055928" href="https://www.criterionchannel.com/dr-no" target="_blank" rel="noopener"><polygon class="node" points="1351.3,431.5 1345.2,435.0 1339.1,431.5 1339.1,424.5 1345.2,421.0 1351.3,424.5"/></a>
+<a id="n-tt0058150" href="https://www.criterionchannel.com/goldfinger" target="_blank" rel="noopener"><polygon class="node" points="231.9,311.9 225.8,315.4 219.8,311.9 219.8,304.9 225.8,301.4 231.9,304.9"/></a>
+<a id="n-tt0038289" href="https://www.criterionchannel.com/i-see-a-dark-stranger" target="_blank" rel="noopener"><polygon class="node" points="998.3,173.6 992.2,177.1 986.1,173.6 986.1,166.6 992.2,163.1 998.3,166.6"/></a>
+<a id="n-tt0034928" href="https://www.criterion.com/films/27649-jungle-book" target="_blank" rel="noopener"><polygon class="node" points="790.9,860.9 784.8,864.4 778.7,860.9 778.7,853.9 784.8,850.4 790.9,853.9"/></a>
+<a id="n-tt0023180" href="https://www.criterionchannel.com/man-wanted" target="_blank" rel="noopener"><polygon class="node" points="1345.9,687.1 1339.8,690.6 1333.8,687.1 1333.8,680.1 1339.8,676.6 1345.9,680.1"/></a>
+<a id="n-tt0027954" href="https://www.criterionchannel.com/men-are-not-gods" target="_blank" rel="noopener"><polygon class="node" points="1118.2,792.9 1112.1,796.4 1106.1,792.9 1106.1,785.9 1112.1,782.4 1118.2,785.9"/></a>
+<a id="n-tt0034240" href="https://www.criterion.com/films/657-sullivan-s-travels" target="_blank" rel="noopener"><polygon class="node" points="223.8,361.0 217.8,364.5 211.7,361.0 211.7,354.0 217.8,350.5 223.8,354.0"/></a>
+<a id="n-tt0043140" href="https://www.criterionchannel.com/the-woman-in-question" target="_blank" rel="noopener"><polygon class="node" points="182.7,458.9 176.6,462.4 170.6,458.9 170.6,451.9 176.6,448.4 182.7,451.9"/></a>
+<a id="n-tt0055597" href="https://www.criterion.com/films/27538-victim" target="_blank" rel="noopener"><polygon class="node" points="291.7,317.6 285.6,321.1 279.5,317.6 279.5,310.6 285.6,307.1 291.7,310.6"/></a>
+<a id="n-tt0014624" href="https://www.criterion.com/films/27582-a-woman-of-paris" target="_blank" rel="noopener"><polygon class="node" points="1326.3,747.0 1320.2,750.5 1314.2,747.0 1314.2,740.0 1320.2,736.5 1326.3,740.0"/></a>
+<a id="n-tt0039485" href="https://www.criterionchannel.com/an-ideal-husband" target="_blank" rel="noopener"><polygon class="node" points="1282.8,650.0 1276.7,653.5 1270.7,650.0 1270.7,643.0 1276.7,639.5 1282.8,643.0"/></a>
+<polygon id="n-tt0057076" class="node" points="226.0,666.3 220.0,669.8 213.9,666.3 213.9,659.3 220.0,655.8 226.0,659.3"/>
+<a id="n-tt0032599" href="https://www.criterion.com/films/27903-his-girl-friday" target="_blank" rel="noopener"><polygon class="node" points="480.4,201.8 474.3,205.3 468.2,201.8 468.2,194.8 474.3,191.3 480.4,194.8"/></a>
+<a id="n-tt0100024" href="https://www.criterion.com/films/27982-life-is-sweet" target="_blank" rel="noopener"><polygon class="node" points="1291.1,323.5 1285.0,327.0 1279.0,323.5 1279.0,316.5 1285.0,313.0 1291.1,316.5"/></a>
+<a id="n-tt0045251" href="https://www.criterion.com/films/28621-othello" target="_blank" rel="noopener"><polygon class="node" points="718.1,842.5 712.0,846.0 706.0,842.5 706.0,835.5 712.0,832.0 718.1,835.5"/></a>
+<a id="n-tt0054269" href="https://www.criterionchannel.com/saturday-night-and-sunday-morning" target="_blank" rel="noopener"><polygon class="node" points="565.7,783.9 559.7,787.4 553.6,783.9 553.6,776.9 559.7,773.4 565.7,776.9"/></a>
+<a id="n-tt0017075" href="https://www.criterion.com/films/28001-the-lodger-a-story-of-the-london-fog" target="_blank" rel="noopener"><polygon class="node" points="1146.4,731.0 1140.3,734.5 1134.3,731.0 1134.3,724.0 1140.3,720.5 1146.4,724.0"/></a>
+<a id="n-tt0028112" href="https://www.criterionchannel.com/the-plough-and-the-stars" target="_blank" rel="noopener"><polygon class="node" points="146.3,639.2 140.2,642.7 134.2,639.2 134.2,632.2 140.2,628.7 146.3,632.2"/></a>
+<a id="n-tt0057578" href="https://www.criterion.com/films/853-this-sporting-life" target="_blank" rel="noopener"><polygon class="node" points="727.9,199.1 721.9,202.6 715.8,199.1 715.8,192.1 721.9,188.6 727.9,192.1"/></a>
+<a id="n-tt0047579" href="https://www.criterionchannel.com/three-cases-of-murder" target="_blank" rel="noopener"><polygon class="node" points="1400.8,377.3 1394.7,380.8 1388.6,377.3 1388.6,370.3 1394.7,366.8 1400.8,370.3"/></a>
+<polygon id="n-tt0030888" class="node" points="1416.4,477.8 1410.3,481.3 1404.2,477.8 1404.2,470.8 1410.3,467.3 1416.4,470.8"/>
+<a id="n-tt0048250" href="https://www.criterionchannel.com/a-kid-for-two-farthings" target="_blank" rel="noopener"><polygon class="node" points="1450.3,401.5 1444.3,405.0 1438.2,401.5 1438.2,394.5 1444.3,391.0 1450.3,394.5"/></a>
+<polygon id="n-tt0016630" class="node" points="1136.7,277.6 1130.6,281.1 1124.5,277.6 1124.5,270.6 1130.6,267.1 1136.7,270.6"/>
+<a id="n-tt0015634" href="https://www.criterion.com/films/809-body-and-soul" target="_blank" rel="noopener"><polygon class="node" points="1282.7,732.8 1276.6,736.3 1270.6,732.8 1270.6,725.8 1276.6,722.3 1282.7,725.8"/></a>
+<polygon id="n-tt0039689" class="node" points="551.1,203.2 545.0,206.7 538.9,203.2 538.9,196.2 545.0,192.7 551.1,196.2"/>
+<a id="n-tt0028212" href="https://www.criterionchannel.com/sabotage" target="_blank" rel="noopener"><polygon class="node" points="291.3,579.5 285.2,583.0 279.2,579.5 279.2,572.5 285.2,569.0 291.3,572.5"/></a>
+<a id="n-tt0053242" href="https://www.criterion.com/films/27536-sapphire" target="_blank" rel="noopener"><polygon class="node" points="610.8,836.8 604.7,840.3 598.7,836.8 598.7,829.8 604.7,826.3 610.8,829.8"/></a>
+<a id="n-tt0031971" href="https://www.criterion.com/films/980-stagecoach" target="_blank" rel="noopener"><polygon class="node" points="218.6,614.9 212.5,618.4 206.5,614.9 206.5,607.9 212.5,604.4 218.6,607.9"/></a>
+<polygon id="n-tt0019421" class="node" points="1327.0,357.0 1321.0,360.5 1314.9,357.0 1314.9,350.0 1321.0,346.5 1327.0,350.0"/>
+<a id="n-tt0023985" href="https://www.criterion.com/films/807-the-emperor-jones" target="_blank" rel="noopener"><polygon class="node" points="1333.7,723.4 1327.7,726.9 1321.6,723.4 1321.6,716.4 1327.7,712.9 1333.7,716.4"/></a>
+<a id="n-tt0051706" href="https://www.criterion.com/films/805-the-haunted-strangler" target="_blank" rel="noopener"><polygon class="node" points="1331.0,254.5 1324.9,258.0 1318.9,254.5 1318.9,247.5 1324.9,244.0 1331.0,247.5"/></a>
+<a id="n-tt0069086" href="https://www.criterionchannel.com/the-pied-piper" target="_blank" rel="noopener"><polygon class="node" points="1114.6,249.6 1108.5,253.1 1102.5,249.6 1102.5,242.6 1108.5,239.1 1114.6,242.6"/></a>
+<a id="n-tt0095951" href="https://www.criterionchannel.com/the-raggedy-rawney" target="_blank" rel="noopener"><polygon class="node" points="1363.4,501.9 1357.3,505.4 1351.2,501.9 1351.2,494.9 1357.3,491.4 1363.4,494.9"/></a>
+<a id="n-tt0151568" href="https://www.criterion.com/films/27550-topsy-turvy" target="_blank" rel="noopener"><polygon class="node" points="414.7,233.7 408.6,237.2 402.6,233.7 402.6,226.7 408.6,223.2 414.7,226.7"/></a>
+<a id="n-tt0094336" href="https://www.criterion.com/films/658-withnail-and-i" target="_blank" rel="noopener"><polygon class="node" points="1248.0,336.6 1241.9,340.1 1235.9,336.6 1235.9,329.6 1241.9,326.1 1248.0,329.6"/></a>
+<a id="n-tt0091867" href="https://www.criterion.com/films/28597-a-room-with-a-view" target="_blank" rel="noopener"><polygon class="node" points="837.2,773.3 831.1,776.8 825.1,773.3 825.1,766.3 831.1,762.8 837.2,766.3"/></a>
+<a id="n-tt0054614" href="https://www.criterion.com/films/27539-all-night-long" target="_blank" rel="noopener"><polygon class="node" points="900.7,224.9 894.6,228.4 888.5,224.9 888.5,217.9 894.6,214.4 900.7,217.9"/></a>
+<a id="n-tt0080408" href="https://www.criterion.com/films/744-bad-timing" target="_blank" rel="noopener"><polygon class="node" points="1294.2,350.0 1288.1,353.5 1282.1,350.0 1282.1,343.0 1288.1,339.5 1294.2,343.0"/></a>
+<a id="n-tt0099341" href="https://www.criterionchannel.com/daddy-nostalgia" target="_blank" rel="noopener"><polygon class="node" points="1453.8,578.4 1447.8,581.9 1441.7,578.4 1441.7,571.4 1447.8,567.9 1453.8,571.4"/></a>
+<a id="n-tt0032484" href="https://www.criterion.com/films/27692-foreign-correspondent" target="_blank" rel="noopener"><polygon class="node" points="1313.3,588.8 1307.3,592.3 1301.2,588.8 1301.2,581.8 1307.3,578.3 1313.3,581.8"/></a>
+<polygon id="n-tt0015863" class="node" points="1014.5,192.6 1008.4,196.1 1002.4,192.6 1002.4,185.6 1008.4,182.1 1014.5,185.6"/>
+<a id="n-tt0029002" href="https://www.criterion.com/films/27770-history-is-made-at-night" target="_blank" rel="noopener"><polygon class="node" points="978.1,244.1 972.1,247.6 966.0,244.1 966.0,237.1 972.1,233.6 978.1,237.1"/></a>
+<a id="n-tt0051879" href="https://www.criterionchannel.com/look-back-in-anger" target="_blank" rel="noopener"><polygon class="node" points="904.6,150.9 898.6,154.4 892.5,150.9 892.5,143.9 898.6,140.4 904.6,143.9"/></a>
+<a id="n-tt0037035" href="https://www.criterion.com/films/28019-madonna-of-the-seven-moons" target="_blank" rel="noopener"><polygon class="node" points="1159.1,217.4 1153.0,220.9 1147.0,217.4 1147.0,210.4 1153.0,206.9 1159.1,210.4"/></a>
+<a id="n-tt0091538" href="https://www.criterion.com/films/648-mona-lisa" target="_blank" rel="noopener"><polygon class="node" points="968.0,762.6 962.0,766.1 955.9,762.6 955.9,755.6 962.0,752.1 968.0,755.6"/></a>
+<a id="n-tt0029322" href="https://www.criterionchannel.com/nothing-sacred" target="_blank" rel="noopener"><polygon class="node" points="245.0,495.5 239.0,499.0 232.9,495.5 232.9,488.5 239.0,485.0 245.0,488.5"/></a>
+<a id="n-tt0020269" href="https://www.criterionchannel.com/piccadilly" target="_blank" rel="noopener"><polygon class="node" points="340.2,255.4 334.1,258.9 328.0,255.4 328.0,248.4 334.1,244.9 340.2,248.4"/></a>
+<a id="n-tt0084538" href="https://www.criterionchannel.com/privates-on-parade" target="_blank" rel="noopener"><polygon class="node" points="1198.2,792.8 1192.1,796.3 1186.1,792.8 1186.1,785.8 1192.1,782.3 1198.2,785.8"/></a>
+<polygon id="n-tt0017925" class="node" points="1043.8,821.4 1037.8,824.9 1031.7,821.4 1031.7,814.4 1037.8,810.9 1043.8,814.4"/>
+<a id="n-tt0087414" href="https://www.criterion.com/films/1285-the-hit" target="_blank" rel="noopener"><polygon class="node" points="658.6,217.1 652.6,220.6 646.5,217.1 646.5,210.1 652.6,206.6 658.6,210.1"/></a>
+<a id="n-tt0081070" href="https://www.criterion.com/films/559-the-long-good-friday" target="_blank" rel="noopener"><polygon class="node" points="255.2,271.1 249.2,274.6 243.1,271.1 243.1,264.1 249.2,260.6 255.2,264.1"/></a>
+<a id="n-tt0069198" href="https://www.criterion.com/films/678-the-ruling-class" target="_blank" rel="noopener"><polygon class="node" points="1211.7,322.7 1205.7,326.2 1199.6,322.7 1199.6,315.7 1205.7,312.2 1211.7,315.7"/></a>
+<a id="n-tt0088322" href="https://www.criterion.com/films/837-under-the-volcano" target="_blank" rel="noopener"><polygon class="node" points="1030.8,756.8 1024.8,760.3 1018.7,756.8 1018.7,749.8 1024.8,746.3 1030.8,749.8"/></a>
+<a id="n-tt0035567" href="https://www.criterion.com/films/29137-woman-of-the-year" target="_blank" rel="noopener"><polygon class="node" points="1203.8,760.3 1197.7,763.8 1191.7,760.3 1191.7,753.3 1197.7,749.8 1203.8,753.3"/></a>
+<a id="n-tt3544082" href="https://www.criterion.com/films/28908-45-years" target="_blank" rel="noopener"><polygon class="node" points="579.4,842.6 573.3,846.1 567.3,842.6 567.3,835.6 573.3,832.1 579.4,835.6"/></a>
+<a id="n-tt0086859" href="https://www.criterionchannel.com/against-all-odds" target="_blank" rel="noopener"><polygon class="node" points="604.1,194.3 598.1,197.8 592.0,194.3 592.0,187.3 598.1,183.8 604.1,187.3"/></a>
+<a id="n-tt0087188" href="https://www.criterion.com/films/587-and-the-ship-sails-on" target="_blank" rel="noopener"><polygon class="node" points="196.3,553.4 190.3,556.9 184.2,553.4 184.2,546.4 190.3,542.9 196.3,546.4"/></a>
+<a id="n-tt0028667" href="https://www.criterionchannel.com/bulldog-drummond-comes-back" target="_blank" rel="noopener"><polygon class="node" points="1178.8,712.5 1172.7,716.0 1166.7,712.5 1166.7,705.5 1172.7,702.0 1178.8,705.5"/></a>
+<polygon id="n-tt0094933" class="node" points="606.2,782.6 600.2,786.1 594.1,782.6 594.1,775.6 600.2,772.1 606.2,775.6"/>
+<a id="n-tt0050393" href="https://www.criterion.com/films/631-fiend-without-a-face" target="_blank" rel="noopener"><polygon class="node" points="328.9,303.6 322.9,307.1 316.8,303.6 316.8,296.6 322.9,293.1 328.9,296.6"/></a>
+<a id="n-tt0052805" href="https://www.criterion.com/films/803-first-man-into-space" target="_blank" rel="noopener"><polygon class="node" points="931.0,806.5 925.0,810.0 918.9,806.5 918.9,799.5 925.0,796.0 931.0,799.5"/></a>
+<a id="n-tt0058142" href="https://www.criterionchannel.com/girl-with-green-eyes" target="_blank" rel="noopener"><polygon class="node" points="539.3,801.2 533.2,804.7 527.1,801.2 527.1,794.2 533.2,790.7 539.3,794.2"/></a>
+<a id="n-tt0095302" href="https://www.criterionchannel.com/high-hopes" target="_blank" rel="noopener"><polygon class="node" points="333.7,636.4 327.7,639.9 321.6,636.4 321.6,629.4 327.7,625.9 333.7,629.4"/></a>
+<a id="n-tt0097531" href="https://www.criterion.com/films/660-how-to-get-ahead-in-advertising" target="_blank" rel="noopener"><polygon class="node" points="902.5,815.4 896.4,818.9 890.4,815.4 890.4,808.4 896.4,804.9 902.5,808.4"/></a>
+<a id="n-tt0041497" href="https://www.criterion.com/films/882-i-shot-jesse-james" target="_blank" rel="noopener"><polygon class="node" points="150.6,399.0 144.5,402.5 138.5,399.0 138.5,392.0 144.5,388.5 150.6,392.0"/></a>
+<a id="n-tt0076221" href="https://www.criterion.com/films/29266-jabberwocky" target="_blank" rel="noopener"><polygon class="node" points="368.3,281.8 362.2,285.3 356.1,281.8 356.1,274.8 362.2,271.3 368.3,274.8"/></a>
+<a id="n-tt0073540" href="https://www.criterion.com/films/565-picnic-at-hanging-rock" target="_blank" rel="noopener"><polygon class="node" points="198.6,479.1 192.6,482.6 186.5,479.1 186.5,472.1 192.6,468.6 198.6,472.1"/></a>
+<a id="n-tt0048527" href="https://www.criterionchannel.com/queen-bee" target="_blank" rel="noopener"><polygon class="node" points="1319.4,281.2 1313.4,284.7 1307.3,281.2 1307.3,274.2 1313.4,270.7 1319.4,274.2"/></a>
+<a id="n-tt0081455" href="https://www.criterion.com/films/28043-scanners" target="_blank" rel="noopener"><polygon class="node" points="95.4,495.4 89.3,498.9 83.3,495.4 83.3,488.4 89.3,484.9 95.4,488.4"/></a>
+<a id="n-tt0117589" href="https://www.criterion.com/films/29202-secrets-lies" target="_blank" rel="noopener"><polygon class="node" points="1280.1,714.8 1274.1,718.3 1268.0,714.8 1268.0,707.8 1274.1,704.3 1280.1,707.8"/></a>
+<a id="n-tt0057495" href="https://www.criterion.com/films/534-shock-corridor" target="_blank" rel="noopener"><polygon class="node" points="701.6,771.6 695.6,775.1 689.5,771.6 689.5,764.6 695.6,761.1 701.6,764.6"/></a>
+<a id="n-tt0048673" href="https://www.criterion.com/films/368-summertime" target="_blank" rel="noopener"><polygon class="node" points="1087.1,770.9 1081.0,774.4 1075.0,770.9 1075.0,763.9 1081.0,760.4 1087.1,763.9"/></a>
+<a id="n-tt0058557" href="https://www.criterionchannel.com/seance-on-a-wet-afternoon" target="_blank" rel="noopener"><polygon class="node" points="778.5,203.7 772.5,207.2 766.4,203.7 766.4,196.7 772.5,193.2 778.5,196.7"/></a>
+<a id="n-tt0139641" href="https://www.criterionchannel.com/ten-nights-in-a-bar-room" target="_blank" rel="noopener"><polygon class="node" points="1056.5,265.8 1050.4,269.3 1044.4,265.8 1044.4,258.8 1050.4,255.3 1056.5,258.8"/></a>
+<a id="n-tt0022941" href="https://www.criterionchannel.com/the-girl-from-chicago" target="_blank" rel="noopener"><polygon class="node" points="319.7,755.2 313.7,758.7 307.6,755.2 307.6,748.2 313.7,744.7 319.7,748.2"/></a>
+<polygon id="n-tt0038854" class="node" points="348.8,335.6 342.8,339.1 336.7,335.6 336.7,328.6 342.8,325.1 348.8,328.6"/>
+<a id="n-tt0018362" href="https://www.criterionchannel.com/the-scar-of-shame" target="_blank" rel="noopener"><polygon class="node" points="1522.9,493.3 1516.8,496.8 1510.8,493.3 1510.8,486.3 1516.8,482.8 1522.9,486.3"/></a>
+<a id="n-tt0049730" href="https://www.criterionchannel.com/the-searchers" target="_blank" rel="noopener"><polygon class="node" points="549.9,821.3 543.9,824.8 537.8,821.3 537.8,814.3 543.9,810.8 549.9,814.3"/></a>
+<a id="n-tt0018528" href="https://www.criterion.com/films/31173-the-unknown" target="_blank" rel="noopener"><polygon class="node" points="1136.6,778.0 1130.5,781.5 1124.5,778.0 1124.5,771.0 1130.5,767.5 1136.6,771.0"/></a>
+<a id="n-tt0027214" href="https://www.criterionchannel.com/the-whole-town-s-talking" target="_blank" rel="noopener"><polygon class="node" points="128.1,379.1 122.0,382.6 115.9,379.1 115.9,372.1 122.0,368.6 128.1,372.1"/></a>
+<a id="n-tt0067959" href="https://www.criterion.com/films/522-walkabout" target="_blank" rel="noopener"><polygon class="node" points="270.9,593.7 264.8,597.2 258.7,593.7 258.7,586.7 264.8,583.2 270.9,586.7"/></a>
+<a id="n-tt0048801" href="https://www.criterionchannel.com/we-re-no-angels" target="_blank" rel="noopener"><polygon class="node" points="1345.4,651.9 1339.4,655.4 1333.3,651.9 1333.3,644.9 1339.4,641.4 1345.4,644.9"/></a>
+<a id="n-tt0022578" href="https://www.criterion.com/films/31084-working-girls" target="_blank" rel="noopener"><polygon class="node" points="181.9,641.4 175.8,644.9 169.7,641.4 169.7,634.4 175.8,630.9 181.9,634.4"/></a>
+<a id="n-tt0055506" href="https://www.criterion.com/films/28734-a-taste-of-honey" target="_blank" rel="noopener"><polygon class="node" points="211.4,521.8 205.3,525.3 199.3,521.8 199.3,514.8 205.3,511.3 211.4,514.8"/></a>
+<a id="n-tt0080310" href="https://www.criterion.com/films/27766-breaker-morant" target="_blank" rel="noopener"><polygon class="node" points="154.5,517.2 148.4,520.7 142.3,517.2 142.3,510.2 148.4,506.7 154.5,510.2"/></a>
+<a id="n-tt0039224" href="https://www.criterion.com/films/820-brute-force" target="_blank" rel="noopener"><polygon class="node" points="353.2,238.1 347.2,241.6 341.1,238.1 341.1,231.1 347.2,227.6 353.2,231.1"/></a>
+<a id="n-tt0057468" href="https://www.criterionchannel.com/death-drums-along-the-river" target="_blank" rel="noopener"><polygon class="node" points="1444.7,625.6 1438.7,629.1 1432.6,625.6 1432.6,618.6 1438.7,615.1 1444.7,618.6"/></a>
+<a id="n-tt0050307" href="https://www.criterionchannel.com/desk-set" target="_blank" rel="noopener"><polygon class="node" points="880.0,189.2 873.9,192.7 867.8,189.2 867.8,182.2 873.9,178.7 880.0,182.2"/></a>
+<a id="n-tt0017825" href="https://www.criterionchannel.com/downhill" target="_blank" rel="noopener"><polygon class="node" points="200.7,319.0 194.7,322.5 188.6,319.0 188.6,312.0 194.7,308.5 200.7,312.0"/></a>
+<a id="n-tt0059619" href="https://www.criterion.com/films/348-fists-in-the-pocket" target="_blank" rel="noopener"><polygon class="node" points="429.4,797.8 423.4,801.3 417.3,797.8 417.3,790.8 423.4,787.3 429.4,790.8"/></a>
+<a id="n-tt0067185" href="https://www.criterion.com/films/27896-harold-and-maude" target="_blank" rel="noopener"><polygon class="node" points="182.5,441.2 176.4,444.7 170.4,441.2 170.4,434.2 176.4,430.7 182.5,434.2"/></a>
+<a id="n-tt0053917" href="https://www.criterionchannel.com/home-from-the-hill" target="_blank" rel="noopener"><polygon class="node" points="358.4,669.2 352.4,672.7 346.3,669.2 346.3,662.2 352.4,658.7 358.4,662.2"/></a>
+<a id="n-tt0192194" href="https://www.criterionchannel.com/julien-donkey-boy" target="_blank" rel="noopener"><polygon class="node" points="502.9,746.2 496.8,749.7 490.7,746.2 490.7,739.2 496.8,735.7 502.9,739.2"/></a>
+<a id="n-tt0056905" href="https://www.criterionchannel.com/les-carabiniers" target="_blank" rel="noopener"><polygon class="node" points="1374.4,548.2 1368.3,551.7 1362.2,548.2 1362.2,541.2 1368.3,537.7 1374.4,541.2"/></a>
+<polygon id="n-tt4288356" class="node" points="131.5,617.3 125.4,620.8 119.4,617.3 119.4,610.3 125.4,606.8 131.5,610.3"/>
+<a id="n-tt0031593" href="https://www.criterion.com/films/32533-love-affair" target="_blank" rel="noopener"><polygon class="node" points="318.2,329.8 312.1,333.3 306.1,329.8 306.1,322.8 312.1,319.3 318.2,322.8"/></a>
+<a id="n-tt0102458" href="https://www.criterion.com/films/28102-mister-johnson" target="_blank" rel="noopener"><polygon class="node" points="281.6,256.1 275.5,259.6 269.5,256.1 269.5,249.1 275.5,245.6 281.6,249.1"/></a>
+<a id="n-tt0107653" href="https://www.criterion.com/films/220-naked" target="_blank" rel="noopener"><polygon class="node" points="676.5,155.6 670.4,159.1 664.3,155.6 664.3,148.6 670.4,145.1 676.5,148.6"/></a>
+<polygon id="n-tt0049552" class="node" points="949.5,151.8 943.4,155.3 937.3,151.8 937.3,144.8 943.4,141.3 949.5,144.8"/>
+<a id="n-tt0031742" href="https://www.criterionchannel.com/of-mice-and-men" target="_blank" rel="noopener"><polygon class="node" points="1521.7,468.7 1515.6,472.2 1509.6,468.7 1509.6,461.7 1515.6,458.2 1521.7,461.7"/></a>
+<a id="n-tt0079766" href="https://www.criterion.com/films/27775-quadrophenia" target="_blank" rel="noopener"><polygon class="node" points="1348.6,574.9 1342.6,578.4 1336.5,574.9 1336.5,567.9 1342.6,564.4 1348.6,567.9"/></a>
+<a id="n-tt0052587" href="https://www.criterion.com/films/804-the-atomic-submarine" target="_blank" rel="noopener"><polygon class="node" points="121.2,525.7 115.2,529.2 109.1,525.7 109.1,518.7 115.2,515.2 121.2,518.7"/></a>
+<a id="n-tt0071282" href="https://www.criterionchannel.com/the-cars-that-ate-paris" target="_blank" rel="noopener"><polygon class="node" points="194.1,693.5 188.0,697.0 181.9,693.5 181.9,686.5 188.0,683.0 194.1,686.5"/></a>
+<a id="n-tt0021890" href="https://www.criterionchannel.com/the-front-page" target="_blank" rel="noopener"><polygon class="node" points="1399.6,678.6 1393.5,682.1 1387.5,678.6 1387.5,671.6 1393.5,668.1 1399.6,671.6"/></a>
+<a id="n-tt0076299" href="https://www.criterion.com/films/685-the-last-wave" target="_blank" rel="noopener"><polygon class="node" points="1119.4,184.1 1113.3,187.6 1107.3,184.1 1107.3,177.1 1113.3,173.6 1119.4,177.1"/></a>
+<a id="n-tt0040636" href="https://www.criterion.com/films/818-the-naked-city" target="_blank" rel="noopener"><polygon class="node" points="428.2,697.9 422.2,701.4 416.1,697.9 416.1,690.9 422.2,687.4 428.2,690.9"/></a>
+<a id="n-tt0044072" href="https://www.criterion.com/films/445-the-steel-helmet" target="_blank" rel="noopener"><polygon class="node" points="1227.4,676.2 1221.3,679.7 1215.3,676.2 1215.3,669.2 1221.3,665.7 1227.4,669.2"/></a>
+<a id="n-tt0035446" href="https://www.criterion.com/films/27690-to-be-or-not-to-be" target="_blank" rel="noopener"><polygon class="node" points="653.2,178.2 647.1,181.7 641.0,178.2 641.0,171.2 647.1,167.7 653.2,171.2"/></a>
+<polygon id="n-tt0090297" class="node" points="273.3,478.9 267.3,482.4 261.2,478.9 261.2,471.9 267.3,468.4 273.3,471.9"/>
+<a id="n-tt0058182" href="https://www.criterion.com/films/28547-a-hard-day-s-night" target="_blank" rel="noopener"><polygon class="node" points="857.8,836.3 851.7,839.8 845.7,836.3 845.7,829.3 851.7,825.8 857.8,829.3"/></a>
+<a id="n-tt0135163" href="https://www.criterionchannel.com/birthright" target="_blank" rel="noopener"><polygon class="node" points="402.1,788.9 396.0,792.4 389.9,788.9 389.9,781.9 396.0,778.4 402.1,781.9"/></a>
+<a id="n-tt0066842" href="https://www.criterionchannel.com/bleak-moments" target="_blank" rel="noopener"><polygon class="node" points="285.3,700.4 279.3,703.9 273.2,700.4 273.2,693.4 279.3,689.9 285.3,693.4"/></a>
+<a id="n-tt0085279" href="https://www.criterionchannel.com/bullshot" target="_blank" rel="noopener"><polygon class="node" points="1254.2,309.8 1248.1,313.3 1242.1,309.8 1242.1,302.8 1248.1,299.3 1254.2,302.8"/></a>
+<a id="n-tt0082117" href="https://www.criterionchannel.com/burning-an-illusion" target="_blank" rel="noopener"><polygon class="node" points="683.8,206.9 677.7,210.4 671.6,206.9 671.6,199.9 677.7,196.4 683.8,199.9"/></a>
+<a id="n-tt0284034" href="https://www.criterionchannel.com/demonlover" target="_blank" rel="noopener"><polygon class="node" points="306.5,666.6 300.4,670.1 294.3,666.6 294.3,659.6 300.4,656.1 306.5,659.6"/></a>
+<a id="n-tt0119375" href="https://www.criterion.com/films/585-insomnia" target="_blank" rel="noopener"><polygon class="node" points="303.5,375.7 297.5,379.2 291.4,375.7 291.4,368.7 297.5,365.2 303.5,368.7"/></a>
+<a id="n-tt0071797" href="https://www.criterionchannel.com/mahler" target="_blank" rel="noopener"><polygon class="node" points="586.3,158.8 580.2,162.3 574.1,158.8 574.1,151.8 580.2,148.3 586.3,151.8"/></a>
+<a id="n-tt0100318" href="https://www.criterionchannel.com/pacific-heights" target="_blank" rel="noopener"><polygon class="node" points="440.5,778.8 434.4,782.3 428.3,778.8 428.3,771.8 434.4,768.3 440.5,771.8"/></a>
+<a id="n-tt0098112" href="https://www.criterionchannel.com/powwow-highway" target="_blank" rel="noopener"><polygon class="node" points="1406.8,424.8 1400.7,428.3 1394.6,424.8 1394.6,417.8 1400.7,414.3 1406.8,417.8"/></a>
+<polygon id="n-tt1837636" class="node" points="146.6,416.9 140.5,420.4 134.5,416.9 134.5,409.9 140.5,406.4 146.6,409.9"/>
+<a id="n-tt0007340" href="https://www.criterionchannel.com/shoes" target="_blank" rel="noopener"><polygon class="node" points="603.2,819.8 597.2,823.3 591.1,819.8 591.1,812.8 597.2,809.3 603.2,812.8"/></a>
+<polygon id="n-tt0016395" class="node" points="1205.8,301.9 1199.7,305.4 1193.6,301.9 1193.6,294.9 1199.7,291.4 1205.8,294.9"/>
+<a id="n-tt0042229" href="https://www.criterion.com/films/881-the-baron-of-arizona" target="_blank" rel="noopener"><polygon class="node" points="255.8,391.6 249.8,395.1 243.7,391.6 243.7,384.6 249.8,381.1 255.8,384.6"/></a>
+<a id="n-tt0051418" href="https://www.criterion.com/films/630-the-blob" target="_blank" rel="noopener"><polygon class="node" points="476.1,181.8 470.1,185.3 464.0,181.8 464.0,174.8 470.1,171.3 476.1,174.8"/></a>
+<a id="n-tt0078908" href="https://www.criterion.com/films/28439-the-brood" target="_blank" rel="noopener"><polygon class="node" points="1373.0,304.4 1366.9,307.9 1360.8,304.4 1360.8,297.4 1366.9,293.9 1373.0,297.4"/></a>
+<a id="n-tt0099292" href="https://www.criterion.com/films/29638-the-comfort-of-strangers" target="_blank" rel="noopener"><polygon class="node" points="1078.6,819.4 1072.5,822.9 1066.5,819.4 1066.5,812.4 1072.5,808.9 1078.6,812.4"/></a>
+<a id="n-tt1700844" href="https://www.criterionchannel.com/the-deep-blue-sea" target="_blank" rel="noopener"><polygon class="node" points="223.3,634.0 217.3,637.5 211.2,634.0 211.2,627.0 217.3,623.5 223.3,627.0"/></a>
+<a id="n-tt0021844" href="https://www.criterionchannel.com/the-exile" target="_blank" rel="noopener"><polygon class="node" points="1343.5,620.9 1337.5,624.4 1331.4,620.9 1331.4,613.9 1337.5,610.4 1343.5,613.9"/></a>
+<a id="n-tt0018054" href="https://www.criterion.com/films/949-the-king-of-kings" target="_blank" rel="noopener"><polygon class="node" points="1375.5,597.9 1369.4,601.4 1363.3,597.9 1363.3,590.9 1369.4,587.4 1375.5,590.9"/></a>
+<a id="n-tt0031650" href="https://www.criterion.com/films/27551-the-mikado" target="_blank" rel="noopener"><polygon class="node" points="388.3,688.8 382.3,692.3 376.2,688.8 376.2,681.8 382.3,678.3 388.3,681.8"/></a>
+<a id="n-tt0058390" href="https://www.criterion.com/films/533-the-naked-kiss" target="_blank" rel="noopener"><polygon class="node" points="631.0,244.2 624.9,247.7 618.9,244.2 618.9,237.2 624.9,233.7 631.0,237.2"/></a>
+<g id="t-tt0031831" class="tooltip">
+  <rect x="596.3" y="467.8" width="221.4" height="34.0" rx="6"/>
+  <text x="707.0" y="489.8" text-anchor="middle">Q Planes (1939) · degree 35</text>
+</g>
+<g id="t-tt0032179" class="tooltip">
+  <rect x="659.1" y="399.0" width="213.2" height="34.0" rx="6"/>
+  <text x="765.7" y="421.0" text-anchor="middle">21 Days (1940) · degree 30</text>
+</g>
+<g id="t-tt0030082" class="tooltip">
+  <rect x="723.9" y="446.3" width="221.4" height="34.0" rx="6"/>
+  <text x="834.6" y="468.3" text-anchor="middle">The Drum (1938) · degree 29</text>
+</g>
+<g id="t-tt0030063" class="tooltip">
+  <rect x="658.3" y="400.5" width="328.0" height="34.0" rx="6"/>
+  <text x="822.3" y="422.5" text-anchor="middle">The Divorce of Lady X (1938) · degree 28</text>
+</g>
+<g id="t-tt0038574" class="tooltip">
+  <rect x="609.5" y="455.3" width="303.4" height="34.0" rx="6"/>
+  <text x="761.2" y="477.3" text-anchor="middle">Great Expectations (1946) · degree 27</text>
+</g>
+<g id="t-tt0031575" class="tooltip">
+  <rect x="710.5" y="433.6" width="303.4" height="34.0" rx="6"/>
+  <text x="862.2" y="455.6" text-anchor="middle">The Lion Has Wings (1939) · degree 27</text>
+</g>
+<g id="t-tt0028167" class="tooltip">
+  <rect x="696.0" y="486.6" width="229.6" height="34.0" rx="6"/>
+  <text x="810.8" y="508.6" text-anchor="middle">Rembrandt (1936) · degree 26</text>
+</g>
+<g id="t-tt0036910" class="tooltip">
+  <rect x="771.6" y="465.6" width="213.2" height="34.0" rx="6"/>
+  <text x="878.2" y="487.6" text-anchor="middle">Henry V (1944) · degree 25</text>
+</g>
+<g id="t-tt0029201" class="tooltip">
+  <rect x="524.8" y="410.8" width="410.0" height="34.0" rx="6"/>
+  <text x="729.8" y="432.8" text-anchor="middle">The Man Who Could Work Miracles (1936) · degree 25</text>
+</g>
+<g id="t-tt0032145" class="tooltip">
+  <rect x="591.8" y="488.3" width="295.2" height="34.0" rx="6"/>
+  <text x="739.4" y="510.3" text-anchor="middle">Wuthering Heights (1939) · degree 25</text>
+</g>
+<g id="t-tt0029603" class="tooltip">
+  <rect x="1021.0" y="310.7" width="254.2" height="34.0" rx="6"/>
+  <text x="1148.1" y="332.7" text-anchor="middle">The Squeaker (1937) · degree 24</text>
+</g>
+<g id="t-tt0033868" class="tooltip">
+  <rect x="807.8" y="640.7" width="262.4" height="34.0" rx="6"/>
+  <text x="939.0" y="662.7" text-anchor="middle">Major Barbara (1941) · degree 23</text>
+</g>
+<g id="t-tt0053796" class="tooltip">
+  <rect x="987.5" y="495.2" width="278.8" height="34.0" rx="6"/>
+  <text x="1126.9" y="517.2" text-anchor="middle">The Entertainer (1960) · degree 23</text>
+</g>
+<g id="t-tt0028358" class="tooltip">
+  <rect x="561.1" y="333.2" width="270.6" height="34.0" rx="6"/>
+  <text x="696.4" y="355.2" text-anchor="middle">Things to Come (1936) · degree 23</text>
+</g>
+<g id="t-tt0049674" class="tooltip">
+  <rect x="1069.7" y="408.4" width="246.0" height="34.0" rx="6"/>
+  <text x="1192.7" y="430.4" text-anchor="middle">Richard III (1955) · degree 22</text>
+</g>
+<g id="t-tt0025710" class="tooltip">
+  <rect x="390.4" y="559.5" width="401.8" height="34.0" rx="6"/>
+  <text x="591.3" y="581.5" text-anchor="middle">The Return of Bulldog Drummond (1934) · degree 22</text>
+</g>
+<g id="t-tt0025748" class="tooltip">
+  <rect x="762.4" y="607.0" width="328.0" height="34.0" rx="6"/>
+  <text x="926.4" y="629.0" text-anchor="middle">The Scarlet Pimpernel (1934) · degree 22</text>
+</g>
+<g id="t-tt0040098" class="tooltip">
+  <rect x="425.9" y="467.7" width="262.4" height="34.0" rx="6"/>
+  <text x="557.1" y="489.7" text-anchor="middle">Anna Karenina (1948) · degree 21</text>
+</g>
+<g id="t-tt0030637" class="tooltip">
+  <rect x="850.3" y="304.7" width="229.6" height="34.0" rx="6"/>
+  <text x="965.1" y="326.7" text-anchor="middle">Pygmalion (1938) · degree 21</text>
+</g>
+<g id="t-tt0031334" class="tooltip">
+  <rect x="502.7" y="630.1" width="295.2" height="34.0" rx="6"/>
+  <text x="650.3" y="652.1" text-anchor="middle">The Four Feathers (1939) · degree 21</text>
+</g>
+<g id="t-tt0044355" class="tooltip">
+  <rect x="773.1" y="252.0" width="336.2" height="34.0" rx="6"/>
+  <text x="941.2" y="274.0" text-anchor="middle">Androcles and the Lion (1952) · degree 20</text>
+</g>
+<g id="t-tt0040416" class="tooltip">
+  <rect x="621.2" y="604.4" width="205.0" height="34.0" rx="6"/>
+  <text x="723.7" y="626.4" text-anchor="middle">Hamlet (1948) · degree 20</text>
+</g>
+<g id="t-tt0040662" class="tooltip">
+  <rect x="920.8" y="598.3" width="254.2" height="34.0" rx="6"/>
+  <text x="1047.9" y="620.3" text-anchor="middle">Oliver Twist (1948) · degree 20</text>
+</g>
+<g id="t-tt0045056" class="tooltip">
+  <rect x="957.1" y="455.2" width="221.4" height="34.0" rx="6"/>
+  <text x="1067.8" y="477.2" text-anchor="middle">The Card (1952) · degree 20</text>
+</g>
+<g id="t-tt0033627" class="tooltip">
+  <rect x="460.0" y="272.9" width="262.4" height="34.0" rx="6"/>
+  <text x="591.2" y="294.9" text-anchor="middle">49th Parallel (1941) · degree 19</text>
+</g>
+<g id="t-tt0027635" class="tooltip">
+  <rect x="744.2" y="256.2" width="262.4" height="34.0" rx="6"/>
+  <text x="875.4" y="278.2" text-anchor="middle">Forget Me Not (1936) · degree 19</text>
+</g>
+<g id="t-tt0042700" class="tooltip">
+  <rect x="378.4" y="378.3" width="229.6" height="34.0" rx="6"/>
+  <text x="493.2" y="400.3" text-anchor="middle">Madeleine (1950) · degree 19</text>
+</g>
+<g id="t-tt0038390" class="tooltip">
+  <rect x="827.4" y="531.1" width="319.8" height="34.0" rx="6"/>
+  <text x="987.3" y="553.1" text-anchor="middle">Caesar and Cleopatra (1945) · degree 18</text>
+</g>
+<g id="t-tt0039677" class="tooltip">
+  <rect x="298.2" y="483.8" width="246.0" height="34.0" rx="6"/>
+  <text x="421.2" y="505.8" text-anchor="middle">Odd Man Out (1947) · degree 18</text>
+</g>
+<g id="t-tt0037367" class="tooltip">
+  <rect x="690.6" y="268.5" width="287.0" height="34.0" rx="6"/>
+  <text x="834.1" y="290.5" text-anchor="middle">This Happy Breed (1944) · degree 18</text>
+</g>
+<g id="t-tt0078480" class="tooltip">
+  <rect x="308.0" y="386.6" width="270.6" height="34.0" rx="6"/>
+  <text x="443.3" y="408.6" text-anchor="middle">Watership Down (1978) · degree 18</text>
+</g>
+<g id="t-tt0024757" class="tooltip">
+  <rect x="532.3" y="619.4" width="295.2" height="34.0" rx="6"/>
+  <text x="679.9" y="641.4" text-anchor="middle">Wedding Rehearsal (1932) · degree 18</text>
+</g>
+<g id="t-tt0039192" class="tooltip">
+  <rect x="466.7" y="489.7" width="278.8" height="34.0" rx="6"/>
+  <text x="606.1" y="511.7" text-anchor="middle">Black Narcissus (1947) · degree 17</text>
+</g>
+<g id="t-tt0047094" class="tooltip">
+  <rect x="431.9" y="523.1" width="278.8" height="34.0" rx="6"/>
+  <text x="571.3" y="545.1" text-anchor="middle">Hobson’s Choice (1954) · degree 17</text>
+</g>
+<g id="t-tt0037800" class="tooltip">
+  <rect x="670.4" y="659.2" width="344.4" height="34.0" rx="6"/>
+  <text x="842.6" y="681.2" text-anchor="middle">I Know Where I’m Going! (1945) · degree 17</text>
+</g>
+<g id="t-tt0041460" class="tooltip">
+  <rect x="642.0" y="557.2" width="229.6" height="34.0" rx="6"/>
+  <text x="756.8" y="579.2" text-anchor="middle">Obsession (1949) · degree 17</text>
+</g>
+<g id="t-tt0029365" class="tooltip">
+  <rect x="513.6" y="323.4" width="262.4" height="34.0" rx="6"/>
+  <text x="644.8" y="345.4" text-anchor="middle">Over the Moon (1939) · degree 17</text>
+</g>
+<g id="t-tt0042980" class="tooltip">
+  <rect x="720.5" y="272.7" width="311.6" height="34.0" rx="6"/>
+  <text x="876.3" y="294.7" text-anchor="middle">So Long at the Fair (1950) · degree 17</text>
+</g>
+<g id="t-tt0033152" class="tooltip">
+  <rect x="324.5" y="555.6" width="311.6" height="34.0" rx="6"/>
+  <text x="480.3" y="577.6" text-anchor="middle">The Thief of Bagdad (1940) · degree 17</text>
+</g>
+<g id="t-tt0029087" class="tooltip">
+  <rect x="842.8" y="628.9" width="328.0" height="34.0" rx="6"/>
+  <text x="1006.8" y="650.9" text-anchor="middle">Knight Without Armour (1937) · degree 16</text>
+</g>
+<g id="t-tt0042665" class="tooltip">
+  <rect x="847.8" y="504.5" width="254.2" height="34.0" rx="6"/>
+  <text x="974.9" y="526.5" text-anchor="middle">Last Holiday (1950) · degree 16</text>
+</g>
+<g id="t-tt0026966" class="tooltip">
+  <rect x="384.1" y="448.2" width="319.8" height="34.0" rx="6"/>
+  <text x="544.0" y="470.2" text-anchor="middle">Sanders of the River (1935) · degree 16</text>
+</g>
+<g id="t-tt0034272" class="tooltip">
+  <rect x="398.7" y="562.8" width="311.6" height="34.0" rx="6"/>
+  <text x="554.5" y="584.8" text-anchor="middle">That Hamilton Woman (1941) · degree 16</text>
+</g>
+<g id="t-tt0051739" class="tooltip">
+  <rect x="449.2" y="340.4" width="295.2" height="34.0" rx="6"/>
+  <text x="596.8" y="362.4" text-anchor="middle">The Horse’s Mouth (1958) · degree 16</text>
+</g>
+<g id="t-tt0052997" class="tooltip">
+  <rect x="895.0" y="531.0" width="344.4" height="34.0" rx="6"/>
+  <text x="1067.2" y="553.0" text-anchor="middle">The League of Gentlemen (1960) · degree 16</text>
+</g>
+<g id="t-tt0024473" class="tooltip">
+  <rect x="834.0" y="420.3" width="401.8" height="34.0" rx="6"/>
+  <text x="1034.9" y="442.3" text-anchor="middle">The Private Life of Henry VIII (1933) · degree 16</text>
+</g>
+<g id="t-tt0041886" class="tooltip">
+  <rect x="509.6" y="243.2" width="311.6" height="34.0" rx="6"/>
+  <text x="665.4" y="265.2" text-anchor="middle">The Small Back Room (1949) · degree 16</text>
+</g>
+<g id="t-tt0031968" class="tooltip">
+  <rect x="938.6" y="421.3" width="287.0" height="34.0" rx="6"/>
+  <text x="1082.1" y="443.3" text-anchor="middle">The Spy in Black (1939) · degree 16</text>
+</g>
+<g id="t-tt0054412" class="tooltip">
+  <rect x="580.5" y="249.5" width="270.6" height="34.0" rx="6"/>
+  <text x="715.8" y="271.5" text-anchor="middle">Tunes of Glory (1960) · degree 16</text>
+</g>
+<g id="t-tt0044837" class="tooltip">
+  <rect x="638.5" y="615.1" width="229.6" height="34.0" rx="6"/>
+  <text x="753.3" y="637.1" text-anchor="middle">Limelight (1952) · degree 15</text>
+</g>
+<g id="t-tt0027969" class="tooltip">
+  <rect x="860.7" y="381.7" width="262.4" height="34.0" rx="6"/>
+  <text x="991.9" y="403.7" text-anchor="middle">The Milky Way (1936) · degree 15</text>
+</g>
+<g id="t-tt0030675" class="tooltip">
+  <rect x="316.2" y="377.7" width="442.8" height="34.0" rx="6"/>
+  <text x="537.6" y="399.7" text-anchor="middle">The Return of the Scarlet Pimpernel (1937) · degree 15</text>
+</g>
+<g id="t-tt0024962" class="tooltip">
+  <rect x="757.0" y="346.7" width="410.0" height="34.0" rx="6"/>
+  <text x="962.0" y="368.7" text-anchor="middle">The Rise of Catherine the Great (1934) · degree 15</text>
+</g>
+<g id="t-tt0081633" class="tooltip">
+  <rect x="442.1" y="330.2" width="254.2" height="34.0" rx="6"/>
+  <text x="569.2" y="352.2" text-anchor="middle">Time Bandits (1981) · degree 15</text>
+</g>
+<g id="t-tt0049856" class="tooltip">
+  <rect x="436.5" y="300.7" width="295.2" height="34.0" rx="6"/>
+  <text x="584.1" y="322.7" text-anchor="middle">Time Without Pity (1957) · degree 15</text>
+</g>
+<g id="t-tt0039195" class="tooltip">
+  <rect x="474.2" y="507.1" width="254.2" height="34.0" rx="6"/>
+  <text x="601.3" y="529.1" text-anchor="middle">Blanche Fury (1948) · degree 14</text>
+</g>
+<g id="t-tt0034891" class="tooltip">
+  <rect x="438.1" y="453.0" width="295.2" height="34.0" rx="6"/>
+  <text x="585.7" y="475.0" text-anchor="middle">In Which We Serve (1942) · degree 14</text>
+</g>
+<g id="t-tt0023241" class="tooltip">
+  <rect x="864.7" y="569.2" width="246.0" height="34.0" rx="6"/>
+  <text x="987.7" y="591.2" text-anchor="middle">Movie Crazy (1932) · degree 14</text>
+</g>
+<g id="t-tt0080678" class="tooltip">
+  <rect x="454.7" y="387.0" width="287.0" height="34.0" rx="6"/>
+  <text x="598.2" y="409.0" text-anchor="middle">The Elephant Man (1980) · degree 14</text>
+</g>
+<g id="t-tt0018051" class="tooltip">
+  <rect x="891.4" y="390.3" width="278.8" height="34.0" rx="6"/>
+  <text x="1030.8" y="412.3" text-anchor="middle">The Kid Brother (1927) · degree 14</text>
+</g>
+<g id="t-tt0036135" class="tooltip">
+  <rect x="451.2" y="599.2" width="278.8" height="34.0" rx="6"/>
+  <text x="590.6" y="621.2" text-anchor="middle">The Man in Grey (1943) · degree 14</text>
+</g>
+<g id="t-tt0040725" class="tooltip">
+  <rect x="1033.4" y="475.3" width="262.4" height="34.0" rx="6"/>
+  <text x="1164.6" y="497.3" text-anchor="middle">The Red Shoes (1948) · degree 14</text>
+</g>
+<g id="t-tt0038924" class="tooltip">
+  <rect x="216.8" y="473.5" width="287.0" height="34.0" rx="6"/>
+  <text x="360.3" y="495.5" text-anchor="middle">The Seventh Veil (1945) · degree 14</text>
+</g>
+<g id="t-tt0050598" class="tooltip">
+  <rect x="1003.0" y="550.5" width="303.4" height="34.0" rx="6"/>
+  <text x="1154.7" y="572.5" text-anchor="middle">A King in New York (1957) · degree 13</text>
+</g>
+<g id="t-tt0040155" class="tooltip">
+  <rect x="320.8" y="459.1" width="270.6" height="34.0" rx="6"/>
+  <text x="456.1" y="481.1" text-anchor="middle">Berlin Express (1948) · degree 13</text>
+</g>
+<g id="t-tt0028827" class="tooltip">
+  <rect x="278.1" y="353.5" width="254.2" height="34.0" rx="6"/>
+  <text x="405.2" y="375.5" text-anchor="middle">Elephant Boy (1937) · degree 13</text>
+</g>
+<g id="t-tt0020876" class="tooltip">
+  <rect x="378.1" y="429.2" width="237.8" height="34.0" rx="6"/>
+  <text x="497.0" y="451.2" text-anchor="middle">Feet First (1930) · degree 13</text>
+</g>
+<g id="t-tt0051713" class="tooltip">
+  <rect x="1002.8" y="471.5" width="254.2" height="34.0" rx="6"/>
+  <text x="1129.9" y="493.5" text-anchor="middle">Hell Drivers (1957) · degree 13</text>
+</g>
+<g id="t-tt0024961" class="tooltip">
+  <rect x="433.8" y="407.5" width="262.4" height="34.0" rx="6"/>
+  <text x="565.0" y="429.5" text-anchor="middle">The Cat’s Paw (1934) · degree 13</text>
+</g>
+<g id="t-tt0030341" class="tooltip">
+  <rect x="921.9" y="481.3" width="295.2" height="34.0" rx="6"/>
+  <text x="1069.5" y="503.3" text-anchor="middle">The Lady Vanishes (1938) · degree 13</text>
+</g>
+<g id="t-tt0078259" class="tooltip">
+  <rect x="437.0" y="579.6" width="229.6" height="34.0" rx="6"/>
+  <text x="551.8" y="601.6" text-anchor="middle">The Shout (1978) · degree 13</text>
+</g>
+<g id="t-tt0013075" class="tooltip">
+  <rect x="977.8" y="405.0" width="221.4" height="34.0" rx="6"/>
+  <text x="1088.5" y="427.0" text-anchor="middle">Dr. Jack (1922) · degree 12</text>
+</g>
+<g id="t-tt0014945" class="tooltip">
+  <rect x="1021.0" y="441.0" width="221.4" height="34.0" rx="6"/>
+  <text x="1131.7" y="463.0" text-anchor="middle">Girl Shy (1924) · degree 12</text>
+</g>
+<g id="t-tt0013201" class="tooltip">
+  <rect x="665.0" y="234.1" width="262.4" height="34.0" rx="6"/>
+  <text x="796.2" y="256.1" text-anchor="middle">Grandma's Boy (1922) · degree 12</text>
+</g>
+<g id="t-tt0014429" class="tooltip">
+  <rect x="641.5" y="649.1" width="254.2" height="34.0" rx="6"/>
+  <text x="768.6" y="671.1" text-anchor="middle">Safety Last! (1923) · degree 12</text>
+</g>
+<g id="t-tt0019412" class="tooltip">
+  <rect x="816.3" y="342.8" width="205.0" height="34.0" rx="6"/>
+  <text x="918.8" y="364.8" text-anchor="middle">Speedy (1928) · degree 12</text>
+</g>
+<g id="t-tt0034734" class="tooltip">
+  <rect x="749.1" y="563.4" width="319.8" height="34.0" rx="6"/>
+  <text x="909.0" y="585.4" text-anchor="middle">The First of the Few (1942) · degree 12</text>
+</g>
+<g id="t-tt0015841" class="tooltip">
+  <rect x="934.0" y="317.7" width="254.2" height="34.0" rx="6"/>
+  <text x="1061.1" y="339.7" text-anchor="middle">The Freshman (1925) · degree 12</text>
+</g>
+<g id="t-tt0032553" class="tooltip">
+  <rect x="549.5" y="573.0" width="303.4" height="34.0" rx="6"/>
+  <text x="701.2" y="595.0" text-anchor="middle">The Great Dictator (1940) · degree 12</text>
+</g>
+<g id="t-tt0042898" class="tooltip">
+  <rect x="838.8" y="585.7" width="352.6" height="34.0" rx="6"/>
+  <text x="1015.1" y="607.7" text-anchor="middle">The Rocking Horse Winner (1949) · degree 12</text>
+</g>
+<g id="t-tt0020572" class="tooltip">
+  <rect x="690.7" y="550.0" width="270.6" height="34.0" rx="6"/>
+  <text x="826.0" y="572.0" text-anchor="middle">Welcome Danger (1929) · degree 12</text>
+</g>
+<g id="t-tt0014611" class="tooltip">
+  <rect x="340.1" y="353.7" width="237.8" height="34.0" rx="6"/>
+  <text x="459.0" y="375.7" text-anchor="middle">Why Worry? (1923) · degree 12</text>
+</g>
+<g id="t-tt0036695" class="tooltip">
+  <rect x="741.8" y="322.7" width="295.2" height="34.0" rx="6"/>
+  <text x="889.4" y="344.7" text-anchor="middle">A Canterbury Tale (1944) · degree 11</text>
+</g>
+<g id="t-tt0038363" class="tooltip">
+  <rect x="641.5" y="252.0" width="262.4" height="34.0" rx="6"/>
+  <text x="772.7" y="274.0" text-anchor="middle">Blithe Spirit (1945) · degree 11</text>
+</g>
+<g id="t-tt0037558" class="tooltip">
+  <rect x="311.3" y="580.0" width="278.8" height="34.0" rx="6"/>
+  <text x="450.7" y="602.0" text-anchor="middle">Brief Encounter (1945) · degree 11</text>
+</g>
+<g id="t-tt0043601" class="tooltip">
+  <rect x="339.5" y="459.7" width="328.0" height="34.0" rx="6"/>
+  <text x="503.5" y="481.7" text-anchor="middle">Green Grow the Rushes (1951) · degree 11</text>
+</g>
+<g id="t-tt0026406" class="tooltip">
+  <rect x="1013.4" y="396.2" width="311.6" height="34.0" rx="6"/>
+  <text x="1169.2" y="418.2" text-anchor="middle">The Ghost Goes West (1935) · degree 11</text>
+</g>
+<g id="t-tt0044744" class="tooltip">
+  <rect x="856.1" y="382.3" width="410.0" height="34.0" rx="6"/>
+  <text x="1061.1" y="404.3" text-anchor="middle">The Importance of Being Earnest (1952) · degree 11</text>
+</g>
+<g id="t-tt0036112" class="tooltip">
+  <rect x="383.0" y="413.6" width="442.8" height="34.0" rx="6"/>
+  <text x="604.4" y="435.6" text-anchor="middle">The Life and Death of Colonel Blimp (1943) · degree 11</text>
+</g>
+<g id="t-tt0093431" class="tooltip">
+  <rect x="875.8" y="565.6" width="442.8" height="34.0" rx="6"/>
+  <text x="1097.2" y="587.6" text-anchor="middle">The Lonely Passion of Judith Hearne (1987) · degree 11</text>
+</g>
+<g id="t-tt0032728" class="tooltip">
+  <rect x="274.7" y="323.1" width="319.8" height="34.0" rx="6"/>
+  <text x="434.6" y="345.1" text-anchor="middle">The Long Voyage Home (1940) · degree 11</text>
+</g>
+<g id="t-tt0041735" class="tooltip">
+  <rect x="359.2" y="422.3" width="336.2" height="34.0" rx="6"/>
+  <text x="527.3" y="444.3" text-anchor="middle">The Passionate Friends (1949) · degree 11</text>
+</g>
+<g id="t-tt0053361" class="tooltip">
+  <rect x="402.2" y="520.1" width="229.6" height="34.0" rx="6"/>
+  <text x="517.0" y="542.1" text-anchor="middle">Tiger Bay (1959) · degree 11</text>
+</g>
+<g id="t-tt0089838" class="tooltip">
+  <rect x="652.9" y="617.3" width="303.4" height="34.0" rx="6"/>
+  <text x="804.6" y="639.3" text-anchor="middle">A Private Function (1984) · degree 10</text>
+</g>
+<g id="t-tt0027977" class="tooltip">
+  <rect x="665.9" y="309.5" width="254.2" height="34.0" rx="6"/>
+  <text x="793.0" y="331.5" text-anchor="middle">Modern Times (1936) · degree 10</text>
+</g>
+<g id="t-tt0026029" class="tooltip">
+  <rect x="1000.7" y="576.6" width="254.2" height="34.0" rx="6"/>
+  <text x="1127.8" y="598.6" text-anchor="middle">The 39 Steps (1935) · degree 10</text>
+</g>
+<g id="t-tt0029982" class="tooltip">
+  <rect x="907.6" y="465.0" width="262.4" height="34.0" rx="6"/>
+  <text x="1038.8" y="487.0" text-anchor="middle">The Challenge (1938) · degree 10</text>
+</g>
+<g id="t-tt0018773" class="tooltip">
+  <rect x="781.3" y="546.7" width="237.8" height="34.0" rx="6"/>
+  <text x="900.2" y="568.7" text-anchor="middle">The Circus (1928) · degree 10</text>
+</g>
+<g id="t-tt0025452" class="tooltip">
+  <rect x="872.9" y="277.3" width="360.8" height="34.0" rx="6"/>
+  <text x="1053.3" y="299.3" text-anchor="middle">The Man Who Knew Too Much (1934) · degree 10</text>
+</g>
+<g id="t-tt0023238" class="tooltip">
+  <rect x="628.9" y="588.5" width="344.4" height="34.0" rx="6"/>
+  <text x="801.1" y="610.5" text-anchor="middle">The Most Dangerous Game (1932) · degree 10</text>
+</g>
+<g id="t-tt0071910" class="tooltip">
+  <rect x="504.1" y="526.5" width="287.0" height="34.0" rx="6"/>
+  <text x="647.6" y="548.5" text-anchor="middle">The Night Porter (1974) · degree 10</text>
+</g>
+<g id="t-tt0025681" class="tooltip">
+  <rect x="1003.9" y="516.1" width="385.4" height="34.0" rx="6"/>
+  <text x="1196.6" y="538.1" text-anchor="middle">The Private Life of Don Juan (1934) · degree 10</text>
+</g>
+<g id="t-tt0038250" class="tooltip">
+  <rect x="1005.0" y="328.2" width="278.8" height="34.0" rx="6"/>
+  <text x="1144.4" y="350.2" text-anchor="middle">The Wicked Lady (1945) · degree 10</text>
+</g>
+<g id="t-tt0057590" class="tooltip">
+  <rect x="430.0" y="289.8" width="229.6" height="34.0" rx="6"/>
+  <text x="544.8" y="311.8" text-anchor="middle">Tom Jones (1963) · degree 10</text>
+</g>
+<g id="t-tt0029081" class="tooltip">
+  <rect x="1099.7" y="705.9" width="311.6" height="34.0" rx="6"/>
+  <text x="1255.5" y="727.9" text-anchor="middle">King Solomon’s Mines (1937) · degree 9</text>
+</g>
+<g id="t-tt0033858" class="tooltip">
+  <rect x="65.4" y="420.3" width="188.6" height="34.0" rx="6"/>
+  <text x="159.7" y="442.3" text-anchor="middle">Lydia (1941) · degree 9</text>
+</g>
+<g id="t-tt1527186" class="tooltip">
+  <rect x="8.0" y="530.1" width="237.8" height="34.0" rx="6"/>
+  <text x="126.9" y="552.1" text-anchor="middle">Melancholia (2011) · degree 9</text>
+</g>
+<g id="t-tt0015864" class="tooltip">
+  <rect x="222.7" y="212.9" width="369.0" height="34.0" rx="6"/>
+  <text x="407.2" y="234.9" text-anchor="middle">THE GOLD RUSH: 1925 Version (1925) · degree 9</text>
+</g>
+<g id="t-tt0040160" class="tooltip">
+  <rect x="1050.0" y="676.3" width="254.2" height="34.0" rx="6"/>
+  <text x="1177.1" y="698.3" text-anchor="middle">The Big Clock (1948) · degree 9</text>
+</g>
+<g id="t-tt0043362" class="tooltip">
+  <rect x="96.5" y="606.6" width="311.6" height="34.0" rx="6"/>
+  <text x="252.3" y="628.6" text-anchor="middle">The Browning Version (1951) · degree 9</text>
+</g>
+<g id="t-tt0012349" class="tooltip">
+  <rect x="304.6" y="664.9" width="205.0" height="34.0" rx="6"/>
+  <text x="407.1" y="686.9" text-anchor="middle">The Kid (1921) · degree 9</text>
+</g>
+<g id="t-tt0043972" class="tooltip">
+  <rect x="403.6" y="718.8" width="221.4" height="34.0" rx="6"/>
+  <text x="514.3" y="740.8" text-anchor="middle">The River (1951) · degree 9</text>
+</g>
+<g id="t-tt0051994" class="tooltip">
+  <rect x="407.5" y="167.1" width="303.4" height="34.0" rx="6"/>
+  <text x="559.2" y="189.1" text-anchor="middle">A Night to Remember (1958) · degree 8</text>
+</g>
+<g id="t-tt0029952" class="tooltip">
+  <rect x="1194.0" y="354.8" width="344.4" height="34.0" rx="6"/>
+  <text x="1366.2" y="376.8" text-anchor="middle">Bulldog Drummond’s Peril (1938) · degree 8</text>
+</g>
+<g id="t-tt0021749" class="tooltip">
+  <rect x="8.0" y="491.5" width="237.8" height="34.0" rx="6"/>
+  <text x="126.9" y="513.5" text-anchor="middle">City Lights (1931) · degree 8</text>
+</g>
+<g id="t-tt0051542" class="tooltip">
+  <rect x="64.3" y="382.4" width="295.2" height="34.0" rx="6"/>
+  <text x="211.9" y="404.4" text-anchor="middle">Corridors of Blood (1959) · degree 8</text>
+</g>
+<g id="t-tt0112817" class="tooltip">
+  <rect x="292.0" y="163.1" width="213.2" height="34.0" rx="6"/>
+  <text x="398.6" y="185.1" text-anchor="middle">Dead Man (1995) · degree 8</text>
+</g>
+<g id="t-tt0038577" class="tooltip">
+  <rect x="8.0" y="378.5" width="278.8" height="34.0" rx="6"/>
+  <text x="147.4" y="400.5" text-anchor="middle">Green for Danger (1946) · degree 8</text>
+</g>
+<g id="t-tt0034881" class="tooltip">
+  <rect x="499.6" y="769.9" width="287.0" height="34.0" rx="6"/>
+  <text x="643.1" y="791.9" text-anchor="middle">I Married a Witch (1942) · degree 8</text>
+</g>
+<g id="t-tt0039631" class="tooltip">
+  <rect x="860.6" y="773.4" width="278.8" height="34.0" rx="6"/>
+  <text x="1000.0" y="795.4" text-anchor="middle">Monsieur Verdoux (1947) · degree 8</text>
+</g>
+<g id="t-tt0027985" class="tooltip">
+  <rect x="1070.6" y="191.2" width="319.8" height="34.0" rx="6"/>
+  <text x="1230.5" y="213.2" text-anchor="middle">More Than a Secretary (1936) · degree 8</text>
+</g>
+<g id="t-tt0029811" class="tooltip">
+  <rect x="228.8" y="263.7" width="295.2" height="34.0" rx="6"/>
+  <text x="376.4" y="285.7" text-anchor="middle">Young and Innocent (1937) · degree 8</text>
+</g>
+<g id="t-tt0028668" class="tooltip">
+  <rect x="543.5" y="174.8" width="344.4" height="34.0" rx="6"/>
+  <text x="715.7" y="196.8" text-anchor="middle">Bulldog Drummond Escapes (1937) · degree 7</text>
+</g>
+<g id="t-tt0048393" class="tooltip">
+  <rect x="1156.7" y="340.8" width="303.4" height="34.0" rx="6"/>
+  <text x="1308.4" y="362.8" text-anchor="middle">Confidential Report (1955) · degree 7</text>
+</g>
+<g id="t-tt0055928" class="tooltip">
+  <rect x="1246.8" y="377.0" width="196.8" height="34.0" rx="6"/>
+  <text x="1345.2" y="399.0" text-anchor="middle">Dr. No (1962) · degree 7</text>
+</g>
+<g id="t-tt0058150" class="tooltip">
+  <rect x="111.0" y="257.4" width="229.6" height="34.0" rx="6"/>
+  <text x="225.8" y="279.4" text-anchor="middle">Goldfinger (1964) · degree 7</text>
+</g>
+<g id="t-tt0038289" class="tooltip">
+  <rect x="832.3" y="119.1" width="319.8" height="34.0" rx="6"/>
+  <text x="992.2" y="141.1" text-anchor="middle">I See a Dark Stranger (1946) · degree 7</text>
+</g>
+<g id="t-tt0034928" class="tooltip">
+  <rect x="665.9" y="806.4" width="237.8" height="34.0" rx="6"/>
+  <text x="784.8" y="828.4" text-anchor="middle">Jungle Book (1942) · degree 7</text>
+</g>
+<g id="t-tt0023180" class="tooltip">
+  <rect x="1225.0" y="632.6" width="229.6" height="34.0" rx="6"/>
+  <text x="1339.8" y="654.6" text-anchor="middle">Man Wanted (1932) · degree 7</text>
+</g>
+<g id="t-tt0027954" class="tooltip">
+  <rect x="972.7" y="738.4" width="278.8" height="34.0" rx="6"/>
+  <text x="1112.1" y="760.4" text-anchor="middle">Men Are Not Gods (1936) · degree 7</text>
+</g>
+<g id="t-tt0034240" class="tooltip">
+  <rect x="70.2" y="306.5" width="295.2" height="34.0" rx="6"/>
+  <text x="217.8" y="328.5" text-anchor="middle">Sullivan’s Travels (1941) · degree 7</text>
+</g>
+<g id="t-tt0043140" class="tooltip">
+  <rect x="16.7" y="404.4" width="319.8" height="34.0" rx="6"/>
+  <text x="176.6" y="426.4" text-anchor="middle">The Woman in Question (1950) · degree 7</text>
+</g>
+<g id="t-tt0055597" class="tooltip">
+  <rect x="187.2" y="263.1" width="196.8" height="34.0" rx="6"/>
+  <text x="285.6" y="285.1" text-anchor="middle">Victim (1961) · degree 7</text>
+</g>
+<g id="t-tt0014624" class="tooltip">
+  <rect x="1180.8" y="692.5" width="278.8" height="34.0" rx="6"/>
+  <text x="1320.2" y="714.5" text-anchor="middle">A Woman of Paris (1923) · degree 6</text>
+</g>
+<g id="t-tt0039485" class="tooltip">
+  <rect x="1137.3" y="595.5" width="278.8" height="34.0" rx="6"/>
+  <text x="1276.7" y="617.5" text-anchor="middle">An Ideal Husband (1947) · degree 6</text>
+</g>
+<g id="t-tt0057076" class="tooltip">
+  <rect x="60.1" y="611.8" width="319.8" height="34.0" rx="6"/>
+  <text x="220.0" y="633.8" text-anchor="middle">From Russia with Love (1963) · degree 6</text>
+</g>
+<g id="t-tt0032599" class="tooltip">
+  <rect x="339.0" y="147.3" width="270.6" height="34.0" rx="6"/>
+  <text x="474.3" y="169.3" text-anchor="middle">His Girl Friday (1940) · degree 6</text>
+</g>
+<g id="t-tt0100024" class="tooltip">
+  <rect x="1157.9" y="269.0" width="254.2" height="34.0" rx="6"/>
+  <text x="1285.0" y="291.0" text-anchor="middle">Life Is Sweet (1990) · degree 6</text>
+</g>
+<g id="t-tt0045251" class="tooltip">
+  <rect x="609.5" y="788.0" width="205.0" height="34.0" rx="6"/>
+  <text x="712.0" y="810.0" text-anchor="middle">Othello (1952) · degree 6</text>
+</g>
+<g id="t-tt0054269" class="tooltip">
+  <rect x="350.6" y="729.4" width="418.2" height="34.0" rx="6"/>
+  <text x="559.7" y="751.4" text-anchor="middle">Saturday Night and Sunday Morning (1960) · degree 6</text>
+</g>
+<g id="t-tt0017075" class="tooltip">
+  <rect x="914.8" y="676.5" width="451.0" height="34.0" rx="6"/>
+  <text x="1140.3" y="698.5" text-anchor="middle">The Lodger: A Story of the London Fog (1927) · degree 6</text>
+</g>
+<g id="t-tt0028112" class="tooltip">
+  <rect x="8.0" y="584.7" width="344.4" height="34.0" rx="6"/>
+  <text x="180.2" y="606.7" text-anchor="middle">The Plough and the Stars (1936) · degree 6</text>
+</g>
+<g id="t-tt0057578" class="tooltip">
+  <rect x="574.3" y="144.6" width="295.2" height="34.0" rx="6"/>
+  <text x="721.9" y="166.6" text-anchor="middle">This Sporting Life (1963) · degree 6</text>
+</g>
+<g id="t-tt0047579" class="tooltip">
+  <rect x="1234.8" y="322.8" width="319.8" height="34.0" rx="6"/>
+  <text x="1394.7" y="344.8" text-anchor="middle">Three Cases of Murder (1955) · degree 6</text>
+</g>
+<g id="t-tt0030888" class="tooltip">
+  <rect x="1291.4" y="423.3" width="237.8" height="34.0" rx="6"/>
+  <text x="1410.3" y="445.3" text-anchor="middle">Trade Winds (1938) · degree 6</text>
+</g>
+<g id="t-tt0048250" class="tooltip">
+  <rect x="1255.8" y="347.0" width="336.2" height="34.0" rx="6"/>
+  <text x="1423.9" y="369.0" text-anchor="middle">A Kid for Two Farthings (1955) · degree 5</text>
+</g>
+<g id="t-tt0016630" class="tooltip">
+  <rect x="995.3" y="223.1" width="270.6" height="34.0" rx="6"/>
+  <text x="1130.6" y="245.1" text-anchor="middle">Battling Butler (1926) · degree 5</text>
+</g>
+<g id="t-tt0015634" class="tooltip">
+  <rect x="1149.5" y="678.3" width="254.2" height="34.0" rx="6"/>
+  <text x="1276.6" y="700.3" text-anchor="middle">Body and Soul (1925) · degree 5</text>
+</g>
+<g id="t-tt0039689" class="tooltip">
+  <rect x="409.7" y="148.7" width="270.6" height="34.0" rx="6"/>
+  <text x="545.0" y="170.7" text-anchor="middle">Out of the Past (1947) · degree 5</text>
+</g>
+<g id="t-tt0028212" class="tooltip">
+  <rect x="178.6" y="525.0" width="213.2" height="34.0" rx="6"/>
+  <text x="285.2" y="547.0" text-anchor="middle">Sabotage (1936) · degree 5</text>
+</g>
+<g id="t-tt0053242" class="tooltip">
+  <rect x="498.1" y="782.3" width="213.2" height="34.0" rx="6"/>
+  <text x="604.7" y="804.3" text-anchor="middle">Sapphire (1959) · degree 5</text>
+</g>
+<g id="t-tt0031971" class="tooltip">
+  <rect x="97.7" y="560.4" width="229.6" height="34.0" rx="6"/>
+  <text x="212.5" y="582.4" text-anchor="middle">Stagecoach (1939) · degree 5</text>
+</g>
+<g id="t-tt0019421" class="tooltip">
+  <rect x="1169.3" y="302.5" width="303.4" height="34.0" rx="6"/>
+  <text x="1321.0" y="324.5" text-anchor="middle">Steamboat Bill, Jr. (1928) · degree 5</text>
+</g>
+<g id="t-tt0023985" class="tooltip">
+  <rect x="1184.2" y="668.9" width="287.0" height="34.0" rx="6"/>
+  <text x="1327.7" y="690.9" text-anchor="middle">The Emperor Jones (1933) · degree 5</text>
+</g>
+<g id="t-tt0051706" class="tooltip">
+  <rect x="1165.0" y="200.0" width="319.8" height="34.0" rx="6"/>
+  <text x="1324.9" y="222.0" text-anchor="middle">The Haunted Strangler (1958) · degree 5</text>
+</g>
+<g id="t-tt0069086" class="tooltip">
+  <rect x="977.3" y="195.1" width="262.4" height="34.0" rx="6"/>
+  <text x="1108.5" y="217.1" text-anchor="middle">The Pied Piper (1972) · degree 5</text>
+</g>
+<g id="t-tt0095951" class="tooltip">
+  <rect x="1209.7" y="447.4" width="295.2" height="34.0" rx="6"/>
+  <text x="1357.3" y="469.4" text-anchor="middle">The Raggedy Rawney (1988) · degree 5</text>
+</g>
+<g id="t-tt0151568" class="tooltip">
+  <rect x="289.7" y="179.2" width="237.8" height="34.0" rx="6"/>
+  <text x="408.6" y="201.2" text-anchor="middle">Topsy-Turvy (1999) · degree 5</text>
+</g>
+<g id="t-tt0094336" class="tooltip">
+  <rect x="1110.7" y="282.1" width="262.4" height="34.0" rx="6"/>
+  <text x="1241.9" y="304.1" text-anchor="middle">Withnail and I (1987) · degree 5</text>
+</g>
+<g id="t-tt0091867" class="tooltip">
+  <rect x="683.5" y="718.8" width="295.2" height="34.0" rx="6"/>
+  <text x="831.1" y="740.8" text-anchor="middle">A Room with a View (1986) · degree 4</text>
+</g>
+<g id="t-tt0054614" class="tooltip">
+  <rect x="763.4" y="170.4" width="262.4" height="34.0" rx="6"/>
+  <text x="894.6" y="192.4" text-anchor="middle">All Night Long (1962) · degree 4</text>
+</g>
+<g id="t-tt0080408" class="tooltip">
+  <rect x="1173.3" y="295.5" width="229.6" height="34.0" rx="6"/>
+  <text x="1288.1" y="317.5" text-anchor="middle">Bad Timing (1980) · degree 4</text>
+</g>
+<g id="t-tt0099341" class="tooltip">
+  <rect x="1312.5" y="523.9" width="270.6" height="34.0" rx="6"/>
+  <text x="1447.8" y="545.9" text-anchor="middle">Daddy Nostalgia (1990) · degree 4</text>
+</g>
+<g id="t-tt0032484" class="tooltip">
+  <rect x="1147.4" y="534.3" width="319.8" height="34.0" rx="6"/>
+  <text x="1307.3" y="556.3" text-anchor="middle">Foreign Correspondent (1940) · degree 4</text>
+</g>
+<g id="t-tt0015863" class="tooltip">
+  <rect x="905.9" y="138.1" width="205.0" height="34.0" rx="6"/>
+  <text x="1008.4" y="160.1" text-anchor="middle">Go West (1925) · degree 4</text>
+</g>
+<g id="t-tt0029002" class="tooltip">
+  <rect x="799.9" y="189.6" width="344.4" height="34.0" rx="6"/>
+  <text x="972.1" y="211.6" text-anchor="middle">History Is Made at Night (1937) · degree 4</text>
+</g>
+<g id="t-tt0051879" class="tooltip">
+  <rect x="751.0" y="96.4" width="295.2" height="34.0" rx="6"/>
+  <text x="898.6" y="118.4" text-anchor="middle">Look Back in Anger (1958) · degree 4</text>
+</g>
+<g id="t-tt0037035" class="tooltip">
+  <rect x="972.6" y="162.9" width="360.8" height="34.0" rx="6"/>
+  <text x="1153.0" y="184.9" text-anchor="middle">Madonna of the Seven Moons (1945) · degree 4</text>
+</g>
+<g id="t-tt0091538" class="tooltip">
+  <rect x="851.3" y="708.1" width="221.4" height="34.0" rx="6"/>
+  <text x="962.0" y="730.1" text-anchor="middle">Mona Lisa (1986) · degree 4</text>
+</g>
+<g id="t-tt0029322" class="tooltip">
+  <rect x="107.8" y="441.0" width="262.4" height="34.0" rx="6"/>
+  <text x="239.0" y="463.0" text-anchor="middle">Nothing Sacred (1937) · degree 4</text>
+</g>
+<g id="t-tt0020269" class="tooltip">
+  <rect x="219.3" y="200.9" width="229.6" height="34.0" rx="6"/>
+  <text x="334.1" y="222.9" text-anchor="middle">Piccadilly (1929) · degree 4</text>
+</g>
+<g id="t-tt0084538" class="tooltip">
+  <rect x="1044.5" y="738.3" width="295.2" height="34.0" rx="6"/>
+  <text x="1192.1" y="760.3" text-anchor="middle">Privates on Parade (1983) · degree 4</text>
+</g>
+<g id="t-tt0017925" class="tooltip">
+  <rect x="918.9" y="766.9" width="237.8" height="34.0" rx="6"/>
+  <text x="1037.8" y="788.9" text-anchor="middle">The General (1926) · degree 4</text>
+</g>
+<g id="t-tt0087414" class="tooltip">
+  <rect x="550.1" y="162.6" width="205.0" height="34.0" rx="6"/>
+  <text x="652.6" y="184.6" text-anchor="middle">The Hit (1984) · degree 4</text>
+</g>
+<g id="t-tt0081070" class="tooltip">
+  <rect x="93.4" y="216.6" width="311.6" height="34.0" rx="6"/>
+  <text x="249.2" y="238.6" text-anchor="middle">The Long Good Friday (1980) · degree 4</text>
+</g>
+<g id="t-tt0069198" class="tooltip">
+  <rect x="1066.3" y="268.2" width="278.8" height="34.0" rx="6"/>
+  <text x="1205.7" y="290.2" text-anchor="middle">The Ruling Class (1972) · degree 4</text>
+</g>
+<g id="t-tt0088322" class="tooltip">
+  <rect x="881.3" y="702.3" width="287.0" height="34.0" rx="6"/>
+  <text x="1024.8" y="724.3" text-anchor="middle">Under the Volcano (1984) · degree 4</text>
+</g>
+<g id="t-tt0035567" class="tooltip">
+  <rect x="1054.2" y="705.8" width="287.0" height="34.0" rx="6"/>
+  <text x="1197.7" y="727.8" text-anchor="middle">Woman of the Year (1942) · degree 4</text>
+</g>
+<g id="t-tt3544082" class="tooltip">
+  <rect x="466.7" y="788.1" width="213.2" height="34.0" rx="6"/>
+  <text x="573.3" y="810.1" text-anchor="middle">45 Years (2015) · degree 3</text>
+</g>
+<g id="t-tt0086859" class="tooltip">
+  <rect x="458.7" y="139.8" width="278.8" height="34.0" rx="6"/>
+  <text x="598.1" y="161.8" text-anchor="middle">Against All Odds (1984) · degree 3</text>
+</g>
+<g id="t-tt0087188" class="tooltip">
+  <rect x="30.4" y="498.9" width="319.8" height="34.0" rx="6"/>
+  <text x="190.3" y="520.9" text-anchor="middle">And the Ship Sails On (1983) · degree 3</text>
+</g>
+<g id="t-tt0028667" class="tooltip">
+  <rect x="988.2" y="658.0" width="369.0" height="34.0" rx="6"/>
+  <text x="1172.7" y="680.0" text-anchor="middle">Bulldog Drummond Comes Back (1937) · degree 3</text>
+</g>
+<g id="t-tt0094933" class="tooltip">
+  <rect x="501.8" y="728.1" width="196.8" height="34.0" rx="6"/>
+  <text x="600.2" y="750.1" text-anchor="middle">D.O.A. (1988) · degree 3</text>
+</g>
+<g id="t-tt0050393" class="tooltip">
+  <rect x="167.1" y="249.1" width="311.6" height="34.0" rx="6"/>
+  <text x="322.9" y="271.1" text-anchor="middle">Fiend Without a Face (1958) · degree 3</text>
+</g>
+<g id="t-tt0052805" class="tooltip">
+  <rect x="769.2" y="752.0" width="311.6" height="34.0" rx="6"/>
+  <text x="925.0" y="774.0" text-anchor="middle">First Man into Space (1959) · degree 3</text>
+</g>
+<g id="t-tt0058142" class="tooltip">
+  <rect x="377.4" y="746.7" width="311.6" height="34.0" rx="6"/>
+  <text x="533.2" y="768.7" text-anchor="middle">Girl with Green Eyes (1964) · degree 3</text>
+</g>
+<g id="t-tt0095302" class="tooltip">
+  <rect x="212.9" y="581.9" width="229.6" height="34.0" rx="6"/>
+  <text x="327.7" y="603.9" text-anchor="middle">High Hopes (1988) · degree 3</text>
+</g>
+<g id="t-tt0097531" class="tooltip">
+  <rect x="695.5" y="760.9" width="401.8" height="34.0" rx="6"/>
+  <text x="896.4" y="782.9" text-anchor="middle">How to Get Ahead in Advertising (1989) · degree 3</text>
+</g>
+<g id="t-tt0041497" class="tooltip">
+  <rect x="8.0" y="344.5" width="295.2" height="34.0" rx="6"/>
+  <text x="155.6" y="366.5" text-anchor="middle">I Shot Jesse James (1949) · degree 3</text>
+</g>
+<g id="t-tt0076221" class="tooltip">
+  <rect x="243.3" y="227.3" width="237.8" height="34.0" rx="6"/>
+  <text x="362.2" y="249.3" text-anchor="middle">Jabberwocky (1977) · degree 3</text>
+</g>
+<g id="t-tt0073540" class="tooltip">
+  <rect x="28.6" y="424.6" width="328.0" height="34.0" rx="6"/>
+  <text x="192.6" y="446.6" text-anchor="middle">Picnic at Hanging Rock (1975) · degree 3</text>
+</g>
+<g id="t-tt0048527" class="tooltip">
+  <rect x="1202.7" y="226.7" width="221.4" height="34.0" rx="6"/>
+  <text x="1313.4" y="248.7" text-anchor="middle">Queen Bee (1955) · degree 3</text>
+</g>
+<g id="t-tt0081455" class="tooltip">
+  <rect x="8.0" y="440.9" width="213.2" height="34.0" rx="6"/>
+  <text x="114.6" y="462.9" text-anchor="middle">Scanners (1981) · degree 3</text>
+</g>
+<g id="t-tt0117589" class="tooltip">
+  <rect x="1142.9" y="660.3" width="262.4" height="34.0" rx="6"/>
+  <text x="1274.1" y="682.3" text-anchor="middle">Secrets &amp; Lies (1996) · degree 3</text>
+</g>
+<g id="t-tt0057495" class="tooltip">
+  <rect x="564.4" y="717.1" width="262.4" height="34.0" rx="6"/>
+  <text x="695.6" y="739.1" text-anchor="middle">Shock Corridor (1963) · degree 3</text>
+</g>
+<g id="t-tt0048673" class="tooltip">
+  <rect x="966.2" y="716.4" width="229.6" height="34.0" rx="6"/>
+  <text x="1081.0" y="738.4" text-anchor="middle">Summertime (1955) · degree 3</text>
+</g>
+<g id="t-tt0058557" class="tooltip">
+  <rect x="596.2" y="149.2" width="352.6" height="34.0" rx="6"/>
+  <text x="772.5" y="171.2" text-anchor="middle">Séance on a Wet Afternoon (1964) · degree 3</text>
+</g>
+<g id="t-tt0139641" class="tooltip">
+  <rect x="878.2" y="211.3" width="344.4" height="34.0" rx="6"/>
+  <text x="1050.4" y="233.3" text-anchor="middle">Ten Nights in a Bar Room (1926) · degree 3</text>
+</g>
+<g id="t-tt0022941" class="tooltip">
+  <rect x="153.8" y="700.7" width="319.8" height="34.0" rx="6"/>
+  <text x="313.7" y="722.7" text-anchor="middle">The Girl from Chicago (1932) · degree 3</text>
+</g>
+<g id="t-tt0038854" class="tooltip">
+  <rect x="146.0" y="281.1" width="393.6" height="34.0" rx="6"/>
+  <text x="342.8" y="303.1" text-anchor="middle">The Postman Always Rings Twice (1946) · degree 3</text>
+</g>
+<g id="t-tt0018362" class="tooltip">
+  <rect x="1305.0" y="438.8" width="287.0" height="34.0" rx="6"/>
+  <text x="1448.5" y="460.8" text-anchor="middle">The Scar of Shame (1929) · degree 3</text>
+</g>
+<g id="t-tt0049730" class="tooltip">
+  <rect x="416.8" y="766.8" width="254.2" height="34.0" rx="6"/>
+  <text x="543.9" y="788.8" text-anchor="middle">The Searchers (1956) · degree 3</text>
+</g>
+<g id="t-tt0018528" class="tooltip">
+  <rect x="1011.6" y="723.5" width="237.8" height="34.0" rx="6"/>
+  <text x="1130.5" y="745.5" text-anchor="middle">The Unknown (1927) · degree 3</text>
+</g>
+<g id="t-tt0027214" class="tooltip">
+  <rect x="8.0" y="324.6" width="344.4" height="34.0" rx="6"/>
+  <text x="180.2" y="346.6" text-anchor="middle">The Whole Town's Talking (1935) · degree 3</text>
+</g>
+<g id="t-tt0067959" class="tooltip">
+  <rect x="154.1" y="539.2" width="221.4" height="34.0" rx="6"/>
+  <text x="264.8" y="561.2" text-anchor="middle">Walkabout (1971) · degree 3</text>
+</g>
+<g id="t-tt0048801" class="tooltip">
+  <rect x="1204.1" y="597.4" width="270.6" height="34.0" rx="6"/>
+  <text x="1339.4" y="619.4" text-anchor="middle">We’re No Angels (1955) · degree 3</text>
+</g>
+<g id="t-tt0022578" class="tooltip">
+  <rect x="48.7" y="586.9" width="254.2" height="34.0" rx="6"/>
+  <text x="175.8" y="608.9" text-anchor="middle">Working Girls (1931) · degree 3</text>
+</g>
+<g id="t-tt0055506" class="tooltip">
+  <rect x="65.9" y="467.3" width="278.8" height="34.0" rx="6"/>
+  <text x="205.3" y="489.3" text-anchor="middle">A Taste of Honey (1961) · degree 2</text>
+</g>
+<g id="t-tt0080310" class="tooltip">
+  <rect x="17.2" y="462.7" width="262.4" height="34.0" rx="6"/>
+  <text x="148.4" y="484.7" text-anchor="middle">Breaker Morant (1980) · degree 2</text>
+</g>
+<g id="t-tt0039224" class="tooltip">
+  <rect x="228.3" y="183.6" width="237.8" height="34.0" rx="6"/>
+  <text x="347.2" y="205.6" text-anchor="middle">Brute Force (1947) · degree 2</text>
+</g>
+<g id="t-tt0057468" class="tooltip">
+  <rect x="1223.0" y="571.1" width="369.0" height="34.0" rx="6"/>
+  <text x="1407.5" y="593.1" text-anchor="middle">Death Drums Along the River (1963) · degree 2</text>
+</g>
+<g id="t-tt0050307" class="tooltip">
+  <rect x="767.3" y="134.7" width="213.2" height="34.0" rx="6"/>
+  <text x="873.9" y="156.7" text-anchor="middle">Desk Set (1957) · degree 2</text>
+</g>
+<g id="t-tt0017825" class="tooltip">
+  <rect x="88.1" y="264.5" width="213.2" height="34.0" rx="6"/>
+  <text x="194.7" y="286.5" text-anchor="middle">Downhill (1927) · degree 2</text>
+</g>
+<g id="t-tt0059619" class="tooltip">
+  <rect x="271.7" y="743.3" width="303.4" height="34.0" rx="6"/>
+  <text x="423.4" y="765.3" text-anchor="middle">Fists in the Pocket (1965) · degree 2</text>
+</g>
+<g id="t-tt0067185" class="tooltip">
+  <rect x="37.0" y="386.7" width="278.8" height="34.0" rx="6"/>
+  <text x="176.4" y="408.7" text-anchor="middle">Harold and Maude (1971) · degree 2</text>
+</g>
+<g id="t-tt0053917" class="tooltip">
+  <rect x="204.8" y="614.7" width="295.2" height="34.0" rx="6"/>
+  <text x="352.4" y="636.7" text-anchor="middle">Home from the Hill (1960) · degree 2</text>
+</g>
+<g id="t-tt0192194" class="tooltip">
+  <rect x="353.3" y="691.7" width="287.0" height="34.0" rx="6"/>
+  <text x="496.8" y="713.7" text-anchor="middle">Julien Donkey Boy (1999) · degree 2</text>
+</g>
+<g id="t-tt0056905" class="tooltip">
+  <rect x="1233.0" y="493.7" width="270.6" height="34.0" rx="6"/>
+  <text x="1368.3" y="515.7" text-anchor="middle">Les carabiniers (1963) · degree 2</text>
+</g>
+<g id="t-tt4288356" class="tooltip">
+  <rect x="8.0" y="562.8" width="664.2" height="34.0" rx="6"/>
+  <text x="340.1" y="584.8" text-anchor="middle">Lime Kiln Club Field Day archival assembly (Donald Sosin score) (1913) · degree 2</text>
+</g>
+<g id="t-tt0031593" class="tooltip">
+  <rect x="193.2" y="275.3" width="237.8" height="34.0" rx="6"/>
+  <text x="312.1" y="297.3" text-anchor="middle">Love Affair (1939) · degree 2</text>
+</g>
+<g id="t-tt0102458" class="tooltip">
+  <rect x="144.3" y="201.6" width="262.4" height="34.0" rx="6"/>
+  <text x="275.5" y="223.6" text-anchor="middle">Mister Johnson (1990) · degree 2</text>
+</g>
+<g id="t-tt0107653" class="tooltip">
+  <rect x="576.1" y="101.1" width="188.6" height="34.0" rx="6"/>
+  <text x="670.4" y="123.1" text-anchor="middle">Naked (1993) · degree 2</text>
+</g>
+<g id="t-tt0049552" class="tooltip">
+  <rect x="832.7" y="97.3" width="221.4" height="34.0" rx="6"/>
+  <text x="943.4" y="119.3" text-anchor="middle">Nightfall (1957) · degree 2</text>
+</g>
+<g id="t-tt0031742" class="tooltip">
+  <rect x="1321.4" y="414.2" width="270.6" height="34.0" rx="6"/>
+  <text x="1456.7" y="436.2" text-anchor="middle">Of Mice and Men (1939) · degree 2</text>
+</g>
+<g id="t-tt0079766" class="tooltip">
+  <rect x="1219.6" y="520.4" width="246.0" height="34.0" rx="6"/>
+  <text x="1342.6" y="542.4" text-anchor="middle">Quadrophenia (1979) · degree 2</text>
+</g>
+<g id="t-tt0052587" class="tooltip">
+  <rect x="8.0" y="471.2" width="311.6" height="34.0" rx="6"/>
+  <text x="163.8" y="493.2" text-anchor="middle">The Atomic Submarine (1959) · degree 2</text>
+</g>
+<g id="t-tt0071282" class="tooltip">
+  <rect x="19.9" y="639.0" width="336.2" height="34.0" rx="6"/>
+  <text x="188.0" y="661.0" text-anchor="middle">The Cars That Ate Paris (1974) · degree 2</text>
+</g>
+<g id="t-tt0021890" class="tooltip">
+  <rect x="1262.3" y="624.1" width="262.4" height="34.0" rx="6"/>
+  <text x="1393.5" y="646.1" text-anchor="middle">The Front Page (1931) · degree 2</text>
+</g>
+<g id="t-tt0076299" class="tooltip">
+  <rect x="986.2" y="129.6" width="254.2" height="34.0" rx="6"/>
+  <text x="1113.3" y="151.6" text-anchor="middle">The Last Wave (1977) · degree 2</text>
+</g>
+<g id="t-tt0040636" class="tooltip">
+  <rect x="291.0" y="643.4" width="262.4" height="34.0" rx="6"/>
+  <text x="422.2" y="665.4" text-anchor="middle">The Naked City (1948) · degree 2</text>
+</g>
+<g id="t-tt0044072" class="tooltip">
+  <rect x="1081.9" y="621.7" width="278.8" height="34.0" rx="6"/>
+  <text x="1221.3" y="643.7" text-anchor="middle">The Steel Helmet (1951) · degree 2</text>
+</g>
+<g id="t-tt0035446" class="tooltip">
+  <rect x="499.5" y="123.7" width="295.2" height="34.0" rx="6"/>
+  <text x="647.1" y="145.7" text-anchor="middle">To Be or Not to Be (1942) · degree 2</text>
+</g>
+<g id="t-tt0090297" class="tooltip">
+  <rect x="173.0" y="424.4" width="188.6" height="34.0" rx="6"/>
+  <text x="267.3" y="446.4" text-anchor="middle">Water (1985) · degree 2</text>
+</g>
+<g id="t-tt0058182" class="tooltip">
+  <rect x="704.1" y="781.8" width="295.2" height="34.0" rx="6"/>
+  <text x="851.7" y="803.8" text-anchor="middle">A Hard Day’s Night (1964) · degree 1</text>
+</g>
+<g id="t-tt0135163" class="tooltip">
+  <rect x="281.2" y="734.4" width="229.6" height="34.0" rx="6"/>
+  <text x="396.0" y="756.4" text-anchor="middle">Birthright (1938) · degree 1</text>
+</g>
+<g id="t-tt0066842" class="tooltip">
+  <rect x="152.2" y="645.9" width="254.2" height="34.0" rx="6"/>
+  <text x="279.3" y="667.9" text-anchor="middle">Bleak Moments (1971) · degree 1</text>
+</g>
+<g id="t-tt0085279" class="tooltip">
+  <rect x="1141.5" y="255.3" width="213.2" height="34.0" rx="6"/>
+  <text x="1248.1" y="277.3" text-anchor="middle">Bullshot (1983) · degree 1</text>
+</g>
+<g id="t-tt0082117" class="tooltip">
+  <rect x="526.0" y="152.4" width="303.4" height="34.0" rx="6"/>
+  <text x="677.7" y="174.4" text-anchor="middle">Burning an Illusion (1981) · degree 1</text>
+</g>
+<g id="t-tt0284034" class="tooltip">
+  <rect x="185.6" y="612.1" width="229.6" height="34.0" rx="6"/>
+  <text x="300.4" y="634.1" text-anchor="middle">Demonlover (2002) · degree 1</text>
+</g>
+<g id="t-tt0119375" class="tooltip">
+  <rect x="190.9" y="321.2" width="213.2" height="34.0" rx="6"/>
+  <text x="297.5" y="343.2" text-anchor="middle">Insomnia (1997) · degree 1</text>
+</g>
+<g id="t-tt0071797" class="tooltip">
+  <rect x="481.8" y="104.3" width="196.8" height="34.0" rx="6"/>
+  <text x="580.2" y="126.3" text-anchor="middle">Mahler (1974) · degree 1</text>
+</g>
+<g id="t-tt0100318" class="tooltip">
+  <rect x="299.1" y="724.3" width="270.6" height="34.0" rx="6"/>
+  <text x="434.4" y="746.3" text-anchor="middle">Pacific Heights (1990) · degree 1</text>
+</g>
+<g id="t-tt0098112" class="tooltip">
+  <rect x="1269.5" y="370.3" width="262.4" height="34.0" rx="6"/>
+  <text x="1400.7" y="392.3" text-anchor="middle">Powwow Highway (1989) · degree 1</text>
+</g>
+<g id="t-tt1837636" class="tooltip">
+  <rect x="8.0" y="362.4" width="303.4" height="34.0" rx="6"/>
+  <text x="159.7" y="384.4" text-anchor="middle">Queen of the Desert (2015) · degree 1</text>
+</g>
+<g id="t-tt0007340" class="tooltip">
+  <rect x="502.9" y="765.3" width="188.6" height="34.0" rx="6"/>
+  <text x="597.2" y="787.3" text-anchor="middle">Shoes (1916) · degree 1</text>
+</g>
+<g id="t-tt0016395" class="tooltip">
+  <rect x="1072.6" y="247.4" width="254.2" height="34.0" rx="6"/>
+  <text x="1199.7" y="269.4" text-anchor="middle">Stella Dallas (1925) · degree 1</text>
+</g>
+<g id="t-tt0042229" class="tooltip">
+  <rect x="94.0" y="337.1" width="311.6" height="34.0" rx="6"/>
+  <text x="249.8" y="359.1" text-anchor="middle">The Baron of Arizona (1950) · degree 1</text>
+</g>
+<g id="t-tt0051418" class="tooltip">
+  <rect x="363.5" y="127.3" width="213.2" height="34.0" rx="6"/>
+  <text x="470.1" y="149.3" text-anchor="middle">The Blob (1958) · degree 1</text>
+</g>
+<g id="t-tt0078908" class="tooltip">
+  <rect x="1256.2" y="249.9" width="221.4" height="34.0" rx="6"/>
+  <text x="1366.9" y="271.9" text-anchor="middle">The Brood (1979) · degree 1</text>
+</g>
+<g id="t-tt0099292" class="tooltip">
+  <rect x="900.3" y="764.9" width="344.4" height="34.0" rx="6"/>
+  <text x="1072.5" y="786.9" text-anchor="middle">The Comfort of Strangers (1990) · degree 1</text>
+</g>
+<g id="t-tt1700844" class="tooltip">
+  <rect x="73.8" y="579.5" width="287.0" height="34.0" rx="6"/>
+  <text x="217.3" y="601.5" text-anchor="middle">The Deep Blue Sea (2011) · degree 1</text>
+</g>
+<g id="t-tt0021844" class="tooltip">
+  <rect x="1226.8" y="566.4" width="221.4" height="34.0" rx="6"/>
+  <text x="1337.5" y="588.4" text-anchor="middle">The Exile (1931) · degree 1</text>
+</g>
+<g id="t-tt0018054" class="tooltip">
+  <rect x="1225.9" y="543.4" width="287.0" height="34.0" rx="6"/>
+  <text x="1369.4" y="565.4" text-anchor="middle">The King of Kings (1927) · degree 1</text>
+</g>
+<g id="t-tt0031650" class="tooltip">
+  <rect x="267.5" y="634.3" width="229.6" height="34.0" rx="6"/>
+  <text x="382.3" y="656.3" text-anchor="middle">The Mikado (1939) · degree 1</text>
+</g>
+<g id="t-tt0058390" class="tooltip">
+  <rect x="493.7" y="189.7" width="262.4" height="34.0" rx="6"/>
+  <text x="624.9" y="211.7" text-anchor="middle">The Naked Kiss (1964) · degree 1</text>
+</g>
+</svg>

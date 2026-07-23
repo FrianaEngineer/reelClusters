@@ -53,9 +53,11 @@ MARGIN   = 90
 REF_NODES, REF_EDGES = 17, 41
 REF_NODE_R, REF_EDGE_OPACITY, REF_EDGE_WIDTH = 16, 0.45, 1.5
 
-# The two big clusters already read well from the plain spring layout; leave
-# their positions untouched and only reorient the smaller/sparser ones.
-SKIP_DENSITY_REORIENT = {"japanese_cinema", "european_art_cinema"}
+# These big/dense clusters already read well from the plain spring layout --
+# it lets high-degree hub films visually pull nodes toward a natural center
+# instead of flattening everything into evenly-spaced rings -- so leave their
+# positions untouched and only reorient the smaller/sparser ones.
+SKIP_DENSITY_REORIENT = {"japanese_cinema", "european_art_cinema", "anglophone_classic"}
 
 CLUSTERS_TO_RENDER = [
     "youssef_chahine_egyptian",
@@ -202,9 +204,13 @@ def build_svg(cluster_id, films, edges):
     # floor is lower than width/node_r's floor because avg-degree outliers like
     # japanese_cinema (~44) still washed out into a solid grey mass at 0.05 --
     # every other cluster rendered so far sits well above this floor already,
-    # so lowering it doesn't change their appearance.
+    # so lowering it doesn't change their appearance. EDGE_DARKEN bumps the
+    # whole opacity curve up a bit (by request) while staying under that
+    # japanese_cinema wash-out point -- at 1.3x its natural (pre-floor)
+    # opacity is ~0.042, still short of the ~0.05 where it washes out.
+    EDGE_DARKEN = 1.3
     node_r       = float(np.clip(REF_NODE_R * np.sqrt(REF_NODES / n_nodes), 3, REF_NODE_R))
-    edge_opacity = float(np.clip(REF_EDGE_OPACITY * np.sqrt(REF_EDGES / n_edges), 0.02, REF_EDGE_OPACITY))
+    edge_opacity = float(np.clip(EDGE_DARKEN * REF_EDGE_OPACITY * np.sqrt(REF_EDGES / n_edges), 0.02, 1.0))
     edge_width   = float(np.clip(REF_EDGE_WIDTH * np.sqrt(REF_EDGES / n_edges), 0.35, REF_EDGE_WIDTH))
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
