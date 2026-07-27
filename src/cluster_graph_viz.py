@@ -59,6 +59,10 @@ REF_NODE_R, REF_EDGE_OPACITY, REF_EDGE_WIDTH = 16, 0.45, 1.5
 # positions untouched and only reorient the smaller/sparser ones.
 SKIP_DENSITY_REORIENT = {"japanese_cinema", "european_art_cinema", "anglophone_classic"}
 
+# Per-cluster overrides for EDGE_DARKEN (see build_svg), for clusters that
+# want to deviate from the shared 1.3x default.
+EDGE_DARKEN_OVERRIDES = {"hong_kong_taiwan_cinema": 2.2}
+
 CLUSTERS_TO_RENDER = [
     "youssef_chahine_egyptian",
     "european_art_cinema",
@@ -208,23 +212,71 @@ def build_svg(cluster_id, films, edges):
     # whole opacity curve up a bit (by request) while staying under that
     # japanese_cinema wash-out point -- at 1.3x its natural (pre-floor)
     # opacity is ~0.042, still short of the ~0.05 where it washes out.
-    EDGE_DARKEN = 1.3
+    # hong_kong_taiwan_cinema is sparse enough (504 edges vs. japanese_cinema's
+    # 7813) that it can take a much stronger darken without washing out, so it
+    # gets its own higher multiplier (by request).
+    EDGE_DARKEN = EDGE_DARKEN_OVERRIDES.get(cluster_id, 1.3)
     node_r       = float(np.clip(REF_NODE_R * np.sqrt(REF_NODES / n_nodes), 3, REF_NODE_R))
     edge_opacity = float(np.clip(EDGE_DARKEN * REF_EDGE_OPACITY * np.sqrt(REF_EDGES / n_edges), 0.02, 1.0))
     edge_width   = float(np.clip(REF_EDGE_WIDTH * np.sqrt(REF_EDGES / n_edges), 0.35, REF_EDGE_WIDTH))
+
+    # Nodes and tooltips are rendered in two separate passes below (all nodes,
+    # THEN all tooltips) rather than each tooltip nested inside its own node
+    # -- nesting means paint order follows node draw order, so a node drawn
+    # LATER can visually paint its polygon right over an EARLIER node's
+    # tooltip whenever the two overlap on screen. Drawing every tooltip only
+    # after every node is down guarantees a hovered tooltip always ends up on
+    # top, regardless of draw order. Each node gets a unique id and each
+    # tooltip a matching id, tied together with the CSS general sibling
+    # combinator (`~`), which doesn't require them to be adjacent -- same fix
+    # already used in cluster_ring_viz.py. hover_rules is built here, before
+    # the <style> block below, so it can be interpolated directly like every
+    # other style value instead of patched in after the fact.
+    node_svgs = []
+    tooltips = []
+    hover_rules = []
+    for n in G.nodes():
+        cx, cy = coords[n]
+        title, year = info[n]
+        label = f"{title} ({year})"
+        tw = max(100, 11.9 * len(label))
+        th = 46
+        tx = min(max(cx - tw / 2, 8), W - tw - 8)
+        ty = cy - node_r - th - 10
+        if ty < 10:
+            ty = cy + node_r + 10
+
+        node_id, tip_id = f"n-{n}", f"t-{n}"
+        hover_rules.append(f'#{node_id}:hover ~ #{tip_id} {{ opacity: 1; }}')
+        tooltips.append(f'''<g id="{tip_id}" class="tooltip">
+  <rect x="{tx:.1f}" y="{ty:.1f}" width="{tw:.1f}" height="{th:.1f}" rx="6"/>
+  <text x="{tx + tw / 2:.1f}" y="{ty + th / 2 + 7:.1f}" text-anchor="middle">{esc(label)}</text>
+</g>''')
+
+        # id has to live on the <a>, not the polygon, when a link is present:
+        # the hover-tooltip rule below is a sibling selector (#node:hover ~
+        # #tooltip) that needs the id'd element to still be a direct sibling
+        # of the tooltip <g> -- nesting the polygon one level deeper inside
+        # <a> would break that. Same fix as cluster_ring_viz.py.
+        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, node_r)}"/>'
+        link = CRITERION_LINKS.get(title)
+        if link:
+            node_svg = f'<a id="{node_id}" href="{esc(link)}" target="_blank" rel="noopener">{polygon}</a>'
+        else:
+            node_svg = f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, node_r)}"/>'
+        node_svgs.append(node_svg)
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
            f'font-family="Helvetica, Arial, sans-serif">']
     svg.append(f"""
 <style>
   .edge {{ stroke: {edge_color}; stroke-opacity: {edge_opacity}; stroke-width: {edge_width}; }}
-  .node polygon {{ fill: {node_color}; stroke: {bg_color}; stroke-width: 2; }}
-  .node {{ cursor: pointer; }}
-  .node:hover polygon {{ stroke: {text_color}; }}
+  .node {{ fill: {node_color}; stroke: {bg_color}; stroke-width: 2; cursor: pointer; }}
+  .node:hover {{ stroke: {text_color}; }}
   .tooltip {{ opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }}
-  .node:hover .tooltip {{ opacity: 1; }}
   .tooltip rect {{ fill: {TOOLTIP_BG}; stroke: #ffffff; stroke-opacity: 0.25; }}
-  .tooltip text {{ fill: {TOOLTIP_TEXT}; font-size: 15px; font-weight: 600; }}
+  .tooltip text {{ fill: {TOOLTIP_TEXT}; font-size: 22px; font-weight: 600; }}
+  {' '.join(hover_rules)}
 </style>
 """)
     svg.append(f'<rect x="0" y="0" width="{W}" height="{H}" fill="{bg_color}"/>')
@@ -235,28 +287,8 @@ def build_svg(cluster_id, films, edges):
         svg.append(f'<line class="edge" x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}"/>')
     svg.append('</g>')
 
-    for n in G.nodes():
-        cx, cy = coords[n]
-        title, year = info[n]
-        label = f"{title} ({year})"
-        tw = max(70, 8.2 * len(label))
-        th = 34
-        tx = min(max(cx - tw / 2, 8), W - tw - 8)
-        ty = cy - node_r - th - 10
-        if ty < 10:
-            ty = cy + node_r + 10
-
-        node_svg = f'''<g class="node">
-  <polygon points="{hexagon_points(cx, cy, node_r)}"/>
-  <g class="tooltip">
-    <rect x="{tx:.1f}" y="{ty:.1f}" width="{tw:.1f}" height="{th:.1f}" rx="6"/>
-    <text x="{tx + tw / 2:.1f}" y="{ty + th / 2 + 5:.1f}" text-anchor="middle">{esc(label)}</text>
-  </g>
-</g>'''
-        link = CRITERION_LINKS.get(title)
-        if link:
-            node_svg = f'<a href="{esc(link)}" target="_blank" rel="noopener">{node_svg}</a>'
-        svg.append(node_svg)
+    svg.extend(node_svgs)
+    svg.extend(tooltips)
 
     svg.append('</svg>')
     return '\n'.join(svg)

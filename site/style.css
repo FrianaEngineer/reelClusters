@@ -160,7 +160,11 @@ body.home-page .page {
 .blurb {
   line-height: 1.6;
   font-size: 15px;
-  margin: 0;
+  margin: 0 0 14px;
+}
+
+.blurb:last-child {
+  margin-bottom: 0;
 }
 
 .hub-list {
@@ -338,6 +342,10 @@ body.landing-page {
 
 .landing-hero--map {
   background: radial-gradient(ellipse 70% 60% at 26% 108%, rgba(69, 123, 157, 0.42), transparent 60%), #12121f;
+}
+
+.landing-hero--find-your-film {
+  background: radial-gradient(ellipse 70% 60% at 26% 108%, rgba(233, 196, 106, 0.34), transparent 60%), #12121f;
 }
 
 .landing-hero-media {

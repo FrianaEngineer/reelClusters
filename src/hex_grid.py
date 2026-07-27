@@ -61,7 +61,7 @@ def display_name(cluster_id):
 
 class HexGrid:
     def __init__(self, grid_hexes, hex_cluster, hex_set, large_clusters,
-                 cluster_size, color_map, hex_film):
+                 cluster_size, color_map, hex_film, hidden_gems_outer):
         self.grid_hexes = grid_hexes
         self.hex_cluster = hex_cluster
         self.hex_set = hex_set
@@ -69,6 +69,10 @@ class HexGrid:
         self.cluster_size = cluster_size
         self.hex_film = hex_film
         self.color_map = color_map
+        # The subset of hiddenGems hexes that sit on the grid's true outer
+        # edge (as opposed to the ring just inside it) -- lets a renderer
+        # give the two rings different shading.
+        self.hidden_gems_outer = hidden_gems_outer
 
 
 def build_hex_grid():
@@ -191,29 +195,57 @@ def build_hex_grid():
     grid_hexes = all_hexes[:N_TOTAL]
     hex_set = set(grid_hexes)
 
-    border_hexes = [h for h in grid_hexes
-                    if any(n not in hex_set for n in hex_neighbors(h[0], h[1]))]
-    interior_hexes = [h for h in grid_hexes if h not in set(border_hexes)]
+    # Hidden Gems is meant to form a ring exactly 2 hexes thick all the way
+    # around the grid: depth0 is every hex touching the outside of the grid
+    # (the true outer edge), depth1 is every hex one hex-step further in.
+    # These are picked by actual hex adjacency (BFS-style), not the
+    # continuous rect_priority distance used elsewhere -- rect_priority is a
+    # Chebyshev-ish approximation that doesn't line up with discrete hex
+    # rings near corners, which was why the old border-fill (below, now
+    # replaced) ended up 3 hexes deep in some corners and only 1 deep along
+    # some flat edges.
+    depth0 = [h for h in grid_hexes
+              if any(n not in hex_set for n in hex_neighbors(h[0], h[1]))]
+    depth0_set = set(depth0)
+    depth1 = [h for h in grid_hexes
+              if h not in depth0_set
+              and any(n in depth0_set for n in hex_neighbors(h[0], h[1]))]
 
-    border_hexes.sort(key=lambda h: -rect_priority(h[0], h[1]))
-    interior_hexes.sort(key=lambda h: rect_priority(h[0], h[1]))
+    # The real hiddenGems film count essentially never divides evenly against
+    # depth0+depth1's combined size, so there's always a little shortfall
+    # (too few films to double-ring the whole perimeter) or overflow (too
+    # many). Sorting depth1 by y position before slicing concentrates that
+    # remainder along one edge (the bottom) instead of scattering it
+    # unevenly around the ring.
+    depth1.sort(key=lambda h: -axial_to_pixel(h[0], h[1])[1])
 
-    while len(border_hexes) < n_small and interior_hexes:
-        border_hexes.append(interior_hexes.pop())
-        border_hexes.sort(key=lambda h: -rect_priority(h[0], h[1]))
+    n_depth1_needed = n_small - len(depth0)
+    gems_ring = list(depth0) + depth1[:max(0, n_depth1_needed)]
+
+    if len(gems_ring) < n_small:
+        # n_small exceeds a full 2-hex ring -- extend inward one more
+        # hex-step, same idea as the old fallback: pull whichever remaining
+        # hexes sit closest to the border first.
+        deeper = [h for h in grid_hexes if h not in depth0_set and h not in set(depth1)]
+        deeper.sort(key=lambda h: rect_priority(h[0], h[1]))
+        while len(gems_ring) < n_small and deeper:
+            gems_ring.append(deeper.pop())
 
     # ── 5. Assign hexes to clusters ─────────────────────────────────────────
     hex_cluster = {}
     cluster_remaining = {c: cluster_size[c] for c in cluster_size}
 
-    for h in border_hexes[:n_small]:
+    for h in gems_ring[:n_small]:
         hex_cluster[h] = 'hiddenGems'
         cluster_remaining['hiddenGems'] -= 1
 
     # This exact set of hexes is Hidden Gems' outer frame around the whole
     # grid -- rebalance_counts() below must never hand any of these to a
     # needy named cluster, or that cluster starts showing up ON the border.
-    hidden_gems_frame = set(border_hexes[:n_small])
+    hidden_gems_frame = set(gems_ring[:n_small])
+    hidden_gems_outer = depth0_set & hidden_gems_frame
+
+    interior_hexes = [h for h in grid_hexes if h not in hidden_gems_frame]
 
     int_px_map = {h: np.array(axial_to_pixel(h[0], h[1])) for h in interior_hexes}
     available = set(interior_hexes) - set(hex_cluster)
@@ -433,4 +465,5 @@ def build_hex_grid():
         cluster_size=cluster_size,
         color_map=COLOR_MAP,
         hex_film=hex_film,
+        hidden_gems_outer=hidden_gems_outer,
     )

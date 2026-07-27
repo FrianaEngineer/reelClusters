@@ -69,14 +69,15 @@ def page_href(cluster_id):
 
 
 def build_svg():
-    grid           = build_hex_grid()
-    grid_hexes     = grid.grid_hexes
-    hex_cluster    = grid.hex_cluster
-    hex_set        = grid.hex_set
-    large_clusters = grid.large_clusters
-    cluster_size   = grid.cluster_size
-    color_map      = grid.color_map
-    hex_film       = grid.hex_film
+    grid              = build_hex_grid()
+    grid_hexes        = grid.grid_hexes
+    hex_cluster       = grid.hex_cluster
+    hex_set           = grid.hex_set
+    large_clusters    = grid.large_clusters
+    cluster_size      = grid.cluster_size
+    color_map         = grid.color_map
+    hex_film          = grid.hex_film
+    hidden_gems_outer = grid.hidden_gems_outer
     film_is_color  = load_film_color()
 
     # All geometry below is computed in the SAME (matplotlib-style, y-up)
@@ -300,8 +301,17 @@ def build_svg():
             cx, cy  = axial_to_pixel(h[0], h[1], HEX_SIZE)          # original frame
             corners = [flip(p) for p in hex_corners(cx, cy, HEX_SIZE * GAP)]
             pts = " ".join(f"{px:.2f},{py:.2f}" for px, py in corners)
-            tconst = hex_film.get(h)
-            hex_fill = fill if film_is_color.get(tconst) else darken(fill)
+            if c == 'hiddenGems':
+                # Position-based, not film-based: the outer ring (the grid's
+                # true edge) is white, the inner ring one hex-step in is the
+                # same darkened shade used elsewhere for black-and-white
+                # films -- reusing that color rather than each hex's own
+                # film's color/b&w status, so the two-ring border reads
+                # cleanly instead of mixing white/grey by film metadata.
+                hex_fill = fill if h in hidden_gems_outer else darken(fill)
+            else:
+                tconst = hex_film.get(h)
+                hex_fill = fill if film_is_color.get(tconst) else darken(fill)
             svg.append(f'<polygon class="hex" points="{pts}" fill="{hex_fill}" '
                        f'stroke="{HEX_BORDER}" stroke-width="0.07"/>')
         svg.append('</g>')

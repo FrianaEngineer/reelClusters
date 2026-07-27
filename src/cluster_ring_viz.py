@@ -11,15 +11,15 @@ from xml.sax.saxutils import escape
 
 from cluster_colors import COLOR_MAP, contrast_text_color
 from cluster_graph_viz import DB_PATH, BG_COLOR, TOOLTIP_BG, TOOLTIP_TEXT, hexagon_points, CRITERION_LINKS
+from hex_svg import darken, load_film_color
 
 OUT_DIR = Path(__file__).parent.parent / "output"
 
-W, H   = 1600, 900   # 16:9 canvas
-CX, CY = W / 2, H / 2 + 50   # pushed down to leave headroom at the top
+W, H = 1600, 900   # 16:9 canvas
 
-NODE_R       = 7.0    # uniform for every film, regardless of band
-BAND_GAP     = 11.0   # inset so nodes stay clear of the ring-guide boundary lines
-ASPECT_X     = 2.0     # rings are ellipses, stretched horizontally to fill the
+NODE_R_DEFAULT   = 7.0    # uniform for every film, regardless of band
+BAND_GAP         = 11.0   # inset so nodes stay clear of the ring-guide boundary lines
+ASPECT_X         = 2.0     # rings are ellipses, stretched horizontally to fill the
                        # 16:9 canvas -- radius below is the (unstretched)
                        # vertical/minor semi-axis; the horizontal/major
                        # semi-axis is radius * ASPECT_X. Combined with the
@@ -27,12 +27,95 @@ ASPECT_X     = 2.0     # rings are ellipses, stretched horizontally to fill the
                        # edges within ~30-40px of the canvas border on every
                        # side -- CY's headroom push-down (see below) makes
                        # the bottom margin the tightest of the four.
-LABEL_OFFSET = 10.0   # labels curve on a slightly larger radius, hovering just
+LABEL_OFFSET     = 10.0   # labels curve on a slightly larger radius, hovering just
                        # outside their ring instead of sitting on the line itself
-LABEL_ASCENT_MARGIN = 14.0   # curved-text glyphs extend outward past their own
+LABEL_ASCENT_MARGIN_DEFAULT = 14.0   # curved-text glyphs extend outward past their own
                               # baseline radius (ascenders) -- this keeps the
                               # NEXT band's nodes clear of that ink, not just
                               # of the label's nominal baseline offset above
+
+# CY push-down below true vertical center, to leave headroom for the outermost
+# band's label. The shared default (50) leaves only ~20px of bottom margin
+# against ~120px on top for a 380-radius outer band -- visibly off-center,
+# which is what the Anglophone Classic page plan's "center the graph" request
+# was about. Left as-is for the other two ring clusters (not part of this
+# request); Anglophone Classic gets a much smaller push, just enough headroom
+# for its now-larger label font (see LABEL_STYLE_OVERRIDES below).
+CY_PUSH_DEFAULT = 50.0
+CY_PUSH_OVERRIDES = {
+    "anglophone_classic": 14.0,
+    "transatlantic_auteur_cinema": 14.0,
+    "hong_kong_taiwan_cinema": 14.0,
+    "bergman_scandinavian": 14.0,
+    "european_art_cinema": 14.0,
+    "japanese_cinema": 14.0,
+}
+
+# Per-cluster visual overrides so the shared ring-viz code can give every
+# ring cluster the same larger, higher-contrast treatment.
+NODE_R_OVERRIDES = {
+    "anglophone_classic": 12.0,
+    "transatlantic_auteur_cinema": 12.0,
+    "hong_kong_taiwan_cinema": 12.0,
+    "bergman_scandinavian": 12.0,
+    # European Art Cinema and Japanese Cinema both have far more films (432
+    # and 354) than the other bigger-node clusters, so 12.0 doesn't fit
+    # within the fixed 380px outer bound without real node overlap -- 9.5 is
+    # the largest radius that still packs every band cleanly for both
+    # (verified by checking every node's pairwise distance, not just
+    # eyeballing it).
+    "european_art_cinema": 9.5,
+    "japanese_cinema": 9.5,
+}
+# Default node border blends into the background (stroke = bg_color) so
+# touching nodes read as separated without drawing attention to the border
+# itself. The bigger-node clusters get an actual visible-but-slight black
+# border instead, so individual films stand out more clearly.
+NODE_BORDER_STYLE_OVERRIDES = {
+    "anglophone_classic": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "transatlantic_auteur_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "hong_kong_taiwan_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "bergman_scandinavian": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "european_art_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "japanese_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+}
+LABEL_STYLE_DEFAULT = {"font_size": 15, "font_weight": 600}
+LABEL_STYLE_OVERRIDES = {
+    "anglophone_classic": {"font_size": 21, "font_weight": 800},
+    "transatlantic_auteur_cinema": {"font_size": 21, "font_weight": 800},
+    "hong_kong_taiwan_cinema": {"font_size": 21, "font_weight": 800},
+    "bergman_scandinavian": {"font_size": 21, "font_weight": 800},
+    "european_art_cinema": {"font_size": 21, "font_weight": 800},
+    "japanese_cinema": {"font_size": 21, "font_weight": 800},
+}
+LABEL_ASCENT_MARGIN_OVERRIDES = {
+    "anglophone_classic": 19.0,
+    "transatlantic_auteur_cinema": 19.0,
+    "hong_kong_taiwan_cinema": 19.0,
+    "bergman_scandinavian": 19.0,
+    "european_art_cinema": 19.0,
+    "japanese_cinema": 19.0,
+}
+RING_GUIDE_STYLE_OVERRIDES = {
+    # Darker and thicker than the shared default (which just reuses the
+    # cluster's contrast text color at stroke-width 1). Rather than an
+    # unrelated fixed color, "darken_factor" darkens the cluster's own node
+    # color -- same darken() used for black-and-white nodes below -- so the
+    # ring boundaries still read as part of the cluster's own identity while
+    # standing out from the larger nodes/labels.
+    "anglophone_classic": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "transatlantic_auteur_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "hong_kong_taiwan_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "bergman_scandinavian": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "european_art_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "japanese_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+}
+
+# Clusters that distinguish black-and-white from color films by darkening the
+# node fill (same rule hex_svg.py uses for the home page's hex grid).
+BW_TINT_CLUSTERS = {"anglophone_classic", "transatlantic_auteur_cinema",
+                     "hong_kong_taiwan_cinema", "bergman_scandinavian",
+                     "european_art_cinema", "japanese_cinema"}
 
 # Per-cluster (min_degree, ring_radius, label) triples -- innermost band first.
 # Films are scattered by area throughout each band's annulus (0..r for the
@@ -48,14 +131,22 @@ LABEL_ASCENT_MARGIN = 14.0   # curved-text glyphs extend outward past their own
 # ~255-vs-432 film count so each band keeps a similar packing density within
 # the same 380px outer bound.
 CLUSTER_BANDS = {
+    # Radii widened slightly from the original (103, 282) to make room for
+    # the bigger 9.5px nodes (see NODE_R_OVERRIDES) at this cluster's much
+    # higher per-band film counts (21/182/229) -- verified zero pairwise
+    # node-overlaps at these exact radii, not just visually spot-checked.
     "european_art_cinema": [
-        (25, 103, "Hub (degree ≥ 25)"),
-        (10, 282, "Mid (10–24)"),
+        (25, 90,  "Hub (degree ≥ 25)"),
+        (10, 255, "Mid (10–24)"),
         (0,  380, "Peripheral (< 10)"),
     ],
+    # Radii widened slightly from the original (139, 298) for the same
+    # reason as European Art Cinema above: the bigger 9.5px nodes need more
+    # room for this cluster's per-band counts (44/226/84) -- verified zero
+    # pairwise node-overlaps at these exact radii.
     "japanese_cinema": [
-        (75, 139, "Hub (degree ≥ 75)"),
-        (25, 298, "Mid (25–74)"),
+        (75, 165, "Hub (degree ≥ 75)"),
+        (25, 315, "Mid (25–74)"),
         (0,  380, "Peripheral (< 25)"),
     ],
     "anglophone_classic": [
@@ -63,8 +154,44 @@ CLUSTER_BANDS = {
         (10, 243, "Mid (10–24)"),
         (0,  380, "Peripheral (< 10)"),
     ],
+    # Transatlantic Auteur Cinema's own degree distribution is much sparser
+    # (avg internal degree ~4.7, max 20) than the other three ring clusters,
+    # so it needs its own thresholds rather than reusing the 25/10 split --
+    # at those cutoffs its hub band would be empty (max degree is only 20).
+    # Chosen to land on roughly the same hub/mid/peripheral proportions
+    # (~6%/31%/63%) as Anglophone Classic's (~4%/37%/59%) so it reads as the
+    # same kind of graph despite the different absolute degree range.
+    "transatlantic_auteur_cinema": [
+        (15, 75,  "Hub (degree ≥ 15)"),
+        (5,  230, "Mid (5–14)"),
+        (0,  380, "Peripheral (< 5)"),
+    ],
+    # Hong Kong/Taiwan Cinema is small (79 films) but dense and fairly evenly
+    # spread across its whole 1-36 degree range (median 12, not concentrated
+    # near either end like the other clusters), with a genuinely large
+    # top tier rather than a long thin tail -- closer in shape to Japanese
+    # Cinema's dense core than to Anglophone/Transatlantic's skew. Hub/Mid/
+    # Peripheral here land at ~23%/46%/32% of the cluster.
+    "hong_kong_taiwan_cinema": [
+        (20, 100, "Hub (degree ≥ 20)"),
+        (8,  250, "Mid (8–19)"),
+        (0,  380, "Peripheral (< 8)"),
+    ],
+    # Bergman Scandinavian is the densest small cluster: mean/median internal
+    # degree ~17-18, nearly flat across the whole 1-35 range rather than
+    # skewed to either end (Bergman's own repertory company forms the dense
+    # core, with the wider Scandinavian tradition around it). Hub/Mid/
+    # Peripheral land at ~25%/48%/27% -- band sizes close enough to Hong
+    # Kong/Taiwan Cinema's (18/36/25 films) to reuse the same radii.
+    "bergman_scandinavian": [
+        (25, 100, "Hub (degree ≥ 25)"),
+        (10, 250, "Mid (10–24)"),
+        (0,  380, "Peripheral (< 10)"),
+    ],
 }
-RINGS_TO_RENDER = ["european_art_cinema", "japanese_cinema", "anglophone_classic"]
+RINGS_TO_RENDER = ["european_art_cinema", "japanese_cinema", "anglophone_classic",
+                   "transatlantic_auteur_cinema", "hong_kong_taiwan_cinema",
+                   "bergman_scandinavian"]
 
 
 def esc(s):
@@ -132,6 +259,21 @@ def build_svg(cluster_id, films, bands):
     node_color = COLOR_MAP.get(cluster_id, "#888888")
     bg_color   = BG_COLOR
     text_color = contrast_text_color(bg_color)
+    film_is_color = load_film_color()
+
+    NODE_R = NODE_R_OVERRIDES.get(cluster_id, NODE_R_DEFAULT)
+    CX, CY = W / 2, H / 2 + CY_PUSH_OVERRIDES.get(cluster_id, CY_PUSH_DEFAULT)
+    LABEL_ASCENT_MARGIN = LABEL_ASCENT_MARGIN_OVERRIDES.get(cluster_id, LABEL_ASCENT_MARGIN_DEFAULT)
+    label_style = {**LABEL_STYLE_DEFAULT, **LABEL_STYLE_OVERRIDES.get(cluster_id, {})}
+    guide_override = RING_GUIDE_STYLE_OVERRIDES.get(cluster_id, {})
+    guide_stroke = (darken(node_color, guide_override["darken_factor"])
+                    if "darken_factor" in guide_override else text_color)
+    guide_width  = guide_override.get("width", 1)
+    guide_opacity = guide_override.get("opacity", 0.9)
+    border_override = NODE_BORDER_STYLE_OVERRIDES.get(cluster_id, {})
+    node_stroke = border_override.get("stroke", bg_color)
+    node_stroke_opacity = border_override.get("opacity", 1.0)
+    node_stroke_width = border_override.get("width", max(1.5, NODE_R * 0.2))
 
     grouped = {min_deg: [] for min_deg, *_ in bands}
     for row in films.itertuples():
@@ -180,13 +322,13 @@ def build_svg(cluster_id, films, bands):
            f'viewBox="0 0 {W} {H}" font-family="Helvetica, Arial, sans-serif">']
     svg.append(f"""
 <style>
-  .node {{ fill: {node_color}; stroke: {bg_color}; stroke-width: 1.5; cursor: pointer; }}
-  .node:hover {{ stroke: {text_color}; }}
+  .node {{ stroke: {node_stroke}; stroke-opacity: {node_stroke_opacity}; stroke-width: {node_stroke_width}; cursor: pointer; }}
+  .node:hover {{ stroke: {text_color}; stroke-opacity: 1; }}
   .tooltip {{ opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }}
   .tooltip rect {{ fill: {TOOLTIP_BG}; stroke: #ffffff; stroke-opacity: 0.25; }}
-  .tooltip text {{ fill: {TOOLTIP_TEXT}; font-size: 15px; font-weight: 600; }}
-  .ring-label {{ fill: {text_color}; font-size: 15px; font-weight: 600; opacity: 0.85; }}
-  .ring-guide {{ fill: none; stroke: {text_color}; stroke-opacity: 0.9; stroke-width: 1; }}
+  .tooltip text {{ fill: {TOOLTIP_TEXT}; font-size: 22px; font-weight: 600; }}
+  .ring-label {{ fill: {text_color}; font-size: {label_style['font_size']}px; font-weight: {label_style['font_weight']}; opacity: 0.9; }}
+  .ring-guide {{ fill: none; stroke: {guide_stroke}; stroke-opacity: {guide_opacity}; stroke-width: {guide_width}; }}
   {' '.join(hover_rules)}
 </style>
 """)
@@ -210,7 +352,13 @@ def build_svg(cluster_id, films, bands):
 
     for row, (cx, cy) in all_nodes:
         node_id = f"n-{row.imdb_tconst}"
-        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, NODE_R)}"/>'
+        # Black-and-white (or unresolved -- treated the same, so an unknown
+        # film never gets a false "in color" look) renders as a darker shade
+        # of the cluster color; confirmed-color films get the normal cluster
+        # color. Same rule hex_svg.py uses for the home page's hex grid.
+        is_bw = cluster_id in BW_TINT_CLUSTERS and not film_is_color.get(row.imdb_tconst)
+        fill = darken(node_color) if is_bw else node_color
+        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>'
         link = CRITERION_LINKS.get(row.title)
         if link:
             # id has to live on the <a>, not the polygon: the hover-tooltip
@@ -221,12 +369,12 @@ def build_svg(cluster_id, films, bands):
             # hovering its <a> ancestor.
             svg.append(f'<a id="{node_id}" href="{esc(link)}" target="_blank" rel="noopener">{polygon}</a>')
         else:
-            svg.append(f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, NODE_R)}"/>')
+            svg.append(f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>')
 
     for row, (cx, cy) in all_nodes:
         tip = f"{row.title} ({int(row.criterion_year)}) · degree {row.degree}"
-        tw = max(70, 8.2 * len(tip))
-        th = 34
+        tw = max(100, 11.9 * len(tip))
+        th = 46
         tx = min(max(cx - tw / 2, 8), W - tw - 8)
         ty = cy - NODE_R - th - 10
         if ty < 10:
@@ -234,7 +382,7 @@ def build_svg(cluster_id, films, bands):
 
         svg.append(f'''<g id="t-{row.imdb_tconst}" class="tooltip">
   <rect x="{tx:.1f}" y="{ty:.1f}" width="{tw:.1f}" height="{th:.1f}" rx="6"/>
-  <text x="{tx + tw / 2:.1f}" y="{ty + th / 2 + 5:.1f}" text-anchor="middle">{esc(tip)}</text>
+  <text x="{tx + tw / 2:.1f}" y="{ty + th / 2 + 7:.1f}" text-anchor="middle">{esc(tip)}</text>
 </g>''')
 
     svg.append('</svg>')

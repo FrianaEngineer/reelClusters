@@ -34,6 +34,10 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleW
 
 
 def slugify(s):
+    # Kept in sync with build_criterion_links.py's slugify() -- see the
+    # comments there for why these replacements must happen before NFKD.
+    s = s.replace("½", "")
+    s = s.replace("—", "-").replace("–", "-")
     s = s.replace("’", "-").replace("'", "-")
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
     s = s.lower()
@@ -55,6 +59,47 @@ def single_segment_slugs(sitemap_xml):
     return {l for l in locs if "/" not in l}
 
 
+# Titles whose real Channel slug can't be derived from slugify(title) at
+# all -- either it's an export/alternate title Criterion doesn't use, or the
+# base slug collides with an unrelated film so the Channel disambiguates
+# with a "-1"/"-2" suffix slugify() has no way to guess. Each was found by
+# grepping the cached channel sitemap for a plausible substring and is
+# re-verified live below just like every other candidate (same
+# director/year/title cross-check) -- so if Criterion ever retires or
+# renames one of these, it silently drops out on the next run instead of
+# leaving a stale/wrong link. See the "mistranslations" pass in project
+# chat history for how these were found.
+MANUAL_SLUG_OVERRIDES = {
+    "Duet for Cannibals": "duet-for-cannibals",
+    "Les Grandes Manœuvres": "les-grandes-manoeuvres",
+    "More Than a Secretary": "more-than-a-secretary",
+    "The Swordsman": "swordsman",
+    "Ginza Cosmetics": "ginza-cosmetics",
+    "Repast": "repast",
+    "From Russia with Love": "from-russia-with-love",
+    "White Nights": "le-notti-bianche",
+    "My American Uncle": "mon-oncle-d-amerique",
+    "Assassin": "assassin-1",
+    "Fear": "fear-1",
+    "Silence": "silence-1",
+    "Moving": "moving-1",
+    "Once a Thief": "once-a-thief-1",
+    "Undercurrent": "undercurrent-1",
+    "Destiny": "destiny-1",
+    "Father": "father-1",
+    "Water": "water-1",
+    "Rendez-vous": "rendez-vous-1",
+    "Gang of Four": "the-gang-of-four",
+    "Lydia": "lydia-1",
+    "Joan of Arc": "joan-of-arc-2",
+    "No Way Out": "no-way-out-1",
+    "Obsession": "obsession-1",
+    "Trapped": "trapped-1",
+    "Stella Dallas": "stella-dallas-1",
+    "The Ear": "the-ear-1",
+}
+
+
 def candidates():
     already = set()
     with open(MAIN_LINKS_CSV, newline="") as f:
@@ -64,15 +109,25 @@ def candidates():
     con = duckdb.connect(str(DB_PATH))
     df = con.execute("SELECT DISTINCT title, criterion_year FROM criterion_basic_info").df()
     con.close()
+    year_by_title = dict(zip(df["title"], df["criterion_year"]))
 
     slugs = single_segment_slugs(fetch_sitemap())
     out = []
+    seen = set()
     for title, year in zip(df["title"], df["criterion_year"]):
         if title in already:
             continue
         slug = slugify(title)
         if slug in slugs:
             out.append((title, int(year) if year is not None else None, slug))
+            seen.add(title)
+
+    for title, slug in MANUAL_SLUG_OVERRIDES.items():
+        if title in already or title in seen:
+            continue
+        year = year_by_title.get(title)
+        out.append((title, int(year) if year is not None else None, slug))
+
     return out
 
 

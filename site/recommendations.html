@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find Your Film — Criterion Clusters</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="recommendations.css">
+</head>
+<body class="recs-page">
+<a class="landing-brand" href="index.html">Criterion Clusters</a>
+
+<main class="recs-main">
+
+  <section id="recs-intro" class="recs-view recs-intro">
+    <div class="recs-intro-bg" aria-hidden="true">
+      <span class="recs-spotlight"></span>
+      <span class="recs-grain"></span>
+    </div>
+    <div class="recs-intro-content">
+      <p class="recs-eyebrow">Your Personal Screening Room</p>
+      <h1>Your next favorite film is waiting.</h1>
+      <p class="recs-sub">Answer a few quick questions and we'll match your mood, taste, and sense of adventure with films from the collection.</p>
+      <button id="recs-start-btn" class="recs-btn recs-btn--primary" type="button">Find My Film</button>
+      <p class="recs-microcopy">About 2 minutes. No account needed.</p>
+    </div>
+  </section>
+
+  <section id="recs-survey" class="recs-view recs-survey" hidden>
+    <div class="recs-survey-inner">
+      <div class="recs-survey-head">
+        <p class="recs-progress-label" id="recs-progress-label" aria-live="polite">Question 1 of 9</p>
+        <div class="recs-progress-track">
+          <div class="recs-progress-fill" id="recs-progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="recs-question" id="recs-question"></div>
+
+      <p class="recs-error" id="recs-error" role="alert" hidden></p>
+
+      <div class="recs-nav">
+        <button id="recs-back-btn" class="recs-btn recs-btn--ghost" type="button">Back</button>
+        <button id="recs-skip-btn" class="recs-btn recs-btn--ghost" type="button" hidden>Skip</button>
+        <button id="recs-next-btn" class="recs-btn recs-btn--primary" type="button">Next</button>
+      </div>
+
+      <button id="recs-restart-link" class="recs-restart-link" type="button">Restart survey</button>
+    </div>
+  </section>
+
+  <section id="recs-results" class="recs-view recs-results" hidden>
+    <header class="recs-results-head">
+      <h1>Your Screening Lineup</h1>
+      <p class="recs-sub">Chosen from the collection based on what you told us.</p>
+    </header>
+
+    <div class="recs-summary" id="recs-summary" aria-label="Your selected preferences"></div>
+
+    <div class="recs-lineup">
+      <div class="recs-best" id="recs-best"></div>
+      <div class="recs-others" id="recs-others"></div>
+    </div>
+
+    <div class="recs-results-actions">
+      <button id="recs-tryagain-btn" class="recs-btn recs-btn--primary" type="button">Try Again</button>
+      <button id="recs-adjust-btn" class="recs-btn recs-btn--ghost" type="button">Adjust My Answers</button>
+      <button id="recs-surprise-btn" class="recs-btn recs-btn--ghost" type="button">Surprise Me</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/films-data.js"></script>
+<script src="recommendation-mappings.js"></script>
+<script src="recommendations.js"></script>
+</body>
+</html>
