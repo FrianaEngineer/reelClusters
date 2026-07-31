@@ -5,15 +5,71 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Explore Directors by Cluster — Criterion Clusters</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="directors.css">
 </head>
 <body>
-<div class="page">
+<div class="page dir-page">
   <a class="back-link" href="index.html">&larr; Home</a>
   <header class="placeholder-header">
     <p class="placeholder-kicker">04 — Directors</p>
     <h1>Explore Directors by Cluster</h1>
+    <p class="dir-tab-sub">
+      Every director in the Collection, grouped by the cluster their films belong
+      to. If a director has films in more than one cluster, they're listed under
+      each one — click their name to see all of it in one place.
+    </p>
   </header>
-  <p class="placeholder-note">Coming soon.</p>
+
+  <div class="dir-search-row">
+    <label class="dir-search-label" for="dir-search">Search directors</label>
+    <input type="search" id="dir-search" class="dir-search-input" placeholder="Search by director name…" autocomplete="off">
+    <p id="dir-search-status" class="dir-search-status"></p>
+  </div>
+
+  <p id="dir-empty" class="dir-empty" hidden>No directors match "<span id="dir-empty-term"></span>".</p>
+
+  <div id="dir-clusters" class="dir-clusters"></div>
 </div>
+
+<template id="dir-cluster-template">
+  <section class="dir-cluster">
+    <div class="dir-cluster-head">
+      <h2 class="dir-cluster-heading">
+        <button type="button" class="dir-cluster-toggle" aria-expanded="false">
+          <svg class="dir-cluster-chevron" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="dir-cluster-swatch"></span>
+          <span class="dir-cluster-title-block">
+            <span class="dir-cluster-name"></span>
+            <span class="dir-cluster-meta"></span>
+          </span>
+        </button>
+      </h2>
+      <a class="dir-cluster-viewlink" href="#">View cluster &rarr;</a>
+    </div>
+    <div class="dir-grid-wrap">
+      <div class="dir-grid-inner">
+        <ul class="dir-grid" role="list"></ul>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="dir-card-template">
+  <li class="dir-card">
+    <a class="dir-card-link">
+      <span class="dir-avatar">
+        <img src="assets/director-placeholder.svg" alt="" loading="lazy">
+      </span>
+      <span class="dir-card-name"></span>
+    </a>
+  </li>
+</template>
+
+<script src="assets/films-data.js"></script>
+<script src="assets/top-directors.js"></script>
+<script src="assets/director-utils.js"></script>
+<script src="directors-tab.js"></script>
 </body>
 </html>

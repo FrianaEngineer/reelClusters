@@ -130,30 +130,51 @@ BATCH_SLOT_SECONDS_TARGET = 1.5   # nominal per-batch on-screen duration (crossf
 
 # ── Reveal timing ─────────────────────────────────────────────────────────
 HEX_POP_SECONDS = 0.15          # a film's hex(es) fade-in duration -- never fades back out
-CARD_FADE_IN_SECONDS = 0.55     # batch fade-in (spec range 0.4-0.75s)
-CARD_FADE_OUT_SECONDS = 0.55    # batch fade-out (spec range 0.4-0.75s)
-CARD_TRANSITION_EASING = "ease-in-out"   # documented, applied as a smoothstep in the renderer
 
-# ── Visual constants (must match explore.html / hex_svg.py exactly) ──────
-# Criterion-Over-Time-specific constant, deliberately not read from or
-# written into cluster_colors.py (shared/off-limits) -- kept in sync with
-# hex_svg.py's own page-background literal by hand, since this project must
-# not modify that shared file.
-BACKGROUND_COLOR = "#12121f"
+# ── Visual constants ───────────────────────────────────────────────────────
+# 2026-07-29 restyle: whole-video background changed from the original dark
+# #12121f to an exact client-specified light gray, and the single full-width
+# bottom "card" was replaced by a right-hand vertical panel (see
+# cinematic_history_animation.py). BACKGROUND_COLOR is intentionally no
+# longer required to match hex_svg.py's page literal -- the client spec for
+# this restyle explicitly overrides the video's background color, and
+# unrevealed/ambient hex faces are painted with this same color so they read
+# as "empty" against the new background.
+BACKGROUND_COLOR = "#b8b9ba"
 HEX_STROKE_COLOR = "#000000"
-HEX_STROKE_WIDTH_PX = 2.5        # spec: 2-3px at 1920x1080
+HEX_STROKE_WIDTH_PX = 2.5        # spec: 2-3px at 1920x1080 -- internal hex lines, unchanged
 OUTER_BORDER_COLOR = "#000000"
-OUTER_BORDER_WIDTH_PX = 5.0      # spec: 4-6px at 1920x1080
+OUTER_BORDER_WIDTH_PX = 5.0      # spec: 4-6px at 1920x1080 -- outer perimeter only, unchanged
 
-# ── Film-info card text styling ───────────────────────────────────────────
-CARD_DIRECTOR_FONTSIZE_PX = 32
-CARD_COUNTRY_FONTSIZE_PX = 28
-CARD_TEXT_COLOR = "#000000"      # director/country text must be black (spec)
-# Card surface/background color is not specified by the client spec beyond
-# "black text" (implying a light surface) -- TODO: confirm against the
-# client's reference image once supplied; using a neutral off-white plate in
-# the meantime so the mandated black text stays legible.
-CARD_SURFACE_COLOR = "#F2F0EA"
+# ── Film-info panel text styling ──────────────────────────────────────────
+# Title text (film name) is bold and the largest of the three lines; the
+# director/country line is one combined "Director · Country" string
+# underneath, smaller. Sizes were reduced from the original full-width-card
+# values because the panel is now only ~1/3 of the frame width -- a
+# small necessary adjustment to keep long titles from clipping.
+CARD_TITLE_FONTSIZE_PX = 30
+CARD_CREDIT_FONTSIZE_PX = 22
+CARD_TEXT_COLOR = "#000000"      # director/country text stays black (spec)
+CARD_TITLE_COLOR = "#000000"
+# Year / opening title-card text was previously white (legible on the old
+# dark #12121f background). Against the new light #b8b9ba background, white
+# text would be invisible, which would violate the spec's own legibility and
+# "year must appear" requirements -- so these two elements are flipped to a
+# dark color. This is the one deliberate color deviation from "keep current
+# text colors"; every other text color (all already black) is unchanged.
+YEAR_TEXT_COLOR = "#111111"
+TITLE_CARD_TEXT_COLOR = "#111111"
+TITLE_CARD_SUBTITLE_COLOR = "#333333"
+
+# ── Rolling film-item timing (spec-exact) ─────────────────────────────────
+ITEM_FADE_IN_SECONDS = 0.5
+ITEM_FADE_OUT_SECONDS = 1.0
+
+# ── Yearly posters ─────────────────────────────────────────────────────────
+# Read-only source directory in the sibling ReelWrangling repo -- per spec,
+# posters are used only from there, never copied/downloaded/renamed.
+POSTER_SOURCE_DIR = REPO_ROOT.parent / "ReelWrangling" / "data" / "posters"
+POSTER_START_YEAR = 1929
 
 # ── Audio ─────────────────────────────────────────────────────────────────
 AUDIO_CROSSFADE_SECONDS = 5.0

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Director — Criterion Clusters</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="directors.css">
+</head>
+<body>
+<div class="page dir-profile-page">
+  <a class="back-link" href="movie-map.html">&larr; Explore Directors by Cluster</a>
+
+  <div id="dir-not-found" class="dir-not-found" hidden>
+    <h1>Director not found</h1>
+    <p>We couldn't find that director in the current dataset. <a href="movie-map.html">Back to Explore Directors by Cluster</a></p>
+  </div>
+
+  <div id="dir-profile" class="dir-profile" hidden>
+    <div class="dir-profile-grid">
+      <section class="dir-viz-col" aria-label="Cluster visualizations">
+        <h2 class="dir-col-heading">Clusters</h2>
+        <div id="dir-viz-list" class="dir-viz-list"></div>
+      </section>
+
+      <aside class="dir-info-col" aria-label="Director information">
+        <div class="dir-portrait-wrap">
+          <img id="dir-portrait" class="dir-portrait" src="assets/director-placeholder.svg" alt="">
+          <p id="dir-portrait-credit" class="dir-portrait-credit" hidden></p>
+        </div>
+        <h1 id="dir-name" class="dir-name"></h1>
+        <ul id="dir-cluster-chips" class="dir-cluster-chips" aria-label="Clusters this director appears in"></ul>
+        <div class="dir-bio-block">
+          <h2 class="dir-col-heading">Biography</h2>
+          <p id="dir-bio" class="dir-bio"></p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="dir-filmography" aria-labelledby="dir-filmography-heading">
+      <h2 id="dir-filmography-heading">Criterion Films Directed by <span id="dir-filmography-name"></span></h2>
+      <p id="dir-filmography-count" class="dir-filmography-count"></p>
+      <ul id="dir-filmography-list" class="dir-filmography-list" role="list"></ul>
+    </section>
+  </div>
+</div>
+
+<template id="dir-viz-card-template">
+  <article class="dir-viz-card">
+    <header class="dir-viz-card-head">
+      <span class="dir-viz-swatch"></span>
+      <h3 class="dir-viz-card-title"></h3>
+      <span class="dir-viz-count"></span>
+    </header>
+    <div class="dir-viz-embed"></div>
+    <p class="dir-viz-legend">
+      <span class="dir-legend-item"><span class="dir-legend-swatch dir-legend-highlight"></span><span class="dir-legend-highlight-text">Directed by this filmmaker</span></span>
+      <span class="dir-legend-item"><span class="dir-legend-swatch dir-legend-dim"></span> Other films in this cluster</span>
+    </p>
+  </article>
+</template>
+
+<template id="dir-viz-fallback-template">
+  <article class="dir-viz-card dir-viz-card--text">
+    <header class="dir-viz-card-head">
+      <span class="dir-viz-swatch"></span>
+      <h3 class="dir-viz-card-title"></h3>
+      <span class="dir-viz-count"></span>
+    </header>
+    <p class="dir-viz-note">
+      This cluster isn't rendered as an interactive node network — it groups the
+      Collection's least-connected titles. Films directed by this filmmaker here:
+    </p>
+    <ul class="dir-viz-filmtags"></ul>
+  </article>
+</template>
+
+<template id="dir-chip-template">
+  <li class="dir-chip">
+    <a class="dir-chip-link">
+      <span class="dir-chip-swatch"></span>
+      <span class="dir-chip-name"></span>
+    </a>
+  </li>
+</template>
+
+<template id="dir-film-card-template">
+  <li class="film-card">
+    <div class="film-poster"><img src="assets/poster-placeholder.svg" alt=""></div>
+    <div class="film-meta">
+      <p class="film-card-title"></p>
+      <p class="film-card-cluster"><span class="film-card-dot"></span><span class="film-card-cluster-name"></span></p>
+      <a class="film-card-link" target="_blank" rel="noopener">View film &rarr;</a>
+    </div>
+  </li>
+</template>
+
+<script src="assets/films-data.js"></script>
+<script src="assets/director-info.js"></script>
+<script src="assets/director-utils.js"></script>
+<script src="director-profile.js"></script>
+</body>
+</html>

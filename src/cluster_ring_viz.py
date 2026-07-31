@@ -9,7 +9,7 @@ import numpy as np
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from cluster_colors import COLOR_MAP, contrast_text_color
+from cluster_colors import COLOR_MAP, NODE_FILL_MAP, contrast_text_color
 from cluster_graph_viz import DB_PATH, BG_COLOR, TOOLTIP_BG, TOOLTIP_TEXT, hexagon_points, CRITERION_LINKS
 from hex_svg import darken, load_film_color
 
@@ -355,9 +355,12 @@ def build_svg(cluster_id, films, bands):
         # Black-and-white (or unresolved -- treated the same, so an unknown
         # film never gets a false "in color" look) renders as a darker shade
         # of the cluster color; confirmed-color films get the normal cluster
-        # color. Same rule hex_svg.py uses for the home page's hex grid.
+        # color. Fixed per-cluster pair from NODE_FILL_MAP (this viz's node
+        # fill only -- deliberately independent of node_color/COLOR_MAP,
+        # which still drives the ring-guide stroke above and explore.html).
         is_bw = cluster_id in BW_TINT_CLUSTERS and not film_is_color.get(row.imdb_tconst)
-        fill = darken(node_color) if is_bw else node_color
+        node_fill = NODE_FILL_MAP.get(cluster_id, {"color": node_color, "bw": darken(node_color)})
+        fill = node_fill["bw"] if is_bw else node_fill["color"]
         polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>'
         link = CRITERION_LINKS.get(row.title)
         if link:

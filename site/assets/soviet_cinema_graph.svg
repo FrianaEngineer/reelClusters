@@ -2,7 +2,7 @@
 
 <style>
   .edge { stroke: #000000; stroke-opacity: 0.5712333657442771; stroke-width: 1.4647009378058384; }
-  .node { fill: #9D0208; stroke: #dedddc; stroke-width: 2; cursor: pointer; }
+  .node { stroke: #dedddc; stroke-width: 2; cursor: pointer; }
   .node:hover { stroke: #000000; }
   .tooltip { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
   .tooltip rect { fill: #12121f; stroke: #ffffff; stroke-opacity: 0.25; }
@@ -56,30 +56,30 @@
 <line class="edge" x1="593.9" y1="610.8" x2="1140.8" y2="654.6"/>
 <line class="edge" x1="680.6" y1="333.7" x2="1140.8" y2="654.6"/>
 </g>
-<a id="n-tt0155028" href="https://www.criterionchannel.com/adventures-of-a-dentist" target="_blank" rel="noopener"><polygon class="node" points="635.2,776.5 623.6,783.3 611.9,776.5 611.9,763.1 623.6,756.3 635.2,763.1"/></a>
-<a id="n-tt0173240" href="https://www.criterionchannel.com/among-grey-stones" target="_blank" rel="noopener"><polygon class="node" points="1501.9,605.6 1490.2,612.4 1478.5,605.6 1478.5,592.2 1490.2,585.4 1501.9,592.2"/></a>
-<a id="n-tt0060107" href="https://www.criterion.com/films/300-andrei-rublev" target="_blank" rel="noopener"><polygon class="node" points="1034.6,437.7 1023.0,444.5 1011.3,437.7 1011.3,424.3 1023.0,417.5 1034.6,424.3"/></a>
-<a id="n-tt0052600" href="https://www.criterion.com/films/343-ballad-of-a-soldier" target="_blank" rel="noopener"><polygon class="node" points="101.7,589.3 90.0,596.0 78.3,589.3 78.3,575.8 90.0,569.1 101.7,575.8"/></a>
-<a id="n-tt0061883" href="https://www.criterion.com/films/33328-brief-encounters" target="_blank" rel="noopener"><polygon class="node" points="1298.1,747.7 1286.4,754.4 1274.8,747.7 1274.8,734.2 1286.4,727.5 1298.1,734.2"/></a>
-<a id="n-tt0087900" href="https://www.criterionchannel.com/change-of-fate" target="_blank" rel="noopener"><polygon class="node" points="1351.2,277.4 1339.5,284.2 1327.9,277.4 1327.9,264.0 1339.5,257.2 1351.2,264.0"/></a>
-<a id="n-tt0056111" href="https://www.criterion.com/films/830-ivan-s-childhood" target="_blank" rel="noopener"><polygon class="node" points="974.2,581.7 962.6,588.5 950.9,581.7 950.9,568.3 962.6,561.5 974.2,568.3"/></a>
-<a id="n-tt0053106" href="https://www.criterion.com/films/27673-letter-never-sent" target="_blank" rel="noopener"><polygon class="node" points="424.6,317.7 412.9,324.5 401.3,317.7 401.3,304.3 412.9,297.5 424.6,304.3"/></a>
-<a id="n-tt0072443" href="https://www.criterion.com/films/28894-mirror" target="_blank" rel="noopener"><polygon class="node" points="810.1,564.1 798.4,570.8 786.8,564.1 786.8,550.6 798.4,543.9 810.1,550.6"/></a>
-<a id="n-tt0054803" href="https://www.criterionchannel.com/nine-days-of-one-year" target="_blank" rel="noopener"><polygon class="node" points="308.1,483.1 296.4,489.9 284.7,483.1 284.7,469.7 296.4,462.9 308.1,469.7"/></a>
-<a id="n-tt0069293" href="https://www.criterion.com/films/553-solaris" target="_blank" rel="noopener"><polygon class="node" points="870.5,420.1 858.8,426.8 847.2,420.1 847.2,406.6 858.8,399.9 870.5,406.6"/></a>
-<a id="n-tt0079944" href="https://www.criterion.com/films/28150-stalker" target="_blank" rel="noopener"><polygon class="node" points="1086.5,518.6 1074.8,525.3 1063.2,518.6 1063.2,505.1 1074.8,498.4 1086.5,505.1"/></a>
-<a id="n-tt0075404" href="https://www.criterion.com/films/561-the-ascent" target="_blank" rel="noopener"><polygon class="node" points="758.2,483.2 746.6,490.0 734.9,483.2 734.9,469.8 746.6,463.0 758.2,469.8"/></a>
-<a id="n-tt0096841" href="https://www.criterionchannel.com/the-asthenic-syndrome" target="_blank" rel="noopener"><polygon class="node" points="1044.6,195.5 1032.9,202.2 1021.2,195.5 1021.2,182.0 1032.9,175.3 1044.6,182.0"/></a>
-<a id="n-tt0050634" href="https://www.criterion.com/films/547-the-cranes-are-flying" target="_blank" rel="noopener"><polygon class="node" points="386.6,654.2 374.9,660.9 363.3,654.2 363.3,640.7 374.9,634.0 386.6,640.7"/></a>
-<a id="n-tt0092905" href="https://www.criterion.com/films/33329-the-long-farewell" target="_blank" rel="noopener"><polygon class="node" points="1483.8,816.7 1472.1,823.5 1460.5,816.7 1460.5,803.3 1472.1,796.5 1483.8,803.3"/></a>
-<a id="n-tt0383020" href="https://www.criterionchannel.com/the-tuner" target="_blank" rel="noopener"><polygon class="node" points="1521.7,430.3 1510.0,437.1 1498.3,430.3 1498.3,416.9 1510.0,410.1 1521.7,416.9"/></a>
-<a id="n-tt0120372" href="https://www.criterionchannel.com/three-stories" target="_blank" rel="noopener"><polygon class="node" points="699.1,210.5 687.5,217.2 675.8,210.5 675.8,197.0 687.5,190.3 699.1,197.0"/></a>
-<a id="n-tt0059884" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="1239.1,384.3 1227.5,391.1 1215.8,384.3 1215.8,370.9 1227.5,364.1 1239.1,370.9"/></a>
-<a id="n-tt0061162" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="605.6,617.5 593.9,624.2 582.3,617.5 582.3,604.0 593.9,597.3 605.6,604.0"/></a>
-<a id="n-tt0062455" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="692.2,340.5 680.6,347.2 668.9,340.5 668.9,327.0 680.6,320.3 692.2,327.0"/></a>
-<a id="n-tt0062456" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="1152.5,661.4 1140.8,668.1 1129.2,661.4 1129.2,647.9 1140.8,641.2 1152.5,647.9"/></a>
-<a id="n-tt0058022" href="https://www.criterionchannel.com/welcome-or-no-trespassing" target="_blank" rel="noopener"><polygon class="node" points="1181.6,96.7 1170.0,103.5 1158.3,96.7 1158.3,83.3 1170.0,76.5 1181.6,83.3"/></a>
-<a id="n-tt0061196" href="https://www.criterion.com/films/560-wings" target="_blank" rel="noopener"><polygon class="node" points="975.0,811.4 963.4,818.2 951.7,811.4 951.7,798.0 963.4,791.2 975.0,798.0"/></a>
+<a id="n-tt0155028" href="https://www.criterionchannel.com/adventures-of-a-dentist" target="_blank" rel="noopener"><polygon class="node" points="635.2,776.5 623.6,783.3 611.9,776.5 611.9,763.1 623.6,756.3 635.2,763.1" fill="#660105"/></a>
+<a id="n-tt0173240" href="https://www.criterionchannel.com/among-grey-stones" target="_blank" rel="noopener"><polygon class="node" points="1501.9,605.6 1490.2,612.4 1478.5,605.6 1478.5,592.2 1490.2,585.4 1501.9,592.2" fill="#c74c50"/></a>
+<a id="n-tt0060107" href="https://www.criterion.com/films/300-andrei-rublev" target="_blank" rel="noopener"><polygon class="node" points="1034.6,437.7 1023.0,444.5 1011.3,437.7 1011.3,424.3 1023.0,417.5 1034.6,424.3" fill="#660105"/></a>
+<a id="n-tt0052600" href="https://www.criterion.com/films/343-ballad-of-a-soldier" target="_blank" rel="noopener"><polygon class="node" points="101.7,589.3 90.0,596.0 78.3,589.3 78.3,575.8 90.0,569.1 101.7,575.8" fill="#660105"/></a>
+<a id="n-tt0061883" href="https://www.criterion.com/films/33328-brief-encounters" target="_blank" rel="noopener"><polygon class="node" points="1298.1,747.7 1286.4,754.4 1274.8,747.7 1274.8,734.2 1286.4,727.5 1298.1,734.2" fill="#660105"/></a>
+<a id="n-tt0087900" href="https://www.criterionchannel.com/change-of-fate" target="_blank" rel="noopener"><polygon class="node" points="1351.2,277.4 1339.5,284.2 1327.9,277.4 1327.9,264.0 1339.5,257.2 1351.2,264.0" fill="#c74c50"/></a>
+<a id="n-tt0056111" href="https://www.criterion.com/films/830-ivan-s-childhood" target="_blank" rel="noopener"><polygon class="node" points="974.2,581.7 962.6,588.5 950.9,581.7 950.9,568.3 962.6,561.5 974.2,568.3" fill="#660105"/></a>
+<a id="n-tt0053106" href="https://www.criterion.com/films/27673-letter-never-sent" target="_blank" rel="noopener"><polygon class="node" points="424.6,317.7 412.9,324.5 401.3,317.7 401.3,304.3 412.9,297.5 424.6,304.3" fill="#660105"/></a>
+<a id="n-tt0072443" href="https://www.criterion.com/films/28894-mirror" target="_blank" rel="noopener"><polygon class="node" points="810.1,564.1 798.4,570.8 786.8,564.1 786.8,550.6 798.4,543.9 810.1,550.6" fill="#660105"/></a>
+<a id="n-tt0054803" href="https://www.criterionchannel.com/nine-days-of-one-year" target="_blank" rel="noopener"><polygon class="node" points="308.1,483.1 296.4,489.9 284.7,483.1 284.7,469.7 296.4,462.9 308.1,469.7" fill="#660105"/></a>
+<a id="n-tt0069293" href="https://www.criterion.com/films/553-solaris" target="_blank" rel="noopener"><polygon class="node" points="870.5,420.1 858.8,426.8 847.2,420.1 847.2,406.6 858.8,399.9 870.5,406.6" fill="#660105"/></a>
+<a id="n-tt0079944" href="https://www.criterion.com/films/28150-stalker" target="_blank" rel="noopener"><polygon class="node" points="1086.5,518.6 1074.8,525.3 1063.2,518.6 1063.2,505.1 1074.8,498.4 1086.5,505.1" fill="#660105"/></a>
+<a id="n-tt0075404" href="https://www.criterion.com/films/561-the-ascent" target="_blank" rel="noopener"><polygon class="node" points="758.2,483.2 746.6,490.0 734.9,483.2 734.9,469.8 746.6,463.0 758.2,469.8" fill="#660105"/></a>
+<a id="n-tt0096841" href="https://www.criterionchannel.com/the-asthenic-syndrome" target="_blank" rel="noopener"><polygon class="node" points="1044.6,195.5 1032.9,202.2 1021.2,195.5 1021.2,182.0 1032.9,175.3 1044.6,182.0" fill="#660105"/></a>
+<a id="n-tt0050634" href="https://www.criterion.com/films/547-the-cranes-are-flying" target="_blank" rel="noopener"><polygon class="node" points="386.6,654.2 374.9,660.9 363.3,654.2 363.3,640.7 374.9,634.0 386.6,640.7" fill="#660105"/></a>
+<a id="n-tt0092905" href="https://www.criterion.com/films/33329-the-long-farewell" target="_blank" rel="noopener"><polygon class="node" points="1483.8,816.7 1472.1,823.5 1460.5,816.7 1460.5,803.3 1472.1,796.5 1483.8,803.3" fill="#660105"/></a>
+<a id="n-tt0383020" href="https://www.criterionchannel.com/the-tuner" target="_blank" rel="noopener"><polygon class="node" points="1521.7,430.3 1510.0,437.1 1498.3,430.3 1498.3,416.9 1510.0,410.1 1521.7,416.9" fill="#660105"/></a>
+<a id="n-tt0120372" href="https://www.criterionchannel.com/three-stories" target="_blank" rel="noopener"><polygon class="node" points="699.1,210.5 687.5,217.2 675.8,210.5 675.8,197.0 687.5,190.3 699.1,197.0" fill="#c74c50"/></a>
+<a id="n-tt0059884" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="1239.1,384.3 1227.5,391.1 1215.8,384.3 1215.8,370.9 1227.5,364.1 1239.1,370.9" fill="#660105"/></a>
+<a id="n-tt0061162" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="605.6,617.5 593.9,624.2 582.3,617.5 582.3,604.0 593.9,597.3 605.6,604.0" fill="#660105"/></a>
+<a id="n-tt0062455" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="692.2,340.5 680.6,347.2 668.9,340.5 668.9,327.0 680.6,320.3 692.2,327.0" fill="#660105"/></a>
+<a id="n-tt0062456" href="https://www.criterion.com/films/28891-war-and-peace" target="_blank" rel="noopener"><polygon class="node" points="1152.5,661.4 1140.8,668.1 1129.2,661.4 1129.2,647.9 1140.8,641.2 1152.5,647.9" fill="#660105"/></a>
+<a id="n-tt0058022" href="https://www.criterionchannel.com/welcome-or-no-trespassing" target="_blank" rel="noopener"><polygon class="node" points="1181.6,96.7 1170.0,103.5 1158.3,96.7 1158.3,83.3 1170.0,76.5 1181.6,83.3" fill="#660105"/></a>
+<a id="n-tt0061196" href="https://www.criterion.com/films/560-wings" target="_blank" rel="noopener"><polygon class="node" points="975.0,811.4 963.4,818.2 951.7,811.4 951.7,798.0 963.4,791.2 975.0,798.0" fill="#660105"/></a>
 <g id="t-tt0155028" class="tooltip">
   <rect x="445.1" y="700.3" width="357.0" height="46.0" rx="6"/>
   <text x="623.6" y="730.3" text-anchor="middle">Adventures of a Dentist (1965)</text>

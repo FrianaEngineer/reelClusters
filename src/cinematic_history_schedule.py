@@ -248,7 +248,31 @@ def build_full_schedule():
     (a real batch or an empty-year marker) gets an identical frame count
     (slot_seconds, already rounded to a whole number of frames in
     plan_batch_sizes) -- so total duration is exact given that slot count,
-    with zero per-slot rounding drift."""
+    with zero per-slot rounding drift.
+
+    2026-07-29 restyle: the renderer's film-info display changed from one
+    "batch card" (up to ABSOLUTE_MAX_BATCH_SIZE rows shown/hidden together)
+    to a continuous 2-lane rolling queue, one film at a time. That change is
+    confined entirely to `item_queue` below -- hex pop-in timing, batch/slot
+    sizing, and music cue timestamps are untouched, so total runtime and
+    audio sync are bit-for-bit identical to before this restyle.
+
+    item_queue: flat, chronological list of every individual film reveal
+    event (not grouped into batches), each with:
+      - lane: 0 or 1, alternating strictly in chronological order -- the
+        renderer holds exactly 2 on-screen text slots, and consecutive
+        entries in the SAME lane are exactly 2 apart in this list.
+      - entrance_frame: the absolute frame at which this item starts its
+        fade-in. Items belonging to the same batch (same year, sharing one
+        slot) are spread evenly across that slot's frame range so they
+        appear one at a time rather than all at once; this is the only
+        place batch membership still matters for the text display.
+    A lane's item fades out starting exactly when the NEXT item in that same
+    lane (i.e. global position +2) enters -- so at most one fade-in and one
+    fade-out ever overlap per lane, satisfying "max two fully visible at
+    once." The renderer derives this directly from adjacent entries in each
+    lane's own sub-list, so no separate "supersede_frame" needs to be stored.
+    """
     snapshot = load_snapshot()
     all_tconsts = sorted({h["tconst"] for h in snapshot["hexes"] if h["tconst"]})
     meta = load_metadata(all_tconsts)
@@ -264,7 +288,6 @@ def build_full_schedule():
 
     slot_frames = round(slot_seconds * fps)
     pop_frames = max(1, min(slot_frames, round(fps * cfg.HEX_POP_SECONDS)))
-    crossfade_frames = max(1, min(slot_frames, round(fps * cfg.CARD_FADE_IN_SECONDS)))
 
     frames = []
     ambient = ambient_hexes(snapshot)
@@ -274,20 +297,26 @@ def build_full_schedule():
         frames.append(dict(
             phase="title", year=None,
             color_diffs=({(q, r): fill for q, r, fill in ambient} if i == 0 else {}),
-            card_out=None, card_in=None,
         ))
 
-    prev_card = None
+    item_queue = []
+    global_item_index = 0
     for item in timeline:
         year, evs = item["year"], item["events"]
-        if evs:
-            card = dict(rows=[dict(title=e["title"], director=e["director"], country=e["country"])
-                               for e in evs])
-            hexes = [h for e in evs for h in e["hexes"]]
-        else:
-            card, hexes = None, []
+        batch_start_frame = len(frames)
+        hexes = [h for e in evs for h in e["hexes"]]
+        k = len(evs)
+        for e_idx, e in enumerate(evs):
+            item_queue.append(dict(
+                global_index=global_item_index,
+                lane=global_item_index % 2,
+                entrance_frame=batch_start_frame + (e_idx * slot_frames) // k,
+                year=year,
+                title=e["title"],
+                credit_line=e["credit_line"],
+            ))
+            global_item_index += 1
 
-        cf_n = min(crossfade_frames, slot_frames)
         pop_n = min(pop_frames, slot_frames)
         for f in range(slot_frames):
             color_diffs = {}
@@ -298,30 +327,16 @@ def build_full_schedule():
                 if f == pop_n - 1:
                     for (q, r) in hexes:
                         color_diffs[(q, r)] = final_colors[(q, r)]   # snap exact, no float drift
-            if f < cf_n:
-                t = (f + 1) / cf_n
-                card_out = dict(prev_card, alpha=1 - t) if prev_card else None
-                card_in = dict(card, alpha=t) if card else None
-            else:
-                card_out = None
-                card_in = dict(card, alpha=1.0) if card else None
-            frames.append(dict(phase="main", year=year, color_diffs=color_diffs,
-                                card_out=card_out, card_in=card_in))
-        prev_card = card
+            frames.append(dict(phase="main", year=year, color_diffs=color_diffs))
 
+    hold_start_frame = len(frames)
     hold_frames_total = round(cfg.FINAL_HOLD_SECONDS * fps)
-    fade_out_n = min(max(1, round(fps * cfg.CARD_FADE_OUT_SECONDS)), hold_frames_total)
     last_year = timeline[-1]["year"] if timeline else None
     for i in range(hold_frames_total):
-        if i < fade_out_n and prev_card:
-            t = (i + 1) / fade_out_n
-            card_out = dict(prev_card, alpha=1 - t)
-        else:
-            card_out = None
-        # Keep the final year visible during the hold (only the film-info
-        # card and cluster labels are required to disappear) rather than
-        # blanking every piece of on-screen text at once.
-        frames.append(dict(phase="hold", year=last_year, color_diffs={}, card_out=card_out, card_in=None))
+        # Keep the final year visible during the hold (only the rolling
+        # film items are required to fade away) rather than blanking every
+        # piece of on-screen text at once.
+        frames.append(dict(phase="hold", year=last_year, color_diffs={}))
 
     return dict(
         frames=frames,
@@ -334,6 +349,8 @@ def build_full_schedule():
                             if h["cluster_id"] == "hiddenGems" and h["is_hidden_gems_outer"]],
         music_cue_timestamps=cue_rows,
         final_hold_video_start_seconds=hold_start,
+        hold_start_frame=hold_start_frame,
+        item_queue=item_queue,
         total_seconds=len(frames) / fps,
         escalated=escalated,
         max_batch_size=max((len(item["events"]) for item in timeline if item["events"]), default=1),

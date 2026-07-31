@@ -12,7 +12,8 @@ import numpy as np
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from cluster_colors import COLOR_MAP, contrast_text_color
+from cluster_colors import NODE_FILL_MAP, contrast_text_color
+from hex_svg import load_film_color
 
 DB_PATH = Path(__file__).parent.parent / "db" / "criterion_graph.duckdb"
 OUT_DIR = Path(__file__).parent.parent / "output"
@@ -197,7 +198,8 @@ def build_svg(cluster_id, films, edges):
         pos = pull_dense_core_to_center(G, pos)
     coords = layout_to_canvas(pos)
     info   = {row.imdb_tconst: (row.title, int(row.criterion_year)) for row in films.itertuples()}
-    node_color = COLOR_MAP.get(cluster_id, "#888888")
+    node_fill = NODE_FILL_MAP.get(cluster_id, {"color": "#888888", "bw": "#666666"})
+    film_is_color = load_film_color()
     bg_color   = BG_COLOR
     text_color = contrast_text_color(bg_color)
     edge_color = "#000000"
@@ -253,17 +255,23 @@ def build_svg(cluster_id, films, edges):
   <text x="{tx + tw / 2:.1f}" y="{ty + th / 2 + 7:.1f}" text-anchor="middle">{esc(label)}</text>
 </g>''')
 
+        # Black-and-white films render as a darkened shade of the cluster's
+        # color, confirmed-color films at the cluster's normal color -- fixed
+        # per-cluster pair from NODE_FILL_MAP (same map cluster_ring_viz.py
+        # uses), independent of cluster_colors.COLOR_MAP/explore.html.
+        fill = node_fill["color"] if film_is_color.get(n) else node_fill["bw"]
+
         # id has to live on the <a>, not the polygon, when a link is present:
         # the hover-tooltip rule below is a sibling selector (#node:hover ~
         # #tooltip) that needs the id'd element to still be a direct sibling
         # of the tooltip <g> -- nesting the polygon one level deeper inside
         # <a> would break that. Same fix as cluster_ring_viz.py.
-        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, node_r)}"/>'
+        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, node_r)}" fill="{fill}"/>'
         link = CRITERION_LINKS.get(title)
         if link:
             node_svg = f'<a id="{node_id}" href="{esc(link)}" target="_blank" rel="noopener">{polygon}</a>'
         else:
-            node_svg = f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, node_r)}"/>'
+            node_svg = f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, node_r)}" fill="{fill}"/>'
         node_svgs.append(node_svg)
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
@@ -271,7 +279,7 @@ def build_svg(cluster_id, films, edges):
     svg.append(f"""
 <style>
   .edge {{ stroke: {edge_color}; stroke-opacity: {edge_opacity}; stroke-width: {edge_width}; }}
-  .node {{ fill: {node_color}; stroke: {bg_color}; stroke-width: 2; cursor: pointer; }}
+  .node {{ stroke: {bg_color}; stroke-width: 2; cursor: pointer; }}
   .node:hover {{ stroke: {text_color}; }}
   .tooltip {{ opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }}
   .tooltip rect {{ fill: {TOOLTIP_BG}; stroke: #ffffff; stroke-opacity: 0.25; }}

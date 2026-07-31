@@ -230,9 +230,13 @@ def build_svg():
     # offsets, all landed on the same floor) that it always bottoms out at
     # MIN_LABEL_FSIZE. Give it a deliberately higher floor instead -- verified
     # separately that the resulting label still doesn't reach a neighboring
-    # cluster's hexes.
+    # cluster's hexes. bergman_scandinavian bottoms out the same way (its two-
+    # line label was rendering at MIN_LABEL_FSIZE, noticeably smaller than
+    # neighboring clusters); bumped by request, verified it still clears
+    # japanese_cinema and european_art_cinema's hexes.
     FSIZE_FLOOR_OVERRIDES = {
         'hong_kong_taiwan_cinema': 2.0,
+        'bergman_scandinavian': 1.3,
     }
 
     def base_anchor(c, hexes):
