@@ -26,244 +26,291 @@ ASSETS_DIR   = SITE_DIR / "assets"
 ANALYSIS_MD  = OUTPUT_DIR / "small_cluster_analysis.md"
 
 # Clusters that use cluster_ring_viz.py's degree-banded ellipse view instead
-# of the shared-actor network graph. European Art Cinema and Japanese Cinema
-# are here because their force-directed graphs are too dense to read as edges
-# (millions of overlapping lines); Anglophone Classic, Transatlantic Auteur
-# Cinema, Hong Kong/Taiwan Cinema, and Bergman Scandinavian are here by
-# choice, for a visual style matching those two.
-RING_CLUSTERS = {"european_art_cinema", "japanese_cinema", "anglophone_classic",
-                  "transatlantic_auteur_cinema", "hong_kong_taiwan_cinema",
-                  "bergman_scandinavian"}
+# of the shared-actor network graph -- the seven largest/densest named
+# clusters after the 2026-07-31 rebuild, whose force-directed graphs would be
+# too dense to read as edges. The remaining four (small enough that a plain
+# shared-actor graph stays legible) use cluster_graph_viz.py instead. See
+# data/cluster_naming_report.md.
+RING_CLUSTERS = {"european_art_cinema", "classic_japanese_cinema",
+                  "golden_age_hollywood_british", "modern_american_cinema",
+                  "japanese_new_wave_genre", "hong_kong_taiwan_cinema",
+                  "scandinavian_bergman_circle"}
 
 NAMED_CLUSTERS = [
-    "youssef_chahine_egyptian", "european_art_cinema",
-    "transatlantic_auteur_cinema",
-    "hong_kong_taiwan_cinema", "bergman_scandinavian",
-    "czech_new_wave", "satyajit_ray_indian", "japanese_cinema", "soviet_cinema",
-    "anglophone_classic",
+    "modern_american_cinema", "european_art_cinema",
+    "golden_age_hollywood_british",
+    "classic_japanese_cinema", "japanese_new_wave_genre",
+    "hong_kong_taiwan_cinema", "scandinavian_bergman_circle",
+    "czech_new_wave", "silent_era_comedy", "soviet_cinema",
+    "satyajit_ray_indian",
 ]
 
 # Hand-authored, data-grounded blurbs. Numbers/tables on the page itself are
 # computed live from the DB below so they can't drift out of sync with this
 # prose -- these just supply the qualitative read a query can't.
+# Rewritten for the 2026-07-31 Best Picture nominee import (619 IMDb films
+# merged in, 591 genuinely new; see data/cluster_naming_report.md for the
+# full per-cluster evidence this prose is grounded in). Two of the ten
+# pre-rebuild clusters (youssef_chahine_egyptian, transatlantic_auteur_cinema)
+# no longer exist as distinct Louvain communities -- both folded into
+# european_art_cinema this run. Country-of-origin stats are only quoted for
+# the subset of a cluster's films that actually carry a criterion_country
+# value: most of the newly-added Best Picture films don't have that field
+# yet, so modern_american_cinema and golden_age_hollywood_british -- which
+# absorbed most of the new films -- call this out explicitly rather than
+# implying full coverage.
 BLURBS = {
-    "youssef_chahine_egyptian": (
-        "Almost entirely the work of one director: nearly every film in this cluster "
-        "is Youssef Chahine's own, making it the Collection's most concentrated "
-        "single-director grouping. Chahine was Egypt's most prominent filmmaker and "
-        "one of Arab cinema's defining figures, working across five decades from "
-        "historical epic to intimate autobiography.",
+    "modern_american_cinema": (
+        "The Collection's largest cluster after this rebuild, and its most "
+        "heterogeneous: mainstream awards-season filmmaking (Spielberg, Scorsese, "
+        "Eastwood) alongside the American independent and art-house tradition "
+        "(Cassavetes, Jarmusch, Lynch) that used to sit in a smaller cluster of its "
+        "own. Once the 2026 Best Picture nominee import added hundreds of largely "
+        "American films to the shared-actor network, it pulled both halves of "
+        "American cinema into one connected community.",
 
-        "The 16 films run 1950 to 1999 and trace his range: star-driven melodrama and "
-        "wartime drama in the 1950s (The Blazing Sun, Dark Waters), the historical "
-        "epic Saladin the Victorious in 1963, and from the late 1970s on a turn toward "
-        "autobiography with the Alexandria films (Alexandria...Why?, Alexandria: "
-        "Again and Forever), which fictionalize his own life and career. Egyptian "
-        "popular cinema's musical and melodrama traditions run through even his most "
-        "personal work.",
+        "498 films spanning 1954 to 2025 (median 1997). Steven Spielberg (14 films) "
+        "and Martin Scorsese (11) are its most prolific directors, followed by Jim "
+        "Jarmusch, Francis Ford Coppola, Mike Leigh, David Lynch, Clint Eastwood, and "
+        "John Cassavetes at 5 each -- no single filmmaker dominates the way they do "
+        "in several of the Collection's smaller clusters. Mostly a color-era cluster "
+        "(426 color films to 39 black-and-white, 33 unresolved). Only 203 of its 498 "
+        "films carry a recorded country of origin -- most of the 2026 import doesn't "
+        "have that field yet -- but of those, the large majority are American, with "
+        "a British minority.",
 
-        "Because almost the whole cluster is one director's filmography, this is "
-        "shown as a shared-actor network rather than degree bands -- the connecting "
-        "lines mostly trace actors Chahine cast again and again across his career, "
-        "not a shared scene or movement. Hover a film for its year and "
-        "internal-connection count; click through to watch it on Criterion.",
+        "So densely interconnected, at this size, that a shared-actor edge graph "
+        "would read as a solid mass -- shown here grouped by connection count "
+        "instead. Hub films (28, with 21 or more connections) are the connective "
+        "tissue tying the cluster together; Mid-level films (234, with 7–20 "
+        "connections) carry a solid share of those connections; Peripheral films "
+        "(236, with fewer than 7 connections), nearly half the cluster, are tied "
+        "in more loosely, often through a single shared actor.",
     ),
     "european_art_cinema": (
-        "The Collection's largest and most heterogeneous cluster -- French New Wave "
-        "and its descendants (Godard, Truffaut, Rivette, Varda), Italian and Spanish "
-        "art cinema, and Eastern European auteurs, bound together less by any single "
-        "movement than by decades of overlapping casts across the postwar European "
-        "arthouse circuit.",
+        "The Collection's broadest continental-European arthouse cluster -- French "
+        "New Wave and its descendants (Truffaut, Rivette, Godard, Malle), Italian "
+        "and Spanish art cinema, Eastern European auteurs, and Youssef Chahine's "
+        "Egyptian filmography, which formed its own small cluster before this "
+        "rebuild but now reads as part of the same connected community -- bound "
+        "together less by any single movement than by decades of overlapping casts "
+        "across the postwar European arthouse circuit.",
 
-        "432 films spanning 1916 to 2025, with a dense core in the postwar decades: "
-        "Truffaut and Godard's New Wave, Rivette's long-form experiments, Tavernier's "
-        "literary adaptations, Saura's films under and after Franco, Kieślowski's "
-        "Polish and French work. Black-and-white and color are close to evenly split "
-        "here (192 versus 217 films) -- black-and-white films (the darker tint) "
-        "cluster in that mid-century core, while color productions (the lighter tint) "
-        "spread from the 1960s onward as the movements it's built from moved into "
-        "color and the cluster's reach extended toward the present.",
+        "477 films spanning 1916 to 2024 (median 1970). Rainer Werner Fassbinder (19 "
+        "films) and Youssef Chahine (18) are its most prolific directors, followed "
+        "by Carlos Saura, François Truffaut, and Bertrand Tavernier. Of the 462 "
+        "films with a recorded country, France accounts for the largest single "
+        "share (260), with Italy, Germany, Spain, and Egypt following. "
+        "Black-and-white and color are close to evenly split (239 color to 213 "
+        "black-and-white, 25 unresolved) -- black-and-white films cluster in the "
+        "mid-century core, while color productions spread from the 1960s onward.",
 
         "So densely interconnected that a shared-actor edge graph reads as a solid "
-        "mass -- shown here as degree bands instead. Hub films (21, degree ≥25) are "
-        "the true connective tissue, like Mr. Klein and The Phantom of Liberty; "
-        "Mid-level films (182, degree 10–24) carry a solid share of those "
-        "connections; Peripheral films (229, degree <10), the largest group, are "
-        "tied in more loosely, often through a single shared actor or one-off "
+        "mass -- shown here grouped by connection count instead. Hub films (23, "
+        "with 25 or more connections) are the true connective tissue, like Mr. "
+        "Klein and The Phantom of Liberty; Mid-level films (211, with 10–24 "
+        "connections) carry a solid share of those connections; Peripheral films "
+        "(243, with fewer than 10 connections), the largest group, are tied in "
+        "more loosely, often through a single shared actor or one-off "
         "international production.",
     ),
-    "transatlantic_auteur_cinema": (
-        "Independent American cinema (Cassavetes through the Jarmusch/Lynch/Roeg "
-        "generation into 21st-century indie film) and New German Cinema (Fassbinder's "
-        "prolific ensemble output, Wenders) in a single cluster -- two scenes that read "
-        "as separate national cinemas but turn out to share enough cast, once the "
-        "Collection's documentaries are excluded from the network, to form one "
-        "connected community rather than two.",
+    "golden_age_hollywood_british": (
+        "Classic British and American studio-era cinema -- Hitchcock, David Lean, "
+        "William Wyler, John Ford, and George Stevens -- absorbed most of the 2026 "
+        "Best Picture import's classic-era winners, from Wuthering Heights and "
+        "Rebecca to Mr. Smith Goes to Washington and Lawrence of Arabia, reinforcing "
+        "rather than diluting its identity as the studio-era English-language star "
+        "system. (Chaplin's own silent-era work split out into a separate cluster "
+        "this rebuild -- see Silent-Era Comedy below.)",
 
-        "157 films running 1954 to 2021, dominated by Rainer Werner Fassbinder's "
-        "extraordinarily prolific repertory-company output (18 films -- more than the "
-        "next several directors combined) alongside Wenders, Jarmusch, and Cassavetes. "
-        "About 59% of its films are American, 21% German. Mostly a color-era cluster "
-        "(115 color films to 24 black-and-white), reflecting how recently, by "
-        "Criterion standards, both scenes were working -- the black-and-white "
-        "minority sits mostly at Fassbinder's earliest, cheapest productions.",
+        "467 films spanning 1913 to 2015 (median 1946). William Wyler and David Lean "
+        "(13 films each) lead, followed by Alfred Hitchcock and John Ford (10 each), "
+        "George Stevens, Henry King, and Frank Capra. Of the 208 films with a "
+        "recorded country of origin -- most new Best Picture titles don't carry "
+        "that field yet -- British productions edge out American (115 to 79). "
+        "Predominantly black-and-white (324 films to 136 in color, 7 unresolved), "
+        "reflecting the era it's centered on.",
 
-        "Its degree distribution is far sparser than Anglophone Classic's or European "
-        "Art Cinema's (average internal connections per film: under 5, versus 9–10), "
-        "so the bands are proportioned differently here. Hub films (9, degree ≥15) -- "
-        "mostly Fassbinder's own repertory-company work like The Third Generation and "
-        "The Merchant of Four Seasons -- are the small core tying the cluster "
-        "together. Mid-level films (49, degree 5–14) share a handful of connections; "
-        "Peripheral films (99, degree <5), the majority, are linked in far more "
-        "loosely.",
+        "Grown from 250 to 467 films this rebuild, with its own fresh connection-"
+        "count thresholds. Hub films (30, with 32 or more connections) are the "
+        "studio-era regulars who tie the whole cluster together; Mid-level films "
+        "(203, with 15–31 connections) share a solid number of those connections; "
+        "Peripheral films (234, with fewer than 15 connections) are the loosest "
+        "members, still part of the same star system but linked in by only a "
+        "handful of shared cast.",
+    ),
+    "classic_japanese_cinema": (
+        "Classical Japanese studio cinema -- Ozu and Naruse's shomin-geki family "
+        "dramas, Kinoshita's melodramas, Kurosawa and Kobayashi's period and social "
+        "films -- built on the stock-company acting culture that carries the same "
+        "faces across hundreds of films from different directors and studios. This "
+        "rebuild split what was previously one large Japanese Cinema cluster into "
+        "this classical/studio-drama half and a separate genre/New-Wave-leaning half "
+        "(see Japanese New Wave & Genre Cinema below).",
+
+        "216 films spanning 1929 to 1998 (median 1956), almost entirely Japanese "
+        "productions (210 of 216). Keisuke Kinoshita (35 films) and Yasujiro Ozu "
+        "(32) lead, followed by Akira Kurosawa (22), Ishiro Honda (16), Mikio Naruse "
+        "(15), and Masaki Kobayashi (12). Predominantly black-and-white (137 films "
+        "to 53 in color, 26 unresolved), reflecting the classical studio era -- "
+        "roughly the 1930s through the early 1960s -- this cluster is centered on.",
+
+        "A smaller, much denser core than the old Japanese Cinema cluster it "
+        "descends from: the median film here has 44.5 connections. Hub films (10, "
+        "with 84 or more connections) -- led by The Bad Sleep Well at 122 "
+        "connections -- are the studio system's most connected stars and "
+        "directors; Mid-level films (98, with 45–83 connections) still carry "
+        "heavy connections; Peripheral films (108, with fewer than 45 "
+        "connections) are comparatively loose ties, still substantial by any "
+        "other cluster's standard.",
+    ),
+    "japanese_new_wave_genre": (
+        "The other half of the pre-rebuild Japanese Cinema cluster: samurai and "
+        "genre action (Kenji Misumi's Zatoichi series, chanbara swordplay) alongside "
+        "the Japanese New Wave (Oshima, Shinoda, Imamura, Suzuki) -- two sensibilities "
+        "that share enough cast to form one graph community, but separated cleanly "
+        "from the classical studio-drama cluster above once the larger, denser "
+        "post-import network gave Louvain enough signal to resolve the distinction.",
+
+        "142 films spanning 1937 to 2008 (median 1968), almost entirely Japanese "
+        "(140 of 142). Kenji Misumi and Nagisa Oshima (13 films each) lead, followed "
+        "by Masahiro Shinoda (12), Juzo Itami (9), and Shohei Imamura and Seijun "
+        "Suzuki (8 each). Color is closer to a majority here than in Classic "
+        "Japanese Cinema (60 color to 41 black-and-white, 41 unresolved), reflecting "
+        "its later center of gravity.",
+
+        "Hub films (7, with 41 or more connections) -- led by Zatoichi's "
+        "Conspiracy and Harakiri -- are the small, tightly-connected core; "
+        "Mid-level films (65, with 22–40 connections) still carry real weight; "
+        "Peripheral films (70, with fewer than 22 connections) make up about half "
+        "the cluster.",
     ),
     "hong_kong_taiwan_cinema": (
-        "Hong Kong action and New Taiwanese Cinema sharing one cluster -- John Woo and "
-        "Jackie Chan's genre filmmaking alongside Wong Kar-wai, Edward Yang, and Hou "
-        "Hsiao-hsien's arthouse work, connected by a Hong Kong/Taiwan industry whose "
-        "actors moved fluidly between the two scenes.",
+        "Hong Kong action and New Taiwanese Cinema sharing one cluster -- John Woo "
+        "and Jackie Chan's genre filmmaking alongside Wong Kar-wai, Edward Yang, and "
+        "Hou Hsiao-hsien's arthouse work, connected by a Hong Kong/Taiwan industry "
+        "whose actors moved fluidly between the two scenes.",
 
-        "79 films spanning 1967 to 2025, split roughly 63 Hong Kong to 13 Taiwan. The "
-        "commercial and arthouse halves read very differently on screen -- Woo's "
-        "bullet ballets and Chan's stunt-driven comedies against Wong's saturated "
-        "color and Yang and Hou's austere long takes -- but action choreographers, "
-        "ensemble stars, and repertory actors cut across both. Virtually the entire "
-        "cluster is in color (63 color films to just 1 black-and-white), since almost "
-        "none of it predates the color era of Hong Kong and Taiwanese filmmaking.",
+        "82 films spanning 1967 to 2025. Of the 79 films with a recorded country, "
+        "the split is roughly 63 Hong Kong to 13 Taiwan. The commercial and arthouse "
+        "halves read very differently on screen -- Woo's bullet ballets and Chan's "
+        "stunt-driven comedies against Wong's saturated color and Yang and Hou's "
+        "austere long takes -- but action choreographers, ensemble stars, and "
+        "repertory actors cut across both. Virtually the entire cluster is in color "
+        "(66 color films to just 1 black-and-white, 15 unresolved).",
 
-        "Small (79 films) but dense: median internal degree is 12, spread fairly "
-        "evenly across its 1–36 range rather than skewed to one end, so the bands are "
-        "sized differently than in the other ring graphs. Hub films (18, degree ≥20) "
-        "-- led by The Eagle Shooting Heroes and Days of Being Wild -- form a "
-        "genuinely large, tightly-connected core; Mid-level films (36, degree 8–19) "
-        "still carry real weight; Peripheral films (25, degree <8) are the minority "
-        "here, not the majority.",
+        "Small but dense: the typical film here has about as many connections as "
+        "in the Collection's biggest ring clusters, despite the much smaller film "
+        "count. Hub films (19, with 20 or more connections) -- led by The Eagle "
+        "Shooting Heroes and Days of Being Wild -- form a genuinely large, "
+        "tightly-connected core; Mid-level films (36, with 8–19 connections) "
+        "still carry real weight; Peripheral films (27, with fewer than 8 "
+        "connections) are close to, but not, the majority.",
     ),
-    "bergman_scandinavian": (
+    "scandinavian_bergman_circle": (
         "Ingmar Bergman's filmography is the dense core of this cluster almost by "
         "himself, surrounded by the wider Swedish and Scandinavian tradition he grew "
-        "out of and influenced -- Sjöström, Molander, Widerberg -- plus a scattering "
-        "of films that share cast with his repertory company.",
+        "out of -- Sjöström, Molander, Widerberg -- plus, via actress Ingrid "
+        "Bergman's own international career, several 1940s Hollywood pictures "
+        "(Casablanca, Gaslight, For Whom the Bell Tolls) that share cast with his "
+        "Scandinavian repertory company rather than with the classic-Hollywood "
+        "cluster they'd otherwise sit in.",
 
-        "71 films spanning 1917 to 2000, with Bergman alone accounting for 31 of them "
-        "-- more than four times his nearest peer. Mostly a black-and-white cluster "
-        "(59 films to 11 in color), reflecting how much of Bergman's most connected "
-        "work (Wild Strawberries, The Seventh Seal, The Magician) belongs to his "
-        "1950s-60s black-and-white period; the smaller color group runs later, into "
-        "Autumn Sonata and beyond.",
+        "80 films spanning 1917 to 2011, with Ingmar Bergman alone accounting for "
+        "31 of them -- more than four times his nearest peer. Of the 71 films with "
+        "a recorded country, Sweden accounts for the large majority (58), with "
+        "Denmark, France, and Italy contributing a handful each, reflecting the "
+        "Ingrid Bergman Hollywood pictures pulled in by shared cast. Mostly "
+        "black-and-white (64 films to 15 in color, 1 unresolved).",
 
-        "The densest small cluster in the Collection: mean and median internal degree "
-        "both sit around 17–18, nearly flat across the whole 1–35 range rather than "
-        "skewed to either end. Hub films (18, degree ≥25) -- Autumn Sonata, Brink of "
-        "Life, The Magician, and Wild Strawberries among them -- are Bergman's own "
-        "most-connected work; Mid-level films (34, degree 10–24) are still solidly "
-        "tied in; Peripheral films (19, degree <10) are the loosest members, mostly "
-        "the wider Scandinavian tradition around him.",
+        "One of the densest small clusters in the Collection. Hub films (23, with "
+        "25 or more connections) are Bergman's own most-connected work -- Autumn "
+        "Sonata and Brink of Life among them -- plus the Ingrid Bergman Hollywood "
+        "pictures; Mid-level films (38, with 10–24 connections) are still solidly "
+        "tied in; Peripheral films (19, with fewer than 10 connections) are the "
+        "loosest members, mostly the wider Scandinavian tradition around him.",
     ),
     "czech_new_wave": (
         "The Czechoslovak New Wave of the 1960s -- Forman, Chytilová, Vláčil, Menzel "
         "-- a small, almost entirely self-contained national cinema with a tight "
-        "recurring cast and very little cast overlap outside Czechoslovakia.",
+        "recurring cast and very little cast overlap outside Czechoslovakia. "
+        "Untouched in size by the 2026 Best Picture import -- none of the 619 "
+        "imported films landed here.",
 
         "36 films running 1958 to 1987, almost all Czechoslovak productions (35 of "
-        "36). No single director dominates the way Bergman or Chahine do elsewhere in "
-        "the Collection -- Vláčil (5 films), Chytilová (4), Forman (3), and Menzel "
-        "(2) each contribute a handful, and the cluster holds together through a "
-        "shared pool of actors working across the state-run film industry of the era "
-        "rather than one director's repertory company.",
+        "36). No single director dominates the way Bergman or Kinoshita do "
+        "elsewhere in the Collection -- Vláčil (5 films), Chytilová (4), Forman "
+        "(3), and Menzel (2) each contribute a handful, and the cluster holds "
+        "together through a shared pool of actors working across the state-run film "
+        "industry of the era rather than one director's repertory company.",
 
         "Shown as a shared-actor network: nodes are films, and a line between two "
-        "films means they share at least one credited actor. Even the most connected "
-        "films here -- The Cassandra Cat, The Unfortunate Bridegroom, and Courage for "
-        "Every Day, all around 10-12 internal connections -- are far less centrally "
-        "linked than the hubs of the Collection's bigger clusters, which fits a small "
-        "national cinema working with a correspondingly small acting pool. Hover a "
-        "film for its year and connection count; click through to watch it on "
-        "Criterion.",
+        "films means they share at least one credited actor. Even the most "
+        "connected films here -- The Cassandra Cat, The Unfortunate Bridegroom, and "
+        "Courage for Every Day, all with around 10-12 connections -- are far less "
+        "centrally linked than the hubs of the Collection's bigger clusters, which "
+        "fits a small national cinema working with a correspondingly small acting "
+        "pool. Hover a film for its year and connection count; click through to "
+        "watch it on Criterion.",
     ),
-    "satyajit_ray_indian": (
-        "Built around Satyajit Ray's own filmography, the towering figure of Bengali "
-        "and Indian art cinema in the Collection, with Ritwik Ghatak's Bengali cinema "
-        "and a handful of other Indian and Indian-adjacent films connected in by "
-        "shared cast.",
+    "silent_era_comedy": (
+        "A new cluster in the 2026 rebuild: silent-and-into-sound American slapstick "
+        "comedy, centered on Charlie Chaplin's own filmography alongside the Harold "
+        "Lloyd collaborators (Newmeyer, Taylor, Bruckman, Wilde) and Buster Keaton "
+        "-- distinct enough from the broader Golden Age Hollywood & British "
+        "cluster's dramas and prestige pictures to form its own connected community "
+        "once the larger post-import network gave Louvain enough signal to resolve "
+        "it.",
 
-        "18 films spanning 1955 to 1994, 15 of them Ray's own -- from Apur Sansar and "
-        "Devi in the early 1960s through later work like The Home and the World in "
-        "the 1980s. The cluster is small enough that it holds together almost "
-        "entirely on the strength of Ray's own recurring collaborators rather than a "
-        "broader movement or national scene.",
+        "27 films spanning 1921 to 1957 (median 1928), almost entirely American (26 "
+        "of 27). Chaplin (10 films) is the largest single share but not a majority "
+        "-- Clyde Bruckman and the Newmeyer/Taylor/Wilde circle of Harold Lloyd "
+        "collaborators together outnumber him. Entirely black-and-white (all 27 "
+        "films), true to its silent-and-early-sound center of gravity even though a "
+        "few members (Chaplin's Limelight, 1952) run later.",
 
-        "Shown as a shared-actor network rather than degree bands, given its small "
-        "size. Devi (14 internal connections) is the clear hub; Apur Sansar and The "
-        "Elephant God follow at 9 each. Hover a film for its year and connection "
-        "count; click through to watch it on Criterion.",
-    ),
-    "japanese_cinema": (
-        "The second-largest cluster and the most densely interconnected: classical "
-        "Japanese studio cinema across Ozu, Kurosawa, Naruse, Kinoshita, and "
-        "Kobayashi, whose stock-company acting culture means the same faces recur "
-        "across hundreds of films from different directors and studios.",
-
-        "354 films spanning 1929 to 2008, almost entirely Japanese productions (345 "
-        "of 354). Predominantly black-and-white (176 films to 111 in color, plus a "
-        "further 67 unresolved and treated the same way) -- the classical studio era "
-        "this cluster is built from, roughly the 1930s through the early 1960s, was "
-        "shot in black-and-white almost by default; color titles concentrate later, "
-        "as the studio system gave way to more independent postwar and New "
-        "Wave-adjacent filmmaking.",
-
-        "Like European Art Cinema, too dense to draw as an edge graph -- shown here "
-        "as degree bands instead, though on a much larger scale: even its Hub "
-        "threshold (degree ≥75) is triple European Art Cinema's. Hub films (44) -- "
-        "led by The Bad Sleep Well at a remarkable 122 internal connections -- are "
-        "the studio system's most connected stars and directors; Mid-level films "
-        "(226, degree 25–74), the clear majority, still carry heavy connections; "
-        "Peripheral films (84, degree <25) are comparatively loose ties, still "
-        "substantial by any other cluster's standard.",
+        "Shown as a shared-actor network given its size. The Milky Way, The Great "
+        "Dictator, and Movie Crazy are among its most-connected films. Hover a film "
+        "for its year and connection count; click through to watch it on Criterion.",
     ),
     "soviet_cinema": (
         "Soviet and post-Soviet cinema centered on Kira Muratova and Andrei "
         "Tarkovsky, with Bondarchuk, Klimov, and Shepitko filling out a cluster that "
         "stays almost entirely within the former Soviet Union's own production and "
-        "acting circles.",
+        "acting circles. Untouched in size by the 2026 Best Picture import -- none "
+        "of the 619 imported films landed here.",
 
         "24 films running 1957 to 2004, mostly credited to the Soviet Union itself "
-        "(20 of 24), with a few later Ukrainian and Russian productions extending the "
-        "cluster past 1991. Muratova (7 films) and Tarkovsky (5) anchor it, followed "
-        "by Bondarchuk (4), with Kalatozov and Shepitko contributing a couple each -- "
-        "a small enough cast of directors that individual careers, more than any "
-        "single movement, hold the cluster together.",
+        "(20 of 24), with a few later Ukrainian and Russian productions extending "
+        "the cluster past 1991. Muratova (7 films) and Tarkovsky (5) anchor it, "
+        "followed by Bondarchuk (4), with Kalatozov and Shepitko contributing a "
+        "couple each -- a small enough cast of directors that individual careers, "
+        "more than any single movement, hold the cluster together.",
 
         "Shown as a shared-actor network given its small size. Mirror, Stalker, and "
-        "Andrei Rublev -- all Tarkovsky -- share the highest internal-connection "
-        "count (6 each), with Solaris and Ivan's Childhood close behind at 5. Hover a "
-        "film for its year and connection count; click through to watch it on "
+        "Andrei Rublev -- all Tarkovsky -- share the highest connection count (6 "
+        "each), with Solaris and Ivan's Childhood close behind at 5. Hover a film "
+        "for its year and connection count; click through to watch it on "
         "Criterion.",
     ),
-    "anglophone_classic": (
-        "Classic British and American cinema -- Chaplin, Hitchcock, David Lean, the "
-        "Archers -- spanning the studio era on both sides of the Atlantic. What makes "
-        "it read as one cluster rather than two national cinemas is the English-"
-        "language star system underneath it: actors, and the directors who cast them, "
-        "moved freely between London and Hollywood productions, leaving a shared-actor "
-        "network dense enough that the two countries' output can't be pulled apart.",
+    "satyajit_ray_indian": (
+        "Built around Satyajit Ray's own filmography, the towering figure of "
+        "Bengali and Indian art cinema in the Collection, with Ritwik Ghatak's "
+        "Bengali cinema and a handful of other Indian and Indian-adjacent films "
+        "connected in by shared cast. Untouched in size by the 2026 Best Picture "
+        "import -- none of the 619 imported films landed here.",
 
-        "The films run roughly 1913 to 2015, but the center of gravity is the 1930s-"
-        "50s studio era: wartime propaganda and prestige dramas from Korda and Powell "
-        "and Pressburger, Ealing comedies, Lean's literary adaptations, Hitchcock's "
-        "thrillers on both sides of the Atlantic, Chaplin's silent-into-sound run. "
-        "Black-and-white films (rendered here in a darker tint of the cluster's blue) "
-        "make up most of that core; color productions (the lighter tint) skew later, "
-        "as the studio era gives way to postwar and New Hollywood-adjacent work.",
+        "18 films spanning 1955 to 1994, 15 of them Ray's own -- from Apur Sansar "
+        "and Devi in the early 1960s through later work like The Home and the World "
+        "in the 1980s. The cluster is small enough that it holds together almost "
+        "entirely on the strength of Ray's own recurring collaborators rather than "
+        "a broader movement or national scene.",
 
-        "In the graph, Hub films are the small set with the most internal shared-"
-        "actor connections -- the studio-era regulars who tie the whole cluster "
-        "together. Mid-level films share a solid number of those connections without "
-        "being as central. Peripheral films are the loosest members: still part of "
-        "the same star system, but linked in by only a handful of shared cast. That's "
-        "also what separates this cluster from a neighbor like European Art Cinema, "
-        "which is arthouse and auteur-driven rather than built on a commercial studio "
-        "star system.",
+        "Shown as a shared-actor network of individual films rather than grouped by "
+        "connection count, given its small size. Devi (14 connections) is the "
+        "clear hub; Apur Sansar and The Elephant God follow at 9 each. Hover a "
+        "film for its year and connection count; click through to watch it on "
+        "Criterion.",
     ),
 }
 
@@ -310,7 +357,7 @@ def cluster_stats(con, cluster_id):
     }
 
 
-def hub_films(con, cluster_id, n=6):
+def hub_films(con, cluster_id, n=4):
     """Top-n films by internal (within-cluster) shared-actor degree, each also
     annotated with its external degree (shared-actor edges to films in a
     different cluster, including the hiddenGems bucket). Ranking is by
@@ -565,9 +612,10 @@ EXPLORE_TEMPLATE = """<!doctype html>
   <header class="home-header">
     <h1>Criterion Collection: Shared-Actor Clusters</h1>
     <p class="subtitle">
-      Every hexagon is one film in the Criterion Collection, grouped by shared
-      cast into {n_clusters} clusters. Hover a region to preview it, click to
-      explore that cluster's network and read more.
+      Every hexagon is one film in the Collection -- Criterion titles plus the
+      2026 Academy Best Picture nominee import -- grouped by shared cast into
+      {n_clusters} clusters. Hover a region to preview it, click to explore
+      that cluster's network and read more.
     </p>
   </header>
   <div class="hex-wrap">
@@ -607,7 +655,8 @@ LANDING_SECTIONS = [
         "kicker": "02 — Interactive",
         "title": "Explore the Clusters",
         "body": (
-            "Every film in the Criterion Collection, grouped into {n_clusters} "
+            "Every film in the Collection -- Criterion titles plus the 2026 "
+            "Academy Best Picture nominee import -- grouped into {n_clusters} "
             "hexagonal clusters by shared cast. Hover a region to preview it, "
             "click to explore that cluster's network."
         ),
@@ -898,21 +947,45 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
       year, runtime, and match confidence came from
       <code>criterion_basic_info.csv</code>.</p>
 
-      <p>After filtering, the dataset contained 2,029 Criterion movie records.
-      The actor co-occurrence graph contained 1,661 connected movie nodes and
-      13,573 shared-actor edges. Some films did not appear in the graph because
-      they either had no IMDb actor credits or had actors who did not appear in
-      any other film in the filtered Criterion dataset. These disconnected
-      films were treated separately as hidden gems rather than forcing them
-      into clusters.</p>
+      <p>On 2026-07-31, 619 films from an Academy Best Picture nominee IMDb
+      list (620 raw rows, one exact duplicate) were merged into this same
+      dataset. Each row was matched against the existing Criterion records by
+      exact IMDb ID first; 28 were already present as Criterion titles and
+      were left as single records, and 591 were genuinely new. Cast, genre,
+      release-date, and black-and-white/color data for the new films was
+      pulled from the same IMDb source files the original pipeline used. The
+      merge, deduplication audit, and enrichment steps are reproducible
+      scripts (<code>src/ingest_best_picture_csv.py</code>,
+      <code>src/merge_best_picture_films.py</code>,
+      <code>src/enrich_new_films.py</code>), and the full accounting -- every
+      incoming row's match decision -- is in
+      <code>data/dedup_audit.csv</code>.</p>
+
+      <p>After filtering and the Best Picture merge, the dataset contained
+      2,366 movie records covering 2,337 distinct films (1,746 from Criterion,
+      591 newly added). The actor co-occurrence graph contained 2,170
+      connected movie nodes and 18,799 shared-actor edges. Some films did not
+      appear in the graph because they either had no IMDb actor credits or
+      had actors who did not appear in any other film in the dataset. These
+      disconnected films were treated separately as hidden gems rather than
+      forcing them into clusters.</p>
 
       <p>Then, groups of films that were strongly connected through shared
       actors were identified. Louvain clustering was used because the graph
       size was manageable and the method works well for finding communities in
-      weighted networks. The resulting clusters were reviewed and renamed
-      based on the films inside them, producing groups such as European Art
-      Cinema, Japanese Cinema, Anglophone Classic, American Independent,
-      Hong Kong/Taiwan Cinema, and other smaller regional clusters.</p>
+      weighted networks, with a fixed random seed (42) so the result is
+      reproducible. Communities smaller than 15 films were folded into Hidden
+      Gems rather than given their own page. The resulting clusters were
+      reviewed and named from scratch based on the films inside each one --
+      no name was carried over automatically from a previous run -- producing
+      Modern American Cinema, European Art Cinema, Golden Age Hollywood &amp;
+      British Cinema, Classic Japanese Cinema, Japanese New Wave &amp; Genre
+      Cinema, Hong Kong &amp; Taiwan Cinema, Scandinavian Cinema &amp; the
+      Bergman Circle, Czech New Wave, Silent-Era Comedy, Soviet Cinema, and
+      Satyajit Ray &amp; Indian Cinema. The full evidence behind each name --
+      film counts, year ranges, leading directors and genres, and
+      alternatives considered -- is in
+      <code>data/cluster_naming_report.md</code>.</p>
 
       <p>Finally, the graph results were exported for analysis and
       visualization. Cluster assignments were written back into the DuckDB

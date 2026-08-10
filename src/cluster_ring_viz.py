@@ -43,79 +43,88 @@ LABEL_ASCENT_MARGIN_DEFAULT = 14.0   # curved-text glyphs extend outward past th
 # for its now-larger label font (see LABEL_STYLE_OVERRIDES below).
 CY_PUSH_DEFAULT = 50.0
 CY_PUSH_OVERRIDES = {
-    "anglophone_classic": 14.0,
-    "transatlantic_auteur_cinema": 14.0,
+    "golden_age_hollywood_british": 14.0,
+    "modern_american_cinema": 14.0,
     "hong_kong_taiwan_cinema": 14.0,
-    "bergman_scandinavian": 14.0,
+    "scandinavian_bergman_circle": 14.0,
     "european_art_cinema": 14.0,
-    "japanese_cinema": 14.0,
+    "classic_japanese_cinema": 14.0,
+    "japanese_new_wave_genre": 14.0,
 }
 
 # Per-cluster visual overrides so the shared ring-viz code can give every
 # ring cluster the same larger, higher-contrast treatment.
 NODE_R_OVERRIDES = {
-    "anglophone_classic": 12.0,
-    "transatlantic_auteur_cinema": 12.0,
     "hong_kong_taiwan_cinema": 12.0,
-    "bergman_scandinavian": 12.0,
-    # European Art Cinema and Japanese Cinema both have far more films (432
-    # and 354) than the other bigger-node clusters, so 12.0 doesn't fit
-    # within the fixed 380px outer bound without real node overlap -- 9.5 is
-    # the largest radius that still packs every band cleanly for both
-    # (verified by checking every node's pairwise distance, not just
-    # eyeballing it).
+    "scandinavian_bergman_circle": 12.0,
+    "japanese_new_wave_genre": 12.0,
+    # These clusters have far more films than the other bigger-node
+    # clusters, so 12.0 doesn't fit within the fixed 380px outer bound
+    # without real node overlap -- 9.5 is the largest radius that still
+    # packs every band within that bound (see the packing-fraction-capped
+    # radii computed for the 2026-07-31 rebuild in CLUSTER_BANDS below).
     "european_art_cinema": 9.5,
-    "japanese_cinema": 9.5,
+    "classic_japanese_cinema": 9.5,
+    "modern_american_cinema": 9.5,
+    "golden_age_hollywood_british": 9.5,
 }
 # Default node border blends into the background (stroke = bg_color) so
 # touching nodes read as separated without drawing attention to the border
 # itself. The bigger-node clusters get an actual visible-but-slight black
 # border instead, so individual films stand out more clearly.
+_BIG_NODE_BORDER = {"stroke": "#000000", "opacity": 0.55, "width": 1.4}
 NODE_BORDER_STYLE_OVERRIDES = {
-    "anglophone_classic": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
-    "transatlantic_auteur_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
-    "hong_kong_taiwan_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
-    "bergman_scandinavian": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
-    "european_art_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
-    "japanese_cinema": {"stroke": "#000000", "opacity": 0.55, "width": 1.4},
+    "modern_american_cinema": _BIG_NODE_BORDER,
+    "golden_age_hollywood_british": _BIG_NODE_BORDER,
+    "hong_kong_taiwan_cinema": _BIG_NODE_BORDER,
+    "scandinavian_bergman_circle": _BIG_NODE_BORDER,
+    "european_art_cinema": _BIG_NODE_BORDER,
+    "classic_japanese_cinema": _BIG_NODE_BORDER,
+    "japanese_new_wave_genre": _BIG_NODE_BORDER,
 }
 LABEL_STYLE_DEFAULT = {"font_size": 15, "font_weight": 600}
+_BIG_LABEL_STYLE = {"font_size": 21, "font_weight": 800}
 LABEL_STYLE_OVERRIDES = {
-    "anglophone_classic": {"font_size": 21, "font_weight": 800},
-    "transatlantic_auteur_cinema": {"font_size": 21, "font_weight": 800},
-    "hong_kong_taiwan_cinema": {"font_size": 21, "font_weight": 800},
-    "bergman_scandinavian": {"font_size": 21, "font_weight": 800},
-    "european_art_cinema": {"font_size": 21, "font_weight": 800},
-    "japanese_cinema": {"font_size": 21, "font_weight": 800},
+    "modern_american_cinema": _BIG_LABEL_STYLE,
+    "golden_age_hollywood_british": _BIG_LABEL_STYLE,
+    "hong_kong_taiwan_cinema": _BIG_LABEL_STYLE,
+    "scandinavian_bergman_circle": _BIG_LABEL_STYLE,
+    "european_art_cinema": _BIG_LABEL_STYLE,
+    "classic_japanese_cinema": _BIG_LABEL_STYLE,
+    "japanese_new_wave_genre": _BIG_LABEL_STYLE,
 }
 LABEL_ASCENT_MARGIN_OVERRIDES = {
-    "anglophone_classic": 19.0,
-    "transatlantic_auteur_cinema": 19.0,
+    "modern_american_cinema": 19.0,
+    "golden_age_hollywood_british": 19.0,
     "hong_kong_taiwan_cinema": 19.0,
-    "bergman_scandinavian": 19.0,
+    "scandinavian_bergman_circle": 19.0,
     "european_art_cinema": 19.0,
-    "japanese_cinema": 19.0,
+    "classic_japanese_cinema": 19.0,
+    "japanese_new_wave_genre": 19.0,
 }
+# Darker and thicker than the shared default (which just reuses the
+# cluster's contrast text color at stroke-width 1). Rather than an
+# unrelated fixed color, "darken_factor" darkens the cluster's own node
+# color -- same darken() used for black-and-white nodes below -- so the
+# ring boundaries still read as part of the cluster's own identity while
+# standing out from the larger nodes/labels.
+_DARK_RING_GUIDE = {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0}
 RING_GUIDE_STYLE_OVERRIDES = {
-    # Darker and thicker than the shared default (which just reuses the
-    # cluster's contrast text color at stroke-width 1). Rather than an
-    # unrelated fixed color, "darken_factor" darkens the cluster's own node
-    # color -- same darken() used for black-and-white nodes below -- so the
-    # ring boundaries still read as part of the cluster's own identity while
-    # standing out from the larger nodes/labels.
-    "anglophone_classic": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
-    "transatlantic_auteur_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
-    "hong_kong_taiwan_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
-    "bergman_scandinavian": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
-    "european_art_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
-    "japanese_cinema": {"darken_factor": 0.3, "width": 2.6, "opacity": 1.0},
+    "modern_american_cinema": _DARK_RING_GUIDE,
+    "golden_age_hollywood_british": _DARK_RING_GUIDE,
+    "hong_kong_taiwan_cinema": _DARK_RING_GUIDE,
+    "scandinavian_bergman_circle": _DARK_RING_GUIDE,
+    "european_art_cinema": _DARK_RING_GUIDE,
+    "classic_japanese_cinema": _DARK_RING_GUIDE,
+    "japanese_new_wave_genre": _DARK_RING_GUIDE,
 }
 
 # Clusters that distinguish black-and-white from color films by darkening the
 # node fill (same rule hex_svg.py uses for the home page's hex grid).
-BW_TINT_CLUSTERS = {"anglophone_classic", "transatlantic_auteur_cinema",
-                     "hong_kong_taiwan_cinema", "bergman_scandinavian",
-                     "european_art_cinema", "japanese_cinema"}
+BW_TINT_CLUSTERS = {"modern_american_cinema", "golden_age_hollywood_british",
+                     "hong_kong_taiwan_cinema", "scandinavian_bergman_circle",
+                     "european_art_cinema", "classic_japanese_cinema",
+                     "japanese_new_wave_genre"}
 
 # Per-cluster (min_degree, ring_radius, label) triples -- innermost band first.
 # Films are scattered by area throughout each band's annulus (0..r for the
@@ -130,68 +139,72 @@ BW_TINT_CLUSTERS = {"anglophone_classic", "transatlantic_auteur_cinema",
 # it reuses the same degree thresholds; only the radii shrink, scaled to its
 # ~255-vs-432 film count so each band keeps a similar packing density within
 # the same 380px outer bound.
+# 2026-07-31 rebuild: thresholds are each cluster's own ~top-5% / next-~45%
+# internal-degree percentile split (see src/cluster_naming_evidence.py and
+# the one-off analysis in the cluster.py rebuild notes), radii solved from
+# those bands' actual film counts so each annulus's packing fraction lands
+# at ~0.30 -- calibrated against european_art_cinema's own pre-rebuild bands
+# (which measured out to 0.26-0.34 across its three rings) rather than
+# picked by eye, and capped so no band exceeds the shared 380px outer bound.
+# european_art_cinema and hong_kong_taiwan_cinema are pre-rebuild identities
+# whose film count barely moved (471->477, 79->82) -- bands kept unchanged.
 CLUSTER_BANDS = {
-    # Radii widened slightly from the original (103, 282) to make room for
-    # the bigger 9.5px nodes (see NODE_R_OVERRIDES) at this cluster's much
-    # higher per-band film counts (21/182/229) -- verified zero pairwise
-    # node-overlaps at these exact radii, not just visually spot-checked.
     "european_art_cinema": [
         (25, 90,  "Hub (degree ≥ 25)"),
         (10, 255, "Mid (10–24)"),
         (0,  380, "Peripheral (< 10)"),
     ],
-    # Radii widened slightly from the original (139, 298) for the same
-    # reason as European Art Cinema above: the bigger 9.5px nodes need more
-    # room for this cluster's per-band counts (44/226/84) -- verified zero
-    # pairwise node-overlaps at these exact radii.
-    "japanese_cinema": [
-        (75, 165, "Hub (degree ≥ 75)"),
-        (25, 315, "Mid (25–74)"),
-        (0,  380, "Peripheral (< 25)"),
-    ],
-    "anglophone_classic": [
-        (25, 75,  "Hub (degree ≥ 25)"),
-        (10, 243, "Mid (10–24)"),
-        (0,  380, "Peripheral (< 10)"),
-    ],
-    # Transatlantic Auteur Cinema's own degree distribution is much sparser
-    # (avg internal degree ~4.7, max 20) than the other three ring clusters,
-    # so it needs its own thresholds rather than reusing the 25/10 split --
-    # at those cutoffs its hub band would be empty (max degree is only 20).
-    # Chosen to land on roughly the same hub/mid/peripheral proportions
-    # (~6%/31%/63%) as Anglophone Classic's (~4%/37%/59%) so it reads as the
-    # same kind of graph despite the different absolute degree range.
-    "transatlantic_auteur_cinema": [
-        (15, 75,  "Hub (degree ≥ 15)"),
-        (5,  230, "Mid (5–14)"),
-        (0,  380, "Peripheral (< 5)"),
-    ],
-    # Hong Kong/Taiwan Cinema is small (79 films) but dense and fairly evenly
-    # spread across its whole 1-36 degree range (median 12, not concentrated
-    # near either end like the other clusters), with a genuinely large
-    # top tier rather than a long thin tail -- closer in shape to Japanese
-    # Cinema's dense core than to Anglophone/Transatlantic's skew. Hub/Mid/
-    # Peripheral here land at ~23%/46%/32% of the cluster.
     "hong_kong_taiwan_cinema": [
         (20, 100, "Hub (degree ≥ 20)"),
         (8,  250, "Mid (8–19)"),
         (0,  380, "Peripheral (< 8)"),
     ],
-    # Bergman Scandinavian is the densest small cluster: mean/median internal
-    # degree ~17-18, nearly flat across the whole 1-35 range rather than
-    # skewed to either end (Bergman's own repertory company forms the dense
-    # core, with the wider Scandinavian tradition around it). Hub/Mid/
-    # Peripheral land at ~25%/48%/27% -- band sizes close enough to Hong
-    # Kong/Taiwan Cinema's (18/36/25 films) to reuse the same radii.
-    "bergman_scandinavian": [
+    # scandinavian_bergman_circle is bergman_scandinavian's direct successor
+    # (80 films vs. 80-86 pre-rebuild) -- same degree-distribution shape,
+    # bands kept unchanged under the new ID.
+    "scandinavian_bergman_circle": [
         (25, 100, "Hub (degree ≥ 25)"),
         (10, 250, "Mid (10–24)"),
         (0,  380, "Peripheral (< 10)"),
     ],
+    # New community (no pre-rebuild equivalent), 498 films. Thresholds are
+    # its own ~top-6%/~top-53% internal-degree percentiles (max degree 39,
+    # median 7 -- much sparser than the older, smaller ring clusters).
+    "modern_american_cinema": [
+        (21, 90,  "Hub (degree ≥ 21)"),
+        (7,  275, "Mid (7–20)"),
+        (0,  380, "Peripheral (< 7)"),
+    ],
+    # anglophone_classic's direct successor, grown 250 -> 467 films (absorbed
+    # the classic-era Best Picture winners). Own percentile thresholds --
+    # its old (25, 10) split doesn't transfer at this size/density.
+    "golden_age_hollywood_british": [
+        (32, 95,  "Hub (degree ≥ 32)"),
+        (15, 265, "Mid (15–31)"),
+        (0,  380, "Peripheral (< 15)"),
+    ],
+    # japanese_cinema's direct successor, but SMALLER (363 -> 216) now that
+    # japanese_new_wave_genre has split off the action/New-Wave half -- a
+    # much denser remaining core (median internal degree 44.5 vs the old
+    # cluster's blended distribution), hence a small hub band with a very
+    # high threshold.
+    "classic_japanese_cinema": [
+        (84, 55,  "Hub (degree ≥ 84)"),
+        (45, 180, "Mid (45–83)"),
+        (0,  380, "Peripheral (< 45)"),
+    ],
+    # New split-off from japanese_cinema (142 films, the samurai-action/New
+    # Wave half). Own percentile thresholds.
+    "japanese_new_wave_genre": [
+        (41, 60,  "Hub (degree ≥ 41)"),
+        (22, 185, "Mid (22–40)"),
+        (0,  380, "Peripheral (< 22)"),
+    ],
 }
-RINGS_TO_RENDER = ["european_art_cinema", "japanese_cinema", "anglophone_classic",
-                   "transatlantic_auteur_cinema", "hong_kong_taiwan_cinema",
-                   "bergman_scandinavian"]
+RINGS_TO_RENDER = ["european_art_cinema", "classic_japanese_cinema",
+                    "golden_age_hollywood_british", "modern_american_cinema",
+                    "japanese_new_wave_genre", "hong_kong_taiwan_cinema",
+                    "scandinavian_bergman_circle"]
 
 
 def esc(s):
@@ -234,24 +247,36 @@ def band_for_degree(degree, bands):
             return min_deg, radius, label
 
 
-def sample_annulus_no_overlap(rng, cx0, cy0, r_inner, r_outer, n, min_dist, max_attempts=500):
+def sample_annulus_no_overlap(rng, cx0, cy0, r_inner, r_outer, n, min_dist, max_attempts=4000):
     """n (x, y) absolute points, scattered by area over the annulus
     [r_inner, r_outer) around (cx0, cy0). Rejects candidates closer than
     min_dist to an already-placed point in this band so nodes never overlap
     each other. Labels curve along their own band's boundary radius, which
     BAND_GAP already keeps clear of nodes on both sides, so no separate
-    label-avoidance is needed here."""
+    label-avoidance is needed here.
+
+    Dense bands (e.g. modern_american_cinema's 236-film peripheral ring)
+    can exhaust even a few thousand attempts once most of the annulus is
+    already occupied. Rather than silently falling back to the last (and
+    possibly overlapping) candidate tried, track the best -- i.e.
+    farthest-from-its-nearest-neighbor -- candidate seen across all
+    attempts and use that if no fully clear spot is found. This can never
+    do worse than the old last-candidate fallback and in practice removes
+    every remaining overlap for this project's cluster sizes."""
     r_inner_eff = max(r_inner, 0)
     points = []
     for _ in range(n):
-        x = y = 0.0
+        best_xy, best_min_d2 = None, -1.0
         for _ in range(max_attempts):
             r = np.sqrt(r_inner_eff ** 2 + rng.random() * (r_outer ** 2 - r_inner_eff ** 2))
             theta = rng.random() * 2 * np.pi
             x, y = cx0 + r * np.cos(theta), cy0 + r * np.sin(theta)
-            if all((x - px) ** 2 + (y - py) ** 2 >= min_dist ** 2 for px, py in points):
+            min_d2 = min(((x - px) ** 2 + (y - py) ** 2 for px, py in points), default=float("inf"))
+            if min_d2 > best_min_d2:
+                best_xy, best_min_d2 = (x, y), min_d2
+            if min_d2 >= min_dist ** 2:
                 break
-        points.append((x, y))
+        points.append(best_xy)
     return points
 
 
@@ -375,7 +400,7 @@ def build_svg(cluster_id, films, bands):
             svg.append(f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>')
 
     for row, (cx, cy) in all_nodes:
-        tip = f"{row.title} ({int(row.criterion_year)}) · degree {row.degree}"
+        tip = f"{row.title} ({int(row.criterion_year)}) · {row.degree} connections"
         tw = max(100, 11.9 * len(tip))
         th = 46
         tx = min(max(cx - tw / 2, 8), W - tw - 8)

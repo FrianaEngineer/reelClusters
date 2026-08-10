@@ -4,9 +4,10 @@
  * This project's film records (site/assets/films-data.js, built by
  * src/build_recommendation_data.py) only carry real fields: title, director,
  * country, year, runtime, IMDb genres, cluster membership, shared-actor
- * graph degree/neighbors, an englishSpeaking flag derived from country, and
- * outbound links. There is no mood/tone/pace/accessibility field in the
- * dataset, and no plot descriptions or keywords.
+ * graph degree/neighbors, an englishSpeaking flag derived from country, a
+ * real per-film original-language code from TMDB, and outbound links. There
+ * is no mood/tone/pace/accessibility field in the dataset, and no plot
+ * descriptions or keywords.
  *
  * Everything below is a defensible, hand-authored mapping from the survey's
  * vocabulary onto those real fields -- it never invents genres, countries,
@@ -106,16 +107,59 @@ const RUNTIME_RANGES = {
   no_preference: null,
 };
 
-// Language openness (Q6) -> bonus applied via each film's englishSpeaking
-// flag (a country-of-production proxy -- see build_recommendation_data.py;
-// this dataset has no direct language field). Soft weighting only: even
-// "English preferred" merely lowers a non-English film's score, it doesn't
-// remove it from consideration.
+// Language (Q6) -> bonus applied via each film's real `language` field (an
+// ISO 639-1 original-language code sourced from TMDB, keyed by imdb_tconst --
+// see src/fetch_film_languages.py and build_recommendation_data.py). Soft
+// weighting only: "English preferred" merely lowers a non-English film's
+// score, it doesn't remove it from consideration.
 const LANGUAGE_WEIGHTS = {
-  yes_absolutely: { nonEnglishBonus: 10, englishBonus: 0 },
-  sometimes: { nonEnglishBonus: 5, englishBonus: 2 },
   english_preferred: { nonEnglishBonus: -4, englishBonus: 8 },
   no_preference: { nonEnglishBonus: 0, englishBonus: 0 },
+};
+
+// When the survey's language dropdown is used to name a specific language,
+// this is the bonus for an exact film.language match (and the mild penalty
+// for a confirmed non-match -- films with no language data get neither).
+const LANGUAGE_MATCH_BONUS = 14;
+const LANGUAGE_MISMATCH_PENALTY = -3;
+
+// ISO 639-1 code -> display label, for every original-language value
+// present in the current film dataset (see data/film_language.csv) other
+// than English, which has its own "English preferred" option. Sorted here
+// alphabetically by code; recommendations.js sorts the rendered dropdown by
+// label. "cn" is TMDB's own (non-standard) code for Cantonese, kept as TMDB
+// returns it rather than remapped to a "correct" ISO code that isn't what
+// the data actually says.
+const LANGUAGE_LABELS = {
+  ar: "Arabic",
+  bn: "Bengali",
+  cn: "Cantonese",
+  cs: "Czech",
+  da: "Danish",
+  de: "German",
+  el: "Greek",
+  es: "Spanish",
+  fa: "Persian",
+  fi: "Finnish",
+  fr: "French",
+  hu: "Hungarian",
+  is: "Icelandic",
+  it: "Italian",
+  ja: "Japanese",
+  kk: "Kazakh",
+  ko: "Korean",
+  no: "Norwegian",
+  pl: "Polish",
+  pt: "Portuguese",
+  ro: "Romanian",
+  ru: "Russian",
+  sh: "Serbo-Croatian",
+  sv: "Swedish",
+  tl: "Tagalog",
+  tr: "Turkish",
+  wo: "Wolof",
+  xx: "No spoken dialogue",
+  zh: "Mandarin Chinese",
 };
 
 // Adventurousness (Q8) -> how strongly to lean on two real, defensible

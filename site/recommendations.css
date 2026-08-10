@@ -249,6 +249,36 @@ body.recs-page {
   box-shadow: inset 0 0 0 3px #171724;
 }
 
+/* ── Language picker (Q6): the two broad buttons + a dropdown for a
+   specific language ──────────────────────────────────────────────── */
+
+.recs-language-dropdown {
+  margin-top: 16px;
+}
+
+.recs-language-dropdown-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #a8a8bc;
+  font-size: 14px;
+}
+
+.recs-language-select {
+  width: 100%;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #2a2a3d;
+  background: #171724;
+  color: #e8e8ef;
+}
+
+.recs-language-select:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
 .recs-error {
   margin: 0 0 16px;
   color: #f4a261;

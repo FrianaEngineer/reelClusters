@@ -28,20 +28,42 @@ VIDEO_CODEC = "libx264"
 AUDIO_CODEC = "aac"
 
 # ── Top-level timeline ─────────────────────────────────────────────────────
-# Runtime is no longer pinned to an exact 20:00 -- it's now DERIVED from the
-# actual film-batch count (see cinematic_history_schedule.py's batching
-# logic), because forcing every era into a fixed-duration window made most
-# individual films unreadably brief (as little as 0.29s/film in the busiest
-# years). Approximately 20 minutes remains the goal; 19-22 minutes is
-# acceptable. Only the opening title and final hold stay fixed -- everything
-# else scales with how many batches the real film distribution produces.
+# 2026-08-05 "Reeling Through the Years" restyle: runtime is no longer a
+# ~20-minute target at all -- each year now reveals a Top-N film list one
+# film at a time (see TOP_N_FILMS / TOP_FILM_INTERVAL_SECONDS below) and then
+# gradually fills in that year's remaining films, so total length is whatever
+# that per-year sequence actually needs (see cinematic_history_schedule.py's
+# build_full_schedule()). Only the opening title and final hold stay fixed.
 TITLE_CARD_SECONDS = 2                 # 00:00-00:02, unchanged
 FINAL_HOLD_SECONDS = 15                # fixed-length closing hold, unchanged
-TARGET_RUNTIME_MIN_SECONDS = 19 * 60
-TARGET_RUNTIME_MAX_SECONDS = 22 * 60
-STOP_FOR_APPROVAL_MAX_SECONDS = 22 * 60   # hard ceiling -- stop and report, don't render past this
 START_YEAR = 1913
 END_YEAR = 2025
+
+# ── Per-year reveal pacing ("Reeling Through the Years" restyle) ───────────
+# Each year shows its Top-N films -- ranked by "connections" (that film's
+# shared-actor degree to other films in its OWN cluster, i.e. the same
+# internal_degree metric already used elsewhere on the site, e.g.
+# build_site.py's hub_films() / cluster_ring_viz.py's
+# load_films_with_internal_degree() -- see cinematic_history_schedule.py's
+# load_connections()) one at a time, each entrance simultaneous with that
+# film's exact hex filling in.
+# 2026-08-08 "Most Connected Films" restyle: reduced from 5 to 3, and the
+# ranking metric switched from imdb_rating/num_votes to connection count
+# (see module docstring above and cinematic_history_schedule.py).
+TOP_N_FILMS = 3
+TOP_FILM_INTERVAL_SECONDS = 2.0     # spec: "reveal one film every two seconds"
+EMPTY_YEAR_SECONDS = 0.6            # brief pause for a year with zero films -- just enough to read the year tick over
+
+# After the Top-N list finishes, that year's remaining films (beyond the
+# Top-N) fill their exact hexes with no title card, "gradually" per spec.
+# Not otherwise spec'd, so paced to scale with how many are left: a light
+# year resolves almost instantly, the heaviest year on record (1964, 48
+# films -> 43 remaining) still resolves in a few seconds, never a long
+# stall. See cinematic_history_schedule.py's remaining_fill_seconds().
+REMAINING_FILL_SECONDS_PER_FILM = 0.05
+REMAINING_FILL_MIN_SECONDS = 0.4
+REMAINING_FILL_MAX_SECONDS = 3.0
+REMAINING_HEX_POP_SECONDS = 0.12    # per-hex fade for a remaining-film hex (Top-N hexes use HEX_POP_SECONDS)
 
 
 def mmss(s):
@@ -117,19 +139,8 @@ for a, b in zip(MUSIC_CUES, MUSIC_CUES[1:]):
 assert MUSIC_CUES[0]["start_year"] == START_YEAR
 assert MUSIC_CUES[-1]["end_year"] == END_YEAR
 
-# ── Batching (same-year film groups sharing one on-screen slot) ──────────
-# A batch never spans more than one year. Batch size starts small and is
-# escalated (densest years first) only as needed to bring the projected
-# total runtime down toward the target range -- never the other way around.
-PREFERRED_MAX_BATCH_SIZE = 2      # default ceiling before any escalation
-CROWDED_MAX_BATCH_SIZE = 3        # first escalation step
-ABSOLUTE_MAX_BATCH_SIZE = 4       # hard cap -- never batch more than this many films together
-BATCH_SLOT_SECONDS_MIN = 1.3
-BATCH_SLOT_SECONDS_MAX = 1.8
-BATCH_SLOT_SECONDS_TARGET = 1.5   # nominal per-batch on-screen duration (crossfade-in + hold)
-
 # ── Reveal timing ─────────────────────────────────────────────────────────
-HEX_POP_SECONDS = 0.15          # a film's hex(es) fade-in duration -- never fades back out
+HEX_POP_SECONDS = 0.15          # a Top-N film's hex(es) fade-in duration -- never fades back out
 
 # ── Visual constants ───────────────────────────────────────────────────────
 # 2026-07-29 restyle: whole-video background changed from the original dark
@@ -141,10 +152,26 @@ HEX_POP_SECONDS = 0.15          # a film's hex(es) fade-in duration -- never fad
 # unrevealed/ambient hex faces are painted with this same color so they read
 # as "empty" against the new background.
 BACKGROUND_COLOR = "#b8b9ba"
-HEX_STROKE_COLOR = "#000000"
-HEX_STROKE_WIDTH_PX = 2.5        # spec: 2-3px at 1920x1080 -- internal hex lines, unchanged
+# 2026-08-05 "Reeling Through the Years" restyle: interior hex edges made
+# lighter/thinner (a mid-gray, ~40% of the old width) so individual hexes
+# read as texture, not a grid; the outer perimeter is kept pure black and
+# made thicker so the graph's silhouette stays the strongest line in the
+# frame -- a clearer light/dark, thin/thick contrast between "inside" and
+# "edge of the whole graph" than the old uniform-black-everywhere styling.
+HEX_STROKE_COLOR = "#6b6b6b"
+HEX_STROKE_WIDTH_PX = 1.0        # interior hex lines -- thinner and lighter than before (was 2.5px, #000000)
 OUTER_BORDER_COLOR = "#000000"
-OUTER_BORDER_WIDTH_PX = 5.0      # spec: 4-6px at 1920x1080 -- outer perimeter only, unchanged
+OUTER_BORDER_WIDTH_PX = 7.0      # outer perimeter only -- thicker and more defined than before (was 5.0px)
+
+# 2026-08-09 revert: the 2026-08-08 opacity-blend styling (a black-and-white
+# film's hex blended toward BACKGROUND_COLOR by a fixed fraction) is reverted
+# back to explore.html/hex_svg.py's original behavior -- a black-and-white or
+# unresolved film's hex renders as its cluster's exact COLOR_MAP hue with
+# every RGB channel multiplied by this factor, byte-for-byte identical to
+# hex_svg.py's own BW_DARKEN_FACTOR, so the video and the live site agree on
+# every hex's exact color. A confirmed-color film is unaffected (its
+# cluster's hue, undarkened).
+CLUSTER_HEX_BW_DARKEN_FACTOR = 0.65
 
 # ── Film-info panel text styling ──────────────────────────────────────────
 # Title text (film name) is bold and the largest of the three lines; the
@@ -166,9 +193,71 @@ YEAR_TEXT_COLOR = "#111111"
 TITLE_CARD_TEXT_COLOR = "#111111"
 TITLE_CARD_SUBTITLE_COLOR = "#333333"
 
-# ── Rolling film-item timing (spec-exact) ─────────────────────────────────
+# ── Persistent main title (2026-08-08 restyle) ─────────────────────────────
+# A permanent header banner, visible frame 1 through the final frame, in its
+# own reserved strip above the graph -- NOT the old 2-second-only centered
+# title card (TITLE_CARD_SECONDS/the "title" phase still exists and still
+# holds on an empty graph with no year/heading/rows for its same original
+# duration, it just no longer needs its own big centered text now that the
+# header carries the title at all times).
+MAIN_TITLE_TEXT = "Reeling Through the Years: Mapping Cinematic History"
+MAIN_TITLE_FONTSIZE_PX = 34
+MAIN_TITLE_COLOR = "#111111"
+TOP_HEADER_FRAC = 0.115   # fraction of total frame HEIGHT reserved for the header strip
+
+# ── Cluster boundary + completed-cluster labels (2026-08-08 restyle) ───────
+# explore.html itself only separates adjacent clusters with a thin
+# background-colored gap (see hex_svg.py's boundary_segs, stroke=page
+# background) -- this project draws that same adjacency as a genuine black
+# line instead, so every cluster's silhouette reads clearly even before any
+# of its hexes are filled in (opening frame) and for the rest of the video.
+CLUSTER_BOUNDARY_COLOR = "#000000"
+CLUSTER_BOUNDARY_WIDTH_PX = 2.2
+# Cluster name/position/font-size/line-wrap and on-dark/on-light color are
+# NOT restyled here -- they're read verbatim off explore.html's own <text>
+# markup by cinematic_history_layout_snapshot.py (cluster_labels in the
+# snapshot), this project only supplies the two CSS colors those "on-dark"/
+# "on-light" classes resolve to and a fade-in duration for when a label
+# first appears.
+CLUSTER_LABEL_ON_DARK_COLOR = "#ffffff"
+CLUSTER_LABEL_ON_LIGHT_COLOR = "#000000"
+CLUSTER_LABEL_STROKE_COLOR = "#000000"
+CLUSTER_LABEL_FADE_IN_SECONDS = 0.6
+
+# ── Golden poster-hex border (2026-08-08 restyle) ───────────────────────────
+POSTER_HEX_BORDER_COLOR = "#d4af37"
+POSTER_HEX_BORDER_WIDTH_PX = 4.5
+
+# ── Right-panel heading (2026-08-08 "Most Connected Films" restyle) ────────
+# Static -- no longer "Top N Films of [YEAR]" (the year already appears
+# directly above it; repeating it in the heading was redundant).
+FILM_HEADING_TEXT = "Most Connected Films"
+
+# ── Country display normalization (2026-08-08 restyle) ─────────────────────
+# Applied only to this video's right-panel credit line -- no other display
+# normalization currently exists for criterion_country elsewhere on the
+# site, so this is deliberately a minimal, explicit map, not a general
+# abbreviation scheme.
+COUNTRY_DISPLAY_OVERRIDES = {
+    "United States": "USA",
+}
+
+# ── Film-row timing ─────────────────────────────────────────────────────
+# A Top-N row fades in over this long, then (per spec) stays fully visible
+# for the rest of that year -- there's no fade-out anymore now that rows no
+# longer get superseded/rolled off screen.
 ITEM_FADE_IN_SECONDS = 0.5
-ITEM_FADE_OUT_SECONDS = 1.0
+
+# ── Smoother year/heading/row/poster transitions (2026-08-08 restyle) ──────
+# Applied at the RENDERING layer only (cinematic_history_animation.py), as a
+# lookahead fade multiplier over each frame's already-scheduled content --
+# the schedule's own per-frame year/heading/rows/poster values (what shows
+# when) are unchanged; this only smooths HOW a change in those values reads
+# on screen. Never applied across the final segment (nothing plays after the
+# closing hold, so there's nothing to fade out into).
+YEAR_HEADING_FADE_SECONDS = 0.35   # year number + "Most Connected Films" heading
+ROW_FADE_OUT_SECONDS = 0.35        # right-panel film rows, fading out ahead of a year change
+POSTER_FADE_SECONDS = 0.45         # poster dips through the background on a year's poster changing
 
 # ── Yearly posters ─────────────────────────────────────────────────────────
 # Read-only source directory in the sibling ReelWrangling repo -- per spec,

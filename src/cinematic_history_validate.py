@@ -10,25 +10,33 @@ site/explore.html, hex_grid.py, hex_svg.py, or any other shared file.
 Approved, documented exceptions (do not re-flag these as failures -- they
 were investigated and explicitly signed off on):
 
-  - tt33381401 "The Love That Remains" and tt38060097 "Joan of Arc" (2025),
-    both cluster european_art_cinema, are excluded from the video entirely.
-    Root cause: hex_grid.py's own cluster_size-vs-hex-count reconciliation
-    (fix_fragments()/rebalance_counts()) doesn't always converge exactly --
-    its own code comment admits the final pass "can still introduce a hex or
-    two" of drift. In the live site/explore.html, european_art_cinema has
-    430 hexes for 432 real films. This was verified NOT to be a data-timing
-    issue: db/criterion_graph.duckdb (mtime 2026-07-18) predates the site
-    build that produced explore.html (mtime 2026-07-25) by a week, and both
-    films are already correctly classified in that same build's
-    films-data.js and european_art_cinema_rings.svg. Neither film has any
-    hex or persisted position in the current hex graph, so neither is
-    assigned one -- not excluded by guesswork, excluded because no hex for
-    them exists.
-  - The two hiddenGems hexes this leaves behind, (q=33, r=-14) and
-    (q=34, r=-16), both outer-ring white (#FFFFFF), are kept as
-    structural/background hexes with no film attached -- shown in their
-    snapshot color from the start of the video, never part of the per-film
-    reveal schedule.
+  - 2026-08-05 (12 films, european_art_cinema; 12 hexes, japanese_new_wave_genre):
+    after regenerating the snapshot from the current site/explore.html (which
+    now reflects the 2026-07-31 cluster-taxonomy rebuild), european_art_cinema
+    has 465 hexes for 477 real films and japanese_new_wave_genre has 155 hexes
+    for only 142 real films -- a matched +13/-13 (12 of which land as
+    genuinely unplaced/unfilled once geometry is fixed) drift between exactly
+    these two adjacent clusters. Verified NOT a data-timing issue: running
+    hex_grid.py's build_hex_grid() fresh today (same DB, same code) reproduces
+    the identical -13/+13 imbalance between these same two clusters, with
+    every other cluster's hex count matching its film count exactly. Root
+    cause is hex_grid.py's own fix_fragments()/rebalance_counts() alternation
+    not fully converging at this cluster-adjacency/scale -- the same
+    documented class of bug as the original 2026-07-26 exception below, just
+    larger because european_art_cinema/japanese_new_wave_genre now border
+    each other post-rebuild. Out of scope to fix here: hex_grid.py is a
+    shared file that also drives the live site, and this project must not
+    modify or depend on changes to it. The 12 films below have no hex in the
+    current snapshot and are excluded from the video entirely; the 12 hexes
+    below are shown in their snapshot color from the start, never part of the
+    per-film reveal schedule.
+  - 2026-07-26 (2 films/hexes, both since superseded by the 2026-08-05
+    snapshot regeneration but kept here for history): tt33381401 "The Love
+    That Remains" and tt38060097 "Joan of Arc", both cluster
+    european_art_cinema, were excluded from the video entirely for the same
+    hex-count-reconciliation reason. The two hiddenGems hexes this left
+    behind, (q=33, r=-14) and (q=34, r=-16), both outer-ring white (#FFFFFF),
+    were kept as structural/background hexes with no film attached.
 """
 
 import json
@@ -39,21 +47,38 @@ from pathlib import Path
 import duckdb
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR))
+import cinematic_history_config as cfg  # noqa: E402
+import cinematic_history_schedule as sched  # noqa: E402
+
 REPO_ROOT = SCRIPT_DIR.parent
 SNAPSHOT_PATH = REPO_ROOT / "data" / "cinematic_history_hex_snapshot.json"
 DB_PATH = REPO_ROOT / "db" / "criterion_graph.duckdb"
 REPORT_PATH = REPO_ROOT / "outputs" / "cinematic_history_validation_report.json"
 
-# (tconst, title, cluster_id) -- approved 2026-07-26. Any OTHER unplaced film
-# or unfilled hex found at validation time is a NEW, unreviewed exception and
-# must fail loudly, not be silently absorbed into this list.
+# (tconst, cluster_id) -- approved 2026-08-05, see module docstring. Any
+# OTHER unplaced film or unfilled hex found at validation time is a NEW,
+# unreviewed exception and must fail loudly, not be silently absorbed here.
 APPROVED_UNPLACED_FILMS = {
-    ("tt33381401", "european_art_cinema"),
-    ("tt38060097", "european_art_cinema"),
+    ("tt1020773", "european_art_cinema"),   # Certified Copy
+    ("tt1508675", "european_art_cinema"),   # Le Havre
+    ("tt1847731", "european_art_cinema"),   # Tomboy
+    ("tt1602620", "european_art_cinema"),   # Amour
+    ("tt2452254", "european_art_cinema"),   # Clouds of Sils Maria
+    ("tt4714782", "european_art_cinema"),   # Personal Shopper
+    ("tt5222918", "european_art_cinema"),   # The Other Side of Hope
+    ("tt6423776", "european_art_cinema"),   # Let the Sunshine In
+    ("tt5363618", "european_art_cinema"),   # Sound of Metal
+    ("tt19841734", "european_art_cinema"),  # The Innocent
+    ("tt14550346", "european_art_cinema"),  # Last Summer
+    ("tt32086004", "european_art_cinema"),  # Meeting with Pol Pot
 }
+# (q, r) is re-derived from scratch on every snapshot regeneration (arbitrary
+# origin/rotation, see cinematic_history_layout_snapshot.py), so these
+# coordinates are only meaningful against the current snapshot.
 APPROVED_UNFILLED_HEXES = {
-    (33, -14),
-    (34, -16),
+    (-10, 14), (-28, 10), (-10, 15), (-30, 13), (-29, 11), (-30, 12),
+    (-29, 10), (-30, 11), (-11, 16), (-10, 16), (-11, 17), (-10, 17),
 }
 
 
@@ -104,7 +129,7 @@ def check_unplaced_films(snapshot, findings):
         findings["info"]["previously_approved_exceptions_no_longer_present"] = sorted(missing_approved)
 
     findings["exceptions"]["unplaced_films"] = [
-        dict(**f, status="APPROVED 2026-07-26 -- pre-existing hex-count reconciliation exception, "
+        dict(**f, status="APPROVED 2026-08-05 -- pre-existing hex-count reconciliation exception, "
                           "not a data-timing issue (see module docstring)")
         for f in approved_found
     ]
@@ -121,7 +146,7 @@ def check_unfilled_hexes(snapshot, findings):
         )
 
     findings["exceptions"]["unfilled_hexes"] = [
-        dict(**h, status="APPROVED 2026-07-26 -- kept as a structural/background hex with no film "
+        dict(**h, status="APPROVED 2026-08-05 -- kept as a structural/background hex with no film "
                           "attached, shown in its snapshot color from the start")
         for h in approved_found
     ]
@@ -200,6 +225,93 @@ def check_geometry_verification(snapshot, findings):
         findings["info"]["geometry_verification"] = gv
 
 
+def check_reveal_schedule(findings):
+    """"Reeling Through the Years" restyle checks -- walks the actual built
+    schedule (not just the snapshot) to prove, for every single year, that:
+      - at most cfg.TOP_N_FILMS films ever get a title card,
+      - every Top-N film's swatch color is exactly its own hex's final fill
+        (never guessed, never a cluster-average color),
+      - remaining-film hexes only ever start filling after every Top-N hex
+        for that year has already reached its final color (no overlap),
+      - no hex is ever claimed as a Top-N OR remaining hex by more than one
+        distinct film in the same year (a same-tconst catalog duplicate
+        occupying >1 of its OWN hexes is fine; two DIFFERENT tconsts on the
+        same hex is not).
+    """
+    schedule = sched.build_full_schedule()
+    by_year = sched.group_events_by_year(schedule["events"])
+    final_colors = schedule["final_colors"]
+
+    for year, evs in by_year.items():
+        top, remaining = sched.select_top_and_remaining(evs)
+        if len(top) > cfg.TOP_N_FILMS:
+            findings["fatal"].append(f"{year}: {len(top)} Top-N films, exceeds cfg.TOP_N_FILMS={cfg.TOP_N_FILMS}")
+
+        for e in top:
+            for (q, r) in e["hexes"]:
+                if final_colors[(q, r)] != final_colors[e["hexes"][0]]:
+                    findings["fatal"].append(
+                        f"{year}: {e['tconst']} \"{e['title']}\"'s own hexes disagree in final color "
+                        f"({e['hexes']}) -- swatch color can't unambiguously match the graph")
+
+        top_hexes = {h for e in top for h in e["hexes"]}
+        remaining_hexes = {h for e in remaining for h in e["hexes"]}
+        overlap = top_hexes & remaining_hexes
+        if overlap:
+            findings["fatal"].append(f"{year}: {len(overlap)} hex(es) claimed by both a Top-N and a "
+                                      f"remaining film: {sorted(overlap)}")
+
+        hex_owner = {}
+        for e in evs:
+            for h in e["hexes"]:
+                if h in hex_owner and hex_owner[h] != e["tconst"]:
+                    findings["fatal"].append(
+                        f"{year}: hex {h} claimed by two different films: {hex_owner[h]} and {e['tconst']}")
+                hex_owner[h] = e["tconst"]
+
+    findings["info"]["reveal_schedule_total_seconds"] = schedule["total_seconds"]
+    findings["info"]["reveal_schedule_years_checked"] = len(by_year)
+
+
+def check_restyle_invariants(snapshot, findings):
+    """2026-08-08 "Most Connected Films" restyle checks: TOP_N_FILMS==3,
+    every reveal event carries a real (non-negative int) connection count,
+    every cluster with a label gets exactly one completion frame and vice
+    versa, and every resolved yearly poster's film has at least one hex on
+    the snapshot (required for the golden poster-hex border to ever have
+    something to point at)."""
+    if cfg.TOP_N_FILMS != 3:
+        findings["fatal"].append(f"cfg.TOP_N_FILMS is {cfg.TOP_N_FILMS}, expected 3 ('Most Connected Films' spec)")
+
+    schedule = sched.build_full_schedule()
+    for e in schedule["events"]:
+        if not isinstance(e["connections"], int) or e["connections"] < 0:
+            findings["fatal"].append(f"{e['tconst']} \"{e['title']}\" has invalid connections: {e['connections']!r}")
+
+    label_clusters = set(snapshot["cluster_labels"])
+    complete_clusters = set(schedule["cluster_complete_frames"])
+    if label_clusters != complete_clusters:
+        findings["fatal"].append(
+            f"cluster_labels vs cluster_complete_frames mismatch -- "
+            f"only in labels: {sorted(label_clusters - complete_clusters)}, "
+            f"only in complete_frames: {sorted(complete_clusters - label_clusters)}"
+        )
+
+    from cinematic_history_posters import build_poster_index
+    tconst_hexes = sched.hexes_by_tconst(snapshot)
+    poster_idx = build_poster_index()
+    for year, tconst in poster_idx["resolved_tconst"].items():
+        if not tconst_hexes.get(tconst):
+            findings["fatal"].append(
+                f"poster year {year} resolves to {tconst}, which has no hex in the snapshot "
+                f"-- golden poster-hex border would have nothing to highlight"
+            )
+
+    findings["info"]["top_n_films"] = cfg.TOP_N_FILMS
+    findings["info"]["cluster_complete_frames"] = schedule["cluster_complete_frames"]
+    findings["info"]["poster_years_resolved_to_tconst"] = len(poster_idx["resolved_tconst"])
+
+
 def main():
     snapshot = load_snapshot()
     findings = dict(fatal=[], info={}, exceptions={})
@@ -209,6 +321,8 @@ def main():
     check_unfilled_hexes(snapshot, findings)
     check_film_metadata(snapshot, findings)
     check_geometry_verification(snapshot, findings)
+    check_reveal_schedule(findings)
+    check_restyle_invariants(snapshot, findings)
 
     findings["ok"] = (len(findings["fatal"]) == 0)
 
@@ -225,6 +339,8 @@ def main():
     if findings["info"]["films_on_multiple_hexes"]:
         print(f"Films on multiple hexes (expected -- catalog duplicates): "
               f"{findings['info']['films_on_multiple_hexes']}")
+    print(f"\nReveal schedule checked: {findings['info']['reveal_schedule_years_checked']} years, "
+          f"projected {findings['info']['reveal_schedule_total_seconds']:.1f}s total")
     print(f"\nApproved exceptions:")
     for f in findings["exceptions"]["unplaced_films"]:
         print(f"  UNPLACED FILM: {f['tconst']} \"{f['title']}\" ({f['cluster_id']}) -- {f['status']}")

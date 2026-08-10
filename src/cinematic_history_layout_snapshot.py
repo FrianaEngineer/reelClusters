@@ -97,23 +97,40 @@ _MATCH_TOL = 0.05   # SVG coordinates are printed to 2 decimals
 
 
 def parse_explore_svg(path=EXPLORE_HTML_PATH):
-    """-> list of dicts: {cluster_id, fill, centroid (x, y), points}."""
+    """-> (hexes, cluster_labels).
+
+    hexes: list of dicts {cluster_id, fill, centroid (x, y), points}.
+    cluster_labels: {cluster_id: {x, y, fontsize, on_dark, lines}} -- the
+    exact <text>/<tspan> markup hex_svg.py wrote for that cluster's on-graph
+    label (position, size, color class, wrapped line text), still in the raw
+    SVG (flipped, y-down) pixel frame at this point.
+    """
     html = path.read_text()
     svg_text = re.search(r"(<svg.*</svg>)", html, re.S).group(1)
     root = ET.fromstring(svg_text)
 
     hexes = []
+    cluster_labels = {}
     for a in root.findall(f"{SVG_NS}a"):
         cluster_id = a.get("href").removeprefix("clusters/").removesuffix(".html")
         g = a.find(f"{SVG_NS}g")
         if g is None:
+            text = a.find(f"{SVG_NS}text")
+            if text is not None:
+                cls = text.get("class", "")
+                lines = [(ts.text or "") for ts in text.findall(f"{SVG_NS}tspan")]
+                cluster_labels[cluster_id] = dict(
+                    x=float(text.get("x")), y=float(text.get("y")),
+                    fontsize=float(text.get("font-size")),
+                    on_dark="on-dark" in cls, lines=lines,
+                )
             continue   # this <a> wraps a <text> label, not a hex group
         for poly in g.findall(f"{SVG_NS}polygon"):
             pts = [tuple(map(float, p.split(","))) for p in poly.get("points").split()]
             cx = sum(p[0] for p in pts) / len(pts)
             cy = sum(p[1] for p in pts) / len(pts)
             hexes.append(dict(cluster_id=cluster_id, fill=poly.get("fill"), centroid=(cx, cy)))
-    return hexes
+    return hexes, cluster_labels
 
 
 def reconstruct_axial_coords(hexes):
@@ -173,6 +190,32 @@ def _axial_to_pixel(q, r, size=1.0):
     return size * (S3 * q + S3 / 2 * r), size * (3 / 2 * r)
 
 
+# hex_svg.py pads its bounding box by its own MARGIN=1.5 constant before
+# computing x_min/y_max for flip() -- read-only knowledge of that module's
+# math, not a dependency on it staying unchanged.
+_SVG_MARGIN = 1.5
+
+
+def compute_flip_bounds(hexes):
+    """-> (x_min, y_max) of the ORIGINAL (unflipped) frame's bounding box,
+    padded by hex_svg.py's own MARGIN -- the exact two numbers its flip()
+    translation uses. Shared by verify_geometry_equivalence() (forward flip
+    check) and invert_flip() (recovering original-frame coordinates for
+    anything else parsed out of the SVG's flipped frame, e.g. cluster
+    label anchors)."""
+    orig_px = [_axial_to_pixel(*h["qr"]) for h in hexes]
+    xs = [p[0] for p in orig_px]
+    ys = [p[1] for p in orig_px]
+    return min(xs) - _SVG_MARGIN, max(ys) + _SVG_MARGIN
+
+
+def invert_flip(pt, x_min, y_max):
+    """Inverse of hex_svg.py's flip(): (x, y) -> (x - x_min, y_max - y).
+    Recovers an original-(unflipped)-frame point from an SVG-frame one."""
+    x, y = pt
+    return x + x_min, y_max - y
+
+
 def verify_geometry_equivalence(hexes):
     """Confirms reconstruct_axial_coords() didn't introduce a labeling error
     (e.g. an accidental reflection across one axis, which would still pass
@@ -186,13 +229,7 @@ def verify_geometry_equivalence(hexes):
     Returns a dict report: {ok, max_error, mean_error, mismatches}."""
     # axial_to_pixel(q, r) in the ORIGINAL (unflipped) frame:
     orig_px = {i: _axial_to_pixel(*h["qr"]) for i, h in enumerate(hexes)}
-    xs = [p[0] for p in orig_px.values()]
-    ys = [p[1] for p in orig_px.values()]
-    # hex_svg.py pads its bounding box by its own MARGIN=1.5 constant before
-    # computing x_min/y_max for flip() -- read-only knowledge of that
-    # module's math, not a dependency on it staying unchanged.
-    MARGIN = 1.5
-    x_min, y_max = min(xs) - MARGIN, max(ys) + MARGIN
+    x_min, y_max = compute_flip_bounds(hexes)
 
     def flip(pt):
         x, y = pt
@@ -288,6 +325,30 @@ def assign_films_to_snapshot_hexes(hexes, cluster_films):
     return hex_film, unplaced_films
 
 
+FILM_COLOR_CSV = REPO_ROOT / "data" / "film_color.csv"
+
+
+def load_film_color():
+    """tconst -> True/False, exactly as hex_svg.py's own load_film_color()
+    reads it (duplicated here rather than imported, same rationale as the
+    rest of this module's read-only duplication of upstream math/logic) --
+    entries with an unresolved is_color status are simply absent, so a
+    caller's plain dict.get(tconst) defaults missing/unresolved films to
+    None, matching hex_svg.py's `fill if film_is_color.get(tconst) else
+    darken(fill)` (a None also takes the darken/black-and-white branch)."""
+    import csv
+    is_color = {}
+    if not FILM_COLOR_CSV.exists():
+        return is_color
+    with FILM_COLOR_CSV.open(newline="") as f:
+        for row in csv.DictReader(f):
+            if row["is_color"] == "true":
+                is_color[row["imdb_tconst"]] = True
+            elif row["is_color"] == "false":
+                is_color[row["imdb_tconst"]] = False
+    return is_color
+
+
 def load_titles(con, tconsts):
     if not tconsts:
         return {}
@@ -305,7 +366,7 @@ def load_titles(con, tconsts):
 
 
 def build_snapshot():
-    hexes = parse_explore_svg()
+    hexes, raw_cluster_labels = parse_explore_svg()
     reconstruct_axial_coords(hexes)
     geometry_check = verify_geometry_equivalence(hexes)
     if not geometry_check["ok"]:
@@ -316,12 +377,36 @@ def build_snapshot():
             f"First mismatch: {geometry_check['mismatches'][0]}"
         )
 
+    # Cluster label anchors/lines are exact facts read off the live SVG
+    # (position, font-size, wrapped line text, on-dark/on-light color class)
+    # -- only their COORDINATE FRAME needs converting, from the SVG's
+    # flipped (y-down) pixel frame into the same original (y-up) frame this
+    # project's own axial_to_pixel() draws hexes in. Each raw line's exact
+    # SVG y (start_y + i*line_gap, line_gap = fontsize*1.2, mirroring
+    # hex_svg.py's own tspan dy stacking) is inverted individually rather
+    # than inverting once and re-deriving offsets, so this never has to
+    # assume anything about hex_svg.py's line-stacking formula beyond what's
+    # already externally visible in the SVG's own printed coordinates.
+    x_min, y_max = compute_flip_bounds(hexes)
+    cluster_labels = {}
+    for cluster_id, lbl in raw_cluster_labels.items():
+        line_gap = lbl["fontsize"] * 1.2
+        line_positions = []
+        for i in range(len(lbl["lines"])):
+            svg_y = lbl["y"] + i * line_gap
+            ox, oy = invert_flip((lbl["x"], svg_y), x_min, y_max)
+            line_positions.append(dict(text=lbl["lines"][i], x=ox, y=oy))
+        cluster_labels[cluster_id] = dict(
+            fontsize=lbl["fontsize"], on_dark=lbl["on_dark"], lines=line_positions,
+        )
+
     con = duckdb.connect(str(DB_PATH), read_only=True)
     cluster_films = load_cluster_films(con)
     hex_film, unplaced_films = assign_films_to_snapshot_hexes(hexes, cluster_films)
     unplaced_titles = load_titles(con, [tconst for _, tconst in unplaced_films])
     con.close()
 
+    film_is_color = load_film_color()
     hidden_gems_white = COLOR_MAP["hiddenGems"]
 
     hex_records = []
@@ -332,9 +417,11 @@ def build_snapshot():
         is_hidden_gems_outer = None
         if cluster_id == "hiddenGems":
             is_hidden_gems_outer = (fill.upper() == hidden_gems_white.upper())
+        tconst = hex_film.get((q, r))
         hex_records.append(dict(q=q, r=r, cluster_id=cluster_id, fill=fill,
                                  is_hidden_gems_outer=is_hidden_gems_outer,
-                                 tconst=hex_film.get((q, r))))
+                                 tconst=tconst,
+                                 is_color=film_is_color.get(tconst) if tconst else None))
 
     total_films_placed = sum(1 for h in hex_records if h["tconst"])
     total_films_expected = sum(len(v) for v in cluster_films.values())
@@ -347,6 +434,7 @@ def build_snapshot():
         page_background_color=PAGE_BACKGROUND_COLOR,
         color_map=COLOR_MAP,
         hexes=hex_records,
+        cluster_labels=cluster_labels,
         total_films_placed=total_films_placed,
         total_films_expected=total_films_expected,
         unplaced_films=[dict(cluster_id=c, tconst=t, title=unplaced_titles.get(t))

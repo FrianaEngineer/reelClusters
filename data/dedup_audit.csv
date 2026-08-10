@@ -1,0 +1,621 @@
+source_position,imdb_id,title,year,decision,matched_canonical_film_id,match_rule,confidence,metadata_conflicts,final_canonical_film_id
+1,tt0018379,7th Heaven,1927,new,,none,high,,tt0018379
+2,tt0019304,The Racket,1928,new,,none,high,,tt0019304
+3,tt0018578,Wings,1927,new,,none,high,,tt0018578
+4,tt0019729,The Broadway Melody,1929,new,,none,high,,tt0019729
+5,tt0019630,Alibi,1929,new,,none,high,,tt0019630
+6,tt0019993,The Hollywood Revue of 1929,1929,new,,none,high,,tt0019993
+7,tt0020018,In Old Arizona,1928,new,,none,high,,tt0020018
+8,tt0019257,The Patriot,1928,new,,none,high,,tt0019257
+9,tt0020629,All Quiet on the Western Front,1930,new,,none,high,,tt0020629
+10,tt0020686,The Big House,1930,new,,none,high,,tt0020686
+11,tt0019823,Disraeli,1929,new,,none,high,,tt0019823
+12,tt0020827,The Divorcee,1930,new,,none,high,,tt0020827
+13,tt0020112,The Love Parade,1929,new,,none,high,,tt0020112
+14,tt0021746,Cimarron,1931,new,,none,high,,tt0021746
+15,tt0021826,East Lynne,1931,new,,none,high,,tt0021826
+16,tt0021890,The Front Page,1931,matched_existing,tt0021890,exact_imdb_id,high,,tt0021890
+17,tt0022397,Skippy,1931,new,,none,high,,tt0022397
+18,tt0022495,Trader Horn,1931,new,,none,high,,tt0022495
+19,tt0022958,Grand Hotel,1932,new,,none,high,,tt0022958
+20,tt0021622,Arrowsmith,1931,new,,none,high,,tt0021622
+21,tt0021635,Bad Girl,1931,new,,none,high,,tt0021635
+22,tt0021730,The Champ,1931,new,,none,high,,tt0021730
+23,tt0021873,Five Star Final,1931,new,,none,high,,tt0021873
+24,tt0023303,One Hour with You,1932,new,,none,high,,tt0023303
+25,tt0023458,Shanghai Express,1932,new,,none,high,,tt0023458
+26,tt0022074,The Smiling Lieutenant,1931,new,,none,high,,tt0022074
+27,tt0023876,Cavalcade,1933,new,,none,high,,tt0023876
+28,tt0024034,42nd Street,1933,new,,none,high,,tt0024034
+29,tt0022879,A Farewell to Arms,1932,new,,none,high,,tt0022879
+30,tt0023042,I Am a Fugitive from a Chain Gang,1932,new,,none,high,,tt0023042
+31,tt0024240,Lady for a Day,1933,new,,none,high,,tt0024240
+32,tt0024264,Little Women,1933,new,,none,high,,tt0024264
+33,tt0024473,The Private Life of Henry VIII,1933,matched_existing,tt0024473,exact_imdb_id,high,,tt0024473
+34,tt0024548,She Done Him Wrong,1933,new,,none,high,,tt0024548
+35,tt0023488,Smilin' Through,1932,new,,none,high,,tt0023488
+36,tt0024610,State Fair,1933,new,,none,high,,tt0024610
+37,tt0025316,It Happened One Night,1934,new,,none,high,,tt0025316
+38,tt0024865,The Barretts of Wimpole Street,1934,new,,none,high,,tt0024865
+39,tt0024991,Cleopatra,1934,new,,none,high,,tt0024991
+40,tt0025124,Flirtation Walk,1934,new,,none,high,,tt0025124
+41,tt0025164,The Gay Divorcee,1934,new,,none,high,,tt0025164
+42,tt0025238,Here Comes the Navy,1934,new,,none,high,,tt0025238
+43,tt0025272,The House of Rothschild,1934,new,,none,high,,tt0025272
+44,tt0025301,Imitation of Life,1934,new,,none,high,,tt0025301
+45,tt0025601,One Night of Love,1934,new,,none,high,,tt0025601
+46,tt0025878,The Thin Man,1934,new,,none,high,,tt0025878
+47,tt0025948,Viva Villa!,1934,new,,none,high,,tt0025948
+48,tt0025986,The White Parade,1934,new,,none,high,,tt0025986
+49,tt0026752,Mutiny on the Bounty,1935,new,,none,high,,tt0026752
+50,tt0026056,Alice Adams,1935,new,,none,high,,tt0026056
+51,tt0026144,Broadway Melody of 1936,1935,new,,none,high,,tt0026144
+52,tt0026174,Captain Blood,1935,new,,none,high,,tt0026174
+53,tt0026266,David Copperfield,1935,new,,none,high,,tt0026266
+54,tt0026529,The Informer,1935,new,,none,high,,tt0026529
+55,tt0026725,Les Misérables,1935,new,,none,high,,tt0026725
+56,tt0026643,The Lives of a Bengal Lancer,1935,new,,none,high,,tt0026643
+57,tt0026714,A Midsummer Night's Dream,1935,new,,none,high,,tt0026714
+58,tt0026768,Naughty Marietta,1935,new,,none,high,,tt0026768
+59,tt0026955,Ruggles of Red Gap,1935,new,,none,high,,tt0026955
+60,tt0027125,Top Hat,1935,new,,none,high,,tt0027125
+61,tt0027698,The Great Ziegfeld,1936,new,,none,high,,tt0027698
+62,tt0027300,Anthony Adverse,1936,new,,none,high,,tt0027300
+63,tt0027532,Dodsworth,1936,new,,none,high,,tt0027532
+64,tt0027884,Libeled Lady,1936,new,,none,high,,tt0027884
+65,tt0027996,Mr. Deeds Goes to Town,1936,new,,none,high,,tt0027996
+66,tt0028203,Romeo and Juliet,1936,new,,none,high,,tt0028203
+67,tt0028216,San Francisco,1936,new,,none,high,,tt0028216
+68,tt0028313,The Story of Louis Pasteur,1936,new,,none,high,,tt0028313
+69,tt0027075,A Tale of Two Cities,1935,new,,none,high,,tt0027075
+70,tt0028373,Three Smart Girls,1936,new,,none,high,,tt0028373
+71,tt0029146,The Life of Emile Zola,1937,new,,none,high,,tt0029146
+72,tt0028597,The Awful Truth,1937,new,,none,high,,tt0028597
+73,tt0028691,Captains Courageous,1937,new,,none,high,,tt0028691
+74,tt0028773,Dead End,1937,new,,none,high,,tt0028773
+75,tt0028944,The Good Earth,1937,new,,none,high,,tt0028944
+76,tt0029047,In Old Chicago,1938,new,,none,high,,tt0029047
+77,tt0029162,Lost Horizon,1937,new,,none,high,,tt0029162
+78,tt0029347,One Hundred Men and a Girl,1937,new,,none,high,,tt0029347
+79,tt0029604,Stage Door,1937,new,,none,high,,tt0029604
+80,tt0029606,A Star Is Born,1937,new,,none,high,,tt0029606
+81,tt0030993,You Can't Take It with You,1938,new,,none,high,,tt0030993
+82,tt0029843,The Adventures of Robin Hood,1938,new,,none,high,,tt0029843
+83,tt0029852,Alexander's Ragtime Band,1938,new,,none,high,,tt0029852
+84,tt0029942,Boys Town,1938,new,,none,high,,tt0029942
+85,tt0029995,The Citadel,1938,new,,none,high,,tt0029995
+86,tt0030149,Four Daughters,1938,new,,none,high,,tt0030149
+87,tt0028950,Grand Illusion,1937,new,,none,high,,tt0028950
+88,tt0030287,Jezebel,1938,new,,none,high,,tt0030287
+89,tt0030637,Pygmalion,1938,matched_existing,tt0030637,exact_imdb_id,high,,tt0030637
+90,tt0030848,Test Pilot,1938,new,,none,high,,tt0030848
+91,tt0031381,Gone with the Wind,1939,new,,none,high,,tt0031381
+92,tt0031210,Dark Victory,1939,new,,none,high,,tt0031210
+93,tt0031385,"Goodbye, Mr. Chips",1939,new,,none,high,,tt0031385
+94,tt0031593,Love Affair,1939,matched_existing,tt0031593,exact_imdb_id,high,,tt0031593
+95,tt0031679,Mr. Smith Goes to Washington,1939,new,,none,high,,tt0031679
+96,tt0031725,Ninotchka,1939,new,,none,high,,tt0031725
+97,tt0031742,Of Mice and Men,1939,matched_existing,tt0031742,exact_imdb_id,high,,tt0031742
+98,tt0031971,Stagecoach,1939,matched_existing,tt0031971,exact_imdb_id,high,,tt0031971
+99,tt0032138,The Wizard of Oz,1939,new,,none,high,,tt0032138
+100,tt0032145,Wuthering Heights,1939,matched_existing,tt0032145,exact_imdb_id,high,,tt0032145
+101,tt0032976,Rebecca,1940,new,,none,high,,tt0032976
+102,tt0032194,"All This, and Heaven Too",1940,new,,none,high,,tt0032194
+103,tt0032484,Foreign Correspondent,1940,matched_existing,tt0032484,exact_imdb_id,high,,tt0032484
+104,tt0032551,The Grapes of Wrath,1940,new,,none,high,,tt0032551
+105,tt0032553,The Great Dictator,1940,matched_existing,tt0032553,exact_imdb_id,high,,tt0032553
+106,tt0032671,Kitty Foyle,1940,new,,none,high,,tt0032671
+107,tt0032701,The Letter,1940,new,,none,high,,tt0032701
+108,tt0032728,The Long Voyage Home,1940,matched_existing,tt0032728,exact_imdb_id,high,,tt0032728
+109,tt0032881,Our Town,1940,new,,none,high,,tt0032881
+110,tt0032904,The Philadelphia Story,1940,new,,none,high,,tt0032904
+111,tt0033729,How Green Was My Valley,1941,new,,none,high,,tt0033729
+112,tt0033407,Blossoms in the Dust,1941,new,,none,high,,tt0033407
+113,tt0033467,Citizen Kane,1941,new,,none,high,,tt0033467
+114,tt0033712,Here Comes Mr. Jordan,1941,new,,none,high,,tt0033712
+115,tt0033722,Hold Back the Dawn,1941,new,,none,high,,tt0033722
+116,tt0033836,The Little Foxes,1941,new,,none,high,,tt0033836
+117,tt0033870,The Maltese Falcon,1941,new,,none,high,,tt0033870
+118,tt0033980,One Foot in Heaven,1941,new,,none,high,,tt0033980
+119,tt0034167,Sergeant York,1941,new,,none,high,,tt0034167
+120,tt0034248,Suspicion,1941,new,,none,high,,tt0034248
+121,tt0035093,Mrs. Miniver,1942,new,,none,high,,tt0035093
+122,tt0033627,The 49th Parallel,1941,matched_existing,tt0033627,exact_imdb_id,high,"title: existing='49th Parallel' incoming='The 49th Parallel' (existing kept, likely alt title/version)",tt0033627
+123,tt0034946,Kings Row,1942,new,,none,high,,tt0034946
+124,tt0035015,The Magnificent Ambersons,1942,new,,none,high,,tt0035015
+125,tt0035189,The Pied Piper,1942,new,,none,high,,tt0035189
+126,tt0035211,The Pride of the Yankees,1942,new,,none,high,,tt0035211
+127,tt0035238,Random Harvest,1942,new,,none,high,,tt0035238
+128,tt0035417,The Talk of the Town,1942,new,,none,high,,tt0035417
+129,tt0035530,Wake Island,1942,new,,none,high,,tt0035530
+130,tt0035575,Yankee Doodle Dandy,1942,new,,none,high,,tt0035575
+131,tt0034583,Casablanca,1942,new,,none,high,,tt0034583
+132,tt0034583,Casablanca,1942,duplicate_in_csv,,,,duplicate of row 131 (same Const),
+133,tt0035896,For Whom the Bell Tolls,1943,new,,none,high,,tt0035896
+134,tt0035979,Heaven Can Wait,1943,new,,none,high,,tt0035979
+135,tt0036022,The Human Comedy,1943,new,,none,high,,tt0036022
+136,tt0034891,In Which We Serve,1942,matched_existing,tt0034891,exact_imdb_id,high,,tt0034891
+137,tt0036126,Madame Curie,1943,new,,none,high,,tt0036126
+138,tt0036172,The More the Merrier,1943,new,,none,high,,tt0036172
+139,tt0036244,The Ox-Bow Incident,1943,new,,none,high,,tt0036244
+140,tt0036377,The Song of Bernadette,1943,new,,none,high,,tt0036377
+141,tt0036515,Watch on the Rhine,1943,new,,none,high,,tt0036515
+142,tt0036872,Going My Way,1944,new,,none,high,,tt0036872
+143,tt0036775,Double Indemnity,1944,new,,none,high,,tt0036775
+144,tt0036855,Gaslight,1944,new,,none,high,,tt0036855
+145,tt0037280,Since You Went Away,1944,new,,none,high,,tt0037280
+146,tt0037465,Wilson,1944,new,,none,high,,tt0037465
+147,tt0037884,The Lost Weekend,1945,new,,none,high,,tt0037884
+148,tt0037514,Anchors Aweigh,1945,new,,none,high,,tt0037514
+149,tt0037536,The Bells of St. Mary's,1945,new,,none,high,,tt0037536
+150,tt0037913,Mildred Pierce,1945,new,,none,high,,tt0037913
+151,tt0038109,Spellbound,1945,new,,none,high,,tt0038109
+152,tt0036868,The Best Years of Our Lives,1946,new,,none,high,,tt0036868
+153,tt0036910,Henry V,1944,matched_existing,tt0036910,exact_imdb_id,high,,tt0036910
+154,tt0038650,It's a Wonderful Life,1946,new,,none,high,,tt0038650
+155,tt0038873,The Razor's Edge,1946,new,,none,high,,tt0038873
+156,tt0039111,The Yearling,1946,new,,none,high,,tt0039111
+157,tt0039416,Gentleman's Agreement,1947,new,,none,high,,tt0039416
+158,tt0039190,The Bishop's Wife,1947,new,,none,high,,tt0039190
+159,tt0039286,Crossfire,1947,new,,none,high,,tt0039286
+160,tt0038574,Great Expectations,1946,matched_existing,tt0038574,exact_imdb_id,high,,tt0038574
+161,tt0039628,Miracle on 34th Street,1947,new,,none,high,,tt0039628
+162,tt0040416,Hamlet,1948,matched_existing,tt0040416,exact_imdb_id,high,,tt0040416
+163,tt0040495,Johnny Belinda,1948,new,,none,high,,tt0040495
+164,tt0040725,The Red Shoes,1948,matched_existing,tt0040725,exact_imdb_id,high,,tt0040725
+165,tt0040806,The Snake Pit,1948,new,,none,high,,tt0040806
+166,tt0040897,The Treasure of the Sierra Madre,1948,new,,none,high,,tt0040897
+167,tt0041113,All the King's Men,1949,new,,none,high,,tt0041113
+168,tt0041163,Battleground,1949,new,,none,high,,tt0041163
+169,tt0041452,The Heiress,1949,new,,none,high,,tt0041452
+170,tt0041587,A Letter to Three Wives,1949,new,,none,high,,tt0041587
+171,tt0041996,Twelve O'Clock High,1949,new,,none,high,,tt0041996
+172,tt0042192,All About Eve,1950,new,,none,high,,tt0042192
+173,tt0042276,Born Yesterday,1950,new,,none,high,,tt0042276
+174,tt0042451,Father of the Bride,1950,new,,none,high,,tt0042451
+175,tt0042646,King Solomon's Mines,1950,new,,none,high,,tt0042646
+176,tt0043014,Sunset Boulevard,1950,new,,none,high,,tt0043014
+177,tt0043278,An American in Paris,1951,new,,none,high,,tt0043278
+178,tt0043459,Decision Before Dawn,1951,new,,none,high,,tt0043459
+179,tt0043924,A Place in the Sun,1951,new,,none,high,,tt0043924
+180,tt0043949,Quo Vadis,1951,new,,none,high,,tt0043949
+181,tt0044081,A Streetcar Named Desire,1951,new,,none,high,,tt0044081
+182,tt0044672,The Greatest Show on Earth,1952,new,,none,high,,tt0044672
+183,tt0044706,High Noon,1952,new,,none,high,,tt0044706
+184,tt0044760,Ivanhoe,1952,new,,none,high,,tt0044760
+185,tt0044926,Moulin Rouge,1952,new,,none,high,,tt0044926
+186,tt0045061,The Quiet Man,1952,new,,none,high,,tt0045061
+187,tt0045793,From Here to Eternity,1953,new,,none,high,,tt0045793
+188,tt0045943,Julius Caesar,1953,new,,none,high,,tt0045943
+189,tt0046247,The Robe,1953,new,,none,high,,tt0046247
+190,tt0046250,Roman Holiday,1953,new,,none,high,,tt0046250
+191,tt0046303,Shane,1953,new,,none,high,,tt0046303
+192,tt0047296,On the Waterfront,1954,new,,none,high,,tt0047296
+193,tt0046816,The Caine Mutiny,1954,new,,none,high,,tt0046816
+194,tt0046874,The Country Girl,1954,new,,none,high,,tt0046874
+195,tt0047472,Seven Brides for Seven Brothers,1954,new,,none,high,,tt0047472
+196,tt0047580,Three Coins in the Fountain,1954,new,,none,high,,tt0047580
+197,tt0048356,Marty,1955,new,,none,high,,tt0048356
+198,tt0048316,Love Is a Many-Splendored Thing,1955,new,,none,high,,tt0048316
+199,tt0048380,Mister Roberts,1955,new,,none,high,,tt0048380
+200,tt0048491,Picnic,1955,new,,none,high,,tt0048491
+201,tt0048563,The Rose Tattoo,1955,new,,none,high,,tt0048563
+202,tt0048960,Around the World in 80 Days,1956,new,,none,high,,tt0048960
+203,tt0049233,Friendly Persuasion,1956,new,,none,high,,tt0049233
+204,tt0049261,Giant,1956,new,,none,high,,tt0049261
+205,tt0049408,The King and I,1956,new,,none,high,,tt0049408
+206,tt0049833,The Ten Commandments,1956,new,,none,high,,tt0049833
+207,tt0050212,The Bridge on the River Kwai,1957,new,,none,high,,tt0050212
+208,tt0050083,12 Angry Men,1957,new,,none,high,,tt0050083
+209,tt0050839,Peyton Place,1957,new,,none,high,,tt0050839
+210,tt0050933,Sayonara,1957,new,,none,high,,tt0050933
+211,tt0051201,Witness for the Prosecution,1957,new,,none,high,,tt0051201
+212,tt0051658,Gigi,1958,new,,none,high,,tt0051658
+213,tt0051383,Auntie Mame,1958,new,,none,high,,tt0051383
+214,tt0051459,Cat on a Hot Tin Roof,1958,new,,none,high,,tt0051459
+215,tt0051525,The Defiant Ones,1958,new,,none,high,,tt0051525
+216,tt0052182,Separate Tables,1958,new,,none,high,,tt0052182
+217,tt0052618,Ben-Hur,1959,new,,none,high,,tt0052618
+218,tt0052561,Anatomy of a Murder,1959,new,,none,high,,tt0052561
+219,tt0052738,The Diary of Anne Frank,1959,new,,none,high,,tt0052738
+220,tt0053131,The Nun's Story,1959,new,,none,high,,tt0053131
+221,tt0053226,Room at the Top,1958,new,,none,high,,tt0053226
+222,tt0053604,The Apartment,1960,matched_existing,tt0053604,exact_imdb_id,high,,tt0053604
+223,tt0053580,The Alamo,1960,new,,none,high,,tt0053580
+224,tt0053793,Elmer Gantry,1960,new,,none,high,,tt0053793
+225,tt0054326,Sons and Lovers,1960,new,,none,high,,tt0054326
+226,tt0054353,The Sundowners,1960,new,,none,high,,tt0054353
+227,tt0055614,West Side Story,1961,new,,none,high,,tt0055614
+228,tt0054866,Fanny,1961,new,,none,high,,tt0054866
+229,tt0054953,The Guns of Navarone,1961,new,,none,high,,tt0054953
+230,tt0054997,The Hustler,1961,new,,none,high,,tt0054997
+231,tt0055031,Judgment at Nuremberg,1961,new,,none,high,,tt0055031
+232,tt0056172,Lawrence of Arabia,1962,new,,none,high,,tt0056172
+233,tt0056197,The Longest Day,1962,new,,none,high,,tt0056197
+234,tt0056262,The Music Man,1962,new,,none,high,,tt0056262
+235,tt0056264,Mutiny on the Bounty,1962,new,,none,high,,tt0056264
+236,tt0056592,To Kill a Mockingbird,1962,new,,none,high,,tt0056592
+237,tt0057590,Tom Jones,1963,matched_existing,tt0057590,exact_imdb_id,high,,tt0057590
+238,tt0056825,America America,1963,new,,none,high,,tt0056825
+239,tt0056937,Cleopatra,1963,new,,none,high,,tt0056937
+240,tt0056085,How the West Was Won,1962,new,,none,high,,tt0056085
+241,tt0057251,Lilies of the Field,1963,new,,none,high,,tt0057251
+242,tt0058385,My Fair Lady,1964,new,,none,high,,tt0058385
+243,tt0057877,Becket,1964,new,,none,high,,tt0057877
+244,tt0057012,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,new,,none,high,,tt0057012
+245,tt0058331,Mary Poppins,1964,new,,none,high,,tt0058331
+246,tt0057831,Zorba the Greek,1964,new,,none,high,,tt0057831
+247,tt0059742,The Sound of Music,1965,new,,none,high,,tt0059742
+248,tt0059084,Darling,1965,new,,none,high,,tt0059084
+249,tt0059113,Doctor Zhivago,1965,new,,none,high,,tt0059113
+250,tt0059712,Ship of Fools,1965,new,,none,high,,tt0059712
+251,tt0059798,A Thousand Clowns,1965,new,,none,high,,tt0059798
+252,tt0060665,A Man for All Seasons,1966,new,,none,high,,tt0060665
+253,tt0060086,Alfie,1966,new,,none,high,,tt0060086
+254,tt0060921,The Russians Are Coming the Russians Are Coming,1966,new,,none,high,,tt0060921
+255,tt0060934,The Sand Pebbles,1966,new,,none,high,,tt0060934
+256,tt0061184,Who's Afraid of Virginia Woolf?,1966,new,,none,high,,tt0061184
+257,tt0061811,In the Heat of the Night,1967,new,,none,high,,tt0061811
+258,tt0061418,Bonnie and Clyde,1967,new,,none,high,,tt0061418
+259,tt0061584,Doctor Dolittle,1967,new,,none,high,,tt0061584
+260,tt0061722,The Graduate,1967,new,,none,high,,tt0061722
+261,tt0061735,Guess Who's Coming to Dinner,1967,new,,none,high,,tt0061735
+262,tt0063385,Oliver!,1968,new,,none,high,,tt0063385
+263,tt0062994,Funny Girl,1968,new,,none,high,,tt0062994
+264,tt0063227,The Lion in Winter,1968,new,,none,high,,tt0063227
+265,tt0063483,"Rachel, Rachel",1968,new,,none,high,,tt0063483
+266,tt0063518,Romeo and Juliet,1968,new,,none,high,,tt0063518
+267,tt0064665,Midnight Cowboy,1969,new,,none,high,,tt0064665
+268,tt0064030,Anne of the Thousand Days,1969,new,,none,high,,tt0064030
+269,tt0064115,Butch Cassidy and the Sundance Kid,1969,new,,none,high,,tt0064115
+270,tt0064418,"Hello, Dolly!",1969,new,,none,high,,tt0064418
+271,tt0065234,Z,1969,matched_existing,tt0065234,exact_imdb_id,high,,tt0065234
+272,tt0066206,Patton,1970,new,,none,high,,tt0066206
+273,tt0065377,Airport,1970,new,,none,high,,tt0065377
+274,tt0065724,Five Easy Pieces,1970,new,,none,high,,tt0065724
+275,tt0066011,Love Story,1970,new,,none,high,,tt0066011
+276,tt0066026,M*A*S*H,1970,new,,none,high,,tt0066026
+277,tt0067116,The French Connection,1971,new,,none,high,,tt0067116
+278,tt0066921,A Clockwork Orange,1971,new,,none,high,,tt0066921
+279,tt0067093,Fiddler on the Roof,1971,new,,none,high,,tt0067093
+280,tt0067328,The Last Picture Show,1971,new,,none,high,,tt0067328
+281,tt0067483,Nicholas and Alexandra,1971,new,,none,high,,tt0067483
+282,tt0068646,The Godfather,1972,new,,none,high,,tt0068646
+283,tt0068327,Cabaret,1972,new,,none,high,,tt0068327
+284,tt0068473,Deliverance,1972,new,,none,high,,tt0068473
+285,tt0067919,The Emigrants,1971,new,,none,high,,tt0067919
+286,tt0069303,Sounder,1972,new,,none,high,,tt0069303
+287,tt0070735,The Sting,1973,new,,none,high,,tt0070735
+288,tt0069704,American Graffiti,1973,new,,none,high,,tt0069704
+289,tt0069467,Cries & Whispers,1972,matched_existing,tt0069467,exact_imdb_id,high,"title: existing='Cries and Whispers' incoming='Cries & Whispers' (existing kept, likely alt title/version)",tt0069467
+290,tt0070047,The Exorcist,1973,new,,none,high,,tt0070047
+291,tt0070819,A Touch of Class,1973,new,,none,high,,tt0070819
+292,tt0071562,The Godfather Part II,1974,new,,none,high,,tt0071562
+293,tt0071315,Chinatown,1974,new,,none,high,,tt0071315
+294,tt0071360,The Conversation,1974,new,,none,high,,tt0071360
+295,tt0071746,Lenny,1974,new,,none,high,,tt0071746
+296,tt0072308,The Towering Inferno,1974,new,,none,high,,tt0072308
+297,tt0073486,One Flew Over the Cuckoo's Nest,1975,new,,none,high,,tt0073486
+298,tt0072684,Barry Lyndon,1975,new,,none,high,,tt0072684
+299,tt0072890,Dog Day Afternoon,1975,new,,none,high,,tt0072890
+300,tt0073195,Jaws,1975,new,,none,high,,tt0073195
+301,tt0073440,Nashville,1975,new,,none,high,,tt0073440
+302,tt0075148,Rocky,1976,new,,none,high,,tt0075148
+303,tt0074119,All the President's Men,1976,new,,none,high,,tt0074119
+304,tt0074235,Bound for Glory,1976,new,,none,high,,tt0074235
+305,tt0074958,Network,1976,new,,none,high,,tt0074958
+306,tt0075314,Taxi Driver,1976,new,,none,high,,tt0075314
+307,tt0075686,Annie Hall,1977,new,,none,high,,tt0075686
+308,tt0076095,The Goodbye Girl,1977,new,,none,high,,tt0076095
+309,tt0076245,Julia,1977,new,,none,high,,tt0076245
+310,tt0076759,Star Wars: Episode IV - A New Hope,1977,new,,none,high,,tt0076759
+311,tt0076843,The Turning Point,1977,new,,none,high,,tt0076843
+312,tt0077416,The Deer Hunter,1978,new,,none,high,,tt0077416
+313,tt0077362,Coming Home,1978,new,,none,high,,tt0077362
+314,tt0077663,Heaven Can Wait,1978,new,,none,high,,tt0077663
+315,tt0077928,Midnight Express,1978,new,,none,high,,tt0077928
+316,tt0078444,An Unmarried Woman,1978,new,,none,high,,tt0078444
+317,tt0079417,Kramer vs. Kramer,1979,new,,none,high,,tt0079417
+318,tt0078754,All That Jazz,1979,new,,none,high,,tt0078754
+319,tt0078788,Apocalypse Now,1979,new,,none,high,,tt0078788
+320,tt0078902,Breaking Away,1979,new,,none,high,,tt0078902
+321,tt0079638,Norma Rae,1979,new,,none,high,,tt0079638
+322,tt0081283,Ordinary People,1980,new,,none,high,,tt0081283
+323,tt0080549,Coal Miner's Daughter,1980,new,,none,high,,tt0080549
+324,tt0080678,The Elephant Man,1980,matched_existing,tt0080678,exact_imdb_id,high,,tt0080678
+325,tt0081398,Raging Bull,1980,new,,none,high,,tt0081398
+326,tt0080009,Tess,1979,matched_existing,tt0080009,exact_imdb_id,high,,tt0080009
+327,tt0082158,Chariots of Fire,1981,new,,none,high,,tt0082158
+328,tt0080388,Atlantic City,1980,new,,none,high,,tt0080388
+329,tt0082846,On Golden Pond,1981,new,,none,high,,tt0082846
+330,tt0082971,Raiders of the Lost Ark,1981,new,,none,high,,tt0082971
+331,tt0082979,Reds,1981,new,,none,high,,tt0082979
+332,tt0083987,Gandhi,1982,new,,none,high,,tt0083987
+333,tt0083866,E.T. the Extra-Terrestrial,1982,new,,none,high,,tt0083866
+334,tt0084335,Missing,1982,new,,none,high,,tt0084335
+335,tt0084805,Tootsie,1982,new,,none,high,,tt0084805
+336,tt0084855,The Verdict,1982,new,,none,high,,tt0084855
+337,tt0086425,Terms of Endearment,1983,new,,none,high,,tt0086425
+338,tt0085244,The Big Chill,1983,new,,none,high,,tt0085244
+339,tt0085461,The Dresser,1983,new,,none,high,,tt0085461
+340,tt0086197,The Right Stuff,1983,new,,none,high,,tt0086197
+341,tt0086423,Tender Mercies,1983,new,,none,high,,tt0086423
+342,tt0086879,Amadeus,1984,new,,none,high,,tt0086879
+343,tt0087553,The Killing Fields,1984,new,,none,high,,tt0087553
+344,tt0087892,A Passage to India,1984,new,,none,high,,tt0087892
+345,tt0087921,Places in the Heart,1984,new,,none,high,,tt0087921
+346,tt0088146,A Soldier's Story,1984,new,,none,high,,tt0088146
+347,tt0089755,Out of Africa,1985,new,,none,high,,tt0089755
+348,tt0088939,The Color Purple,1985,new,,none,high,,tt0088939
+349,tt0089424,Kiss of the Spider Woman,1985,matched_existing,tt0089424,exact_imdb_id,high,,tt0089424
+350,tt0089841,Prizzi's Honor,1985,new,,none,high,,tt0089841
+351,tt0090329,Witness,1985,new,,none,high,,tt0090329
+352,tt0091763,Platoon,1986,new,,none,high,,tt0091763
+353,tt0090830,Children of a Lesser God,1986,new,,none,high,,tt0090830
+354,tt0091167,Hannah and Her Sisters,1986,new,,none,high,,tt0091167
+355,tt0091530,The Mission,1986,new,,none,high,,tt0091530
+356,tt0091867,A Room with a View,1986,matched_existing,tt0091867,exact_imdb_id,high,,tt0091867
+357,tt0093389,The Last Emperor,1987,matched_existing,tt0093389,exact_imdb_id,high,,tt0093389
+358,tt0092699,Broadcast News,1987,new,,none,high,,tt0092699
+359,tt0093010,Fatal Attraction,1987,new,,none,high,,tt0093010
+360,tt0093209,Hope and Glory,1987,new,,none,high,,tt0093209
+361,tt0093565,Moonstruck,1987,new,,none,high,,tt0093565
+362,tt0095953,Rain Man,1988,new,,none,high,,tt0095953
+363,tt0094606,The Accidental Tourist,1988,new,,none,high,,tt0094606
+364,tt0094947,Dangerous Liaisons,1988,new,,none,high,,tt0094947
+365,tt0095647,Mississippi Burning,1988,new,,none,high,,tt0095647
+366,tt0096463,Working Girl,1988,new,,none,high,,tt0096463
+367,tt0097239,Driving Miss Daisy,1989,new,,none,high,,tt0097239
+368,tt0096969,Born on the Fourth of July,1989,new,,none,high,,tt0096969
+369,tt0097165,Dead Poets Society,1989,new,,none,high,,tt0097165
+370,tt0097351,Field of Dreams,1989,new,,none,high,,tt0097351
+371,tt0097937,My Left Foot,1989,new,,none,high,,tt0097937
+372,tt0099348,Dances with Wolves,1990,new,,none,high,,tt0099348
+373,tt0099077,Awakenings,1990,new,,none,high,,tt0099077
+374,tt0099653,Ghost,1990,new,,none,high,,tt0099653
+375,tt0099674,The Godfather Part III,1990,new,,none,high,,tt0099674
+376,tt0099685,GoodFellas,1990,new,,none,high,,tt0099685
+377,tt0102926,The Silence of the Lambs,1991,new,,none,high,,tt0102926
+378,tt0101414,Beauty and the Beast,1991,new,,none,high,,tt0101414
+379,tt0101516,Bugsy,1991,new,,none,high,,tt0101516
+380,tt0102138,JFK,1991,new,,none,high,,tt0102138
+381,tt0102713,The Prince of Tides,1991,new,,none,high,,tt0102713
+382,tt0105695,Unforgiven,1992,new,,none,high,,tt0105695
+383,tt0104036,The Crying Game,1992,new,,none,high,,tt0104036
+384,tt0104257,A Few Good Men,1992,new,,none,high,,tt0104257
+385,tt0104454,Howards End,1992,new,,none,high,,tt0104454
+386,tt0105323,Scent of a Woman,1992,new,,none,high,,tt0105323
+387,tt0108052,Schindler's List,1993,new,,none,high,,tt0108052
+388,tt0106977,The Fugitive,1993,new,,none,high,,tt0106977
+389,tt0107207,In the Name of the Father,1993,new,,none,high,,tt0107207
+390,tt0107822,The Piano,1993,new,,none,high,,tt0107822
+391,tt0107943,The Remains of the Day,1993,new,,none,high,,tt0107943
+392,tt0109830,Forrest Gump,1994,new,,none,high,,tt0109830
+393,tt0109831,Four Weddings and a Funeral,1994,new,,none,high,,tt0109831
+394,tt0110912,Pulp Fiction,1994,new,,none,high,,tt0110912
+395,tt0110932,Quiz Show,1994,new,,none,high,,tt0110932
+396,tt0111161,The Shawshank Redemption,1994,new,,none,high,,tt0111161
+397,tt0112573,Braveheart,1995,new,,none,high,,tt0112573
+398,tt0112384,Apollo 13,1995,new,,none,high,,tt0112384
+399,tt0112431,Babe,1995,new,,none,high,,tt0112431
+400,tt0110877,The Postman,1994,new,,none,high,,tt0110877
+401,tt0114388,Sense and Sensibility,1995,new,,none,high,,tt0114388
+402,tt0116209,The English Patient,1996,new,,none,high,,tt0116209
+403,tt0116282,Fargo,1996,new,,none,high,,tt0116282
+404,tt0116695,Jerry Maguire,1996,new,,none,high,,tt0116695
+405,tt0117589,Secrets & Lies,1996,matched_existing,tt0117589,exact_imdb_id,high,,tt0117589
+406,tt0117631,Shine,1996,new,,none,high,,tt0117631
+407,tt0120338,Titanic,1997,new,,none,high,,tt0120338
+408,tt0119822,As Good as It Gets,1997,new,,none,high,,tt0119822
+409,tt0119164,The Full Monty,1997,new,,none,high,,tt0119164
+410,tt0119217,Good Will Hunting,1997,new,,none,high,,tt0119217
+411,tt0119488,L.A. Confidential,1997,new,,none,high,,tt0119488
+412,tt0138097,Shakespeare in Love,1998,new,,none,high,,tt0138097
+413,tt0127536,Elizabeth,1998,new,,none,high,,tt0127536
+414,tt0118799,Life Is Beautiful,1997,new,,none,high,,tt0118799
+415,tt0120815,Saving Private Ryan,1998,new,,none,high,,tt0120815
+416,tt0120863,The Thin Red Line,1998,new,,none,high,,tt0120863
+417,tt0169547,American Beauty,1999,new,,none,high,,tt0169547
+418,tt0124315,The Cider House Rules,1999,new,,none,high,,tt0124315
+419,tt0120689,The Green Mile,1999,new,,none,high,,tt0120689
+420,tt0140352,The Insider,1999,new,,none,high,,tt0140352
+421,tt0167404,The Sixth Sense,1999,new,,none,high,,tt0167404
+422,tt0172495,Gladiator,2000,new,,none,high,,tt0172495
+423,tt0241303,Chocolat,2000,new,,none,high,,tt0241303
+424,tt0190332,"Crouching Tiger, Hidden Dragon",2000,new,,none,high,,tt0190332
+425,tt0195685,Erin Brockovich,2000,new,,none,high,,tt0195685
+426,tt0181865,Traffic,2000,new,,none,high,,tt0181865
+427,tt0268978,A Beautiful Mind,2001,new,,none,high,,tt0268978
+428,tt0280707,Gosford Park,2001,new,,none,high,,tt0280707
+429,tt0247425,In the Bedroom,2001,new,,none,high,,tt0247425
+430,tt0120737,The Lord of the Rings: The Fellowship of the Ring,2001,new,,none,high,,tt0120737
+431,tt0203009,Moulin Rouge!,2001,new,,none,high,,tt0203009
+432,tt0299658,Chicago,2002,new,,none,high,,tt0299658
+433,tt0217505,Gangs of New York,2002,new,,none,high,,tt0217505
+434,tt0274558,The Hours,2002,new,,none,high,,tt0274558
+435,tt0167261,The Lord of the Rings: The Two Towers,2002,new,,none,high,,tt0167261
+436,tt0253474,The Pianist,2002,new,,none,high,,tt0253474
+437,tt0167260,The Lord of the Rings: The Return of the King,2003,new,,none,high,,tt0167260
+438,tt0335266,Lost in Translation,2003,new,,none,high,,tt0335266
+439,tt0311113,Master and Commander: The Far Side of the World,2003,new,,none,high,,tt0311113
+440,tt0327056,Mystic River,2003,new,,none,high,,tt0327056
+441,tt0329575,Seabiscuit,2003,new,,none,high,,tt0329575
+442,tt0405159,Million Dollar Baby,2004,new,,none,high,,tt0405159
+443,tt0338751,The Aviator,2004,new,,none,high,,tt0338751
+444,tt0308644,Finding Neverland,2004,new,,none,high,,tt0308644
+445,tt0350258,Ray,2004,new,,none,high,,tt0350258
+446,tt0375063,Sideways,2004,new,,none,high,,tt0375063
+447,tt0375679,Crash,2004,new,,none,high,,tt0375679
+448,tt0388795,Brokeback Mountain,2005,new,,none,high,,tt0388795
+449,tt0379725,Capote,2005,new,,none,high,,tt0379725
+450,tt0433383,"Good Night, and Good Luck.",2005,new,,none,high,,tt0433383
+451,tt0408306,Munich,2005,new,,none,high,,tt0408306
+452,tt0407887,The Departed,2006,new,,none,high,,tt0407887
+453,tt0449467,Babel,2006,new,,none,high,,tt0449467
+454,tt0498380,Letters from Iwo Jima,2006,new,,none,high,,tt0498380
+455,tt0449059,Little Miss Sunshine,2006,new,,none,high,,tt0449059
+456,tt0436697,The Queen,2006,new,,none,high,,tt0436697
+457,tt0477348,No Country for Old Men,2007,new,,none,high,,tt0477348
+458,tt0783233,Atonement,2007,new,,none,high,,tt0783233
+459,tt0467406,Juno,2007,new,,none,high,,tt0467406
+460,tt0465538,Michael Clayton,2007,new,,none,high,,tt0465538
+461,tt0469494,There Will Be Blood,2007,new,,none,high,,tt0469494
+462,tt1010048,Slumdog Millionaire,2008,new,,none,high,,tt1010048
+463,tt0976051,The Reader,2008,new,,none,high,,tt0976051
+464,tt0870111,Frost/Nixon,2008,new,,none,high,,tt0870111
+465,tt0421715,The Curious Case of Benjamin Button,2008,new,,none,high,,tt0421715
+466,tt1013753,Milk,2008,new,,none,high,,tt1013753
+467,tt0887912,The Hurt Locker,2008,new,,none,high,,tt0887912
+468,tt0499549,Avatar,2009,new,,none,high,,tt0499549
+469,tt0878804,The Blind Side,2009,new,,none,high,,tt0878804
+470,tt1136608,District 9,2009,new,,none,high,,tt1136608
+471,tt1174732,An Education,2009,new,,none,high,,tt1174732
+472,tt0361748,Inglourious Basterds,2009,new,,none,high,,tt0361748
+473,tt1019452,A Serious Man,2009,new,,none,high,,tt1019452
+474,tt0929632,Precious,2009,new,,none,high,,tt0929632
+475,tt1049413,Up,2009,new,,none,high,,tt1049413
+476,tt1193138,Up in the Air,2009,new,,none,high,,tt1193138
+477,tt1504320,The King's Speech,2010,new,,none,high,,tt1504320
+478,tt1542344,127 Hours,2010,new,,none,high,,tt1542344
+479,tt0947798,Black Swan,2010,new,,none,high,,tt0947798
+480,tt1375666,Inception,2010,new,,none,high,,tt1375666
+481,tt0964517,The Fighter,2010,new,,none,high,,tt0964517
+482,tt0842926,The Kids Are All Right,2010,new,,none,high,,tt0842926
+483,tt1285016,The Social Network,2010,new,,none,high,,tt1285016
+484,tt0435761,Toy Story 3,2010,new,,none,high,,tt0435761
+485,tt1403865,True Grit,2010,new,,none,high,,tt1403865
+486,tt1399683,Winter's Bone,2010,new,,none,high,,tt1399683
+487,tt1655442,The Artist,2011,new,,none,high,,tt1655442
+488,tt1568911,War Horse,2011,new,,none,high,,tt1568911
+489,tt1210166,Moneyball,2011,new,,none,high,,tt1210166
+490,tt0477302,Extremely Loud & Incredibly Close,2011,new,,none,high,,tt0477302
+491,tt1454029,The Help,2011,new,,none,high,,tt1454029
+492,tt0970179,Hugo,2011,new,,none,high,,tt0970179
+493,tt1605783,Midnight in Paris,2011,new,,none,high,,tt1605783
+494,tt1033575,The Descendants,2011,new,,none,high,,tt1033575
+495,tt0478304,The Tree of Life,2011,new,,none,high,,tt0478304
+496,tt1024648,Argo,2012,new,,none,high,,tt1024648
+497,tt1602620,Amour,2012,new,,none,high,,tt1602620
+498,tt2125435,Beasts of the Southern Wild,2012,new,,none,high,,tt2125435
+499,tt1853728,Django Unchained,2012,new,,none,high,,tt1853728
+500,tt1707386,Les Misérables,2012,new,,none,high,,tt1707386
+501,tt0454876,Life of Pi,2012,new,,none,high,,tt0454876
+502,tt0443272,Lincoln,2012,new,,none,high,,tt0443272
+503,tt1045658,Silver Linings Playbook,2012,new,,none,high,,tt1045658
+504,tt1790885,Zero Dark Thirty,2012,new,,none,high,,tt1790885
+505,tt2024544,12 Years a Slave,2013,new,,none,high,,tt2024544
+506,tt1800241,American Hustle,2013,new,,none,high,,tt1800241
+507,tt1454468,Gravity,2013,new,,none,high,,tt1454468
+508,tt0993846,The Wolf of Wall Street,2013,new,,none,high,,tt0993846
+509,tt0790636,Dallas Buyers Club,2013,new,,none,high,,tt0790636
+510,tt1798709,Her,2013,new,,none,high,,tt1798709
+511,tt1535109,Captain Phillips,2013,new,,none,high,,tt1535109
+512,tt1821549,Nebraska,2013,new,,none,high,,tt1821549
+513,tt2431286,Philomena,2013,new,,none,high,,tt2431286
+514,tt2562232,Birdman or (The Unexpected Virtue of Ignorance),2014,new,,none,high,,tt2562232
+515,tt1065073,Boyhood,2014,matched_existing,tt1065073,exact_imdb_id,high,,tt1065073
+516,tt2278388,The Grand Budapest Hotel,2014,new,,none,high,,tt2278388
+517,tt2084970,The Imitation Game,2014,new,,none,high,,tt2084970
+518,tt2980516,The Theory of Everything,2014,new,,none,high,,tt2980516
+519,tt1020072,Selma,2014,new,,none,high,,tt1020072
+520,tt2179136,American Sniper,2014,new,,none,high,,tt2179136
+521,tt2582802,Whiplash,2014,new,,none,high,,tt2582802
+522,tt1895587,Spotlight,2015,new,,none,high,,tt1895587
+523,tt1596363,The Big Short,2015,new,,none,high,,tt1596363
+524,tt3682448,Bridge of Spies,2015,new,,none,high,,tt3682448
+525,tt2381111,Brooklyn,2015,new,,none,high,,tt2381111
+526,tt1392190,Mad Max: Fury Road,2015,new,,none,high,,tt1392190
+527,tt3659388,The Martian,2015,new,,none,high,,tt3659388
+528,tt1663202,The Revenant,2015,new,,none,high,,tt1663202
+529,tt3170832,Room,2015,new,,none,high,,tt3170832
+530,tt4975722,Moonlight,2016,new,,none,high,,tt4975722
+531,tt2543164,Arrival,2016,new,,none,high,,tt2543164
+532,tt2671706,Fences,2016,new,,none,high,,tt2671706
+533,tt2119532,Hacksaw Ridge,2016,new,,none,high,,tt2119532
+534,tt2582782,Hell or High Water,2016,new,,none,high,,tt2582782
+535,tt4846340,Hidden Figures,2016,new,,none,high,,tt4846340
+536,tt3783958,La La Land,2016,new,,none,high,,tt3783958
+537,tt3741834,Lion,2016,new,,none,high,,tt3741834
+538,tt4034228,Manchester by the Sea,2016,new,,none,high,,tt4034228
+539,tt5580390,The Shape of Water,2017,new,,none,high,,tt5580390
+540,tt5726616,Call Me by Your Name,2017,new,,none,high,,tt5726616
+541,tt4555426,Darkest Hour,2017,new,,none,high,,tt4555426
+542,tt5013056,Dunkirk,2017,new,,none,high,,tt5013056
+543,tt5052448,Get Out,2017,new,,none,high,,tt5052448
+544,tt4925292,Lady Bird,2017,new,,none,high,,tt4925292
+545,tt5776858,Phantom Thread,2017,new,,none,high,,tt5776858
+546,tt6294822,The Post,2017,new,,none,high,,tt6294822
+547,tt5027774,"Three Billboards Outside Ebbing, Missouri",2017,new,,none,high,,tt5027774
+548,tt6966692,Green Book,2018,new,,none,high,,tt6966692
+549,tt1825683,Black Panther,2018,new,,none,high,,tt1825683
+550,tt7349662,BlacKkKlansman,2018,new,,none,high,,tt7349662
+551,tt1727824,Bohemian Rhapsody,2018,new,,none,high,,tt1727824
+552,tt5083738,The Favourite,2018,new,,none,high,,tt5083738
+553,tt6155172,Roma,2018,new,,none,high,,tt6155172
+554,tt1517451,A Star Is Born,2018,new,,none,high,,tt1517451
+555,tt6266538,Vice,2018,new,,none,high,,tt6266538
+556,tt6751668,Parasite,2019,new,,none,high,,tt6751668
+557,tt8579674,1917,2019,new,,none,high,,tt8579674
+558,tt1950186,Ford v Ferrari,2019,new,,none,high,,tt1950186
+559,tt1302006,The Irishman,2019,new,,none,high,,tt1302006
+560,tt2584384,Jojo Rabbit,2019,new,,none,high,,tt2584384
+561,tt7286456,Joker,2019,new,,none,high,,tt7286456
+562,tt3281548,Little Women,2019,new,,none,high,,tt3281548
+563,tt7653254,Marriage Story,2019,new,,none,high,,tt7653254
+564,tt7131622,Once Upon a Time in... Hollywood,2019,new,,none,high,,tt7131622
+565,tt10272386,The Father,2020,new,,none,high,,tt10272386
+566,tt9784798,Judas and the Black Messiah,2021,new,,none,high,,tt9784798
+567,tt10618286,Mank,2020,new,,none,high,,tt10618286
+568,tt10633456,Minari,2020,new,,none,high,,tt10633456
+569,tt9770150,Nomadland,2020,new,,none,high,,tt9770150
+570,tt9620292,Promising Young Woman,2020,new,,none,high,,tt9620292
+571,tt5363618,Sound of Metal,2019,new,,none,high,,tt5363618
+572,tt1070874,The Trial of the Chicago 7,2020,new,,none,high,,tt1070874
+573,tt12789558,Belfast,2021,new,,none,high,,tt12789558
+574,tt11286314,Don't Look Up,2021,new,,none,high,,tt11286314
+575,tt1160419,Dune: Part One,2021,new,,none,high,,tt1160419
+576,tt11271038,Licorice Pizza,2021,new,,none,high,,tt11271038
+577,tt10293406,The Power of the Dog,2021,new,,none,high,,tt10293406
+578,tt10366460,CODA,2021,new,,none,high,,tt10366460
+579,tt14039582,Drive My Car,2021,matched_existing,tt14039582,exact_imdb_id,high,,tt14039582
+580,tt9620288,King Richard,2021,new,,none,high,,tt9620288
+581,tt7740496,Nightmare Alley,2021,new,,none,high,,tt7740496
+582,tt3581652,West Side Story,2021,new,,none,high,,tt3581652
+583,tt1016150,All Quiet on the Western Front,2022,new,,none,high,,tt1016150
+584,tt1630029,Avatar: The Way of Water,2022,new,,none,high,,tt1630029
+585,tt11813216,The Banshees of Inisherin,2022,new,,none,high,,tt11813216
+586,tt3704428,Elvis,2022,new,,none,high,,tt3704428
+587,tt6710474,Everything Everywhere All at Once,2022,new,,none,high,,tt6710474
+588,tt14208870,The Fabelmans,2022,new,,none,high,,tt14208870
+589,tt14444726,Tár,2022,new,,none,high,,tt14444726
+590,tt1745960,Top Gun: Maverick,2022,new,,none,high,,tt1745960
+591,tt23561236,American Fiction,2023,new,,none,high,,tt23561236
+592,tt17009710,Anatomy of a Fall,2023,new,,none,high,,tt17009710
+593,tt5537002,Killers of the Flower Moon,2023,new,,none,high,,tt5537002
+594,tt1517268,Barbie,2023,new,,none,high,,tt1517268
+595,tt5535276,Maestro,2023,new,,none,high,,tt5535276
+596,tt15398776,Oppenheimer,2023,new,,none,high,,tt15398776
+597,tt14849194,The Holdovers,2023,new,,none,high,,tt14849194
+598,tt14230458,Poor Things,2023,new,,none,high,,tt14230458
+599,tt13238346,Past Lives,2023,new,,none,high,,tt13238346
+600,tt7160372,The Zone of Interest,2023,new,,none,high,,tt7160372
+601,tt20221436,Emilia Pérez,2024,new,,none,high,,tt20221436
+602,tt1262426,Wicked,2024,new,,none,high,,tt1262426
+603,tt8999762,The Brutalist,2024,new,,none,high,,tt8999762
+604,tt11563598,A Complete Unknown,2024,new,,none,high,,tt11563598
+605,tt20215234,Conclave,2024,new,,none,high,,tt20215234
+606,tt15239678,Dune: Part Two,2024,new,,none,high,,tt15239678
+607,tt14961016,I'm Still Here,2024,new,,none,high,,tt14961016
+608,tt23055660,Nickel Boys,2024,new,,none,high,,tt23055660
+609,tt17526714,The Substance,2024,new,,none,high,,tt17526714
+610,tt28607951,Anora,2024,new,,none,high,,tt28607951
+611,tt12300742,Bugonia,2025,new,,none,high,,tt12300742
+612,tt16311594,F1: The Movie,2025,new,,none,high,,tt16311594
+613,tt1312221,Frankenstein,2025,new,,none,high,,tt1312221
+614,tt14905854,Hamnet,2025,new,,none,high,,tt14905854
+615,tt32916440,Marty Supreme,2025,new,,none,high,,tt32916440
+616,tt30144839,One Battle After Another,2025,new,,none,high,,tt30144839
+617,tt27847051,The Secret Agent,2025,new,,none,high,,tt27847051
+618,tt27714581,Sentimental Value,2025,new,,none,high,,tt27714581
+619,tt31193180,Sinners,2025,new,,none,high,,tt31193180
+620,tt29768334,Train Dreams,2025,new,,none,high,,tt29768334

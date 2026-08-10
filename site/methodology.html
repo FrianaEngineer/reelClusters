@@ -88,21 +88,45 @@
       year, runtime, and match confidence came from
       <code>criterion_basic_info.csv</code>.</p>
 
-      <p>After filtering, the dataset contained 2,029 Criterion movie records.
-      The actor co-occurrence graph contained 1,661 connected movie nodes and
-      13,573 shared-actor edges. Some films did not appear in the graph because
-      they either had no IMDb actor credits or had actors who did not appear in
-      any other film in the filtered Criterion dataset. These disconnected
-      films were treated separately as hidden gems rather than forcing them
-      into clusters.</p>
+      <p>On 2026-07-31, 619 films from an Academy Best Picture nominee IMDb
+      list (620 raw rows, one exact duplicate) were merged into this same
+      dataset. Each row was matched against the existing Criterion records by
+      exact IMDb ID first; 28 were already present as Criterion titles and
+      were left as single records, and 591 were genuinely new. Cast, genre,
+      release-date, and black-and-white/color data for the new films was
+      pulled from the same IMDb source files the original pipeline used. The
+      merge, deduplication audit, and enrichment steps are reproducible
+      scripts (<code>src/ingest_best_picture_csv.py</code>,
+      <code>src/merge_best_picture_films.py</code>,
+      <code>src/enrich_new_films.py</code>), and the full accounting -- every
+      incoming row's match decision -- is in
+      <code>data/dedup_audit.csv</code>.</p>
+
+      <p>After filtering and the Best Picture merge, the dataset contained
+      2,366 movie records covering 2,337 distinct films (1,746 from Criterion,
+      591 newly added). The actor co-occurrence graph contained 2,170
+      connected movie nodes and 18,799 shared-actor edges. Some films did not
+      appear in the graph because they either had no IMDb actor credits or
+      had actors who did not appear in any other film in the dataset. These
+      disconnected films were treated separately as hidden gems rather than
+      forcing them into clusters.</p>
 
       <p>Then, groups of films that were strongly connected through shared
       actors were identified. Louvain clustering was used because the graph
       size was manageable and the method works well for finding communities in
-      weighted networks. The resulting clusters were reviewed and renamed
-      based on the films inside them, producing groups such as European Art
-      Cinema, Japanese Cinema, Anglophone Classic, American Independent,
-      Hong Kong/Taiwan Cinema, and other smaller regional clusters.</p>
+      weighted networks, with a fixed random seed (42) so the result is
+      reproducible. Communities smaller than 15 films were folded into Hidden
+      Gems rather than given their own page. The resulting clusters were
+      reviewed and named from scratch based on the films inside each one --
+      no name was carried over automatically from a previous run -- producing
+      Modern American Cinema, European Art Cinema, Golden Age Hollywood &amp;
+      British Cinema, Classic Japanese Cinema, Japanese New Wave &amp; Genre
+      Cinema, Hong Kong &amp; Taiwan Cinema, Scandinavian Cinema &amp; the
+      Bergman Circle, Czech New Wave, Silent-Era Comedy, Soviet Cinema, and
+      Satyajit Ray &amp; Indian Cinema. The full evidence behind each name --
+      film counts, year ranges, leading directors and genres, and
+      alternatives considered -- is in
+      <code>data/cluster_naming_report.md</code>.</p>
 
       <p>Finally, the graph results were exported for analysis and
       visualization. Cluster assignments were written back into the DuckDB

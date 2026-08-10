@@ -213,30 +213,63 @@ def build_svg():
 
     # Manual nudges, ported as-is from hex_viz.py (still in the original,
     # unflipped frame -- flip() below applies to the final nudged point).
+    # european_art_cinema's region shape/position is essentially unchanged
+    # by the 2026-07-31 rebuild, so its nudge is kept. anglophone_classic's
+    # successor (golden_age_hollywood_british) and bergman_scandinavian's
+    # successor (scandinavian_bergman_circle) cover meaningfully different
+    # film counts/shapes now -- their old pixel-tuned nudges were dropped
+    # rather than carried forward blindly; re-add here (with the new IDs) if
+    # a visual check of site/hex_grid.svg shows a label overrunning its hexes.
+    # Each offset below was chosen by brute-force sampling every hex in the
+    # cluster as a candidate anchor and picking one of the ones that let
+    # fit_label grow closest to the cluster's size-driven ideal font size
+    # (font_size_for) without spilling past its own hexes -- not hand-tuned
+    # guesses. See git history for the search script.
     LABEL_OFFSETS = {
-        'european_art_cinema': (0, 4.0),
-        'anglophone_classic':  (-0.87, 7.5),
+        # Base (centroid-nearest) anchor sits in a narrow neck of the
+        # cluster's shape; row y=-24 (original frame) is a single wide,
+        # hole-free run the full width of the cluster's lower body.
+        'european_art_cinema': (-0.86, -13.5),
+        # Base anchor sits in the cluster's narrowest point; y=-15 is this
+        # small, roughly circular cluster's widest row. Still small/enclosed
+        # (surrounded by european_art_cinema), so the ceiling here is modest.
+        'czech_new_wave': (0.87, 1.5),
+        # modern_american_cinema's centroid-nearest anchor lands close to its
+        # border with hong_kong_taiwan_cinema (which sits right above it),
+        # leaving fit_label so little clearance the label collapses to
+        # MIN_LABEL_FSIZE and spills onto hong_kong_taiwan_cinema's hexes.
+        # y=24 (original frame) is near the top of the cluster's wide-open
+        # upper body, clear of hong_kong_taiwan_cinema below and
+        # golden_age_hollywood_british's border to the left -- verified
+        # visually against site/hex_grid.svg.
+        'modern_american_cinema': (-1.74, 15.0),
     }
 
-    # anglophone_classic should read at the same size as european_art_cinema
-    # (a deliberate visual match, not something the per-cluster-size formula
-    # would produce on its own -- europe's is larger by film count).
-    MATCH_FONT_SIZE = {
-        'anglophone_classic': 'european_art_cinema',
-    }
+    MATCH_FONT_SIZE = {}
 
     # hong_kong_taiwan_cinema's island shape gives fit_label so little
     # vertical room at any nearby anchor point (tried a spread of manual
     # offsets, all landed on the same floor) that it always bottoms out at
     # MIN_LABEL_FSIZE. Give it a deliberately higher floor instead -- verified
     # separately that the resulting label still doesn't reach a neighboring
-    # cluster's hexes. bergman_scandinavian bottoms out the same way (its two-
-    # line label was rendering at MIN_LABEL_FSIZE, noticeably smaller than
-    # neighboring clusters); bumped by request, verified it still clears
-    # japanese_cinema and european_art_cinema's hexes.
+    # cluster's hexes. (bergman_scandinavian's old floor override was dropped
+    # along with its ID -- see LABEL_OFFSETS comment above.)
     FSIZE_FLOOR_OVERRIDES = {
         'hong_kong_taiwan_cinema': 2.0,
-        'bergman_scandinavian': 1.3,
+    }
+
+    # fit_label's shrink loop multiplies by 0.88 per step, starting from
+    # font_size_for(c)'s "ideal" size. That coarse geometric decay can jump
+    # straight past a size that would have fit -- e.g. japanese_new_wave_genre
+    # fails at 1.55 (needs 0.852 of vertical room, has 0.82) so the next step
+    # is 1.36, even though sizes up to ~1.48 also fit. Feeding a starting
+    # ideal_fsize closer to the true boundary (found by fine-stepping fits()
+    # at this cluster's real anchor -- see git history) lets the SAME fits()
+    # safety check succeed on the first try instead of overshooting down to
+    # the next coarse rung. No change to fit_label itself, so no other
+    # cluster's size is affected.
+    IDEAL_FSIZE_OVERRIDES = {
+        'japanese_new_wave_genre': 1.478,
     }
 
     def base_anchor(c, hexes):
@@ -281,11 +314,17 @@ def build_svg():
         pixels = np.array([axial_to_pixel(h[0], h[1], HEX_SIZE) for h in hexes])   # original frame
 
         if c == 'hiddenGems':
-            top_y   = max(pixels[:, 1])
-            top_row = pixels[np.abs(pixels[:, 1] - top_y) < 1e-6]
-            lx      = top_row[:, 0].mean()
-            band    = pixels[(pixels[:, 1] > grid_y_mid) & (np.abs(pixels[:, 0] - lx) < np.sqrt(3) * 1.5)]
-            ly      = band[:, 1].mean() if len(band) else pixels[:, 1].mean()
+            # The top border is two hex rows thick (outer + inner ring).
+            # Averaging across both -- the old approach -- lands ly exactly
+            # on the boundary line between them, splitting the label across
+            # both rows. Center on the inner row alone instead, so the label
+            # sits on one unbroken row of hexes like every other label.
+            top_y    = max(pixels[:, 1])
+            top_row  = pixels[np.abs(pixels[:, 1] - top_y) < 1e-6]
+            lx       = top_row[:, 0].mean()
+            inner_y  = top_y - 1.5 * HEX_SIZE
+            inner_row = pixels[np.abs(pixels[:, 1] - inner_y) < 1e-6]
+            ly       = inner_y if len(inner_row) else top_y
         else:
             centroid = pixels.mean(axis=0)
             dists    = np.linalg.norm(pixels - centroid, axis=1)
@@ -295,6 +334,7 @@ def build_svg():
         lx, ly = lx + dx, ly + dy
 
         ideal_fsize = fsize_cache.get(MATCH_FONT_SIZE.get(c), font_size_for(c))
+        ideal_fsize = IDEAL_FSIZE_OVERRIDES.get(c, ideal_fsize)
         min_fsize = FSIZE_FLOOR_OVERRIDES.get(c, MIN_LABEL_FSIZE)
         fsize, lines = fit_label(pixels, lx, ly, ideal_fsize, display_name(c), min_fsize=min_fsize)
         label_info[c] = (*flip((lx, ly)), fsize, lines)

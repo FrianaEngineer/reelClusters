@@ -92,13 +92,21 @@
       .sort(function (a, b) { return a.year - b.year || a.title.localeCompare(b.title); });
 
     document.getElementById("dir-filmography-count").textContent =
-      films.length + (films.length === 1 ? " film" : " films") + " in the current Criterion dataset.";
+      films.length + (films.length === 1 ? " film" : " films") + " in the current Classics dataset.";
 
     var listEl = document.getElementById("dir-filmography-list");
     var filmTpl = document.getElementById("dir-film-card-template");
 
+    var posterMap = window.POSTER_MAP || {};
+
     films.forEach(function (film) {
       var card = filmTpl.content.firstElementChild.cloneNode(true);
+      var posterImg = card.querySelector(".film-poster img");
+      var posterSrc = posterMap[film.t];
+      if (posterSrc) {
+        posterImg.src = posterSrc;
+        posterImg.alt = film.title + " poster";
+      }
       var titleEl = card.querySelector(".film-card-title");
       titleEl.textContent = film.title + " ";
       var yearSpan = document.createElement("span");
@@ -124,12 +132,16 @@
   function renderVizCard(cluster, highlighted) {
     var card = vizTpl.content.firstElementChild.cloneNode(true);
     card.style.setProperty("--cluster-color", cluster.color);
+    // Edge-graph clusters (shared-actor network, drawn with connecting lines --
+    // see cluster.vizSvg naming in CLUSTER_VIZ_SVG) get a smaller highlight
+    // scale than ring clusters so the enlarged node doesn't swallow its edges.
+    if (/_graph\.svg$/.test(cluster.vizSvg || "")) {
+      card.classList.add("dir-viz-card--edges");
+    }
     card.querySelector(".dir-viz-swatch").setAttribute("style", swatchStyle(cluster.color));
     card.querySelector(".dir-viz-card-title").textContent = cluster.name;
     card.querySelector(".dir-viz-count").textContent =
       highlighted.length + " of " + cluster.filmCount + (cluster.filmCount === 1 ? " film" : " films");
-    card.querySelector(".dir-legend-highlight-text").textContent =
-      "Directed by " + director.name;
     var embed = card.querySelector(".dir-viz-embed");
     vizList.appendChild(card);
     loadAndHighlightSvg(embed, "assets/" + cluster.vizSvg, cluster.id, highlighted, cluster.name);
@@ -239,6 +251,109 @@
 
     container.innerHTML = "";
     container.appendChild(svg);
+    pinAndDeclutterLabels(svg, highlightSet);
+  }
+
+  var SVG_NS = "http://www.w3.org/2000/svg";
+
+  // Permanently reveals the title label for each of this director's own
+  // (highlighted) films instead of requiring hover, and nudges any that
+  // collide apart so no two labels overlap -- other films in the cluster
+  // keep the existing hover-to-reveal behavior untouched. A label that had
+  // to move more than a few px to clear a collision gets a thin dashed
+  // leader line back to its node, since a nudged label can otherwise land
+  // far enough away to stop reading as "this node's title."
+  function pinAndDeclutterLabels(svg, highlightSet) {
+    var viewBox = svg.viewBox.baseVal;
+    var margin = 6;
+    var minX = viewBox.x + margin;
+    var minY = viewBox.y + margin;
+    var maxX = viewBox.x + viewBox.width - margin;
+    var maxY = viewBox.y + viewBox.height - margin;
+    var firstLabelEl = svg.querySelector('[id^="t-"]');
+
+    var boxes = [];
+    Object.keys(highlightSet).forEach(function (tconst) {
+      var label = svg.querySelector("#" + CSS.escape("t-" + tconst));
+      var nodeEl = svg.querySelector("#" + CSS.escape("n-" + tconst));
+      if (!label || !nodeEl) return;
+      label.classList.add("dh-label-pinned");
+
+      var nodePolygon = nodeEl.tagName.toLowerCase() === "polygon" ? nodeEl : nodeEl.querySelector("polygon");
+      var nodeBox = (nodePolygon || nodeEl).getBBox();
+      var labelBox = label.getBBox();
+      boxes.push({
+        label: label,
+        x: labelBox.x, y: labelBox.y, w: labelBox.width, h: labelBox.height,
+        dx: 0, dy: 0,
+        nodeCx: nodeBox.x + nodeBox.width / 2,
+        nodeCy: nodeBox.y + nodeBox.height / 2
+      });
+    });
+    if (!boxes.length) return;
+
+    // Iteratively push apart any pair of pinned label boxes that overlap,
+    // along whichever axis has the smaller overlap.
+    for (var iter = 0; iter < 200; iter++) {
+      var moved = false;
+      for (var i = 0; i < boxes.length; i++) {
+        for (var j = i + 1; j < boxes.length; j++) {
+          var a = boxes[i], b = boxes[j];
+          var ax1 = a.x + a.dx, ay1 = a.y + a.dy, ax2 = ax1 + a.w, ay2 = ay1 + a.h;
+          var bx1 = b.x + b.dx, by1 = b.y + b.dy, bx2 = bx1 + b.w, by2 = by1 + b.h;
+          var overlapX = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+          var overlapY = Math.min(ay2, by2) - Math.max(ay1, by1);
+          if (overlapX > 0 && overlapY > 0) {
+            moved = true;
+            if (overlapX < overlapY) {
+              var shiftX = overlapX / 2 + 1;
+              if (ax1 < bx1) { a.dx -= shiftX; b.dx += shiftX; } else { a.dx += shiftX; b.dx -= shiftX; }
+            } else {
+              var shiftY = overlapY / 2 + 1;
+              if (ay1 < by1) { a.dy -= shiftY; b.dy += shiftY; } else { a.dy += shiftY; b.dy -= shiftY; }
+            }
+          }
+        }
+      }
+      if (!moved) break;
+    }
+
+    var leaders = document.createElementNS(SVG_NS, "g");
+    leaders.setAttribute("class", "dh-leaders");
+    var leaderThreshold = 16;
+    var anyLeaders = false;
+
+    boxes.forEach(function (box) {
+      var nx = Math.min(Math.max(box.x + box.dx, minX), maxX - box.w);
+      var ny = Math.min(Math.max(box.y + box.dy, minY), maxY - box.h);
+      box.dx = nx - box.x;
+      box.dy = ny - box.y;
+
+      if (box.dx || box.dy) {
+        box.label.setAttribute("transform", "translate(" + box.dx.toFixed(1) + "," + box.dy.toFixed(1) + ")");
+      }
+
+      var displacement = Math.sqrt(box.dx * box.dx + box.dy * box.dy);
+      if (displacement > leaderThreshold) {
+        var rx1 = box.x + box.dx, ry1 = box.y + box.dy;
+        var rx2 = rx1 + box.w, ry2 = ry1 + box.h;
+        var targetX = Math.min(Math.max(box.nodeCx, rx1), rx2);
+        var targetY = Math.min(Math.max(box.nodeCy, ry1), ry2);
+        var line = document.createElementNS(SVG_NS, "line");
+        line.setAttribute("class", "dh-leader");
+        line.setAttribute("x1", box.nodeCx.toFixed(1));
+        line.setAttribute("y1", box.nodeCy.toFixed(1));
+        line.setAttribute("x2", targetX.toFixed(1));
+        line.setAttribute("y2", targetY.toFixed(1));
+        leaders.appendChild(line);
+        anyLeaders = true;
+      }
+    });
+
+    if (anyLeaders) {
+      if (firstLabelEl) svg.insertBefore(leaders, firstLabelEl);
+      else svg.appendChild(leaders);
+    }
   }
 
   // Tries fetch() first (efficient: only downloads the clusters a director

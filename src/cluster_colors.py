@@ -1,18 +1,34 @@
 """Shared cluster -> color mapping, used by hex_viz.py and cluster_graph_viz.py
 so the two visualizations always stay in sync."""
 
+# 2026-07-31 Best Picture nominee import: clusters were rebuilt from scratch
+# (see src/cluster.py, data/cluster_naming_report.md). Colors for identities
+# that survived the rebuild (european_art_cinema, hong_kong_taiwan_cinema,
+# czech_new_wave, soviet_cinema, satyajit_ray_indian) are unchanged. Colors
+# for identities that evolved (anglophone_classic -> golden_age_hollywood
+# _british, japanese_cinema -> classic_japanese_cinema, bergman_scandinavian
+# -> scandinavian_bergman_circle) carry over their old hex, since it's the
+# same underlying cluster narrower/re-described, not a new one. The two old
+# clusters that no longer exist as distinct communities this run
+# (transatlantic_auteur_cinema, youssef_chahine_egyptian -- both folded into
+# european_art_cinema, see the naming report) freed their colors, reused
+# below for the two genuinely new communities (modern_american_cinema,
+# silent_era_comedy) rather than inventing an unrelated palette entry.
+# japanese_new_wave_genre is a real new split-off with no old color to
+# reuse, so it gets a new teal not used elsewhere in this map.
 COLOR_MAP = {
-    'hiddenGems':               '#FFFFFF',
-    'european_art_cinema':      '#7B1E3A',
-    'japanese_cinema':          '#1D3557',
-    'anglophone_classic':       '#457B9D',
-    'transatlantic_auteur_cinema': '#F4A261',
-    'hong_kong_taiwan_cinema':  '#E63946',
-    'bergman_scandinavian':     '#5E6472',
-    'czech_new_wave':           '#B56576',
-    'soviet_cinema':            '#9D0208',
-    'satyajit_ray_indian':      '#F77F00',
-    'youssef_chahine_egyptian': '#8D6E63',
+    'hiddenGems':                    '#FFFFFF',
+    'modern_american_cinema':        '#F4A261',
+    'european_art_cinema':           '#7B1E3A',
+    'golden_age_hollywood_british':  '#457B9D',
+    'classic_japanese_cinema':       '#1D3557',
+    'japanese_new_wave_genre':       '#2A9D8F',
+    'hong_kong_taiwan_cinema':       '#E63946',
+    'scandinavian_bergman_circle':   '#5E6472',
+    'czech_new_wave':                '#B56576',
+    'silent_era_comedy':             '#8D6E63',
+    'soviet_cinema':                 '#9D0208',
+    'satyajit_ray_indian':           '#F77F00',
 }
 
 # Per-cluster film-node fill colors for the individual cluster network
@@ -23,17 +39,18 @@ COLOR_MAP = {
 # some are a lighter/different shade); "bw" is not derived from "color" via
 # darken() here -- both values are fixed as given.
 NODE_FILL_MAP = {
-    'hiddenGems':                  {'color': '#FFFFFF', 'bw': '#A5A5A5'},
-    'european_art_cinema':         {'color': '#9c5268', 'bw': '#4F1325'},
-    'japanese_cinema':             {'color': '#6a8ab8', 'bw': '#122238'},
-    'anglophone_classic':          {'color': '#93b7cf', 'bw': '#2C4F66'},
-    'transatlantic_auteur_cinema': {'color': '#F4A261', 'bw': '#9E693F'},
-    'hong_kong_taiwan_cinema':     {'color': '#E63946', 'bw': '#95252D'},
-    'bergman_scandinavian':        {'color': '#8a8e99', 'bw': '#3D414A'},
-    'czech_new_wave':              {'color': '#B56576', 'bw': '#75414C'},
-    'soviet_cinema':               {'color': '#c74c50', 'bw': '#660105'},
-    'satyajit_ray_indian':         {'color': '#F77F00', 'bw': '#A05200'},
-    'youssef_chahine_egyptian':    {'color': '#8D6E63', 'bw': '#5B4740'},
+    'hiddenGems':                    {'color': '#FFFFFF', 'bw': '#A5A5A5'},
+    'modern_american_cinema':        {'color': '#F4A261', 'bw': '#9E693F'},
+    'european_art_cinema':           {'color': '#9c5268', 'bw': '#4F1325'},
+    'golden_age_hollywood_british':  {'color': '#93b7cf', 'bw': '#2C4F66'},
+    'classic_japanese_cinema':       {'color': '#6a8ab8', 'bw': '#122238'},
+    'japanese_new_wave_genre':       {'color': '#6FC2B7', 'bw': '#16554E'},
+    'hong_kong_taiwan_cinema':       {'color': '#E63946', 'bw': '#95252D'},
+    'scandinavian_bergman_circle':   {'color': '#8a8e99', 'bw': '#3D414A'},
+    'czech_new_wave':                {'color': '#B56576', 'bw': '#75414C'},
+    'silent_era_comedy':             {'color': '#8D6E63', 'bw': '#5B4740'},
+    'soviet_cinema':                 {'color': '#c74c50', 'bw': '#660105'},
+    'satyajit_ray_indian':           {'color': '#F77F00', 'bw': '#A05200'},
 }
 
 

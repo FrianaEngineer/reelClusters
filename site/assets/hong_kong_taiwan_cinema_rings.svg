@@ -8,412 +8,427 @@
   .tooltip text { fill: #ffffff; font-size: 22px; font-weight: 600; }
   .ring-label { fill: #000000; font-size: 21px; font-weight: 800; opacity: 0.9; }
   .ring-guide { fill: none; stroke: #451115; stroke-opacity: 1.0; stroke-width: 2.6; }
-  #n-tt0108074:hover ~ #t-tt0108074 { opacity: 1; } #n-tt0101258:hover ~ #t-tt0101258 { opacity: 1; } #n-tt0090922:hover ~ #t-tt0090922 { opacity: 1; } #n-tt0104684:hover ~ #t-tt0104684 { opacity: 1; } #n-tt0102932:hover ~ #t-tt0102932 { opacity: 1; } #n-tt0108606:hover ~ #t-tt0108606 { opacity: 1; } #n-tt0100625:hover ~ #t-tt0100625 { opacity: 1; } #n-tt0118845:hover ~ #t-tt0118845 { opacity: 1; } #n-tt0105619:hover ~ #t-tt0105619 { opacity: 1; } #n-tt0094357:hover ~ #t-tt0094357 { opacity: 1; } #n-tt0099426:hover ~ #t-tt0099426 { opacity: 1; } #n-tt0311913:hover ~ #t-tt0311913 { opacity: 1; } #n-tt0118694:hover ~ #t-tt0118694 { opacity: 1; } #n-tt0098019:hover ~ #t-tt0098019 { opacity: 1; } #n-tt0092263:hover ~ #t-tt0092263 { opacity: 1; } #n-tt0374339:hover ~ #t-tt0374339 { opacity: 1; } #n-tt0093944:hover ~ #t-tt0093944 { opacity: 1; } #n-tt0100973:hover ~ #t-tt0100973 { opacity: 1; } #n-tt0156587:hover ~ #t-tt0156587 { opacity: 1; } #n-tt0338564:hover ~ #t-tt0338564 { opacity: 1; } #n-tt0096472:hover ~ #t-tt0096472 { opacity: 1; } #n-tt0093978:hover ~ #t-tt0093978 { opacity: 1; } #n-tt0096461:hover ~ #t-tt0096461 { opacity: 1; } #n-tt0109424:hover ~ #t-tt0109424 { opacity: 1; } #n-tt0089177:hover ~ #t-tt0089177 { opacity: 1; } #n-tt0101020:hover ~ #t-tt0101020 { opacity: 1; } #n-tt0089374:hover ~ #t-tt0089374 { opacity: 1; } #n-tt0103295:hover ~ #t-tt0103295 { opacity: 1; } #n-tt0105655:hover ~ #t-tt0105655 { opacity: 1; } #n-tt0080827:hover ~ #t-tt0080827 { opacity: 1; } #n-tt0093304:hover ~ #t-tt0093304 { opacity: 1; } #n-tt0091293:hover ~ #t-tt0091293 { opacity: 1; } #n-tt0095403:hover ~ #t-tt0095403 { opacity: 1; } #n-tt0093258:hover ~ #t-tt0093258 { opacity: 1; } #n-tt0093435:hover ~ #t-tt0093435 { opacity: 1; } #n-tt0089371:hover ~ #t-tt0089371 { opacity: 1; } #n-tt0084248:hover ~ #t-tt0084248 { opacity: 1; } #n-tt0081499:hover ~ #t-tt0081499 { opacity: 1; } #n-tt0090956:hover ~ #t-tt0090956 { opacity: 1; } #n-tt0312886:hover ~ #t-tt0312886 { opacity: 1; } #n-tt0093422:hover ~ #t-tt0093422 { opacity: 1; } #n-tt0103044:hover ~ #t-tt0103044 { opacity: 1; } #n-tt0369060:hover ~ #t-tt0369060 { opacity: 1; } #n-tt0099881:hover ~ #t-tt0099881 { opacity: 1; } #n-tt0099000:hover ~ #t-tt0099000 { opacity: 1; } #n-tt0085864:hover ~ #t-tt0085864 { opacity: 1; } #n-tt0091229:hover ~ #t-tt0091229 { opacity: 1; } #n-tt0079315:hover ~ #t-tt0079315 { opacity: 1; } #n-tt0097202:hover ~ #t-tt0097202 { opacity: 1; } #n-tt0093426:hover ~ #t-tt0093426 { opacity: 1; } #n-tt0112913:hover ~ #t-tt0112913 { opacity: 1; } #n-tt0092264:hover ~ #t-tt0092264 { opacity: 1; } #n-tt0079472:hover ~ #t-tt0079472 { opacity: 1; } #n-tt0094375:hover ~ #t-tt0094375 { opacity: 1; } #n-tt0080964:hover ~ #t-tt0080964 { opacity: 1; } #n-tt0080623:hover ~ #t-tt0080623 { opacity: 1; } #n-tt0077655:hover ~ #t-tt0077655 { opacity: 1; } #n-tt0102293:hover ~ #t-tt0102293 { opacity: 1; } #n-tt0101985:hover ~ #t-tt0101985 { opacity: 1; } #n-tt0083352:hover ~ #t-tt0083352 { opacity: 1; } #n-tt0283283:hover ~ #t-tt0283283 { opacity: 1; } #n-tt0120530:hover ~ #t-tt0120530 { opacity: 1; } #n-tt0415380:hover ~ #t-tt0415380 { opacity: 1; } #n-tt0084807:hover ~ #t-tt0084807 { opacity: 1; } #n-tt8185182:hover ~ #t-tt8185182 { opacity: 1; } #n-tt0086631:hover ~ #t-tt0086631 { opacity: 1; } #n-tt0244316:hover ~ #t-tt0244316 { opacity: 1; } #n-tt0109685:hover ~ #t-tt0109685 { opacity: 1; } #n-tt0064451:hover ~ #t-tt0064451 { opacity: 1; } #n-tt0116962:hover ~ #t-tt0116962 { opacity: 1; } #n-tt29002950:hover ~ #t-tt29002950 { opacity: 1; } #n-tt0089866:hover ~ #t-tt0089866 { opacity: 1; } #n-tt29271889:hover ~ #t-tt29271889 { opacity: 1; } #n-tt0060635:hover ~ #t-tt0060635 { opacity: 1; } #n-tt0092252:hover ~ #t-tt0092252 { opacity: 1; } #n-tt27590147:hover ~ #t-tt27590147 { opacity: 1; } #n-tt0085533:hover ~ #t-tt0085533 { opacity: 1; } #n-tt30439035:hover ~ #t-tt30439035 { opacity: 1; } #n-tt0292066:hover ~ #t-tt0292066 { opacity: 1; }
+  #n-tt0108074:hover ~ #t-tt0108074 { opacity: 1; } #n-tt0101258:hover ~ #t-tt0101258 { opacity: 1; } #n-tt0108606:hover ~ #t-tt0108606 { opacity: 1; } #n-tt0090922:hover ~ #t-tt0090922 { opacity: 1; } #n-tt0104684:hover ~ #t-tt0104684 { opacity: 1; } #n-tt0105619:hover ~ #t-tt0105619 { opacity: 1; } #n-tt0102932:hover ~ #t-tt0102932 { opacity: 1; } #n-tt0100625:hover ~ #t-tt0100625 { opacity: 1; } #n-tt0118845:hover ~ #t-tt0118845 { opacity: 1; } #n-tt0094357:hover ~ #t-tt0094357 { opacity: 1; } #n-tt0311913:hover ~ #t-tt0311913 { opacity: 1; } #n-tt0092263:hover ~ #t-tt0092263 { opacity: 1; } #n-tt0099426:hover ~ #t-tt0099426 { opacity: 1; } #n-tt0118694:hover ~ #t-tt0118694 { opacity: 1; } #n-tt0098019:hover ~ #t-tt0098019 { opacity: 1; } #n-tt0190332:hover ~ #t-tt0190332 { opacity: 1; } #n-tt0374339:hover ~ #t-tt0374339 { opacity: 1; } #n-tt0093944:hover ~ #t-tt0093944 { opacity: 1; } #n-tt0100973:hover ~ #t-tt0100973 { opacity: 1; } #n-tt0156587:hover ~ #t-tt0156587 { opacity: 1; } #n-tt0338564:hover ~ #t-tt0338564 { opacity: 1; } #n-tt0101020:hover ~ #t-tt0101020 { opacity: 1; } #n-tt0096472:hover ~ #t-tt0096472 { opacity: 1; } #n-tt0093978:hover ~ #t-tt0093978 { opacity: 1; } #n-tt0096461:hover ~ #t-tt0096461 { opacity: 1; } #n-tt0109424:hover ~ #t-tt0109424 { opacity: 1; } #n-tt0089177:hover ~ #t-tt0089177 { opacity: 1; } #n-tt0089374:hover ~ #t-tt0089374 { opacity: 1; } #n-tt0093304:hover ~ #t-tt0093304 { opacity: 1; } #n-tt0103295:hover ~ #t-tt0103295 { opacity: 1; } #n-tt0105655:hover ~ #t-tt0105655 { opacity: 1; } #n-tt0080827:hover ~ #t-tt0080827 { opacity: 1; } #n-tt0093435:hover ~ #t-tt0093435 { opacity: 1; } #n-tt0091293:hover ~ #t-tt0091293 { opacity: 1; } #n-tt0095403:hover ~ #t-tt0095403 { opacity: 1; } #n-tt0093258:hover ~ #t-tt0093258 { opacity: 1; } #n-tt0089371:hover ~ #t-tt0089371 { opacity: 1; } #n-tt0084248:hover ~ #t-tt0084248 { opacity: 1; } #n-tt0103044:hover ~ #t-tt0103044 { opacity: 1; } #n-tt0091229:hover ~ #t-tt0091229 { opacity: 1; } #n-tt0081499:hover ~ #t-tt0081499 { opacity: 1; } #n-tt0090956:hover ~ #t-tt0090956 { opacity: 1; } #n-tt0312886:hover ~ #t-tt0312886 { opacity: 1; } #n-tt0093422:hover ~ #t-tt0093422 { opacity: 1; } #n-tt0369060:hover ~ #t-tt0369060 { opacity: 1; } #n-tt0094375:hover ~ #t-tt0094375 { opacity: 1; } #n-tt0099881:hover ~ #t-tt0099881 { opacity: 1; } #n-tt0097202:hover ~ #t-tt0097202 { opacity: 1; } #n-tt0093426:hover ~ #t-tt0093426 { opacity: 1; } #n-tt0099000:hover ~ #t-tt0099000 { opacity: 1; } #n-tt0085864:hover ~ #t-tt0085864 { opacity: 1; } #n-tt0079315:hover ~ #t-tt0079315 { opacity: 1; } #n-tt0112913:hover ~ #t-tt0112913 { opacity: 1; } #n-tt0092264:hover ~ #t-tt0092264 { opacity: 1; } #n-tt0079472:hover ~ #t-tt0079472 { opacity: 1; } #n-tt0101985:hover ~ #t-tt0101985 { opacity: 1; } #n-tt0080964:hover ~ #t-tt0080964 { opacity: 1; } #n-tt0080623:hover ~ #t-tt0080623 { opacity: 1; } #n-tt0077655:hover ~ #t-tt0077655 { opacity: 1; } #n-tt0102293:hover ~ #t-tt0102293 { opacity: 1; } #n-tt0083352:hover ~ #t-tt0083352 { opacity: 1; } #n-tt6710474:hover ~ #t-tt6710474 { opacity: 1; } #n-tt1262426:hover ~ #t-tt1262426 { opacity: 1; } #n-tt0283283:hover ~ #t-tt0283283 { opacity: 1; } #n-tt0120530:hover ~ #t-tt0120530 { opacity: 1; } #n-tt0415380:hover ~ #t-tt0415380 { opacity: 1; } #n-tt0084807:hover ~ #t-tt0084807 { opacity: 1; } #n-tt8185182:hover ~ #t-tt8185182 { opacity: 1; } #n-tt0116962:hover ~ #t-tt0116962 { opacity: 1; } #n-tt0086631:hover ~ #t-tt0086631 { opacity: 1; } #n-tt0244316:hover ~ #t-tt0244316 { opacity: 1; } #n-tt0109685:hover ~ #t-tt0109685 { opacity: 1; } #n-tt0064451:hover ~ #t-tt0064451 { opacity: 1; } #n-tt29002950:hover ~ #t-tt29002950 { opacity: 1; } #n-tt0089866:hover ~ #t-tt0089866 { opacity: 1; } #n-tt29271889:hover ~ #t-tt29271889 { opacity: 1; } #n-tt0060635:hover ~ #t-tt0060635 { opacity: 1; } #n-tt0092252:hover ~ #t-tt0092252 { opacity: 1; } #n-tt27590147:hover ~ #t-tt27590147 { opacity: 1; } #n-tt0085533:hover ~ #t-tt0085533 { opacity: 1; } #n-tt30439035:hover ~ #t-tt30439035 { opacity: 1; } #n-tt0292066:hover ~ #t-tt0292066 { opacity: 1; }
 </style>
 
 <rect x="0" y="0" width="1600" height="900" fill="#dedddc"/>
 <ellipse class="ring-guide" cx="800.0" cy="464.0" rx="200.0" ry="100"/>
 <path id="ring-path-0" d="M 580.0 464.0 A 220.0 110.0 0 0 1 1020.0 464.0" fill="none" stroke="none"/>
-<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-0" xlink:href="#ring-path-0" startOffset="50%">Hub (degree ≥ 20) — 18 films</textPath></text>
+<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-0" xlink:href="#ring-path-0" startOffset="50%">Hub (degree ≥ 20) — 19 films</textPath></text>
 <ellipse class="ring-guide" cx="800.0" cy="464.0" rx="500.0" ry="250"/>
 <path id="ring-path-1" d="M 280.0 464.0 A 520.0 260.0 0 0 1 1320.0 464.0" fill="none" stroke="none"/>
 <text class="ring-label" text-anchor="middle"><textPath href="#ring-path-1" xlink:href="#ring-path-1" startOffset="50%">Mid (8–19) — 36 films</textPath></text>
 <ellipse class="ring-guide" cx="800.0" cy="464.0" rx="760.0" ry="380"/>
 <path id="ring-path-2" d="M 20.0 464.0 A 780.0 390.0 0 0 1 1580.0 464.0" fill="none" stroke="none"/>
-<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-2" xlink:href="#ring-path-2" startOffset="50%">Peripheral (&lt; 8) — 25 films</textPath></text>
+<text class="ring-label" text-anchor="middle"><textPath href="#ring-path-2" xlink:href="#ring-path-2" startOffset="50%">Peripheral (&lt; 8) — 27 films</textPath></text>
 <a id="n-tt0108074" href="https://www.criterionchannel.com/the-eagle-shooting-heroes" target="_blank" rel="noopener"><polygon class="node" points="684.8,495.4 674.4,501.4 664.0,495.4 664.0,483.4 674.4,477.4 684.8,483.4" fill="#E63946"/></a>
 <a id="n-tt0101258" href="https://www.criterion.com/films/29477-days-of-being-wild" target="_blank" rel="noopener"><polygon class="node" points="764.1,402.5 753.7,408.5 743.3,402.5 743.3,390.5 753.7,384.5 764.1,390.5" fill="#E63946"/></a>
-<a id="n-tt0090922" href="https://www.criterionchannel.com/love-unto-waste" target="_blank" rel="noopener"><polygon class="node" points="857.1,466.4 846.7,472.4 836.3,466.4 836.3,454.4 846.7,448.4 857.1,454.4" fill="#E63946"/></a>
-<a id="n-tt0104684" href="https://www.criterion.com/films/523-hard-boiled" target="_blank" rel="noopener"><polygon class="node" points="840.6,404.5 830.2,410.5 819.8,404.5 819.8,392.5 830.2,386.5 840.6,392.5" fill="#E63946"/></a>
-<a id="n-tt0102932" href="https://www.criterionchannel.com/a-chinese-ghost-story-iii" target="_blank" rel="noopener"><polygon class="node" points="757.9,478.5 747.5,484.5 737.1,478.5 737.1,466.5 747.5,460.5 757.9,466.5" fill="#E63946"/></a>
-<a id="n-tt0108606" href="https://www.criterion.com/films/32736-executioners" target="_blank" rel="noopener"><polygon class="node" points="825.0,520.8 814.6,526.8 804.2,520.8 804.2,508.8 814.6,502.8 825.0,508.8" fill="#E63946"/></a>
-<a id="n-tt0100625" href="https://www.criterionchannel.com/a-chinese-ghost-story-ii" target="_blank" rel="noopener"><polygon class="node" points="916.0,492.4 905.6,498.4 895.2,492.4 895.2,480.4 905.6,474.4 916.0,480.4" fill="#E63946"/></a>
-<a id="n-tt0118845" href="https://www.criterion.com/films/28843-happy-together" target="_blank" rel="noopener"><polygon class="node" points="715.6,418.4 705.2,424.4 694.8,418.4 694.8,406.4 705.2,400.4 715.6,406.4" fill="#95252D"/></a>
-<a id="n-tt0105619" href="https://www.criterion.com/films/32735-the-heroic-trio" target="_blank" rel="noopener"><polygon class="node" points="728.5,523.1 718.1,529.1 707.7,523.1 707.7,511.1 718.1,505.1 728.5,511.1" fill="#E63946"/></a>
+<a id="n-tt0108606" href="https://www.criterion.com/films/32736-executioners" target="_blank" rel="noopener"><polygon class="node" points="857.1,466.4 846.7,472.4 836.3,466.4 836.3,454.4 846.7,448.4 857.1,454.4" fill="#E63946"/></a>
+<a id="n-tt0090922" href="https://www.criterionchannel.com/love-unto-waste" target="_blank" rel="noopener"><polygon class="node" points="840.6,404.5 830.2,410.5 819.8,404.5 819.8,392.5 830.2,386.5 840.6,392.5" fill="#E63946"/></a>
+<a id="n-tt0104684" href="https://www.criterion.com/films/523-hard-boiled" target="_blank" rel="noopener"><polygon class="node" points="757.9,478.5 747.5,484.5 737.1,478.5 737.1,466.5 747.5,460.5 757.9,466.5" fill="#E63946"/></a>
+<a id="n-tt0105619" href="https://www.criterion.com/films/32735-the-heroic-trio" target="_blank" rel="noopener"><polygon class="node" points="825.0,520.8 814.6,526.8 804.2,520.8 804.2,508.8 814.6,502.8 825.0,508.8" fill="#E63946"/></a>
+<a id="n-tt0102932" href="https://www.criterionchannel.com/a-chinese-ghost-story-iii" target="_blank" rel="noopener"><polygon class="node" points="916.0,492.4 905.6,498.4 895.2,492.4 895.2,480.4 905.6,474.4 916.0,480.4" fill="#E63946"/></a>
+<a id="n-tt0100625" href="https://www.criterionchannel.com/a-chinese-ghost-story-ii" target="_blank" rel="noopener"><polygon class="node" points="715.6,418.4 705.2,424.4 694.8,418.4 694.8,406.4 705.2,400.4 715.6,406.4" fill="#E63946"/></a>
+<a id="n-tt0118845" href="https://www.criterion.com/films/28843-happy-together" target="_blank" rel="noopener"><polygon class="node" points="728.5,523.1 718.1,529.1 707.7,523.1 707.7,511.1 718.1,505.1 728.5,511.1" fill="#95252D"/></a>
 <a id="n-tt0094357" href="https://www.criterionchannel.com/a-better-tomorrow-ii" target="_blank" rel="noopener"><polygon class="node" points="929.2,422.8 918.8,428.8 908.4,422.8 908.4,410.8 918.8,404.8 929.2,410.8" fill="#E63946"/></a>
-<a id="n-tt0099426" href="https://www.criterionchannel.com/bullet-in-the-head" target="_blank" rel="noopener"><polygon class="node" points="785.7,442.4 775.3,448.4 764.9,442.4 764.9,430.4 775.3,424.4 785.7,430.4" fill="#E63946"/></a>
-<a id="n-tt0311913" href="https://www.criterionchannel.com/chinese-odyssey-2002" target="_blank" rel="noopener"><polygon class="node" points="940.5,456.5 930.1,462.5 919.7,456.5 919.7,444.5 930.1,438.5 940.5,444.5" fill="#E63946"/></a>
-<a id="n-tt0118694" href="https://www.criterion.com/films/198-in-the-mood-for-love" target="_blank" rel="noopener"><polygon class="node" points="891.6,519.0 881.2,525.0 870.9,519.0 870.9,507.0 881.2,501.0 891.6,507.0" fill="#E63946"/></a>
-<a id="n-tt0098019" href="https://www.criterionchannel.com/miracles" target="_blank" rel="noopener"><polygon class="node" points="715.6,448.2 705.3,454.2 694.9,448.2 694.9,436.2 705.3,430.2 715.6,436.2" fill="#E63946"/></a>
-<a id="n-tt0092263" href="https://www.criterionchannel.com/a-better-tomorrow" target="_blank" rel="noopener"><polygon class="node" points="785.1,501.7 774.7,507.7 764.4,501.7 764.4,489.7 774.7,483.7 785.1,489.7" fill="#E63946"/></a>
-<a id="n-tt0374339" href="https://www.criterion.com/films/32455-infernal-affairs-iii" target="_blank" rel="noopener"><polygon class="node" points="881.8,443.5 871.4,449.5 861.0,443.5 861.0,431.5 871.4,425.5 881.8,431.5" fill="#E63946"/></a>
-<a id="n-tt0093944" href="https://www.criterionchannel.com/my-heart-is-that-eternal-rose" target="_blank" rel="noopener"><polygon class="node" points="847.0,494.5 836.6,500.5 826.2,494.5 826.2,482.5 836.6,476.5 847.0,482.5" fill="#95252D"/></a>
-<a id="n-tt0100973" href="https://www.criterionchannel.com/swordsman" target="_blank" rel="noopener"><polygon class="node" points="662.6,468.3 652.2,474.3 641.8,468.3 641.8,456.3 652.2,450.3 662.6,456.3" fill="#E63946"/></a>
-<a id="n-tt0156587" href="https://www.criterion.com/films/30521-flowers-of-shanghai" target="_blank" rel="noopener"><polygon class="node" points="925.4,292.6 915.0,298.6 904.6,292.6 904.6,280.6 915.0,274.6 925.4,280.6" fill="#E63946"/></a>
-<a id="n-tt0338564" href="https://www.criterion.com/films/32453-infernal-affairs" target="_blank" rel="noopener"><polygon class="node" points="983.8,328.3 973.4,334.3 963.0,328.3 963.0,316.3 973.4,310.3 983.8,316.3" fill="#E63946"/></a>
-<a id="n-tt0096472" href="https://www.criterionchannel.com/school-on-fire" target="_blank" rel="noopener"><polygon class="node" points="1085.2,592.5 1074.8,598.5 1064.4,592.5 1064.4,580.5 1074.8,574.5 1085.2,580.5" fill="#E63946"/></a>
-<a id="n-tt0093978" href="https://www.criterionchannel.com/a-chinese-ghost-story" target="_blank" rel="noopener"><polygon class="node" points="961.6,354.1 951.2,360.1 940.8,354.1 940.8,342.1 951.2,336.1 961.6,342.1" fill="#E63946"/></a>
-<a id="n-tt0096461" href="https://www.criterion.com/films/29478-as-tears-go-by" target="_blank" rel="noopener"><polygon class="node" points="758.3,603.8 747.9,609.8 737.5,603.8 737.5,591.8 747.9,585.8 758.3,591.8" fill="#E63946"/></a>
-<a id="n-tt0109424" href="https://www.criterion.com/films/226-chungking-express" target="_blank" rel="noopener"><polygon class="node" points="966.9,618.9 956.5,624.9 946.1,618.9 946.1,606.9 956.5,600.9 966.9,606.9" fill="#E63946"/></a>
-<a id="n-tt0089177" href="https://www.criterion.com/films/29548-my-lucky-stars" target="_blank" rel="noopener"><polygon class="node" points="795.1,304.1 784.8,310.1 774.4,304.1 774.4,292.1 784.8,286.1 795.1,292.1" fill="#E63946"/></a>
-<a id="n-tt0101020" href="https://www.criterionchannel.com/once-a-thief-1" target="_blank" rel="noopener"><polygon class="node" points="510.6,625.1 500.3,631.1 489.9,625.1 489.9,613.1 500.3,607.1 510.6,613.1" fill="#E63946"/></a>
-<a id="n-tt0089374" href="https://www.criterion.com/films/29544-police-story" target="_blank" rel="noopener"><polygon class="node" points="571.3,382.2 560.9,388.2 550.5,382.2 550.5,370.2 560.9,364.2 571.3,370.2" fill="#E63946"/></a>
-<a id="n-tt0103295" href="https://www.criterionchannel.com/swordsman-ii" target="_blank" rel="noopener"><polygon class="node" points="619.7,578.3 609.3,584.3 598.9,578.3 598.9,566.3 609.3,560.3 619.7,566.3" fill="#E63946"/></a>
-<a id="n-tt0105655" href="https://www.criterionchannel.com/the-east-is-red" target="_blank" rel="noopener"><polygon class="node" points="1257.8,463.6 1247.4,469.6 1237.0,463.6 1237.0,451.6 1247.4,445.6 1257.8,451.6" fill="#E63946"/></a>
-<a id="n-tt0080827" href="https://www.criterionchannel.com/encounters-of-the-spooky-kind" target="_blank" rel="noopener"><polygon class="node" points="654.4,663.6 644.0,669.6 633.6,663.6 633.6,651.6 644.0,645.6 654.4,651.6" fill="#95252D"/></a>
-<a id="n-tt0093304" href="https://www.criterionchannel.com/prison-on-fire" target="_blank" rel="noopener"><polygon class="node" points="698.9,276.3 688.5,282.3 678.1,276.3 678.1,264.3 688.5,258.3 698.9,264.3" fill="#E63946"/></a>
-<a id="n-tt0091293" href="https://www.criterionchannel.com/mr-vampire-ii" target="_blank" rel="noopener"><polygon class="node" points="590.4,335.5 580.1,341.5 569.7,335.5 569.7,323.5 580.1,317.5 590.4,323.5" fill="#E63946"/></a>
-<a id="n-tt0095403" href="https://www.criterion.com/films/29545-police-story-2" target="_blank" rel="noopener"><polygon class="node" points="876.8,596.2 866.4,602.2 856.0,596.2 856.0,584.2 866.4,578.2 876.8,584.2" fill="#E63946"/></a>
-<a id="n-tt0093258" href="https://www.criterion.com/films/30738-rouge" target="_blank" rel="noopener"><polygon class="node" points="385.7,392.1 375.4,398.1 365.0,392.1 365.0,380.1 375.4,374.1 385.7,380.1" fill="#E63946"/></a>
-<a id="n-tt0093435" href="https://www.criterionchannel.com/city-on-fire" target="_blank" rel="noopener"><polygon class="node" points="532.0,516.9 521.6,522.9 511.2,516.9 511.2,504.9 521.6,498.9 532.0,504.9" fill="#E63946"/></a>
-<a id="n-tt0089371" href="https://www.criterionchannel.com/mr-vampire" target="_blank" rel="noopener"><polygon class="node" points="1115.6,554.0 1105.2,560.0 1094.8,554.0 1094.8,542.0 1105.2,536.0 1115.6,542.0" fill="#E63946"/></a>
-<a id="n-tt0084248" href="https://www.criterionchannel.com/nomad" target="_blank" rel="noopener"><polygon class="node" points="431.1,553.8 420.7,559.8 410.3,553.8 410.3,541.8 420.7,535.8 431.1,541.8" fill="#95252D"/></a>
-<a id="n-tt0081499" href="https://www.criterion.com/films/29547-the-young-master" target="_blank" rel="noopener"><polygon class="node" points="1022.7,617.4 1012.4,623.4 1002.0,617.4 1002.0,605.4 1012.4,599.4 1022.7,605.4" fill="#E63946"/></a>
-<a id="n-tt0090956" href="https://www.criterion.com/films/30736-eastern-condors" target="_blank" rel="noopener"><polygon class="node" points="1063.2,386.5 1052.8,392.5 1042.4,386.5 1042.4,374.5 1052.8,368.5 1063.2,374.5" fill="#E63946"/></a>
-<a id="n-tt0312886" href="https://www.criterionchannel.com/july-rhapsody" target="_blank" rel="noopener"><polygon class="node" points="483.4,480.1 473.0,486.1 462.6,480.1 462.6,468.1 473.0,462.1 483.4,468.1" fill="#E63946"/></a>
-<a id="n-tt0093422" href="https://www.criterionchannel.com/mr-vampire-iii" target="_blank" rel="noopener"><polygon class="node" points="425.5,478.1 415.1,484.1 404.7,478.1 404.7,466.1 415.1,460.1 425.5,466.1" fill="#95252D"/></a>
-<a id="n-tt0103044" href="https://www.criterionchannel.com/prison-on-fire-ii" target="_blank" rel="noopener"><polygon class="node" points="821.5,609.8 811.1,615.8 800.7,609.8 800.7,597.8 811.1,591.8 821.5,597.8" fill="#E63946"/></a>
-<a id="n-tt0369060" href="https://www.criterion.com/films/32454-infernal-affairs-ii" target="_blank" rel="noopener"><polygon class="node" points="531.8,306.7 521.4,312.7 511.0,306.7 511.0,294.7 521.4,288.7 531.8,294.7" fill="#E63946"/></a>
-<a id="n-tt0099881" href="https://www.criterionchannel.com/mr-vampire-iv" target="_blank" rel="noopener"><polygon class="node" points="619.9,296.2 609.5,302.2 599.1,296.2 599.1,284.2 609.5,278.2 619.9,284.2" fill="#95252D"/></a>
-<a id="n-tt0099000" href="https://www.criterionchannel.com/farewell-china" target="_blank" rel="noopener"><polygon class="node" points="1198.9,544.3 1188.5,550.3 1178.2,544.3 1178.2,532.3 1188.5,526.3 1198.9,532.3" fill="#95252D"/></a>
-<a id="n-tt0085864" href="https://www.criterion.com/films/29552-fearless-hyena-ii" target="_blank" rel="noopener"><polygon class="node" points="477.8,427.8 467.4,433.8 457.0,427.8 457.0,415.8 467.4,409.8 477.8,415.8" fill="#E63946"/></a>
-<a id="n-tt0091229" href="https://www.criterionchannel.com/royal-warriors" target="_blank" rel="noopener"><polygon class="node" points="853.1,288.3 842.7,294.3 832.3,288.3 832.3,276.3 842.7,270.3 853.1,276.3" fill="#E63946"/></a>
-<a id="n-tt0079315" href="https://www.criterion.com/films/29551-the-fearless-hyena" target="_blank" rel="noopener"><polygon class="node" points="379.9,463.5 369.5,469.5 359.1,463.5 359.1,451.5 369.5,445.5 379.9,451.5" fill="#E63946"/></a>
-<a id="n-tt0097202" href="https://www.criterion.com/films/231-the-killer" target="_blank" rel="noopener"><polygon class="node" points="434.8,355.5 424.4,361.5 414.0,355.5 414.0,343.5 424.4,337.5 434.8,343.5" fill="#E63946"/></a>
-<a id="n-tt0093426" href="https://www.criterionchannel.com/an-autumn-s-tale" target="_blank" rel="noopener"><polygon class="node" points="578.4,651.3 568.0,657.3 557.7,651.3 557.7,639.3 568.0,633.3 578.4,639.3" fill="#E63946"/></a>
-<a id="n-tt0112913" href="https://www.criterion.com/films/28842-fallen-angels" target="_blank" rel="noopener"><polygon class="node" points="581.4,554.8 571.0,560.8 560.6,554.8 560.6,542.8 571.0,536.8 581.4,542.8" fill="#E63946"/></a>
-<a id="n-tt0092264" href="https://www.criterionchannel.com/heroes-shed-no-tears" target="_blank" rel="noopener"><polygon class="node" points="1112.1,493.7 1101.7,499.7 1091.4,493.7 1091.4,481.7 1101.7,475.7 1112.1,481.7" fill="#95252D"/></a>
-<a id="n-tt0079472" href="https://www.criterionchannel.com/the-magnificent-butcher" target="_blank" rel="noopener"><polygon class="node" points="482.2,315.2 471.8,321.2 461.4,315.2 461.4,303.2 471.8,297.2 482.2,303.2" fill="#E63946"/></a>
-<a id="n-tt0094375" href="https://www.criterionchannel.com/magnificent-warriors" target="_blank" rel="noopener"><polygon class="node" points="730.0,254.3 719.6,260.3 709.3,254.3 709.3,242.3 719.6,236.3 730.0,242.3" fill="#E63946"/></a>
-<a id="n-tt0080964" href="https://www.criterionchannel.com/cute-girl" target="_blank" rel="noopener"><polygon class="node" points="952.0,122.7 941.6,128.7 931.2,122.7 931.2,110.7 941.6,104.7 952.0,110.7" fill="#E63946"/></a>
-<a id="n-tt0080623" href="https://www.criterion.com/films/29549-half-a-loaf-of-kung-fu" target="_blank" rel="noopener"><polygon class="node" points="1334.5,698.4 1324.1,704.4 1313.7,698.4 1313.7,686.4 1324.1,680.4 1334.5,686.4" fill="#95252D"/></a>
-<a id="n-tt0077655" href="https://www.criterion.com/films/29546-last-hurrah-for-chivalry" target="_blank" rel="noopener"><polygon class="node" points="181.9,594.2 171.5,600.2 161.1,594.2 161.1,582.2 171.5,576.2 181.9,582.2" fill="#95252D"/></a>
-<a id="n-tt0102293" href="https://www.criterionchannel.com/riki-oh-the-story-of-ricky" target="_blank" rel="noopener"><polygon class="node" points="442.6,202.7 432.2,208.7 421.8,202.7 421.8,190.7 432.2,184.7 442.6,190.7" fill="#E63946"/></a>
-<a id="n-tt0101985" href="https://www.criterion.com/films/28596-a-brighter-summer-day" target="_blank" rel="noopener"><polygon class="node" points="1516.9,435.7 1506.5,441.7 1496.1,435.7 1496.1,423.7 1506.5,417.7 1516.9,423.7" fill="#E63946"/></a>
-<a id="n-tt0083352" href="https://www.criterionchannel.com/dreadnaught" target="_blank" rel="noopener"><polygon class="node" points="748.5,168.0 738.1,174.0 727.7,168.0 727.7,156.0 738.1,150.0 748.5,156.0" fill="#95252D"/></a>
-<a id="n-tt0283283" href="https://www.criterionchannel.com/millennium-mambo" target="_blank" rel="noopener"><polygon class="node" points="423.8,748.7 413.5,754.7 403.1,748.7 403.1,736.7 413.5,730.7 423.8,736.7" fill="#E63946"/></a>
-<a id="n-tt0120530" href="https://www.criterionchannel.com/once-upon-a-time-in-china-and-america" target="_blank" rel="noopener"><polygon class="node" points="1370.9,543.7 1360.5,549.7 1350.1,543.7 1350.1,531.7 1360.5,525.7 1370.9,531.7" fill="#E63946"/></a>
-<a id="n-tt0415380" href="https://www.criterion.com/films/30713-throw-down" target="_blank" rel="noopener"><polygon class="node" points="129.5,492.1 119.1,498.1 108.7,492.1 108.7,480.1 119.1,474.1 129.5,480.1" fill="#E63946"/></a>
-<a id="n-tt0084807" href="https://www.criterion.com/films/30455-boat-people" target="_blank" rel="noopener"><polygon class="node" points="115.6,547.7 105.2,553.7 94.8,547.7 94.8,535.7 105.2,529.7 115.6,535.7" fill="#E63946"/></a>
-<a id="n-tt8185182" href="https://www.criterionchannel.com/long-day-s-journey-into-night" target="_blank" rel="noopener"><polygon class="node" points="206.4,657.5 196.0,663.5 185.6,657.5 185.6,645.5 196.0,639.5 206.4,645.5" fill="#95252D"/></a>
-<a id="n-tt0086631" href="https://www.criterionchannel.com/the-green-green-grass-of-home" target="_blank" rel="noopener"><polygon class="node" points="1400.2,643.9 1389.8,649.9 1379.4,643.9 1379.4,631.9 1389.8,625.9 1400.2,631.9" fill="#E63946"/></a>
-<a id="n-tt0244316" href="https://www.criterion.com/films/781-yi-yi" target="_blank" rel="noopener"><polygon class="node" points="1019.0,162.6 1008.6,168.6 998.2,162.6 998.2,150.6 1008.6,144.6 1019.0,150.6" fill="#E63946"/></a>
-<a id="n-tt0109685" href="https://www.criterion.com/films/34089-a-confucian-confusion" target="_blank" rel="noopener"><polygon class="node" points="1120.2,154.2 1109.8,160.2 1099.4,154.2 1099.4,142.2 1109.8,136.2 1120.2,142.2" fill="#95252D"/></a>
-<a id="n-tt0064451" href="https://www.criterion.com/films/28791-a-touch-of-zen" target="_blank" rel="noopener"><polygon class="node" points="417.0,672.5 406.6,678.5 396.2,672.5 396.2,660.5 406.6,654.5 417.0,660.5" fill="#E63946"/></a>
-<a id="n-tt0116962" href="https://www.criterion.com/films/34090-mahjong" target="_blank" rel="noopener"><polygon class="node" points="1248.6,649.6 1238.2,655.6 1227.8,649.6 1227.8,637.6 1238.2,631.6 1248.6,637.6" fill="#95252D"/></a>
-<a id="n-tt29002950" href="https://www.criterion.com/films/35491-resurrection" target="_blank" rel="noopener"><polygon class="node" points="657.7,145.2 647.3,151.2 636.9,145.2 636.9,133.2 647.3,127.2 657.7,133.2" fill="#E63946"/></a>
-<a id="n-tt0089866" href="https://www.criterion.com/films/29110-taipei-story" target="_blank" rel="noopener"><polygon class="node" points="1262.8,214.9 1252.4,220.9 1242.0,214.9 1242.0,202.9 1252.4,196.9 1262.8,202.9" fill="#E63946"/></a>
-<a id="n-tt29271889" href="https://www.criterionchannel.com/daughter-s-daughter" target="_blank" rel="noopener"><polygon class="node" points="865.4,752.0 855.0,758.0 844.6,752.0 844.6,740.0 855.0,734.0 865.4,740.0" fill="#95252D"/></a>
-<a id="n-tt0060635" href="https://www.criterion.com/films/28790-dragon-inn" target="_blank" rel="noopener"><polygon class="node" points="254.0,444.4 243.6,450.4 233.2,444.4 233.2,432.4 243.6,426.4 254.0,432.4" fill="#E63946"/></a>
-<a id="n-tt0092252" href="https://www.criterionchannel.com/evil-cat" target="_blank" rel="noopener"><polygon class="node" points="1466.5,531.7 1456.1,537.7 1445.7,531.7 1445.7,519.7 1456.1,513.7 1466.5,519.7" fill="#95252D"/></a>
-<a id="n-tt27590147" href="https://www.criterionchannel.com/only-the-river-flows" target="_blank" rel="noopener"><polygon class="node" points="1306.0,279.4 1295.6,285.4 1285.2,279.4 1285.2,267.4 1295.6,261.4 1306.0,267.4" fill="#E63946"/></a>
-<a id="n-tt0085533" href="https://www.criterionchannel.com/the-boys-from-fengkuei" target="_blank" rel="noopener"><polygon class="node" points="862.0,802.4 851.7,808.4 841.3,802.4 841.3,790.4 851.7,784.4 862.0,790.4" fill="#E63946"/></a>
-<a id="n-tt30439035" href="https://www.criterionchannel.com/all-shall-be-well" target="_blank" rel="noopener"><polygon class="node" points="600.5,800.4 590.1,806.4 579.7,800.4 579.7,788.4 590.1,782.4 600.5,788.4" fill="#E63946"/></a>
-<a id="n-tt0292066" href="https://www.criterionchannel.com/lan-yu" target="_blank" rel="noopener"><polygon class="node" points="288.3,667.4 277.9,673.4 267.5,667.4 267.5,655.4 277.9,649.4 288.3,655.4" fill="#E63946"/></a>
+<a id="n-tt0311913" href="https://www.criterionchannel.com/chinese-odyssey-2002" target="_blank" rel="noopener"><polygon class="node" points="785.7,442.4 775.3,448.4 764.9,442.4 764.9,430.4 775.3,424.4 785.7,430.4" fill="#E63946"/></a>
+<a id="n-tt0092263" href="https://www.criterionchannel.com/a-better-tomorrow" target="_blank" rel="noopener"><polygon class="node" points="940.5,456.5 930.1,462.5 919.7,456.5 919.7,444.5 930.1,438.5 940.5,444.5" fill="#E63946"/></a>
+<a id="n-tt0099426" href="https://www.criterionchannel.com/bullet-in-the-head" target="_blank" rel="noopener"><polygon class="node" points="891.6,519.0 881.2,525.0 870.9,519.0 870.9,507.0 881.2,501.0 891.6,507.0" fill="#E63946"/></a>
+<a id="n-tt0118694" href="https://www.criterion.com/films/198-in-the-mood-for-love" target="_blank" rel="noopener"><polygon class="node" points="715.6,448.2 705.3,454.2 694.9,448.2 694.9,436.2 705.3,430.2 715.6,436.2" fill="#E63946"/></a>
+<a id="n-tt0098019" href="https://www.criterionchannel.com/miracles" target="_blank" rel="noopener"><polygon class="node" points="785.1,501.7 774.7,507.7 764.4,501.7 764.4,489.7 774.7,483.7 785.1,489.7" fill="#E63946"/></a>
+<polygon id="n-tt0190332" class="node" points="881.8,443.5 871.4,449.5 861.0,443.5 861.0,431.5 871.4,425.5 881.8,431.5" fill="#E63946"/>
+<a id="n-tt0374339" href="https://www.criterion.com/films/32455-infernal-affairs-iii" target="_blank" rel="noopener"><polygon class="node" points="847.0,494.5 836.6,500.5 826.2,494.5 826.2,482.5 836.6,476.5 847.0,482.5" fill="#E63946"/></a>
+<a id="n-tt0093944" href="https://www.criterionchannel.com/my-heart-is-that-eternal-rose" target="_blank" rel="noopener"><polygon class="node" points="662.6,468.3 652.2,474.3 641.8,468.3 641.8,456.3 652.2,450.3 662.6,456.3" fill="#95252D"/></a>
+<a id="n-tt0100973" href="https://www.criterionchannel.com/swordsman" target="_blank" rel="noopener"><polygon class="node" points="780.8,545.3 770.4,551.3 760.0,545.3 760.0,533.3 770.4,527.3 780.8,533.3" fill="#E63946"/></a>
+<a id="n-tt0156587" href="https://www.criterion.com/films/30521-flowers-of-shanghai" target="_blank" rel="noopener"><polygon class="node" points="545.5,505.6 535.1,511.6 524.7,505.6 524.7,493.6 535.1,487.6 545.5,493.6" fill="#E63946"/></a>
+<a id="n-tt0338564" href="https://www.criterion.com/films/32453-infernal-affairs" target="_blank" rel="noopener"><polygon class="node" points="977.9,588.9 967.5,594.9 957.1,588.9 957.1,576.9 967.5,570.9 977.9,576.9" fill="#E63946"/></a>
+<a id="n-tt0101020" href="https://www.criterionchannel.com/once-a-thief-1" target="_blank" rel="noopener"><polygon class="node" points="502.7,592.6 492.3,598.6 481.9,592.6 481.9,580.6 492.3,574.6 502.7,580.6" fill="#E63946"/></a>
+<a id="n-tt0096472" href="https://www.criterionchannel.com/school-on-fire" target="_blank" rel="noopener"><polygon class="node" points="624.4,670.4 614.0,676.4 603.6,670.4 603.6,658.4 614.0,652.4 624.4,658.4" fill="#E63946"/></a>
+<a id="n-tt0093978" href="https://www.criterionchannel.com/a-chinese-ghost-story" target="_blank" rel="noopener"><polygon class="node" points="412.8,519.6 402.4,525.6 392.0,519.6 392.0,507.6 402.4,501.6 412.8,507.6" fill="#E63946"/></a>
+<a id="n-tt0096461" href="https://www.criterion.com/films/29478-as-tears-go-by" target="_blank" rel="noopener"><polygon class="node" points="487.7,353.2 477.3,359.2 466.9,353.2 466.9,341.2 477.3,335.2 487.7,341.2" fill="#E63946"/></a>
+<a id="n-tt0109424" href="https://www.criterion.com/films/226-chungking-express" target="_blank" rel="noopener"><polygon class="node" points="1156.7,413.8 1146.3,419.8 1135.9,413.8 1135.9,401.8 1146.3,395.8 1156.7,401.8" fill="#E63946"/></a>
+<a id="n-tt0089177" href="https://www.criterion.com/films/29548-my-lucky-stars" target="_blank" rel="noopener"><polygon class="node" points="959.7,621.7 949.3,627.7 938.9,621.7 938.9,609.7 949.3,603.7 959.7,609.7" fill="#E63946"/></a>
+<a id="n-tt0089374" href="https://www.criterion.com/films/29544-police-story" target="_blank" rel="noopener"><polygon class="node" points="1038.2,304.7 1027.8,310.7 1017.4,304.7 1017.4,292.7 1027.8,286.7 1038.2,292.7" fill="#E63946"/></a>
+<a id="n-tt0093304" href="https://www.criterionchannel.com/prison-on-fire" target="_blank" rel="noopener"><polygon class="node" points="809.3,251.4 799.0,257.4 788.6,251.4 788.6,239.4 799.0,233.4 809.3,239.4" fill="#E63946"/></a>
+<a id="n-tt0103295" href="https://www.criterionchannel.com/swordsman-ii" target="_blank" rel="noopener"><polygon class="node" points="366.4,425.6 356.1,431.6 345.7,425.6 345.7,413.6 356.1,407.6 366.4,413.6" fill="#E63946"/></a>
+<a id="n-tt0105655" href="https://www.criterionchannel.com/the-east-is-red" target="_blank" rel="noopener"><polygon class="node" points="681.4,658.4 671.0,664.4 660.6,658.4 660.6,646.4 671.0,640.4 681.4,646.4" fill="#E63946"/></a>
+<a id="n-tt0080827" href="https://www.criterionchannel.com/encounters-of-the-spooky-kind" target="_blank" rel="noopener"><polygon class="node" points="512.7,636.0 502.3,642.0 492.0,636.0 492.0,624.0 502.3,618.0 512.7,624.0" fill="#95252D"/></a>
+<a id="n-tt0093435" href="https://www.criterionchannel.com/city-on-fire" target="_blank" rel="noopener"><polygon class="node" points="738.5,283.0 728.1,289.0 717.8,283.0 717.8,271.0 728.1,265.0 738.5,271.0" fill="#E63946"/></a>
+<a id="n-tt0091293" href="https://www.criterionchannel.com/mr-vampire-ii" target="_blank" rel="noopener"><polygon class="node" points="1119.9,367.8 1109.5,373.8 1099.1,367.8 1099.1,355.8 1109.5,349.8 1119.9,355.8" fill="#E63946"/></a>
+<a id="n-tt0095403" href="https://www.criterion.com/films/29545-police-story-2" target="_blank" rel="noopener"><polygon class="node" points="597.3,328.9 586.9,334.9 576.5,328.9 576.5,316.9 586.9,310.9 597.3,316.9" fill="#E63946"/></a>
+<a id="n-tt0093258" href="https://www.criterion.com/films/30738-rouge" target="_blank" rel="noopener"><polygon class="node" points="527.0,562.2 516.6,568.2 506.2,562.2 506.2,550.2 516.6,544.2 527.0,550.2" fill="#E63946"/></a>
+<a id="n-tt0089371" href="https://www.criterionchannel.com/mr-vampire" target="_blank" rel="noopener"><polygon class="node" points="1062.1,597.1 1051.7,603.1 1041.3,597.1 1041.3,585.1 1051.7,579.1 1062.1,585.1" fill="#E63946"/></a>
+<a id="n-tt0084248" href="https://www.criterionchannel.com/nomad" target="_blank" rel="noopener"><polygon class="node" points="670.8,347.7 660.4,353.7 650.0,347.7 650.0,335.7 660.4,329.7 670.8,335.7" fill="#95252D"/></a>
+<a id="n-tt0103044" href="https://www.criterionchannel.com/prison-on-fire-ii" target="_blank" rel="noopener"><polygon class="node" points="603.5,300.3 593.2,306.3 582.8,300.3 582.8,288.3 593.2,282.3 603.5,288.3" fill="#E63946"/></a>
+<a id="n-tt0091229" href="https://www.criterionchannel.com/royal-warriors" target="_blank" rel="noopener"><polygon class="node" points="688.6,586.7 678.2,592.7 667.8,586.7 667.8,574.7 678.2,568.7 688.6,574.7" fill="#E63946"/></a>
+<a id="n-tt0081499" href="https://www.criterion.com/films/29547-the-young-master" target="_blank" rel="noopener"><polygon class="node" points="864.4,319.0 854.0,325.0 843.6,319.0 843.6,307.0 854.0,301.0 864.4,307.0" fill="#E63946"/></a>
+<a id="n-tt0090956" href="https://www.criterion.com/films/30736-eastern-condors" target="_blank" rel="noopener"><polygon class="node" points="819.4,686.0 809.0,692.0 798.6,686.0 798.6,674.0 809.0,668.0 819.4,674.0" fill="#E63946"/></a>
+<a id="n-tt0312886" href="https://www.criterionchannel.com/july-rhapsody" target="_blank" rel="noopener"><polygon class="node" points="939.7,680.3 929.3,686.3 918.9,680.3 918.9,668.3 929.3,662.3 939.7,668.3" fill="#E63946"/></a>
+<a id="n-tt0093422" href="https://www.criterionchannel.com/mr-vampire-iii" target="_blank" rel="noopener"><polygon class="node" points="466.3,327.6 455.9,333.6 445.5,327.6 445.5,315.6 455.9,309.6 466.3,315.6" fill="#95252D"/></a>
+<a id="n-tt0369060" href="https://www.criterion.com/films/32454-infernal-affairs-ii" target="_blank" rel="noopener"><polygon class="node" points="585.1,356.7 574.7,362.7 564.3,356.7 564.3,344.7 574.7,338.7 585.1,344.7" fill="#E63946"/></a>
+<a id="n-tt0094375" href="https://www.criterionchannel.com/magnificent-warriors" target="_blank" rel="noopener"><polygon class="node" points="1140.2,445.1 1129.9,451.1 1119.5,445.1 1119.5,433.1 1129.9,427.1 1140.2,433.1" fill="#E63946"/></a>
+<a id="n-tt0099881" href="https://www.criterionchannel.com/mr-vampire-iv" target="_blank" rel="noopener"><polygon class="node" points="672.3,309.3 662.0,315.3 651.6,309.3 651.6,297.3 662.0,291.3 672.3,297.3" fill="#95252D"/></a>
+<a id="n-tt0097202" href="https://www.criterion.com/films/231-the-killer" target="_blank" rel="noopener"><polygon class="node" points="596.6,547.6 586.2,553.6 575.8,547.6 575.8,535.6 586.2,529.6 596.6,535.6" fill="#E63946"/></a>
+<a id="n-tt0093426" href="https://www.criterionchannel.com/an-autumn-s-tale" target="_blank" rel="noopener"><polygon class="node" points="433.6,482.1 423.2,488.1 412.8,482.1 412.8,470.1 423.2,464.1 433.6,470.1" fill="#E63946"/></a>
+<a id="n-tt0099000" href="https://www.criterionchannel.com/farewell-china" target="_blank" rel="noopener"><polygon class="node" points="612.0,639.9 601.6,645.9 591.2,639.9 591.2,627.9 601.6,621.9 612.0,627.9" fill="#95252D"/></a>
+<a id="n-tt0085864" href="https://www.criterion.com/films/29552-fearless-hyena-ii" target="_blank" rel="noopener"><polygon class="node" points="1081.1,387.3 1070.7,393.3 1060.3,387.3 1060.3,375.3 1070.7,369.3 1081.1,375.3" fill="#E63946"/></a>
+<a id="n-tt0079315" href="https://www.criterion.com/films/29551-the-fearless-hyena" target="_blank" rel="noopener"><polygon class="node" points="794.4,633.3 784.0,639.3 773.6,633.3 773.6,621.3 784.0,615.3 794.4,621.3" fill="#E63946"/></a>
+<a id="n-tt0112913" href="https://www.criterion.com/films/28842-fallen-angels" target="_blank" rel="noopener"><polygon class="node" points="936.0,327.4 925.7,333.4 915.3,327.4 915.3,315.4 925.7,309.4 936.0,315.4" fill="#E63946"/></a>
+<a id="n-tt0092264" href="https://www.criterionchannel.com/heroes-shed-no-tears" target="_blank" rel="noopener"><polygon class="node" points="1024.0,657.8 1013.6,663.8 1003.2,657.8 1003.2,645.8 1013.6,639.8 1024.0,645.8" fill="#95252D"/></a>
+<a id="n-tt0079472" href="https://www.criterionchannel.com/the-magnificent-butcher" target="_blank" rel="noopener"><polygon class="node" points="1218.9,565.6 1208.5,571.6 1198.2,565.6 1198.2,553.6 1208.5,547.6 1218.9,553.6" fill="#E63946"/></a>
+<a id="n-tt0101985" href="https://www.criterion.com/films/28596-a-brighter-summer-day" target="_blank" rel="noopener"><polygon class="node" points="957.7,188.5 947.4,194.5 937.0,188.5 937.0,176.5 947.4,170.5 957.7,176.5" fill="#E63946"/></a>
+<a id="n-tt0080964" href="https://www.criterionchannel.com/cute-girl" target="_blank" rel="noopener"><polygon class="node" points="1263.2,270.0 1252.8,276.0 1242.5,270.0 1242.5,258.0 1252.8,252.0 1263.2,258.0" fill="#E63946"/></a>
+<a id="n-tt0080623" href="https://www.criterion.com/films/29549-half-a-loaf-of-kung-fu" target="_blank" rel="noopener"><polygon class="node" points="1318.3,685.1 1307.9,691.1 1297.5,685.1 1297.5,673.1 1307.9,667.1 1318.3,673.1" fill="#95252D"/></a>
+<a id="n-tt0077655" href="https://www.criterion.com/films/29546-last-hurrah-for-chivalry" target="_blank" rel="noopener"><polygon class="node" points="1118.5,778.9 1108.2,784.9 1097.8,778.9 1097.8,766.9 1108.2,760.9 1118.5,766.9" fill="#95252D"/></a>
+<a id="n-tt0102293" href="https://www.criterionchannel.com/riki-oh-the-story-of-ricky" target="_blank" rel="noopener"><polygon class="node" points="215.1,368.7 204.7,374.7 194.3,368.7 194.3,356.7 204.7,350.7 215.1,356.7" fill="#E63946"/></a>
+<a id="n-tt0083352" href="https://www.criterionchannel.com/dreadnaught" target="_blank" rel="noopener"><polygon class="node" points="560.2,175.0 549.8,181.0 539.4,175.0 539.4,163.0 549.8,157.0 560.2,163.0" fill="#95252D"/></a>
+<polygon id="n-tt6710474" class="node" points="1473.5,453.4 1463.2,459.4 1452.8,453.4 1452.8,441.4 1463.2,435.4 1473.5,441.4" fill="#E63946"/>
+<polygon id="n-tt1262426" class="node" points="100.3,433.1 89.9,439.1 79.5,433.1 79.5,421.1 89.9,415.1 100.3,421.1" fill="#E63946"/>
+<a id="n-tt0283283" href="https://www.criterionchannel.com/millennium-mambo" target="_blank" rel="noopener"><polygon class="node" points="730.6,185.4 720.3,191.4 709.9,185.4 709.9,173.4 720.3,167.4 730.6,173.4" fill="#E63946"/></a>
+<a id="n-tt0120530" href="https://www.criterionchannel.com/once-upon-a-time-in-china-and-america" target="_blank" rel="noopener"><polygon class="node" points="514.5,793.1 504.2,799.1 493.8,793.1 493.8,781.1 504.2,775.1 514.5,781.1" fill="#E63946"/></a>
+<a id="n-tt0415380" href="https://www.criterion.com/films/30713-throw-down" target="_blank" rel="noopener"><polygon class="node" points="245.2,614.5 234.9,620.5 224.5,614.5 224.5,602.5 234.9,596.5 245.2,602.5" fill="#E63946"/></a>
+<a id="n-tt0084807" href="https://www.criterion.com/films/30455-boat-people" target="_blank" rel="noopener"><polygon class="node" points="544.3,219.6 533.9,225.6 523.5,219.6 523.5,207.6 533.9,201.6 544.3,207.6" fill="#E63946"/></a>
+<a id="n-tt8185182" href="https://www.criterionchannel.com/long-day-s-journey-into-night" target="_blank" rel="noopener"><polygon class="node" points="1109.1,158.9 1098.7,164.9 1088.3,158.9 1088.3,146.9 1098.7,140.9 1109.1,146.9" fill="#95252D"/></a>
+<a id="n-tt0116962" href="https://www.criterion.com/films/34090-mahjong" target="_blank" rel="noopener"><polygon class="node" points="537.6,752.7 527.2,758.7 516.8,752.7 516.8,740.7 527.2,734.7 537.6,740.7" fill="#95252D"/></a>
+<a id="n-tt0086631" href="https://www.criterionchannel.com/the-green-green-grass-of-home" target="_blank" rel="noopener"><polygon class="node" points="1025.6,148.4 1015.2,154.4 1004.8,148.4 1004.8,136.4 1015.2,130.4 1025.6,136.4" fill="#E63946"/></a>
+<a id="n-tt0244316" href="https://www.criterion.com/films/781-yi-yi" target="_blank" rel="noopener"><polygon class="node" points="1137.9,706.2 1127.5,712.2 1117.1,706.2 1117.1,694.2 1127.5,688.2 1137.9,694.2" fill="#E63946"/></a>
+<a id="n-tt0109685" href="https://www.criterion.com/films/34089-a-confucian-confusion" target="_blank" rel="noopener"><polygon class="node" points="1399.1,602.9 1388.7,608.9 1378.3,602.9 1378.3,590.9 1388.7,584.9 1399.1,590.9" fill="#95252D"/></a>
+<a id="n-tt0064451" href="https://www.criterion.com/films/28791-a-touch-of-zen" target="_blank" rel="noopener"><polygon class="node" points="1377.7,470.9 1367.3,476.9 1356.9,470.9 1356.9,458.9 1367.3,452.9 1377.7,458.9" fill="#E63946"/></a>
+<a id="n-tt29002950" href="https://www.criterion.com/films/35491-resurrection" target="_blank" rel="noopener"><polygon class="node" points="907.6,158.4 897.2,164.4 886.8,158.4 886.8,146.4 897.2,140.4 907.6,146.4" fill="#E63946"/></a>
+<a id="n-tt0089866" href="https://www.criterion.com/films/29110-taipei-story" target="_blank" rel="noopener"><polygon class="node" points="485.3,239.5 474.9,245.5 464.5,239.5 464.5,227.5 474.9,221.5 485.3,227.5" fill="#E63946"/></a>
+<a id="n-tt29271889" href="https://www.criterionchannel.com/daughter-s-daughter" target="_blank" rel="noopener"><polygon class="node" points="1184.6,246.1 1174.2,252.1 1163.8,246.1 1163.8,234.1 1174.2,228.1 1184.6,234.1" fill="#95252D"/></a>
+<a id="n-tt0060635" href="https://www.criterion.com/films/28790-dragon-inn" target="_blank" rel="noopener"><polygon class="node" points="141.9,386.5 131.5,392.5 121.1,386.5 121.1,374.5 131.5,368.5 141.9,374.5" fill="#E63946"/></a>
+<a id="n-tt0092252" href="https://www.criterionchannel.com/evil-cat" target="_blank" rel="noopener"><polygon class="node" points="1385.2,659.4 1374.8,665.4 1364.4,659.4 1364.4,647.4 1374.8,641.4 1385.2,647.4" fill="#95252D"/></a>
+<a id="n-tt27590147" href="https://www.criterionchannel.com/only-the-river-flows" target="_blank" rel="noopener"><polygon class="node" points="762.6,158.8 752.2,164.8 741.8,158.8 741.8,146.8 752.2,140.8 762.6,146.8" fill="#E63946"/></a>
+<a id="n-tt0085533" href="https://www.criterionchannel.com/the-boys-from-fengkuei" target="_blank" rel="noopener"><polygon class="node" points="819.2,169.0 808.8,175.0 798.4,169.0 798.4,157.0 808.8,151.0 819.2,157.0" fill="#E63946"/></a>
+<a id="n-tt30439035" href="https://www.criterionchannel.com/all-shall-be-well" target="_blank" rel="noopener"><polygon class="node" points="381.7,704.4 371.3,710.4 360.9,704.4 360.9,692.4 371.3,686.4 381.7,692.4" fill="#E63946"/></a>
+<a id="n-tt0292066" href="https://www.criterionchannel.com/lan-yu" target="_blank" rel="noopener"><polygon class="node" points="964.4,757.7 954.0,763.7 943.6,757.7 943.6,745.7 954.0,739.7 964.4,745.7" fill="#E63946"/></a>
 <g id="t-tt0108074" class="tooltip">
-  <rect x="412.6" y="421.4" width="523.6" height="46.0" rx="6"/>
-  <text x="674.4" y="451.4" text-anchor="middle">The Eagle Shooting Heroes (1993) · degree 36</text>
+  <rect x="382.8" y="421.4" width="583.1" height="46.0" rx="6"/>
+  <text x="674.4" y="451.4" text-anchor="middle">The Eagle Shooting Heroes (1993) · 36 connections</text>
 </g>
 <g id="t-tt0101258" class="tooltip">
-  <rect x="533.5" y="328.5" width="440.3" height="46.0" rx="6"/>
-  <text x="753.7" y="358.5" text-anchor="middle">Days of Being Wild (1990) · degree 30</text>
-</g>
-<g id="t-tt0090922" class="tooltip">
-  <rect x="644.4" y="392.4" width="404.6" height="46.0" rx="6"/>
-  <text x="846.7" y="422.4" text-anchor="middle">Love Unto Waste (1986) · degree 26</text>
-</g>
-<g id="t-tt0104684" class="tooltip">
-  <rect x="651.7" y="330.5" width="357.0" height="46.0" rx="6"/>
-  <text x="830.2" y="360.5" text-anchor="middle">Hard Boiled (1992) · degree 25</text>
-</g>
-<g id="t-tt0102932" class="tooltip">
-  <rect x="485.7" y="404.5" width="523.6" height="46.0" rx="6"/>
-  <text x="747.5" y="434.5" text-anchor="middle">A Chinese Ghost Story III (1991) · degree 24</text>
+  <rect x="503.8" y="328.5" width="499.8" height="46.0" rx="6"/>
+  <text x="753.7" y="358.5" text-anchor="middle">Days of Being Wild (1990) · 30 connections</text>
 </g>
 <g id="t-tt0108606" class="tooltip">
-  <rect x="630.2" y="446.8" width="368.9" height="46.0" rx="6"/>
-  <text x="814.6" y="476.8" text-anchor="middle">Executioners (1993) · degree 24</text>
+  <rect x="632.5" y="392.4" width="428.4" height="46.0" rx="6"/>
+  <text x="846.7" y="422.4" text-anchor="middle">Executioners (1993) · 27 connections</text>
 </g>
-<g id="t-tt0100625" class="tooltip">
-  <rect x="649.7" y="418.4" width="511.7" height="46.0" rx="6"/>
-  <text x="905.6" y="448.4" text-anchor="middle">A Chinese Ghost Story II (1990) · degree 23</text>
+<g id="t-tt0090922" class="tooltip">
+  <rect x="598.1" y="330.5" width="464.1" height="46.0" rx="6"/>
+  <text x="830.2" y="360.5" text-anchor="middle">Love Unto Waste (1986) · 27 connections</text>
 </g>
-<g id="t-tt0118845" class="tooltip">
-  <rect x="508.8" y="344.4" width="392.7" height="46.0" rx="6"/>
-  <text x="705.2" y="374.4" text-anchor="middle">Happy Together (1997) · degree 22</text>
+<g id="t-tt0104684" class="tooltip">
+  <rect x="539.3" y="404.5" width="416.5" height="46.0" rx="6"/>
+  <text x="747.5" y="434.5" text-anchor="middle">Hard Boiled (1992) · 26 connections</text>
 </g>
 <g id="t-tt0105619" class="tooltip">
-  <rect x="515.8" y="449.1" width="404.6" height="46.0" rx="6"/>
-  <text x="718.1" y="479.1" text-anchor="middle">The Heroic Trio (1993) · degree 22</text>
+  <rect x="582.6" y="446.8" width="464.1" height="46.0" rx="6"/>
+  <text x="814.6" y="476.8" text-anchor="middle">The Heroic Trio (1993) · 25 connections</text>
+</g>
+<g id="t-tt0102932" class="tooltip">
+  <rect x="614.0" y="418.4" width="583.1" height="46.0" rx="6"/>
+  <text x="905.6" y="448.4" text-anchor="middle">A Chinese Ghost Story III (1991) · 24 connections</text>
+</g>
+<g id="t-tt0100625" class="tooltip">
+  <rect x="419.6" y="344.4" width="571.2" height="46.0" rx="6"/>
+  <text x="705.2" y="374.4" text-anchor="middle">A Chinese Ghost Story II (1990) · 23 connections</text>
+</g>
+<g id="t-tt0118845" class="tooltip">
+  <rect x="492.0" y="449.1" width="452.2" height="46.0" rx="6"/>
+  <text x="718.1" y="479.1" text-anchor="middle">Happy Together (1997) · 23 connections</text>
 </g>
 <g id="t-tt0094357" class="tooltip">
-  <rect x="686.7" y="348.8" width="464.1" height="46.0" rx="6"/>
-  <text x="918.8" y="378.8" text-anchor="middle">A Better Tomorrow II (1987) · degree 21</text>
-</g>
-<g id="t-tt0099426" class="tooltip">
-  <rect x="555.1" y="368.4" width="440.3" height="46.0" rx="6"/>
-  <text x="775.3" y="398.4" text-anchor="middle">Bullet in the Head (1990) · degree 21</text>
+  <rect x="657.0" y="348.8" width="523.6" height="46.0" rx="6"/>
+  <text x="918.8" y="378.8" text-anchor="middle">A Better Tomorrow II (1987) · 22 connections</text>
 </g>
 <g id="t-tt0311913" class="tooltip">
-  <rect x="698.1" y="382.5" width="464.1" height="46.0" rx="6"/>
-  <text x="930.1" y="412.5" text-anchor="middle">Chinese Odyssey 2002 (2002) · degree 21</text>
-</g>
-<g id="t-tt0118694" class="tooltip">
-  <rect x="649.2" y="445.0" width="464.1" height="46.0" rx="6"/>
-  <text x="881.2" y="475.0" text-anchor="middle">In the Mood for Love (2000) · degree 21</text>
-</g>
-<g id="t-tt0098019" class="tooltip">
-  <rect x="544.6" y="374.2" width="321.3" height="46.0" rx="6"/>
-  <text x="705.3" y="404.2" text-anchor="middle">Miracles (1989) · degree 21</text>
+  <rect x="513.5" y="368.4" width="523.6" height="46.0" rx="6"/>
+  <text x="775.3" y="398.4" text-anchor="middle">Chinese Odyssey 2002 (2002) · 22 connections</text>
 </g>
 <g id="t-tt0092263" class="tooltip">
-  <rect x="560.5" y="427.7" width="428.4" height="46.0" rx="6"/>
-  <text x="774.7" y="457.7" text-anchor="middle">A Better Tomorrow (1986) · degree 20</text>
+  <rect x="686.2" y="382.5" width="487.9" height="46.0" rx="6"/>
+  <text x="930.1" y="412.5" text-anchor="middle">A Better Tomorrow (1986) · 21 connections</text>
+</g>
+<g id="t-tt0099426" class="tooltip">
+  <rect x="631.3" y="445.0" width="499.8" height="46.0" rx="6"/>
+  <text x="881.2" y="475.0" text-anchor="middle">Bullet in the Head (1990) · 21 connections</text>
+</g>
+<g id="t-tt0118694" class="tooltip">
+  <rect x="443.5" y="374.2" width="523.6" height="46.0" rx="6"/>
+  <text x="705.3" y="404.2" text-anchor="middle">In the Mood for Love (2000) · 21 connections</text>
+</g>
+<g id="t-tt0098019" class="tooltip">
+  <rect x="584.3" y="427.7" width="380.8" height="46.0" rx="6"/>
+  <text x="774.7" y="457.7" text-anchor="middle">Miracles (1989) · 21 connections</text>
+</g>
+<g id="t-tt0190332" class="tooltip">
+  <rect x="550.1" y="369.5" width="642.6" height="46.0" rx="6"/>
+  <text x="871.4" y="399.5" text-anchor="middle">Crouching Tiger, Hidden Dragon (2000) · 20 connections</text>
 </g>
 <g id="t-tt0374339" class="tooltip">
-  <rect x="639.4" y="369.5" width="464.1" height="46.0" rx="6"/>
-  <text x="871.4" y="399.5" text-anchor="middle">Infernal Affairs III (2003) · degree 20</text>
+  <rect x="574.8" y="420.5" width="523.6" height="46.0" rx="6"/>
+  <text x="836.6" y="450.5" text-anchor="middle">Infernal Affairs III (2003) · 20 connections</text>
 </g>
 <g id="t-tt0093944" class="tooltip">
-  <rect x="551.0" y="420.5" width="571.2" height="46.0" rx="6"/>
-  <text x="836.6" y="450.5" text-anchor="middle">My Heart Is That Eternal Rose (1989) · degree 20</text>
+  <rect x="336.9" y="394.3" width="630.7" height="46.0" rx="6"/>
+  <text x="652.2" y="424.3" text-anchor="middle">My Heart Is That Eternal Rose (1989) · 20 connections</text>
 </g>
 <g id="t-tt0100973" class="tooltip">
-  <rect x="461.8" y="394.3" width="380.8" height="46.0" rx="6"/>
-  <text x="652.2" y="424.3" text-anchor="middle">The Swordsman (1990) · degree 20</text>
+  <rect x="550.2" y="471.3" width="440.3" height="46.0" rx="6"/>
+  <text x="770.4" y="501.3" text-anchor="middle">The Swordsman (1990) · 20 connections</text>
 </g>
 <g id="t-tt0156587" class="tooltip">
-  <rect x="688.9" y="218.6" width="452.2" height="46.0" rx="6"/>
-  <text x="915.0" y="248.6" text-anchor="middle">Flowers of Shanghai (1998) · degree 19</text>
+  <rect x="279.3" y="431.6" width="511.7" height="46.0" rx="6"/>
+  <text x="535.1" y="461.6" text-anchor="middle">Flowers of Shanghai (1998) · 19 connections</text>
 </g>
 <g id="t-tt0338564" class="tooltip">
-  <rect x="765.2" y="254.3" width="416.5" height="46.0" rx="6"/>
-  <text x="973.4" y="284.3" text-anchor="middle">Infernal Affairs (2002) · degree 19</text>
-</g>
-<g id="t-tt0096472" class="tooltip">
-  <rect x="878.5" y="518.5" width="392.7" height="46.0" rx="6"/>
-  <text x="1074.8" y="548.5" text-anchor="middle">School on Fire (1988) · degree 19</text>
-</g>
-<g id="t-tt0093978" class="tooltip">
-  <rect x="713.2" y="280.1" width="476.0" height="46.0" rx="6"/>
-  <text x="951.2" y="310.1" text-anchor="middle">A Chinese Ghost Story (1987) · degree 18</text>
-</g>
-<g id="t-tt0096461" class="tooltip">
-  <rect x="551.5" y="529.8" width="392.7" height="46.0" rx="6"/>
-  <text x="747.9" y="559.8" text-anchor="middle">As Tears Go By (1988) · degree 18</text>
-</g>
-<g id="t-tt0109424" class="tooltip">
-  <rect x="742.3" y="544.9" width="428.4" height="46.0" rx="6"/>
-  <text x="956.5" y="574.9" text-anchor="middle">Chungking Express (1994) · degree 18</text>
-</g>
-<g id="t-tt0089177" class="tooltip">
-  <rect x="588.4" y="230.1" width="392.7" height="46.0" rx="6"/>
-  <text x="784.8" y="260.1" text-anchor="middle">My Lucky Stars (1985) · degree 18</text>
+  <rect x="729.5" y="514.9" width="476.0" height="46.0" rx="6"/>
+  <text x="967.5" y="544.9" text-anchor="middle">Infernal Affairs (2002) · 19 connections</text>
 </g>
 <g id="t-tt0101020" class="tooltip">
-  <rect x="315.8" y="551.1" width="368.9" height="46.0" rx="6"/>
-  <text x="500.3" y="581.1" text-anchor="middle">Once a Thief (1991) · degree 18</text>
+  <rect x="278.1" y="518.6" width="428.4" height="46.0" rx="6"/>
+  <text x="492.3" y="548.6" text-anchor="middle">Once a Thief (1991) · 19 connections</text>
+</g>
+<g id="t-tt0096472" class="tooltip">
+  <rect x="387.9" y="596.4" width="452.2" height="46.0" rx="6"/>
+  <text x="614.0" y="626.4" text-anchor="middle">School on Fire (1988) · 19 connections</text>
+</g>
+<g id="t-tt0093978" class="tooltip">
+  <rect x="134.7" y="445.6" width="535.5" height="46.0" rx="6"/>
+  <text x="402.4" y="475.6" text-anchor="middle">A Chinese Ghost Story (1987) · 18 connections</text>
+</g>
+<g id="t-tt0096461" class="tooltip">
+  <rect x="251.2" y="279.2" width="452.2" height="46.0" rx="6"/>
+  <text x="477.3" y="309.2" text-anchor="middle">As Tears Go By (1988) · 18 connections</text>
+</g>
+<g id="t-tt0109424" class="tooltip">
+  <rect x="902.3" y="339.8" width="487.9" height="46.0" rx="6"/>
+  <text x="1146.3" y="369.8" text-anchor="middle">Chungking Express (1994) · 18 connections</text>
+</g>
+<g id="t-tt0089177" class="tooltip">
+  <rect x="723.2" y="547.7" width="452.2" height="46.0" rx="6"/>
+  <text x="949.3" y="577.7" text-anchor="middle">My Lucky Stars (1985) · 18 connections</text>
 </g>
 <g id="t-tt0089374" class="tooltip">
-  <rect x="376.5" y="308.2" width="368.9" height="46.0" rx="6"/>
-  <text x="560.9" y="338.2" text-anchor="middle">Police Story (1985) · degree 18</text>
-</g>
-<g id="t-tt0103295" class="tooltip">
-  <rect x="424.8" y="504.3" width="368.9" height="46.0" rx="6"/>
-  <text x="609.3" y="534.3" text-anchor="middle">Swordsman II (1992) · degree 17</text>
-</g>
-<g id="t-tt0105655" class="tooltip">
-  <rect x="1045.1" y="389.6" width="404.6" height="46.0" rx="6"/>
-  <text x="1247.4" y="419.6" text-anchor="middle">The East Is Red (1993) · degree 17</text>
-</g>
-<g id="t-tt0080827" class="tooltip">
-  <rect x="358.4" y="589.6" width="571.2" height="46.0" rx="6"/>
-  <text x="644.0" y="619.6" text-anchor="middle">Encounters of the Spooky Kind (1980) · degree 16</text>
+  <rect x="813.6" y="230.7" width="428.4" height="46.0" rx="6"/>
+  <text x="1027.8" y="260.7" text-anchor="middle">Police Story (1985) · 18 connections</text>
 </g>
 <g id="t-tt0093304" class="tooltip">
-  <rect x="492.2" y="202.3" width="392.7" height="46.0" rx="6"/>
-  <text x="688.5" y="232.3" text-anchor="middle">Prison on Fire (1987) · degree 16</text>
+  <rect x="572.9" y="177.4" width="452.2" height="46.0" rx="6"/>
+  <text x="799.0" y="207.4" text-anchor="middle">Prison on Fire (1987) · 17 connections</text>
 </g>
-<g id="t-tt0091293" class="tooltip">
-  <rect x="383.7" y="261.5" width="392.7" height="46.0" rx="6"/>
-  <text x="580.1" y="291.5" text-anchor="middle">Mr. Vampire II (1986) · degree 15</text>
+<g id="t-tt0103295" class="tooltip">
+  <rect x="141.9" y="351.6" width="428.4" height="46.0" rx="6"/>
+  <text x="356.1" y="381.6" text-anchor="middle">Swordsman II (1992) · 17 connections</text>
 </g>
-<g id="t-tt0095403" class="tooltip">
-  <rect x="670.0" y="522.2" width="392.7" height="46.0" rx="6"/>
-  <text x="866.4" y="552.2" text-anchor="middle">Police Story 2 (1988) · degree 15</text>
+<g id="t-tt0105655" class="tooltip">
+  <rect x="439.0" y="584.4" width="464.1" height="46.0" rx="6"/>
+  <text x="671.0" y="614.4" text-anchor="middle">The East Is Red (1993) · 17 connections</text>
 </g>
-<g id="t-tt0093258" class="tooltip">
-  <rect x="232.6" y="318.1" width="285.6" height="46.0" rx="6"/>
-  <text x="375.4" y="348.1" text-anchor="middle">Rouge (1987) · degree 15</text>
+<g id="t-tt0080827" class="tooltip">
+  <rect x="187.0" y="562.0" width="630.7" height="46.0" rx="6"/>
+  <text x="502.3" y="592.0" text-anchor="middle">Encounters of the Spooky Kind (1980) · 16 connections</text>
 </g>
 <g id="t-tt0093435" class="tooltip">
-  <rect x="337.1" y="442.9" width="368.9" height="46.0" rx="6"/>
-  <text x="521.6" y="472.9" text-anchor="middle">City on Fire (1987) · degree 14</text>
+  <rect x="513.9" y="209.0" width="428.4" height="46.0" rx="6"/>
+  <text x="728.1" y="239.0" text-anchor="middle">City on Fire (1987) · 15 connections</text>
+</g>
+<g id="t-tt0091293" class="tooltip">
+  <rect x="883.4" y="293.8" width="452.2" height="46.0" rx="6"/>
+  <text x="1109.5" y="323.8" text-anchor="middle">Mr. Vampire II (1986) · 15 connections</text>
+</g>
+<g id="t-tt0095403" class="tooltip">
+  <rect x="360.8" y="254.9" width="452.2" height="46.0" rx="6"/>
+  <text x="586.9" y="284.9" text-anchor="middle">Police Story 2 (1988) · 15 connections</text>
+</g>
+<g id="t-tt0093258" class="tooltip">
+  <rect x="344.1" y="488.2" width="345.1" height="46.0" rx="6"/>
+  <text x="516.6" y="518.2" text-anchor="middle">Rouge (1987) · 15 connections</text>
 </g>
 <g id="t-tt0089371" class="tooltip">
-  <rect x="926.7" y="480.0" width="357.0" height="46.0" rx="6"/>
-  <text x="1105.2" y="510.0" text-anchor="middle">Mr. Vampire (1985) · degree 13</text>
+  <rect x="843.4" y="523.1" width="416.5" height="46.0" rx="6"/>
+  <text x="1051.7" y="553.1" text-anchor="middle">Mr. Vampire (1985) · 13 connections</text>
 </g>
 <g id="t-tt0084248" class="tooltip">
-  <rect x="277.9" y="479.8" width="285.6" height="46.0" rx="6"/>
-  <text x="420.7" y="509.8" text-anchor="middle">Nomad (1982) · degree 13</text>
-</g>
-<g id="t-tt0081499" class="tooltip">
-  <rect x="804.1" y="543.4" width="416.5" height="46.0" rx="6"/>
-  <text x="1012.4" y="573.4" text-anchor="middle">The Young Master (1980) · degree 13</text>
-</g>
-<g id="t-tt0090956" class="tooltip">
-  <rect x="850.5" y="312.5" width="404.6" height="46.0" rx="6"/>
-  <text x="1052.8" y="342.5" text-anchor="middle">Eastern Condors (1987) · degree 12</text>
-</g>
-<g id="t-tt0312886" class="tooltip">
-  <rect x="282.6" y="406.1" width="380.8" height="46.0" rx="6"/>
-  <text x="473.0" y="436.1" text-anchor="middle">July Rhapsody (2002) · degree 12</text>
-</g>
-<g id="t-tt0093422" class="tooltip">
-  <rect x="212.8" y="404.1" width="404.6" height="46.0" rx="6"/>
-  <text x="415.1" y="434.1" text-anchor="middle">Mr. Vampire III (1987) · degree 12</text>
+  <rect x="487.9" y="273.7" width="345.1" height="46.0" rx="6"/>
+  <text x="660.4" y="303.7" text-anchor="middle">Nomad (1982) · 13 connections</text>
 </g>
 <g id="t-tt0103044" class="tooltip">
-  <rect x="596.9" y="535.8" width="428.4" height="46.0" rx="6"/>
-  <text x="811.1" y="565.8" text-anchor="middle">Prison on Fire II (1991) · degree 12</text>
-</g>
-<g id="t-tt0369060" class="tooltip">
-  <rect x="295.3" y="232.7" width="452.2" height="46.0" rx="6"/>
-  <text x="521.4" y="262.7" text-anchor="middle">Infernal Affairs II (2003) · degree 11</text>
-</g>
-<g id="t-tt0099881" class="tooltip">
-  <rect x="413.1" y="222.2" width="392.7" height="46.0" rx="6"/>
-  <text x="609.5" y="252.2" text-anchor="middle">Mr. Vampire IV (1988) · degree 11</text>
-</g>
-<g id="t-tt0099000" class="tooltip">
-  <rect x="992.2" y="470.3" width="392.7" height="46.0" rx="6"/>
-  <text x="1188.5" y="500.3" text-anchor="middle">Farewell China (1990) · degree 10</text>
-</g>
-<g id="t-tt0085864" class="tooltip">
-  <rect x="253.2" y="353.8" width="428.4" height="46.0" rx="6"/>
-  <text x="467.4" y="383.8" text-anchor="middle">Fearless Hyena II (1983) · degree 10</text>
+  <rect x="349.2" y="226.3" width="487.9" height="46.0" rx="6"/>
+  <text x="593.2" y="256.3" text-anchor="middle">Prison on Fire II (1991) · 13 connections</text>
 </g>
 <g id="t-tt0091229" class="tooltip">
-  <rect x="646.4" y="214.3" width="392.7" height="46.0" rx="6"/>
-  <text x="842.7" y="244.3" text-anchor="middle">Royal Warriors (1986) · degree 10</text>
+  <rect x="452.1" y="512.7" width="452.2" height="46.0" rx="6"/>
+  <text x="678.2" y="542.7" text-anchor="middle">Royal Warriors (1986) · 13 connections</text>
 </g>
-<g id="t-tt0079315" class="tooltip">
-  <rect x="149.4" y="389.5" width="440.3" height="46.0" rx="6"/>
-  <text x="369.5" y="419.5" text-anchor="middle">The Fearless Hyena (1979) · degree 10</text>
+<g id="t-tt0081499" class="tooltip">
+  <rect x="616.0" y="245.0" width="476.0" height="46.0" rx="6"/>
+  <text x="854.0" y="275.0" text-anchor="middle">The Young Master (1980) · 13 connections</text>
 </g>
-<g id="t-tt0097202" class="tooltip">
-  <rect x="251.8" y="281.5" width="345.1" height="46.0" rx="6"/>
-  <text x="424.4" y="311.5" text-anchor="middle">The Killer (1989) · degree 10</text>
+<g id="t-tt0090956" class="tooltip">
+  <rect x="577.0" y="612.0" width="464.1" height="46.0" rx="6"/>
+  <text x="809.0" y="642.0" text-anchor="middle">Eastern Condors (1987) · 12 connections</text>
 </g>
-<g id="t-tt0093426" class="tooltip">
-  <rect x="365.7" y="577.3" width="404.6" height="46.0" rx="6"/>
-  <text x="568.0" y="607.3" text-anchor="middle">An Autumn’s Tale (1987) · degree 9</text>
+<g id="t-tt0312886" class="tooltip">
+  <rect x="709.2" y="606.3" width="440.3" height="46.0" rx="6"/>
+  <text x="929.3" y="636.3" text-anchor="middle">July Rhapsody (2002) · 12 connections</text>
 </g>
-<g id="t-tt0112913" class="tooltip">
-  <rect x="386.5" y="480.8" width="368.9" height="46.0" rx="6"/>
-  <text x="571.0" y="510.8" text-anchor="middle">Fallen Angels (1995) · degree 9</text>
+<g id="t-tt0093422" class="tooltip">
+  <rect x="223.9" y="253.6" width="464.1" height="46.0" rx="6"/>
+  <text x="455.9" y="283.6" text-anchor="middle">Mr. Vampire III (1987) · 12 connections</text>
 </g>
-<g id="t-tt0092264" class="tooltip">
-  <rect x="875.6" y="419.7" width="452.2" height="46.0" rx="6"/>
-  <text x="1101.7" y="449.7" text-anchor="middle">Heroes Shed No Tears (1984) · degree 9</text>
-</g>
-<g id="t-tt0079472" class="tooltip">
-  <rect x="227.8" y="241.2" width="487.9" height="46.0" rx="6"/>
-  <text x="471.8" y="271.2" text-anchor="middle">The Magnificent Butcher (1979) · degree 9</text>
+<g id="t-tt0369060" class="tooltip">
+  <rect x="318.8" y="282.7" width="511.7" height="46.0" rx="6"/>
+  <text x="574.7" y="312.7" text-anchor="middle">Infernal Affairs II (2003) · 11 connections</text>
 </g>
 <g id="t-tt0094375" class="tooltip">
-  <rect x="493.5" y="180.3" width="452.2" height="46.0" rx="6"/>
-  <text x="719.6" y="210.3" text-anchor="middle">Magnificent Warriors (1987) · degree 8</text>
+  <rect x="868.1" y="371.1" width="523.6" height="46.0" rx="6"/>
+  <text x="1129.9" y="401.1" text-anchor="middle">Magnificent Warriors (1987) · 11 connections</text>
 </g>
-<g id="t-tt0080964" class="tooltip">
-  <rect x="780.9" y="48.7" width="321.3" height="46.0" rx="6"/>
-  <text x="941.6" y="78.7" text-anchor="middle">Cute Girl (1980) · degree 7</text>
+<g id="t-tt0099881" class="tooltip">
+  <rect x="435.9" y="235.3" width="452.2" height="46.0" rx="6"/>
+  <text x="662.0" y="265.3" text-anchor="middle">Mr. Vampire IV (1988) · 11 connections</text>
 </g>
-<g id="t-tt0080623" class="tooltip">
-  <rect x="1086.1" y="624.4" width="476.0" height="46.0" rx="6"/>
-  <text x="1324.1" y="654.4" text-anchor="middle">Half a Loaf of Kung Fu (1978) · degree 7</text>
+<g id="t-tt0097202" class="tooltip">
+  <rect x="383.9" y="473.6" width="404.6" height="46.0" rx="6"/>
+  <text x="586.2" y="503.6" text-anchor="middle">The Killer (1989) · 11 connections</text>
 </g>
-<g id="t-tt0077655" class="tooltip">
-  <rect x="8.0" y="520.2" width="499.8" height="46.0" rx="6"/>
-  <text x="257.9" y="550.2" text-anchor="middle">Last Hurrah for Chivalry (1979) · degree 7</text>
+<g id="t-tt0093426" class="tooltip">
+  <rect x="185.2" y="408.1" width="476.0" height="46.0" rx="6"/>
+  <text x="423.2" y="438.1" text-anchor="middle">An Autumn’s Tale (1987) · 10 connections</text>
 </g>
-<g id="t-tt0102293" class="tooltip">
-  <rect x="164.5" y="128.7" width="535.5" height="46.0" rx="6"/>
-  <text x="432.2" y="158.7" text-anchor="middle">Riki-Oh: The Story of Ricky (1991) · degree 7</text>
+<g id="t-tt0099000" class="tooltip">
+  <rect x="375.5" y="565.9" width="452.2" height="46.0" rx="6"/>
+  <text x="601.6" y="595.9" text-anchor="middle">Farewell China (1990) · 10 connections</text>
+</g>
+<g id="t-tt0085864" class="tooltip">
+  <rect x="826.7" y="313.3" width="487.9" height="46.0" rx="6"/>
+  <text x="1070.7" y="343.3" text-anchor="middle">Fearless Hyena II (1983) · 10 connections</text>
+</g>
+<g id="t-tt0079315" class="tooltip">
+  <rect x="534.1" y="559.3" width="499.8" height="46.0" rx="6"/>
+  <text x="784.0" y="589.3" text-anchor="middle">The Fearless Hyena (1979) · 10 connections</text>
+</g>
+<g id="t-tt0112913" class="tooltip">
+  <rect x="711.5" y="253.4" width="428.4" height="46.0" rx="6"/>
+  <text x="925.7" y="283.4" text-anchor="middle">Fallen Angels (1995) · 9 connections</text>
+</g>
+<g id="t-tt0092264" class="tooltip">
+  <rect x="757.7" y="583.8" width="511.7" height="46.0" rx="6"/>
+  <text x="1013.6" y="613.8" text-anchor="middle">Heroes Shed No Tears (1984) · 9 connections</text>
+</g>
+<g id="t-tt0079472" class="tooltip">
+  <rect x="934.8" y="491.6" width="547.4" height="46.0" rx="6"/>
+  <text x="1208.5" y="521.6" text-anchor="middle">The Magnificent Butcher (1979) · 9 connections</text>
 </g>
 <g id="t-tt0101985" class="tooltip">
-  <rect x="1127.9" y="361.7" width="464.1" height="46.0" rx="6"/>
-  <text x="1360.0" y="391.7" text-anchor="middle">A Brighter Summer Day (1991) · degree 6</text>
+  <rect x="685.6" y="114.5" width="523.6" height="46.0" rx="6"/>
+  <text x="947.4" y="144.5" text-anchor="middle">A Brighter Summer Day (1991) · 7 connections</text>
+</g>
+<g id="t-tt0080964" class="tooltip">
+  <rect x="1062.4" y="196.0" width="380.8" height="46.0" rx="6"/>
+  <text x="1252.8" y="226.0" text-anchor="middle">Cute Girl (1980) · 7 connections</text>
+</g>
+<g id="t-tt0080623" class="tooltip">
+  <rect x="1040.1" y="611.1" width="535.5" height="46.0" rx="6"/>
+  <text x="1307.9" y="641.1" text-anchor="middle">Half a Loaf of Kung Fu (1978) · 7 connections</text>
+</g>
+<g id="t-tt0077655" class="tooltip">
+  <rect x="828.5" y="704.9" width="559.3" height="46.0" rx="6"/>
+  <text x="1108.2" y="734.9" text-anchor="middle">Last Hurrah for Chivalry (1979) · 7 connections</text>
+</g>
+<g id="t-tt0102293" class="tooltip">
+  <rect x="8.0" y="294.7" width="595.0" height="46.0" rx="6"/>
+  <text x="305.5" y="324.7" text-anchor="middle">Riki-Oh: The Story of Ricky (1991) · 7 connections</text>
 </g>
 <g id="t-tt0083352" class="tooltip">
-  <rect x="565.6" y="94.0" width="345.1" height="46.0" rx="6"/>
-  <text x="738.1" y="124.0" text-anchor="middle">Dreadnaught (1981) · degree 6</text>
+  <rect x="347.5" y="101.0" width="404.6" height="46.0" rx="6"/>
+  <text x="549.8" y="131.0" text-anchor="middle">Dreadnaught (1981) · 6 connections</text>
+</g>
+<g id="t-tt6710474" class="tooltip">
+  <rect x="925.6" y="379.4" width="666.4" height="46.0" rx="6"/>
+  <text x="1258.8" y="409.4" text-anchor="middle">Everything Everywhere All at Once (2022) · 6 connections</text>
+</g>
+<g id="t-tt1262426" class="tooltip">
+  <rect x="8.0" y="359.1" width="345.1" height="46.0" rx="6"/>
+  <text x="180.6" y="389.1" text-anchor="middle">Wicked (2024) · 6 connections</text>
 </g>
 <g id="t-tt0283283" class="tooltip">
-  <rect x="211.2" y="674.7" width="404.6" height="46.0" rx="6"/>
-  <text x="413.5" y="704.7" text-anchor="middle">Millennium Mambo (2001) · degree 5</text>
+  <rect x="488.2" y="111.4" width="464.1" height="46.0" rx="6"/>
+  <text x="720.3" y="141.4" text-anchor="middle">Millennium Mambo (2001) · 5 connections</text>
 </g>
 <g id="t-tt0120530" class="tooltip">
-  <rect x="937.5" y="469.7" width="654.5" height="46.0" rx="6"/>
-  <text x="1264.8" y="499.7" text-anchor="middle">Once Upon a Time in China and America (1997) · degree 5</text>
+  <rect x="147.2" y="719.1" width="714.0" height="46.0" rx="6"/>
+  <text x="504.2" y="749.1" text-anchor="middle">Once Upon a Time in China and America (1997) · 5 connections</text>
 </g>
 <g id="t-tt0415380" class="tooltip">
-  <rect x="8.0" y="418.1" width="333.2" height="46.0" rx="6"/>
-  <text x="174.6" y="448.1" text-anchor="middle">Throw Down (2004) · degree 5</text>
+  <rect x="38.5" y="540.5" width="392.7" height="46.0" rx="6"/>
+  <text x="234.9" y="570.5" text-anchor="middle">Throw Down (2004) · 5 connections</text>
 </g>
 <g id="t-tt0084807" class="tooltip">
-  <rect x="8.0" y="473.7" width="345.1" height="46.0" rx="6"/>
-  <text x="180.6" y="503.7" text-anchor="middle">Boat People (1982) · degree 4</text>
+  <rect x="331.6" y="145.6" width="404.6" height="46.0" rx="6"/>
+  <text x="533.9" y="175.6" text-anchor="middle">Boat People (1982) · 4 connections</text>
 </g>
 <g id="t-tt8185182" class="tooltip">
-  <rect x="8.0" y="583.5" width="559.3" height="46.0" rx="6"/>
-  <text x="287.7" y="613.5" text-anchor="middle">Long Day’s Journey Into Night (2018) · degree 4</text>
-</g>
-<g id="t-tt0086631" class="tooltip">
-  <rect x="1020.8" y="569.9" width="571.2" height="46.0" rx="6"/>
-  <text x="1306.4" y="599.9" text-anchor="middle">The Green, Green Grass of Home (1982) · degree 4</text>
-</g>
-<g id="t-tt0244316" class="tooltip">
-  <rect x="871.8" y="88.6" width="273.7" height="46.0" rx="6"/>
-  <text x="1008.6" y="118.6" text-anchor="middle">Yi Yi (2000) · degree 4</text>
-</g>
-<g id="t-tt0109685" class="tooltip">
-  <rect x="877.8" y="80.2" width="464.1" height="46.0" rx="6"/>
-  <text x="1109.8" y="110.2" text-anchor="middle">A Confucian Confusion (1994) · degree 3</text>
-</g>
-<g id="t-tt0064451" class="tooltip">
-  <rect x="216.2" y="598.5" width="380.8" height="46.0" rx="6"/>
-  <text x="406.6" y="628.5" text-anchor="middle">A Touch of Zen (1971) · degree 3</text>
+  <rect x="789.3" y="84.9" width="618.8" height="46.0" rx="6"/>
+  <text x="1098.7" y="114.9" text-anchor="middle">Long Day’s Journey Into Night (2018) · 4 connections</text>
 </g>
 <g id="t-tt0116962" class="tooltip">
-  <rect x="1089.4" y="575.6" width="297.5" height="46.0" rx="6"/>
-  <text x="1238.2" y="605.6" text-anchor="middle">Mahjong (1996) · degree 3</text>
+  <rect x="348.7" y="678.7" width="357.0" height="46.0" rx="6"/>
+  <text x="527.2" y="708.7" text-anchor="middle">Mahjong (1996) · 4 connections</text>
+</g>
+<g id="t-tt0086631" class="tooltip">
+  <rect x="699.8" y="74.4" width="630.7" height="46.0" rx="6"/>
+  <text x="1015.2" y="104.4" text-anchor="middle">The Green, Green Grass of Home (1982) · 4 connections</text>
+</g>
+<g id="t-tt0244316" class="tooltip">
+  <rect x="960.9" y="632.2" width="333.2" height="46.0" rx="6"/>
+  <text x="1127.5" y="662.2" text-anchor="middle">Yi Yi (2000) · 4 connections</text>
+</g>
+<g id="t-tt0109685" class="tooltip">
+  <rect x="1068.4" y="528.9" width="523.6" height="46.0" rx="6"/>
+  <text x="1330.2" y="558.9" text-anchor="middle">A Confucian Confusion (1994) · 3 connections</text>
+</g>
+<g id="t-tt0064451" class="tooltip">
+  <rect x="1147.2" y="396.9" width="440.3" height="46.0" rx="6"/>
+  <text x="1367.3" y="426.9" text-anchor="middle">A Touch of Zen (1971) · 3 connections</text>
 </g>
 <g id="t-tt29002950" class="tooltip">
-  <rect x="468.8" y="71.2" width="357.0" height="46.0" rx="6"/>
-  <text x="647.3" y="101.2" text-anchor="middle">Resurrection (2025) · degree 3</text>
+  <rect x="689.0" y="84.4" width="416.5" height="46.0" rx="6"/>
+  <text x="897.2" y="114.4" text-anchor="middle">Resurrection (2025) · 3 connections</text>
 </g>
 <g id="t-tt0089866" class="tooltip">
-  <rect x="1073.9" y="140.9" width="357.0" height="46.0" rx="6"/>
-  <text x="1252.4" y="170.9" text-anchor="middle">Taipei Story (1985) · degree 3</text>
+  <rect x="266.7" y="165.5" width="416.5" height="46.0" rx="6"/>
+  <text x="474.9" y="195.5" text-anchor="middle">Taipei Story (1985) · 3 connections</text>
 </g>
 <g id="t-tt29271889" class="tooltip">
-  <rect x="634.8" y="678.0" width="440.3" height="46.0" rx="6"/>
-  <text x="855.0" y="708.0" text-anchor="middle">Daughter’s Daughter (2024) · degree 2</text>
+  <rect x="924.3" y="172.1" width="499.8" height="46.0" rx="6"/>
+  <text x="1174.2" y="202.1" text-anchor="middle">Daughter’s Daughter (2024) · 2 connections</text>
 </g>
 <g id="t-tt0060635" class="tooltip">
-  <rect x="77.0" y="370.4" width="333.2" height="46.0" rx="6"/>
-  <text x="243.6" y="400.4" text-anchor="middle">Dragon Inn (1967) · degree 2</text>
+  <rect x="8.0" y="312.5" width="392.7" height="46.0" rx="6"/>
+  <text x="204.3" y="342.5" text-anchor="middle">Dragon Inn (1967) · 2 connections</text>
 </g>
 <g id="t-tt0092252" class="tooltip">
-  <rect x="1282.6" y="457.7" width="309.4" height="46.0" rx="6"/>
-  <text x="1437.3" y="487.7" text-anchor="middle">Evil Cat (1987) · degree 2</text>
+  <rect x="1190.3" y="585.4" width="368.9" height="46.0" rx="6"/>
+  <text x="1374.8" y="615.4" text-anchor="middle">Evil Cat (1987) · 2 connections</text>
 </g>
 <g id="t-tt27590147" class="tooltip">
-  <rect x="1069.5" y="205.4" width="452.2" height="46.0" rx="6"/>
-  <text x="1295.6" y="235.4" text-anchor="middle">Only the River Flows (2023) · degree 2</text>
+  <rect x="496.3" y="84.8" width="511.7" height="46.0" rx="6"/>
+  <text x="752.2" y="114.8" text-anchor="middle">Only the River Flows (2023) · 2 connections</text>
 </g>
 <g id="t-tt0085533" class="tooltip">
-  <rect x="613.7" y="728.4" width="476.0" height="46.0" rx="6"/>
-  <text x="851.7" y="758.4" text-anchor="middle">The Boys from Fengkuei (1983) · degree 2</text>
+  <rect x="541.1" y="95.0" width="535.5" height="46.0" rx="6"/>
+  <text x="808.8" y="125.0" text-anchor="middle">The Boys from Fengkuei (1983) · 2 connections</text>
 </g>
 <g id="t-tt30439035" class="tooltip">
-  <rect x="381.9" y="726.4" width="416.5" height="46.0" rx="6"/>
-  <text x="590.1" y="756.4" text-anchor="middle">All Shall Be Well (2024) · degree 1</text>
+  <rect x="133.3" y="630.4" width="476.0" height="46.0" rx="6"/>
+  <text x="371.3" y="660.4" text-anchor="middle">All Shall Be Well (2024) · 1 connections</text>
 </g>
 <g id="t-tt0292066" class="tooltip">
-  <rect x="135.1" y="593.4" width="285.6" height="46.0" rx="6"/>
-  <text x="277.9" y="623.4" text-anchor="middle">Lan Yu (2001) · degree 1</text>
+  <rect x="781.5" y="683.7" width="345.1" height="46.0" rx="6"/>
+  <text x="954.0" y="713.7" text-anchor="middle">Lan Yu (2001) · 1 connections</text>
 </g>
 </svg>

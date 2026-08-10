@@ -258,12 +258,12 @@ def build_hex_grid():
 
     lc_target = {c: mds_scaled[lc_idx[c]] for c in large_clusters}
 
-    # Manual layout swap, by request: put these two clusters in each other's
-    # data-driven (shared-actor MDS) position on the grid.
-    SWAPPED_POSITIONS = ('bergman_scandinavian', 'transatlantic_auteur_cinema')
-    a, b = SWAPPED_POSITIONS
-    if a in lc_target and b in lc_target:
-        lc_target[a], lc_target[b] = lc_target[b], lc_target[a]
+    # A prior hand-requested layout swap applied to 'bergman_scandinavian'
+    # and 'transatlantic_auteur_cinema'. Neither cluster ID exists after the
+    # 2026-07-31 rebuild (see data/cluster_naming_report.md) -- their
+    # replacements (scandinavian_bergman_circle; transatlantic_auteur_cinema
+    # folded into european_art_cinema) use their plain data-driven MDS
+    # position instead, since no fresh swap was requested for this layout.
 
     used_seeds = set()
     seeds = {}

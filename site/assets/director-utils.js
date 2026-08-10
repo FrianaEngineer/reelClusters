@@ -11,32 +11,35 @@
   // on its site/clusters/<id>.html page (see site/clusters/*.html "object
   // data=" attributes). hiddenGems has no node visualization -- its
   // cluster page is a text-only small-cluster analysis, not a network.
+  // 2026-07-31 rebuild: cluster set changed (see data/cluster_naming_report.md).
   var CLUSTER_VIZ_SVG = {
-    anglophone_classic: "anglophone_classic_rings.svg",
-    bergman_scandinavian: "bergman_scandinavian_rings.svg",
-    czech_new_wave: "czech_new_wave_graph.svg",
+    modern_american_cinema: "modern_american_cinema_rings.svg",
     european_art_cinema: "european_art_cinema_rings.svg",
+    golden_age_hollywood_british: "golden_age_hollywood_british_rings.svg",
+    classic_japanese_cinema: "classic_japanese_cinema_rings.svg",
+    japanese_new_wave_genre: "japanese_new_wave_genre_rings.svg",
     hong_kong_taiwan_cinema: "hong_kong_taiwan_cinema_rings.svg",
-    japanese_cinema: "japanese_cinema_rings.svg",
-    satyajit_ray_indian: "satyajit_ray_indian_graph.svg",
+    scandinavian_bergman_circle: "scandinavian_bergman_circle_rings.svg",
+    czech_new_wave: "czech_new_wave_graph.svg",
+    silent_era_comedy: "silent_era_comedy_graph.svg",
     soviet_cinema: "soviet_cinema_graph.svg",
-    transatlantic_auteur_cinema: "transatlantic_auteur_cinema_rings.svg",
-    youssef_chahine_egyptian: "youssef_chahine_egyptian_graph.svg",
+    satyajit_ray_indian: "satyajit_ray_indian_graph.svg",
     hiddenGems: null
   };
 
   // site/clusters/<id>.html page for each cluster (for "view full cluster" links).
   var CLUSTER_PAGE = {
-    anglophone_classic: "clusters/anglophone_classic.html",
-    bergman_scandinavian: "clusters/bergman_scandinavian.html",
-    czech_new_wave: "clusters/czech_new_wave.html",
+    modern_american_cinema: "clusters/modern_american_cinema.html",
     european_art_cinema: "clusters/european_art_cinema.html",
+    golden_age_hollywood_british: "clusters/golden_age_hollywood_british.html",
+    classic_japanese_cinema: "clusters/classic_japanese_cinema.html",
+    japanese_new_wave_genre: "clusters/japanese_new_wave_genre.html",
     hong_kong_taiwan_cinema: "clusters/hong_kong_taiwan_cinema.html",
-    japanese_cinema: "clusters/japanese_cinema.html",
-    satyajit_ray_indian: "clusters/satyajit_ray_indian.html",
+    scandinavian_bergman_circle: "clusters/scandinavian_bergman_circle.html",
+    czech_new_wave: "clusters/czech_new_wave.html",
+    silent_era_comedy: "clusters/silent_era_comedy.html",
     soviet_cinema: "clusters/soviet_cinema.html",
-    transatlantic_auteur_cinema: "clusters/transatlantic_auteur_cinema.html",
-    youssef_chahine_egyptian: "clusters/youssef_chahine_egyptian.html",
+    satyajit_ray_indian: "clusters/satyajit_ray_indian.html",
     hiddenGems: "clusters/hiddenGems.html"
   };
 

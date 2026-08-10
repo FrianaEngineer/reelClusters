@@ -1,19 +1,23 @@
 """
-Frame-by-frame reveal schedule for the Criterion Over Time video. Pure
-logic, no matplotlib -- testable and inspectable on its own.
+Frame-by-frame reveal schedule for the "Reeling Through the Years" video.
+Pure logic, no matplotlib -- testable and inspectable on its own.
 
-Runtime is approximate (target ~20 min, 19-22 min acceptable), NOT pinned to
-an exact duration: it's derived from batching the real film distribution
-into small same-year groups (1-2 films preferred, up to 4 only if needed),
-each shown for ~1.3-1.8s, rather than forcing every historical era into a
-fixed-duration window regardless of how many films actually belong to it.
+Each year reveals its Top-N films (ranked by imdb_rating desc, num_votes as
+tiebreak) one at a time, TOP_FILM_INTERVAL_SECONDS apart, each entrance
+simultaneous with that exact film's hex(es) filling in. Once the Top-N list
+for a year is done, that year's remaining films (beyond the Top-N) gradually
+fill their own exact hexes with no title card, then the video advances to
+the next year. Runtime is DERIVED from this per-year sequence, not pinned to
+any target duration -- see cinematic_history_config.py's per-year pacing
+constants.
 
 Data sources, and only these:
   - data/cinematic_history_hex_snapshot.json (frozen extract of the live
     site/explore.html -- positions, cluster, and final fill color per hex,
     plus which film is narratively attached to which hex).
   - db/criterion_graph.duckdb, read-only, for film metadata (title, director,
-    country, year) of exactly the tconsts the snapshot already placed.
+    country, year, rating, vote count) of exactly the tconsts the snapshot
+    already placed.
   - cinematic_history_config.py for all timing/styling constants.
 
 Never calls build_hex_grid() and never writes to any file outside this
@@ -53,6 +57,18 @@ def blend(c1, c2, t):
     return _rgb_to_hex((r1 + (r2 - r1) * t, g1 + (g2 - g1) * t, b1 + (b2 - b1) * t))
 
 
+def darken(hex_color, factor=cfg.CLUSTER_HEX_BW_DARKEN_FACTOR):
+    """Byte-for-byte identical to hex_svg.py's own darken() (channel *
+    factor, truncated -- not rounded) so a black-and-white/unresolved film's
+    hex matches explore.html's exact color, not just something close to it."""
+    r, g, b = _hex_to_rgb(hex_color)
+    return f"#{int(r * factor):02x}{int(g * factor):02x}{int(b * factor):02x}"
+
+
+def clamp(x, lo, hi):
+    return lo if x < lo else (hi if x > hi else x)
+
+
 # ── Loading ────────────────────────────────────────────────────────────────
 
 def load_snapshot():
@@ -66,6 +82,7 @@ def load_metadata(tconsts):
     df = con.execute("""
         SELECT * FROM (
             SELECT imdb_tconst, title, criterion_year, criterion_director, criterion_country,
+                   imdb_rating, num_votes,
                    row_number() OVER (
                        PARTITION BY imdb_tconst ORDER BY confidence_score DESC NULLS LAST
                    ) AS rn
@@ -77,23 +94,72 @@ def load_metadata(tconsts):
     return df.set_index("imdb_tconst").to_dict("index")
 
 
-def format_credit_line(director, country):
-    parts = [p for p in (director, country) if isinstance(p, str) and p]
-    return "  ·  ".join(parts)
+def load_connections(tconsts):
+    """tconst -> "connections": internal (within-its-OWN-cluster) shared-actor
+    degree -- the identical metric already shown elsewhere on the site (see
+    build_site.py's hub_films()/cluster_ring_viz.py's
+    load_films_with_internal_degree(): count of movie_edges rows linking
+    this film to another film in the SAME cluster_assignments cluster).
+    Films with no cluster_assignments row, or zero same-cluster edges, get 0
+    -- never missing/None, so this is always a plain int ranking key."""
+    if not tconsts:
+        return {}
+    con = duckdb.connect(str(DB_PATH), read_only=True)
+    df = con.execute("""
+        WITH film_edges AS (
+            SELECT movie_a AS m, movie_b AS other FROM movie_edges
+            UNION ALL
+            SELECT movie_b AS m, movie_a AS other FROM movie_edges
+        ),
+        joined AS (
+            SELECT fe.m, ca.cluster_id AS cluster_m, cb.cluster_id AS cluster_other
+            FROM film_edges fe
+            JOIN cluster_assignments ca ON ca.imdb_tconst = fe.m
+            JOIN cluster_assignments cb ON cb.imdb_tconst = fe.other
+        )
+        SELECT m AS imdb_tconst, count(*) FILTER (WHERE cluster_other = cluster_m) AS connections
+        FROM joined GROUP BY m
+    """).df()
+    con.close()
+    by_tconst = dict(zip(df["imdb_tconst"], df["connections"]))
+    return {t: int(by_tconst.get(t, 0)) for t in tconsts}
+
+
+def display_country(country):
+    """criterion_country, with this video's minimal display normalization
+    (currently just "United States" -> "USA") applied -- see
+    cfg.COUNTRY_DISPLAY_OVERRIDES."""
+    if not isinstance(country, str) or not country:
+        return country
+    return cfg.COUNTRY_DISPLAY_OVERRIDES.get(country, country)
+
+
+def format_credit_line(director, country, connections):
+    """"Director – Country – N connections", e.g. "Michael Curtiz – USA – 18
+    connections" -- omitting director/country if either is genuinely absent
+    from the data, but always ending in the connection count."""
+    parts = [p for p in (director, display_country(country)) if isinstance(p, str) and p]
+    parts.append(f"{connections} connection" if connections == 1 else f"{connections} connections")
+    return " – ".join(parts)
 
 
 # ── Reveal events ──────────────────────────────────────────────────────────
 
-def build_reveal_events(snapshot, meta):
+def hexes_by_tconst(snapshot):
+    by_tconst = defaultdict(list)
+    for h in snapshot["hexes"]:
+        if h["tconst"]:
+            by_tconst[h["tconst"]].append((h["q"], h["r"]))
+    return by_tconst
+
+
+def build_reveal_events(snapshot, meta, connections):
     """One event per unique tconst placed on the snapshot (a handful of
     films occupy more than one hex -- catalog duplicates like "Carlos: Part
     1/2/3" sharing one imdb_tconst -- grouped into a single reveal event
     exactly as hex_grid.py's own downstream consumers already do, so that
     film's card appears once, not 2-3 times in a row)."""
-    by_tconst = defaultdict(list)
-    for h in snapshot["hexes"]:
-        if h["tconst"]:
-            by_tconst[h["tconst"]].append((h["q"], h["r"]))
+    by_tconst = hexes_by_tconst(snapshot)
 
     events = []
     missing_meta = []
@@ -102,13 +168,17 @@ def build_reveal_events(snapshot, meta):
         if row is None or row["criterion_year"] is None:
             missing_meta.append(tconst)
             continue
+        conn = connections.get(tconst, 0)
         events.append(dict(
             tconst=tconst,
             title=row["title"],
             director=row["criterion_director"],
             country=row["criterion_country"],
-            credit_line=format_credit_line(row["criterion_director"], row["criterion_country"]),
+            connections=conn,
+            credit_line=format_credit_line(row["criterion_director"], row["criterion_country"], conn),
             year=int(row["criterion_year"]),
+            rating=row["imdb_rating"],
+            votes=row["num_votes"],
             hexes=hexes,
         ))
     if missing_meta:
@@ -118,18 +188,33 @@ def build_reveal_events(snapshot, meta):
     return events
 
 
-def ambient_hexes(snapshot):
+def ambient_hexes(snapshot, final_colors):
     """Hexes with no film attached (the approved unfilled-hex exceptions) --
-    shown in their snapshot color from the very start, never part of the
-    per-film reveal."""
-    return [(h["q"], h["r"], h["fill"]) for h in snapshot["hexes"] if h["tconst"] is None]
+    shown in their final display color from the very start, never part of
+    the per-film reveal."""
+    return [(h["q"], h["r"], final_colors[(h["q"], h["r"])]) for h in snapshot["hexes"] if h["tconst"] is None]
 
 
 def final_color_for_hex(snapshot):
-    return {(h["q"], h["r"]): h["fill"] for h in snapshot["hexes"]}
+    """Named-cluster hexes: that cluster's own base hue (from the snapshot's
+    color_map, itself explore.html's COLOR_MAP) for a confirmed-color film,
+    or that hue run through darken() for a black-and-white/unresolved film --
+    exactly explore.html/hex_svg.py's own scheme, see cfg.CLUSTER_HEX_BW_DARKEN_FACTOR.
+    hiddenGems (a two-ring white/gray border assigned by POSITION, not by any
+    film's own color status) is left exactly as explore.html renders it."""
+    color_map = snapshot["color_map"]
+    colors = {}
+    for h in snapshot["hexes"]:
+        key = (h["q"], h["r"])
+        if h["cluster_id"] == "hiddenGems":
+            colors[key] = h["fill"]
+        else:
+            base = color_map[h["cluster_id"]]
+            colors[key] = base if h["is_color"] else darken(base)
+    return colors
 
 
-# ── Batch planning ──────────────────────────────────────────────────────────
+# ── Per-year Top-N / remaining split ─────────────────────────────────────
 
 def group_events_by_year(events):
     by_year = defaultdict(list)
@@ -138,105 +223,53 @@ def group_events_by_year(events):
     return by_year
 
 
-def plan_batch_sizes(by_year, overhead_seconds):
-    """Decides each year's batch size (never crossing a year boundary) and
-    a single slot duration used for every batch, so that projected total
-    runtime lands close to but not over TARGET_RUNTIME_MAX_SECONDS.
-
-    Strategy, in order of preference (matches the brief: shrink duration
-    before growing batch size):
-      1. Every year defaults to batch size min(PREFERRED_MAX_BATCH_SIZE, its
-         own film count) -- "prefer 1-2 films per batch."
-      2. Pick the largest slot duration in [BATCH_SLOT_SECONDS_MIN,
-         BATCH_SLOT_SECONDS_MAX] that keeps the baseline batch plan's
-         runtime within target, with a small safety margin below the hard
-         ceiling.
-      3. Only if BATCH_SLOT_SECONDS_MIN still isn't enough does batch size
-         get escalated (densest years first, one step at a time, capped at
-         ABSOLUTE_MAX_BATCH_SIZE) -- "allow 3 in crowded years, 4 only if
-         required."
-    Returns (batch_size_by_year, slot_seconds, escalated: bool).
-    """
-    years = sorted(by_year)
-    batch_size = {y: min(cfg.PREFERRED_MAX_BATCH_SIZE, len(by_year[y])) or 1 for y in years}
-
-    def batches_for(y):
-        return max(1, -(-len(by_year[y]) // batch_size[y]))   # ceil division
-
-    def total_batches():
-        return sum(batches_for(y) for y in years)
-
-    baseline_batches = total_batches()
-    available_seconds = cfg.TARGET_RUNTIME_MAX_SECONDS - overhead_seconds
-    natural_slot = available_seconds / baseline_batches
-    SAFETY_MARGIN = 0.98   # stay a hair under the ceiling, not flush against it
-    slot_seconds = min(cfg.BATCH_SLOT_SECONDS_MAX,
-                        max(cfg.BATCH_SLOT_SECONDS_MIN, natural_slot * SAFETY_MARGIN))
-    # Round to the nearest whole frame at the configured fps so every batch
-    # gets an identical, exact frame count (no per-batch rounding drift).
-    slot_seconds = round(slot_seconds * cfg.FPS) / cfg.FPS
-
-    escalated = False
-    while overhead_seconds + total_batches() * slot_seconds > cfg.TARGET_RUNTIME_MAX_SECONDS:
-        candidates = [y for y in years if batch_size[y] < cfg.ABSOLUTE_MAX_BATCH_SIZE]
-        if not candidates:
-            break
-        y = max(candidates, key=lambda y: (batches_for(y), -y))
-        batch_size[y] += 1
-        escalated = True
-
-    return batch_size, slot_seconds, escalated
+def _rank_key(e):
+    # connections is always a plain int (0 if no data), so no None-handling
+    # needed -- ties broken by tconst for determinism.
+    return (-e["connections"], e["tconst"])
 
 
-def build_batches(events, batch_size_by_year):
-    """Chronological list of batch dicts: {year, events: [...]}. A batch
-    never spans more than one year and never exceeds ABSOLUTE_MAX_BATCH_SIZE
-    films -- both guaranteed by construction here, not just by the sizing
-    heuristic above."""
-    by_year = group_events_by_year(events)
-    batches = []
-    for y in sorted(by_year):
-        evs = by_year[y]   # already (year, tconst)-sorted from build_reveal_events
-        size = min(batch_size_by_year[y], cfg.ABSOLUTE_MAX_BATCH_SIZE)
-        for i in range(0, len(evs), size):
-            batches.append(dict(year=y, events=evs[i:i + size]))
-    return batches
+def select_top_and_remaining(events_for_year):
+    """-> (top, remaining), both lists of event dicts. `top` is capped at
+    cfg.TOP_N_FILMS, ranked by connections desc (ties broken by tconst for
+    determinism) -- the "Most Connected Films" of that year. `remaining` is
+    every other film from that year, in the same rank order (their
+    on-screen order doesn't matter -- they never get a title card -- but a
+    stable, deterministic order matters for reproducibility)."""
+    ranked = sorted(events_for_year, key=_rank_key)
+    return ranked[:cfg.TOP_N_FILMS], ranked[cfg.TOP_N_FILMS:]
 
 
-def insert_empty_years(batches):
-    """Every year from START_YEAR through END_YEAR must appear in
-    chronological order, including years with zero films (e.g. 1914, 1915,
-    1919) -- inserted here as empty markers (events=[]) so the renderer
-    still advances the year label and gives that year its own on-screen
-    moment, without a film card."""
-    by_year = defaultdict(list)
-    for b in batches:
-        by_year[b["year"]].append(b)
-    timeline = []
-    for y in range(cfg.START_YEAR, cfg.END_YEAR + 1):
-        if y in by_year:
-            timeline.extend(by_year[y])
-        else:
-            timeline.append(dict(year=y, events=[]))
-    return timeline
+def heading_for_year(year):
+    """Static "Most Connected Films" (the year itself already appears
+    directly above it on screen -- see cfg.FILM_HEADING_TEXT), regardless of
+    how many films that year actually has. No invented data: a thin year
+    still shows only the films that actually exist for it."""
+    return cfg.FILM_HEADING_TEXT
 
 
-def project_runtime(batches, slot_seconds):
-    return cfg.TITLE_CARD_SECONDS + cfg.FINAL_HOLD_SECONDS + len(batches) * slot_seconds
+def remaining_fill_seconds(n_remaining):
+    if n_remaining <= 0:
+        return 0.0
+    return clamp(n_remaining * cfg.REMAINING_FILL_SECONDS_PER_FILM,
+                 cfg.REMAINING_FILL_MIN_SECONDS, cfg.REMAINING_FILL_MAX_SECONDS)
 
 
-def recalculate_music_cue_timestamps(batches, slot_seconds):
-    """Era duration = (batches in that era) * slot_seconds, replacing the old
-    fixed timestamp table. Track order and year-range assignment unchanged."""
+# ── Music cue timestamps (derived from real per-year durations) ──────────
+
+def recalculate_music_cue_timestamps(year_durations):
+    """year_durations: {year: seconds}. Era duration = sum of its years'
+    real on-screen durations, replacing the old fixed timestamp table. Track
+    order and year-range assignment unchanged."""
     cursor = cfg.TITLE_CARD_SECONDS
     rows = []
     for cue in cfg.MUSIC_CUES:
-        n = sum(1 for b in batches if cue["start_year"] <= b["year"] <= cue["end_year"])
-        duration = n * slot_seconds
+        years_in_cue = [y for y in range(cue["start_year"], cue["end_year"] + 1)]
+        duration = sum(year_durations.get(y, 0.0) for y in years_in_cue)
+        n_films = None  # filled in by caller if needed; not required downstream
         rows.append(dict(start_year=cue["start_year"], end_year=cue["end_year"],
                           track_title=cue["track_title"], artist=cue["artist"],
-                          batch_count=n, duration_seconds=duration,
-                          video_start=cursor, video_end=cursor + duration))
+                          duration_seconds=duration, video_start=cursor, video_end=cursor + duration))
         cursor += duration
     return rows, cursor   # cursor == start of the final hold
 
@@ -244,164 +277,287 @@ def recalculate_music_cue_timestamps(batches, slot_seconds):
 # ── Full per-frame schedule (for the renderer) ─────────────────────────────
 
 def build_full_schedule():
-    """The complete frame-by-frame plan the renderer consumes. Every slot
-    (a real batch or an empty-year marker) gets an identical frame count
-    (slot_seconds, already rounded to a whole number of frames in
-    plan_batch_sizes) -- so total duration is exact given that slot count,
-    with zero per-slot rounding drift.
+    """The complete frame-by-frame plan the renderer consumes.
 
-    2026-07-29 restyle: the renderer's film-info display changed from one
-    "batch card" (up to ABSOLUTE_MAX_BATCH_SIZE rows shown/hidden together)
-    to a continuous 2-lane rolling queue, one film at a time. That change is
-    confined entirely to `item_queue` below -- hex pop-in timing, batch/slot
-    sizing, and music cue timestamps are untouched, so total runtime and
-    audio sync are bit-for-bit identical to before this restyle.
-
-    item_queue: flat, chronological list of every individual film reveal
-    event (not grouped into batches), each with:
-      - lane: 0 or 1, alternating strictly in chronological order -- the
-        renderer holds exactly 2 on-screen text slots, and consecutive
-        entries in the SAME lane are exactly 2 apart in this list.
-      - entrance_frame: the absolute frame at which this item starts its
-        fade-in. Items belonging to the same batch (same year, sharing one
-        slot) are spread evenly across that slot's frame range so they
-        appear one at a time rather than all at once; this is the only
-        place batch membership still matters for the text display.
-    A lane's item fades out starting exactly when the NEXT item in that same
-    lane (i.e. global position +2) enters -- so at most one fade-in and one
-    fade-out ever overlap per lane, satisfying "max two fully visible at
-    once." The renderer derives this directly from adjacent entries in each
-    lane's own sub-list, so no separate "supersede_frame" needs to be stored.
+    Each frame carries:
+      - phase: "title" | "main" | "hold"
+      - year: the active year (or None during the title card)
+      - color_diffs: {(q, r): new_fill_color} for hexes that change color on
+        this exact frame (empty dict on every other frame)
+      - heading: the right-panel heading text for this frame ("Top 5 Films
+        of 1962", always "Top 5" even for a thin early year with fewer than
+        5 real films -- see heading_for_year() -- / None for an empty year
+        or outside the main phase)
+      - rows: up to cfg.TOP_N_FILMS dicts, one per Top-N film revealed so
+        far THIS YEAR (title, credit_line, swatch_color, alpha) -- the
+        currently-entering row fades in over cfg.ITEM_FADE_IN_SECONDS
+        (imported lazily below to avoid a hard dependency loop), every
+        earlier row for the same year stays fully visible (alpha=1) per
+        spec ("previously revealed films... should remain visible"). The
+        list resets (a clean cut, matching the year-number's own instant
+        change) the moment the active year changes.
     """
     snapshot = load_snapshot()
     all_tconsts = sorted({h["tconst"] for h in snapshot["hexes"] if h["tconst"]})
     meta = load_metadata(all_tconsts)
-    events = build_reveal_events(snapshot, meta)
+    connections = load_connections(all_tconsts)
+    events = build_reveal_events(snapshot, meta, connections)
     by_year = group_events_by_year(events)
     final_colors = final_color_for_hex(snapshot)
     fps = cfg.FPS
 
-    overhead = cfg.TITLE_CARD_SECONDS + cfg.FINAL_HOLD_SECONDS
-    batch_size_by_year, slot_seconds, escalated = plan_batch_sizes(by_year, overhead)
-    timeline = insert_empty_years(build_batches(events, batch_size_by_year))
-    cue_rows, hold_start = recalculate_music_cue_timestamps(timeline, slot_seconds)
+    # Yearly poster -> exact hex(es) for that poster's own film, for the
+    # golden poster-hex border (cinematic_history_animation.py). Import kept
+    # local to this function: cinematic_history_posters.py has no
+    # dependency back on this module, so this isn't a real import cycle, but
+    # every other module-level import in this file is a hard dependency of
+    # the whole module -- this one is only needed inside schedule-building.
+    from cinematic_history_posters import build_poster_index
+    poster_tconst_by_year = build_poster_index()["resolved_tconst"]
+    tconst_hexes = hexes_by_tconst(snapshot)
+    poster_hexes_by_year = {y: tuple(tconst_hexes.get(t, [])) for y, t in poster_tconst_by_year.items()}
 
-    slot_frames = round(slot_seconds * fps)
-    pop_frames = max(1, min(slot_frames, round(fps * cfg.HEX_POP_SECONDS)))
+    # Completed-cluster tracking: a cluster's title only ever appears once
+    # EVERY hex belonging to it -- event hexes and ambient (no-film) hexes
+    # alike -- has reached its final display color. Ambient hexes are
+    # already "revealed" from the very first title frame (see below), so
+    # they're pre-counted before the main per-year loop even starts.
+    hex_cluster_map = {(h["q"], h["r"]): h["cluster_id"] for h in snapshot["hexes"]}
+    cluster_remaining = Counter(hex_cluster_map.values())
+    cluster_complete_frame = {}
+
+    def note_reveal(q, r, frame_idx):
+        c = hex_cluster_map[(q, r)]
+        cluster_remaining[c] -= 1
+        if cluster_remaining[c] == 0 and c not in cluster_complete_frame:
+            cluster_complete_frame[c] = frame_idx
+
+    fade_in_frames = max(1, round(fps * cfg.ITEM_FADE_IN_SECONDS))
+    top_pop_frames = max(1, round(fps * cfg.HEX_POP_SECONDS))
+    remaining_pop_frames = max(1, round(fps * cfg.REMAINING_HEX_POP_SECONDS))
+    interval_frames = round(cfg.TOP_FILM_INTERVAL_SECONDS * fps)
+    empty_year_frames = round(cfg.EMPTY_YEAR_SECONDS * fps)
+
+    # Frame counts per year, computed once here and reused verbatim below for
+    # the actual frame loop -- so the music-cue timestamps (derived from
+    # these same frame counts / fps) land on the EXACT same total duration
+    # as the rendered video, frame for frame. Deriving the two from separate
+    # unrounded-vs-rounded formulas would drift apart by the sum of each
+    # year's own rounding error (110 years of it), leaving the audio master
+    # a fraction of a second short of the video's real length.
+    year_frame_counts = {}
+    for year in range(cfg.START_YEAR, cfg.END_YEAR + 1):
+        evs = by_year.get(year, [])
+        if not evs:
+            year_frame_counts[year] = empty_year_frames
+            continue
+        top, remaining = select_top_and_remaining(evs)
+        top_frames_total = len(top) * interval_frames
+        remain_frames_total = round(remaining_fill_seconds(len(remaining)) * fps)
+        year_frame_counts[year] = top_frames_total + remain_frames_total
+
+    year_durations = {y: n / fps for y, n in year_frame_counts.items()}
+    cue_rows, hold_start = recalculate_music_cue_timestamps(year_durations)
 
     frames = []
-    ambient = ambient_hexes(snapshot)
+    ambient = ambient_hexes(snapshot, final_colors)
 
+    # Spec: the OPENING frame(s) must show a completely empty graph -- no
+    # hex filled with a cluster color yet, not even a structural/no-film
+    # ambient hex. So the title card stays fully blank, and the ambient
+    # hexes' one-time reveal is deferred to the very first frame of the main
+    # phase (the instant the reveal timeline itself starts, year
+    # cfg.START_YEAR) instead of the title card's frame 0 -- still a single
+    # one-time reveal, never part of the per-film schedule, just moved to
+    # not precede "the opening frame has nothing revealed yet."
     title_frames = round(cfg.TITLE_CARD_SECONDS * fps)
     for i in range(title_frames):
-        frames.append(dict(
-            phase="title", year=None,
-            color_diffs=({(q, r): fill for q, r, fill in ambient} if i == 0 else {}),
-        ))
+        frames.append(dict(phase="title", year=None, heading=None, rows=[], poster_hexes=(), color_diffs={}))
 
-    item_queue = []
-    global_item_index = 0
-    for item in timeline:
-        year, evs = item["year"], item["events"]
-        batch_start_frame = len(frames)
-        hexes = [h for e in evs for h in e["hexes"]]
-        k = len(evs)
-        for e_idx, e in enumerate(evs):
-            item_queue.append(dict(
-                global_index=global_item_index,
-                lane=global_item_index % 2,
-                entrance_frame=batch_start_frame + (e_idx * slot_frames) // k,
-                year=year,
-                title=e["title"],
-                credit_line=e["credit_line"],
-            ))
-            global_item_index += 1
+    for q, r, _ in ambient:
+        note_reveal(q, r, title_frames)
+    # Any cluster made ENTIRELY of ambient hexes (no real film in it at all)
+    # would already be complete at that point -- doesn't happen for any
+    # named cluster today, but handled for correctness rather than assumed.
+    for c, remaining in list(cluster_remaining.items()):
+        if remaining == 0 and c not in cluster_complete_frame:
+            cluster_complete_frame[c] = title_frames
 
-        pop_n = min(pop_frames, slot_frames)
-        for f in range(slot_frames):
+    _ambient_diffs = {(q, r): fill for q, r, fill in ambient}
+    _ambient_pending = [True]
+
+    def append_frame(frame_dict):
+        if _ambient_pending[0]:
+            frame_dict = dict(frame_dict)
+            frame_dict["color_diffs"] = {**_ambient_diffs, **frame_dict["color_diffs"]}
+            _ambient_pending[0] = False
+        frames.append(frame_dict)
+
+    empty_row = lambda: dict(title="", credit_line="", swatch_color=None, alpha=0.0)  # noqa: E731
+
+    for year in range(cfg.START_YEAR, cfg.END_YEAR + 1):
+        poster_hexes = poster_hexes_by_year.get(year, ())
+        evs = by_year.get(year, [])
+        if not evs:
+            for _ in range(empty_year_frames):
+                append_frame(dict(phase="main", year=year, heading=None, rows=[], color_diffs={},
+                                   poster_hexes=poster_hexes))
+            continue
+
+        top, remaining = select_top_and_remaining(evs)
+        heading = heading_for_year(year)
+        n_top = len(top)
+        top_frames_total = n_top * interval_frames
+        remain_seconds = remaining_fill_seconds(len(remaining))
+        remain_frames_total = round(remain_seconds * fps)
+
+        # Precompute each Top-N film's swatch color once (first hex's final
+        # fill -- the exact color that hex ends up on the graph).
+        for e in top:
+            e["swatch_color"] = final_colors[e["hexes"][0]]
+
+        # Each remaining film's own pop-in window, clamped so it can never
+        # run past this year's own remaining-fill budget: with many remaining
+        # films staggered evenly across a short window (n_remaining can
+        # exceed remain_frames_total for a heavy year), a film entering near
+        # the very end of the window would otherwise never reach t=1.0
+        # before the year advances -- leaving its hex permanently stuck at a
+        # partial blend (year N+1 never revisits it, since nothing else ever
+        # writes to that hex again). Clamping the window's own length keeps
+        # the staggered-entrance stagger for early hexes exactly as before;
+        # only a handful of the very last-entering hexes in a heavy year get
+        # a proportionally quicker (never fully skipped) pop.
+        remaining_windows = []
+        n_remaining = len(remaining)
+        for ridx, e in enumerate(remaining):
+            e_entrance = (ridx * remain_frames_total) // n_remaining if n_remaining else 0
+            this_pop_frames = max(1, min(remaining_pop_frames, remain_frames_total - e_entrance))
+            remaining_windows.append((e, e_entrance, this_pop_frames))
+
+        revealed_rows = []   # rows fully settled from a previous entrance this year
+        for f in range(top_frames_total + remain_frames_total):
             color_diffs = {}
-            if hexes and f < pop_n:
-                t = (f + 1) / pop_n
-                for (q, r) in hexes:
-                    color_diffs[(q, r)] = blend(cfg.BACKGROUND_COLOR, final_colors[(q, r)], t)
-                if f == pop_n - 1:
-                    for (q, r) in hexes:
-                        color_diffs[(q, r)] = final_colors[(q, r)]   # snap exact, no float drift
-            frames.append(dict(phase="main", year=year, color_diffs=color_diffs))
+            rows = list(revealed_rows)
+            this_frame_idx = len(frames)
+
+            if f < top_frames_total:
+                idx = f // interval_frames
+                entrance_f = idx * interval_frames
+                t_in_slot = f - entrance_f
+                cur = top[idx]
+
+                if t_in_slot < top_pop_frames:
+                    t = (t_in_slot + 1) / top_pop_frames
+                    for (q, r) in cur["hexes"]:
+                        if t >= 1.0:
+                            color_diffs[(q, r)] = final_colors[(q, r)]
+                            note_reveal(q, r, this_frame_idx)
+                        else:
+                            color_diffs[(q, r)] = blend(cfg.BACKGROUND_COLOR, final_colors[(q, r)], t)
+
+                alpha = clamp((t_in_slot + 1) / fade_in_frames, 0.0, 1.0)
+                row_fields = dict(title=cur["title"], credit_line=cur["credit_line"],
+                                   director=cur["director"], country=display_country(cur["country"]),
+                                   connections=cur["connections"], swatch_color=cur["swatch_color"])
+                rows = rows + [dict(**row_fields, alpha=alpha)]
+                if t_in_slot == interval_frames - 1:
+                    # This row is now permanently settled for the rest of the year.
+                    revealed_rows.append(dict(**row_fields, alpha=1.0))
+            else:
+                # Remaining-films bulk fill: no title cards, just each
+                # remaining film's exact hex(es) popping in, staggered
+                # evenly across the remaining-fill window (each film's own
+                # window pre-clamped to fit -- see remaining_windows above).
+                rf = f - top_frames_total
+                for e, e_entrance, this_pop_frames in remaining_windows:
+                    t_in = rf - e_entrance
+                    if 0 <= t_in < this_pop_frames:
+                        t = (t_in + 1) / this_pop_frames
+                        for (q, r) in e["hexes"]:
+                            if t >= 1.0:
+                                color_diffs[(q, r)] = final_colors[(q, r)]
+                                note_reveal(q, r, this_frame_idx)
+                            else:
+                                color_diffs[(q, r)] = blend(cfg.BACKGROUND_COLOR, final_colors[(q, r)], t)
+
+            append_frame(dict(phase="main", year=year, heading=heading, rows=rows, color_diffs=color_diffs,
+                               poster_hexes=poster_hexes))
 
     hold_start_frame = len(frames)
     hold_frames_total = round(cfg.FINAL_HOLD_SECONDS * fps)
-    last_year = timeline[-1]["year"] if timeline else None
+    last_year = cfg.END_YEAR
+    final_rows = revealed_rows if by_year.get(cfg.END_YEAR) else []
+    final_heading = heading_for_year(last_year) if by_year.get(last_year) else None
+    final_poster_hexes = poster_hexes_by_year.get(last_year, ())
     for i in range(hold_frames_total):
-        # Keep the final year visible during the hold (only the rolling
-        # film items are required to fade away) rather than blanking every
-        # piece of on-screen text at once.
-        frames.append(dict(phase="hold", year=last_year, color_diffs={}))
+        append_frame(dict(phase="hold", year=last_year, heading=final_heading, rows=final_rows, color_diffs={},
+                           poster_hexes=final_poster_hexes))
+
+    # Any cluster whose last hex only ever reaches its final color via a
+    # blend() step that never quite hits t>=1.0 due to float rounding would
+    # otherwise never register complete -- not expected (top_pop_frames/
+    # remaining_pop_frames's own last t is exactly 1.0 by construction), but
+    # cheap to guarantee outright: every cluster must be complete by the
+    # last frame of the main phase.
+    missing_complete = [c for c, remaining in cluster_remaining.items() if remaining > 0]
+    if missing_complete:
+        sys.exit(f"ERROR: {len(missing_complete)} cluster(s) never fully revealed: {missing_complete}")
 
     return dict(
         frames=frames,
         fps=fps,
-        slot_seconds=slot_seconds,
         final_colors=final_colors,
+        color_map=snapshot["color_map"],
+        cluster_labels=snapshot["cluster_labels"],
+        cluster_complete_frames=cluster_complete_frame,
         grid_hexes=[(h["q"], h["r"]) for h in snapshot["hexes"]],
         hex_set={(h["q"], h["r"]) for h in snapshot["hexes"]},
+        hex_cluster_map=hex_cluster_map,
         outer_hidden_gems=[(h["q"], h["r"]) for h in snapshot["hexes"]
                             if h["cluster_id"] == "hiddenGems" and h["is_hidden_gems_outer"]],
         music_cue_timestamps=cue_rows,
         final_hold_video_start_seconds=hold_start,
         hold_start_frame=hold_start_frame,
-        item_queue=item_queue,
         total_seconds=len(frames) / fps,
-        escalated=escalated,
-        max_batch_size=max((len(item["events"]) for item in timeline if item["events"]), default=1),
+        year_durations=year_durations,
+        events=events,
     )
 
 
 # ── Report (no rendering) ───────────────────────────────────────────────────
 
 def build_plan_report():
-    snapshot = load_snapshot()
-    all_tconsts = sorted({h["tconst"] for h in snapshot["hexes"] if h["tconst"]})
-    meta = load_metadata(all_tconsts)
-    events = build_reveal_events(snapshot, meta)
+    """Reuses build_full_schedule() itself (rather than recomputing year
+    durations independently) so this report's numbers -- runtime, cue
+    timestamps -- can never drift from what actually gets rendered."""
+    schedule = build_full_schedule()
+    events = schedule["events"]
     by_year = group_events_by_year(events)
+    cue_rows = schedule["music_cue_timestamps"]
+    hold_start = schedule["final_hold_video_start_seconds"]
+    runtime = schedule["total_seconds"]
 
-    overhead = cfg.TITLE_CARD_SECONDS + cfg.FINAL_HOLD_SECONDS
-    batch_size_by_year, slot_seconds, escalated = plan_batch_sizes(by_year, overhead)
-    batches = insert_empty_years(build_batches(events, batch_size_by_year))
-    runtime = project_runtime(batches, slot_seconds)
-    cue_rows, hold_start = recalculate_music_cue_timestamps(batches, slot_seconds)
-
-    batch_sizes_used = [len(b["events"]) for b in batches if b["events"]]
-    max_simultaneous = max(batch_sizes_used)
-    # Every batch/empty-year slot gets the identical slot duration by
-    # construction (see plan_batch_sizes) -- min/median/max are reported
-    # from the real per-slot durations regardless, rather than assumed equal.
-    durations = [slot_seconds] * len(batches)
-    durations.sort()
-    median_duration = durations[len(durations) // 2] if len(durations) % 2 else \
-        (durations[len(durations) // 2 - 1] + durations[len(durations) // 2]) / 2
+    counts = Counter(len(evs) for evs in by_year.values())
+    years_over_top_n = sum(1 for evs in by_year.values() if len(evs) > cfg.TOP_N_FILMS)
+    years_exactly_top_n = sum(1 for evs in by_year.values() if len(evs) == cfg.TOP_N_FILMS)
+    years_under_top_n = sum(1 for evs in by_year.values() if 0 < len(evs) < cfg.TOP_N_FILMS)
+    empty_years = (cfg.END_YEAR - cfg.START_YEAR + 1) - len(by_year)
 
     return dict(
         projected_runtime_seconds=runtime,
         projected_runtime_mmss=cfg.seconds_to_mmss(runtime),
-        total_batches=len(batches),
-        slot_seconds=slot_seconds,
-        min_batch_duration_seconds=min(durations),
-        median_batch_duration_seconds=median_duration,
-        max_batch_duration_seconds=max(durations),
-        max_simultaneous_films=max_simultaneous,
-        batch_size_escalated=escalated,
-        batch_size_distribution=dict(sorted(Counter(batch_sizes_used).items())),
+        total_films=len(events),
+        total_years=len(by_year),
+        empty_years=empty_years,
+        years_over_top_n=years_over_top_n,
+        years_exactly_top_n=years_exactly_top_n,
+        years_under_top_n=years_under_top_n,
+        film_count_distribution=dict(sorted(counts.items())),
         music_cue_timestamps=cue_rows,
         final_hold_video_start_seconds=hold_start,
         final_hold_video_start_mmss=cfg.seconds_to_mmss(hold_start),
-        needs_approval=(runtime > cfg.STOP_FOR_APPROVAL_MAX_SECONDS
-                        or slot_seconds < cfg.BATCH_SLOT_SECONDS_MIN - 1e-9),
-        total_films=len(events),
-        total_years=len(by_year),
         events=events,
-        batches=batches,
+        by_year=by_year,
     )
 
 
@@ -409,18 +565,16 @@ if __name__ == "__main__":
     report = build_plan_report()
     print(f"Projected total runtime: {report['projected_runtime_mmss']}  "
           f"({report['projected_runtime_seconds']:.1f}s)")
-    print(f"Total films: {report['total_films']}  across {report['total_years']} years")
-    print(f"Total batches: {report['total_batches']}")
-    print(f"Batch duration -- min/median/max: {report['min_batch_duration_seconds']:.2f}s / "
-          f"{report['median_batch_duration_seconds']:.2f}s / {report['max_batch_duration_seconds']:.2f}s")
-    print(f"Max simultaneous films in a batch: {report['max_simultaneous_films']}")
-    print(f"Batch size distribution (size -> count): {report['batch_size_distribution']}")
-    print(f"Batch size escalation needed: {report['batch_size_escalated']}")
+    print(f"Total films: {report['total_films']}  across {report['total_years']} years "
+          f"({report['empty_years']} empty years)")
+    print(f"Years with >{cfg.TOP_N_FILMS} films (Top-{cfg.TOP_N_FILMS} + gradual remaining-fill): "
+          f"{report['years_over_top_n']}")
+    print(f"Years with exactly {cfg.TOP_N_FILMS} films: {report['years_exactly_top_n']}")
+    print(f"Years with 1-{cfg.TOP_N_FILMS - 1} films (heading still says \"Top {cfg.TOP_N_FILMS}\", "
+          f"just fewer rows shown): {report['years_under_top_n']}")
     print(f"\nRecalculated music cue timestamps:")
     for r in report["music_cue_timestamps"]:
         print(f"  {r['start_year']}-{r['end_year']:<6d} "
               f"{cfg.seconds_to_mmss(r['video_start'])}-{cfg.seconds_to_mmss(r['video_end'])}  "
-              f"({r['batch_count']:>4d} batches, {r['duration_seconds']:>6.1f}s)  "
-              f"\"{r['track_title']}\" -- {r['artist']}")
+              f"({r['duration_seconds']:>6.1f}s)  \"{r['track_title']}\" -- {r['artist']}")
     print(f"\nFinal hold begins at {report['final_hold_video_start_mmss']}")
-    print(f"\nNeeds approval before rendering: {report['needs_approval']}")

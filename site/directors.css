@@ -328,41 +328,31 @@
   stroke-opacity: 1 !important;
 }
 
+/* Edge-graph clusters (see dir-viz-card--edges in director-profile.js) draw
+   connecting lines between films, so a highlighted node is scaled down less
+   than on the edge-free ring clusters to avoid swallowing its own edges. */
+.dir-viz-card--edges .dir-svg .dh-highlight {
+  transform: scale(1.4);
+}
+
 .dir-svg [tabindex="0"]:focus-visible {
   outline: 3px solid #2a9d8f;
   outline-offset: 2px;
 }
 
-.dir-viz-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin: 12px 0 0;
-  font-size: 12px;
-  color: #a8a8bc;
+/* Titles for this director's own films are shown permanently (see
+   pinAndDeclutterLabels in director-profile.js) instead of needing hover;
+   other films in the cluster keep the original hover-only tooltip. */
+.dir-svg .dh-label-pinned {
+  opacity: 1;
 }
 
-.dir-legend-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.dir-legend-swatch {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-  flex: none;
-}
-
-.dir-legend-highlight {
-  background: var(--cluster-color, #2a9d8f);
-  border: 1.5px solid #ffffff;
-}
-
-.dir-legend-dim {
-  background: var(--cluster-color, #2a2a3d);
-  opacity: 0.35;
+.dir-svg .dh-leader {
+  stroke: #ffffff;
+  stroke-opacity: 0.55;
+  stroke-width: 1.4px;
+  stroke-dasharray: 3 3;
+  pointer-events: none;
 }
 
 .dir-viz-card--text .dir-viz-note {

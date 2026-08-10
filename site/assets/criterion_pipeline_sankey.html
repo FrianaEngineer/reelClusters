@@ -20,21 +20,26 @@ var data = [{
     line: { color: "#1a1a2c", width: 1 },
     label: ["Criterion Records (3,241)", "IMDb Match (2,821)", "Manual Review (420)",
             "Clean Dataset – Movies (2,293)", "Other Types – Non-Movie (947)",
-            "Unmatched – No IMDb Record (1)"],
-    color: ["#4C78A8", "#54A24B", "#E45756", "#72B7B2", "#F2B701", "#B07AA1"]
+            "Unmatched – No IMDb Record (1)",
+            "Best Picture Nominee CSV (620)", "Already in Criterion (28)",
+            "Duplicate in CSV (1)", "New Films Added (591)",
+            "Existing Criterion Films (1,746)", "Final Clustering Dataset (2,337 films)"],
+    color: ["#4C78A8", "#54A24B", "#E45756", "#72B7B2", "#F2B701", "#B07AA1",
+            "#9C6ADE", "#B07AA1", "#E45756", "#54A24B", "#72B7B2", "#F58518"]
   },
   link: {
-    source: [0, 0, 1, 1, 2, 2, 2],
-    target: [1, 2, 3, 4, 3, 4, 5],
-    value: [2821, 420, 2127, 694, 166, 253, 1],
-    label: ["2821", "420", "2127", "694", "166", "253", "1"],
+    source: [0, 0, 1, 1, 2, 2, 2, 6, 6, 6, 9, 10],
+    target: [1, 2, 3, 4, 3, 4, 5, 7, 8, 9, 11, 11],
+    value: [2821, 420, 2127, 694, 166, 253, 1, 28, 1, 591, 591, 1746],
+    label: ["2821", "420", "2127", "694", "166", "253", "1", "28", "1", "591", "591", "1746"],
     color: ["rgba(76,120,168,0.45)", "rgba(76,120,168,0.45)", "rgba(84,162,75,0.45)",
             "rgba(84,162,75,0.45)", "rgba(228,87,86,0.45)", "rgba(228,87,86,0.45)",
-            "rgba(228,87,86,0.45)"]
+            "rgba(228,87,86,0.45)", "rgba(156,106,222,0.45)", "rgba(156,106,222,0.45)",
+            "rgba(156,106,222,0.45)", "rgba(84,162,75,0.45)", "rgba(114,183,178,0.45)"]
   }
 }];
 var layout = {
-  title: { text: "Criterion &#8594; IMDb Matching Pipeline (3,241 Criterion records)", font: { color: "#e8e8ef", size: 18 }, x: 0.02 },
+  title: { text: "Criterion &#8594; IMDb Matching + Best Picture Nominee Merge Pipeline", font: { color: "#e8e8ef", size: 18 }, x: 0.02 },
   paper_bgcolor: "#1a1a2c",
   plot_bgcolor: "#1a1a2c",
   font: { color: "#cfcfdc", size: 13, family: "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" },

@@ -93,14 +93,8 @@
     },
     {
       id: "language",
-      type: "single",
-      prompt: "Are you open to films that are not primarily in English?",
-      options: [
-        { value: "yes_absolutely", label: "Yes, absolutely" },
-        { value: "sometimes", label: "Sometimes" },
-        { value: "english_preferred", label: "English preferred" },
-        { value: "no_preference", label: "No preference" },
-      ],
+      type: "language",
+      prompt: "What language film are you looking for?",
     },
     {
       id: "runtime",
@@ -256,6 +250,8 @@
       questionEl.appendChild(renderOptionGrid(q));
     } else if (q.type === "films") {
       questionEl.appendChild(renderFilmPicker(q));
+    } else if (q.type === "language") {
+      questionEl.appendChild(renderLanguagePicker(q));
     }
 
     heading.focus({ preventScroll: true });
@@ -371,6 +367,77 @@
       input.checked = isSelected;
       label.classList.toggle("is-selected", isSelected);
     });
+  }
+
+  // Two broad buttons (reusing the standard option-grid look via a
+  // synthetic "single" question sharing this question's real answer key)
+  // plus a dropdown of every specific original-language present in the
+  // dataset (LANGUAGE_LABELS, see recommendation-mappings.js), for someone
+  // who wants a particular language rather than just "English or not."
+  // Picking a language deselects the two buttons and vice versa, since
+  // answers.language only ever holds one of the three kinds of value.
+  function renderLanguagePicker(q) {
+    var wrap = document.createElement("div");
+    wrap.className = "recs-language-picker";
+
+    var buttonsQ = {
+      id: q.id,
+      type: "single",
+      options: [
+        { value: "english_preferred", label: "English preferred" },
+        { value: "no_preference", label: "No preference" },
+      ],
+      prompt: q.prompt,
+    };
+    var grid = renderOptionGrid(buttonsQ);
+    wrap.appendChild(grid);
+
+    var dropdownWrap = document.createElement("div");
+    dropdownWrap.className = "recs-language-dropdown";
+
+    var label = document.createElement("label");
+    label.className = "recs-language-dropdown-label";
+    label.setAttribute("for", "recs-language-select");
+    label.textContent = "Or choose a specific language";
+
+    var select = document.createElement("select");
+    select.id = "recs-language-select";
+    select.className = "recs-language-select";
+
+    var placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Choose a language…";
+    select.appendChild(placeholder);
+
+    Object.keys(LANGUAGE_LABELS)
+      .sort(function (a, b) {
+        return LANGUAGE_LABELS[a].localeCompare(LANGUAGE_LABELS[b]);
+      })
+      .forEach(function (code) {
+        var o = document.createElement("option");
+        o.value = code;
+        o.textContent = LANGUAGE_LABELS[code];
+        select.appendChild(o);
+      });
+
+    var current = answers[q.id];
+    select.value = current && LANGUAGE_LABELS[current] ? current : "";
+
+    grid.addEventListener("change", function () {
+      select.value = "";
+    });
+
+    select.addEventListener("change", function () {
+      clearError();
+      answers[q.id] = select.value || null;
+      syncOptionStates(grid, buttonsQ, select.value);
+    });
+
+    dropdownWrap.appendChild(label);
+    dropdownWrap.appendChild(select);
+    wrap.appendChild(dropdownWrap);
+
+    return wrap;
   }
 
   function renderFilmPicker(q) {
@@ -511,6 +578,11 @@
         showError("Please choose at least one option to continue.");
         return false;
       }
+    } else if (q.type === "language") {
+      if (!answers[q.id]) {
+        showError("Please choose an option to continue.");
+        return false;
+      }
     }
     return true;
   }
@@ -645,6 +717,27 @@
       });
       if (runtimeFiltered.length >= 5) pool = runtimeFiltered;
     }
+    // A specific language chosen from the dropdown (as opposed to the
+    // broad "English preferred" / "No preference" buttons) is a deliberate
+    // pick, not a soft lean -- it actually filters, the way era/runtime do.
+    // Every code in LANGUAGE_LABELS has at least one film *somewhere* in
+    // FILMS, but not necessarily within whatever era/runtime already
+    // narrowed `pool` to -- so this still needs the same "only apply if it
+    // leaves something" guard as era/runtime above, just at length >= 1
+    // instead of >= 5, since a deliberate language pick should filter as
+    // far as it can without ever emptying the results outright.
+    if (ans.language && LANGUAGE_LABELS[ans.language]) {
+      var languageFiltered = pool.filter(function (f) {
+        return f.language === ans.language;
+      });
+      if (languageFiltered.length > 0) pool = languageFiltered;
+    }
+    // Final guarantee: whatever combination of filters ran above, never
+    // hand back an empty pool -- the results view should never have to
+    // show a "couldn't find a match" state. `all` (every film minus the
+    // up-to-3 the user already said they like) can only be empty if the
+    // dataset itself is, which doesn't happen.
+    if (pool.length === 0) pool = all;
     return pool;
   }
 
@@ -784,15 +877,23 @@
     }
 
     // 4. Language preference.
-    if (ans.language && LANGUAGE_WEIGHTS[ans.language] && film.englishSpeaking != null) {
+    if (ans.language && LANGUAGE_WEIGHTS[ans.language] && film.language) {
       var lw = LANGUAGE_WEIGHTS[ans.language];
-      if (film.englishSpeaking) {
+      if (film.language === "en") {
         score += lw.englishBonus;
       } else {
         score += lw.nonEnglishBonus;
         if (lw.nonEnglishBonus > 5) {
           reasons.push({ text: "international cinema", weight: lw.nonEnglishBonus });
         }
+      }
+    } else if (ans.language && LANGUAGE_LABELS[ans.language] && film.language) {
+      // A specific language was picked from the dropdown.
+      if (film.language === ans.language) {
+        score += LANGUAGE_MATCH_BONUS;
+        reasons.push({ text: "in " + LANGUAGE_LABELS[ans.language], weight: LANGUAGE_MATCH_BONUS });
+      } else {
+        score += LANGUAGE_MISMATCH_PENALTY;
       }
     }
 

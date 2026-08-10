@@ -16,9 +16,11 @@ string in its own small file under site/assets/svg-fallback/. When
 fetch() fails, director-profile.js inserts the matching <script> tag
 instead, which works identically under file://, http://, and https://.
 
-Only generated for the 10 clusters that have a node-network SVG (see
+Only generated for the 11 clusters that have a node-network SVG (see
 CLUSTER_VIZ_SVG in site/assets/director-utils.js -- kept in sync with that
 list here). hiddenGems has no SVG and needs no fallback.
+
+2026-07-31 rebuild: cluster set changed, see data/cluster_naming_report.md.
 
 Usage:
     python3 build_svg_fallback.py
@@ -33,16 +35,17 @@ OUT_DIR = ASSETS_DIR / "svg-fallback"
 
 # Must match CLUSTER_VIZ_SVG in site/assets/director-utils.js.
 CLUSTER_VIZ_SVG = {
-    "anglophone_classic": "anglophone_classic_rings.svg",
-    "bergman_scandinavian": "bergman_scandinavian_rings.svg",
-    "czech_new_wave": "czech_new_wave_graph.svg",
+    "modern_american_cinema": "modern_american_cinema_rings.svg",
     "european_art_cinema": "european_art_cinema_rings.svg",
+    "golden_age_hollywood_british": "golden_age_hollywood_british_rings.svg",
+    "classic_japanese_cinema": "classic_japanese_cinema_rings.svg",
+    "japanese_new_wave_genre": "japanese_new_wave_genre_rings.svg",
     "hong_kong_taiwan_cinema": "hong_kong_taiwan_cinema_rings.svg",
-    "japanese_cinema": "japanese_cinema_rings.svg",
-    "satyajit_ray_indian": "satyajit_ray_indian_graph.svg",
+    "scandinavian_bergman_circle": "scandinavian_bergman_circle_rings.svg",
+    "czech_new_wave": "czech_new_wave_graph.svg",
+    "silent_era_comedy": "silent_era_comedy_graph.svg",
     "soviet_cinema": "soviet_cinema_graph.svg",
-    "transatlantic_auteur_cinema": "transatlantic_auteur_cinema_rings.svg",
-    "youssef_chahine_egyptian": "youssef_chahine_egyptian_graph.svg",
+    "satyajit_ray_indian": "satyajit_ray_indian_graph.svg",
 }
 
 

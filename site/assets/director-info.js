@@ -24,6 +24,12 @@
 //   },
 
 window.DIRECTOR_INFO = {
+  "aaron-sorkin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "abbas-kiarostami": {
     "image": "director_photos/abbas_kiarostami.jpg",
     "imageAlt": "Portrait of Abbas Kiarostami",
@@ -42,10 +48,22 @@ window.DIRECTOR_INFO = {
     "bio": "Abel Gance was a French film director and producer, writer and actor. Abel Gance was born in 18th arrondissement of Paris in 1889 and died in 1981. Beyond directing, Abel Gance's professional roles have included screenwriter, film actor, and film producer. Abel Gance studied at Lycée Chaptal. Recognition connected with Abel Gance's career includes BAFTA Fellowship. This project includes 1 film by Abel Gance in the European Art Cinema cluster.",
     "credit": ""
   },
+  "adam-mckay": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "adrian-brunel": {
     "image": "",
     "imageAlt": "",
     "bio": "Adrian Brunel was a British film director and screenwriter. Adrian Brunel was born in Brighton in 1892 and died in 1958. Beyond directing, Adrian Brunel's professional roles have included actor, screenwriter, and film actor. Adrian Brunel studied at Harrow School. Adrian Brunel's documented professional activity began around 1917. This project includes 1 film by Adrian Brunel in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "adrian-lyne": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "agnes-hranitzky": {
@@ -96,6 +114,12 @@ window.DIRECTOR_INFO = {
     "bio": "Alain Resnais was a French film director. Alain Resnais was born in Vannes in 1922 and died in 2014. Beyond directing, Alain Resnais's professional roles have included screenwriter, film editor, and cinematographer. Alain Resnais studied at Institut des hautes études cinématographiques. Recognition connected with Alain Resnais's career includes Golden Lion. This project includes 3 films by Alain Resnais across the European Art Cinema and Japanese Cinema clusters.",
     "credit": ""
   },
+  "alan-j-pakula": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "alan-mak": {
     "image": "",
     "imageAlt": "",
@@ -106,6 +130,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Alan Metter was an American film director. Alan Metter was born in Sharon in 1933 and died in 2020. Beyond directing, Alan Metter's professional roles have included film producer. Alan Metter studied at University of Arizona. He also produced and directed the 1983 television special The Winds of Whoopee for Steve Martin. This project includes 1 film by Alan Metter in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "alan-parker": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "alan-smithee": {
@@ -120,6 +150,12 @@ window.DIRECTOR_INFO = {
     "bio": "Albert Lamorisse was a French filmmaker, film producer, and writer. Albert Lamorisse was born in 14th arrondissement of Paris in 1922 and died in 1970. Beyond directing, Albert Lamorisse's professional roles have included screenwriter, film producer, and writer. Albert Lamorisse studied at Collège Stanislas de Paris. Recognition connected with Albert Lamorisse's career includes Academy Award for Best Writing, Original Screenplay. This project includes 2 films by Albert Lamorisse in the European Art Cinema cluster.",
     "credit": ""
   },
+  "albert-lewin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "alberto-lattuada": {
     "image": "",
     "imageAlt": "",
@@ -132,10 +168,22 @@ window.DIRECTOR_INFO = {
     "bio": "Alejandro Amenábar is a Spanish-Chilean film director, screenwriter and composer. Alejandro Amenábar was born in Santiago in 1972. Beyond directing, Alejandro Amenábar's professional roles have included screenwriter, actor, and composer. Alejandro Amenábar studied at Complutense University of Madrid. Recognition connected with Alejandro Amenábar's career includes Golden Globe Award for Best Non-English Language Film. This project includes 1 film by Alejandro Amenábar in the European Art Cinema cluster.",
     "credit": ""
   },
+  "alejandro-g-inarritu": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "alex-cox": {
     "image": "",
     "imageAlt": "",
     "bio": "Alex Cox is an English film director. Alex Cox was born in Liverpool in 1954. Beyond directing, Alex Cox's professional roles have included screenwriter, film producer, and film actor. Alex Cox studied at Worcester College. Alex Cox's documented professional activity began around 1980. This project includes 4 films by Alex Cox across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "alexander-hall": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "alexander-korda": {
@@ -144,10 +192,22 @@ window.DIRECTOR_INFO = {
     "bio": "Alexander Korda was a British film director. Alexander Korda was born in Túrkeve in 1893 and died in 1956. Beyond directing, Alexander Korda's professional roles have included film producer and screenwriter. Recognition connected with Alexander Korda's career includes Knight Bachelor. Alexander Korda's documented professional activity extended from 1914 to 1955. This project includes 8 films by Alexander Korda across the Anglophone Classic and European Art Cinema clusters.",
     "credit": ""
   },
+  "alexander-payne": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "alf-sjoberg": {
     "image": "",
     "imageAlt": "",
     "bio": "Alf Sjöberg was a Swedish film director. Alf Sjöberg was born in Hedvig Eleonora parish in 1903 and died in 1980. Beyond directing, Alf Sjöberg's professional roles have included screenwriter and actor. Recognition connected with Alf Sjöberg's career includes Palme d'Or. Alf Sjöberg's documented professional activity began around 1929. This project includes 2 films by Alf Sjöberg in the Bergman Scandinavian cluster.",
+    "credit": ""
+  },
+  "alfonso-cuaron": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "alfred-e-green": {
@@ -162,6 +222,18 @@ window.DIRECTOR_INFO = {
     "bio": "Alfred Hitchcock was a British filmmaker. Alfred Hitchcock was born in Leytonstone in 1899 and died in 1980. Beyond directing, Alfred Hitchcock's professional roles have included film producer, actor, and television producer. Alfred Hitchcock studied at University of London. A notable work associated with Alfred Hitchcock is North by Northwest. This project includes 8 films by Alfred Hitchcock in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "alfred-l-werker": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "anatole-litvak": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "andre-techine": {
     "image": "",
     "imageAlt": "",
@@ -172,6 +244,12 @@ window.DIRECTOR_INFO = {
     "image": "director_photos/andrei_tarkovsky.jpg",
     "imageAlt": "Portrait of Andrei Tarkovsky",
     "bio": "Andrei Tarkovsky was a Soviet and Russian film director, screenwriter, film editor, film theorist, theatre and opera director. Andrei Tarkovsky was born in Zavrazhye in 1932 and died in 1986. Beyond directing, Andrei Tarkovsky's professional roles have included actor, film editor, and screenwriter. Andrei Tarkovsky studied at Institute of Oriental Studies of the Russian Academy of Sciences. A notable work associated with Andrei Tarkovsky is Solaris. This project includes 5 films by Andrei Tarkovsky in the Soviet Cinema cluster.",
+    "credit": ""
+  },
+  "andrew-davis": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "andrew-haigh": {
@@ -192,6 +270,12 @@ window.DIRECTOR_INFO = {
     "bio": "Andrew Lau Wai-keung is a Hong Kong filmmaker. Andrew Lau Wai-keung was born in Hong Kong in 1960. Beyond directing, Andrew Lau Wai-keung's professional roles have included film producer and cinematographer. Andrew Lau Wai-keung studied at Lingnan University. Recognition connected with Andrew Lau Wai-keung's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Andrew Lau Wai-keung in the Hong Kong Taiwan Cinema cluster.",
     "credit": ""
   },
+  "andrew-marton": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "andrzej-wajda": {
     "image": "director_photos/andrzej_wajda.jpg",
     "imageAlt": "Portrait of Andrzej Wajda",
@@ -202,6 +286,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Andrzej Żuławski was a Polish film director. Andrzej Żuławski was born in Lviv in 1940 and died in 2016. Beyond directing, Andrzej Żuławski's professional roles have included screenwriter, writer, and television actor. Andrzej Żuławski studied at Institut des hautes études cinématographiques. Recognition connected with Andrzej Żuławski's career includes Commander with Star of the Order of Polonia Restituta. This project includes 1 film by Andrzej Żuławski in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "ang-lee": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "ann-hui": {
@@ -220,6 +310,24 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Anthony Asquith was an English film director. Anthony Asquith was born in London in 1902 and died in 1968. Beyond directing, Anthony Asquith's professional roles have included screenwriter and actor. Anthony Asquith studied at Balliol College. Anthony Asquith's biographical record is closely connected with United Kingdom. This project includes 4 films by Anthony Asquith in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "anthony-harvey": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "anthony-mann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "anthony-minghella": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "anthony-pelissier": {
@@ -264,6 +372,18 @@ window.DIRECTOR_INFO = {
     "bio": "Arthur Crabtree was a British film director. Arthur Crabtree was born in Shipley in 1900 and died in 1975. Beyond directing, Arthur Crabtree's professional roles have included cinematographer. He directed films with comedians such as Will Hay, the Crazy Gang and Arthur Askey and several of the Gainsborough melodramas. Arthur Crabtree's biographical record is closely connected with United Kingdom. This project includes 2 films by Arthur Crabtree in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "arthur-hiller": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "arthur-penn": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "arturo-ripstein": {
     "image": "",
     "imageAlt": "",
@@ -274,6 +394,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Atom Egoyan is a Canadian filmmaker of Armenian descent. Atom Egoyan was born in Cairo in 1960. Beyond directing, Atom Egoyan's professional roles have included screenwriter, film producer, and actor. Atom Egoyan studied at Trinity College. Recognition connected with Atom Egoyan's career includes Officer of the Order of Canada. This project includes 9 films by Atom Egoyan in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "ava-duvernay": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "ayoka-chenzira": {
@@ -288,10 +414,34 @@ window.DIRECTOR_INFO = {
     "bio": "Bahram Beyzaie was an Iranian film director. Bahram Beyzaie was born in Tehran in 1938 and died in 2025. Beyond directing, Bahram Beyzaie's professional roles have included screenwriter and playwright. Bahram Beyzaie studied at University of Tehran. Bahram Beyzaie's documented professional activity began around 1962. This project includes 1 film by Bahram Beyzaie in the Hidden Gems cluster.",
     "credit": ""
   },
+  "barbara-loden": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "barbet-schroeder": {
     "image": "",
     "imageAlt": "",
     "bio": "Barbet Schroeder is a French film director. Barbet Schroeder was born in Tehran in 1941. Beyond directing, Barbet Schroeder's professional roles have included actor, screenwriter, and film producer. Barbet Schroeder studied at Lycée Henri-IV. Recognition connected with Barbet Schroeder's career includes César Award for Best Documentary Film. This project includes 2 films by Barbet Schroeder across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "barbra-streisand": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "barry-jenkins": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "barry-levinson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "bas-devos": {
@@ -312,16 +462,52 @@ window.DIRECTOR_INFO = {
     "bio": "Basil Dearden was a British film director. Basil Dearden was born in Westcliff-on-Sea in 1911 and died in 1971. Beyond directing, Basil Dearden's professional roles have included film producer and screenwriter. Basil Dearden's documented professional activity began around 1938. Basil Dearden's biographical record is closely connected with United Kingdom. This project includes 4 films by Basil Dearden in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "baz-luhrmann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "bela-tarr": {
     "image": "",
     "imageAlt": "",
     "bio": "Béla Tarr was a Hungarian filmmaker and anarchist. Béla Tarr was born in Pécs in 1955 and died in 2026. Beyond directing, Béla Tarr's professional roles have included screenwriter and film producer. Béla Tarr studied at University of Theatre and Film Arts. A notable work associated with Béla Tarr is Family Nest. This project includes 1 film by Béla Tarr in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "ben-affleck": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "benh-zeitlin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "bennett-miller": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "bernardo-bertolucci": {
     "image": "",
     "imageAlt": "",
     "bio": "Bernardo Bertolucci was an Italian film director and screenwriter. Bernardo Bertolucci was born in Parma in 1941 and died in 2018. Beyond directing, Bernardo Bertolucci's professional roles have included screenwriter, film producer, and film actor. Bernardo Bertolucci studied at Sapienza University of Rome. Recognition connected with Bernardo Bertolucci's career includes Academy Award for Best Director. This project includes 2 films by Bernardo Bertolucci across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "bernhard-wicki": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "bertrand-bonello": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "bertrand-tavernier": {
@@ -360,16 +546,34 @@ window.DIRECTOR_INFO = {
     "bio": "Billy Woodberry is an American film director. Billy Woodberry was born in Dallas in 1950. Billy Woodberry studied at UCLA School of Theater, Film and Television. A notable work associated with Billy Woodberry is Bless Their Little Hearts. Recognition connected with Billy Woodberry's career includes Guggenheim Fellowship. This project includes 1 film by Billy Woodberry in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "blake-edwards": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "bo-widerberg": {
     "image": "director_photos/bo_widerberg.jpg",
     "imageAlt": "Portrait of Bo Widerberg",
     "bio": "Bo Widerberg was a Swedish film director, screenwriter and film editor. Bo Widerberg was born in Malmö in 1930 and died in 1997. Beyond directing, Bo Widerberg's professional roles have included screenwriter, film editor, and writer. Recognition connected with Bo Widerberg's career includes Litteris et Artibus. Bo Widerberg's biographical record is closely connected with Sweden. This project includes 4 films by Bo Widerberg in the Bergman Scandinavian cluster.",
     "credit": ""
   },
+  "bob-fosse": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "bob-hoskins": {
     "image": "",
     "imageAlt": "",
     "bio": "Bob Hoskins was an English actor. Bob Hoskins was born in Bury St Edmunds in 1942 and died in 2014. Beyond directing, Bob Hoskins's professional roles have included television actor, film actor, and actor. Bob Hoskins studied at Royal Central School of Speech and Drama. A notable work associated with Bob Hoskins is Brazil. This project includes 1 film by Bob Hoskins in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "bob-peterson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "bob-rafelson": {
@@ -382,6 +586,24 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Bob Swaim is an American film director. Bob Swaim was born in Evanston in 1943. Beyond directing, Bob Swaim's professional roles have included screenwriter, actor, and film producer. Bob Swaim studied at École nationale supérieure Louis-Lumière. Bob Swaim's biographical record is closely connected with United States. This project includes 1 film by Bob Swaim in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "bong-joon-ho": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "bradley-cooper": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "brady-corbet": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "brian-de-palma": {
@@ -420,6 +642,18 @@ window.DIRECTOR_INFO = {
     "bio": "Bryan Forbes was an English film director, screenwriter and actor. Bryan Forbes was born in Stratford in 1926 and died in 2013. Beyond directing, Bryan Forbes's professional roles have included screenwriter, film producer, and stage actor. Bryan Forbes studied at Royal Academy of Dramatic Art. Recognition connected with Bryan Forbes's career includes Edgar Awards. This project includes 1 film by Bryan Forbes in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "bryan-singer": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "buck-henry": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "buichi-saito": {
     "image": "",
     "imageAlt": "",
@@ -427,9 +661,15 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "buster-keaton": {
+    "image": "director_photos/buster_keaton.jpg",
+    "imageAlt": "Portrait of Buster Keaton",
+    "bio": "Buster Keaton was an American actor, comedian, and director. Buster Keaton was born in Piqua in 1895 and died in 1966. Beyond directing, Buster Keaton's professional roles have included comedian, film producer, writer, and film editor. Recognition connected with Buster Keaton's career includes Academy Honorary Award. Buster Keaton's filmography is associated with comedy film. This project includes 3 films by Buster Keaton in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "cameron-crowe": {
     "image": "",
     "imageAlt": "",
-    "bio": "Buster Keaton was an American actor, comedian, and director. Buster Keaton was born in Piqua in 1895 and died in 1966. Beyond directing, Buster Keaton's professional roles have included comedian, film producer, writer, and film editor. Recognition connected with Buster Keaton's career includes Academy Honorary Award. Buster Keaton's filmography is associated with comedy film. This project includes 3 films by Buster Keaton in the Anglophone Classic cluster.",
+    "bio": "",
     "credit": ""
   },
   "carl-th-dreyer": {
@@ -498,10 +738,22 @@ window.DIRECTOR_INFO = {
     "bio": "Charles Chaplin was an English actor and filmmaker. Charles Chaplin was born in Walworth in 1889 and died in 1977. Beyond directing, Charles Chaplin's professional roles have included composer, film actor, and screenwriter. Charles Chaplin studied at Cuckoo Schools. Recognition connected with Charles Chaplin's career includes Commander of the Legion of Honour. This project includes 10 films by Charles Chaplin in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "charles-jarrott": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "charles-reisner": {
     "image": "",
     "imageAlt": "",
     "bio": "Charles Reisner was a film director. Charles Reisner was born in Minneapolis in 1887 and died in 1962. Beyond directing, Charles Reisner's professional roles have included actor, screenwriter, and film actor. Charles Reisner's documented professional activity extended from 1916 to 1950. The German-American directed over 60 films between 1920 and 1950 and acted in over 20 films between 1916 and 1929. This project includes 1 film by Charles Reisner in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "charles-walters": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "chester-erskine": {
@@ -510,10 +762,28 @@ window.DIRECTOR_INFO = {
     "bio": "Chester Erskine was an American theatre and film director. Chester Erskine was born in Hudson in 1905 and died in 1986. Beyond directing, Chester Erskine's professional roles have included film producer, screenwriter, and playwright. Chester Erskine's biographical record is closely connected with United States. Chester Erskine's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Chester Erskine in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "chiara-malta": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ching-siu-tung": {
     "image": "",
     "imageAlt": "",
     "bio": "Ching Siu-tung is a Hong Kong action choreographer and film director. Ching Siu-tung was born in Hong Kong in 1953. Beyond directing, Ching Siu-tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Ching Siu-tung's career includes Time Machine Award. Ching Siu-tung's biographical record is closely connected with People's Republic of China. This project includes 1 film by Ching Siu-tung in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "chloe-zhao": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "chris-noonan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "christian-jaque": {
@@ -522,10 +792,34 @@ window.DIRECTOR_INFO = {
     "bio": "Christian-Jaque was a French film director. Christian-Jaque was born in 19th arrondissement of Paris in 1904 and died in 1994. Beyond directing, Christian-Jaque's professional roles have included screenwriter and production designer. Christian-Jaque studied at Beaux-Arts de Paris. Recognition connected with Christian-Jaque's career includes Knight of the Legion of Honour. This project includes 1 film by Christian-Jaque in the European Art Cinema cluster.",
     "credit": ""
   },
+  "christian-nyby": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "christian-petzold": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "christophe-honore": {
     "image": "",
     "imageAlt": "",
     "bio": "Christophe Honoré is a French film director, screenwriter and writer. Christophe Honoré was born in Carhaix-Plouguer in 1970. Beyond directing, Christophe Honoré's professional roles have included screenwriter, writer, and novelist. Christophe Honoré studied at University of Rennes 2 – Upper Brittany. Recognition connected with Christophe Honoré's career includes Officer of Arts and Letters. This project includes 1 film by Christophe Honoré in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "christopher-nolan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "christy-cabanne": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "claire-denis": {
@@ -538,6 +832,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Clara Law is an Australian film director. Clara Law was born in Macau in 1957. Beyond directing, Clara Law's professional roles have included screenwriter and film producer. Clara Law studied at University of Hong Kong. She is known for such films as Floating Life and Autumn Moon. This project includes 1 film by Clara Law in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "clarence-brown": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "claude-autant-lara": {
@@ -558,9 +858,21 @@ window.DIRECTOR_INFO = {
     "bio": "Claude Chabrol was a French film director. Claude Chabrol was born in 10ᵗʰ arrondissement of Paris in 1930 and died in 2010. Beyond directing, Claude Chabrol's professional roles have included film actor, film screenwriter, and film critic. Claude Chabrol studied at Paris Medical Faculty. Recognition connected with Claude Chabrol's career includes National Society of Film Critics Award for Best Foreign Language Film. This project includes 5 films by Claude Chabrol in the European Art Cinema cluster.",
     "credit": ""
   },
-  "clyde-bruckman": {
+  "clint-bentley": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "clint-eastwood": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "clyde-bruckman": {
+    "image": "director_photos/clyde_bruckman.jpg",
+    "imageAlt": "Portrait of Clyde Bruckman",
     "bio": "Clyde Bruckman was an American film director and writer. Clyde Bruckman was born in San Bernardino in 1894 and died in 1955. Beyond directing, Clyde Bruckman's professional roles have included screenwriter, film screenwriter, and film producer. Clyde Bruckman's professional career has included work with Metro Pictures. Clyde Bruckman's biographical record is closely connected with United States. This project includes 4 films by Clyde Bruckman in the Anglophone Classic cluster.",
     "credit": ""
   },
@@ -568,6 +880,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Compton Bennett was a British film director. Compton Bennett was born in Royal Tunbridge Wells in 1900 and died in 1974. Beyond directing, Compton Bennett's professional roles have included screenwriter and film producer. Compton Bennett's biographical record is closely connected with United Kingdom. Compton Bennett's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Compton Bennett in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "coralie-fargeat": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "cord-jefferson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "corneliu-porumboiu": {
@@ -594,6 +918,12 @@ window.DIRECTOR_INFO = {
     "bio": "Cristian Mungiu is a Romanian film director, screenwriter, and film producer. Cristian Mungiu was born in Iași in 1968. Beyond directing, Cristian Mungiu's professional roles have included screenwriter, film producer, and radio personality. Cristian Mungiu studied at Alexandru Ioan Cuza University. Recognition connected with Cristian Mungiu's career includes Knight of the Order of the Star of Romania. This project includes 1 film by Cristian Mungiu in the Hidden Gems cluster.",
     "credit": ""
   },
+  "curtis-hanson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "cy-endfield": {
     "image": "",
     "imageAlt": "",
@@ -604,6 +934,54 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Dag Johan Haugerud is a Norwegian film director. Dag Johan Haugerud was born in Eidsberg Municipality in 1964. Beyond directing, Dag Johan Haugerud's professional roles have included film editor, screenwriter, and librarian. Recognition connected with Dag Johan Haugerud's career includes Amanda Award for Best Direction. Dag Johan Haugerud's biographical record is closely connected with Norway. This project includes 2 films by Dag Johan Haugerud in the Hidden Gems cluster.",
+    "credit": ""
+  },
+  "damien-chazelle": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "daniel-kwan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "daniel-mann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "daniel-scheinert": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "danny-boyle": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "darius-marder": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "darren-aronofsky": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "darryl-f-zanuck": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "david-chung": {
@@ -630,6 +1008,18 @@ window.DIRECTOR_INFO = {
     "bio": "David Fincher is an American film director. David Fincher was born in Denver in 1962. Beyond directing, David Fincher's professional roles have included film producer and television producer. David Fincher studied at Ashland High School. A notable work associated with David Fincher is The Social Network. This project includes 1 film by David Fincher in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "david-gordon-green": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "david-jacobson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "david-lean": {
     "image": "director_photos/david_lean.jpg",
     "imageAlt": "Portrait of David Lean",
@@ -648,16 +1038,64 @@ window.DIRECTOR_INFO = {
     "bio": "David Lynch was an American filmmaker, visual artist, musician, and actor. David Lynch was born in Missoula in 1946 and died in 2025. Beyond directing, David Lynch's professional roles have included actor, composer, and painter. David Lynch studied at George Washington University. A notable work associated with David Lynch is Blue Velvet. This project includes 6 films by David Lynch across the Anglophone Classic, Hidden Gems, and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "david-mackenzie": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "david-mamet": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "david-mingay": {
     "image": "",
     "imageAlt": "",
     "bio": "David Mingay is a British editor, screenwriter, producer, and director born in Sheffield in 1945. He first became known through work that combined documentary observation with experimental approaches to performance and celebrity. Mingay edited A Bigger Splash, Jack Hazan's portrait of artist David Hockney. He later co-directed Rude Boy with Hazan. That film mixed staged scenes with documentary footage of the Clash and the political climate surrounding the band. Mingay's career is closely connected to the boundary between documentary filmmaking, music culture, and fictional storytelling.",
     "credit": ""
   },
+  "david-o-russell": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "david-o-selznick": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "david-schickele": {
     "image": "",
     "imageAlt": "",
     "bio": "David Schickele was an American musician, film director and actor. David Schickele was born in Ames in 1937 and died in 1999. David Schickele studied at Swarthmore College. Recognition connected with David Schickele's career includes Guggenheim Fellowship. David Schickele's biographical record is closely connected with United States. This project includes 1 film by David Schickele in the Hidden Gems cluster.",
+    "credit": ""
+  },
+  "david-weisman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "debra-granik": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "delbert-mann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "denis-villeneuve": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "dennis-hopper": {
@@ -670,6 +1108,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Dennis Yu is a Hong Kong film director. Dennis Yu's work is associated with Hong Kong New Wave. Dennis Yu's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Dennis Yu in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "denzel-washington": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "derek-jarman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "derek-n-twist": {
@@ -738,16 +1188,34 @@ window.DIRECTOR_INFO = {
     "bio": "Edgar G. Ulmer was an American film director, set designer. Edgar G. Ulmer was born in Olomouc in 1904 and died in 1972. Beyond directing, Edgar G. Ulmer's professional roles have included writer, screenwriter, and cinematographer. Edgar G. Ulmer's documented field of work includes film direction. His stylish and eccentric works came to be appreciated by auteur theory-espousing film critics in the years following his retirement. This project includes 2 films by Edgar G. Ulmer across the European Art Cinema and Hidden Gems clusters.",
     "credit": ""
   },
+  "edmund-goulding": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "edvin-adolphson": {
     "image": "",
     "imageAlt": "",
     "bio": "Edvin Adolphson was a Swedish actor and director. Edvin Adolphson was born in Norrköping in 1893 and died in 1979. Beyond directing, Edvin Adolphson's professional roles have included actor and screenwriter. Recognition connected with Edvin Adolphson's career includes Pro Finlandia Medal of the Order of the Lion of Finland. Edvin Adolphson's documented professional activity began around 1912. This project includes 1 film by Edvin Adolphson in the Bergman Scandinavian cluster.",
     "credit": ""
   },
+  "edward-berger": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "edward-dmytryk": {
     "image": "",
     "imageAlt": "",
     "bio": "Edward Dmytryk was an American film director. Edward Dmytryk was born in Grand Forks in 1908 and died in 1999. Beyond directing, Edward Dmytryk's professional roles have included film producer, film editor, and screenwriter. Edward Dmytryk's professional career has included work with University of Southern California. Recognition connected with Edward Dmytryk's career includes star on Hollywood Walk of Fame. This project includes 1 film by Edward Dmytryk in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "edward-f-cline": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "edward-yang": {
@@ -786,10 +1254,34 @@ window.DIRECTOR_INFO = {
     "bio": "Elfi Mikesch is an Austrian film director, screenwriter, cinematographer and film producer. Elfi Mikesch was born in Judenburg in 1940. Beyond directing, Elfi Mikesch's professional roles have included screenwriter, cinematographer, and film producer. Elfi Mikesch's professional career has included work with Academy of Arts, Berlin. Elfi Mikesch's biographical record is closely connected with Austria. This project includes 1 film by Elfi Mikesch in the Hidden Gems cluster.",
     "credit": ""
   },
+  "elia-kazan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "emerald-fennell": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "emeric-pressburger": {
     "image": "director_photos/emeric_pressburger.jpg",
     "imageAlt": "Portrait of Emeric Pressburger",
     "bio": "Emeric Pressburger was a Hungarian-British screenwriter, director and producer. Emeric Pressburger was born in Miskolc in 1902 and died in 1988. Beyond directing, Emeric Pressburger's professional roles have included screenwriter, film producer, and journalist. Emeric Pressburger studied at Charles University. Recognition connected with Emeric Pressburger's career includes Academy Award for Best Story. This project includes 6 films by Emeric Pressburger in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "emile-de-antonio": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "emilio-fernandez": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "eric-rohmer": {
@@ -822,6 +1314,18 @@ window.DIRECTOR_INFO = {
     "bio": "Ernst Lubitsch was a German-American actor and film director. Ernst Lubitsch was born in Berlin in 1892 and died in 1947. Beyond directing, Ernst Lubitsch's professional roles have included actor, screenwriter, and film producer. Ernst Lubitsch's professional career has included work with University of Southern California. Recognition connected with Ernst Lubitsch's career includes Academy Honorary Award. This project includes 1 film by Ernst Lubitsch in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "ethan-coen": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "ethan-hawke": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ettore-scola": {
     "image": "",
     "imageAlt": "",
@@ -852,6 +1356,12 @@ window.DIRECTOR_INFO = {
     "bio": "Fernando de Fuentes was a Mexican film director. Fernando de Fuentes was born in Veracruz in 1894 and died in 1958. Beyond directing, Fernando de Fuentes's professional roles have included film producer and screenwriter. Fernando de Fuentes studied at Tulane University. Fernando de Fuentes's biographical record is closely connected with Mexico. This project includes 1 film by Fernando de Fuentes in the Hidden Gems cluster.",
     "credit": ""
   },
+  "florian-zeller": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "franc-roddam": {
     "image": "",
     "imageAlt": "",
@@ -862,6 +1372,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Francesco Rosi was an Italian film director. Francesco Rosi was born in Naples in 1922 and died in 2015. Beyond directing, Francesco Rosi's professional roles have included screenwriter and journalist. A notable work associated with Francesco Rosi is Salvatore Giuliano. Recognition connected with Francesco Rosi's career includes Officer of the Legion of Honour. This project includes 3 films by Francesco Rosi in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "francis-ford-coppola": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "franco-zeffirelli": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "francois-girard": {
@@ -882,16 +1404,40 @@ window.DIRECTOR_INFO = {
     "bio": "Frank Borzage was an American film director and actor. Frank Borzage was born in Salt Lake City in 1894 and died in 1962. Beyond directing, Frank Borzage's professional roles have included screenwriter, film actor, and film producer. Recognition connected with Frank Borzage's career includes Academy Award for Best Director. He was the first person to win the Academy Award for Best Director for his film 7th Heaven (1927) at the 1st Academy Awards. This project includes 1 film by Frank Borzage in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "frank-capra": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "frank-darabont": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "frank-launder": {
     "image": "",
     "imageAlt": "",
     "bio": "Frank Launder was a British film director, producer and writer. Frank Launder was born in Hitchin in 1906 and died in 1997. Beyond directing, Frank Launder's professional roles have included screenwriter and film producer. Frank Launder's biographical record is closely connected with United Kingdom. Frank Launder's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Frank Launder in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "frank-lloyd": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "frank-perugini": {
     "image": "",
     "imageAlt": "",
     "bio": "Frank Perugini was a pioneering American director who worked during the silent-film era. His surname is also found in film records under the spelling Peregini. He directed The Scar of Shame for the Colored Players Film Corporation of Philadelphia. The film was made with a Black cast and explored class, ambition, family pressure, and social respectability. It survives as an important example of the race-film industry that created work for audiences neglected by mainstream Hollywood. Perugini's limited surviving filmography gives his work particular historical significance.",
+    "credit": ""
+  },
+  "franklin-j-schaffner": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "frantisek-vlacil": {
@@ -901,15 +1447,33 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "fred-c-newmeyer": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/fred_c_newmeyer.jpg",
+    "imageAlt": "Portrait of Fred C. Newmeyer",
     "bio": "Fred C. Newmeyer was an American actor. Fred C. Newmeyer was born in Central City in 1888 and died in 1967. Beyond directing, Fred C. Newmeyer's professional roles have included actor, film producer, and film actor. Fred C. Newmeyer's biographical record is closely connected with United States. Fred C. Newmeyer's career forms part of the film history represented by the Criterion-focused dataset. This project includes 2 films by Fred C. Newmeyer in the Anglophone Classic cluster.",
     "credit": ""
   },
-  "fred-newmeyer": {
+  "fred-coe": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "fred-fleck": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "fred-newmeyer": {
+    "image": "director_photos/fred_c_newmeyer.jpg",
+    "imageAlt": "Portrait of Fred Newmeyer",
     "bio": "Fred Newmeyer was an American actor. Fred Newmeyer was born in Central City in 1888 and died in 1967. Beyond directing, Fred Newmeyer's professional roles have included actor, film producer, and film actor. Fred Newmeyer's biographical record is closely connected with United States. Fred Newmeyer's career forms part of the film history represented by the Criterion-focused dataset. This project includes 4 films by Fred Newmeyer in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "fred-zinnemann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "fritz-lang": {
@@ -930,10 +1494,34 @@ window.DIRECTOR_INFO = {
     "bio": "Gabriel Pascal was a film producer. Gabriel Pascal was born in Arad in 1894 and died in 1954. Beyond directing, Gabriel Pascal's professional roles have included film producer, screenwriter, and actor. Pascal was the first film producer to successfully bring the plays of George Bernard Shaw to the screen. Gabriel Pascal's biographical record is closely connected with Hungary. This project includes 2 films by Gabriel Pascal in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "garth-davis": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "gary-ross": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "gary-trousdale": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "gary-walkow": {
     "image": "",
     "imageAlt": "",
     "bio": "Gary Walkow is an American independent filmmaker, photographer, novelist, and visual artist. He began making films while studying at Wesleyan University. His first feature, The Trouble with Dick, shared the Grand Prize at the 1987 U.S. Film Festival, which later became Sundance. Walkow followed it with Notes from Underground, an adaptation of Dostoevsky's novella. His other films include Beat and Radio Mary. Across these projects, he has repeatedly combined literary influences, unconventional characters, and independently produced storytelling.",
+    "credit": ""
+  },
+  "gene-kelly": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "george-a-romero": {
@@ -942,22 +1530,82 @@ window.DIRECTOR_INFO = {
     "bio": "George A. Romero was a Canadian-American filmmaker. George A. Romero was born in New York City in 1940 and died in 2017. Beyond directing, George A. Romero's professional roles have included film producer, film editor, and actor. George A. Romero studied at Carnegie Mellon University. Recognition connected with George A. Romero's career includes star on Hollywood Walk of Fame. This project includes 1 film by George A. Romero in the Hidden Gems cluster.",
     "credit": ""
   },
+  "george-clooney": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-cukor": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-lucas": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-marshall": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-miller": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "george-more-oferrall": {
     "image": "",
     "imageAlt": "",
     "bio": "George More O'Ferrall was a British film and television director. George More O'Ferrall was born in Bristol in 1907 and died in 1982. Beyond directing, George More O'Ferrall's professional roles have included screenwriter, film producer, and television producer. George More O'Ferrall's biographical record is closely connected with United Kingdom. George More O'Ferrall's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by George More O'Ferrall in the Anglophone Classic cluster.",
     "credit": ""
   },
-  "george-stevens": {
+  "george-roy-hill": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-seaton": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-sidney": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "george-stevens": {
+    "image": "director_photos/george_stevens.jpg",
+    "imageAlt": "Portrait of George Stevens",
     "bio": "George Stevens was an American film director, producer, screenwriter and cinematographer. George Stevens was born in Oakland in 1904 and died in 1975. Beyond directing, George Stevens's professional roles have included film producer, cinematographer, and screenwriter. A notable work associated with George Stevens is The Nazi Plan. Recognition connected with George Stevens's career includes Legionnaire of Legion of Merit. This project includes 1 film by George Stevens in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "george-w-hill": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "georges-franju": {
     "image": "",
     "imageAlt": "",
     "bio": "Georges Franju was a French filmmaker. Georges Franju was born in Fougères in 1912 and died in 1987. Beyond directing, Georges Franju's professional roles have included film screenwriter. Georges Franju's documented field of work includes film. Georges Franju's documented professional activity began around 1934. This project includes 2 films by Georges Franju in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "gerd-oswald": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "gillian-armstrong": {
@@ -996,6 +1644,18 @@ window.DIRECTOR_INFO = {
     "bio": "Gregg Araki is an American film director. Gregg Araki was born in Los Angeles in 1959. Beyond directing, Gregg Araki's professional roles have included screenwriter, film editor, and cinematographer. Gregg Araki studied at University of Southern California. Gregg Araki's documented professional activity began around 1987. This project includes 3 films by Gregg Araki in the European Art Cinema cluster.",
     "credit": ""
   },
+  "gregory-la-cava": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "greta-gerwig": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "grigori-chukhrai": {
     "image": "",
     "imageAlt": "",
@@ -1008,6 +1668,12 @@ window.DIRECTOR_INFO = {
     "bio": "Guillermo del Toro is a Mexican filmmaker and author. Guillermo del Toro was born in Guadalajara in 1964. Beyond directing, Guillermo del Toro's professional roles have included screenwriter, novelist, and film producer. Guillermo del Toro studied at University of Guadalajara. Recognition connected with Guillermo del Toro's career includes BAFTA Award for Best Direction. This project includes 1 film by Guillermo del Toro in the Hidden Gems cluster.",
     "credit": ""
   },
+  "gus-van-sant": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "gustaf-edgren": {
     "image": "",
     "imageAlt": "",
@@ -1018,6 +1684,12 @@ window.DIRECTOR_INFO = {
     "image": "director_photos/gustaf_molander.jpg",
     "imageAlt": "Portrait of Gustaf Molander",
     "bio": "Gustaf Molander was a Swedish film director. Gustaf Molander was born in Helsinki in 1888 and died in 1973. Beyond directing, Gustaf Molander's professional roles have included actor, screenwriter, and stage actor. He was also one of the founders of the Swedish Film Society in 1933 and received an honorary award from the organization in 1953. Gustaf Molander's biographical record is closely connected with Sweden. This project includes 6 films by Gustaf Molander in the Bergman Scandinavian cluster.",
+    "credit": ""
+  },
+  "gustav-machaty": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "guy-hamilton": {
@@ -1044,6 +1716,12 @@ window.DIRECTOR_INFO = {
     "bio": "Hal Ashby was an American film director and film editor. Hal Ashby was born in Ogden in 1929 and died in 1988. Beyond directing, Hal Ashby's professional roles have included film producer, film editor, and actor. Recognition connected with Hal Ashby's career includes Academy Award for Best Film Editing. Hal Ashby's documented professional activity extended from 1956 to 1988. This project includes 1 film by Hal Ashby in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "hal-mohr": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "hanns-schwarz": {
     "image": "",
     "imageAlt": "",
@@ -1060,6 +1738,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Harold Young was an American film director and film editor. Harold Young was born in Portland in 1897 and died in 1972. Beyond directing, Harold Young's professional roles have included film editor and film actor. Harold Young's biographical record is closely connected with United States. Harold Young's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Harold Young in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "harry-beaumont": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "harry-dabbadie-darrast": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "harvey-kahn": {
@@ -1104,10 +1794,34 @@ window.DIRECTOR_INFO = {
     "bio": "Henry Cass was a British film director. Henry Cass was born in Greater London in 1902 and died in 1989. Beyond directing, Henry Cass's professional roles have included actor, film producer, and screenwriter. Henry Cass studied at Royal Academy of Dramatic Art. Previously an actor, he was also a prolific stage director of classical theatre at the Old Vic in the 1930s. This project includes 1 film by Henry Cass in the Anglophone Classic cluster.",
     "credit": ""
   },
-  "henry-king": {
+  "henry-hathaway": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "henry-king": {
+    "image": "director_photos/henry_king.jpg",
+    "imageAlt": "Portrait of Henry King",
     "bio": "Henry King was an American film director. Henry King was born in Christiansburg in 1886 and died in 1982. Beyond directing, Henry King's professional roles have included film actor, screenwriter, and poet. Recognition connected with Henry King's career includes star on Hollywood Walk of Fame. Before coming to film, King worked as an actor in various repertoire theatres and first started to take small film roles in 1912. This project includes 1 film by Henry King in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "henry-koster": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "herbert-ross": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "herman-shumlin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "hideaki-anno": {
@@ -1200,10 +1914,22 @@ window.DIRECTOR_INFO = {
     "bio": "Huang Xi is a Taiwanese filmmaker. She made her directorial debut with Missing Johnny (2017), for which she won Best Screenplay in the 19th Taipei Film Awards. Huang Xi's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Huang Xi in the Hong Kong Taiwan Cinema cluster.",
     "credit": ""
   },
+  "hugh-hudson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "humberto-solas": {
     "image": "",
     "imageAlt": "",
     "bio": "Humberto Solás was a Cuban film director. Humberto Solás was born in Havana in 1941 and died in 2008. Beyond directing, Humberto Solás's professional roles have included screenwriter. Most known for Lucía (1968), which explored the lives of Cuban women during different periods in Cuban history. Humberto Solás's biographical record is closely connected with Cuba. This project includes 1 film by Humberto Solás in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "ida-lupino": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "idrissa-ouedraogo": {
@@ -1230,10 +1956,22 @@ window.DIRECTOR_INFO = {
     "bio": "Irvin S. Yeaworth Jr. was a German film director. Irvin S. Yeaworth Jr. was born in Berlin in 1926 and died in 2004. Beyond directing, Irvin S. Yeaworth Jr.'s professional roles have included screenwriter and film producer. Irvin S. Yeaworth Jr.'s biographical record is closely connected with Germany. Irvin S. Yeaworth Jr.'s career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Irvin S. Yeaworth Jr. in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "irving-cummings": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "irving-pichel": {
     "image": "",
     "imageAlt": "",
     "bio": "Irving Pichel was an actor, film director. Irving Pichel was born in Pittsburgh in 1891 and died in 1954. Beyond directing, Irving Pichel's professional roles have included actor and film actor. Irving Pichel studied at Harvard University. Irving Pichel's documented professional activity began around 1920. This project includes 1 film by Irving Pichel in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "irving-rapper": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "isaac-julien": {
@@ -1260,10 +1998,22 @@ window.DIRECTOR_INFO = {
     "bio": "J. Lee Thompson was a British film director. J. Lee Thompson was born in Bristol in 1914 and died in 2002. Beyond directing, J. Lee Thompson's professional roles have included stage actor and screenwriter. J. Lee Thompson studied at Dover College. J. Lee Thompson's documented professional activity extended from 1950 to 1989. This project includes 1 film by J. Lee Thompson in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "jack-cardiff": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jack-clayton": {
     "image": "",
     "imageAlt": "",
     "bio": "Jack Clayton was a British film director and producer. Jack Clayton was born in Brighton in 1921 and died in 1995. Beyond directing, Jack Clayton's professional roles have included film producer and actor. Jack Clayton studied at Arnold House School. Jack Clayton's documented professional activity extended from 1936 to 1992. This project includes 1 film by Jack Clayton in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "jack-conway": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "jack-hazan": {
@@ -1332,6 +2082,12 @@ window.DIRECTOR_INFO = {
     "bio": "Jacques Tourneur was a French film director. Jacques Tourneur was born in Paris in 1904 and died in 1977. Beyond directing, Jacques Tourneur's professional roles have included film editor and actor. Jacques Tourneur's documented field of work includes film direction. Jacques Tourneur's documented professional activity began around 1931. This project includes 4 films by Jacques Tourneur across the Anglophone Classic and European Art Cinema clusters.",
     "credit": ""
   },
+  "james-cameron": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "james-gray": {
     "image": "",
     "imageAlt": "",
@@ -1342,6 +2098,24 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "James Ivory is an American film director. James Ivory was born in Berkeley in 1928. Beyond directing, James Ivory's professional roles have included screenwriter and film producer. James Ivory studied at University of Southern California. Recognition connected with James Ivory's career includes Guggenheim Fellowship. This project includes 1 film by James Ivory in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "james-l-brooks": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "james-mangold": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "james-marsh": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "james-p-hogan": {
@@ -1362,10 +2136,22 @@ window.DIRECTOR_INFO = {
     "bio": "Jan Troell is a Swedish film director, cinematographer, screenwriter and film editor. Jan Troell was born in Limhamn parish in 1931. Beyond directing, Jan Troell's professional roles have included screenwriter, cinematographer, and film editor. Recognition connected with Jan Troell's career includes Litteris et Artibus. Jan Troell's documented professional activity began around 1966. This project includes 1 film by Jan Troell in the Bergman Scandinavian cluster.",
     "credit": ""
   },
+  "jane-campion": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jaromil-jires": {
     "image": "",
     "imageAlt": "",
     "bio": "Jaromil Jireš was a Czech director and scriptwriter. Jaromil Jireš was born in Bratislava in 1935 and died in 2001. Beyond directing, Jaromil Jireš's professional roles have included screenwriter. Recognition connected with Jaromil Jireš's career includes Annual award ACFK. Jaromil Jireš's documented professional activity began around 1958. This project includes 3 films by Jaromil Jireš in the Czech New Wave cluster.",
+    "credit": ""
+  },
+  "jason-reitman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "jean-charles-tacchella": {
@@ -1410,6 +2196,18 @@ window.DIRECTOR_INFO = {
     "bio": "Jean-Luc Godard was a French and Swiss film director. Jean-Luc Godard was born in 7th arrondissement of Paris in 1930 and died in 2022. Beyond directing, Jean-Luc Godard's professional roles have included actor, screenwriter, and cinematographer. Jean-Luc Godard studied at University of Paris. A notable work associated with Jean-Luc Godard is Contempt. This project includes 11 films by Jean-Luc Godard across the Anglophone Classic and European Art Cinema clusters.",
     "credit": ""
   },
+  "jean-marc-vallee": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "jean-negulesco": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jean-paul-rappeneau": {
     "image": "",
     "imageAlt": "",
@@ -1446,16 +2244,40 @@ window.DIRECTOR_INFO = {
     "bio": "Jean Vigo was a French film director. Jean Vigo was born in 18th arrondissement of Paris in 1905 and died in 1934. Beyond directing, Jean Vigo's professional roles have included film editor and screenwriter. Jean Vigo's documented field of work includes documentary film. A notable work associated with Jean Vigo is Zero for Conduct. This project includes 1 film by Jean Vigo in the European Art Cinema cluster.",
     "credit": ""
   },
+  "jeff-lieberman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jeffrey-lau": {
     "image": "",
     "imageAlt": "",
     "bio": "Jeffrey Lau is a Hong Kong film director, screenwriter, actor and film producer. Jeffrey Lau was born in Hong Kong in 1952. Beyond directing, Jeffrey Lau's professional roles have included screenwriter, actor, and film producer. Jeffrey Lau's documented field of work includes film direction. Jeffrey Lau's biographical record is closely connected with People's Republic of China. This project includes 2 films by Jeffrey Lau in the Hong Kong Taiwan Cinema cluster.",
     "credit": ""
   },
+  "jerome-robbins": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "jerry-zucker": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jerzy-skolimowski": {
     "image": "",
     "imageAlt": "",
     "bio": "Jerzy Skolimowski is a Polish film director, screenwriter, dramatist and actor. Jerzy Skolimowski was born in Łódź in 1938. Beyond directing, Jerzy Skolimowski's professional roles have included actor, painter, and playwright. Jerzy Skolimowski studied at National Film School in Łódź. Recognition connected with Jerzy Skolimowski's career includes German Film Award. This project includes 1 film by Jerzy Skolimowski in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "jessie-maple": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "jia-zhang-ke": {
@@ -1488,6 +2310,12 @@ window.DIRECTOR_INFO = {
     "bio": "Jim McBride is an American screenwriter. Jim McBride was born in New York City in 1941. Beyond directing, Jim McBride's professional roles have included screenwriter, film producer, and film editor. Jim McBride's biographical record is closely connected with United States. Jim McBride's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Jim McBride in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "jim-sheridan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jindrich-polak": {
     "image": "",
     "imageAlt": "",
@@ -1506,10 +2334,22 @@ window.DIRECTOR_INFO = {
     "bio": "Jiří Menzel was a Czech film director, actor, director, scriptwriter, writer and university educator. Jiří Menzel was born in Prague in 1938 and died in 2020. Beyond directing, Jiří Menzel's professional roles have included actor, writer, and screenwriter. Jiří Menzel studied at Academy of Performing Arts. A notable work associated with Jiří Menzel is Closely Watched Trains. This project includes 3 films by Jiří Menzel in the Czech New Wave cluster.",
     "credit": ""
   },
+  "joachim-trier": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "joan-micklin-silver": {
     "image": "",
     "imageAlt": "",
     "bio": "Joan Micklin Silver was an American film director. Joan Micklin Silver was born in Omaha in 1935 and died in 2020. Beyond directing, Joan Micklin Silver's professional roles have included screenwriter and playwright. Joan Micklin Silver studied at Sarah Lawrence College. A notable work associated with Joan Micklin Silver is Crossing Delancey. This project includes 3 films by Joan Micklin Silver across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "joe-wright": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "joel-coen": {
@@ -1518,10 +2358,28 @@ window.DIRECTOR_INFO = {
     "bio": "Joel Coen is an American film director, screenwriter, producer, cinematographer and editor. Joel Coen was born in St. Louis Park in 1954. Beyond directing, Joel Coen's professional roles have included film producer, screenwriter, and cinematographer. Joel Coen studied at Simon's Rock at Bard College. Recognition connected with Joel Coen's career includes Academy Award for Best Director. This project includes 2 films by Joel Coen in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "john-boorman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "john-cassavetes": {
     "image": "director_photos/john_cassavetes.jpg",
     "imageAlt": "Portrait of John Cassavetes",
     "bio": "John Cassavetes was a Greek-American actor, film director, and screenwriter. John Cassavetes was born in New York City in 1929 and died in 1989. Beyond directing, John Cassavetes's professional roles have included film actor, film producer, and character actor. John Cassavetes studied at Colgate University. John Cassavetes's filmography is associated with drama film. This project includes 5 films by John Cassavetes in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "john-cromwell": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "john-crowley": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "john-farrow": {
@@ -1531,9 +2389,21 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "john-ford": {
+    "image": "director_photos/john_ford.jpg",
+    "imageAlt": "Portrait of John Ford",
+    "bio": "John Ford was an American film director. John Ford was born in Cape Elizabeth in 1894 and died in 1973. Beyond directing, John Ford's professional roles have included film producer and producer. John Ford studied at Portland High School. Recognition connected with John Ford's career includes Legionnaire of Legion of Merit. This project includes 5 films by John Ford in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "john-g-avildsen": {
     "image": "",
     "imageAlt": "",
-    "bio": "John Ford was an American film director. John Ford was born in Cape Elizabeth in 1894 and died in 1973. Beyond directing, John Ford's professional roles have included film producer and producer. John Ford studied at Portland High School. Recognition connected with John Ford's career includes Legionnaire of Legion of Merit. This project includes 5 films by John Ford in the Anglophone Classic cluster.",
+    "bio": "",
+    "credit": ""
+  },
+  "john-guillermin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "john-huston": {
@@ -1542,10 +2412,34 @@ window.DIRECTOR_INFO = {
     "bio": "John Huston was an American film director, screenwriter, and actor. John Huston was born in Nevada in 1906 and died in 1987. Beyond directing, John Huston's professional roles have included actor, film actor, and screenwriter. John Huston studied at Art Students League of New York. A notable work associated with John Huston is The Maltese Falcon. This project includes 2 films by John Huston across the Anglophone Classic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "john-lee-hancock": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "john-m-stahl": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "john-mackenzie": {
     "image": "",
     "imageAlt": "",
     "bio": "John Mackenzie was a Scottish film director. John Mackenzie was born in Edinburgh in 1928 and died in 2011. John Mackenzie studied at University of Edinburgh. John Mackenzie's documented professional activity began around 1966. He worked in British film from the late 1960s, first as an assistant director and later as an independent director himself. This project includes 1 film by John Mackenzie in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "john-madden": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "john-palmer": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "john-schlesinger": {
@@ -1560,6 +2454,12 @@ window.DIRECTOR_INFO = {
     "bio": "John Waters is an American filmmaker, actor, comedian and writer. John Waters was born in Baltimore in 1946. Beyond directing, John Waters's professional roles have included television actor, film actor, and screenwriter. John Waters studied at Calvert School. Recognition connected with John Waters's career includes Officer of Arts and Letters. This project includes 1 film by John Waters in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "john-wayne": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "john-woo": {
     "image": "director_photos/john_woo.jpg",
     "imageAlt": "Portrait of John Woo",
@@ -1572,10 +2472,28 @@ window.DIRECTOR_INFO = {
     "bio": "Johnnie To is a Hong Kong filmmaker. Johnnie To was born in Kowloon in 1955. Beyond directing, Johnnie To's professional roles have included film producer and screenwriter. Recognition connected with Johnnie To's career includes Medal of Honour. He co-founded the production company Milkyway Image with his frequent co-director Wai Ka-fai. This project includes 3 films by Johnnie To in the Hong Kong Taiwan Cinema cluster.",
     "credit": ""
   },
+  "jon-m-chu": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "jonathan-dayton": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "jonathan-demme": {
     "image": "",
     "imageAlt": "",
     "bio": "Jonathan Demme was an American filmmaker. Jonathan Demme was born in Baldwin in 1944 and died in 2017. Beyond directing, Jonathan Demme's professional roles have included film producer, writer, and film actor. Jonathan Demme studied at University of Florida. Recognition connected with Jonathan Demme's career includes Academy Award for Best Director. This project includes 2 films by Jonathan Demme in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "jonathan-glazer": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "jonathan-wacks": {
@@ -1584,10 +2502,58 @@ window.DIRECTOR_INFO = {
     "bio": "Jonathan Wacks is an American film director. Jonathan Wacks was born in 1948. Jonathan Wacks's professional career has included work with Brooklyn College. He has directed a number of films including Powwow Highway, produced by George Harrison. Jonathan Wacks's biographical record is closely connected with United States. This project includes 1 film by Jonathan Wacks in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "jordan-peele": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "josef-von-sternberg": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "joseph-barbera": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "joseph-cates": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "joseph-kosinski": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "joseph-l-mankiewicz": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "joseph-losey": {
     "image": "",
     "imageAlt": "",
     "bio": "Joseph Losey was an American filmmaker and theatre director. Joseph Losey was born in La Crosse in 1909 and died in 1984. Beyond directing, Joseph Losey's professional roles have included screenwriter and film producer. Joseph Losey studied at Dartmouth College. Recognition connected with Joseph Losey's career includes Palme d'Or. This project includes 4 films by Joseph Losey across the Anglophone Classic and European Art Cinema clusters.",
+    "credit": ""
+  },
+  "josh-safdie": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "joshua-logan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "joyce-chopra": {
@@ -1626,6 +2592,12 @@ window.DIRECTOR_INFO = {
     "bio": "Julian Schnabel is an American painter and filmmaker. Julian Schnabel was born in New York City in 1951. Beyond directing, Julian Schnabel's professional roles have included screenwriter, painter, and photographer. Julian Schnabel studied at University of Houston. A notable work associated with Julian Schnabel is The Diving Bell and the Butterfly. This project includes 1 film by Julian Schnabel in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "juliano-dornelles": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "julie-dash": {
     "image": "",
     "imageAlt": "",
@@ -1656,9 +2628,15 @@ window.DIRECTOR_INFO = {
     "bio": "Juraj Herz was a Slovak actor, director and scriptwriter. Juraj Herz was born in Kežmarok in 1934 and died in 2018. Beyond directing, Juraj Herz's professional roles have included actor and screenwriter. Juraj Herz studied at Academy of Fine Arts, Prague. Recognition connected with Juraj Herz's career includes Grand Officer of the Order of the White Double Cross. This project includes 1 film by Juraj Herz in the Czech New Wave cluster.",
     "credit": ""
   },
-  "juzo-itami": {
+  "justine-triet": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "juzo-itami": {
+    "image": "director_photos/juzo_itami.jpg",
+    "imageAlt": "Portrait of Juzo Itami",
     "bio": "Juzo Itami was a Japanese actor, film director. Juzo Itami was born in Kyoto in 1933 and died in 1997. Beyond directing, Juzo Itami's professional roles have included actor, screenwriter, and film actor. A notable work associated with Juzo Itami is The Funeral. Recognition connected with Juzo Itami's career includes Mainichi Film Award for Best Screenplay. This project includes 9 films by Juzo Itami in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -1765,8 +2743,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "kenji-misumi": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/kenji_misumi.jpg",
+    "imageAlt": "Portrait of Kenji Misumi",
     "bio": "Kenji Misumi was a Japanese film director. Kenji Misumi was born in Kyoto in 1921 and died in 1975. Kenji Misumi studied at Ritsumeikan University. In 2012, his 1973 film Sakura no Daimon was voted by Makoto Shinozaki at the BFI The Top 50 Greatest Films of All Time. Kenji Misumi's biographical record is closely connected with Japan. This project includes 15 films by Kenji Misumi in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -1774,6 +2752,24 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Kenji Mizoguchi was a Japanese film director and screenwriter. Kenji Mizoguchi was born in Tokyo in 1898 and died in 1956. Beyond directing, Kenji Mizoguchi's professional roles have included screenwriter. Kenji Mizoguchi's documented field of work includes film. A notable work associated with Kenji Mizoguchi is Osaka Elegy. This project includes 12 films by Kenji Mizoguchi across the Hidden Gems and Japanese Cinema clusters.",
+    "credit": ""
+  },
+  "kenneth-branagh": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "kenneth-lonergan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "kevin-costner": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "kihachi-okamoto": {
@@ -1792,6 +2788,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "King Hu was a Chinese film director and screenwriter. King Hu was born in Beijing in 1932 and died in 1997. Beyond directing, King Hu's professional roles have included screenwriter, actor, and film actor. Recognition connected with King Hu's career includes Golden Horse Award for Best Director. King Hu's filmography is associated with wuxia. This project includes 3 films by King Hu in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "king-vidor": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "kinji-fukasaku": {
@@ -1818,10 +2820,22 @@ window.DIRECTOR_INFO = {
     "bio": "Kirill Serebrennikov is a Russian film director and theater director. Kirill Serebrennikov was born in Rostov-on-Don in 1969. Beyond directing, Kirill Serebrennikov's professional roles have included screenwriter. Kirill Serebrennikov studied at Rostov State University. Recognition connected with Kirill Serebrennikov's career includes TEFI. This project includes 1 film by Kirill Serebrennikov in the Hidden Gems cluster.",
     "credit": ""
   },
+  "kirk-wise": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "kiyoshi-kurosawa": {
     "image": "",
     "imageAlt": "",
     "bio": "Kiyoshi Kurosawa is a Japanese film director, screenwriter and film critic. Kiyoshi Kurosawa was born in Kobe in 1955. Beyond directing, Kiyoshi Kurosawa's professional roles have included screenwriter, film critic, and journalist. Kiyoshi Kurosawa studied at Rikkyo University. Recognition connected with Kiyoshi Kurosawa's career includes Medal with Purple Ribbon. This project includes 1 film by Kiyoshi Kurosawa in the Japanese Cinema cluster.",
+    "credit": ""
+  },
+  "kleber-mendonca-filho": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "ko-nakahira": {
@@ -1914,6 +2928,30 @@ window.DIRECTOR_INFO = {
     "bio": "Lawrence Huntington was a British film director and screenwriter. Lawrence Huntington was born in London in 1900 and died in 1968. Beyond directing, Lawrence Huntington's professional roles have included screenwriter. Huntington was born in London on 9 March 1900, he directed more than thirty films following his debut feature After Many Years (1930). Lawrence Huntington's biographical record is closely connected with United Kingdom. This project includes 1 film by Lawrence Huntington in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "lawrence-kasdan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "lee-chang-dong": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "lee-isaac-chung": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "lee-unkrich": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "lena-dunham": {
     "image": "",
     "imageAlt": "",
@@ -1942,6 +2980,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Leslie Howard was a British actor. Leslie Howard was born in London in 1893 and died in 1943. Beyond directing, Leslie Howard's professional roles have included stage actor and film actor. Leslie Howard studied at Dulwich College. Recognition connected with Leslie Howard's career includes Volpi Cup for Best Actor. This project includes 2 films by Leslie Howard in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "lewis-gilbert": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "lewis-milestone": {
@@ -1980,6 +3024,12 @@ window.DIRECTOR_INFO = {
     "bio": "Lino Brocka was a Filipino film director. Lino Brocka was born in Pilar in 1939 and died in 1991. Beyond directing, Lino Brocka's professional roles have included screenwriter and actor. Lino Brocka studied at University of the Philippines. Recognition connected with Lino Brocka's career includes National Artist of the Philippines. This project includes 3 films by Lino Brocka in the Hidden Gems cluster.",
     "credit": ""
   },
+  "lisa-cholodenko": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "liv-ullmann": {
     "image": "",
     "imageAlt": "",
@@ -1992,10 +3042,22 @@ window.DIRECTOR_INFO = {
     "bio": "Lizzie Borden is an American independent filmmaker known for politically engaged feminist cinema. She began her career in the New York art world as a painter, critic, and experimental filmmaker. Her 1983 feature Born in Flames imagines a near-future society shaped by conflicts over race, class, gender, and political power. She followed it with Working Girls, a drama that treats sex work through the routines and economics of labor. Working Girls received a Special Jury Prize at the Sundance Film Festival. Borden's films remain influential for their radical politics, low-budget experimentation, and attention to women's experiences.",
     "credit": ""
   },
+  "lloyd-bacon": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "lois-weber": {
     "image": "",
     "imageAlt": "",
     "bio": "Lois Weber was an American actor/film director. Lois Weber was born in Allegheny in 1879 and died in 1939. Beyond directing, Lois Weber's professional roles have included screenwriter, film actor, and film producer. Lois Weber's documented field of work includes silent film. A notable work associated with Lois Weber is Shoes. This project includes 2 films by Lois Weber across the Anglophone Classic and European Art Cinema clusters.",
+    "credit": ""
+  },
+  "lone-scherfig": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "lothar-mendes": {
@@ -2022,10 +3084,28 @@ window.DIRECTOR_INFO = {
     "bio": "Louis Malle was a French film director, screenwriter, and producer. Louis Malle was born in Thumeries in 1932 and died in 1995. Beyond directing, Louis Malle's professional roles have included screenwriter, film producer, and cinematographer. Louis Malle studied at Institut des hautes études cinématographiques. Recognition connected with Louis Malle's career includes Prix du meilleur film français du Syndicat français de la critique de cinéma. This project includes 11 films by Louis Malle across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "loveleen-tandan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "lowell-sherman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "luc-dardenne": {
     "image": "",
     "imageAlt": "",
     "bio": "Luc Dardenne is a Belgian director, screenwriter, and producer born in 1954. He works closely with his older brother Jean-Pierre under the shared name the Dardenne brothers. Their films focus on working-class lives, moral choices, and social pressures in contemporary Belgium. Rosetta won the Palme d'Or at the Cannes Film Festival. The Child later earned the brothers a second Palme d'Or. Luc's writing and direction have helped make the brothers central figures in modern European social-realist cinema.",
+    "credit": ""
+  },
+  "luca-guadagnino": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "luchino-visconti": {
@@ -2070,6 +3150,12 @@ window.DIRECTOR_INFO = {
     "bio": "Lütfi Ömer Akad was a Turkish film director, screenwriter, and teacher born in Istanbul in 1916. He began directing features in the late 1940s and became a major figure in the modernization of Turkish film language. His early crime drama In the Name of the Law helped establish a more location-based and visually controlled style. Akad later examined rural life, migration, family, and economic change. The Bride, The Wedding, and The Sacrifice form his celebrated migration trilogy. After reducing his film work, he spent many years teaching at Mimar Sinan Fine Arts University and influencing later generations of Turkish filmmakers.",
     "credit": ""
   },
+  "m-night-shyamalan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "mabel-cheung": {
     "image": "",
     "imageAlt": "",
@@ -2098,6 +3184,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Marc Allégret was a French screenwriter and film director. Marc Allégret was born in Basel in 1900 and died in 1973. Beyond directing, Marc Allégret's professional roles have included screenwriter and photographer. Marc Allégret studied at Sciences Po. Marc Allégret's biographical record is closely connected with France. This project includes 3 films by Marc Allégret across the Anglophone Classic and European Art Cinema clusters.",
+    "credit": ""
+  },
+  "marc-forster": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "marcel-carne": {
@@ -2142,10 +3234,46 @@ window.DIRECTOR_INFO = {
     "bio": "Mario Monicelli was an Italian film director and screenwriter. Mario Monicelli was born in Rome in 1915 and died in 2010. Beyond directing, Mario Monicelli's professional roles have included screenwriter and actor. Mario Monicelli studied at University of Pisa. A notable work associated with Mario Monicelli is Big Deal on Madonna Street. This project includes 2 films by Mario Monicelli in the European Art Cinema cluster.",
     "credit": ""
   },
+  "mark-robson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "mark-rydell": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "mark-sandrich": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "marta-meszaros": {
     "image": "",
     "imageAlt": "",
     "bio": "Márta Mészáros is a Hungarian screenwriter and film director. Márta Mészáros was born in Budapest in 1931. Beyond directing, Márta Mészáros's professional roles have included screenwriter. Márta Mészáros studied at Gerasimov Institute of Cinematography. Recognition connected with Márta Mészáros's career includes Béla Balázs Award. This project includes 4 films by Márta Mészáros across the European Art Cinema and Hidden Gems clusters.",
+    "credit": ""
+  },
+  "martin-brest": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "martin-mcdonagh": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "martin-ritt": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "martin-rosen": {
@@ -2155,8 +3283,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "martin-scorsese": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/martin_scorsese.jpg",
+    "imageAlt": "Portrait of Martin Scorsese",
     "bio": "Martin Scorsese is an American filmmaker. Martin Scorsese was born in Queens in 1942. Beyond directing, Martin Scorsese's professional roles have included film actor, film producer, and screenwriter. Martin Scorsese studied at New York University Tisch School of the Arts. A notable work associated with Martin Scorsese is Taxi Driver. This project includes 1 film by Martin Scorsese in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
@@ -2173,8 +3301,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "masaki-kobayashi": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/masaki_kobayashi.jpg",
+    "imageAlt": "Portrait of Masaki Kobayashi",
     "bio": "Masaki Kobayashi was a Japanese film director. Masaki Kobayashi was born in Otaru in 1916 and died in 1996. Beyond directing, Masaki Kobayashi's professional roles have included film producer, writer, and screenwriter. Masaki Kobayashi studied at Waseda University. A notable work associated with Masaki Kobayashi is Harakiri. This project includes 13 films by Masaki Kobayashi in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -2226,10 +3354,28 @@ window.DIRECTOR_INFO = {
     "bio": "Max Ophuls was a German film director. Max Ophuls was born in Saarbrücken in 1902 and died in 1957. Beyond directing, Max Ophuls's professional roles have included screenwriter and stage actor. Max Ophuls's documented professional activity extended from 1931 to 1957. He was known for his opulent and lyrical visual style, with heavy use of tracking shots, and his melancholic, romantic themes. This project includes 4 films by Max Ophuls in the European Art Cinema cluster.",
     "credit": ""
   },
+  "max-reinhardt": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "med-hondo": {
     "image": "",
     "imageAlt": "",
     "bio": "Med Hondo was a Mauritanian actor. Med Hondo was born in Atar in 1935 and died in 2019. Beyond directing, Med Hondo's professional roles have included actor, film producer, and screenwriter. Recognition connected with Med Hondo's career includes Stallion of Yennenga. Considered a founding father of African cinema, he is known for his controversial films dealing with issues such as race relations and colonization. This project includes 3 films by Med Hondo in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "mel-gibson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "melvin-frank": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "melvin-van-peebles": {
@@ -2244,6 +3390,12 @@ window.DIRECTOR_INFO = {
     "bio": "Menelik Shabazz was a British film director. Menelik Shabazz was born in Saint John in 1954 and died in 2021. Beyond directing, Menelik Shabazz's professional roles have included documentary filmmaker and film producer. Menelik Shabazz studied at London Film School. Shabazz is best known for the 1981 film Burning an Illusion, his first feature. This project includes 1 film by Menelik Shabazz in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "mervyn-leroy": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "metin-erksan": {
     "image": "",
     "imageAlt": "",
@@ -2256,10 +3408,34 @@ window.DIRECTOR_INFO = {
     "bio": "Mia Hansen-Løve is a French film director, screenwriter, and actress. Mia Hansen-Løve was born in 5th arrondissement of Paris in 1981. Beyond directing, Mia Hansen-Løve's professional roles have included film critic, screenwriter, and actor. Mia Hansen-Løve's professional career has included work with Cahiers du cinéma. Recognition connected with Mia Hansen-Løve's career includes Chevalier des Arts et des Lettres. This project includes 1 film by Mia Hansen-Løve in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "michael-anderson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "michael-apted": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "michael-blakemore": {
     "image": "",
     "imageAlt": "",
     "bio": "Michael Blakemore was an Australian actor. Michael Blakemore was born in Sydney in 1928 and died in 2023. Beyond directing, Michael Blakemore's professional roles have included actor and screenwriter. Michael Blakemore studied at Royal Academy of Dramatic Art. Recognition connected with Michael Blakemore's career includes Tony Award for Best Direction of a Play. This project includes 1 film by Michael Blakemore in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "michael-cacoyannis": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "michael-cimino": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "michael-curtiz": {
@@ -2280,16 +3456,34 @@ window.DIRECTOR_INFO = {
     "bio": "Michael Imperioli is an American actor. Michael Imperioli was born in Mount Vernon in 1966. Beyond directing, Michael Imperioli's professional roles have included actor, television actor, film actor, and screenwriter. Michael Imperioli studied at Lee Strasberg Theatre and Film Institute. Recognition connected with Michael Imperioli's career includes Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series. This project includes 1 film by Michael Imperioli in the Hidden Gems cluster.",
     "credit": ""
   },
+  "michael-mann": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "michael-powell": {
     "image": "director_photos/michael_powell.jpg",
     "imageAlt": "Portrait of Michael Powell",
     "bio": "Michael Powell was an English film director. Michael Powell was born in Kent in 1905 and died in 1990. Beyond directing, Michael Powell's professional roles have included actor, screenwriter, and film producer. Michael Powell studied at Dulwich College. A notable work associated with Michael Powell is Peeping Tom. This project includes 10 films by Michael Powell in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "michael-radford": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "michael-roemer": {
     "image": "",
     "imageAlt": "",
     "bio": "Michael Roemer was a German-born American filmmaker, professor at Yale University. Michael Roemer was born in Berlin in 1928 and died in 2025. Beyond directing, Michael Roemer's professional roles have included screenwriter and film producer. Michael Roemer studied at Harvard University. Recognition connected with Michael Roemer's career includes Guggenheim Fellowship. This project includes 1 film by Michael Roemer in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "michel-hazanavicius": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "michelangelo-antonioni": {
@@ -2302,6 +3496,18 @@ window.DIRECTOR_INFO = {
     "image": "director_photos/mike_leigh.jpg",
     "imageAlt": "Portrait of Mike Leigh",
     "bio": "Mike Leigh is an English writer and director. Mike Leigh was born in Brocket Hall in 1943. Beyond directing, Mike Leigh's professional roles have included actor and playwright. Mike Leigh studied at Royal Academy of Dramatic Art. Recognition connected with Mike Leigh's career includes Officer of the Order of the British Empire. This project includes 7 films by Mike Leigh across the Anglophone Classic and European Art Cinema clusters.",
+    "credit": ""
+  },
+  "mike-newell": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "mike-nichols": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "mikhail-kalatozov": {
@@ -2317,8 +3523,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "mikio-naruse": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/mikio_naruse.jpg",
+    "imageAlt": "Portrait of Mikio Naruse",
     "bio": "Mikio Naruse was a Japanese filmmaker. Mikio Naruse was born in Tokyo in 1905 and died in 1969. Beyond directing, Mikio Naruse's professional roles have included writer, film producer, and screenwriter. A notable work associated with Mikio Naruse is Scattered Clouds. Recognition connected with Mikio Naruse's career includes Blue Ribbon Awards for Best Director. This project includes 15 films by Mikio Naruse in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -2340,10 +3546,28 @@ window.DIRECTOR_INFO = {
     "bio": "Milton Rosmer was an actor. Milton Rosmer was born in Southport in 1881 and died in 1971. Beyond directing, Milton Rosmer's professional roles have included actor, screenwriter, and film actor. He made his screen debut in The Mystery of a Hansom Cab (1915) and continued to act in theatre, film and television until 1956. Milton Rosmer's biographical record is closely connected with United Kingdom. This project includes 1 film by Milton Rosmer in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "mina-shum": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "mira-nair": {
     "image": "director_photos/mira_nair.jpg",
     "imageAlt": "Portrait of Mira Nair",
     "bio": "Mira Nair is an Indian-American filmmaker. Mira Nair was born in Rourkela in 1957. Beyond directing, Mira Nair's professional roles have included actor, film producer, and screenwriter. Mira Nair studied at Harvard University. A notable work associated with Mira Nair is Salaam Bombay!. This project includes 1 film by Mira Nair in the Satyajit Ray Indian cluster.",
+    "credit": ""
+  },
+  "miranda-july": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "mitchell-leisen": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "mohammad-reza-aslani": {
@@ -2362,6 +3586,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Monte Hellman was an American film director, film producer and film editor. Monte Hellman was born in Greenpoint in 1932 and died in 2021. Beyond directing, Monte Hellman's professional roles have included film producer, film editor, and screenwriter. Monte Hellman studied at Stanford University. Monte Hellman's biographical record is closely connected with United States. This project includes 2 films by Monte Hellman in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "morten-tyldum": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "morton-dacosta": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "motoyoshi-oda": {
@@ -2388,6 +3624,12 @@ window.DIRECTOR_INFO = {
     "bio": "Neil Jordan is an Irish filmmaker and fiction writer. Neil Jordan was born in Sligo in 1950. Beyond directing, Neil Jordan's professional roles have included writer, screenwriter, and film producer. Neil Jordan studied at St Paul's College, Raheny. Recognition connected with Neil Jordan's career includes Writers Guild of America Award. This project includes 2 films by Neil Jordan across the Anglophone Classic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "neill-blomkamp": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "nicholas-jarecki": {
     "image": "",
     "imageAlt": "",
@@ -2404,6 +3646,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Nicolas Roeg was an English film director and cinematographer. Nicolas Roeg was born in St John's Wood in 1928 and died in 2018. Beyond directing, Nicolas Roeg's professional roles have included cinematographer and film screenwriter. Nicolas Roeg studied at Mercers' School. Recognition connected with Nicolas Roeg's career includes Commander of the Order of the British Empire. This project includes 5 films by Nicolas Roeg across the Anglophone Classic and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "nicolas-winding-refn": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "noah-baumbach": {
@@ -2430,16 +3678,40 @@ window.DIRECTOR_INFO = {
     "bio": "Noël Coward was an English playwright, composer, director, actor, and singer. Noël Coward was born in Teddington in 1899 and died in 1973. Beyond directing, Noël Coward's professional roles have included film producer, playwright, screenwriter, and singer. Noël Coward studied at Italia Conti Academy of Theatre Arts. A notable work associated with Noël Coward is Sail Away. This project includes 1 film by Noël Coward in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "norman-houston": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "norman-jewison": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "norman-mailer": {
     "image": "",
     "imageAlt": "",
     "bio": "Norman Mailer was an American writer. Norman Mailer was born in Long Branch in 1923 and died in 2007. Beyond directing, Norman Mailer's professional roles have included journalist, actor, and screenwriter. Norman Mailer studied at University of Paris. Recognition connected with Norman Mailer's career includes National Book Award. This project includes 3 films by Norman Mailer in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "norman-taurog": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "oldrich-lipsky": {
     "image": "",
     "imageAlt": "",
     "bio": "Oldřich Lipský was a Czech director and scriptwriter. Oldřich Lipský was born in Pelhřimov in 1924 and died in 1986. Beyond directing, Oldřich Lipský's professional roles have included screenwriter and actor. Recognition connected with Oldřich Lipský's career includes Národní umělec. Oldřich Lipský's documented professional activity began around 1951. This project includes 1 film by Oldřich Lipský in the Czech New Wave cluster.",
+    "credit": ""
+  },
+  "oliver-stone": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "olivier-assayas": {
@@ -2466,6 +3738,18 @@ window.DIRECTOR_INFO = {
     "bio": "Otakar Vávra was a Czech film director, director, scriptwriter and university educator. Otakar Vávra was born in Hradec Králové in 1911 and died in 2011. Beyond directing, Otakar Vávra's professional roles have included screenwriter and writer. Recognition connected with Otakar Vávra's career includes Národní umělec. Otakar Vávra's biographical record is closely connected with Czech Republic. This project includes 1 film by Otakar Vávra in the Czech New Wave cluster.",
     "credit": ""
   },
+  "otto-lang": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "otto-preminger": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ousmane-sembene": {
     "image": "director_photos/ousmane_sembene.jpg",
     "imageAlt": "Portrait of Ousmane Sembène",
@@ -2490,10 +3774,40 @@ window.DIRECTOR_INFO = {
     "bio": "Paul Czinner was an American film director. Paul Czinner was born in Budapest in 1890 and died in 1972. Beyond directing, Paul Czinner's professional roles have included screenwriter, film producer, and writer. Paul Czinner studied at University of Vienna. Recognition connected with Paul Czinner's career includes German Film Award. This project includes 1 film by Paul Czinner in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "paul-greengrass": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "paul-haggis": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "paul-mazursky": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "paul-newman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "paul-schrader": {
     "image": "",
     "imageAlt": "",
     "bio": "Paul Schrader is an American screenwriter and film director. Paul Schrader was born in Grand Rapids in 1946. Beyond directing, Paul Schrader's professional roles have included screenwriter and film critic. Paul Schrader studied at University of California, Los Angeles. Paul Schrader's documented professional activity began around 1975. This project includes 3 films by Paul Schrader across the Anglophone Classic, Japanese Cinema, and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "paul-thomas-anderson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "paul-verhoeven": {
@@ -2520,16 +3834,64 @@ window.DIRECTOR_INFO = {
     "bio": "Pedro Costa is a Portuguese film director. Pedro Costa was born in Lisbon in 1959. Beyond directing, Pedro Costa's professional roles have included screenwriter, film editor, and cinematographer. Pedro Costa studied at University of Lisbon. Recognition connected with Pedro Costa's career includes Prix France Culture Cinéma. This project includes 3 films by Pedro Costa in the European Art Cinema cluster.",
     "credit": ""
   },
+  "penny-marshall": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "per-lindberg": {
     "image": "",
     "imageAlt": "",
     "bio": "Per Lindberg was a Swedish director, screenwriter and theatre manager. Per Lindberg was born in Adolf Fredriks parish in 1890 and died in 1944. Beyond directing, Per Lindberg's professional roles have included screenwriter. Per Lindberg's documented field of work includes directing. Per Lindberg's biographical record is closely connected with Sweden. This project includes 1 film by Per Lindberg in the Bergman Scandinavian cluster.",
     "credit": ""
   },
+  "pete-docter": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "peter-bogdanovich": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "peter-brook": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "peter-cattaneo": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "peter-farrelly": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "peter-glenville": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "peter-howitt": {
     "image": "",
     "imageAlt": "",
     "bio": "Peter Howitt is a British actor and director. Peter Howitt was born in Manchester in 1957. Beyond directing, Peter Howitt's professional roles have included actor, screenwriter, and film actor. Peter Howitt studied at Drama Studio London. Recognition connected with Peter Howitt's career includes European Film Award for Best Screenwriter. This project includes 1 film by Peter Howitt in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "peter-jackson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "peter-medak": {
@@ -2542,6 +3904,24 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Peter Weir is an Australian film director. Peter Weir was born in Sydney in 1944. Beyond directing, Peter Weir's professional roles have included screenwriter. Peter Weir studied at Sydney Law School. Recognition connected with Peter Weir's career includes European Film Award for Best Non-European Film. This project includes 3 films by Peter Weir in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "peter-yates": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "phil-alden-robinson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "philip-kaufman": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "phillips-smalley": {
@@ -2580,6 +3960,12 @@ window.DIRECTOR_INFO = {
     "bio": "Preston Sturges was an American film director and screenwriter. Preston Sturges was born in Chicago in 1898 and died in 1959. Beyond directing, Preston Sturges's professional roles have included screenwriter, writer, and autobiographer. Preston Sturges studied at Lycée Janson-de-Sailly. Recognition connected with Preston Sturges's career includes Academy Award for Best Writing, Original Screenplay. This project includes 1 film by Preston Sturges in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "quentin-tarantino": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "radu-muntean": {
     "image": "",
     "imageAlt": "",
@@ -2598,6 +3984,18 @@ window.DIRECTOR_INFO = {
     "bio": "Rainer Werner Fassbinder was a German filmmaker, playwright and actor. Rainer Werner Fassbinder was born in Bad Wörishofen in 1945 and died in 1982. Beyond directing, Rainer Werner Fassbinder's professional roles have included screenwriter, playwright, and actor. Rainer Werner Fassbinder's professional career has included work with Bruno Jori. A notable work associated with Rainer Werner Fassbinder is Anarchy in Bavaria. This project includes 19 films by Rainer Werner Fassbinder across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "ralph-nelson": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "ramell-ross": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ramin-bahrani": {
     "image": "",
     "imageAlt": "",
@@ -2608,6 +4006,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Ranald MacDougall was an American screenwriter. Ranald MacDougall was born in Schenectady in 1915 and died in 1973. Beyond directing, Ranald MacDougall's professional roles have included screenwriter, film producer, and writer. Ranald MacDougall's biographical record is closely connected with United States. Ranald MacDougall's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Ranald MacDougall in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "randa-haines": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "raoul-walsh": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "ray-yeung": {
@@ -2628,6 +4038,18 @@ window.DIRECTOR_INFO = {
     "bio": "Raymond Lee Wai-man is a Hong Kong director and television producer born in 1949. He entered the film industry as a camera operator in the early 1970s. Lee later worked as a screenwriter and producer for Hong Kong television companies. His feature directing credits include New Dragon Gate Inn. He also co-directed The East Is Red with Ching Siu-tung. His career connects television production experience with the stylized martial-arts and fantasy filmmaking that reached a broad audience during the 1990s.",
     "credit": ""
   },
+  "rebecca-miller": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "reinaldo-marcus-green": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "rene-clair": {
     "image": "",
     "imageAlt": "",
@@ -2646,10 +4068,34 @@ window.DIRECTOR_INFO = {
     "bio": "René Laloux was an animator, film director, and screenwriter. René Laloux was born in 15th arrondissement of Paris in 1929 and died in 2004. Beyond directing, René Laloux's professional roles have included animator, screenwriter, and painter. René Laloux's documented professional activity extended from 1946 to 2004. René Laloux's biographical record is closely connected with France. This project includes 1 film by René Laloux in the European Art Cinema cluster.",
     "credit": ""
   },
+  "richard-attenborough": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "richard-boleslawski": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "richard-brooks": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "richard-e-norman": {
     "image": "",
     "imageAlt": "",
     "bio": "Richard E. Norman was an American silent-era filmmaker, producer, and studio owner. He began by making locally produced films before establishing Norman Studios in Jacksonville, Florida. During the 1920s, the studio specialized in race films featuring Black casts. Norman aimed to present Black characters in heroic, professional, and family-centered roles rather than relying on the stereotypes common in mainstream cinema. His surviving film The Flying Ace centers on a former military pilot and showcases the studio's ambitious production work. Norman Studios is now preserved as an important site in the history of early American and African American cinema.",
+    "credit": ""
+  },
+  "richard-fleischer": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "richard-lester": {
@@ -2664,16 +4110,34 @@ window.DIRECTOR_INFO = {
     "bio": "Richard Linklater is an American director and screenwriter. Richard Linklater was born in Houston in 1960. Beyond directing, Richard Linklater's professional roles have included screenwriter, actor, and film producer. Richard Linklater studied at Sam Houston State University. A notable work associated with Richard Linklater is Boyhood. This project includes 1 film by Richard Linklater in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "richard-thorpe": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ricky-lau": {
     "image": "",
     "imageAlt": "",
     "bio": "Ricky Lau is a Hong Kong film director and cinematographer associated with supernatural action-comedy. He is best known for directing Mr. Vampire in 1985. The film combined martial arts, comedy, horror, and Chinese folklore around the hopping-vampire tradition. Its commercial success led to a larger franchise and a wave of related productions. Lau directed four sequels in the core Mr. Vampire series and also made Encounters of the Spooky Kind II. His work played a major role in defining the visual style and comic rhythm of Hong Kong's jiangshi-film boom.",
     "credit": ""
   },
+  "ridley-scott": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "ringo-lam-ling-tung": {
     "image": "",
     "imageAlt": "",
     "bio": "Ringo Lam Ling-Tung was a Hong Kong filmmaker. Ringo Lam Ling-Tung was born in British Hong Kong in 1955 and died in 2018. Beyond directing, Ringo Lam Ling-Tung's professional roles have included screenwriter and film producer. Ringo Lam Ling-Tung studied at York University. A notable work associated with Ringo Lam Ling-Tung is City on Fire. This project includes 4 films by Ringo Lam Ling-Tung in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "risa-bramon-garcia": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "rithy-panh": {
@@ -2688,10 +4152,28 @@ window.DIRECTOR_INFO = {
     "bio": "Ritwik Ghatak was an Indian Bengali filmmaker and script writer. Ritwik Ghatak was born in Dhaka in 1925 and died in 1976. Beyond directing, Ritwik Ghatak's professional roles have included film actor, screenwriter, and film producer. Ritwik Ghatak studied at University of Calcutta. A notable work associated with Ritwik Ghatak is Nagarik. This project includes 1 film by Ritwik Ghatak in the Satyajit Ray Indian cluster.",
     "credit": ""
   },
+  "rob-marshall": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "rob-reiner": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "robert-altman": {
     "image": "",
     "imageAlt": "",
     "bio": "Robert Altman was an American filmmaker. Robert Altman was born in Kansas City in 1925 and died in 2006. Beyond directing, Robert Altman's professional roles have included screenwriter, film producer, and film editor. Robert Altman studied at Wentworth Military Academy and College. Recognition connected with Robert Altman's career includes Fellow of the American Academy of Arts and Sciences. This project includes 2 films by Robert Altman across the European Art Cinema and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "robert-benton": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "robert-bresson": {
@@ -2730,6 +4212,24 @@ window.DIRECTOR_INFO = {
     "bio": "Robert M. Young was an American film director. Robert M. Young was born in New York City in 1924 and died in 2024. Beyond directing, Robert M. Young's professional roles have included cinematographer, screenwriter, and film producer. Robert M. Young studied at Harvard University. Recognition connected with Robert M. Young's career includes George Polk Award. This project includes 1 film by Robert M. Young in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
+  "robert-mulligan": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "robert-redford": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "robert-rossen": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "robert-siodmak": {
     "image": "",
     "imageAlt": "",
@@ -2740,6 +4240,30 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Robert Stevenson was a British film director. Robert Stevenson was born in Buxton in 1905 and died in 1986. Beyond directing, Robert Stevenson's professional roles have included screenwriter, film producer, and journalist. Robert Stevenson studied at St John's College. Recognition connected with Robert Stevenson's career includes Disney Legends. This project includes 1 film by Robert Stevenson in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "robert-wise": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "robert-z-leonard": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "robert-zemeckis": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "roberto-benigni": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "roberto-rossellini": {
@@ -2766,10 +4290,28 @@ window.DIRECTOR_INFO = {
     "bio": "Roger Vadim was a French filmmaker. Roger Vadim was born in Paris in 1928 and died in 2000. Beyond directing, Roger Vadim's professional roles have included actor, screenwriter, and journalist. Roger Vadim's professional career has included work with Paris Match. Roger Vadim's documented professional activity began around 1950. This project includes 5 films by Roger Vadim in the European Art Cinema cluster.",
     "credit": ""
   },
+  "roland-joffe": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "roland-west": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "roman-polanski": {
     "image": "",
     "imageAlt": "",
     "bio": "Roman Polanski is a French-Polish filmmaker. Roman Polanski was born in Paris in 1933. Beyond directing, Roman Polanski's professional roles have included actor, film producer, and screenwriter. Roman Polanski studied at National Film School in Łódź. Recognition connected with Roman Polanski's career includes César Award for Best Director. This project includes 2 films by Roman Polanski across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "credit": ""
+  },
+  "ron-howard": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "ronald-bronstein": {
@@ -2784,16 +4326,40 @@ window.DIRECTOR_INFO = {
     "bio": "Ronald Neame was an English film cinematographer, producer, screenwriter and director. Ronald Neame was born in London in 1911 and died in 2010. Beyond directing, Ronald Neame's professional roles have included screenwriter, cinematographer, and film producer. Ronald Neame studied at University College School. Recognition connected with Ronald Neame's career includes Commander of the Order of the British Empire. This project includes 4 films by Ronald Neame across the Anglophone Classic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "rouben-mamoulian": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "roy-calnek": {
     "image": "",
     "imageAlt": "",
     "bio": "Roy Calnek was an American filmmaker active during the silent era. His credits include Abie's Imported Bride, Hearts of the Woods, and The Prince of His Race. Calnek also directed Ten Nights in a Barroom for the Colored Players Film Corporation. The 1926 production featured an African American cast and adapted a familiar temperance story for Black audiences. It is one of the company's surviving films and provides a rare record of independently produced race cinema. Calnek's work is therefore remembered as part of an alternative filmmaking industry that operated outside white-dominated Hollywood.",
     "credit": ""
   },
+  "roy-del-ruth": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "roy-ward-baker": {
     "image": "",
     "imageAlt": "",
     "bio": "Roy Ward Baker was an English film director. Roy Ward Baker was born in London in 1916 and died in 2010. Beyond directing, Roy Ward Baker's professional roles have included film producer and screenwriter. Roy Ward Baker studied at City of London School. Roy Ward Baker's documented professional activity began around 1947. This project includes 1 film by Roy Ward Baker in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "rudolph-mate": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "ryan-coogler": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "sacha-guitry": {
@@ -2808,10 +4374,22 @@ window.DIRECTOR_INFO = {
     "bio": "Sadao Yamanaka was a Japanese film director. Sadao Yamanaka was born in Kyoto in 1909 and died in 1938. Beyond directing, Sadao Yamanaka's professional roles have included screenwriter. Sadao Yamanaka's documented field of work includes film. His films are notable for their emphasis on character over action, and on ninjō over giri. This project includes 1 film by Sadao Yamanaka in the Hidden Gems cluster.",
     "credit": ""
   },
-  "sam-taylor": {
+  "sam-mendes": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "sam-taylor": {
+    "image": "director_photos/sam_taylor.jpg",
+    "imageAlt": "Portrait of Sam Taylor",
     "bio": "Sam Taylor was an American film director. Sam Taylor was born in New York City in 1895 and died in 1958. Beyond directing, Sam Taylor's professional roles have included screenwriter and film producer. Sam Taylor studied at Fordham University. Taylor is best known for his comedic directorial work with Harold Lloyd and Mary Pickford, and also later worked with Laurel and Hardy. This project includes 5 films by Sam Taylor in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "sam-wood": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "sammo-hung": {
@@ -2844,15 +4422,27 @@ window.DIRECTOR_INFO = {
     "bio": "Satyajit Ray was an Indian filmmaker and writer. Satyajit Ray was born in 100A, Garpar Road in 1921 and died in 1992. Beyond directing, Satyajit Ray's professional roles have included writer, composer, and film producer. Satyajit Ray studied at University of Calcutta. A notable work associated with Satyajit Ray is Pather Panchali. This project includes 15 films by Satyajit Ray in the Satyajit Ray Indian cluster.",
     "credit": ""
   },
+  "scott-hicks": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "sean-baker": {
     "image": "",
     "imageAlt": "",
     "bio": "Sean Baker is an American film director. Sean Baker was born in Summit in 1971. Beyond directing, Sean Baker's professional roles have included screenwriter, film producer, and film editor. Sean Baker studied at New York University Tisch School of the Arts. Recognition connected with Sean Baker's career includes Academy Award for Best Writing, Original Screenplay. This project includes 2 films by Sean Baker in the Hidden Gems cluster.",
     "credit": ""
   },
-  "seijun-suzuki": {
+  "sebastien-laudenbach": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "seijun-suzuki": {
+    "image": "director_photos/seijun_suzuki.jpg",
+    "imageAlt": "Portrait of Seijun Suzuki",
     "bio": "Seijun Suzuki was a Japanese film director. Seijun Suzuki was born in Nihonbashi-ku in 1923 and died in 2017. Beyond directing, Seijun Suzuki's professional roles have included actor and writer. A notable work associated with Seijun Suzuki is Zigeunerweisen. Recognition connected with Seijun Suzuki's career includes Medal with Purple Ribbon. This project includes 8 films by Seijun Suzuki in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -2872,6 +4462,18 @@ window.DIRECTOR_INFO = {
     "image": "director_photos/sergei_eisenstein.jpg",
     "imageAlt": "Portrait of Sergei Eisenstein",
     "bio": "Sergei Eisenstein was a Soviet filmmaker. Sergei Eisenstein was born in Riga in 1898 and died in 1948. Beyond directing, Sergei Eisenstein's professional roles have included inventor, film editor, and screenwriter. Sergei Eisenstein studied at Saint-Petersburg State University of Architecture and Civil Engineering. A notable work associated with Sergei Eisenstein is October: Ten Days That Shook the World. This project includes 4 films by Sergei Eisenstein in the Hidden Gems cluster.",
+    "credit": ""
+  },
+  "shaka-king": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "shekhar-kapur": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "shinji-somai": {
@@ -2899,8 +4501,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "shohei-imamura": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/shohei_imamura.jpg",
+    "imageAlt": "Portrait of Shohei Imamura",
     "bio": "Shohei Imamura was a Japanese film director. Shohei Imamura was born in Tokyo in 1926 and died in 2006. Beyond directing, Shohei Imamura's professional roles have included screenwriter and film producer. Shohei Imamura studied at Waseda University. Recognition connected with Shohei Imamura's career includes Japan Academy Prize for Director of the Year. This project includes 9 films by Shohei Imamura in the Japanese Cinema cluster.",
     "credit": ""
   },
@@ -2916,10 +4518,34 @@ window.DIRECTOR_INFO = {
     "bio": "Shu Lea Cheang is a Taiwanese-American artist and filmmaker. Shu Lea Cheang was born in Taiwan Island in 1954. Beyond directing, Shu Lea Cheang's professional roles have included screenwriter and photographer. Shu Lea Cheang studied at National Taiwan University. Recognition connected with Shu Lea Cheang's career includes Guggenheim Fellowship. This project includes 1 film by Shu Lea Cheang in the Satyajit Ray Indian cluster.",
     "credit": ""
   },
+  "sian-heder": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "sidney-franklin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "sidney-gilliat": {
     "image": "",
     "imageAlt": "",
     "bio": "Sidney Gilliat was a British film director, producer and screenwriter. Sidney Gilliat was born in Edgeley in 1908 and died in 1994. Beyond directing, Sidney Gilliat's professional roles have included screenwriter and film producer. Sidney Gilliat's documented field of work includes film. He and Launder made their directorial debut co-directing the home front drama Millions Like Us (1943). This project includes 1 film by Sidney Gilliat in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "sidney-lanfield": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "sidney-lumet": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "sigurd-wallen": {
@@ -2940,10 +4566,46 @@ window.DIRECTOR_INFO = {
     "bio": "Spencer G. Bennet was an American film director and producer. Spencer G. Bennet was born in Brooklyn in 1893 and died in 1987. Beyond directing, Spencer G. Bennet's professional roles have included film producer. Spencer G. Bennet's documented professional activity began around 1921. Known as the \"King of Serial Directors\", he directed more film serials than any other director. This project includes 1 film by Spencer G. Bennet in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "spike-jonze": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "spike-lee": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "stanley-donen": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "stanley-kramer": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "stanley-kubrick": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "stanley-kwan": {
     "image": "",
     "imageAlt": "",
     "bio": "Stanley Kwan is a Hong Kong film director, producer, screenwriter, and actor. Stanley Kwan was born in British Hong Kong in 1957. Beyond directing, Stanley Kwan's professional roles have included film actor and screenwriter. Stanley Kwan studied at Hong Kong Baptist University. Recognition connected with Stanley Kwan's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Stanley Kwan in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "stephen-daldry": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "stephen-frears": {
@@ -2952,9 +4614,21 @@ window.DIRECTOR_INFO = {
     "bio": "Stephen Frears is a British film director and producer. Stephen Frears was born in Leicester in 1941. Beyond directing, Stephen Frears's professional roles have included actor, film producer, and film actor. Stephen Frears studied at Trinity College. Recognition connected with Stephen Frears's career includes Commandeur des Arts et des Lettres‎. This project includes 1 film by Stephen Frears in the Anglophone Classic cluster.",
     "credit": ""
   },
-  "steven-spielberg": {
+  "steve-mcqueen": {
     "image": "",
     "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "steven-soderbergh": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "steven-spielberg": {
+    "image": "director_photos/steven_spielberg.jpg",
+    "imageAlt": "Portrait of Steven Spielberg",
     "bio": "Steven Spielberg is an American filmmaker. Steven Spielberg was born in Cincinnati in 1946. Beyond directing, Steven Spielberg's professional roles have included film producer, actor, and film actor. Steven Spielberg studied at California State University, Long Beach. Recognition connected with Steven Spielberg's career includes Knight of the Legion of Honour. This project includes 1 film by Steven Spielberg in the Transatlantic Auteur Cinema cluster.",
     "credit": ""
   },
@@ -2988,6 +4662,12 @@ window.DIRECTOR_INFO = {
     "bio": "Tadashi Imai was a Japanese film director. Tadashi Imai was born in Tokyo in 1912 and died in 1991. Beyond directing, Tadashi Imai's professional roles have included screenwriter. Tadashi Imai studied at Ibaraki University. A notable work associated with Tadashi Imai is Numazu Military Academy. This project includes 1 film by Tadashi Imai in the Japanese Cinema cluster.",
     "credit": ""
   },
+  "taika-waititi": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "takao-okawara": {
     "image": "",
     "imageAlt": "",
@@ -3006,6 +4686,12 @@ window.DIRECTOR_INFO = {
     "bio": "Takumi Furukawa was a Japanese film director and screenwriter. Takumi Furukawa was born in Hachiōji-shi in 1917 and died in 2018. Beyond directing, Takumi Furukawa's professional roles have included screenwriter. Takumi Furukawa's biographical record is closely connected with Japan. Takumi Furukawa's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Takumi Furukawa in the Japanese Cinema cluster.",
     "credit": ""
   },
+  "tate-taylor": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "tay-garnett": {
     "image": "",
     "imageAlt": "",
@@ -3019,8 +4705,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "ted-wilde": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/ted_wilde.jpg",
+    "imageAlt": "Portrait of Ted Wilde",
     "bio": "Ted Wilde was an American film director, screenwriter. Ted Wilde was born in New York City in 1889 and died in 1929. Beyond directing, Ted Wilde's professional roles have included screenwriter and writer. His initial career was as a member of Harold Lloyd's writing staff. Ted Wilde's biographical record is closely connected with United States. This project includes 2 films by Ted Wilde in the Anglophone Classic cluster.",
     "credit": ""
   },
@@ -3048,6 +4734,12 @@ window.DIRECTOR_INFO = {
     "bio": "Terence Young was a British film director and screenwriter. Terence Young was born in Shanghai in 1915 and died in 1994. Beyond directing, Terence Young's professional roles have included screenwriter and military personnel. Terence Young studied at St Catharine's College. Recognition connected with Terence Young's career includes Golden Raspberry Award for Worst Director. This project includes 2 films by Terence Young in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "terrence-malick": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "terry-gilliam": {
     "image": "",
     "imageAlt": "",
@@ -3058,6 +4750,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Terry O. Morse was an American film editor and film director. Terry O. Morse was born in St. Louis in 1906 and died in 1984. Beyond directing, Terry O. Morse's professional roles have included film editor and manufacturer. The film went on to long-lasting success with regular showings at drive-in theatres, repertory theatres and on television. Terry O. Morse's biographical record is closely connected with United States. This project includes 1 film by Terry O. Morse in the Japanese Cinema cluster.",
+    "credit": ""
+  },
+  "theodore-melfi": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "thomas-vinterberg": {
@@ -3090,6 +4788,18 @@ window.DIRECTOR_INFO = {
     "bio": "Tod Browning was an American film actor and director. Tod Browning was born in Louisville in 1880 and died in 1962. Beyond directing, Tod Browning's professional roles have included actor, screenwriter, and film actor. Tod Browning's documented field of work includes film. A notable work associated with Tod Browning is London After Midnight. This project includes 1 film by Tod Browning in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "todd-field": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "todd-phillips": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "todd-solondz": {
     "image": "",
     "imageAlt": "",
@@ -3106,6 +4816,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "t.o.L, short for trees of Life, is a two-person Japanese art team formed by artists known as K. and kuno. The team works across animation, visual art, music, writing, and design. t.o.L wrote, directed, produced, and composed music for Tamala 2010: A Punk Cat in Space. The mostly black-and-white film combines two-dimensional and three-dimensional animation. Its cute character design contrasts with a story about corporate power, consumer culture, violence, and religious mythology. The team's experimental approach turns the film into both a science-fiction narrative and a critique of commercialized popular culture.",
+    "credit": ""
+  },
+  "tom-hooper": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "tom-mccarthy": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "tom-tykwer": {
@@ -3130,6 +4852,12 @@ window.DIRECTOR_INFO = {
     "image": "director_photos/tony_ching_siu_tung.jpg",
     "imageAlt": "Portrait of Tony Ching Siu-Tung",
     "bio": "Tony Ching Siu-Tung is a Hong Kong action choreographer and film director. Tony Ching Siu-Tung was born in Hong Kong in 1953. Beyond directing, Tony Ching Siu-Tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Tony Ching Siu-Tung's career includes Time Machine Award. Tony Ching Siu-Tung's biographical record is closely connected with People's Republic of China. This project includes 6 films by Tony Ching Siu-Tung in the Hong Kong Taiwan Cinema cluster.",
+    "credit": ""
+  },
+  "tony-gilroy": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "tony-richardson": {
@@ -3180,6 +4908,12 @@ window.DIRECTOR_INFO = {
     "bio": "Václav Vorlíček was a Czech director and scriptwriter. Václav Vorlíček was born in Prague in 1930 and died in 2019. Beyond directing, Václav Vorlíček's professional roles have included screenwriter, film screenwriter, and actor. Václav Vorlíček studied at Film and TV School of the Academy of Performing Arts in Prague. Recognition connected with Václav Vorlíček's career includes Merited Artist of Czechoslovakia. This project includes 2 films by Václav Vorlíček in the Czech New Wave cluster.",
     "credit": ""
   },
+  "valerie-faris": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "vera-chytilova": {
     "image": "director_photos/vera_chytilova.jpg",
     "imageAlt": "Portrait of Věra Chytilová",
@@ -3190,6 +4924,18 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Víctor Erice is a Spanish film director. Víctor Erice was born in Karrantza Harana / Valle de Carranza in 1940. Beyond directing, Víctor Erice's professional roles have included screenwriter. Víctor Erice studied at Complutense University of Madrid. Recognition connected with Víctor Erice's career includes Golden Shell. This project includes 2 films by Víctor Erice in the European Art Cinema cluster.",
+    "credit": ""
+  },
+  "victor-fleming": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "victor-saville": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "victor-schertzinger": {
@@ -3264,6 +5010,18 @@ window.DIRECTOR_INFO = {
     "bio": "Walter Summers was a British film director. Walter Summers was born in Barnstaple in 1896 and died in 1973. Beyond directing, Walter Summers's professional roles have included screenwriter. Walter Summers's biographical record is closely connected with United Kingdom. Walter Summers's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Walter Summers in the Anglophone Classic cluster.",
     "credit": ""
   },
+  "ward-wing": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "warren-beatty": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "wei-shujun": {
     "image": "",
     "imageAlt": "",
@@ -3286,6 +5044,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Wes Anderson is an American filmmaker. Wes Anderson was born in Houston in 1969. Beyond directing, Wes Anderson's professional roles have included screenwriter, film producer, and writer. Wes Anderson studied at University of Texas at Austin. A notable work associated with Wes Anderson is The Darjeeling Limited. This project includes 1 film by Wes Anderson in the Transatlantic Auteur Cinema cluster.",
+    "credit": ""
+  },
+  "wesley-ruggles": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "whit-stillman": {
@@ -3312,16 +5076,34 @@ window.DIRECTOR_INFO = {
     "bio": "William Dieterle was a German/American actor and film director. William Dieterle was born in Ludwigshafen in 1893 and died in 1972. Beyond directing, William Dieterle's professional roles have included film producer, screenwriter, and film actor. Recognition connected with William Dieterle's career includes Officer's Cross of the Order of Merit of the Federal Republic of Germany. William Dieterle's documented professional activity began around 1911. This project includes 2 films by William Dieterle across the Anglophone Classic and European Art Cinema clusters.",
     "credit": ""
   },
+  "william-friedkin": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "william-fruet": {
     "image": "",
     "imageAlt": "",
     "bio": "William Fruet is a Director, screenwriter and playrwright. William Fruet was born in Lethbridge in 1933. Beyond directing, William Fruet's professional roles have included screenwriter and playwright. William Fruet's documented field of work includes film. Recognition connected with William Fruet's career includes Sitges Film Festival Best Screenplay award. This project includes 1 film by William Fruet in the European Art Cinema cluster.",
     "credit": ""
   },
+  "william-hanna": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "william-k-howard": {
     "image": "",
     "imageAlt": "",
     "bio": "William K. Howard was an American film director. William K. Howard was born in St. Marys in 1899 and died in 1954. Beyond directing, William K. Howard's professional roles have included writer, screenwriter, and film producer. Recognition connected with William K. Howard's career includes star on Hollywood Walk of Fame. William K. Howard's biographical record is closely connected with United States. This project includes 2 films by William K. Howard in the Anglophone Classic cluster.",
+    "credit": ""
+  },
+  "william-keighley": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "william-klein": {
@@ -3337,8 +5119,8 @@ window.DIRECTOR_INFO = {
     "credit": ""
   },
   "william-wyler": {
-    "image": "",
-    "imageAlt": "",
+    "image": "director_photos/william_wyler.jpg",
+    "imageAlt": "Portrait of William Wyler",
     "bio": "William Wyler was a Swiss-German-American director and producer. William Wyler was born in Mulhouse in 1902 and died in 1981. Beyond directing, William Wyler's professional roles have included screenwriter, film producer, and film actor. William Wyler studied at Conservatoire de Paris. A notable work associated with William Wyler is The Collector. This project includes 1 film by William Wyler in the Anglophone Classic cluster.",
     "credit": ""
   },
@@ -3354,6 +5136,18 @@ window.DIRECTOR_INFO = {
     "bio": "Wong Kar Wai is a Chinese-born Hong Kong filmmaker. Wong Kar Wai was born in Shanghai in 1958. Beyond directing, Wong Kar Wai's professional roles have included screenwriter and film producer. Wong Kar Wai studied at Hong Kong Polytechnic University. Recognition connected with Wong Kar Wai's career includes Bronze Bauhinia Star. This project includes 7 films by Wong Kar Wai across the Hong Kong Taiwan Cinema and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
+  "woody-allen": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
+  "ws-van-dyke": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
+    "credit": ""
+  },
   "yasujiro-ozu": {
     "image": "director_photos/yasujiro_ozu.jpg",
     "imageAlt": "Portrait of Yasujirō Ozu",
@@ -3364,6 +5158,12 @@ window.DIRECTOR_INFO = {
     "image": "",
     "imageAlt": "",
     "bio": "Yasuzo Masumura was a Film director and screenwriter. Yasuzo Masumura was born in Kofu in 1924 and died in 1986. Beyond directing, Yasuzo Masumura's professional roles have included screenwriter. Yasuzo Masumura studied at University of Tokyo. Yasuzo Masumura's documented professional activity began around 1957. This project includes 1 film by Yasuzo Masumura in the Japanese Cinema cluster.",
+    "credit": ""
+  },
+  "yorgos-lanthimos": {
+    "image": "",
+    "imageAlt": "",
+    "bio": "",
     "credit": ""
   },
   "yoshimitsu-banno": {

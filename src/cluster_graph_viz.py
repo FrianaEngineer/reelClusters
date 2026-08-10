@@ -54,27 +54,28 @@ MARGIN   = 90
 REF_NODES, REF_EDGES = 17, 41
 REF_NODE_R, REF_EDGE_OPACITY, REF_EDGE_WIDTH = 16, 0.45, 1.5
 
-# These big/dense clusters already read well from the plain spring layout --
-# it lets high-degree hub films visually pull nodes toward a natural center
-# instead of flattening everything into evenly-spaced rings -- so leave their
-# positions untouched and only reorient the smaller/sparser ones.
-SKIP_DENSITY_REORIENT = {"japanese_cinema", "european_art_cinema", "anglophone_classic"}
+# These big/dense clusters would read well from the plain spring layout
+# without reorientation -- not applicable to any current graph-rendered
+# cluster (the big/dense ones all use cluster_ring_viz.py instead as of the
+# 2026-07-31 rebuild, see build_site.py's RING_CLUSTERS), kept as an empty
+# set rather than removed so a future graph-rendered cluster can opt in.
+SKIP_DENSITY_REORIENT = set()
 
 # Per-cluster overrides for EDGE_DARKEN (see build_svg), for clusters that
-# want to deviate from the shared 1.3x default.
-EDGE_DARKEN_OVERRIDES = {"hong_kong_taiwan_cinema": 2.2}
+# want to deviate from the shared 1.3x default. hong_kong_taiwan_cinema's
+# old override moved with it to the ring viz (it's ring-rendered now).
+EDGE_DARKEN_OVERRIDES = {}
 
+# 2026-07-31 rebuild: only the four smallest named clusters stay on the
+# plain force-directed graph -- everything else moved to cluster_ring_viz.py
+# (RING_CLUSTERS in build_site.py) once it grew past a size where a
+# shared-actor edge graph reads as a solid mass of lines. See
+# data/cluster_naming_report.md for each cluster's evidence/history.
 CLUSTERS_TO_RENDER = [
-    "youssef_chahine_egyptian",
-    "european_art_cinema",
-    "transatlantic_auteur_cinema",
-    "hong_kong_taiwan_cinema",
-    "bergman_scandinavian",
     "czech_new_wave",
-    "satyajit_ray_indian",
-    "japanese_cinema",
+    "silent_era_comedy",
     "soviet_cinema",
-    "anglophone_classic",
+    "satyajit_ray_indian",
 ]
 
 
