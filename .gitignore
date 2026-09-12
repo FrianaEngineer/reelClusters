@@ -9,8 +9,5 @@ __pycache__/
 outputs/
 db/backup/
 
-# The finished Criterion Over Time video is 256MB -- far past GitHub's
-# 100MB per-file limit, and there is no Git LFS on this repo. It is a build
-# artifact of src/cinematic_history_animation.py + cinematic_history_mux.py,
-# so it is kept local. The small looping hero clip beside it IS tracked.
-site/assets/cinematic_history.mp4
+# two-pass ffmpeg scratch files (see cinematic_history_mux.py)
+ffmpeg2pass-*
