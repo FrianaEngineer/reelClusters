@@ -33,7 +33,7 @@ window.DIRECTOR_INFO = {
   "abbas-kiarostami": {
     "image": "director_photos/abbas_kiarostami.jpg",
     "imageAlt": "Portrait of Abbas Kiarostami",
-    "bio": "Abbas Kiarostami was an Iranian film director, screenwriter, photographer and film producer. Abbas Kiarostami was born in Tehran in 1940 and died in 2016. Beyond directing, Abbas Kiarostami's professional roles have included screenwriter, photographer, and film producer. Abbas Kiarostami studied at University of Tehran. Recognition connected with Abbas Kiarostami's career includes Officer of the Legion of Honour. This project includes 4 films by Abbas Kiarostami across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Abbas Kiarostami was an Iranian film director, screenwriter, photographer and film producer. Abbas Kiarostami was born in Tehran in 1940 and died in 2016. Beyond directing, Abbas Kiarostami's professional roles have included screenwriter, photographer, and film producer. Abbas Kiarostami studied at University of Tehran. Recognition connected with Abbas Kiarostami's career includes Officer of the Legion of Honour. This project includes 4 films by Abbas Kiarostami across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "abel-ferrara": {
@@ -87,7 +87,7 @@ window.DIRECTOR_INFO = {
   "agnieszka-smoczynska": {
     "image": "",
     "imageAlt": "",
-    "bio": "Agnieszka Smoczyńska is a Polish film director and screenwriter. Agnieszka Smoczyńska was born in Wrocław in 1978. Beyond directing, Agnieszka Smoczyńska's professional roles have included screenwriter. Agnieszka Smoczyńska studied at University of Silesia in Katowice. She is an alumnus of the Krzysztof Kieślowski Film School in Katowice. This project includes 1 film by Agnieszka Smoczyńska in the Hidden Gems cluster.",
+    "bio": "Agnieszka Smoczyńska is a Polish film director and screenwriter. Agnieszka Smoczyńska was born in Wrocław in 1978. Beyond directing, Agnieszka Smoczyńska's professional roles have included screenwriter. Agnieszka Smoczyńska studied at University of Silesia in Katowice. She is an alumnus of the Krzysztof Kieślowski Film School in Katowice. This project includes 1 film by Agnieszka Smoczyńska in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "aki-kaurismaki": {
@@ -105,7 +105,7 @@ window.DIRECTOR_INFO = {
   "akira-kurosawa": {
     "image": "director_photos/akira_kurosawa.jpg",
     "imageAlt": "Portrait of Akira Kurosawa",
-    "bio": "Akira Kurosawa was a Japanese filmmaker. Akira Kurosawa was born in Ōi in 1910 and died in 1998. Beyond directing, Akira Kurosawa's professional roles have included film producer, screenwriter, and film editor. Akira Kurosawa has been associated with American Academy of Arts and Sciences. A notable work associated with Akira Kurosawa is The Hidden Fortress. This project includes 24 films by Akira Kurosawa across the Hidden Gems and Japanese Cinema clusters.",
+    "bio": "Akira Kurosawa was a Japanese filmmaker. Akira Kurosawa was born in Ōi in 1910 and died in 1998. Beyond directing, Akira Kurosawa's professional roles have included film producer, screenwriter, and film editor. Akira Kurosawa has been associated with American Academy of Arts and Sciences. A notable work associated with Akira Kurosawa is The Hidden Fortress. This project includes 24 films by Akira Kurosawa across the Hidden Gems Mosaic and Japanese Cinema clusters.",
     "credit": ""
   },
   "alain-resnais": {
@@ -123,7 +123,7 @@ window.DIRECTOR_INFO = {
   "alan-mak": {
     "image": "",
     "imageAlt": "",
-    "bio": "Alan Mak is a Hong Kong actor, writer and director. Alan Mak was born in Hong Kong in 1965. Beyond directing, Alan Mak's professional roles have included actor and screenwriter. Alan Mak studied at Hong Kong Academy for Performing Arts. Recognition connected with Alan Mak's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Alan Mak in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Alan Mak is a Hong Kong actor, writer and director. Alan Mak was born in Hong Kong in 1965. Beyond directing, Alan Mak's professional roles have included actor and screenwriter. Alan Mak studied at Hong Kong Academy for Performing Arts. Recognition connected with Alan Mak's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Alan Mak in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "alan-metter": {
@@ -177,7 +177,7 @@ window.DIRECTOR_INFO = {
   "alex-cox": {
     "image": "",
     "imageAlt": "",
-    "bio": "Alex Cox is an English film director. Alex Cox was born in Liverpool in 1954. Beyond directing, Alex Cox's professional roles have included screenwriter, film producer, and film actor. Alex Cox studied at Worcester College. Alex Cox's documented professional activity began around 1980. This project includes 4 films by Alex Cox across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "bio": "Alex Cox is an English film director. Alex Cox was born in Liverpool in 1954. Beyond directing, Alex Cox's professional roles have included screenwriter, film producer, and film actor. Alex Cox studied at Worcester College. Alex Cox's documented professional activity began around 1980. This project includes 4 films by Alex Cox across the Hidden Gems Mosaic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "alexander-hall": {
@@ -243,7 +243,7 @@ window.DIRECTOR_INFO = {
   "andrei-tarkovsky": {
     "image": "director_photos/andrei_tarkovsky.jpg",
     "imageAlt": "Portrait of Andrei Tarkovsky",
-    "bio": "Andrei Tarkovsky was a Soviet and Russian film director, screenwriter, film editor, film theorist, theatre and opera director. Andrei Tarkovsky was born in Zavrazhye in 1932 and died in 1986. Beyond directing, Andrei Tarkovsky's professional roles have included actor, film editor, and screenwriter. Andrei Tarkovsky studied at Institute of Oriental Studies of the Russian Academy of Sciences. A notable work associated with Andrei Tarkovsky is Solaris. This project includes 5 films by Andrei Tarkovsky in the Soviet Cinema cluster.",
+    "bio": "Andrei Tarkovsky was a Soviet and Russian film director, screenwriter, film editor, film theorist, theatre and opera director. Andrei Tarkovsky was born in Zavrazhye in 1932 and died in 1986. Beyond directing, Andrei Tarkovsky's professional roles have included actor, film editor, and screenwriter. Andrei Tarkovsky studied at Institute of Oriental Studies of the Russian Academy of Sciences. A notable work associated with Andrei Tarkovsky is Solaris. This project includes 5 films by Andrei Tarkovsky in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "andrew-davis": {
@@ -267,7 +267,7 @@ window.DIRECTOR_INFO = {
   "andrew-lau-wai-keung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Andrew Lau Wai-keung is a Hong Kong filmmaker. Andrew Lau Wai-keung was born in Hong Kong in 1960. Beyond directing, Andrew Lau Wai-keung's professional roles have included film producer and cinematographer. Andrew Lau Wai-keung studied at Lingnan University. Recognition connected with Andrew Lau Wai-keung's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Andrew Lau Wai-keung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Andrew Lau Wai-keung is a Hong Kong filmmaker. Andrew Lau Wai-keung was born in Hong Kong in 1960. Beyond directing, Andrew Lau Wai-keung's professional roles have included film producer and cinematographer. Andrew Lau Wai-keung studied at Lingnan University. Recognition connected with Andrew Lau Wai-keung's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Andrew Lau Wai-keung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "andrew-marton": {
@@ -279,7 +279,7 @@ window.DIRECTOR_INFO = {
   "andrzej-wajda": {
     "image": "director_photos/andrzej_wajda.jpg",
     "imageAlt": "Portrait of Andrzej Wajda",
-    "bio": "Andrzej Wajda was a Polish film director. Andrzej Wajda was born in Suwałki in 1926 and died in 2016. Beyond directing, Andrzej Wajda's professional roles have included screenwriter and film producer. Andrzej Wajda studied at Jan Matejko Academy of Fine Arts in Krakow. Recognition connected with Andrzej Wajda's career includes Commander of the Legion of Honour. This project includes 4 films by Andrzej Wajda across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Andrzej Wajda was a Polish film director. Andrzej Wajda was born in Suwałki in 1926 and died in 2016. Beyond directing, Andrzej Wajda's professional roles have included screenwriter and film producer. Andrzej Wajda studied at Jan Matejko Academy of Fine Arts in Krakow. Recognition connected with Andrzej Wajda's career includes Commander of the Legion of Honour. This project includes 4 films by Andrzej Wajda across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "andrzej-zu-awski": {
@@ -297,7 +297,7 @@ window.DIRECTOR_INFO = {
   "ann-hui": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ann Hui is a Hong Kong film director, producer, screenwriter, and actress. Ann Hui was born in Anshan in 1947. Beyond directing, Ann Hui's professional roles have included actor, film producer, and screenwriter. Ann Hui studied at University of Hong Kong. A notable work associated with Ann Hui is Vietnam Trilogy. This project includes 3 films by Ann Hui in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Ann Hui is a Hong Kong film director, producer, screenwriter, and actress. Ann Hui was born in Anshan in 1947. Beyond directing, Ann Hui's professional roles have included actor, film producer, and screenwriter. Ann Hui studied at University of Hong Kong. A notable work associated with Ann Hui is Vietnam Trilogy. This project includes 3 films by Ann Hui in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "annabel-jankel": {
@@ -387,7 +387,7 @@ window.DIRECTOR_INFO = {
   "arturo-ripstein": {
     "image": "",
     "imageAlt": "",
-    "bio": "Arturo Ripstein is a Mexican film director. Arturo Ripstein was born in Mexico City in 1943. Beyond directing, Arturo Ripstein's professional roles have included screenwriter. Arturo Ripstein studied at Ibero-American University. Recognition connected with Arturo Ripstein's career includes Guggenheim Fellowship. This project includes 1 film by Arturo Ripstein in the Hidden Gems cluster.",
+    "bio": "Arturo Ripstein is a Mexican film director. Arturo Ripstein was born in Mexico City in 1943. Beyond directing, Arturo Ripstein's professional roles have included screenwriter. Arturo Ripstein studied at Ibero-American University. Recognition connected with Arturo Ripstein's career includes Guggenheim Fellowship. This project includes 1 film by Arturo Ripstein in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "atom-egoyan": {
@@ -405,13 +405,13 @@ window.DIRECTOR_INFO = {
   "ayoka-chenzira": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ayoka Chenzira is an American filmmaker. Ayoka Chenzira was born in Philadelphia in 1953. Beyond directing, Ayoka Chenzira's professional roles have included women's rights activist. Ayoka Chenzira studied at New York University. Ayoka Chenzira's biographical record is closely connected with United States. This project includes 1 film by Ayoka Chenzira in the Hidden Gems cluster.",
+    "bio": "Ayoka Chenzira is an American filmmaker. Ayoka Chenzira was born in Philadelphia in 1953. Beyond directing, Ayoka Chenzira's professional roles have included women's rights activist. Ayoka Chenzira studied at New York University. Ayoka Chenzira's biographical record is closely connected with United States. This project includes 1 film by Ayoka Chenzira in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "bahram-beyzaie": {
     "image": "",
     "imageAlt": "",
-    "bio": "Bahram Beyzaie was an Iranian film director. Bahram Beyzaie was born in Tehran in 1938 and died in 2025. Beyond directing, Bahram Beyzaie's professional roles have included screenwriter and playwright. Bahram Beyzaie studied at University of Tehran. Bahram Beyzaie's documented professional activity began around 1962. This project includes 1 film by Bahram Beyzaie in the Hidden Gems cluster.",
+    "bio": "Bahram Beyzaie was an Iranian film director. Bahram Beyzaie was born in Tehran in 1938 and died in 2025. Beyond directing, Bahram Beyzaie's professional roles have included screenwriter and playwright. Bahram Beyzaie studied at University of Tehran. Bahram Beyzaie's documented professional activity began around 1962. This project includes 1 film by Bahram Beyzaie in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "barbara-loden": {
@@ -621,7 +621,7 @@ window.DIRECTOR_INFO = {
   "bridgett-m-davis": {
     "image": "",
     "imageAlt": "",
-    "bio": "Bridgett M. Davis is an Author and independent filmmaker. Beyond directing, Bridgett M. Davis's professional roles have included writer. Recognition connected with Bridgett M. Davis's career includes Michigan Notable Books. Bridgett M. Davis's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Bridgett M. Davis in the Hidden Gems cluster.",
+    "bio": "Bridgett M. Davis is an Author and independent filmmaker. Beyond directing, Bridgett M. Davis's professional roles have included writer. Recognition connected with Bridgett M. Davis's career includes Michigan Notable Books. Bridgett M. Davis's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Bridgett M. Davis in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "bruce-beresford": {
@@ -771,7 +771,7 @@ window.DIRECTOR_INFO = {
   "ching-siu-tung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ching Siu-tung is a Hong Kong action choreographer and film director. Ching Siu-tung was born in Hong Kong in 1953. Beyond directing, Ching Siu-tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Ching Siu-tung's career includes Time Machine Award. Ching Siu-tung's biographical record is closely connected with People's Republic of China. This project includes 1 film by Ching Siu-tung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Ching Siu-tung is a Hong Kong action choreographer and film director. Ching Siu-tung was born in Hong Kong in 1953. Beyond directing, Ching Siu-tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Ching Siu-tung's career includes Time Machine Award. Ching Siu-tung's biographical record is closely connected with People's Republic of China. This project includes 1 film by Ching Siu-tung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "chloe-zhao": {
@@ -831,7 +831,7 @@ window.DIRECTOR_INFO = {
   "clara-law": {
     "image": "",
     "imageAlt": "",
-    "bio": "Clara Law is an Australian film director. Clara Law was born in Macau in 1957. Beyond directing, Clara Law's professional roles have included screenwriter and film producer. Clara Law studied at University of Hong Kong. She is known for such films as Floating Life and Autumn Moon. This project includes 1 film by Clara Law in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Clara Law is an Australian film director. Clara Law was born in Macau in 1957. Beyond directing, Clara Law's professional roles have included screenwriter and film producer. Clara Law studied at University of Hong Kong. She is known for such films as Floating Life and Autumn Moon. This project includes 1 film by Clara Law in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "clarence-brown": {
@@ -897,7 +897,7 @@ window.DIRECTOR_INFO = {
   "corneliu-porumboiu": {
     "image": "",
     "imageAlt": "",
-    "bio": "Corneliu Porumboiu is a film director. Corneliu Porumboiu was born in Vaslui in 1975. Beyond directing, Corneliu Porumboiu's professional roles have included screenwriter and film producer. Corneliu Porumboiu studied at I. L. Caragiale National University of Theatre and Film. He is most known for his films 12:08 East of Bucharest (2006) and The Whistlers (2019). This project includes 2 films by Corneliu Porumboiu in the Hidden Gems cluster.",
+    "bio": "Corneliu Porumboiu is a film director. Corneliu Porumboiu was born in Vaslui in 1975. Beyond directing, Corneliu Porumboiu's professional roles have included screenwriter and film producer. Corneliu Porumboiu studied at I. L. Caragiale National University of Theatre and Film. He is most known for his films 12:08 East of Bucharest (2006) and The Whistlers (2019). This project includes 2 films by Corneliu Porumboiu in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "costa-gavras": {
@@ -909,13 +909,13 @@ window.DIRECTOR_INFO = {
   "cristi-puiu": {
     "image": "",
     "imageAlt": "",
-    "bio": "Cristi Puiu is a Romanian film director and screenwriter. Cristi Puiu was born in Bucharest in 1967. Beyond directing, Cristi Puiu's professional roles have included screenwriter and film screenwriter. Cristi Puiu's documented field of work includes film. With Anca Puiu and Alex Munteanu, he founded the cinema production company Mandragora in 2004. This project includes 2 films by Cristi Puiu in the Hidden Gems cluster.",
+    "bio": "Cristi Puiu is a Romanian film director and screenwriter. Cristi Puiu was born in Bucharest in 1967. Beyond directing, Cristi Puiu's professional roles have included screenwriter and film screenwriter. Cristi Puiu's documented field of work includes film. With Anca Puiu and Alex Munteanu, he founded the cinema production company Mandragora in 2004. This project includes 2 films by Cristi Puiu in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "cristian-mungiu": {
     "image": "",
     "imageAlt": "",
-    "bio": "Cristian Mungiu is a Romanian film director, screenwriter, and film producer. Cristian Mungiu was born in Iași in 1968. Beyond directing, Cristian Mungiu's professional roles have included screenwriter, film producer, and radio personality. Cristian Mungiu studied at Alexandru Ioan Cuza University. Recognition connected with Cristian Mungiu's career includes Knight of the Order of the Star of Romania. This project includes 1 film by Cristian Mungiu in the Hidden Gems cluster.",
+    "bio": "Cristian Mungiu is a Romanian film director, screenwriter, and film producer. Cristian Mungiu was born in Iași in 1968. Beyond directing, Cristian Mungiu's professional roles have included screenwriter, film producer, and radio personality. Cristian Mungiu studied at Alexandru Ioan Cuza University. Recognition connected with Cristian Mungiu's career includes Knight of the Order of the Star of Romania. This project includes 1 film by Cristian Mungiu in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "curtis-hanson": {
@@ -933,7 +933,7 @@ window.DIRECTOR_INFO = {
   "dag-johan-haugerud": {
     "image": "",
     "imageAlt": "",
-    "bio": "Dag Johan Haugerud is a Norwegian film director. Dag Johan Haugerud was born in Eidsberg Municipality in 1964. Beyond directing, Dag Johan Haugerud's professional roles have included film editor, screenwriter, and librarian. Recognition connected with Dag Johan Haugerud's career includes Amanda Award for Best Direction. Dag Johan Haugerud's biographical record is closely connected with Norway. This project includes 2 films by Dag Johan Haugerud in the Hidden Gems cluster.",
+    "bio": "Dag Johan Haugerud is a Norwegian film director. Dag Johan Haugerud was born in Eidsberg Municipality in 1964. Beyond directing, Dag Johan Haugerud's professional roles have included film editor, screenwriter, and librarian. Recognition connected with Dag Johan Haugerud's career includes Amanda Award for Best Direction. Dag Johan Haugerud's biographical record is closely connected with Norway. This project includes 2 films by Dag Johan Haugerud in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "damien-chazelle": {
@@ -993,7 +993,7 @@ window.DIRECTOR_INFO = {
   "david-cronenberg": {
     "image": "",
     "imageAlt": "",
-    "bio": "David Cronenberg is a Canadian filmmaker. David Cronenberg was born in Toronto in 1943. Beyond directing, David Cronenberg's professional roles have included actor, film producer, and film editor. David Cronenberg studied at University of Toronto. Recognition connected with David Cronenberg's career includes Knight of the Legion of Honour. This project includes 5 films by David Cronenberg across the Anglophone Classic, European Art Cinema, and Hidden Gems clusters.",
+    "bio": "David Cronenberg is a Canadian filmmaker. David Cronenberg was born in Toronto in 1943. Beyond directing, David Cronenberg's professional roles have included actor, film producer, and film editor. David Cronenberg studied at University of Toronto. Recognition connected with David Cronenberg's career includes Knight of the Legion of Honour. This project includes 5 films by David Cronenberg across the Anglophone Classic, European Art Cinema, and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "david-eady": {
@@ -1035,7 +1035,7 @@ window.DIRECTOR_INFO = {
   "david-lynch": {
     "image": "director_photos/david_lynch.jpg",
     "imageAlt": "Portrait of David Lynch",
-    "bio": "David Lynch was an American filmmaker, visual artist, musician, and actor. David Lynch was born in Missoula in 1946 and died in 2025. Beyond directing, David Lynch's professional roles have included actor, composer, and painter. David Lynch studied at George Washington University. A notable work associated with David Lynch is Blue Velvet. This project includes 6 films by David Lynch across the Anglophone Classic, Hidden Gems, and Transatlantic Auteur Cinema clusters.",
+    "bio": "David Lynch was an American filmmaker, visual artist, musician, and actor. David Lynch was born in Missoula in 1946 and died in 2025. Beyond directing, David Lynch's professional roles have included actor, composer, and painter. David Lynch studied at George Washington University. A notable work associated with David Lynch is Blue Velvet. This project includes 6 films by David Lynch across the Anglophone Classic, Hidden Gems Mosaic, and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "david-mackenzie": {
@@ -1071,7 +1071,7 @@ window.DIRECTOR_INFO = {
   "david-schickele": {
     "image": "",
     "imageAlt": "",
-    "bio": "David Schickele was an American musician, film director and actor. David Schickele was born in Ames in 1937 and died in 1999. David Schickele studied at Swarthmore College. Recognition connected with David Schickele's career includes Guggenheim Fellowship. David Schickele's biographical record is closely connected with United States. This project includes 1 film by David Schickele in the Hidden Gems cluster.",
+    "bio": "David Schickele was an American musician, film director and actor. David Schickele was born in Ames in 1937 and died in 1999. David Schickele studied at Swarthmore College. Recognition connected with David Schickele's career includes Guggenheim Fellowship. David Schickele's biographical record is closely connected with United States. This project includes 1 film by David Schickele in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "david-weisman": {
@@ -1107,7 +1107,7 @@ window.DIRECTOR_INFO = {
   "dennis-yu": {
     "image": "",
     "imageAlt": "",
-    "bio": "Dennis Yu is a Hong Kong film director. Dennis Yu's work is associated with Hong Kong New Wave. Dennis Yu's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Dennis Yu in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Dennis Yu is a Hong Kong film director. Dennis Yu's work is associated with Hong Kong New Wave. Dennis Yu's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Dennis Yu in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "denzel-washington": {
@@ -1149,7 +1149,7 @@ window.DIRECTOR_INFO = {
   "djibril-diop-mambety": {
     "image": "",
     "imageAlt": "",
-    "bio": "Djibril Diop Mambéty was a Senegalese film director. Djibril Diop Mambéty was born in Dakar Department in 1945 and died in 1998. Beyond directing, Djibril Diop Mambéty's professional roles have included actor and screenwriter. Djibril Diop Mambéty's work is associated with Laboratoire Agit'Art. A notable work associated with Djibril Diop Mambéty is Touki Bouki. This project includes 1 film by Djibril Diop Mambéty in the Hidden Gems cluster.",
+    "bio": "Djibril Diop Mambéty was a Senegalese film director. Djibril Diop Mambéty was born in Dakar Department in 1945 and died in 1998. Beyond directing, Djibril Diop Mambéty's professional roles have included actor and screenwriter. Djibril Diop Mambéty's work is associated with Laboratoire Agit'Art. A notable work associated with Djibril Diop Mambéty is Touki Bouki. This project includes 1 film by Djibril Diop Mambéty in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "donna-deitch": {
@@ -1173,7 +1173,7 @@ window.DIRECTOR_INFO = {
   "dusan-makavejev": {
     "image": "",
     "imageAlt": "",
-    "bio": "Dušan Makavejev was a Serbian film director. Dušan Makavejev was born in Belgrade in 1932 and died in 2019. Beyond directing, Dušan Makavejev's professional roles have included screenwriter and university teacher. Dušan Makavejev studied at University of Belgrade. Recognition connected with Dušan Makavejev's career includes Guggenheim Fellowship. This project includes 3 films by Dušan Makavejev in the Hidden Gems cluster.",
+    "bio": "Dušan Makavejev was a Serbian film director. Dušan Makavejev was born in Belgrade in 1932 and died in 2019. Beyond directing, Dušan Makavejev's professional roles have included screenwriter and university teacher. Dušan Makavejev studied at University of Belgrade. Recognition connected with Dušan Makavejev's career includes Guggenheim Fellowship. This project includes 3 films by Dušan Makavejev in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "e-a-dupont": {
@@ -1185,7 +1185,7 @@ window.DIRECTOR_INFO = {
   "edgar-g-ulmer": {
     "image": "",
     "imageAlt": "",
-    "bio": "Edgar G. Ulmer was an American film director, set designer. Edgar G. Ulmer was born in Olomouc in 1904 and died in 1972. Beyond directing, Edgar G. Ulmer's professional roles have included writer, screenwriter, and cinematographer. Edgar G. Ulmer's documented field of work includes film direction. His stylish and eccentric works came to be appreciated by auteur theory-espousing film critics in the years following his retirement. This project includes 2 films by Edgar G. Ulmer across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Edgar G. Ulmer was an American film director, set designer. Edgar G. Ulmer was born in Olomouc in 1904 and died in 1972. Beyond directing, Edgar G. Ulmer's professional roles have included writer, screenwriter, and cinematographer. Edgar G. Ulmer's documented field of work includes film direction. His stylish and eccentric works came to be appreciated by auteur theory-espousing film critics in the years following his retirement. This project includes 2 films by Edgar G. Ulmer across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "edmund-goulding": {
@@ -1221,7 +1221,7 @@ window.DIRECTOR_INFO = {
   "edward-yang": {
     "image": "director_photos/edward_yang.jpg",
     "imageAlt": "Portrait of Edward Yang",
-    "bio": "Edward Yang was a Taiwanese film director and screenwriter. Edward Yang was born in Shanghai in 1947 and died in 2007. Beyond directing, Edward Yang's professional roles have included screenwriter and actor. Edward Yang studied at University of Florida. Recognition connected with Edward Yang's career includes Sutherland Trophy. This project includes 5 films by Edward Yang in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Edward Yang was a Taiwanese film director and screenwriter. Edward Yang was born in Shanghai in 1947 and died in 2007. Beyond directing, Edward Yang's professional roles have included screenwriter and actor. Edward Yang studied at University of Florida. Recognition connected with Edward Yang's career includes Sutherland Trophy. This project includes 5 films by Edward Yang in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "edwin-middleton": {
@@ -1245,13 +1245,13 @@ window.DIRECTOR_INFO = {
   "elem-klimov": {
     "image": "director_photos/elem_klimov.jpg",
     "imageAlt": "Portrait of Elem Klimov",
-    "bio": "Elem Klimov was a Soviet film director. Elem Klimov was born in Volgograd in 1933 and died in 2003. Beyond directing, Elem Klimov's professional roles have included screenwriter. Elem Klimov studied at Gerasimov Institute of Cinematography. Recognition connected with Elem Klimov's career includes People's Artist of the Russian Federation. This project includes 2 films by Elem Klimov in the Soviet Cinema cluster.",
+    "bio": "Elem Klimov was a Soviet film director. Elem Klimov was born in Volgograd in 1933 and died in 2003. Beyond directing, Elem Klimov's professional roles have included screenwriter. Elem Klimov studied at Gerasimov Institute of Cinematography. Recognition connected with Elem Klimov's career includes People's Artist of the Russian Federation. This project includes 2 films by Elem Klimov in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "elfi-mikesch": {
     "image": "",
     "imageAlt": "",
-    "bio": "Elfi Mikesch is an Austrian film director, screenwriter, cinematographer and film producer. Elfi Mikesch was born in Judenburg in 1940. Beyond directing, Elfi Mikesch's professional roles have included screenwriter, cinematographer, and film producer. Elfi Mikesch's professional career has included work with Academy of Arts, Berlin. Elfi Mikesch's biographical record is closely connected with Austria. This project includes 1 film by Elfi Mikesch in the Hidden Gems cluster.",
+    "bio": "Elfi Mikesch is an Austrian film director, screenwriter, cinematographer and film producer. Elfi Mikesch was born in Judenburg in 1940. Beyond directing, Elfi Mikesch's professional roles have included screenwriter, cinematographer, and film producer. Elfi Mikesch's professional career has included work with Academy of Arts, Berlin. Elfi Mikesch's biographical record is closely connected with Austria. This project includes 1 film by Elfi Mikesch in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "elia-kazan": {
@@ -1347,13 +1347,13 @@ window.DIRECTOR_INFO = {
   "felipe-cazals": {
     "image": "",
     "imageAlt": "",
-    "bio": "Felipe Cazals was a Mexican film director, screenwriter and producer. Felipe Cazals was born in France in 1937 and died in 2021. Beyond directing, Felipe Cazals's professional roles have included screenwriter and television actor. Felipe Cazals studied at Institut des hautes études cinématographiques. Recognition connected with Felipe Cazals's career includes National Prize for Arts and Sciences. This project includes 1 film by Felipe Cazals in the Hidden Gems cluster.",
+    "bio": "Felipe Cazals was a Mexican film director, screenwriter and producer. Felipe Cazals was born in France in 1937 and died in 2021. Beyond directing, Felipe Cazals's professional roles have included screenwriter and television actor. Felipe Cazals studied at Institut des hautes études cinématographiques. Recognition connected with Felipe Cazals's career includes National Prize for Arts and Sciences. This project includes 1 film by Felipe Cazals in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "fernando-de-fuentes": {
     "image": "",
     "imageAlt": "",
-    "bio": "Fernando de Fuentes was a Mexican film director. Fernando de Fuentes was born in Veracruz in 1894 and died in 1958. Beyond directing, Fernando de Fuentes's professional roles have included film producer and screenwriter. Fernando de Fuentes studied at Tulane University. Fernando de Fuentes's biographical record is closely connected with Mexico. This project includes 1 film by Fernando de Fuentes in the Hidden Gems cluster.",
+    "bio": "Fernando de Fuentes was a Mexican film director. Fernando de Fuentes was born in Veracruz in 1894 and died in 1958. Beyond directing, Fernando de Fuentes's professional roles have included film producer and screenwriter. Fernando de Fuentes studied at Tulane University. Fernando de Fuentes's biographical record is closely connected with Mexico. This project includes 1 film by Fernando de Fuentes in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "florian-zeller": {
@@ -1527,7 +1527,7 @@ window.DIRECTOR_INFO = {
   "george-a-romero": {
     "image": "",
     "imageAlt": "",
-    "bio": "George A. Romero was a Canadian-American filmmaker. George A. Romero was born in New York City in 1940 and died in 2017. Beyond directing, George A. Romero's professional roles have included film producer, film editor, and actor. George A. Romero studied at Carnegie Mellon University. Recognition connected with George A. Romero's career includes star on Hollywood Walk of Fame. This project includes 1 film by George A. Romero in the Hidden Gems cluster.",
+    "bio": "George A. Romero was a Canadian-American filmmaker. George A. Romero was born in New York City in 1940 and died in 2017. Beyond directing, George A. Romero's professional roles have included film producer, film editor, and actor. George A. Romero studied at Carnegie Mellon University. Recognition connected with George A. Romero's career includes star on Hollywood Walk of Fame. This project includes 1 film by George A. Romero in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "george-clooney": {
@@ -1659,13 +1659,13 @@ window.DIRECTOR_INFO = {
   "grigori-chukhrai": {
     "image": "",
     "imageAlt": "",
-    "bio": "Grigori Chukhrai was a Soviet film director and screenwriter. Grigori Chukhrai was born in Melitopol in 1921 and died in 2001. Beyond directing, Grigori Chukhrai's professional roles have included screenwriter and film producer. Grigori Chukhrai studied at Gerasimov Institute of Cinematography. Recognition connected with Grigori Chukhrai's career includes Medal \"For the Victory over Germany in the Great Patriotic War 1941–1945\". This project includes 1 film by Grigori Chukhrai in the Soviet Cinema cluster.",
+    "bio": "Grigori Chukhrai was a Soviet film director and screenwriter. Grigori Chukhrai was born in Melitopol in 1921 and died in 2001. Beyond directing, Grigori Chukhrai's professional roles have included screenwriter and film producer. Grigori Chukhrai studied at Gerasimov Institute of Cinematography. Recognition connected with Grigori Chukhrai's career includes Medal \"For the Victory over Germany in the Great Patriotic War 1941–1945\". This project includes 1 film by Grigori Chukhrai in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "guillermo-del-toro": {
     "image": "",
     "imageAlt": "",
-    "bio": "Guillermo del Toro is a Mexican filmmaker and author. Guillermo del Toro was born in Guadalajara in 1964. Beyond directing, Guillermo del Toro's professional roles have included screenwriter, novelist, and film producer. Guillermo del Toro studied at University of Guadalajara. Recognition connected with Guillermo del Toro's career includes BAFTA Award for Best Direction. This project includes 1 film by Guillermo del Toro in the Hidden Gems cluster.",
+    "bio": "Guillermo del Toro is a Mexican filmmaker and author. Guillermo del Toro was born in Guadalajara in 1964. Beyond directing, Guillermo del Toro's professional roles have included screenwriter, novelist, and film producer. Guillermo del Toro studied at University of Guadalajara. Recognition connected with Guillermo del Toro's career includes BAFTA Award for Best Direction. This project includes 1 film by Guillermo del Toro in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "gus-van-sant": {
@@ -1701,7 +1701,7 @@ window.DIRECTOR_INFO = {
   "guy-maddin": {
     "image": "",
     "imageAlt": "",
-    "bio": "Guy Maddin is a Canadian filmmaker. Guy Maddin was born in Winnipeg in 1956. Beyond directing, Guy Maddin's professional roles have included screenwriter, actor, and cinematographer. Guy Maddin studied at University of Winnipeg. Recognition connected with Guy Maddin's career includes Member of the Order of Canada. This project includes 1 film by Guy Maddin in the Hidden Gems cluster.",
+    "bio": "Guy Maddin is a Canadian filmmaker. Guy Maddin was born in Winnipeg in 1956. Beyond directing, Guy Maddin's professional roles have included screenwriter, actor, and cinematographer. Guy Maddin studied at University of Winnipeg. Recognition connected with Guy Maddin's career includes Member of the Order of Canada. This project includes 1 film by Guy Maddin in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "hajime-sato": {
@@ -1767,7 +1767,7 @@ window.DIRECTOR_INFO = {
   "hector-babenco": {
     "image": "",
     "imageAlt": "",
-    "bio": "Héctor Babenco was a Brazilian-Argentine film director. Héctor Babenco was born in Mar del Plata in 1946 and died in 2016. Beyond directing, Héctor Babenco's professional roles have included screenwriter and film producer. Recognition connected with Héctor Babenco's career includes Order of Cultural Merit (Brazil). Héctor Babenco's documented professional activity extended from 1973 to 2015. This project includes 5 films by Héctor Babenco across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "bio": "Héctor Babenco was a Brazilian-Argentine film director. Héctor Babenco was born in Mar del Plata in 1946 and died in 2016. Beyond directing, Héctor Babenco's professional roles have included screenwriter and film producer. Recognition connected with Héctor Babenco's career includes Order of Cultural Merit (Brazil). Héctor Babenco's documented professional activity extended from 1973 to 2015. This project includes 5 films by Héctor Babenco across the Hidden Gems Mosaic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "heinosuke-gosho": {
@@ -1887,19 +1887,19 @@ window.DIRECTOR_INFO = {
   "hong-khaou": {
     "image": "",
     "imageAlt": "",
-    "bio": "Hong Khaou is a Cambodian born, British film director and screenwriter. Hong Khaou was born in Cambodia in 1975. Beyond directing, Hong Khaou's professional roles have included screenwriter. He is known for his feature film debut, Lilting (2014). Hong Khaou's biographical record is closely connected with United Kingdom. This project includes 1 film by Hong Khaou in the Hidden Gems cluster.",
+    "bio": "Hong Khaou is a Cambodian born, British film director and screenwriter. Hong Khaou was born in Cambodia in 1975. Beyond directing, Hong Khaou's professional roles have included screenwriter. He is known for his feature film debut, Lilting (2014). Hong Khaou's biographical record is closely connected with United Kingdom. This project includes 1 film by Hong Khaou in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "horace-ove": {
     "image": "",
     "imageAlt": "",
-    "bio": "Horace Ové was a British photographer and filmmaker. Horace Ové was born in Port of Spain in 1936 and died in 2023. Beyond directing, Horace Ové's professional roles have included film producer, photographer, and actor. Horace Ové studied at London Film School. Recognition connected with Horace Ové's career includes Commander of the Order of the British Empire. This project includes 1 film by Horace Ové in the Hidden Gems cluster.",
+    "bio": "Horace Ové was a British photographer and filmmaker. Horace Ové was born in Port of Spain in 1936 and died in 2023. Beyond directing, Horace Ové's professional roles have included film producer, photographer, and actor. Horace Ové studied at London Film School. Recognition connected with Horace Ové's career includes Commander of the Order of the British Empire. This project includes 1 film by Horace Ové in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "hou-hsiao-hsien": {
     "image": "director_photos/hou_hsiao_hsien.jpg",
     "imageAlt": "Portrait of Hou Hsiao-hsien",
-    "bio": "Hou Hsiao-hsien is a Taiwanese film director, screenwriter and film producer. Hou Hsiao-hsien was born in Meixian District in 1947. Beyond directing, Hou Hsiao-hsien's professional roles have included actor, singer, and screenwriter. Hou Hsiao-hsien studied at National Taiwan University of Arts. Recognition connected with Hou Hsiao-hsien's career includes Golden Horse Award for Best Director. This project includes 5 films by Hou Hsiao-hsien in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Hou Hsiao-hsien is a Taiwanese film director, screenwriter and film producer. Hou Hsiao-hsien was born in Meixian District in 1947. Beyond directing, Hou Hsiao-hsien's professional roles have included actor, singer, and screenwriter. Hou Hsiao-hsien studied at National Taiwan University of Arts. Recognition connected with Hou Hsiao-hsien's career includes Golden Horse Award for Best Director. This project includes 5 films by Hou Hsiao-hsien in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "howard-hawks": {
@@ -1911,7 +1911,7 @@ window.DIRECTOR_INFO = {
   "huang-xi": {
     "image": "",
     "imageAlt": "",
-    "bio": "Huang Xi is a Taiwanese filmmaker. She made her directorial debut with Missing Johnny (2017), for which she won Best Screenplay in the 19th Taipei Film Awards. Huang Xi's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Huang Xi in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Huang Xi is a Taiwanese filmmaker. She made her directorial debut with Missing Johnny (2017), for which she won Best Screenplay in the 19th Taipei Film Awards. Huang Xi's career forms part of the film history represented by the Criterion-focused dataset. The available record documents a sustained contribution to directing and screen storytelling. This project includes 1 film by Huang Xi in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "hugh-hudson": {
@@ -1947,7 +1947,7 @@ window.DIRECTOR_INFO = {
   "ira-sachs": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ira Sachs is an American filmmaker. Ira Sachs was born in Memphis in 1965. Beyond directing, Ira Sachs's professional roles have included screenwriter, film producer, and writer. Ira Sachs studied at Yale University. Recognition connected with Ira Sachs's career includes Sundance Film Festival U.S. Dramatic Grand Jury Prize Award. This project includes 1 film by Ira Sachs in the Hidden Gems cluster.",
+    "bio": "Ira Sachs is an American filmmaker. Ira Sachs was born in Memphis in 1965. Beyond directing, Ira Sachs's professional roles have included screenwriter, film producer, and writer. Ira Sachs studied at Yale University. Recognition connected with Ira Sachs's career includes Sundance Film Festival U.S. Dramatic Grand Jury Prize Award. This project includes 1 film by Ira Sachs in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "irvin-s-yeaworth-jr": {
@@ -1977,7 +1977,7 @@ window.DIRECTOR_INFO = {
   "isaac-julien": {
     "image": "",
     "imageAlt": "",
-    "bio": "Isaac Julien is a British artist and film director. Isaac Julien was born in Poplar in 1960. Beyond directing, Isaac Julien's professional roles have included film producer, artist, and university teacher. Isaac Julien studied at Saint Martin's School of Art. Recognition connected with Isaac Julien's career includes Commander of the Order of the British Empire. This project includes 1 film by Isaac Julien in the Hidden Gems cluster.",
+    "bio": "Isaac Julien is a British artist and film director. Isaac Julien was born in Poplar in 1960. Beyond directing, Isaac Julien's professional roles have included film producer, artist, and university teacher. Isaac Julien studied at Saint Martin's School of Art. Recognition connected with Isaac Julien's career includes Commander of the Order of the British Empire. This project includes 1 film by Isaac Julien in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "ishiro-honda": {
@@ -2025,13 +2025,13 @@ window.DIRECTOR_INFO = {
   "jackie-chan": {
     "image": "director_photos/jackie_chan.jpg",
     "imageAlt": "Portrait of Jackie Chan",
-    "bio": "Jackie Chan is a Hong Kong actor and martial artist. Jackie Chan was born in Victoria Peak in 1954. Beyond directing, Jackie Chan's professional roles have included film actor, film producer, screenwriter, and stunt performer. Jackie Chan studied at Dickson College. A notable work associated with Jackie Chan is Drunken Master. This project includes 5 films by Jackie Chan in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Jackie Chan is a Hong Kong actor and martial artist. Jackie Chan was born in Victoria Peak in 1954. Beyond directing, Jackie Chan's professional roles have included film actor, film producer, screenwriter, and stunt performer. Jackie Chan studied at Dickson College. A notable work associated with Jackie Chan is Drunken Master. This project includes 5 films by Jackie Chan in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "jacques-audiard": {
     "image": "",
     "imageAlt": "",
-    "bio": "Jacques Audiard is a French film director and screenwriter. Jacques Audiard was born in 14th arrondissement of Paris in 1952. Beyond directing, Jacques Audiard's professional roles have included screenwriter, actor, and film actor. Jacques Audiard has been associated with Collectif 50/50. Recognition connected with Jacques Audiard's career includes César Award for Best First Film. This project includes 3 films by Jacques Audiard across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Jacques Audiard is a French film director and screenwriter. Jacques Audiard was born in 14th arrondissement of Paris in 1952. Beyond directing, Jacques Audiard's professional roles have included screenwriter, actor, and film actor. Jacques Audiard has been associated with Collectif 50/50. Recognition connected with Jacques Audiard's career includes César Award for Best First Film. This project includes 3 films by Jacques Audiard across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "jacques-becker": {
@@ -2253,7 +2253,7 @@ window.DIRECTOR_INFO = {
   "jeffrey-lau": {
     "image": "",
     "imageAlt": "",
-    "bio": "Jeffrey Lau is a Hong Kong film director, screenwriter, actor and film producer. Jeffrey Lau was born in Hong Kong in 1952. Beyond directing, Jeffrey Lau's professional roles have included screenwriter, actor, and film producer. Jeffrey Lau's documented field of work includes film direction. Jeffrey Lau's biographical record is closely connected with People's Republic of China. This project includes 2 films by Jeffrey Lau in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Jeffrey Lau is a Hong Kong film director, screenwriter, actor and film producer. Jeffrey Lau was born in Hong Kong in 1952. Beyond directing, Jeffrey Lau's professional roles have included screenwriter, actor, and film producer. Jeffrey Lau's documented field of work includes film direction. Jeffrey Lau's biographical record is closely connected with People's Republic of China. This project includes 2 films by Jeffrey Lau in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "jerome-robbins": {
@@ -2283,13 +2283,13 @@ window.DIRECTOR_INFO = {
   "jia-zhang-ke": {
     "image": "",
     "imageAlt": "",
-    "bio": "Jia Zhang-Ke is a Chinese film director and screenwriter. Jia Zhang-Ke was born in Fenyang in 1970. Beyond directing, Jia Zhang-Ke's professional roles have included film actor, screenwriter, and actor. Jia Zhang-Ke studied at Beijing Film Academy. A notable work associated with Jia Zhang-Ke is The World. This project includes 2 films by Jia Zhang-Ke in the Hidden Gems cluster.",
+    "bio": "Jia Zhang-Ke is a Chinese film director and screenwriter. Jia Zhang-Ke was born in Fenyang in 1970. Beyond directing, Jia Zhang-Ke's professional roles have included film actor, screenwriter, and actor. Jia Zhang-Ke studied at Beijing Film Academy. A notable work associated with Jia Zhang-Ke is The World. This project includes 2 films by Jia Zhang-Ke in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "jia-zhangke": {
     "image": "director_photos/jia_zhangke.jpg",
     "imageAlt": "Portrait of Jia Zhangke",
-    "bio": "Jia Zhangke is a Chinese film director and screenwriter. Jia Zhangke was born in Fenyang in 1970. Beyond directing, Jia Zhangke's professional roles have included film actor, screenwriter, and actor. Jia Zhangke studied at Beijing Film Academy. A notable work associated with Jia Zhangke is The World. This project includes 4 films by Jia Zhangke in the Hidden Gems cluster.",
+    "bio": "Jia Zhangke is a Chinese film director and screenwriter. Jia Zhangke was born in Fenyang in 1970. Beyond directing, Jia Zhangke's professional roles have included film actor, screenwriter, and actor. Jia Zhangke studied at Beijing Film Academy. A notable work associated with Jia Zhangke is The World. This project includes 4 films by Jia Zhangke in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "jill-sprecher": {
@@ -2463,13 +2463,13 @@ window.DIRECTOR_INFO = {
   "john-woo": {
     "image": "director_photos/john_woo.jpg",
     "imageAlt": "Portrait of John Woo",
-    "bio": "John Woo is a Hong Kong film director, screenwriter and film producer. John Woo was born in Guangzhou in 1946. Beyond directing, John Woo's professional roles have included film producer, screenwriter, and film editor. John Woo studied at Concordia Lutheran School. Recognition connected with John Woo's career includes Silver Bauhinia Star. This project includes 8 films by John Woo in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "John Woo is a Hong Kong film director, screenwriter and film producer. John Woo was born in Guangzhou in 1946. Beyond directing, John Woo's professional roles have included film producer, screenwriter, and film editor. John Woo studied at Concordia Lutheran School. Recognition connected with John Woo's career includes Silver Bauhinia Star. This project includes 8 films by John Woo in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "johnnie-to": {
     "image": "",
     "imageAlt": "",
-    "bio": "Johnnie To is a Hong Kong filmmaker. Johnnie To was born in Kowloon in 1955. Beyond directing, Johnnie To's professional roles have included film producer and screenwriter. Recognition connected with Johnnie To's career includes Medal of Honour. He co-founded the production company Milkyway Image with his frequent co-director Wai Ka-fai. This project includes 3 films by Johnnie To in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Johnnie To is a Hong Kong filmmaker. Johnnie To was born in Kowloon in 1955. Beyond directing, Johnnie To's professional roles have included film producer and screenwriter. Recognition connected with Johnnie To's career includes Medal of Honour. He co-founded the production company Milkyway Image with his frequent co-director Wai Ka-fai. This project includes 3 films by Johnnie To in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "jon-m-chu": {
@@ -2571,13 +2571,13 @@ window.DIRECTOR_INFO = {
   "juan-bustillo-oro": {
     "image": "",
     "imageAlt": "",
-    "bio": "Juan Bustillo Oro was a Mexican film director, screen writer. film producer and film editor. Juan Bustillo Oro was born in Mexico City in 1904 and died in 1989. Beyond directing, Juan Bustillo Oro's professional roles have included film producer, screenwriter, and film editor. Recognition connected with Juan Bustillo Oro's career includes Golden Ariel. Juan Bustillo Oro's biographical record is closely connected with Mexico. This project includes 1 film by Juan Bustillo Oro in the Hidden Gems cluster.",
+    "bio": "Juan Bustillo Oro was a Mexican film director, screen writer. film producer and film editor. Juan Bustillo Oro was born in Mexico City in 1904 and died in 1989. Beyond directing, Juan Bustillo Oro's professional roles have included film producer, screenwriter, and film editor. Recognition connected with Juan Bustillo Oro's career includes Golden Ariel. Juan Bustillo Oro's biographical record is closely connected with Mexico. This project includes 1 film by Juan Bustillo Oro in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "juan-pablo-gonzalez": {
     "image": "",
     "imageAlt": "",
-    "bio": "Juan Pablo González is a Mexican film director. Juan Pablo González was born in 1984. Recognition connected with Juan Pablo González's career includes Guggenheim Fellowship. His work primarily focuses on the Los Altos region of Mexico, where he's from. Juan Pablo González's biographical record is closely connected with Mexico. This project includes 1 film by Juan Pablo González in the Hidden Gems cluster.",
+    "bio": "Juan Pablo González is a Mexican film director. Juan Pablo González was born in 1984. Recognition connected with Juan Pablo González's career includes Guggenheim Fellowship. His work primarily focuses on the Los Altos region of Mexico, where he's from. Juan Pablo González's biographical record is closely connected with Mexico. This project includes 1 film by Juan Pablo González in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "jules-dassin": {
@@ -2667,13 +2667,13 @@ window.DIRECTOR_INFO = {
   "karyn-kusama": {
     "image": "",
     "imageAlt": "",
-    "bio": "Karyn Kusama is an American film director. Karyn Kusama was born in Brooklyn in 1968. Beyond directing, Karyn Kusama's professional roles have included screenwriter and film producer. Karyn Kusama studied at New York University Tisch School of the Arts. Recognition connected with Karyn Kusama's career includes Sundance Film Festival U.S. Dramatic Grand Jury Prize Award. This project includes 1 film by Karyn Kusama in the Hidden Gems cluster.",
+    "bio": "Karyn Kusama is an American film director. Karyn Kusama was born in Brooklyn in 1968. Beyond directing, Karyn Kusama's professional roles have included screenwriter and film producer. Karyn Kusama studied at New York University Tisch School of the Arts. Recognition connected with Karyn Kusama's career includes Sundance Film Festival U.S. Dramatic Grand Jury Prize Award. This project includes 1 film by Karyn Kusama in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "kathleen-collins": {
     "image": "",
     "imageAlt": "",
-    "bio": "Kathleen Collins was an American poet, writer and filmmaker. Kathleen Collins was born in Jersey City in 1942 and died in 1988. Beyond directing, Kathleen Collins's professional roles have included screenwriter, playwright, and university teacher. Kathleen Collins studied at University of Paris. Her two feature narratives – The Cruz Brothers and Miss Malloy (1980) and Losing Ground (1982) – furthered the range of Black women's films. This project includes 1 film by Kathleen Collins in the Hidden Gems cluster.",
+    "bio": "Kathleen Collins was an American poet, writer and filmmaker. Kathleen Collins was born in Jersey City in 1942 and died in 1988. Beyond directing, Kathleen Collins's professional roles have included screenwriter, playwright, and university teacher. Kathleen Collins studied at University of Paris. Her two feature narratives – The Cruz Brothers and Miss Malloy (1980) and Losing Ground (1982) – furthered the range of Black women's films. This project includes 1 film by Kathleen Collins in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "kathryn-bigelow": {
@@ -2751,7 +2751,7 @@ window.DIRECTOR_INFO = {
   "kenji-mizoguchi": {
     "image": "",
     "imageAlt": "",
-    "bio": "Kenji Mizoguchi was a Japanese film director and screenwriter. Kenji Mizoguchi was born in Tokyo in 1898 and died in 1956. Beyond directing, Kenji Mizoguchi's professional roles have included screenwriter. Kenji Mizoguchi's documented field of work includes film. A notable work associated with Kenji Mizoguchi is Osaka Elegy. This project includes 12 films by Kenji Mizoguchi across the Hidden Gems and Japanese Cinema clusters.",
+    "bio": "Kenji Mizoguchi was a Japanese film director and screenwriter. Kenji Mizoguchi was born in Tokyo in 1898 and died in 1956. Beyond directing, Kenji Mizoguchi's professional roles have included screenwriter. Kenji Mizoguchi's documented field of work includes film. A notable work associated with Kenji Mizoguchi is Osaka Elegy. This project includes 12 films by Kenji Mizoguchi across the Hidden Gems Mosaic and Japanese Cinema clusters.",
     "credit": ""
   },
   "kenneth-branagh": {
@@ -2787,7 +2787,7 @@ window.DIRECTOR_INFO = {
   "king-hu": {
     "image": "",
     "imageAlt": "",
-    "bio": "King Hu was a Chinese film director and screenwriter. King Hu was born in Beijing in 1932 and died in 1997. Beyond directing, King Hu's professional roles have included screenwriter, actor, and film actor. Recognition connected with King Hu's career includes Golden Horse Award for Best Director. King Hu's filmography is associated with wuxia. This project includes 3 films by King Hu in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "King Hu was a Chinese film director and screenwriter. King Hu was born in Beijing in 1932 and died in 1997. Beyond directing, King Hu's professional roles have included screenwriter, actor, and film actor. Recognition connected with King Hu's career includes Golden Horse Award for Best Director. King Hu's filmography is associated with wuxia. This project includes 3 films by King Hu in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "king-vidor": {
@@ -2811,13 +2811,13 @@ window.DIRECTOR_INFO = {
   "kira-muratova": {
     "image": "director_photos/kira_muratova.jpg",
     "imageAlt": "Portrait of Kira Muratova",
-    "bio": "Kira Muratova was a Soviet and Ukrainian film director, screenwriter, film actress. Kira Muratova was born in Soroca in 1934 and died in 2018. Beyond directing, Kira Muratova's professional roles have included screenwriter, film actor, and actor. Kira Muratova studied at Gerasimov Institute of Cinematography. Recognition connected with Kira Muratova's career includes Order of Friendship. This project includes 7 films by Kira Muratova in the Soviet Cinema cluster.",
+    "bio": "Kira Muratova was a Soviet and Ukrainian film director, screenwriter, film actress. Kira Muratova was born in Soroca in 1934 and died in 2018. Beyond directing, Kira Muratova's professional roles have included screenwriter, film actor, and actor. Kira Muratova studied at Gerasimov Institute of Cinematography. Recognition connected with Kira Muratova's career includes Order of Friendship. This project includes 7 films by Kira Muratova in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "kirill-serebrennikov": {
     "image": "",
     "imageAlt": "",
-    "bio": "Kirill Serebrennikov is a Russian film director and theater director. Kirill Serebrennikov was born in Rostov-on-Don in 1969. Beyond directing, Kirill Serebrennikov's professional roles have included screenwriter. Kirill Serebrennikov studied at Rostov State University. Recognition connected with Kirill Serebrennikov's career includes TEFI. This project includes 1 film by Kirill Serebrennikov in the Hidden Gems cluster.",
+    "bio": "Kirill Serebrennikov is a Russian film director and theater director. Kirill Serebrennikov was born in Rostov-on-Don in 1969. Beyond directing, Kirill Serebrennikov's professional roles have included screenwriter. Kirill Serebrennikov studied at Rostov State University. Recognition connected with Kirill Serebrennikov's career includes TEFI. This project includes 1 film by Kirill Serebrennikov in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "kirk-wise": {
@@ -2883,13 +2883,13 @@ window.DIRECTOR_INFO = {
   "lam-nai-choi": {
     "image": "",
     "imageAlt": "",
-    "bio": "Lam Nai-choi is a Hong Kong film director and cinematographer. Lam Nai-choi was born in 1953. Beyond directing, Lam Nai-choi's professional roles have included cinematographer and screenwriter. Lam Nai Choi, Nam Nai Choi, Simon Nam (born 1953), is a Hong Kong–based cinematographer and film director. Lam Nai-choi's biographical record is closely connected with British Hong Kong. This project includes 1 film by Lam Nai-choi in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Lam Nai-choi is a Hong Kong film director and cinematographer. Lam Nai-choi was born in 1953. Beyond directing, Lam Nai-choi's professional roles have included cinematographer and screenwriter. Lam Nai Choi, Nam Nai Choi, Simon Nam (born 1953), is a Hong Kong–based cinematographer and film director. Lam Nai-choi's biographical record is closely connected with British Hong Kong. This project includes 1 film by Lam Nai-choi in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "larisa-shepitko": {
     "image": "director_photos/larisa_shepitko.jpg",
     "imageAlt": "Portrait of Larisa Shepitko",
-    "bio": "Larisa Shepitko was a Soviet film director and screenwriter (1938—1979). Larisa Shepitko was born in Bakhmut in 1938 and died in 1979. Beyond directing, Larisa Shepitko's professional roles have included screenwriter and actor. Larisa Shepitko studied at Gerasimov Institute of Cinematography. Recognition connected with Larisa Shepitko's career includes USSR State Prize. This project includes 2 films by Larisa Shepitko in the Soviet Cinema cluster.",
+    "bio": "Larisa Shepitko was a Soviet film director and screenwriter (1938—1979). Larisa Shepitko was born in Bakhmut in 1938 and died in 1979. Beyond directing, Larisa Shepitko's professional roles have included screenwriter and actor. Larisa Shepitko studied at Gerasimov Institute of Cinematography. Recognition connected with Larisa Shepitko's career includes USSR State Prize. This project includes 2 films by Larisa Shepitko in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "lars-eric-kjellgren": {
@@ -2919,7 +2919,7 @@ window.DIRECTOR_INFO = {
   "lav-diaz": {
     "image": "",
     "imageAlt": "",
-    "bio": "Lav Diaz is a Filipino film director. Lav Diaz was born in Mindanao in 1958. Beyond directing, Lav Diaz's professional roles have included film editor, film producer, and screenwriter. Lav Diaz's documented field of work includes film direction. Recognition connected with Lav Diaz's career includes Guggenheim Fellowship. This project includes 1 film by Lav Diaz in the Hidden Gems cluster.",
+    "bio": "Lav Diaz is a Filipino film director. Lav Diaz was born in Mindanao in 1958. Beyond directing, Lav Diaz's professional roles have included film editor, film producer, and screenwriter. Lav Diaz's documented field of work includes film direction. Recognition connected with Lav Diaz's career includes Guggenheim Fellowship. This project includes 1 film by Lav Diaz in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "lawrence-huntington": {
@@ -2955,7 +2955,7 @@ window.DIRECTOR_INFO = {
   "lena-dunham": {
     "image": "",
     "imageAlt": "",
-    "bio": "Lena Dunham is an American writer, director, actress, and producer. Lena Dunham was born in New York City in 1986. Beyond directing, Lena Dunham's professional roles have included actor, screenwriter, and film producer. Lena Dunham studied at Oberlin College. A notable work associated with Lena Dunham is Delusional Downtown Divas. This project includes 2 films by Lena Dunham in the Hidden Gems cluster.",
+    "bio": "Lena Dunham is an American writer, director, actress, and producer. Lena Dunham was born in New York City in 1986. Beyond directing, Lena Dunham's professional roles have included actor, screenwriter, and film producer. Lena Dunham studied at Oberlin College. A notable work associated with Lena Dunham is Delusional Downtown Divas. This project includes 2 films by Lena Dunham in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "leo-mccarey": {
@@ -2997,7 +2997,7 @@ window.DIRECTOR_INFO = {
   "lila-aviles": {
     "image": "",
     "imageAlt": "",
-    "bio": "Lila Avilés is a Mexican film director. Lila Avilés was born in Mexico City in 1982. Beyond directing, Lila Avilés's professional roles have included actor, playwright, and screenwriter. Lila Avilés's documented professional activity began around 2018. Lila Avilés's biographical record is closely connected with Mexico. This project includes 1 film by Lila Avilés in the Hidden Gems cluster.",
+    "bio": "Lila Avilés is a Mexican film director. Lila Avilés was born in Mexico City in 1982. Beyond directing, Lila Avilés's professional roles have included actor, playwright, and screenwriter. Lila Avilés's documented professional activity began around 2018. Lila Avilés's biographical record is closely connected with Mexico. This project includes 1 film by Lila Avilés in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "liliana-cavani": {
@@ -3009,7 +3009,7 @@ window.DIRECTOR_INFO = {
   "lina-rodriguez": {
     "image": "",
     "imageAlt": "",
-    "bio": "Lina Rodriguez is a Colombian-Canadian director and screenwriter. Lina Rodriguez was born in Bogotá in 1950. Beyond directing, Lina Rodriguez's professional roles have included screenwriter. A native of Bogotá, Rodriguez moved to Canada to study film at York University. Lina Rodriguez's biographical record is closely connected with Colombia. This project includes 3 films by Lina Rodriguez in the Hidden Gems cluster.",
+    "bio": "Lina Rodriguez is a Colombian-Canadian director and screenwriter. Lina Rodriguez was born in Bogotá in 1950. Beyond directing, Lina Rodriguez's professional roles have included screenwriter. A native of Bogotá, Rodriguez moved to Canada to study film at York University. Lina Rodriguez's biographical record is closely connected with Colombia. This project includes 3 films by Lina Rodriguez in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "lindsay-anderson": {
@@ -3021,7 +3021,7 @@ window.DIRECTOR_INFO = {
   "lino-brocka": {
     "image": "director_photos/lino_brocka.jpg",
     "imageAlt": "Portrait of Lino Brocka",
-    "bio": "Lino Brocka was a Filipino film director. Lino Brocka was born in Pilar in 1939 and died in 1991. Beyond directing, Lino Brocka's professional roles have included screenwriter and actor. Lino Brocka studied at University of the Philippines. Recognition connected with Lino Brocka's career includes National Artist of the Philippines. This project includes 3 films by Lino Brocka in the Hidden Gems cluster.",
+    "bio": "Lino Brocka was a Filipino film director. Lino Brocka was born in Pilar in 1939 and died in 1991. Beyond directing, Lino Brocka's professional roles have included screenwriter and actor. Lino Brocka studied at University of the Philippines. Recognition connected with Lino Brocka's career includes National Artist of the Philippines. This project includes 3 films by Lino Brocka in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "lisa-cholodenko": {
@@ -3123,7 +3123,7 @@ window.DIRECTOR_INFO = {
   "luis-bunuel": {
     "image": "",
     "imageAlt": "",
-    "bio": "Luis Buñuel was a Spanish-Mexican filmmaker. Luis Buñuel was born in Calanda in 1900 and died in 1983. Beyond directing, Luis Buñuel's professional roles have included screenwriter, actor, and film editor. Luis Buñuel studied at Complutense University of Madrid. A notable work associated with Luis Buñuel is Un Chien Andalou. This project includes 6 films by Luis Buñuel across the European Art Cinema, Hidden Gems, and Transatlantic Auteur Cinema clusters.",
+    "bio": "Luis Buñuel was a Spanish-Mexican filmmaker. Luis Buñuel was born in Calanda in 1900 and died in 1983. Beyond directing, Luis Buñuel's professional roles have included screenwriter, actor, and film editor. Luis Buñuel studied at Complutense University of Madrid. A notable work associated with Luis Buñuel is Un Chien Andalou. This project includes 6 films by Luis Buñuel across the European Art Cinema, Hidden Gems Mosaic, and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "luis-garcia-berlanga": {
@@ -3159,7 +3159,7 @@ window.DIRECTOR_INFO = {
   "mabel-cheung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Mabel Cheung is a Hong Kong film director and screenwriter. Mabel Cheung was born in Hong Kong in 1950. Beyond directing, Mabel Cheung's professional roles have included actor, screenwriter, and film producer. Mabel Cheung studied at University of Hong Kong. Recognition connected with Mabel Cheung's career includes Hong Kong Film Award for Best Director. This project includes 1 film by Mabel Cheung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Mabel Cheung is a Hong Kong film director and screenwriter. Mabel Cheung was born in Hong Kong in 1950. Beyond directing, Mabel Cheung's professional roles have included actor, screenwriter, and film producer. Mabel Cheung studied at University of Hong Kong. Recognition connected with Mabel Cheung's career includes Hong Kong Film Award for Best Director. This project includes 1 film by Mabel Cheung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "mai-zetterling": {
@@ -3255,7 +3255,7 @@ window.DIRECTOR_INFO = {
   "marta-meszaros": {
     "image": "",
     "imageAlt": "",
-    "bio": "Márta Mészáros is a Hungarian screenwriter and film director. Márta Mészáros was born in Budapest in 1931. Beyond directing, Márta Mészáros's professional roles have included screenwriter. Márta Mészáros studied at Gerasimov Institute of Cinematography. Recognition connected with Márta Mészáros's career includes Béla Balázs Award. This project includes 4 films by Márta Mészáros across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Márta Mészáros is a Hungarian screenwriter and film director. Márta Mészáros was born in Budapest in 1931. Beyond directing, Márta Mészáros's professional roles have included screenwriter. Márta Mészáros studied at Gerasimov Institute of Cinematography. Recognition connected with Márta Mészáros's career includes Béla Balázs Award. This project includes 4 films by Márta Mészáros across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "martin-brest": {
@@ -3291,7 +3291,7 @@ window.DIRECTOR_INFO = {
   "mary-bronstein": {
     "image": "",
     "imageAlt": "",
-    "bio": "Mary Bronstein is an American filmmaker. Mary Bronstein was born in 1979. Mary Bronstein studied at New York University Tisch School of the Arts. Mary Bronstein's biographical record is closely connected with United States. Mary Bronstein's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Mary Bronstein in the Hidden Gems cluster.",
+    "bio": "Mary Bronstein is an American filmmaker. Mary Bronstein was born in 1979. Mary Bronstein studied at New York University Tisch School of the Arts. Mary Bronstein's biographical record is closely connected with United States. Mary Bronstein's career forms part of the film history represented by the Criterion-focused dataset. This project includes 1 film by Mary Bronstein in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "masahiro-shinoda": {
@@ -3315,7 +3315,7 @@ window.DIRECTOR_INFO = {
   "matteo-garrone": {
     "image": "",
     "imageAlt": "",
-    "bio": "Matteo Garrone is an Italian film director and screen writer. Matteo Garrone was born in Rome in 1968. Beyond directing, Matteo Garrone's professional roles have included screenwriter and film producer. Matteo Garrone has been associated with Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon. A notable work associated with Matteo Garrone is Gomorrah. This project includes 1 film by Matteo Garrone in the Hidden Gems cluster.",
+    "bio": "Matteo Garrone is an Italian film director and screen writer. Matteo Garrone was born in Rome in 1968. Beyond directing, Matteo Garrone's professional roles have included screenwriter and film producer. Matteo Garrone has been associated with Pontifical Academy of Fine Arts and Letters of the Virtuosi al Pantheon. A notable work associated with Matteo Garrone is Gomorrah. This project includes 1 film by Matteo Garrone in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "maureen-blackwood": {
@@ -3399,7 +3399,7 @@ window.DIRECTOR_INFO = {
   "metin-erksan": {
     "image": "",
     "imageAlt": "",
-    "bio": "Metin Erksan was a Turkish film director. Metin Erksan was born in Çanakkale in 1929 and died in 2012. Beyond directing, Metin Erksan's professional roles have included screenwriter and journalist. Metin Erksan studied at Istanbul University Faculty of Letters. Recognition connected with Metin Erksan's career includes International Adana Film Festival Best Film Director Award. This project includes 1 film by Metin Erksan in the Hidden Gems cluster.",
+    "bio": "Metin Erksan was a Turkish film director. Metin Erksan was born in Çanakkale in 1929 and died in 2012. Beyond directing, Metin Erksan's professional roles have included screenwriter and journalist. Metin Erksan studied at Istanbul University Faculty of Letters. Recognition connected with Metin Erksan's career includes International Adana Film Festival Best Film Director Award. This project includes 1 film by Metin Erksan in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "mia-hansen-l-ve": {
@@ -3453,7 +3453,7 @@ window.DIRECTOR_INFO = {
   "michael-imperioli": {
     "image": "",
     "imageAlt": "",
-    "bio": "Michael Imperioli is an American actor. Michael Imperioli was born in Mount Vernon in 1966. Beyond directing, Michael Imperioli's professional roles have included actor, television actor, film actor, and screenwriter. Michael Imperioli studied at Lee Strasberg Theatre and Film Institute. Recognition connected with Michael Imperioli's career includes Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series. This project includes 1 film by Michael Imperioli in the Hidden Gems cluster.",
+    "bio": "Michael Imperioli is an American actor. Michael Imperioli was born in Mount Vernon in 1966. Beyond directing, Michael Imperioli's professional roles have included actor, television actor, film actor, and screenwriter. Michael Imperioli studied at Lee Strasberg Theatre and Film Institute. Recognition connected with Michael Imperioli's career includes Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series. This project includes 1 film by Michael Imperioli in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "michael-mann": {
@@ -3513,13 +3513,13 @@ window.DIRECTOR_INFO = {
   "mikhail-kalatozov": {
     "image": "director_photos/mikhail_kalatozov.jpg",
     "imageAlt": "Portrait of Mikhail Kalatozov",
-    "bio": "Mikhail Kalatozov was a Soviet film director and screenwriter. Mikhail Kalatozov was born in Tbilisi in 1903 and died in 1973. Beyond directing, Mikhail Kalatozov's professional roles have included screenwriter and cinematographer. Mikhail Kalatozov studied at Russian State Institute of Performing Arts. Recognition connected with Mikhail Kalatozov's career includes Stalin Prize. This project includes 3 films by Mikhail Kalatozov across the European Art Cinema and Soviet Cinema clusters.",
+    "bio": "Mikhail Kalatozov was a Soviet film director and screenwriter. Mikhail Kalatozov was born in Tbilisi in 1903 and died in 1973. Beyond directing, Mikhail Kalatozov's professional roles have included screenwriter and cinematographer. Mikhail Kalatozov studied at Russian State Institute of Performing Arts. Recognition connected with Mikhail Kalatozov's career includes Stalin Prize. This project includes 3 films by Mikhail Kalatozov across the European Art Cinema and Soviet Cinema Classics clusters.",
     "credit": ""
   },
   "mikhail-romm": {
     "image": "",
     "imageAlt": "",
-    "bio": "Mikhail Romm was a Soviet film director. Mikhail Romm was born in Irkutsk in 1901 and died in 1971. Beyond directing, Mikhail Romm's professional roles have included screenwriter and film editor. Mikhail Romm studied at Moscow School of Painting, Sculpture and Architecture. Recognition connected with Mikhail Romm's career includes State Stalin Prize, 1st degree. This project includes 1 film by Mikhail Romm in the Soviet Cinema cluster.",
+    "bio": "Mikhail Romm was a Soviet film director. Mikhail Romm was born in Irkutsk in 1901 and died in 1971. Beyond directing, Mikhail Romm's professional roles have included screenwriter and film editor. Mikhail Romm studied at Moscow School of Painting, Sculpture and Architecture. Recognition connected with Mikhail Romm's career includes State Stalin Prize, 1st degree. This project includes 1 film by Mikhail Romm in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "mikio-naruse": {
@@ -3573,13 +3573,13 @@ window.DIRECTOR_INFO = {
   "mohammad-reza-aslani": {
     "image": "",
     "imageAlt": "",
-    "bio": "Mohammad Reza Aslani is an Iranian writer, poet, film director and screenwriter. Mohammad Reza Aslani was born in Rasht in 1943. Beyond directing, Mohammad Reza Aslani's professional roles have included writer, poet, and screenwriter. Mohammad Reza Aslani's documented field of work includes writing. Mohammad Reza Aslani's biographical record is closely connected with Iran. This project includes 1 film by Mohammad Reza Aslani in the Hidden Gems cluster.",
+    "bio": "Mohammad Reza Aslani is an Iranian writer, poet, film director and screenwriter. Mohammad Reza Aslani was born in Rasht in 1943. Beyond directing, Mohammad Reza Aslani's professional roles have included writer, poet, and screenwriter. Mohammad Reza Aslani's documented field of work includes writing. Mohammad Reza Aslani's biographical record is closely connected with Iran. This project includes 1 film by Mohammad Reza Aslani in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "monika-treut": {
     "image": "",
     "imageAlt": "",
-    "bio": "Monika Treut is a German film director. Monika Treut was born in Mönchengladbach in 1954. Beyond directing, Monika Treut's professional roles have included film producer, screenwriter, and cinematographer. Monika Treut studied at University of Marburg. Recognition connected with Monika Treut's career includes Helmut Käutner Prize. This project includes 3 films by Monika Treut across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "bio": "Monika Treut is a German film director. Monika Treut was born in Mönchengladbach in 1954. Beyond directing, Monika Treut's professional roles have included film producer, screenwriter, and cinematographer. Monika Treut studied at University of Marburg. Recognition connected with Monika Treut's career includes Helmut Käutner Prize. This project includes 3 films by Monika Treut across the Hidden Gems Mosaic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "monte-hellman": {
@@ -3657,7 +3657,7 @@ window.DIRECTOR_INFO = {
   "noah-baumbach": {
     "image": "",
     "imageAlt": "",
-    "bio": "Noah Baumbach is an American filmmaker. Noah Baumbach was born in Brooklyn in 1969. Beyond directing, Noah Baumbach's professional roles have included screenwriter, film producer, and actor. Noah Baumbach studied at Vassar College. Noah Baumbach's documented professional activity began around 1995. This project includes 1 film by Noah Baumbach in the Hidden Gems cluster.",
+    "bio": "Noah Baumbach is an American filmmaker. Noah Baumbach was born in Brooklyn in 1969. Beyond directing, Noah Baumbach's professional roles have included screenwriter, film producer, and actor. Noah Baumbach studied at Vassar College. Noah Baumbach's documented professional activity began around 1995. This project includes 1 film by Noah Baumbach in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "nobuhiko-obayashi": {
@@ -3753,19 +3753,19 @@ window.DIRECTOR_INFO = {
   "ousmane-sembene": {
     "image": "director_photos/ousmane_sembene.jpg",
     "imageAlt": "Portrait of Ousmane Sembène",
-    "bio": "Ousmane Sembène was a Senegalese film director, producer, screenwriter, actor, and author. Ousmane Sembène was born in Ziguinchor in 1923 and died in 2007. Beyond directing, Ousmane Sembène's professional roles have included film producer, actor, and playwright. Ousmane Sembène studied at Gerasimov Institute of Cinematography. A notable work associated with Ousmane Sembène is God's Bits of Wood. This project includes 5 films by Ousmane Sembène in the Hidden Gems cluster.",
+    "bio": "Ousmane Sembène was a Senegalese film director, producer, screenwriter, actor, and author. Ousmane Sembène was born in Ziguinchor in 1923 and died in 2007. Beyond directing, Ousmane Sembène's professional roles have included film producer, actor, and playwright. Ousmane Sembène studied at Gerasimov Institute of Cinematography. A notable work associated with Ousmane Sembène is God's Bits of Wood. This project includes 5 films by Ousmane Sembène in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "paolo-sorrentino": {
     "image": "",
     "imageAlt": "",
-    "bio": "Paolo Sorrentino is an Italian film director and screenwriter. Paolo Sorrentino was born in Naples in 1970. Beyond directing, Paolo Sorrentino's professional roles have included screenwriter, actor, and playwright. Paolo Sorrentino studied at University of Naples Federico II. A notable work associated with Paolo Sorrentino is Youth. This project includes 3 films by Paolo Sorrentino in the Hidden Gems cluster.",
+    "bio": "Paolo Sorrentino is an Italian film director and screenwriter. Paolo Sorrentino was born in Naples in 1970. Beyond directing, Paolo Sorrentino's professional roles have included screenwriter, actor, and playwright. Paolo Sorrentino studied at University of Naples Federico II. A notable work associated with Paolo Sorrentino is Youth. This project includes 3 films by Paolo Sorrentino in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "patrick-tam-kar-ming": {
     "image": "",
     "imageAlt": "",
-    "bio": "Patrick Tam Kar-Ming is a Chinese film director and screenwriter. Patrick Tam Kar-Ming was born in British Hong Kong in 1948. Beyond directing, Patrick Tam Kar-Ming's professional roles have included film editor and screenwriter. Patrick Tam Kar-Ming studied at Wah Yan College, Hong Kong. Recognition connected with Patrick Tam Kar-Ming's career includes Hong Kong Film Award for Best Director. This project includes 2 films by Patrick Tam Kar-Ming in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Patrick Tam Kar-Ming is a Chinese film director and screenwriter. Patrick Tam Kar-Ming was born in British Hong Kong in 1948. Beyond directing, Patrick Tam Kar-Ming's professional roles have included film editor and screenwriter. Patrick Tam Kar-Ming studied at Wah Yan College, Hong Kong. Recognition connected with Patrick Tam Kar-Ming's career includes Hong Kong Film Award for Best Director. This project includes 2 films by Patrick Tam Kar-Ming in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "paul-czinner": {
@@ -3969,7 +3969,7 @@ window.DIRECTOR_INFO = {
   "radu-muntean": {
     "image": "",
     "imageAlt": "",
-    "bio": "Radu Muntean is a Romanian film director and screenwriter. Radu Muntean was born in Bucharest in 1971. Beyond directing, Radu Muntean's professional roles have included screenwriter and film screenwriter. Radu Muntean's documented field of work includes film direction. Since 1996, he has directed over 400 commercials and has won over 40 national and international awards in various advertising festivals. This project includes 1 film by Radu Muntean in the Hidden Gems cluster.",
+    "bio": "Radu Muntean is a Romanian film director and screenwriter. Radu Muntean was born in Bucharest in 1971. Beyond directing, Radu Muntean's professional roles have included screenwriter and film screenwriter. Radu Muntean's documented field of work includes film direction. Since 1996, he has directed over 400 commercials and has won over 40 national and international awards in various advertising festivals. This project includes 1 film by Radu Muntean in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "raffaello-matarazzo": {
@@ -3999,7 +3999,7 @@ window.DIRECTOR_INFO = {
   "ramin-bahrani": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ramin Bahrani is an Iranian-American director and screenwriter. Ramin Bahrani was born in Winston-Salem in 1975. Beyond directing, Ramin Bahrani's professional roles have included screenwriter. Ramin Bahrani studied at Columbia University. Recognition connected with Ramin Bahrani's career includes Guggenheim Fellowship. This project includes 2 films by Ramin Bahrani in the Hidden Gems cluster.",
+    "bio": "Ramin Bahrani is an Iranian-American director and screenwriter. Ramin Bahrani was born in Winston-Salem in 1975. Beyond directing, Ramin Bahrani's professional roles have included screenwriter. Ramin Bahrani studied at Columbia University. Recognition connected with Ramin Bahrani's career includes Guggenheim Fellowship. This project includes 2 films by Ramin Bahrani in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "ranald-macdougall": {
@@ -4023,7 +4023,7 @@ window.DIRECTOR_INFO = {
   "ray-yeung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ray Yeung is a Hong Kong filmmaker. Beyond directing, Ray Yeung's professional roles have included screenwriter. Ray Yeung studied at Columbia University School of the Arts. Yeung's films frequently center around gay stories. Ray Yeung's biographical record is closely connected with Hong Kong. This project includes 1 film by Ray Yeung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Ray Yeung is a Hong Kong filmmaker. Beyond directing, Ray Yeung's professional roles have included screenwriter. Ray Yeung studied at Columbia University School of the Arts. Yeung's films frequently center around gay stories. Ray Yeung's biographical record is closely connected with Hong Kong. This project includes 1 film by Ray Yeung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "raymond-bernard": {
@@ -4131,7 +4131,7 @@ window.DIRECTOR_INFO = {
   "ringo-lam-ling-tung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ringo Lam Ling-Tung was a Hong Kong filmmaker. Ringo Lam Ling-Tung was born in British Hong Kong in 1955 and died in 2018. Beyond directing, Ringo Lam Ling-Tung's professional roles have included screenwriter and film producer. Ringo Lam Ling-Tung studied at York University. A notable work associated with Ringo Lam Ling-Tung is City on Fire. This project includes 4 films by Ringo Lam Ling-Tung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Ringo Lam Ling-Tung was a Hong Kong filmmaker. Ringo Lam Ling-Tung was born in British Hong Kong in 1955 and died in 2018. Beyond directing, Ringo Lam Ling-Tung's professional roles have included screenwriter and film producer. Ringo Lam Ling-Tung studied at York University. A notable work associated with Ringo Lam Ling-Tung is City on Fire. This project includes 4 films by Ringo Lam Ling-Tung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "risa-bramon-garcia": {
@@ -4179,7 +4179,7 @@ window.DIRECTOR_INFO = {
   "robert-bresson": {
     "image": "",
     "imageAlt": "",
-    "bio": "Robert Bresson was a French film director. Robert Bresson was born in Bromont-Lamothe in 1901 and died in 1999. Beyond directing, Robert Bresson's professional roles have included screenwriter and painter. Robert Bresson studied at Lycée Lakanal. Recognition connected with Robert Bresson's career includes Louis Delluc Prize. This project includes 9 films by Robert Bresson across the European Art Cinema and Hidden Gems clusters.",
+    "bio": "Robert Bresson was a French film director. Robert Bresson was born in Bromont-Lamothe in 1901 and died in 1999. Beyond directing, Robert Bresson's professional roles have included screenwriter and painter. Robert Bresson studied at Lycée Lakanal. Recognition connected with Robert Bresson's career includes Louis Delluc Prize. This project includes 9 films by Robert Bresson across the European Art Cinema and Hidden Gems Mosaic clusters.",
     "credit": ""
   },
   "robert-day": {
@@ -4305,7 +4305,7 @@ window.DIRECTOR_INFO = {
   "roman-polanski": {
     "image": "",
     "imageAlt": "",
-    "bio": "Roman Polanski is a French-Polish filmmaker. Roman Polanski was born in Paris in 1933. Beyond directing, Roman Polanski's professional roles have included actor, film producer, and screenwriter. Roman Polanski studied at National Film School in Łódź. Recognition connected with Roman Polanski's career includes César Award for Best Director. This project includes 2 films by Roman Polanski across the Hidden Gems and Transatlantic Auteur Cinema clusters.",
+    "bio": "Roman Polanski is a French-Polish filmmaker. Roman Polanski was born in Paris in 1933. Beyond directing, Roman Polanski's professional roles have included actor, film producer, and screenwriter. Roman Polanski studied at National Film School in Łódź. Recognition connected with Roman Polanski's career includes César Award for Best Director. This project includes 2 films by Roman Polanski across the Hidden Gems Mosaic and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "ron-howard": {
@@ -4317,7 +4317,7 @@ window.DIRECTOR_INFO = {
   "ronald-bronstein": {
     "image": "",
     "imageAlt": "",
-    "bio": "Ronald Bronstein is an American filmmaker and actor. Ronald Bronstein was born in United States in 2000. Beyond directing, Ronald Bronstein's professional roles have included actor, film editor, and screenwriter. Ronald Bronstein has been associated with Writers Guild of America, East. A notable work associated with Ronald Bronstein is Frownland. This project includes 1 film by Ronald Bronstein in the Hidden Gems cluster.",
+    "bio": "Ronald Bronstein is an American filmmaker and actor. Ronald Bronstein was born in United States in 2000. Beyond directing, Ronald Bronstein's professional roles have included actor, film editor, and screenwriter. Ronald Bronstein has been associated with Writers Guild of America, East. A notable work associated with Ronald Bronstein is Frownland. This project includes 1 film by Ronald Bronstein in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "ronald-neame": {
@@ -4371,7 +4371,7 @@ window.DIRECTOR_INFO = {
   "sadao-yamanaka": {
     "image": "",
     "imageAlt": "",
-    "bio": "Sadao Yamanaka was a Japanese film director. Sadao Yamanaka was born in Kyoto in 1909 and died in 1938. Beyond directing, Sadao Yamanaka's professional roles have included screenwriter. Sadao Yamanaka's documented field of work includes film. His films are notable for their emphasis on character over action, and on ninjō over giri. This project includes 1 film by Sadao Yamanaka in the Hidden Gems cluster.",
+    "bio": "Sadao Yamanaka was a Japanese film director. Sadao Yamanaka was born in Kyoto in 1909 and died in 1938. Beyond directing, Sadao Yamanaka's professional roles have included screenwriter. Sadao Yamanaka's documented field of work includes film. His films are notable for their emphasis on character over action, and on ninjō over giri. This project includes 1 film by Sadao Yamanaka in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "sam-mendes": {
@@ -4395,7 +4395,7 @@ window.DIRECTOR_INFO = {
   "sammo-hung": {
     "image": "",
     "imageAlt": "",
-    "bio": "Sammo Hung is a Hong Kong actor, choreographer, martial artist and filmmaker. Sammo Hung was born in Hong Kong in 1952. Beyond directing, Sammo Hung's professional roles have included film producer, screenwriter, and actor. Recognition connected with Sammo Hung's career includes Asian Film Award for Best Supporting Actor. Sammo Hung's documented professional activity began around 1961. This project includes 4 films by Sammo Hung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Sammo Hung is a Hong Kong actor, choreographer, martial artist and filmmaker. Sammo Hung was born in Hong Kong in 1952. Beyond directing, Sammo Hung's professional roles have included film producer, screenwriter, and actor. Recognition connected with Sammo Hung's career includes Asian Film Award for Best Supporting Actor. Sammo Hung's documented professional activity began around 1961. This project includes 4 films by Sammo Hung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "samuel-fuller": {
@@ -4431,7 +4431,7 @@ window.DIRECTOR_INFO = {
   "sean-baker": {
     "image": "",
     "imageAlt": "",
-    "bio": "Sean Baker is an American film director. Sean Baker was born in Summit in 1971. Beyond directing, Sean Baker's professional roles have included screenwriter, film producer, and film editor. Sean Baker studied at New York University Tisch School of the Arts. Recognition connected with Sean Baker's career includes Academy Award for Best Writing, Original Screenplay. This project includes 2 films by Sean Baker in the Hidden Gems cluster.",
+    "bio": "Sean Baker is an American film director. Sean Baker was born in Summit in 1971. Beyond directing, Sean Baker's professional roles have included screenwriter, film producer, and film editor. Sean Baker studied at New York University Tisch School of the Arts. Recognition connected with Sean Baker's career includes Academy Award for Best Writing, Original Screenplay. This project includes 2 films by Sean Baker in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "sebastien-laudenbach": {
@@ -4455,13 +4455,13 @@ window.DIRECTOR_INFO = {
   "sergei-bondarchuk": {
     "image": "director_photos/sergei_bondarchuk.jpg",
     "imageAlt": "Portrait of Sergei Bondarchuk",
-    "bio": "Sergei Bondarchuk was a Soviet and Russian film director, screenwriter, and actor. Sergei Bondarchuk was born in Bilozerka in 1920 and died in 1994. Beyond directing, Sergei Bondarchuk's professional roles have included actor, screenwriter, and film actor. Sergei Bondarchuk studied at Gerasimov Institute of Cinematography. Recognition connected with Sergei Bondarchuk's career includes State Stalin Prize, 1st degree. This project includes 4 films by Sergei Bondarchuk in the Soviet Cinema cluster.",
+    "bio": "Sergei Bondarchuk was a Soviet and Russian film director, screenwriter, and actor. Sergei Bondarchuk was born in Bilozerka in 1920 and died in 1994. Beyond directing, Sergei Bondarchuk's professional roles have included actor, screenwriter, and film actor. Sergei Bondarchuk studied at Gerasimov Institute of Cinematography. Recognition connected with Sergei Bondarchuk's career includes State Stalin Prize, 1st degree. This project includes 4 films by Sergei Bondarchuk in the Soviet Cinema Classics cluster.",
     "credit": ""
   },
   "sergei-eisenstein": {
     "image": "director_photos/sergei_eisenstein.jpg",
     "imageAlt": "Portrait of Sergei Eisenstein",
-    "bio": "Sergei Eisenstein was a Soviet filmmaker. Sergei Eisenstein was born in Riga in 1898 and died in 1948. Beyond directing, Sergei Eisenstein's professional roles have included inventor, film editor, and screenwriter. Sergei Eisenstein studied at Saint-Petersburg State University of Architecture and Civil Engineering. A notable work associated with Sergei Eisenstein is October: Ten Days That Shook the World. This project includes 4 films by Sergei Eisenstein in the Hidden Gems cluster.",
+    "bio": "Sergei Eisenstein was a Soviet filmmaker. Sergei Eisenstein was born in Riga in 1898 and died in 1948. Beyond directing, Sergei Eisenstein's professional roles have included inventor, film editor, and screenwriter. Sergei Eisenstein studied at Saint-Petersburg State University of Architecture and Civil Engineering. A notable work associated with Sergei Eisenstein is October: Ten Days That Shook the World. This project includes 4 films by Sergei Eisenstein in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "shaka-king": {
@@ -4599,7 +4599,7 @@ window.DIRECTOR_INFO = {
   "stanley-kwan": {
     "image": "",
     "imageAlt": "",
-    "bio": "Stanley Kwan is a Hong Kong film director, producer, screenwriter, and actor. Stanley Kwan was born in British Hong Kong in 1957. Beyond directing, Stanley Kwan's professional roles have included film actor and screenwriter. Stanley Kwan studied at Hong Kong Baptist University. Recognition connected with Stanley Kwan's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Stanley Kwan in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Stanley Kwan is a Hong Kong film director, producer, screenwriter, and actor. Stanley Kwan was born in British Hong Kong in 1957. Beyond directing, Stanley Kwan's professional roles have included film actor and screenwriter. Stanley Kwan studied at Hong Kong Baptist University. Recognition connected with Stanley Kwan's career includes Hong Kong Film Award for Best Director. This project includes 3 films by Stanley Kwan in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "stephen-daldry": {
@@ -4851,7 +4851,7 @@ window.DIRECTOR_INFO = {
   "tony-ching-siu-tung": {
     "image": "director_photos/tony_ching_siu_tung.jpg",
     "imageAlt": "Portrait of Tony Ching Siu-Tung",
-    "bio": "Tony Ching Siu-Tung is a Hong Kong action choreographer and film director. Tony Ching Siu-Tung was born in Hong Kong in 1953. Beyond directing, Tony Ching Siu-Tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Tony Ching Siu-Tung's career includes Time Machine Award. Tony Ching Siu-Tung's biographical record is closely connected with People's Republic of China. This project includes 6 films by Tony Ching Siu-Tung in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Tony Ching Siu-Tung is a Hong Kong action choreographer and film director. Tony Ching Siu-Tung was born in Hong Kong in 1953. Beyond directing, Tony Ching Siu-Tung's professional roles have included action choreographer, film producer, and screenwriter. Recognition connected with Tony Ching Siu-Tung's career includes Time Machine Award. Tony Ching Siu-Tung's biographical record is closely connected with People's Republic of China. This project includes 6 films by Tony Ching Siu-Tung in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "tony-gilroy": {
@@ -4887,7 +4887,7 @@ window.DIRECTOR_INFO = {
   "tsui-hark": {
     "image": "",
     "imageAlt": "",
-    "bio": "Tsui Hark is a Hong Kong film director, screenwriter and producer. Tsui Hark was born in Ho Chi Minh City in 1951. Beyond directing, Tsui Hark's professional roles have included film producer, screenwriter, and actor. Tsui Hark studied at University of Texas at Austin. Recognition connected with Tsui Hark's career includes Hong Kong Film Award for Best Director. This project includes 1 film by Tsui Hark in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Tsui Hark is a Hong Kong film director, screenwriter and producer. Tsui Hark was born in Ho Chi Minh City in 1951. Beyond directing, Tsui Hark's professional roles have included film producer, screenwriter, and actor. Tsui Hark studied at University of Texas at Austin. Recognition connected with Tsui Hark's career includes Hong Kong Film Award for Best Director. This project includes 1 film by Tsui Hark in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "uli-edel": {
@@ -5025,7 +5025,7 @@ window.DIRECTOR_INFO = {
   "wei-shujun": {
     "image": "",
     "imageAlt": "",
-    "bio": "Wei Shujun is a director-screenwriter. Wei Shujun was born in Beijing in 1991. Beyond directing, Wei Shujun's professional roles have included screenwriter. Wei Shujun studied at Communication University of China. He is best known for his feature films Only the River Flows (2023) and Striding Into the Wind (2020). This project includes 1 film by Wei Shujun in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Wei Shujun is a director-screenwriter. Wei Shujun was born in Beijing in 1991. Beyond directing, Wei Shujun's professional roles have included screenwriter. Wei Shujun studied at Communication University of China. He is best known for his feature films Only the River Flows (2023) and Striding Into the Wind (2020). This project includes 1 film by Wei Shujun in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "wendy-toye": {
@@ -5133,7 +5133,7 @@ window.DIRECTOR_INFO = {
   "wong-kar-wai": {
     "image": "director_photos/wong_kar_wai.jpg",
     "imageAlt": "Portrait of Wong Kar Wai",
-    "bio": "Wong Kar Wai is a Chinese-born Hong Kong filmmaker. Wong Kar Wai was born in Shanghai in 1958. Beyond directing, Wong Kar Wai's professional roles have included screenwriter and film producer. Wong Kar Wai studied at Hong Kong Polytechnic University. Recognition connected with Wong Kar Wai's career includes Bronze Bauhinia Star. This project includes 7 films by Wong Kar Wai across the Hong Kong Taiwan Cinema and Transatlantic Auteur Cinema clusters.",
+    "bio": "Wong Kar Wai is a Chinese-born Hong Kong filmmaker. Wong Kar Wai was born in Shanghai in 1958. Beyond directing, Wong Kar Wai's professional roles have included screenwriter and film producer. Wong Kar Wai studied at Hong Kong Polytechnic University. Recognition connected with Wong Kar Wai's career includes Bronze Bauhinia Star. This project includes 7 films by Wong Kar Wai across the Sinophone Pacific Cinema and Transatlantic Auteur Cinema clusters.",
     "credit": ""
   },
   "woody-allen": {
@@ -5199,7 +5199,7 @@ window.DIRECTOR_INFO = {
   "yuen-woo-ping": {
     "image": "",
     "imageAlt": "",
-    "bio": "Yuen Woo-ping is a Hong Kong martial arts choreographer and film director. Yuen Woo-ping was born in Guangzhou in 1945. Beyond directing, Yuen Woo-ping's professional roles have included actor, screenwriter, and film actor. Recognition connected with Yuen Woo-ping's career includes American Choreography Awards. Yuen is also a son of Yuen Siu-tien, a martial arts film actor. This project includes 2 films by Yuen Woo-ping in the Hong Kong Taiwan Cinema cluster.",
+    "bio": "Yuen Woo-ping is a Hong Kong martial arts choreographer and film director. Yuen Woo-ping was born in Guangzhou in 1945. Beyond directing, Yuen Woo-ping's professional roles have included actor, screenwriter, and film actor. Recognition connected with Yuen Woo-ping's career includes American Choreography Awards. Yuen is also a son of Yuen Siu-tien, a martial arts film actor. This project includes 2 films by Yuen Woo-ping in the Sinophone Pacific Cinema cluster.",
     "credit": ""
   },
   "yves-allegret": {
@@ -5211,7 +5211,7 @@ window.DIRECTOR_INFO = {
   "zhang-lu": {
     "image": "",
     "imageAlt": "",
-    "bio": "Zhang Lu is a South Korean-Chinese filmmaker. Zhang Lu was born in Jilin in 1962. Beyond directing, Zhang Lu's professional roles have included screenwriter and film producer. Zhang Lu studied at Yanbian University. Recognition connected with Zhang Lu's career includes Fukuoka Asian Culture Prize. This project includes 1 film by Zhang Lu in the Hidden Gems cluster.",
+    "bio": "Zhang Lu is a South Korean-Chinese filmmaker. Zhang Lu was born in Jilin in 1962. Beyond directing, Zhang Lu's professional roles have included screenwriter and film producer. Zhang Lu studied at Yanbian University. Recognition connected with Zhang Lu's career includes Fukuoka Asian Culture Prize. This project includes 1 film by Zhang Lu in the Hidden Gems Mosaic cluster.",
     "credit": ""
   },
   "zoltan-korda": {

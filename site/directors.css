@@ -347,12 +347,21 @@
   opacity: 1;
 }
 
+/* Chart backgrounds here (BG_COLOR in src/cluster_graph_viz.py) are light
+   (#dedddc), so the leader needs a dark stroke to actually read against
+   them -- matches the pinned label boxes' own dark fill (TOOLTIP_BG). */
 .dir-svg .dh-leader {
-  stroke: #ffffff;
-  stroke-opacity: 0.55;
-  stroke-width: 1.4px;
+  stroke: #12121f;
+  stroke-opacity: 0.75;
+  stroke-width: 1.6px;
   stroke-dasharray: 3 3;
   pointer-events: none;
+}
+
+.dir-svg .dh-leader-arrowhead {
+  fill: #12121f;
+  fill-opacity: 0.85;
+  stroke: none;
 }
 
 .dir-viz-card--text .dir-viz-note {

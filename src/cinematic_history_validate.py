@@ -225,27 +225,91 @@ def check_geometry_verification(snapshot, findings):
         findings["info"]["geometry_verification"] = gv
 
 
+def check_best_picture_sync(schedule, findings):
+    """2026-08-17 restyle requirement: a Best Picture winner's poster, its
+    hex's gold border, and its hex reaching final color must all land on the
+    EXACT SAME frame. Walks the already-built schedule (not a
+    re-simulation) to prove it holds for every year that has a winner:
+    poster_hexes must be non-empty on exactly one frame per such year (the
+    trigger), and that frame must be precisely poster_active_year's own
+    first frame for that year -- if either drifts, the poster/hex-fill/
+    gold-border sync this restyle exists to fix would be broken again."""
+    frames = schedule["frames"]
+    poster_hex_frames = defaultdict(list)
+    poster_active_first_frame = {}
+    seen_active = set()
+    for i, f in enumerate(frames):
+        if f["poster_hexes"]:
+            poster_hex_frames[f["year"]].append(i)
+        active = f.get("poster_active_year")
+        if active is not None and active not in seen_active:
+            seen_active.add(active)
+            poster_active_first_frame[active] = i
+
+    for year, idxs in poster_hex_frames.items():
+        if len(idxs) != 1:
+            findings["fatal"].append(
+                f"{year}: poster_hexes non-empty on {len(idxs)} frames ({idxs}), expected exactly 1 trigger frame")
+            continue
+        trigger = idxs[0]
+        active_first = poster_active_first_frame.get(year)
+        if active_first != trigger:
+            findings["fatal"].append(
+                f"{year}: poster/gold-border trigger frame ({trigger}) != poster_active_year's own first "
+                f"frame ({active_first}) -- poster and hex-fill/gold-border are not synchronized")
+
+    findings["info"]["best_picture_years_synced"] = len(poster_hex_frames)
+
+
 def check_reveal_schedule(findings):
     """"Reeling Through the Years" restyle checks -- walks the actual built
     schedule (not just the snapshot) to prove, for every single year, that:
-      - at most cfg.TOP_N_FILMS films ever get a title card,
-      - every Top-N film's swatch color is exactly its own hex's final fill
-        (never guessed, never a cluster-average color),
-      - remaining-film hexes only ever start filling after every Top-N hex
-        for that year has already reached its final color (no overlap),
-      - no hex is ever claimed as a Top-N OR remaining hex by more than one
-        distinct film in the same year (a same-tconst catalog duplicate
+      - at most cfg.TOP_N_FILMS featured films ever get a title card,
+      - at most 2 of those are plain ranked ("most connected") rows -- the
+        3rd is always specifically that year's Best Picture winner, never a
+        4th ranked film (see cinematic_history_schedule.py's
+        select_featured_films()),
+      - none of those 2 ranked rows is a Japanese-language film (the
+        exclusion select_featured_films() is supposed to enforce -- the
+        Best Picture row itself is exempt, per spec),
+      - every featured film's swatch color is exactly its own hex's final
+        fill (never guessed, never a cluster-average color) when it has a
+        hex at all,
+      - remaining-film hexes only ever start filling after every featured
+        film's own hex for that year has already reached its final color
+        (no overlap),
+      - no hex is ever claimed as a featured OR remaining hex by more than
+        one distinct film in the same year (a same-tconst catalog duplicate
         occupying >1 of its OWN hexes is fine; two DIFFERENT tconsts on the
-        same hex is not).
+        same hex is not),
+      - poster/hex-fill/gold-border land on the exact same frame for every
+        year with a Best Picture winner (see check_best_picture_sync()).
     """
     schedule = sched.build_full_schedule()
     by_year = sched.group_events_by_year(schedule["events"])
     final_colors = schedule["final_colors"]
+    language_by_tconst = sched.load_film_languages()
+
+    from cinematic_history_posters import build_poster_index
+    bp_tconst_by_year = build_poster_index()["resolved_tconst"]
+    events_by_tconst = {e["tconst"]: e for e in schedule["events"]}
 
     for year, evs in by_year.items():
-        top, remaining = sched.select_top_and_remaining(evs)
+        bp_tconst = bp_tconst_by_year.get(year)
+        bp_event = events_by_tconst.get(bp_tconst) if bp_tconst else None
+        top, remaining = sched.select_featured_films(evs, language_by_tconst, bp_event)
         if len(top) > cfg.TOP_N_FILMS:
-            findings["fatal"].append(f"{year}: {len(top)} Top-N films, exceeds cfg.TOP_N_FILMS={cfg.TOP_N_FILMS}")
+            findings["fatal"].append(
+                f"{year}: {len(top)} featured films, exceeds cfg.TOP_N_FILMS={cfg.TOP_N_FILMS}")
+
+        non_bp = [e for e in top if not e.get("is_best_picture")]
+        if len(non_bp) > 2:
+            findings["fatal"].append(f"{year}: {len(non_bp)} non-Best-Picture featured rows, expected at most 2")
+        for e in non_bp:
+            if language_by_tconst.get(e["tconst"]) == "ja":
+                findings["fatal"].append(
+                    f"{year}: {e['tconst']} \"{e['title']}\" is Japanese-language but occupies a "
+                    f"most-connected slot (should only ever appear there via the Best Picture slot)")
 
         for e in top:
             for (q, r) in e["hexes"]:
@@ -258,7 +322,7 @@ def check_reveal_schedule(findings):
         remaining_hexes = {h for e in remaining for h in e["hexes"]}
         overlap = top_hexes & remaining_hexes
         if overlap:
-            findings["fatal"].append(f"{year}: {len(overlap)} hex(es) claimed by both a Top-N and a "
+            findings["fatal"].append(f"{year}: {len(overlap)} hex(es) claimed by both a featured and a "
                                       f"remaining film: {sorted(overlap)}")
 
         hex_owner = {}
@@ -268,6 +332,8 @@ def check_reveal_schedule(findings):
                     findings["fatal"].append(
                         f"{year}: hex {h} claimed by two different films: {hex_owner[h]} and {e['tconst']}")
                 hex_owner[h] = e["tconst"]
+
+    check_best_picture_sync(schedule, findings)
 
     findings["info"]["reveal_schedule_total_seconds"] = schedule["total_seconds"]
     findings["info"]["reveal_schedule_years_checked"] = len(by_year)

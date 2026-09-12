@@ -48,7 +48,13 @@ EDGE_CORNERS = {
 }
 
 
-DISPLAY_NAME_OVERRIDES = {}
+DISPLAY_NAME_OVERRIDES = {
+    'japanese_new_wave_genre': 'Japanese New Wave',
+    'soviet_cinema': 'Soviet Cinema Classics',
+    'hiddenGems': 'Hidden Gems Mosaic',
+    'hong_kong_taiwan_cinema': 'Sinophone Pacific Cinema',
+    'golden_age_hollywood_british': 'Golden Age Hollywood',
+}
 
 
 def display_name(cluster_id):
@@ -303,7 +309,14 @@ def build_hex_grid():
                    if nb in hex_cluster and hex_cluster.get(nb) in large_clusters
                    and cluster_remaining.get(hex_cluster[nb], 0) > 0]
         if adj_cap:
-            c = max(set(adj_cap), key=lambda c: cluster_remaining.get(c, 0))
+            # Tie-break by cluster id, not by set iteration order. A plain
+            # max(set(...)) over cluster-id STRINGS returns whichever equal-
+            # scoring id the set happened to yield first, and Python
+            # randomizes string hashing per process -- so the same data drew a
+            # different map on every run. Ties are common here (several
+            # neighbors with the same remaining count), and each one shifts
+            # the fill that follows, so this alone reshuffled the whole grid.
+            c = min(set(adj_cap), key=lambda c: (-cluster_remaining.get(c, 0), c))
         else:
             c = max((c for c in large_clusters if cluster_remaining.get(c, 0) > 0),
                     key=lambda c: cluster_remaining.get(c, 0), default=large_clusters[0])
@@ -353,7 +366,9 @@ def build_hex_grid():
                         adj = [hex_cluster.get(nb) for nb in hex_neighbors(h[0], h[1])
                                if nb in hex_set and hex_cluster.get(nb) != c]
                         adj = [a for a in adj if a]
-                        hex_cluster[h] = max(set(adj), key=adj.count) if adj else large_clusters[0]
+                        # Same deterministic tie-break as the fill loop above.
+                        hex_cluster[h] = (min(set(adj), key=lambda a: (-adj.count(a), a))
+                                          if adj else large_clusters[0])
             if any_fixed:
                 changed = True
             else:

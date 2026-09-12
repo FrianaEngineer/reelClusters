@@ -18,7 +18,7 @@ so the two visualizations always stay in sync."""
 # reuse, so it gets a new teal not used elsewhere in this map.
 COLOR_MAP = {
     'hiddenGems':                    '#FFFFFF',
-    'modern_american_cinema':        '#F4A261',
+    'modern_american_cinema':        '#8D6E63',
     'european_art_cinema':           '#7B1E3A',
     'golden_age_hollywood_british':  '#457B9D',
     'classic_japanese_cinema':       '#1D3557',
@@ -26,7 +26,7 @@ COLOR_MAP = {
     'hong_kong_taiwan_cinema':       '#E63946',
     'scandinavian_bergman_circle':   '#5E6472',
     'czech_new_wave':                '#B56576',
-    'silent_era_comedy':             '#8D6E63',
+    'silent_era_comedy':             '#F4A261',
     'soviet_cinema':                 '#9D0208',
     'satyajit_ray_indian':           '#F77F00',
 }
@@ -40,7 +40,7 @@ COLOR_MAP = {
 # darken() here -- both values are fixed as given.
 NODE_FILL_MAP = {
     'hiddenGems':                    {'color': '#FFFFFF', 'bw': '#A5A5A5'},
-    'modern_american_cinema':        {'color': '#F4A261', 'bw': '#9E693F'},
+    'modern_american_cinema':        {'color': '#B5A19A', 'bw': '#5B4740'},
     'european_art_cinema':           {'color': '#9c5268', 'bw': '#4F1325'},
     'golden_age_hollywood_british':  {'color': '#93b7cf', 'bw': '#2C4F66'},
     'classic_japanese_cinema':       {'color': '#6a8ab8', 'bw': '#122238'},
@@ -48,7 +48,11 @@ NODE_FILL_MAP = {
     'hong_kong_taiwan_cinema':       {'color': '#E63946', 'bw': '#95252D'},
     'scandinavian_bergman_circle':   {'color': '#8a8e99', 'bw': '#3D414A'},
     'czech_new_wave':                {'color': '#B56576', 'bw': '#75414C'},
-    'silent_era_comedy':             {'color': '#8D6E63', 'bw': '#5B4740'},
+    # Silent-era comedies are, in practice, all black-and-white (see hex
+    # mosaic: every hex in this cluster already renders at the bw shade) --
+    # color/bw are set to the same single orangeish tone rather than a
+    # bright/dark pair, since there's no "color film" case to contrast against.
+    'silent_era_comedy':             {'color': '#9E693F', 'bw': '#9E693F'},
     'soviet_cinema':                 {'color': '#c74c50', 'bw': '#660105'},
     'satyajit_ray_indian':           {'color': '#F77F00', 'bw': '#A05200'},
 }

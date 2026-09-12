@@ -13,7 +13,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 from cluster_colors import NODE_FILL_MAP, contrast_text_color
-from hex_svg import load_film_color
+from hex_svg import load_film_color, load_best_picture_winners, BEST_PICTURE_BORDER_COLOR
 
 DB_PATH = Path(__file__).parent.parent / "db" / "criterion_graph.duckdb"
 OUT_DIR = Path(__file__).parent.parent / "output"
@@ -201,6 +201,7 @@ def build_svg(cluster_id, films, edges):
     info   = {row.imdb_tconst: (row.title, int(row.criterion_year)) for row in films.itertuples()}
     node_fill = NODE_FILL_MAP.get(cluster_id, {"color": "#888888", "bw": "#666666"})
     film_is_color = load_film_color()
+    best_picture_winners = load_best_picture_winners()
     bg_color   = BG_COLOR
     text_color = contrast_text_color(bg_color)
     edge_color = "#000000"
@@ -262,17 +263,38 @@ def build_svg(cluster_id, films, edges):
         # uses), independent of cluster_colors.COLOR_MAP/explore.html.
         fill = node_fill["color"] if film_is_color.get(n) else node_fill["bw"]
 
+        # Best Picture winners get a gold border instead of no border --
+        # same gold used for the explore.html hex mosaic (see hex_svg.py).
+        # Has to be a `style=` attribute, not a `stroke=`/`stroke-width=`
+        # presentation attribute: the .node class rule in the <style> block
+        # below sets stroke/stroke-width for every node, and a CSS class rule
+        # always beats a presentation attribute in the cascade, so a plain
+        # stroke="..." attribute here would be silently overridden by it.
+        # A stroke straddles its path -- half draws inward over the fill,
+        # half outward -- so a thick gold stroke at the node's normal radius
+        # visibly eats into the fill and reads as a smaller node. Drawing the
+        # polygon itself half a stroke-width larger keeps the fill's visible
+        # edge at the same radius as every other node, with the gold ring
+        # added purely outward instead of carved out of the fill.
+        if n in best_picture_winners:
+            border_width = max(0.8, node_r * 0.25)
+            border_attr = f' style="stroke:{BEST_PICTURE_BORDER_COLOR}; stroke-width:{border_width:.2f};"'
+            point_r = node_r + border_width / 2
+        else:
+            border_attr = ''
+            point_r = node_r
+
         # id has to live on the <a>, not the polygon, when a link is present:
         # the hover-tooltip rule below is a sibling selector (#node:hover ~
         # #tooltip) that needs the id'd element to still be a direct sibling
         # of the tooltip <g> -- nesting the polygon one level deeper inside
         # <a> would break that. Same fix as cluster_ring_viz.py.
-        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, node_r)}" fill="{fill}"/>'
+        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, point_r)}" fill="{fill}"{border_attr}/>'
         link = CRITERION_LINKS.get(title)
         if link:
             node_svg = f'<a id="{node_id}" href="{esc(link)}" target="_blank" rel="noopener">{polygon}</a>'
         else:
-            node_svg = f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, node_r)}" fill="{fill}"/>'
+            node_svg = f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, point_r)}" fill="{fill}"{border_attr}/>'
         node_svgs.append(node_svg)
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '

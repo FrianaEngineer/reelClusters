@@ -17,6 +17,7 @@ from hex_grid import build_hex_grid, axial_to_pixel, hex_corners, EDGE_CORNERS, 
 
 OUT_PATH = Path(__file__).parent.parent / "site" / "hex_grid.svg"
 FILM_COLOR_CSV = Path(__file__).parent.parent / "data" / "film_color.csv"
+BEST_PICTURE_WINNERS_CSV = Path(__file__).parent.parent / "data" / "best_picture_winners.csv"
 
 HEX_SIZE = 1.0
 GAP      = 0.95
@@ -60,6 +61,16 @@ def load_film_color():
     return is_color
 
 
+def load_best_picture_winners():
+    winners = set()
+    if not BEST_PICTURE_WINNERS_CSV.exists():
+        return winners
+    with BEST_PICTURE_WINNERS_CSV.open(newline="") as f:
+        for row in csv.DictReader(f):
+            winners.add(row["imdb_tconst"])
+    return winners
+
+
 def esc(s):
     return escape(str(s))
 
@@ -68,8 +79,19 @@ def page_href(cluster_id):
     return f"clusters/{cluster_id}.html"
 
 
-def build_svg():
-    grid              = build_hex_grid()
+def build_svg(grid=None, labels=None):
+    """grid: an optional prebuilt HexGrid. Default (None) computes the layout
+    fresh from the current data. src/snapshot_grid.py passes one built from
+    the video's frozen layout snapshot instead, so site/explore.html can show
+    the same map the video animates -- see build_site.py's build_explore().
+
+    labels: an optional {cluster_id: (x, y, fontsize, [line, ...])} in the
+    same y-up data frame as the hex centers, x/y being the label block's
+    center. Given one, that cluster's label is placed and sized verbatim
+    instead of being re-fitted -- which is what the snapshot path wants,
+    since fit_label's sizing keys off cluster film counts that have since
+    changed, and would otherwise shrink labels the video shows at full size."""
+    grid              = grid if grid is not None else build_hex_grid()
     grid_hexes        = grid.grid_hexes
     hex_cluster       = grid.hex_cluster
     hex_set           = grid.hex_set
@@ -79,6 +101,7 @@ def build_svg():
     hex_film          = grid.hex_film
     hidden_gems_outer = grid.hidden_gems_outer
     film_is_color  = load_film_color()
+    best_picture_winners = load_best_picture_winners()
 
     # All geometry below is computed in the SAME (matplotlib-style, y-up)
     # frame hex_viz.py uses. `flip` is applied only at the very end, to each
@@ -205,6 +228,23 @@ def build_svg():
                 break
         return fsize, lines
 
+
+    # Every hex gets a plain black border. A film's color/black-and-white status
+    # (see build_film_color.py) instead tints the fill: black-and-white (or
+    # unresolved -- deliberately treated the same as black-and-white, so an
+    # unknown film never gets a false "in color" look) renders as a darker shade
+    # of its cluster's color; confirmed-color films render at the cluster's
+    # normal color.
+    HEX_BORDER      = "#000000"
+    BW_DARKEN_FACTOR = 0.65   # multiply each RGB channel by this for black-and-white films
+
+    # A Best Picture winner's hex gets a gold border instead of the plain black
+    # one -- same color/treatment as the "golden poster-hex border" already used
+    # for this exact concept in the Reeling Through the Years video (see
+    # POSTER_HEX_BORDER_COLOR in cinematic_history_config.py).
+    BEST_PICTURE_BORDER_COLOR = "#d4af37"
+    BEST_PICTURE_BORDER_WIDTH = 0.22
+
     # Grid's vertical midpoint in the ORIGINAL frame (matches hex_viz.py),
     # used to place the hiddenGems label on the middle of whichever border
     # band it sits on.
@@ -268,6 +308,7 @@ def build_svg():
     # safety check succeed on the first try instead of overshooting down to
     # the next coarse rung. No change to fit_label itself, so no other
     # cluster's size is affected.
+
     IDEAL_FSIZE_OVERRIDES = {
         'japanese_new_wave_genre': 1.478,
     }
@@ -336,7 +377,10 @@ def build_svg():
         ideal_fsize = fsize_cache.get(MATCH_FONT_SIZE.get(c), font_size_for(c))
         ideal_fsize = IDEAL_FSIZE_OVERRIDES.get(c, ideal_fsize)
         min_fsize = FSIZE_FLOOR_OVERRIDES.get(c, MIN_LABEL_FSIZE)
-        fsize, lines = fit_label(pixels, lx, ly, ideal_fsize, display_name(c), min_fsize=min_fsize)
+        if labels and c in labels:
+            lx, ly, fsize, lines = labels[c]
+        else:
+            fsize, lines = fit_label(pixels, lx, ly, ideal_fsize, display_name(c), min_fsize=min_fsize)
         label_info[c] = (*flip((lx, ly)), fsize, lines)
 
         svg.append(f'<a href="{esc(page_href(c))}">')
@@ -345,6 +389,7 @@ def build_svg():
             cx, cy  = axial_to_pixel(h[0], h[1], HEX_SIZE)          # original frame
             corners = [flip(p) for p in hex_corners(cx, cy, HEX_SIZE * GAP)]
             pts = " ".join(f"{px:.2f},{py:.2f}" for px, py in corners)
+            tconst = hex_film.get(h)
             if c == 'hiddenGems':
                 # Position-based, not film-based: the outer ring (the grid's
                 # true edge) is white, the inner ring one hex-step in is the
@@ -354,10 +399,13 @@ def build_svg():
                 # cleanly instead of mixing white/grey by film metadata.
                 hex_fill = fill if h in hidden_gems_outer else darken(fill)
             else:
-                tconst = hex_film.get(h)
                 hex_fill = fill if film_is_color.get(tconst) else darken(fill)
+            if tconst in best_picture_winners:
+                border, border_width = BEST_PICTURE_BORDER_COLOR, BEST_PICTURE_BORDER_WIDTH
+            else:
+                border, border_width = HEX_BORDER, 0.07
             svg.append(f'<polygon class="hex" points="{pts}" fill="{hex_fill}" '
-                       f'stroke="{HEX_BORDER}" stroke-width="0.07"/>')
+                       f'stroke="{border}" stroke-width="{border_width}"/>')
         svg.append('</g>')
         svg.append('</a>')
 

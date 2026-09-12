@@ -24,6 +24,7 @@ Never calls build_hex_grid() and never writes to any file outside this
 project's own outputs/.
 """
 
+import csv
 import json
 import sys
 from collections import Counter, defaultdict
@@ -123,6 +124,27 @@ def load_connections(tconsts):
     con.close()
     by_tconst = dict(zip(df["imdb_tconst"], df["connections"]))
     return {t: int(by_tconst.get(t, 0)) for t in tconsts}
+
+
+FILM_LANGUAGE_CSV_PATH = cfg.REPO_ROOT / "data" / "film_language.csv"
+
+
+def load_film_languages():
+    """tconst -> ISO 639-1 original_language code (e.g. "ja"), from
+    data/film_language.csv (TMDB-sourced, built by fetch_film_languages.py).
+    A tconst missing from this file (~7% of films, per its own coverage)
+    has no entry -- callers must treat "not in this dict" as "unknown, so
+    not excluded" rather than as a language, since there's no positive
+    evidence it's Japanese."""
+    languages = {}
+    if not FILM_LANGUAGE_CSV_PATH.exists():
+        return languages
+    with FILM_LANGUAGE_CSV_PATH.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            lang = row.get("original_language")
+            if row.get("imdb_tconst") and lang:
+                languages[row["imdb_tconst"]] = lang
+    return languages
 
 
 def display_country(country):
@@ -229,15 +251,38 @@ def _rank_key(e):
     return (-e["connections"], e["tconst"])
 
 
-def select_top_and_remaining(events_for_year):
-    """-> (top, remaining), both lists of event dicts. `top` is capped at
-    cfg.TOP_N_FILMS, ranked by connections desc (ties broken by tconst for
-    determinism) -- the "Most Connected Films" of that year. `remaining` is
-    every other film from that year, in the same rank order (their
-    on-screen order doesn't matter -- they never get a title card -- but a
-    stable, deterministic order matters for reproducibility)."""
-    ranked = sorted(events_for_year, key=_rank_key)
-    return ranked[:cfg.TOP_N_FILMS], ranked[cfg.TOP_N_FILMS:]
+def select_featured_films(events_for_year, language_by_tconst, bp_event):
+    """-> (top_display, remaining).
+
+    top_display is up to 3 event dicts, each carrying is_best_picture:
+      1-2: the top-2 films by connections desc (ties broken by tconst),
+           EXCLUDING original_language == "ja" -- a tconst with no language
+           data at all is treated as not-Japanese (no positive evidence
+           either way; see load_film_languages()).
+      3:   that year's Academy Award Best Picture winner (bp_event), if one
+           exists for this year -- unconditionally, even if it's Japanese,
+           and even if it's ALSO one of slots 1-2 (shown a second time,
+           labeled, rather than promoting a 4th film into its place -- the
+           two rankings answer different questions and this project's own
+           spec calls for exactly that duplication when they overlap).
+    A year with no non-Japanese films at all, or no Best Picture winner,
+    simply shows fewer than 3 rows -- no invented data, consistent with
+    every other thin-year handling in this module.
+
+    remaining is every other film from that year (not chosen for top_display,
+    by tconst -- so an overlapping Best Picture winner's hex is never
+    double-scheduled), in rank order for deterministic reproducibility."""
+    non_japanese = [e for e in events_for_year if language_by_tconst.get(e["tconst"]) != "ja"]
+    ranked = sorted(non_japanese, key=_rank_key)
+    top2 = ranked[:2]
+
+    top_display = [dict(e, is_best_picture=False) for e in top2]
+    if bp_event is not None:
+        top_display.append(dict(bp_event, is_best_picture=True))
+
+    chosen = {e["tconst"] for e in top_display}
+    remaining = sorted((e for e in events_for_year if e["tconst"] not in chosen), key=_rank_key)
+    return top_display, remaining
 
 
 def heading_for_year(year):
@@ -284,38 +329,84 @@ def build_full_schedule():
       - year: the active year (or None during the title card)
       - color_diffs: {(q, r): new_fill_color} for hexes that change color on
         this exact frame (empty dict on every other frame)
-      - heading: the right-panel heading text for this frame ("Top 5 Films
-        of 1962", always "Top 5" even for a thin early year with fewer than
-        5 real films -- see heading_for_year() -- / None for an empty year
-        or outside the main phase)
-      - rows: up to cfg.TOP_N_FILMS dicts, one per Top-N film revealed so
-        far THIS YEAR (title, credit_line, swatch_color, alpha) -- the
-        currently-entering row fades in over cfg.ITEM_FADE_IN_SECONDS
-        (imported lazily below to avoid a hard dependency loop), every
-        earlier row for the same year stays fully visible (alpha=1) per
-        spec ("previously revealed films... should remain visible"). The
-        list resets (a clean cut, matching the year-number's own instant
-        change) the moment the active year changes.
+      - heading: the right-panel heading text for this frame ("Most
+        Connected Films", regardless of how many real films that year has
+        -- see heading_for_year() -- / None for an empty year or outside
+        the main phase)
+      - rows: up to 3 dicts, one per featured film revealed so far THIS
+        YEAR (title, director, country, connections, swatch_color,
+        is_best_picture, alpha) -- see select_featured_films(): rows 1-2
+        are that year's top-2 by connections excluding Japanese-language
+        films, row 3 (is_best_picture=True) is that year's Academy Award
+        Best Picture winner, if any. The currently-entering row fades in
+        over cfg.ITEM_FADE_IN_SECONDS, every earlier row for the same year
+        stays fully visible (alpha=1) per spec. The list resets (a clean
+        cut, matching the year-number's own instant change) the moment the
+        active year changes.
+      - poster_hexes: hex(es) that newly earn the golden poster-hex border
+        on THIS EXACT frame (empty on every other frame) -- always the
+        Best Picture winner row's own hex(es), fired at the identical frame
+        that row's hex(es) finish popping to final color (or, if that
+        winner has no hex placement on the grid at all, the frame its
+        reveal would have completed) so poster/hex-fill/gold-border can
+        never drift apart. See cinematic_history_animation.py's update().
+      - poster_active_year: the year whose Best Picture poster should be
+        on screen as of this frame -- sticky, and set on the FIRST frame of
+        each year that has a winner (the same frame that year's heading
+        appears), then held through any following winner-less years. None
+        until the first winner's year begins. Note this is deliberately
+        NOT the same trigger as poster_hexes above: the poster and
+        clapperboard come up with the year, the gold border waits for the
+        hex it marks.
     """
     snapshot = load_snapshot()
-    all_tconsts = sorted({h["tconst"] for h in snapshot["hexes"] if h["tconst"]})
+    placed_tconsts = {h["tconst"] for h in snapshot["hexes"] if h["tconst"]}
+
+    # Best Picture winner poster index. Import kept local to this function:
+    # cinematic_history_posters.py has no dependency back on this module, so
+    # this isn't a real import cycle, but every other module-level import in
+    # this file is a hard dependency of the whole module -- this one is only
+    # needed inside schedule-building. Needed BEFORE the metadata/connections
+    # load below, so a winner with no hex placement on the grid (see
+    # APPROVED_UNPLACED_FILMS in cinematic_history_validate.py) still gets
+    # real director/country/connections data for its own dedicated row.
+    from cinematic_history_posters import build_poster_index
+    bp_tconst_by_year = build_poster_index()["resolved_tconst"]
+
+    all_tconsts = sorted(placed_tconsts | set(bp_tconst_by_year.values()))
     meta = load_metadata(all_tconsts)
     connections = load_connections(all_tconsts)
+    language_by_tconst = load_film_languages()
     events = build_reveal_events(snapshot, meta, connections)
     by_year = group_events_by_year(events)
+    events_by_tconst = {e["tconst"]: e for e in events}
     final_colors = final_color_for_hex(snapshot)
     fps = cfg.FPS
 
-    # Yearly poster -> exact hex(es) for that poster's own film, for the
-    # golden poster-hex border (cinematic_history_animation.py). Import kept
-    # local to this function: cinematic_history_posters.py has no
-    # dependency back on this module, so this isn't a real import cycle, but
-    # every other module-level import in this file is a hard dependency of
-    # the whole module -- this one is only needed inside schedule-building.
-    from cinematic_history_posters import build_poster_index
-    poster_tconst_by_year = build_poster_index()["resolved_tconst"]
-    tconst_hexes = hexes_by_tconst(snapshot)
-    poster_hexes_by_year = {y: tuple(tconst_hexes.get(t, [])) for y, t in poster_tconst_by_year.items()}
+    def bp_event_for_year(year):
+        """That year's Best Picture winner as a full event dict (see
+        build_reveal_events()'s own shape), or None if this year has no
+        Best Picture match. A winner not placed on the hex grid still gets
+        a real title/director/country/connections row -- just hexes=() --
+        rather than being silently dropped (see module docstring above)."""
+        tconst = bp_tconst_by_year.get(year)
+        if tconst is None:
+            return None
+        placed = events_by_tconst.get(tconst)
+        if placed is not None:
+            return placed
+        row = meta.get(tconst)
+        if row is None or row["criterion_year"] is None:
+            return None
+        conn = connections.get(tconst, 0)
+        return dict(
+            tconst=tconst, title=row["title"], director=row["criterion_director"],
+            country=row["criterion_country"], connections=conn,
+            credit_line=format_credit_line(row["criterion_director"], row["criterion_country"], conn),
+            year=int(row["criterion_year"]), rating=row["imdb_rating"], votes=row["num_votes"], hexes=[],
+        )
+
+    bp_event_by_year = {y: bp_event_for_year(y) for y in range(cfg.START_YEAR, cfg.END_YEAR + 1)}
 
     # Completed-cluster tracking: a cluster's title only ever appears once
     # EVERY hex belonging to it -- event hexes and ambient (no-film) hexes
@@ -348,10 +439,11 @@ def build_full_schedule():
     year_frame_counts = {}
     for year in range(cfg.START_YEAR, cfg.END_YEAR + 1):
         evs = by_year.get(year, [])
-        if not evs:
+        bp_event = bp_event_by_year.get(year)
+        if not evs and bp_event is None:
             year_frame_counts[year] = empty_year_frames
             continue
-        top, remaining = select_top_and_remaining(evs)
+        top, remaining = select_featured_films(evs, language_by_tconst, bp_event)
         top_frames_total = len(top) * interval_frames
         remain_frames_total = round(remaining_fill_seconds(len(remaining)) * fps)
         year_frame_counts[year] = top_frames_total + remain_frames_total
@@ -372,7 +464,8 @@ def build_full_schedule():
     # not precede "the opening frame has nothing revealed yet."
     title_frames = round(cfg.TITLE_CARD_SECONDS * fps)
     for i in range(title_frames):
-        frames.append(dict(phase="title", year=None, heading=None, rows=[], poster_hexes=(), color_diffs={}))
+        frames.append(dict(phase="title", year=None, heading=None, rows=[], poster_hexes=(),
+                            poster_active_year=None, color_diffs={}))
 
     for q, r, _ in ambient:
         note_reveal(q, r, title_frames)
@@ -395,26 +488,44 @@ def build_full_schedule():
 
     empty_row = lambda: dict(title="", credit_line="", swatch_color=None, alpha=0.0)  # noqa: E731
 
+    # Sticky Best Picture poster state: which year's winner is currently on
+    # screen. Set exactly once per winner, on the first frame of that
+    # winner's own year -- never reset, and never advanced to a year that has
+    # no winner, so the last winner stays up through the years between.
+    # See build_full_schedule()'s own docstring for the poster_active_year/
+    # poster_hexes frame fields.
+    current_poster_year = [None]
+
     for year in range(cfg.START_YEAR, cfg.END_YEAR + 1):
-        poster_hexes = poster_hexes_by_year.get(year, ())
         evs = by_year.get(year, [])
-        if not evs:
+        bp_event = bp_event_by_year.get(year)
+        if not evs and bp_event is None:
             for _ in range(empty_year_frames):
                 append_frame(dict(phase="main", year=year, heading=None, rows=[], color_diffs={},
-                                   poster_hexes=poster_hexes))
+                                   poster_hexes=(), poster_active_year=current_poster_year[0]))
             continue
 
-        top, remaining = select_top_and_remaining(evs)
+        top, remaining = select_featured_films(evs, language_by_tconst, bp_event)
         heading = heading_for_year(year)
+
+        # Poster + clapperboard land on the FIRST frame of a year that has a
+        # Best Picture winner -- the same frame its year heading appears --
+        # rather than waiting for the winner's own row to finish revealing
+        # partway through the year. The golden hex border below still waits
+        # for that reveal, since it marks the hex itself.
+        if any(e.get("is_best_picture") for e in top):
+            current_poster_year[0] = year
         n_top = len(top)
         top_frames_total = n_top * interval_frames
         remain_seconds = remaining_fill_seconds(len(remaining))
         remain_frames_total = round(remain_seconds * fps)
 
-        # Precompute each Top-N film's swatch color once (first hex's final
-        # fill -- the exact color that hex ends up on the graph).
+        # Precompute each featured film's swatch color once (first hex's
+        # final fill -- the exact color that hex ends up on the graph). A
+        # Best Picture winner with no hex placement (hexes=()) has no
+        # swatch color of its own to show -- None, handled by the renderer.
         for e in top:
-            e["swatch_color"] = final_colors[e["hexes"][0]]
+            e["swatch_color"] = final_colors[e["hexes"][0]] if e["hexes"] else None
 
         # Each remaining film's own pop-in window, clamped so it can never
         # run past this year's own remaining-fill budget: with many remaining
@@ -439,6 +550,7 @@ def build_full_schedule():
             color_diffs = {}
             rows = list(revealed_rows)
             this_frame_idx = len(frames)
+            frame_poster_hexes = ()
 
             if f < top_frames_total:
                 idx = f // interval_frames
@@ -455,10 +567,19 @@ def build_full_schedule():
                         else:
                             color_diffs[(q, r)] = blend(cfg.BACKGROUND_COLOR, final_colors[(q, r)], t)
 
+                    # Golden hex border: lands on the EXACT frame this row's
+                    # own reveal completes -- the same frame its hex(es) reach
+                    # final color -- because it is a marking ON that hex. The
+                    # poster and clapperboard no longer wait for this moment;
+                    # they come up with the year heading instead (see above).
+                    if cur.get("is_best_picture") and t >= 1.0:
+                        frame_poster_hexes = tuple(cur["hexes"])
+
                 alpha = clamp((t_in_slot + 1) / fade_in_frames, 0.0, 1.0)
                 row_fields = dict(title=cur["title"], credit_line=cur["credit_line"],
                                    director=cur["director"], country=display_country(cur["country"]),
-                                   connections=cur["connections"], swatch_color=cur["swatch_color"])
+                                   connections=cur["connections"], swatch_color=cur["swatch_color"],
+                                   is_best_picture=cur.get("is_best_picture", False))
                 rows = rows + [dict(**row_fields, alpha=alpha)]
                 if t_in_slot == interval_frames - 1:
                     # This row is now permanently settled for the rest of the year.
@@ -481,17 +602,16 @@ def build_full_schedule():
                                 color_diffs[(q, r)] = blend(cfg.BACKGROUND_COLOR, final_colors[(q, r)], t)
 
             append_frame(dict(phase="main", year=year, heading=heading, rows=rows, color_diffs=color_diffs,
-                               poster_hexes=poster_hexes))
+                               poster_hexes=frame_poster_hexes, poster_active_year=current_poster_year[0]))
 
     hold_start_frame = len(frames)
     hold_frames_total = round(cfg.FINAL_HOLD_SECONDS * fps)
     last_year = cfg.END_YEAR
-    final_rows = revealed_rows if by_year.get(cfg.END_YEAR) else []
-    final_heading = heading_for_year(last_year) if by_year.get(last_year) else None
-    final_poster_hexes = poster_hexes_by_year.get(last_year, ())
+    final_rows = revealed_rows if (by_year.get(cfg.END_YEAR) or bp_event_by_year.get(cfg.END_YEAR)) else []
+    final_heading = heading_for_year(last_year) if (by_year.get(last_year) or bp_event_by_year.get(last_year)) else None
     for i in range(hold_frames_total):
         append_frame(dict(phase="hold", year=last_year, heading=final_heading, rows=final_rows, color_diffs={},
-                           poster_hexes=final_poster_hexes))
+                           poster_hexes=(), poster_active_year=current_poster_year[0]))
 
     # Any cluster whose last hex only ever reaches its final color via a
     # blend() step that never quite hits t>=1.0 due to float rounding would

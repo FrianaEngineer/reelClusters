@@ -158,8 +158,14 @@ BACKGROUND_COLOR = "#b8b9ba"
 # made thicker so the graph's silhouette stays the strongest line in the
 # frame -- a clearer light/dark, thin/thick contrast between "inside" and
 # "edge of the whole graph" than the old uniform-black-everywhere styling.
-HEX_STROKE_COLOR = "#6b6b6b"
-HEX_STROKE_WIDTH_PX = 1.0        # interior hex lines -- thinner and lighter than before (was 2.5px, #000000)
+# 2026-08-19: darkened again (#6b6b6b -> #454545, 1.0 -> 1.3px) -- the
+# original gray nearly disappeared against Modern American Cinema's own
+# muted brown/gray fill, leaving that cluster's individual hexes almost
+# unreadable. #454545 keeps a clear gap below the cluster-boundary lines'
+# pure black (see CLUSTER_BOUNDARY_COLOR) so the two line systems (hex edge
+# vs cluster edge) still read as distinct, not just by width.
+HEX_STROKE_COLOR = "#454545"
+HEX_STROKE_WIDTH_PX = 1.3        # interior hex lines
 OUTER_BORDER_COLOR = "#000000"
 OUTER_BORDER_WIDTH_PX = 7.0      # outer perimeter only -- thicker and more defined than before (was 5.0px)
 
@@ -203,9 +209,16 @@ TITLE_CARD_SUBTITLE_COLOR = "#333333"
 MAIN_TITLE_TEXT = "Reeling Through the Years: Mapping Cinematic History"
 MAIN_TITLE_FONTSIZE_PX = 34
 MAIN_TITLE_COLOR = "#111111"
-TOP_HEADER_FRAC = 0.115   # fraction of total frame HEIGHT reserved for the header strip
+# 2026-08-17: grown from 0.115 to make room for the film-reel year display
+# (top-right corner) above the title without crowding either -- the title
+# no longer sits at this band's vertical CENTER (see MAIN_TITLE_Y_ABOVE_
+# HEADER_BOTTOM_FRAC below), it stays close to its old absolute position
+# near the graph, and the reel occupies the newly added space above it.
+TOP_HEADER_FRAC = 0.19   # fraction of total frame HEIGHT reserved for the header strip
+MAIN_TITLE_Y_ABOVE_HEADER_BOTTOM_FRAC = 0.058   # matches the title's pre-reel position (was TOP_HEADER_FRAC/2 of the old, shorter band)
 
-# ── Cluster boundary + completed-cluster labels (2026-08-08 restyle) ───────
+# ── Cluster boundary + cluster labels (2026-08-08 restyle; labels always-on
+# ── from 0:00 as of 2026-08-17) ─────────────────────────────────────────────
 # explore.html itself only separates adjacent clusters with a thin
 # background-colored gap (see hex_svg.py's boundary_segs, stroke=page
 # background) -- this project draws that same adjacency as a genuine black
@@ -217,16 +230,39 @@ CLUSTER_BOUNDARY_WIDTH_PX = 2.2
 # NOT restyled here -- they're read verbatim off explore.html's own <text>
 # markup by cinematic_history_layout_snapshot.py (cluster_labels in the
 # snapshot), this project only supplies the two CSS colors those "on-dark"/
-# "on-light" classes resolve to and a fade-in duration for when a label
-# first appears.
+# "on-light" classes resolve to. Per spec, every cluster name is visible in
+# its permanent position from frame 1 -- no fade-in delay anymore.
 CLUSTER_LABEL_ON_DARK_COLOR = "#ffffff"
 CLUSTER_LABEL_ON_LIGHT_COLOR = "#000000"
 CLUSTER_LABEL_STROKE_COLOR = "#000000"
-CLUSTER_LABEL_FADE_IN_SECONDS = 0.6
+
+# Per-cluster multiplier on the snapshot's own font-size, for the video only
+# -- explore.html's hex mosaic is untouched. explore.html sizes every label
+# with a shrink-to-fit pass that stops at the first size that clears the
+# cluster's hexes; on a 1920x1080 frame a few of those land smaller than they
+# need to be. Each value below is the largest multiple of the snapshot size
+# whose rendered text still sits entirely on its OWN cluster's hexes,
+# measured from real matplotlib text extents against the frozen snapshot by
+# src/cinematic_history_label_fit.py -- re-run it if the snapshot changes.
+CLUSTER_LABEL_SCALE = {
+    'soviet_cinema':                1.36,   # snapshot 1.00 -> 1.36 data units
+    'classic_japanese_cinema':      1.75,   # snapshot 1.34 -> 2.35
+    'golden_age_hollywood_british': 1.37,   # snapshot 1.47 -> 2.01
+}
 
 # ── Golden poster-hex border (2026-08-08 restyle) ───────────────────────────
 POSTER_HEX_BORDER_COLOR = "#d4af37"
 POSTER_HEX_BORDER_WIDTH_PX = 4.5
+
+# ── Best Picture winner row label (2026-08-17 restyle) ─────────────────────
+# The 3rd featured-film row each year (when that year has a match) is always
+# that year's Academy Award Best Picture winner -- see cinematic_history_
+# schedule.py's select_featured_films(). Its own swatch/small-hex reuses
+# POSTER_HEX_BORDER_COLOR above instead of the plain black outline every
+# other row's swatch gets.
+BEST_PICTURE_LABEL_TEXT = "ACADEMY AWARD BEST PICTURE WINNER"
+BEST_PICTURE_LABEL_FONTSIZE_PX = 13   # 2026-08-19: enlarged (was 11), per feedback
+BEST_PICTURE_LABEL_COLOR = "#8a6d1a"   # a darker gold -- reads clearly as text at small size, same hue family as the border
 
 # ── Right-panel heading (2026-08-08 "Most Connected Films" restyle) ────────
 # Static -- no longer "Top N Films of [YEAR]" (the year already appears
@@ -259,11 +295,80 @@ YEAR_HEADING_FADE_SECONDS = 0.35   # year number + "Most Connected Films" headin
 ROW_FADE_OUT_SECONDS = 0.35        # right-panel film rows, fading out ahead of a year change
 POSTER_FADE_SECONDS = 0.45         # poster dips through the background on a year's poster changing
 
-# ── Yearly posters ─────────────────────────────────────────────────────────
+# ── Yearly posters (Best Picture winners) ───────────────────────────────────
 # Read-only source directory in the sibling ReelWrangling repo -- per spec,
 # posters are used only from there, never copied/downloaded/renamed.
 POSTER_SOURCE_DIR = REPO_ROOT.parent / "ReelWrangling" / "data" / "posters"
-POSTER_START_YEAR = 1929
+# Fallback only -- cinematic_history_posters.py's build_poster_index() keys
+# posters by each film's own criterion_year and derives the real start year
+# from that (currently 1927, *Wings*) rather than trusting this constant;
+# kept as the value to fall back to if somehow nothing resolves at all.
+POSTER_START_YEAR = 1927
+
+# ── Period fonts (2026-08-17 restyle) ───────────────────────────────────────
+# A restrained, readable font per ~20-year cinematic period, applied only to
+# the film title lines and the big year number (the two most prominent text
+# elements) -- headings/credit lines/cluster labels/clapperboard text stay in
+# matplotlib's default bold sans throughout for guaranteed legibility at
+# small sizes, per spec ("readability over decorative accuracy"). Bundled as
+# static Bold TTFs (Google Fonts, OFL-licensed, instantiated from each
+# family's variable font at wght=700) under assets/fonts/ rather than relying
+# on the render machine having them installed system-wide.
+FONTS_DIR = REPO_ROOT / "assets" / "fonts"
+PERIOD_FONTS = [
+    # (start_year, end_year, family_name, ttf_filename)
+    (1913, 1939, "Libre Baskerville", "LibreBaskerville-Bold.ttf"),
+    (1940, 1959, "Lora", "Lora-Bold.ttf"),
+    (1960, 1979, "Oswald", "Oswald-Bold.ttf"),
+    (1980, 1999, "Source Sans 3", "SourceSans3-Bold.ttf"),
+    (2000, 9999, "Inter", "Inter-Bold.ttf"),
+]
+DEFAULT_FONT_FAMILY = "DejaVu Sans"   # everything NOT covered by PERIOD_FONTS above (unchanged from before this restyle)
+
+# ── Clapperboard (2026-08-17 restyle) ───────────────────────────────────────
+# Bottom-right corner, beside the (now narrower) poster -- shows whichever
+# film's poster is currently on screen (see cinematic_history_schedule.py's
+# poster_active_year). Director comes from the DB (criterion_director);
+# studio/release_date come from data/best_picture_winner_details.csv (TMDB-
+# sourced -- neither exists anywhere else in this project's own data, see
+# build_best_picture_details.py).
+CLAPPERBOARD_BODY_COLOR = "#1a1a1a"
+CLAPPERBOARD_STRIPE_LIGHT = "#f2f2f2"
+CLAPPERBOARD_STRIPE_DARK = "#1a1a1a"
+CLAPPERBOARD_TEXT_COLOR = "#f2f2f2"
+CLAPPERBOARD_LABEL_FONTSIZE_PX = 12   # 2026-08-19: enlarged alongside the bigger clapperboard (was 10)
+CLAPPERBOARD_VALUE_FONTSIZE_PX = 13   # was 11
+CLAPPERBOARD_OPEN_ANGLE_DEG = 10   # 2026-09-08: the "stick"/arm is hinged at its left edge and rotated open by this much, not flat/closed
+
+# ── Film reel + year display (2026-08-19 restyle) ───────────────────────────
+# Right side of the header, roughly on the title's own row. A continuously
+# spinning disc with a straight black film strip (individual frame cells +
+# sprocket holes) emerging directly from its rim, carrying the current year
+# -- see cinematic_history_animation.py's build_reel()/update_reel(). Timing
+# is driven entirely from the schedule's own real year-transition frames
+# (never a fixed/arbitrary duration), so it can't drift across a 12+ minute
+# video, and is deliberately two-phase per year (see REEL_SETTLE_DRIFT_IN /
+# REEL_TRANSITION_SECONDS below) so a year's own number never leaves the
+# legible zone before that year's films are done revealing, no matter how
+# long or short that year's own reveal takes.
+REEL_ROTATION_DEGREES_PER_SECOND = 55
+REEL_SPOKE_COUNT = 6
+REEL_FILM_STRIP_COLOR = "#0d0d0d"
+REEL_SPROCKET_COLOR = "#b8b9ba"   # matches cfg.BACKGROUND_COLOR -- reads as a punched-through hole
+REEL_YEAR_TEXT_COLOR = "#f2f2f2"
+REEL_BLANK_CELLS_BETWEEN_YEARS = 3   # per spec: "several blank film-frame sections pass" between a year exiting and the next emerging
+# Two-phase per-year motion: a SETTLE phase (the bulk of that year's own
+# duration) where the cell drifts only this small, FIXED distance regardless
+# of how long the year is on screen -- so it stays inside the visible/
+# legible window and never disappears before that year's own films finish
+# revealing -- followed by a short, fixed-duration TRANSITION phase (see
+# below) that sweeps the rest of the way to the next slot (showing several
+# blanks pass) and lands exactly on the real transition frame. Both phases
+# ease smoothly (zero velocity at every phase boundary), so speed never
+# snaps -- see cinematic_history_animation.py's compute_reel_scroll().
+REEL_SETTLE_DRIFT_IN = 0.30
+REEL_TRANSITION_SECONDS = 1.6
+REEL_YEAR_FADE_IN_SECONDS = 0.7   # time-based, not distance-based -- see compute_reel_scroll()'s own docstring
 
 # ── Audio ─────────────────────────────────────────────────────────────────
 AUDIO_CROSSFADE_SECONDS = 5.0

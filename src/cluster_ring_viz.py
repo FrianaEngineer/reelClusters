@@ -11,7 +11,7 @@ from xml.sax.saxutils import escape
 
 from cluster_colors import COLOR_MAP, NODE_FILL_MAP, contrast_text_color
 from cluster_graph_viz import DB_PATH, BG_COLOR, TOOLTIP_BG, TOOLTIP_TEXT, hexagon_points, CRITERION_LINKS
-from hex_svg import darken, load_film_color
+from hex_svg import darken, load_film_color, load_best_picture_winners, BEST_PICTURE_BORDER_COLOR
 
 OUT_DIR = Path(__file__).parent.parent / "output"
 
@@ -285,6 +285,7 @@ def build_svg(cluster_id, films, bands):
     bg_color   = BG_COLOR
     text_color = contrast_text_color(bg_color)
     film_is_color = load_film_color()
+    best_picture_winners = load_best_picture_winners()
 
     NODE_R = NODE_R_OVERRIDES.get(cluster_id, NODE_R_DEFAULT)
     CX, CY = W / 2, H / 2 + CY_PUSH_OVERRIDES.get(cluster_id, CY_PUSH_DEFAULT)
@@ -386,7 +387,29 @@ def build_svg(cluster_id, films, bands):
         is_bw = cluster_id in BW_TINT_CLUSTERS and not film_is_color.get(row.imdb_tconst)
         node_fill = NODE_FILL_MAP.get(cluster_id, {"color": node_color, "bw": darken(node_color)})
         fill = node_fill["bw"] if is_bw else node_fill["color"]
-        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>'
+
+        # Best Picture winners get a gold border instead of no border --
+        # same gold used for the explore.html hex mosaic (see hex_svg.py).
+        # Has to be a `style=` attribute, not a `stroke=`/`stroke-width=`
+        # presentation attribute: the .node class rule in the <style> block
+        # above sets stroke/stroke-width for every node, and a CSS class rule
+        # always beats a presentation attribute in the cascade, so a plain
+        # stroke="..." attribute here would be silently overridden by it.
+        # A stroke straddles its path -- half draws inward over the fill,
+        # half outward -- so a thick gold stroke at the node's normal radius
+        # visibly eats into the fill and reads as a smaller node. Drawing the
+        # polygon itself half a stroke-width larger keeps the fill's visible
+        # edge at the same radius as every other node, with the gold ring
+        # added purely outward instead of carved out of the fill.
+        if row.imdb_tconst in best_picture_winners:
+            border_width = max(0.8, NODE_R * 0.25)
+            border_attr = f' style="stroke:{BEST_PICTURE_BORDER_COLOR}; stroke-width:{border_width:.2f}; stroke-opacity:1;"'
+            point_r = NODE_R + border_width / 2
+        else:
+            border_attr = ''
+            point_r = NODE_R
+
+        polygon = f'<polygon class="node" points="{hexagon_points(cx, cy, point_r)}" fill="{fill}"{border_attr}/>'
         link = CRITERION_LINKS.get(row.title)
         if link:
             # id has to live on the <a>, not the polygon: the hover-tooltip
@@ -397,7 +420,7 @@ def build_svg(cluster_id, films, bands):
             # hovering its <a> ancestor.
             svg.append(f'<a id="{node_id}" href="{esc(link)}" target="_blank" rel="noopener">{polygon}</a>')
         else:
-            svg.append(f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, NODE_R)}" fill="{fill}"/>')
+            svg.append(f'<polygon id="{node_id}" class="node" points="{hexagon_points(cx, cy, point_r)}" fill="{fill}"{border_attr}/>')
 
     for row, (cx, cy) in all_nodes:
         tip = f"{row.title} ({int(row.criterion_year)}) · {row.degree} connections"

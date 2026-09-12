@@ -268,6 +268,111 @@ body.home-page .page {
   overflow-x: auto;
 }
 
+/* ── Hidden Gems pocket grid ─────────────────────────────── */
+/* Breaks out of the 760px .single-column measure the rest of the page reads
+   at: 36 mini graphs need the full page width to land on a sane column count. */
+
+.gem-grid-section {
+  margin: 38px 0 34px;
+  border-top: 1px solid #2a2a3d;
+  padding-top: 24px;
+}
+
+.gem-grid-section h2 {
+  font-size: 18px;
+  margin: 0 0 8px;
+  color: #e8e8ef;
+}
+
+.gem-grid-note {
+  color: #a8a8bc;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 22px;
+  max-width: 760px;
+}
+
+.gem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.gem-card {
+  background: #1a1a2b;
+  border: 1px solid #2a2a3d;
+  border-radius: 10px;
+  padding: 14px 14px 8px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.gem-card:hover {
+  border-color: #45455f;
+  background: #1e1e31;
+}
+
+.gem-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 3px;
+  line-height: 1.3;
+}
+
+.gem-card-meta {
+  font-size: 11.5px;
+  color: #8a8a9e;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.gem-graph {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.gem-edge {
+  stroke: #4a4a68;
+  stroke-linecap: round;
+}
+
+.gem-node {
+  fill: #e8e8ef;
+  stroke: #1a1a2b;
+  stroke-width: 1;
+  cursor: pointer;
+  outline: none;
+  transition: fill 0.12s ease;
+}
+
+.gem-node:hover, .gem-node:focus {
+  fill: #ffd166;
+  stroke: #ffd166;
+  stroke-opacity: 0.35;
+  stroke-width: 4;
+}
+
+.gem-tip {
+  position: absolute;
+  z-index: 20;
+  max-width: 260px;
+  padding: 6px 9px;
+  background: #0c0c16;
+  border: 1px solid #45455f;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12.5px;
+  line-height: 1.35;
+  pointer-events: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 640px) {
+  .gem-grid { grid-template-columns: 1fr; }
+}
+
 /* ── Methodology Sankey embed ──────────────────────────────────────────── */
 
 .sankey-card {
