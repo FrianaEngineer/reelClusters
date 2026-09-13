@@ -735,7 +735,6 @@ LANDING_SECTIONS = [
         "id": "cinematic-history",
         "modifier": "history",
         "href": "cinematic-history.html",
-        "kicker": "01 — Context",
         "title": "Criterion Over Time",
         "body": (
             "The movements, studios, and eras behind the clusters — how each "
@@ -758,7 +757,6 @@ LANDING_SECTIONS = [
         "id": "explore",
         "modifier": "explore",
         "href": "explore.html",
-        "kicker": "02 — Interactive",
         "title": "Explore the Clusters",
         "body": (
             "Every film in the Collection -- Criterion titles plus the 2026 "
@@ -774,7 +772,6 @@ LANDING_SECTIONS = [
         "id": "find-your-film",
         "modifier": "find-your-film",
         "href": "recommendations.html",
-        "kicker": "03 — Personalized",
         "title": "Find Your Film",
         "body": (
             "Not sure what to watch? Tell us what you're in the mood for, "
@@ -788,7 +785,6 @@ LANDING_SECTIONS = [
         "id": "movie-map",
         "modifier": "map",
         "href": "movie-map.html",
-        "kicker": "04 — Directors",
         "title": "Explore Directors by Cluster",
         "body": (
             "Every director in the collection, grouped by the cluster their "
@@ -802,7 +798,6 @@ LANDING_SECTIONS = [
         "id": "methodology",
         "modifier": "methodology",
         "href": "methodology.html",
-        "kicker": "05 — The Data",
         "title": "Methodology",
         "body": (
             "How the clusters were built: cast-overlap graphs, community "
@@ -818,7 +813,6 @@ LANDING_HERO_TEMPLATE = """  <section class="landing-hero landing-hero--{modifie
     {media}
     <div class="landing-hero-scrim"></div>
     <div class="landing-hero-content">
-      <p class="landing-hero-kicker">{kicker}</p>
       <h2>{title}</h2>
       <p class="landing-hero-body">{body}</p>
       <span class="landing-hero-cta">{cta} &rarr;</span>
@@ -882,7 +876,6 @@ def build_landing():
             id=sec["id"],
             modifier=sec["modifier"],
             href=sec["href"],
-            kicker=sec["kicker"],
             title=esc(sec["title"]),
             body=esc(sec["body"].format(n_clusters=n_clusters)),
             cta=esc(sec["cta"]),
@@ -905,7 +898,6 @@ PLACEHOLDER_TEMPLATE = """<!doctype html>
 <div class="page">
   <a class="back-link" href="index.html">&larr; Home</a>
   <header class="placeholder-header">
-    <p class="placeholder-kicker">{kicker}</p>
     <h1>{title}</h1>
   </header>
   <p class="placeholder-note">Coming soon.</p>
@@ -924,7 +916,6 @@ def build_placeholder_pages():
             continue
         html = PLACEHOLDER_TEMPLATE.format(
             title=esc(sec["title"]),
-            kicker=esc(sec["kicker"]),
         )
         (SITE_DIR / sec["href"]).write_text(html)
 
@@ -941,7 +932,6 @@ CINEMATIC_HISTORY_TEMPLATE = """<!doctype html>
 <div class="page">
   <a class="back-link" href="index.html">&larr; Home</a>
   <header class="placeholder-header">
-    <p class="placeholder-kicker">01 — Context</p>
     <h1>Criterion Over Time</h1>
   </header>
   <p class="placeholder-note">
@@ -965,10 +955,24 @@ CINEMATIC_HISTORY_TEMPLATE = """<!doctype html>
 ANIMATION_DIR = Path(__file__).parent.parent / "outputs"
 
 
+# site/assets is committed and published by .github/workflows/pages.yml, and
+# GitHub rejects any file over 100MB outright. The full-quality master is well
+# past that, so the web encode is preferred and an oversized file is never
+# copied in -- this copy silently re-breaking every push is exactly what used
+# to happen. See src/cinematic_history_mux.py for the encode command.
+GITHUB_FILE_LIMIT_MB = 100
+
+
 def build_cinematic_history():
-    video_src = ANIMATION_DIR / "cinematic_history.mp4"
+    web_src = ANIMATION_DIR / "cinematic_history_web.mp4"
+    video_src = web_src if web_src.exists() else ANIMATION_DIR / "cinematic_history.mp4"
     if video_src.exists():
-        shutil.copyfile(video_src, ASSETS_DIR / "cinematic_history.mp4")
+        size_mb = video_src.stat().st_size / 1e6
+        if size_mb > GITHUB_FILE_LIMIT_MB:
+            print(f"  (skipping video copy: {video_src.name} is {size_mb:.0f}MB, past "
+                  f"GitHub's {GITHUB_FILE_LIMIT_MB}MB limit -- encode a web version first)")
+        else:
+            shutil.copyfile(video_src, ASSETS_DIR / "cinematic_history.mp4")
     if not (ASSETS_DIR / "cinematic_history_poster.jpg").exists():
         print("  (no cinematic_history_poster.jpg in site/assets yet -- "
               "extract one with ffmpeg, e.g. from outputs/cinematic_history.mp4)")
@@ -987,7 +991,6 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
 <div class="page">
   <a class="back-link" href="index.html">&larr; Home</a>
   <header class="placeholder-header">
-    <p class="placeholder-kicker">05 — The Data</p>
     <h1>Methodology</h1>
   </header>
 
