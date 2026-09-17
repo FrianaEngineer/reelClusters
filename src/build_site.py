@@ -791,7 +791,14 @@ LANDING_SECTIONS = [
             "films belong to."
         ),
         "cta": "Explore by director",
-        "media": False,
+        # Screen recording of the directors tab itself, re-encoded for
+        # background use (1152px wide, 24fps, no audio, 9.9MB from a 268MB
+        # source):
+        #   ffmpeg -i explore_directors.mov -an -vf "scale=1152:-2,fps=24" \
+        #     -c:v libx264 -crf 33 -preset slow -pix_fmt yuv420p \
+        #     -movflags +faststart site/assets/explore_directors_loop.mp4
+        "media": "assets/explore_directors_loop.mp4",
+        "media_poster": "assets/explore_directors_loop_poster.jpg",
         "scroll_cue": False,
     },
     {
