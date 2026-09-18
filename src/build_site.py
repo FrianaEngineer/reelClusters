@@ -735,12 +735,12 @@ LANDING_SECTIONS = [
         "id": "cinematic-history",
         "modifier": "history",
         "href": "cinematic-history.html",
-        "title": "Criterion Over Time",
+        "title": "Reel Connections",
         "body": (
-            "The movements, studios, and eras behind the clusters — how each "
-            "one fits into the broader story of film."
+            "Play the Collection back in release order and watch shared casts "
+            "pull films together, cluster by cluster, decade by decade."
         ),
-        "cta": "Read the history",
+        "cta": "Explore the connections over time",
         # A silent, looping background instead of a still: a ~21x timelapse of
         # the whole video, so the hero shows the map filling in. Half-res and
         # 1.4MB -- the full 12-minute video is 256MB and would be unusable as
@@ -840,13 +840,13 @@ LANDING_TEMPLATE = """<!doctype html>
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="landing-page">
-<a class="landing-brand" href="#top">Criterion Clusters</a>
+<a class="landing-brand" href="#top">Classic Clusters</a>
 <main class="landing-scroll" id="top">
 {sections}  <footer class="landing-footer" id="footer">
     <div class="landing-footer-inner">
       <p class="landing-footer-brand">Criterion Collection: Shared-Actor Clusters</p>
       <nav class="landing-footer-links">
-        <a href="cinematic-history.html">Criterion Over Time</a>
+        <a href="cinematic-history.html">Reel Connections</a>
         <a href="explore.html">Explore the Clusters</a>
         <a href="recommendations.html">Find Your Film</a>
         <a href="movie-map.html">Explore Directors by Cluster</a>
@@ -932,14 +932,14 @@ CINEMATIC_HISTORY_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Criterion Over Time — Criterion Clusters</title>
+<title>Reel Connections — Criterion Clusters</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
   <a class="back-link" href="index.html">&larr; Home</a>
   <header class="placeholder-header">
-    <h1>Criterion Over Time</h1>
+    <h1>Reel Connections</h1>
   </header>
   <p class="placeholder-note">
     Every film's hexagon, filling in by release year, oldest to newest --
