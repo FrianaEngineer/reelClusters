@@ -769,19 +769,6 @@ LANDING_SECTIONS = [
         "scroll_cue": False,
     },
     {
-        "id": "find-your-film",
-        "modifier": "find-your-film",
-        "href": "recommendations.html",
-        "title": "Find Your Film",
-        "body": (
-            "Not sure what to watch? Tell us what you're in the mood for, "
-            "and we'll search the collection for films that match your taste."
-        ),
-        "cta": "Meet your next favorite film",
-        "media": "assets/find_your_film_hero.svg",
-        "scroll_cue": False,
-    },
-    {
         "id": "movie-map",
         "modifier": "map",
         "href": "movie-map.html",
@@ -799,6 +786,19 @@ LANDING_SECTIONS = [
         #     -movflags +faststart site/assets/explore_directors_loop.mp4
         "media": "assets/explore_directors_loop.mp4",
         "media_poster": "assets/explore_directors_loop_poster.jpg",
+        "scroll_cue": False,
+    },
+    {
+        "id": "find-your-film",
+        "modifier": "find-your-film",
+        "href": "recommendations.html",
+        "title": "Find Your Film",
+        "body": (
+            "Not sure what to watch? Tell us what you're in the mood for, "
+            "and we'll search the collection for films that match your taste."
+        ),
+        "cta": "Meet your next favorite film",
+        "media": "assets/find_your_film_hero.svg",
         "scroll_cue": False,
     },
     {
