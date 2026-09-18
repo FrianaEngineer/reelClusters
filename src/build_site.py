@@ -587,20 +587,20 @@ HIDDEN_GEMS_TEMPLATE = """<!doctype html>
         connection to any of the ten named clusters, plus {n_no_actor} films
         carrying no actor credits at all. It is the one cluster on the hex grid
         that was never a community in the first place. Underneath the label sit
-        {n_pockets} separate pockets covering {n_films} films, each a Louvain
+        {n_pockets} separate subclusters covering {n_films} films, each a Louvain
         community that came out perfectly coherent on its own and was folded in
         here only because it was too small to name and place beside the others.
       </p>
       <p class="blurb">
         What keeps them at the edge is how little crosses between them.
-        {n_self_contained} of the {n_pockets} pockets share not one credited
+        {n_self_contained} of the {n_pockets} subclusters share not one credited
         actor with any film outside themselves, which is precisely why nothing
         ever pulled them into a larger cluster. The seal is usually a single
-        career: of the {n_multi} pockets holding three films or more,
+        career: of the {n_multi} subclusters holding three films or more,
         {n_director_led} are mostly one director's own filmography, the same
         faces recurring from picture to picture, and {n_country_led} draw every
         film with a recorded country of origin from one country. Read that way
-        the pockets are less an assortment of leftovers than a set of small
+        the subclusters are less an assortment of leftovers than a set of small
         national cinemas and closed working troupes -- {largest_name} is the
         biggest at {largest_size} films -- alongside {n_pairs} isolated pairs,
         two films joined by a single shared actor and nothing more.
@@ -609,12 +609,12 @@ HIDDEN_GEMS_TEMPLATE = """<!doctype html>
   </div>
 
   <section class="gem-grid-section">
-    <h2>The {n_pockets} Pockets</h2>
+    <h2>The {n_pockets} Subclusters</h2>
     <p class="gem-grid-note">
-      Each card is one raw Louvain community, drawn as its own shared-actor
+      Each tile is one raw Louvain community, drawn as its own shared-actor
       graph: a dot per film, a line per pair sharing at least one credited
       actor, thicker the more actors they share, and larger dots for the films
-      with the most connections inside the pocket. Hover or focus a dot for the
+      with the most connections inside the subcluster. Hover or focus a dot for the
       film. Titles are hand-authored -- the underlying Louvain communities
       carry only numbers.
     </p>
