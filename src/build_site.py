@@ -848,8 +848,8 @@ LANDING_TEMPLATE = """<!doctype html>
       <nav class="landing-footer-links">
         <a href="cinematic-history.html">Reel Connections</a>
         <a href="explore.html">Explore the Clusters</a>
-        <a href="recommendations.html">Find Your Film</a>
         <a href="movie-map.html">Explore Directors by Cluster</a>
+        <a href="recommendations.html">Find Your Film</a>
         <a href="methodology.html">Methodology</a>
       </nav>
     </div>
