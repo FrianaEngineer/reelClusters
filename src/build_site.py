@@ -566,7 +566,7 @@ HIDDEN_GEMS_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hidden Gems — Criterion Clusters</title>
+<title>Hidden Gems Mosaic — Criterion Clusters</title>
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -575,7 +575,7 @@ HIDDEN_GEMS_TEMPLATE = """<!doctype html>
   <header class="cluster-header" style="border-color:#5a5a5a">
     <span class="swatch" style="background:#FFFFFF;border:1px solid #5a5a5a"></span>
     <div>
-      <h1>Hidden Gems</h1>
+      <h1>Hidden Gems Mosaic</h1>
       <p class="stat-line">{stat_line}</p>
     </div>
   </header>
@@ -583,7 +583,7 @@ HIDDEN_GEMS_TEMPLATE = """<!doctype html>
   <div class="cluster-body single-column">
     <section>
       <p class="blurb">
-        Hidden Gems is the periphery bucket: every film with no shared-actor
+        Hidden Gems Mosaic is the periphery bucket: every film with no shared-actor
         connection to any of the ten named clusters, plus {n_no_actor} films
         carrying no actor credits at all. It is the one cluster on the hex grid
         that was never a community in the first place. Underneath the label sit
@@ -679,7 +679,7 @@ def build_hidden_gems_page(con):
     gem_grid, pocket_stats = hidden_gem_grid.build_grid(con)
 
     html = HIDDEN_GEMS_TEMPLATE.format(
-        stat_line=f"{n_assigned + n_no_actor} films ({n_assigned} in small clusters, {n_no_actor} with no actor data)",
+        stat_line=f"{n_assigned + n_no_actor} films",
         n_no_actor=n_no_actor,
         gem_grid=gem_grid,
         **pocket_stats,
