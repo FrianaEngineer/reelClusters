@@ -74,6 +74,19 @@ LABEL_SCALE = {
 }
 
 
+# Per-cluster vertical nudge for site/explore.html's labels, in data units
+# (one unit = one hex radius). Positive moves a label UP the screen, since the
+# data frame is y-up and the SVG flips it.
+#
+# czech_new_wave: the snapshot anchors this label on the cluster's widest row
+# (y = -15.0), but the cluster tapers downward over its seven rows, so its
+# filled area centers a full unit lower at y = -16.0. Anchored on the widest
+# row the label reads as riding high in the blob.
+LABEL_OFFSET_Y = {
+    'czech_new_wave': -1.0,
+}
+
+
 def load_labels(scale=None):
     """{cluster_id: (x, y, fontsize, [line, ...])} straight from the snapshot's
     own cluster_labels -- the video's label placement and sizing. y is the
@@ -85,7 +98,8 @@ def load_labels(scale=None):
     out = {}
     for cluster_id, d in snap["cluster_labels"].items():
         ys = [ln["y"] for ln in d["lines"]]
-        out[cluster_id] = (d["lines"][0]["x"], (max(ys) + min(ys)) / 2,
+        out[cluster_id] = (d["lines"][0]["x"],
+                           (max(ys) + min(ys)) / 2 + LABEL_OFFSET_Y.get(cluster_id, 0.0),
                            d["fontsize"] * scale.get(cluster_id, 1.0),
                            [ln["text"] for ln in d["lines"]])
     return out
