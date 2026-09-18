@@ -1001,6 +1001,11 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
     <h1>Methodology</h1>
   </header>
 
+  <div class="sankey-card">
+    <iframe class="sankey-embed" src="assets/criterion_pipeline_sankey.html"
+            title="Criterion-to-IMDb matching pipeline" loading="lazy"></iframe>
+  </div>
+
   <div class="cluster-body single-column">
     <section class="markdown-body">
 
