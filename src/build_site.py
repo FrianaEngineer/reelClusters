@@ -1006,11 +1006,12 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
 
       <h2>The question</h2>
       <p>
-        Film history is usually told in categories somebody decided on in
-        advance -- national cinemas, movements, decades, genres. This project
-        tries the opposite. It starts with a few thousand films and one very
-        plain fact about each of them, which actors appear in it, and then asks
-        whether the familiar categories fall out of that fact on their own.
+        Film history is usually told through categories somebody decided on in
+        advance—national cinemas, movements, decades and genres. This project
+        tries the opposite. It begins with a few thousand films and one simple
+        fact about each of them: which performers appear in it. It then asks
+        whether familiar cinematic categories emerge from those relationships on
+        their own.
       </p>
       <p>
         Nobody tells the map that Japanese cinema exists. If a Japanese cinema
@@ -1018,177 +1019,133 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
         people.
       </p>
 
-      <h2>Finding out who is in what</h2>
+      <h2>From films to a network</h2>
       <p>
-        The starting point is a list of the films in the Criterion Collection:
-        title, director, country, year. That list says nothing about casts, so
-        every film had to be paired with its entry in a much larger film
-        database that does record them.
+        The project began with a list of films in the Criterion Collection,
+        along with their titles, directors, countries and release years. Because
+        that list did not contain complete cast information, each film had to be
+        paired with its corresponding entry in a larger film database.
       </p>
       <p>
-        Pairing them is the hard part, because the same film goes by different
-        names. Titles get translated, then translated back differently.
-        Alphabets change. A film is released in one country a year after
-        another. Anthology films are sometimes catalogued as one work and
-        sometimes as their separate segments. A person recognises these
-        instantly. Software does not.
+        That pairing was not always straightforward. The same film may have
+        several translated titles, alternate spellings or release dates that
+        differ by country. Anthology films may be listed as one work in one
+        source and as separate segments in another. A person can often recognize
+        these variations immediately; software cannot.
       </p>
       <p>
-        So matching was done on evidence rather than on exact names. Two films
-        could be considered the same when the director and the year agreed,
-        which makes a difference in wording forgivable, or when the titles were
-        close and the years were near each other. Every possible pairing was
-        then scored on three things at once: how similar the titles were, how
-        similar the directors were, and how close the years were. Title
-        similarity counted for the most, director next, year least. An exact
-        year counted fully, a year or two out counted partially, and anything
-        further counted for nothing.
+        Instead of relying on exact titles, the matching process considered
+        several pieces of evidence together, including the similarity of the
+        titles and directors and the closeness of the release years. A match was
+        accepted only when the evidence was strong and the best candidate
+        clearly surpassed the alternatives. Ambiguous cases were set aside for
+        manual review rather than guessed. An incorrect match would attach the
+        wrong cast to a film and quietly distort every connection built from it.
       </p>
       <p>
-        A pairing was only accepted when it scored well <em>and</em> beat its
-        nearest rival by a clear margin. A film with two plausible candidates
-        too close to separate was not guessed at. It was set aside to be looked
-        at by hand. Getting a film wrong here would mean crediting it with the
-        wrong cast, which would then quietly distort every connection built on
-        top of it.
-      </p>
-
-      <h2>Deciding what counts as a film</h2>
-      <p>
-        Only feature films were kept: at least an hour long, actually a movie
-        rather than an episode or a short or a recorded special, and confidently
-        matched. This throws away a lot of legitimate material, but a map built
-        from uncertain records is worse than a smaller map built from solid ones.
-      </p>
-
-      <h2>Widening the field</h2>
-      <p>
-        A collection curated around world cinema and the art house will, left to
-        itself, produce a map of world cinema and the art house. To give that
-        something to sit against, every film ever nominated for the Academy Award
-        for Best Picture was added to the same pool -- around six hundred films
-        that the Collection does not include. A film already in both was counted
-        once, not twice.
+        Only confidently matched feature films at least one hour long were kept.
+        Shorts, television episodes, recorded specials and uncertain records
+        were excluded. This removed legitimate material, but a smaller map built
+        from reliable records was preferable to a larger one built from doubtful
+        connections.
       </p>
       <p>
-        The result is roughly two thousand three hundred films: the Collection,
-        plus a century of mainstream American prestige cinema for contrast.
-      </p>
-
-      <h2>Building the network</h2>
-      <p>
-        Now the actual structure. Picture every film as a dot. Draw a line
-        between two dots whenever at least one performer appears in both of
-        them, and make the line heavier the more performers the two films share.
-        A pair of films sharing a single character actor gets a thin line; two
-        films with half a cast in common get a thick one.
+        The Criterion Collection is centered on world cinema, historically
+        significant films and the art house. Left on its own, it would naturally
+        produce a map shaped by those interests. To give that world something to
+        sit against, every film nominated for the Academy Award for Best Picture
+        was added to the same pool. Films already present in both sources were
+        counted only once.
       </p>
       <p>
-        Across the whole pool that comes to nearly nineteen thousand lines. No
-        judgment has been applied yet. This is only the record of who worked
-        with whom, drawn out.
+        The final dataset contained approximately 2,300 films: the Criterion
+        Collection alongside a century of mainstream American prestige cinema.
       </p>
       <p>
-        Some films finish with no lines at all. Either no cast was ever recorded
-        for them, or everyone in them appears in nothing else here. Rather than
-        force them somewhere they do not belong, they were set aside.
+        Each film was then turned into a point in a network. A line was drawn
+        between two films whenever they shared at least one performer, and that
+        line became stronger when they shared more performers. Two films
+        connected by one character actor received a thin connection; two films
+        with much of the same cast received a much stronger one.
+      </p>
+      <p>
+        Across the full dataset, these shared casts created nearly 19,000
+        connections. At this stage, no countries, movements or genres had been
+        assigned. The network was simply a record of which films were linked
+        through the people who appeared in them.
+      </p>
+      <p>
+        Some films had no connections at all. Either no cast information was
+        available for them or none of their performers appeared in another film
+        in the dataset. Rather than force those films into groups where they did
+        not belong, they were left unconnected.
       </p>
 
-      <h2>Letting the groups emerge</h2>
+      <h2>What emerged</h2>
       <p>
-        The question now is whether that tangle has real structure in it, and if
-        so, where the boundaries fall. The method used is called Louvain
-        community detection, and it is worth explaining properly, because it is
-        doing the actual work of this project.
+        The completed network was analyzed using Louvain community detection, a
+        method that searches for groups whose members are more strongly
+        connected to one another than would be expected by chance.
       </p>
       <p>
-        Start with the thing it is trying to measure. Suppose you propose a way
-        of dividing the films into groups. A good division is one where the
-        lines mostly stay <em>inside</em> groups instead of crossing between
-        them. But density alone is not enough to be impressed by: films with
-        enormous casts have many lines simply because they have many people in
-        them, so they would clump together under any division at all. So the
-        score compares each group against chance. It asks how much connection
-        actually sits inside that group, and subtracts how much would have
-        landed there anyway if the very same films, keeping the very same number
-        of connections each, had been wired together at random. A group only
-        earns credit for connection it has beyond what luck would produce.
+        The method was not given information about country, language, genre,
+        director or release date. It saw only films and their shared performers.
+        The communities it found therefore emerged from the casting network
+        rather than from categories chosen beforehand.
       </p>
       <p>
-        With that score defined, the method improves it in two alternating
-        moves.
+        At first, those communities were simply numbered groups. Each one was
+        then examined through the films it contained, the directors and
+        performers who recurred, its countries of origin and its span of years.
+        Names were assigned from that evidence rather than from expectations
+        about what each group ought to represent.
       </p>
       <p>
-        First, every film starts off alone, in a group of one. Each film in turn
-        looks at the groups its neighbours belong to and asks whether joining
-        one of them would raise the score. If so, it moves to whichever helps
-        most. This repeats, film after film, until no single move helps anyone.
-        Small clumps of tightly linked films form naturally at this stage.
+        Eleven communities were large and coherent enough to name confidently:
+        Modern American Cinema, European Art Cinema, Golden Age Hollywood,
+        Classic Japanese Cinema, Japanese New Wave, Sinophone Pacific Cinema,
+        Scandinavian Bergman Circle, Czech New Wave, Silent Era Comedy, Soviet
+        Cinema Classics and Satyajit Ray Indian Cinema.
       </p>
       <p>
-        Second, every group formed so far is collapsed down into a single dot.
-        Lines that ran between two groups become one line between those two new
-        dots, carrying their combined weight. Now the whole procedure runs again
-        on this smaller network, so clumps can join into larger clumps. The two
-        moves alternate until another round would change nothing.
+        The variety of those names matters. Some communities correspond to
+        national cinemas or historical movements. Others formed around a
+        particular director, period or circle of performers. Shared casting does
+        not respect only one kind of boundary. It reproduces whichever
+        boundaries actually shaped who worked with whom.
       </p>
       <p>
-        What comes out is a set of communities that nobody specified in advance.
-        The method never sees a country, a language, a genre or a date. It sees
-        only who appeared alongside whom.
-      </p>
-
-      <h2>Naming what came out</h2>
-      <p>
-        The communities arrive as numbers, and a number tells a reader nothing.
-        So each one was read on its own terms -- the films inside it, the
-        directors who recur, the countries, the span of years -- and named from
-        that evidence rather than from any expectation of what it ought to be.
+        Smaller communities and disconnected films were gathered under the name
+        <strong>Hidden Gems Mosaic</strong>. This is not a collection of failed
+        results or miscellaneous leftovers. Many of these films form coherent
+        miniature communities, often centered on a director who repeatedly
+        worked with the same performers. They are simply too small or isolated
+        to support broader labels with confidence.
       </p>
       <p>
-        Eleven groups were large enough to name with confidence: Modern American
-        Cinema, European Art Cinema, Golden Age Hollywood, Classic Japanese
-        Cinema, Japanese New Wave, Sinophone Pacific Cinema, Scandinavian
-        Bergman Circle, Czech New Wave, Silent Era Comedy, Soviet Cinema
-        Classics, and Satyajit Ray Indian Cinema.
-      </p>
-      <p>
-        Note what that list contains. National cinemas, yes, but also a single
-        director's circle, and an era defined by its comedians. Shared casting
-        does not respect one kind of boundary. It reproduces whichever boundary
-        actually governed who got hired.
+        Their isolation is meaningful in itself. Many share no cast members with
+        films outside their immediate circles, which is precisely why they never
+        joined a larger community.
       </p>
 
-      <h2>The ones that did not fit</h2>
+      <h2>Drawing the map</h2>
       <p>
-        A group had to reach a certain size before it earned a name, on the
-        grounds that a handful of films is too little evidence to describe
-        confidently. Everything below that line, together with the films that
-        had no connections at all, went into a single bucket called the Hidden
-        Gems Mosaic.
+        In the final visualization, every film becomes a hexagon. Hexagons are
+        colored according to the community in which their films were placed and
+        arranged so that each community forms a continuous region. Films shot in
+        black and white use a darker shade of their region’s color, while
+        Academy Award winners for Best Picture are outlined in gold. The Hidden
+        Gems Mosaic forms a varied border around the larger communities.
       </p>
       <p>
-        That bucket is not a failure of the method, and it is not a pile of
-        odds and ends. Inside it are dozens of small groups that are each
-        perfectly coherent on their own, usually a single director working
-        repeatedly with the same performers. They are simply too small to stand
-        beside the others, and most of them share no cast whatsoever with
-        anything outside themselves, which is exactly why they never joined a
-        larger group in the first place.
-      </p>
-
-      <h2>Drawing it</h2>
-      <p>
-        Finally the result is laid out as a map. Every film is one hexagon.
-        Hexagons are coloured by the group their film landed in and packed so
-        that each group forms one continuous region, with the unclustered films
-        forming a border around the outside. Films shot in black and white carry
-        a darker shade of their region's colour, and Best Picture winners are
-        outlined in gold.
+        The map turns thousands of individual casting decisions into a visible
+        landscape of film history. Its regions were never drawn in advance. They
+        are where the casting put them.
       </p>
       <p>
-        The point of the map is that its regions were never drawn. They are
-        where the casting put them.
+        Full details about the data sources, matching system, inclusion rules,
+        network construction and community-detection settings are available in
+        the project README.
       </p>
 
     </section>
