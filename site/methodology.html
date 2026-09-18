@@ -13,128 +13,196 @@
     <h1>Methodology</h1>
   </header>
 
-  <div class="sankey-card">
-    <iframe class="sankey-embed" src="assets/criterion_pipeline_sankey.html"
-            title="Criterion-to-IMDb matching pipeline" loading="lazy"></iframe>
-  </div>
-
   <div class="cluster-body single-column">
     <section class="markdown-body">
-      <p>This project began by building a cleaned Criterion-to-IMDb dataset that
-      could support graph-based clustering and film analysis. The original
-      Criterion Collection records were enriched with IMDb metadata using a
-      DuckDB SQL pipeline. The pipeline loaded Criterion data, IMDb title files,
-      IMDb crew files, actor filmographies, actor names, and title translations
-      (for titles in languages other than English). Since Criterion and IMDb do
-      not always have identical titles, the matching process uses fuzzy
-      matching instead of only relying on exact title matches.</p>
 
-      <p>In order to improve match accuracy, the pipeline used a two part
-      matching strategy. The first path searched for candidates using director
-      and year because films with slightly different titles can still be
-      confidently matched when the director and year agree. The second path
-      acted as a fallback by searching based on how similar titles were and a
-      small year window. Each candidate match received a weighted confidence
-      score based on title similarity, director similarity, and year
-      similarity. Title similarity was weighted most heavily, followed by
-      director similarity and then year similarity. This helped handle cases
-      where a film title differed slightly between Criterion and IMDb, while
-      still preventing weak or unrelated matches.</p>
+      <h2>The question</h2>
+      <p>
+        Film history is usually told in categories somebody decided on in
+        advance -- national cinemas, movements, decades, genres. This project
+        tries the opposite. It starts with a few thousand films and one very
+        plain fact about each of them, which actors appear in it, and then asks
+        whether the familiar categories fall out of that fact on their own.
+      </p>
+      <p>
+        Nobody tells the map that Japanese cinema exists. If a Japanese cinema
+        region appears, it appears because those films kept hiring the same
+        people.
+      </p>
 
-      <p>Each candidate match was scored using a weighted confidence formula
-      with three components: title similarity, director similarity, and year
-      similarity. Title similarity was calculated between the cleaned
-      Criterion title and IMDb title. Director similarity was calculated
-      between the cleaned Criterion director name and IMDb director name. Year
-      similarity was scored separately: an exact year match received 1.0, a
-      one-year difference received 0.5, a two-year difference received 0.25,
-      and anything outside that range received 0.</p>
+      <h2>Finding out who is in what</h2>
+      <p>
+        The starting point is a list of the films in the Criterion Collection:
+        title, director, country, year. That list says nothing about casts, so
+        every film had to be paired with its entry in a much larger film
+        database that does record them.
+      </p>
+      <p>
+        Pairing them is the hard part, because the same film goes by different
+        names. Titles get translated, then translated back differently.
+        Alphabets change. A film is released in one country a year after
+        another. Anthology films are sometimes catalogued as one work and
+        sometimes as their separate segments. A person recognises these
+        instantly. Software does not.
+      </p>
+      <p>
+        So matching was done on evidence rather than on exact names. Two films
+        could be considered the same when the director and the year agreed,
+        which makes a difference in wording forgivable, or when the titles were
+        close and the years were near each other. Every possible pairing was
+        then scored on three things at once: how similar the titles were, how
+        similar the directors were, and how close the years were. Title
+        similarity counted for the most, director next, year least. An exact
+        year counted fully, a year or two out counted partially, and anything
+        further counted for nothing.
+      </p>
+      <p>
+        A pairing was only accepted when it scored well <em>and</em> beat its
+        nearest rival by a clear margin. A film with two plausible candidates
+        too close to separate was not guessed at. It was set aside to be looked
+        at by hand. Getting a film wrong here would mean crediting it with the
+        wrong cast, which would then quietly distort every connection built on
+        top of it.
+      </p>
 
-      <pre class="formula">weighted_score = 0.50 * title_sim + 0.35 * director_sim + 0.15 * year_sim</pre>
+      <h2>Deciding what counts as a film</h2>
+      <p>
+        Only feature films were kept: at least an hour long, actually a movie
+        rather than an episode or a short or a recorded special, and confidently
+        matched. This throws away a lot of legitimate material, but a map built
+        from uncertain records is worse than a smaller map built from solid ones.
+      </p>
 
-      <p>In other words, title similarity made up 50% of the match decision,
-      director similarity made up 35%, and year similarity made up 15%. This
-      allowed the pipeline to still match films with slightly different titles
-      when the director and year strongly supported the match, while also
-      lowering the score for films with weak title, director, or year
-      evidence.</p>
+      <h2>Widening the field</h2>
+      <p>
+        A collection curated around world cinema and the art house will, left to
+        itself, produce a map of world cinema and the art house. To give that
+        something to sit against, every film ever nominated for the Academy Award
+        for Best Picture was added to the same pool -- around six hundred films
+        that the Collection does not include. A film already in both was counted
+        once, not twice.
+      </p>
+      <p>
+        The result is roughly two thousand three hundred films: the Collection,
+        plus a century of mainstream American prestige cinema for contrast.
+      </p>
 
-      <p>Several cleaning steps were added to reduce false matches. Text was
-      standardized by lowercasing, removing accents, and stripping punctuation
-      so that names and titles could be compared more fairly. IMDb alternate
-      titles marked as &ldquo;segment title&rdquo; were excluded because they
-      caused anthology films to be incorrectly matched to individual segment
-      records. Ambiguous matches were not automatically corrected unless the
-      evidence was very strong. Instead, films with low confidence, close
-      runner-up scores, exact ties, or no match were separated into manual
-      review files.</p>
+      <h2>Building the network</h2>
+      <p>
+        Now the actual structure. Picture every film as a dot. Draw a line
+        between two dots whenever at least one performer appears in both of
+        them, and make the line heavier the more performers the two films share.
+        A pair of films sharing a single character actor gets a thin line; two
+        films with half a cast in common get a thick one.
+      </p>
+      <p>
+        Across the whole pool that comes to nearly nineteen thousand lines. No
+        judgment has been applied yet. This is only the record of who worked
+        with whom, drawn out.
+      </p>
+      <p>
+        Some films finish with no lines at all. Either no cast was ever recorded
+        for them, or everyone in them appears in nothing else here. Rather than
+        force them somewhere they do not belong, they were set aside.
+      </p>
 
-      <p>For the clustering project, the dataset was narrowed to only
-      unambiguous feature-length movies. Records were kept only if they were
-      IMDb title type movie, had a runtime of at least 60 minutes, and had a
-      confidence score of at least 85. This removed short films, videos, TV
-      movies, TV specials, and uncertain matches from the main clustering
-      dataset. The full raw data stayed in the original ReelWrangling project
-      while the new reelClusters repository contained only the filtered data
-      needed for graph analysis.</p>
+      <h2>Letting the groups emerge</h2>
+      <p>
+        The question now is whether that tangle has real structure in it, and if
+        so, where the boundaries fall. The method used is called Louvain
+        community detection, and it is worth explaining properly, because it is
+        doing the actual work of this project.
+      </p>
+      <p>
+        Start with the thing it is trying to measure. Suppose you propose a way
+        of dividing the films into groups. A good division is one where the
+        lines mostly stay <em>inside</em> groups instead of crossing between
+        them. But density alone is not enough to be impressed by: films with
+        enormous casts have many lines simply because they have many people in
+        them, so they would clump together under any division at all. So the
+        score compares each group against chance. It asks how much connection
+        actually sits inside that group, and subtracts how much would have
+        landed there anyway if the very same films, keeping the very same number
+        of connections each, had been wired together at random. A group only
+        earns credit for connection it has beyond what luck would produce.
+      </p>
+      <p>
+        With that score defined, the method improves it in two alternating
+        moves.
+      </p>
+      <p>
+        First, every film starts off alone, in a group of one. Each film in turn
+        looks at the groups its neighbours belong to and asks whether joining
+        one of them would raise the score. If so, it moves to whichever helps
+        most. This repeats, film after film, until no single move helps anyone.
+        Small clumps of tightly linked films form naturally at this stage.
+      </p>
+      <p>
+        Second, every group formed so far is collapsed down into a single dot.
+        Lines that ran between two groups become one line between those two new
+        dots, carrying their combined weight. Now the whole procedure runs again
+        on this smaller network, so clumps can join into larger clumps. The two
+        moves alternate until another round would change nothing.
+      </p>
+      <p>
+        What comes out is a set of communities that nobody specified in advance.
+        The method never sees a country, a language, a genre or a date. It sees
+        only who appeared alongside whom.
+      </p>
 
-      <p>The graph was created by having each movie as a node, and an edge was
-      created between two movies if they shared at least one actor. The edge
-      weight represented the number of actors shared by the two movies. The
-      main file used to build the graph was <code>actor_filmographies.csv</code>,
-      which connects actors to IMDb title IDs. Actor names were joined from
-      <code>actor_names.csv</code>, and film metadata such as title, director,
-      year, runtime, and match confidence came from
-      <code>criterion_basic_info.csv</code>.</p>
+      <h2>Naming what came out</h2>
+      <p>
+        The communities arrive as numbers, and a number tells a reader nothing.
+        So each one was read on its own terms -- the films inside it, the
+        directors who recur, the countries, the span of years -- and named from
+        that evidence rather than from any expectation of what it ought to be.
+      </p>
+      <p>
+        Eleven groups were large enough to name with confidence: Modern American
+        Cinema, European Art Cinema, Golden Age Hollywood, Classic Japanese
+        Cinema, Japanese New Wave, Sinophone Pacific Cinema, Scandinavian
+        Bergman Circle, Czech New Wave, Silent Era Comedy, Soviet Cinema
+        Classics, and Satyajit Ray Indian Cinema.
+      </p>
+      <p>
+        Note what that list contains. National cinemas, yes, but also a single
+        director's circle, and an era defined by its comedians. Shared casting
+        does not respect one kind of boundary. It reproduces whichever boundary
+        actually governed who got hired.
+      </p>
 
-      <p>On 2026-07-31, 619 films from an Academy Best Picture nominee IMDb
-      list (620 raw rows, one exact duplicate) were merged into this same
-      dataset. Each row was matched against the existing Criterion records by
-      exact IMDb ID first; 28 were already present as Criterion titles and
-      were left as single records, and 591 were genuinely new. Cast, genre,
-      release-date, and black-and-white/color data for the new films was
-      pulled from the same IMDb source files the original pipeline used. The
-      merge, deduplication audit, and enrichment steps are reproducible
-      scripts (<code>src/ingest_best_picture_csv.py</code>,
-      <code>src/merge_best_picture_films.py</code>,
-      <code>src/enrich_new_films.py</code>), and the full accounting -- every
-      incoming row's match decision -- is in
-      <code>data/dedup_audit.csv</code>.</p>
+      <h2>The ones that did not fit</h2>
+      <p>
+        A group had to reach a certain size before it earned a name, on the
+        grounds that a handful of films is too little evidence to describe
+        confidently. Everything below that line, together with the films that
+        had no connections at all, went into a single bucket called the Hidden
+        Gems Mosaic.
+      </p>
+      <p>
+        That bucket is not a failure of the method, and it is not a pile of
+        odds and ends. Inside it are dozens of small groups that are each
+        perfectly coherent on their own, usually a single director working
+        repeatedly with the same performers. They are simply too small to stand
+        beside the others, and most of them share no cast whatsoever with
+        anything outside themselves, which is exactly why they never joined a
+        larger group in the first place.
+      </p>
 
-      <p>After filtering and the Best Picture merge, the dataset contained
-      2,366 movie records covering 2,337 distinct films (1,746 from Criterion,
-      591 newly added). The actor co-occurrence graph contained 2,170
-      connected movie nodes and 18,799 shared-actor edges. Some films did not
-      appear in the graph because they either had no IMDb actor credits or
-      had actors who did not appear in any other film in the dataset. These
-      disconnected films were treated separately as hidden gems rather than
-      forcing them into clusters.</p>
+      <h2>Drawing it</h2>
+      <p>
+        Finally the result is laid out as a map. Every film is one hexagon.
+        Hexagons are coloured by the group their film landed in and packed so
+        that each group forms one continuous region, with the unclustered films
+        forming a border around the outside. Films shot in black and white carry
+        a darker shade of their region's colour, and Best Picture winners are
+        outlined in gold.
+      </p>
+      <p>
+        The point of the map is that its regions were never drawn. They are
+        where the casting put them.
+      </p>
 
-      <p>Then, groups of films that were strongly connected through shared
-      actors were identified. Louvain clustering was used because the graph
-      size was manageable and the method works well for finding communities in
-      weighted networks, with a fixed random seed (42) so the result is
-      reproducible. Communities smaller than 15 films were folded into Hidden
-      Gems rather than given their own page. The resulting clusters were
-      reviewed and named from scratch based on the films inside each one --
-      no name was carried over automatically from a previous run -- producing
-      Modern American Cinema, European Art Cinema, Golden Age Hollywood &amp;
-      British Cinema, Classic Japanese Cinema, Japanese New Wave &amp; Genre
-      Cinema, Hong Kong &amp; Taiwan Cinema, Scandinavian Cinema &amp; the
-      Bergman Circle, Czech New Wave, Silent-Era Comedy, Soviet Cinema, and
-      Satyajit Ray &amp; Indian Cinema. The full evidence behind each name --
-      film counts, year ranges, leading directors and genres, and
-      alternatives considered -- is in
-      <code>data/cluster_naming_report.md</code>.</p>
-
-      <p>Finally, the graph results were exported for analysis and
-      visualization. Cluster assignments were written back into the DuckDB
-      database and exported into CSV files, with one CSV per cluster. Small or
-      disconnected films were placed into a hidden gems folder. A hex-grid
-      visualization was also created where each movie was represented as its
-      own hexagon, grouped by cluster, with hidden gems placed around the
-      outside. This made the final clustering easier to interpret visually
-      while still preserving the graph-based structure of the analysis.</p>
     </section>
   </div>
 </div>
