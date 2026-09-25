@@ -68,7 +68,7 @@ LABEL_SCALE = {
     'golden_age_hollywood_british': 1.63,   # 1.47 -> 2.40
     # Deliberately short of this one's 2.21x ceiling: at the ceiling it
     # would be the largest label on the map, ahead of clusters several
-    # times its size. 2.10 sits between Scandinavian Bergman Circle and
+    # times its size. 2.10 sits between Scandinavian Cinema Classics and
     # Modern American Cinema, which is where its hex count belongs.
     'japanese_new_wave_genre':      1.42,   # 1.48 -> 2.10
 }
@@ -87,6 +87,17 @@ LABEL_OFFSET_Y = {
 }
 
 
+# Per-cluster line breaks for site/explore.html, replacing the snapshot's own
+# wrapping. Stacked one word per line to match Czech New Wave. Font size and
+# center are unchanged (hex_svg re-centers the block on the same anchor), and
+# each line was checked against the cluster's own hexes.
+LABEL_LINES = {
+    'hong_kong_taiwan_cinema':     ['Sinophone', 'Pacific', 'Cinema'],
+    'scandinavian_bergman_circle': ['Scandinavian', 'Cinema', 'Classics'],
+    'silent_era_comedy':           ['Silent', 'Era', 'Comedy'],
+}
+
+
 def load_labels(scale=None):
     """{cluster_id: (x, y, fontsize, [line, ...])} straight from the snapshot's
     own cluster_labels -- the video's label placement and sizing. y is the
@@ -101,5 +112,6 @@ def load_labels(scale=None):
         out[cluster_id] = (d["lines"][0]["x"],
                            (max(ys) + min(ys)) / 2 + LABEL_OFFSET_Y.get(cluster_id, 0.0),
                            d["fontsize"] * scale.get(cluster_id, 1.0),
-                           [ln["text"] for ln in d["lines"]])
+                           LABEL_LINES.get(cluster_id,
+                                           [ln["text"] for ln in d["lines"]]))
     return out

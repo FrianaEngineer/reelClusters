@@ -485,9 +485,18 @@ def build_text_layers(ax, px_per_pt, pts_per_data_unit, cluster_labels_data):
         # other, so each line's offset from the block's center is scaled by
         # the same factor, keeping the block centered where it already sits.
         ys = [line["y"] for line in data["lines"]]
-        y_mid = (max(ys) + min(ys)) / 2
+        y_mid = (max(ys) + min(ys)) / 2 + cfg.CLUSTER_LABEL_OFFSET_Y.get(cluster_id, 0.0)
+        lines = data["lines"]
+        if cluster_id in cfg.CLUSTER_LABEL_LINES:
+            texts = cfg.CLUSTER_LABEL_LINES[cluster_id]
+            gap = data["fontsize"] * 1.2
+            top = y_mid + gap * (len(texts) - 1) / 2
+            lines = [dict(x=lines[0]["x"], y=top - i * gap, text=t) for i, t in enumerate(texts)]
+        else:
+            lines = [dict(line, y=line["y"] + cfg.CLUSTER_LABEL_OFFSET_Y.get(cluster_id, 0.0))
+                     for line in lines]
         artists = []
-        for line in data["lines"]:
+        for line in lines:
             y = y_mid + (line["y"] - y_mid) * scale
             t = ax.text(line["x"], y, line["text"], fontsize=fontsize_pt, fontweight="bold",
                          color=color, va="center", ha="center", zorder=12, alpha=1.0,

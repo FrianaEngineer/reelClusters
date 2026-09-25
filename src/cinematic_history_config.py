@@ -236,18 +236,31 @@ CLUSTER_LABEL_ON_DARK_COLOR = "#ffffff"
 CLUSTER_LABEL_ON_LIGHT_COLOR = "#000000"
 CLUSTER_LABEL_STROKE_COLOR = "#000000"
 
-# Per-cluster multiplier on the snapshot's own font-size, for the video only
-# -- explore.html's hex mosaic is untouched. explore.html sizes every label
-# with a shrink-to-fit pass that stops at the first size that clears the
-# cluster's hexes; on a 1920x1080 frame a few of those land smaller than they
-# need to be. Each value below is the largest multiple of the snapshot size
-# whose rendered text still sits entirely on its OWN cluster's hexes,
-# measured from real matplotlib text extents against the frozen snapshot by
-# src/cinematic_history_label_fit.py -- re-run it if the snapshot changes.
+# Per-cluster multiplier on the snapshot's own font-size. These match
+# site/explore.html's own label sizes (snapshot_grid.py's LABEL_SCALE) so the
+# video's map reads the same as the Explore page; keep the two in sync.
+# src/cinematic_history_label_fit.py reports how much room each label has on
+# its own cluster's hexes in the video's font.
 CLUSTER_LABEL_SCALE = {
-    'soviet_cinema':                1.36,   # snapshot 1.00 -> 1.36 data units
-    'classic_japanese_cinema':      1.75,   # snapshot 1.34 -> 2.35
-    'golden_age_hollywood_british': 1.37,   # snapshot 1.47 -> 2.01
+    'soviet_cinema':                1.52,   # snapshot 1.00 -> 1.52 data units
+    'classic_japanese_cinema':      1.99,   # snapshot 1.34 -> 2.67
+    'golden_age_hollywood_british': 1.63,   # snapshot 1.47 -> 2.40
+    'japanese_new_wave_genre':      1.42,   # snapshot 1.48 -> 2.10
+}
+
+# Label line breaks and vertical nudges that site/explore.html applies on top
+# of the snapshot (see snapshot_grid.py's LABEL_LINES / LABEL_OFFSET_Y), copied
+# here so the video's word placement matches the Explore map. Mirrored rather
+# than imported because this project never imports the site's grid modules.
+# Replaced lines are re-spaced at the snapshot's own line gap (fontsize * 1.2)
+# around the block's existing center; the offset is in data units, y-up.
+CLUSTER_LABEL_LINES = {
+    'hong_kong_taiwan_cinema':     ['Sinophone', 'Pacific', 'Cinema'],
+    'scandinavian_bergman_circle': ['Scandinavian', 'Cinema', 'Classics'],
+    'silent_era_comedy':           ['Silent', 'Era', 'Comedy'],
+}
+CLUSTER_LABEL_OFFSET_Y = {
+    'czech_new_wave': -1.0,
 }
 
 # ── Golden poster-hex border (2026-08-08 restyle) ───────────────────────────

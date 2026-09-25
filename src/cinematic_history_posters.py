@@ -51,7 +51,7 @@ FILENAME_YEAR_TMDB_RE = re.compile(r"^(\d{4})_.*_(\d+)\.\w+$")
 # the exact imdb_tconst a displayed poster represents (for the golden
 # poster-hex border and the criterion_year re-keying), never to select/
 # download/rename a poster file.
-POSTER_QUERY_CSV_PATH = cfg.REPO_ROOT.parent / "ReelWrangling" / "data" / "output" / "query.csv"
+POSTER_QUERY_CSV_PATH = cfg.REPO_ROOT.parent / "ReelWrangling" / "data" / "output" / "posters" / "query.csv"
 
 
 def load_poster_tconsts():

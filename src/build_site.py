@@ -741,12 +741,13 @@ LANDING_SECTIONS = [
             "pull films together, cluster by cluster, decade by decade."
         ),
         "cta": "Explore the connections over time",
-        # A silent, looping background instead of a still: a ~21x timelapse of
-        # the whole video, so the hero shows the map filling in. Half-res and
-        # 1.4MB -- the full 12-minute video is 256MB and would be unusable as
-        # an autoplaying page background. Rebuild it with:
+        # A silent, looping background instead of a still: the whole video at
+        # its normal speed, so the hero shows the map filling in exactly as the
+        # video does. Half-res and silent keeps it ~16MB -- the full-quality
+        # master is 256MB and would be unusable as an autoplaying page
+        # background. Rebuild it with:
         #   ffmpeg -i outputs/cinematic_history.mp4 -an \
-        #     -vf "setpts=PTS/21,scale=960:540,fps=30" -c:v libx264 -crf 28 \
+        #     -vf "scale=960:540,fps=30" -c:v libx264 -crf 28 \
         #     -pix_fmt yuv420p -movflags +faststart \
         #     site/assets/cinematic_history_loop.mp4
         "media": "assets/cinematic_history_loop.mp4",
@@ -1109,8 +1110,8 @@ METHODOLOGY_TEMPLATE = """<!doctype html>
         Eleven communities were large and coherent enough to name confidently:
         Modern American Cinema, European Art Cinema, Golden Age Hollywood,
         Classic Japanese Cinema, Japanese New Wave, Sinophone Pacific Cinema,
-        Scandinavian Bergman Circle, Czech New Wave, Silent Era Comedy, Soviet
-        Cinema Classics and Satyajit Ray Indian Cinema.
+        Scandinavian Cinema Classics, Czech New Wave, Silent Era Comedy,
+        Soviet Cinema Classics and Satyajit Ray Indian Cinema.
       </p>
       <p>
         The variety of those names matters. Some communities correspond to

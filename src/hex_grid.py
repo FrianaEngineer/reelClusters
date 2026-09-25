@@ -54,6 +54,7 @@ DISPLAY_NAME_OVERRIDES = {
     'hiddenGems': 'Hidden Gems Mosaic',
     'hong_kong_taiwan_cinema': 'Sinophone Pacific Cinema',
     'golden_age_hollywood_british': 'Golden Age Hollywood',
+    'scandinavian_bergman_circle': 'Scandinavian Cinema Classics',
 }
 
 
